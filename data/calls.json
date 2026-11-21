@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T08:29:26+00:00",
+ "updated": "2026-11-21T08:35:22+00:00",
  "counts": {
   "year": 368971,
   "upstream_day": 95,
-  "day": 128,
+  "day": 133,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9821322",
+   "sequence": "2026-11-29838",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-21T08:30:00Z",
+   "created": "2026-11-21T08:30:00Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5856 HEFNER WAY",
+   "cross": "LU LN/JEN RUE LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 3",
+   "lat": 35.065668,
+   "lon": -85.029954,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821321",
+   "sequence": "2026-11-29837",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T08:29:28Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5856 HEFNER WAY",
+   "cross": "LU LN/JEN RUE LN",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 3",
+   "lat": 35.065668,
+   "lon": -85.029954,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9821316",
    "sequence": "2026-11-29832",
@@ -113,37 +165,11 @@
    "notable": true
   },
   {
-   "id": "9821298",
-   "sequence": "2026-11-29820",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T07:57:19Z",
-   "created": "2026-11-21T07:57:19Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 3",
-   "lat": 34.988101,
-   "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821295",
    "sequence": "2026-11-29818",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T08:09:46Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T08:33:58Z",
    "created": "2026-11-21T07:56:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
