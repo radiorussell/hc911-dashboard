@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T15:55:37+00:00",
+ "updated": "2026-11-21T16:10:38+00:00",
  "counts": {
-  "year": 369178,
-  "upstream_day": 301,
-  "day": 401,
+  "year": 369180,
+  "upstream_day": 303,
+  "day": 417,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 18,
  "incidents": [
   {
-   "id": "9821689",
-   "sequence": "2026-11-30106",
-   "type": "Civil Matter",
+   "id": "9821711",
+   "sequence": "2026-11-30122",
+   "type": "Disorder",
    "status": "Queued",
-   "status_at": "2026-11-21T15:47:13Z",
-   "created": "2026-11-21T15:46:55Z",
+   "status_at": "2026-11-21T16:10:51Z",
+   "created": "2026-11-21T16:10:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,39 +23,117 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "address": "2119 E 23RD ST",
+   "cross": "S WILLOW ST/4TH AVE",
    "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.034127,
-   "lon": -85.158846,
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.018546,
+   "lon": -85.280426,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9821682",
-   "sequence": "2026-11-30100",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:49:11Z",
-   "created": "2026-11-21T15:40:41Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9821706",
+   "sequence": "2026-11-30120",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:08:28Z",
+   "created": "2026-11-21T16:08:21Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2802 FOX RIDGE RD",
-   "cross": "IMPERIAL DR/POST OAK DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
+   "address": "100 BLEDSOE TER",
+   "cross": "SIGNAL HILLS DR/DAL BROWN RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.10137,
+   "lon": -85.332705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821707",
+   "sequence": "2026-11-30118",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:07:58Z",
+   "created": "2026-11-21T16:07:58Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "635 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
+   "priority": "PRI 3",
+   "lat": 35.122758,
+   "lon": -85.364709,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821708",
+   "sequence": "2026-11-30119",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:07:58Z",
+   "created": "2026-11-21T16:07:58Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "635 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
    "priority": "PRI 2",
-   "lat": 35.024133,
-   "lon": -85.08124,
+   "lat": 35.122758,
+   "lon": -85.364709,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821704",
+   "sequence": "2026-11-30117",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T16:07:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "635 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.122758,
+   "lon": -85.364709,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +168,8 @@
    "id": "9821676",
    "sequence": "2026-11-30096",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T15:49:02Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T16:08:06Z",
    "created": "2026-11-21T15:36:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.034378,
    "lon": -85.283678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821671",
-   "sequence": "2026-11-30091",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T15:32:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "109 TIMBER KNOLL DR",
-   "cross": "PREMIER DR/PREMIER DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.01876,
-   "lon": -85.187653,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -158,32 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "901",
    "priority": "PRI 1",
-   "lat": 35.010766,
-   "lon": -85.273188,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821669",
-   "sequence": "2026-11-30088",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:31:47Z",
-   "created": "2026-11-21T15:31:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3004 WOODSIDE ST",
-   "cross": "13TH AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
    "lat": 35.010766,
    "lon": -85.273188,
    "units": 1,
@@ -247,7 +273,7 @@
    "sequence": "2026-11-30081",
    "type": "Harrassing Threats",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T16:04:41Z",
    "created": "2026-11-21T15:28:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,84 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.047246,
    "lon": -85.261222,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821652",
-   "sequence": "2026-11-30075",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:22:14Z",
-   "created": "2026-11-21T15:22:14Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "307 DETOUR RD",
-   "cross": "DAYTON PIKE/OLD FORD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 2",
-   "lat": 35.386777,
-   "lon": -85.116271,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821651",
-   "sequence": "2026-11-30074",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:39:46Z",
-   "created": "2026-11-21T15:21:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "307 DETOUR RD",
-   "cross": "DAYTON PIKE/OLD FORD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.386777,
-   "lon": -85.116271,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821637",
-   "sequence": "2026-11-30064",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-21T15:27:03Z",
-   "created": "2026-11-21T15:07:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIGHWAY 58 / THOMAS LN",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.249184,
-   "lon": -85.003898,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +324,8 @@
    "id": "9821630",
    "sequence": "2026-11-30055",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T15:39:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T16:00:55Z",
    "created": "2026-11-21T15:04:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +399,6 @@
    "notable": true
   },
   {
-   "id": "9821579",
-   "sequence": "2026-11-30014",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:25:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4915 BEULAH AVE",
-   "cross": "W 49TH ST/W 51ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.993561,
-   "lon": -85.329516,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821543",
    "sequence": "2026-11-29983",
    "type": "EMS CALL",
@@ -517,7 +439,7 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "3998 GAME PRESERVE",
+   "address": "3998 GAME RESERVE RD",
    "cross": "",
    "city": "",
    "zone": "",
@@ -527,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9809451",
-   "sequence": "2026-11-21570",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-15T19:30:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2040 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A OFF RAMP NB/EXIT 4A ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.031787,
-   "lon": -85.160173,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9796493",
