@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-21T22:55:38+00:00",
+ "updated": "2026-11-21T23:00:37+00:00",
  "counts": {
-  "year": 369517,
-  "upstream_day": 640,
-  "day": 871,
+  "year": 369525,
+  "upstream_day": 648,
+  "day": 879,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9822406",
+   "sequence": "2026-11-30584",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:59:02Z",
+   "created": "2026-11-21T22:59:02Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "HICKORY VALLEY RD/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 3",
+   "lat": 35.107025,
+   "lon": -85.157883,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822405",
+   "sequence": "2026-11-30583",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:58:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "HICKORY VALLEY RD/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 2",
+   "lat": 35.107025,
+   "lon": -85.157883,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822401",
+   "sequence": "2026-11-30578",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:57:30Z",
+   "created": "2026-11-21T22:57:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9328 LANCER LN",
+   "cross": "DUKE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.005342,
+   "lon": -85.113961,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822402",
+   "sequence": "2026-11-30579",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:57:30Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9328 LANCER LN",
+   "cross": "DUKE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3 HC",
+   "priority": "PRI 1",
+   "lat": 35.005342,
+   "lon": -85.113961,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822400",
+   "sequence": "2026-11-30577",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:57:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9328 LANCER LN",
+   "cross": "DUKE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.005342,
+   "lon": -85.113961,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822396",
    "sequence": "2026-11-30576",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:53:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T22:53:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9822394",
-   "sequence": "2026-11-30575",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T22:51:28Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6508 HARRISON PIKE",
-   "cross": "MONTCREST DR/LAKE SHORE TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 1",
-   "lat": 35.122232,
-   "lon": -85.152501,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822395",
    "sequence": "2026-11-30574",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T22:57:12Z",
    "created": "2026-11-21T22:51:28Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -113,63 +217,11 @@
    "notable": true
   },
   {
-   "id": "9822385",
-   "sequence": "2026-11-30567",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-21T22:51:41Z",
-   "created": "2026-11-21T22:48:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8015 VOLKSWAGEN DR",
-   "cross": "FERDINAND PIECH WAY/EXIT 9 E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.076413,
-   "lon": -85.127306,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822384",
-   "sequence": "2026-11-30572",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T22:47:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6201 VANCE RD",
-   "cross": "AIRPARK DR/AIRWAYS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.033542,
-   "lon": -85.18645,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822375",
    "sequence": "2026-11-30560",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T22:51:43Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T22:59:43Z",
    "created": "2026-11-21T22:37:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.148062,
    "lon": -85.246932,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822373",
-   "sequence": "2026-11-30558",
-   "type": "Elevator Emergency",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:40:10Z",
-   "created": "2026-11-21T22:35:38Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7015 SHALLOWFORD RD",
-   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 3",
-   "lat": 35.044177,
-   "lon": -85.158575,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.102678,
    "lon": -85.325203,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822361",
-   "sequence": "2026-11-30552",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:41:02Z",
-   "created": "2026-11-21T22:24:27Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8602 SUMMIT PEAK WAY",
-   "cross": "CITY STATION DR/CITY STATION DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.0665,
-   "lon": -85.091769,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -345,58 +345,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822322",
-   "sequence": "2026-11-30522",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T22:25:45Z",
-   "created": "2026-11-21T21:51:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1112 WHEELER AVE",
-   "cross": "WINDSOR ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.047758,
-   "lon": -85.259558,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822317",
-   "sequence": "2026-11-30517",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T22:25:34Z",
-   "created": "2026-11-21T21:48:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5518 HONEYSUCKLE DR",
-   "cross": "HUNT AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.006755,
-   "lon": -85.216814,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822311",
