@@ -1,13 +1,19 @@
-// Chattanooga DMA weather board: animated radar loop (RainViewer), active NWS
-// alerts, and current conditions (Open-Meteo). All three services send
-// Access-Control-Allow-Origin: *, so this runs entirely in the browser — no
-// server, no API key, works as-is on GitHub Pages.
+// Chattanooga DMA weather board: animated NEXRAD radar loop (Iowa
+// Environmental Mesonet), active NWS alerts, and current conditions
+// (Open-Meteo). All three services are keyless and CORS-open, so this runs
+// entirely in the browser and works as-is on GitHub Pages.
+//
+// Radar source note: RainViewer was the first choice but its public tiles now
+// cap at zoom 7 and answer z8+ with a placeholder reading "Zoom Level Not
+// Supported". Iowa Mesonet serves the NWS NEXRAD base-reflectivity mosaic as
+// cached tiles through z10, plus five-minute archive frames (…-m05m … -m45m),
+// which is what this loop walks.
 
 const DMA_BOUNDS = [[34.28, -86.18], [35.97, -84.08]];
 const DMA_CENTER = [35.05, -85.29];
-const RADAR_API = 'https://api.rainviewer.com/public/weather-maps.json';
+const RADAR_TILES = 'https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913';
+const RADAR_FRAME_MINUTES = [45, 40, 35, 30, 25, 20, 15, 10, 5, 0]; // 0 = current
 const ALERTS_API = 'https://api.weather.gov/alerts/active?area=TN,GA,AL&status=actual';
-const RADAR_COLOR = 4;          // TWC palette
 const FRAME_MS = 420;
 const RADAR_REFRESH_MS = 5 * 60_000;
 const ALERTS_REFRESH_MS = 5 * 60_000;
@@ -73,11 +79,16 @@ const map = L.map('map', {
 });
 map.fitBounds(DMA_BOUNDS);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  subdomains: 'abcd',
-  maxZoom: 19,
-  attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-}).addTo(map);
+// Esri World Dark Gray Canvas: dark, no API key. (CARTO's raster basemaps moved
+// behind a key on 2026-09-25 and now answer keyless requests with a placeholder
+// tile that reads "API key required" — at HTTP 200, so it is easy to miss.)
+L.tileLayer(
+  'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+  {
+    maxZoom: 16,
+    attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+  }
+).addTo(map);
 
 // DMA outline
 L.rectangle(DMA_BOUNDS, {
@@ -102,39 +113,36 @@ for (const c of CITIES) {
 }
 
 /* ---------------- radar ---------------- */
+// No API call needed: the frame set is deterministic (now minus 5-minute steps),
+// and a missing frame simply renders an empty tile.
 async function loadRadar() {
   try {
-    const res = await fetch(RADAR_API, { cache: 'no-store' });
-    const data = await res.json();
-    const host = data.host;
-    const past = (data.radar && data.radar.past) || [];
-    const nowcast = (data.radar && data.radar.nowcast) || [];
-
-    const frames = [
-      ...past.map((f) => ({
-        time: f.time * 1000,
-        url: `${host}${f.path}/256/{z}/{x}/{y}/${RADAR_COLOR}/1_1.png`,
-        forecast: false,
-      })),
-      ...nowcast.map((f) => ({
-        time: f.time * 1000,
-        url: `${host}${f.path}/256/{z}/{x}/{y}/${RADAR_COLOR}/1_1.png`,
-        forecast: true,
-      })),
-    ];
+    const now = Date.now();
+    const frames = RADAR_FRAME_MINUTES.map((mins) => ({
+      time: now - mins * 60_000,
+      url: `${RADAR_TILES}${mins ? `-m${String(mins).padStart(2, '0')}m` : ''}/{z}/{x}/{y}.png`,
+      forecast: false,
+    }));
     if (!frames.length) throw new Error('no radar frames');
 
     for (const l of state.layers) map.removeLayer(l);
     state.layers = frames.map((f) =>
-      L.tileLayer(f.url, { opacity: 0.75, tileSize: 256, zIndex: 400, attribution: '' })
+      L.tileLayer(f.url, {
+        opacity: 0.8,
+        tileSize: 256,
+        maxNativeZoom: 10,
+        maxZoom: 16,
+        zIndex: 400,
+        attribution: 'Radar &copy; NOAA/NWS via Iowa Environmental Mesonet',
+      })
     );
 
     state.frames = frames;
     $('#timeline').max = String(frames.length - 1);
     state.index = frames.length - 1;
     showFrame(state.index);
-    $('#radar-stamp').textContent = `updated ${localTime(Date.now())}`;
-    ['#toggle-radar'].forEach((s) => ($(s).disabled = false));
+    $('#radar-stamp').textContent = `updated ${localTime(now)}`;
+    $('#toggle-radar').disabled = false;
   } catch (err) {
     console.error('radar failed', err);
     $('#radar-stamp').textContent = 'radar unavailable';
