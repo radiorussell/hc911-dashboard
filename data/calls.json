@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T12:47:22+00:00",
+ "updated": "2026-11-21T12:53:23+00:00",
  "counts": {
-  "year": 369048,
-  "upstream_day": 172,
-  "day": 252,
+  "year": 369061,
+  "upstream_day": 185,
+  "day": 254,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9821505",
    "sequence": "2026-11-29956",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:47:18Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T12:52:11Z",
    "created": "2026-11-21T12:47:18Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -61,6 +61,32 @@
    "notable": false
   },
   {
+   "id": "9821504",
+   "sequence": "2026-11-29959",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:47:50Z",
+   "created": "2026-11-21T12:47:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6108 VANCE RD",
+   "cross": "VANCE CIR/AIRPARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 2",
+   "lat": 35.035731,
+   "lon": -85.189412,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821503",
    "sequence": "2026-11-29954",
    "type": "EMS CALL",
@@ -90,8 +116,8 @@
    "id": "9821500",
    "sequence": "2026-11-29955",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:47:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T12:46:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -113,89 +139,11 @@
    "notable": false
   },
   {
-   "id": "9821502",
-   "sequence": "2026-11-29952",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:46:43Z",
-   "created": "2026-11-21T12:46:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4510 BONNY OAKS DR",
-   "cross": "WILSON ST/INDUSTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.075433,
-   "lon": -85.202929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821501",
-   "sequence": "2026-11-29951",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:46:43Z",
-   "created": "2026-11-21T12:46:43Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4510 BONNY OAKS DR",
-   "cross": "WILSON ST/INDUSTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.075433,
-   "lon": -85.202929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821498",
-   "sequence": "2026-11-29950",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T12:46:19Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4510 BONNY OAKS DR",
-   "cross": "WILSON ST/INDUSTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "608",
-   "priority": "PRI 1",
-   "lat": 35.075433,
-   "lon": -85.202929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821499",
    "sequence": "2026-11-29953",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:46:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T12:46:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821481",
-   "sequence": "2026-11-29943",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-21T12:32:29Z",
-   "created": "2026-11-21T12:32:29Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4855 COLCORD DR",
-   "cross": "WHITE OAK DR/HICKMAN DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 1",
-   "lat": 35.046509,
-   "lon": -85.054075,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -506,8 +428,8 @@
    "id": "9821417",
    "sequence": "2026-11-29899",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:46:41Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T11:35:36Z",
    "created": "2026-11-21T11:27:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
