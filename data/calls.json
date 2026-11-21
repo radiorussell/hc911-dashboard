@@ -1,19 +1,227 @@
 {
- "updated": "2026-11-21T18:15:32+00:00",
+ "updated": "2026-11-21T18:20:38+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 565,
+  "year": 369302,
+  "upstream_day": 425,
+  "day": 575,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9821979",
+   "sequence": "2026-11-30280",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T18:18:55Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "116 GOTHARD ST",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 4",
+   "lat": 35.376658,
+   "lon": -85.110108,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821978",
+   "sequence": "2026-11-30279",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:18:00Z",
+   "created": "2026-11-21T18:18:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.061233,
+   "lon": -85.131847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821976",
+   "sequence": "2026-11-30278",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:17:14Z",
+   "created": "2026-11-21T18:17:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1244 GROVE STREET CT",
+   "cross": "GROVE ST/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 4",
+   "lat": 35.042963,
+   "lon": -85.318123,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821971",
+   "sequence": "2026-11-30275",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:16:43Z",
+   "created": "2026-11-21T18:16:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5006 13TH AVE",
+   "cross": "E 50TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 4",
+   "lat": 34.984843,
+   "lon": -85.285415,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821966",
+   "sequence": "2026-11-30276",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:16:44Z",
+   "created": "2026-11-21T18:15:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1240 E MAIN ST",
+   "cross": "GULF ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.028575,
+   "lon": -85.288691,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821967",
+   "sequence": "2026-11-30272",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:15:48Z",
+   "created": "2026-11-21T18:15:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "825 HOUSTON ST",
+   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.045074,
+   "lon": -85.305503,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821968",
+   "sequence": "2026-11-30273",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T18:15:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "825 HOUSTON ST",
+   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.045074,
+   "lon": -85.305503,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821965",
+   "sequence": "2026-11-30271",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T18:15:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "825 HOUSTON ST",
+   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.045074,
+   "lon": -85.305503,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821963",
    "sequence": "2026-11-30270",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:13:26Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T18:13:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.084111,
    "lon": -85.058985,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821961",
-   "sequence": "2026-11-30267",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:11:57Z",
-   "created": "2026-11-21T18:11:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2525 DE SALES AVE",
-   "cross": "PARKWOOD AVE/KILMER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.041707,
-   "lon": -85.260666,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9821922",
-   "sequence": "2026-11-30237",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:59:12Z",
-   "created": "2026-11-21T17:55:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "617 W 14TH STREET CT",
-   "cross": "POPLAR ST/CYPRESS STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 1",
-   "lat": 35.041216,
-   "lon": -85.31726,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821917",
    "sequence": "2026-11-30233",
    "type": "Check For A Hazard",
@@ -394,32 +550,6 @@
    "priority": "PRI 4",
    "lat": 34.989612,
    "lon": -85.226001,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821905",
-   "sequence": "2026-11-30225",
-   "type": "Intoxicated Person",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:52:40Z",
-   "created": "2026-11-21T17:45:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1001 BROAD ST",
-   "cross": "W 10TH ST/W 11TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.04436,
-   "lon": -85.310763,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -558,8 +688,8 @@
    "id": "9821870",
    "sequence": "2026-11-30207",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T17:48:22Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T18:18:28Z",
    "created": "2026-11-21T17:20:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -688,8 +818,8 @@
    "id": "9821831",
    "sequence": "2026-11-30188",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-21T17:57:38Z",
+   "status": "Stacked",
+   "status_at": "2026-11-21T16:54:01Z",
    "created": "2026-11-21T16:53:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -707,7 +837,7 @@
    "lat": 35.03602,
    "lon": -85.146643,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
