@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T17:10:38+00:00",
+ "updated": "2026-11-21T17:15:38+00:00",
  "counts": {
   "year": 369251,
   "upstream_day": 374,
-  "day": 498,
+  "day": 500,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9821863",
+   "sequence": "2026-11-30205",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:13:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1816 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 1",
+   "lat": 35.024501,
+   "lon": -85.155628,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821852",
    "sequence": "2026-11-30203",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:07:11Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:15:10Z",
    "created": "2026-11-21T17:07:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2318 S HOLTZCLAW AVE",
-   "cross": "LINDBERG AVE/No Cross Street",
+   "address": "1303 E 23RD ST",
+   "cross": "S HOLTZCLAW AVE/S GREENWOOD AVE",
    "city": "CHATTANOOGA",
    "zone": "B6A",
    "priority": "PRI 3",
-   "lat": 35.020308,
-   "lon": -85.291422,
+   "lat": 35.022423,
+   "lon": -85.291392,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9821829",
-   "sequence": "2026-11-30186",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:53:07Z",
-   "created": "2026-11-21T16:53:07Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5339 GREENBRIAR RD",
-   "cross": "WREN RD/PRIGMORE RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.987437,
-   "lon": -85.236884,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821830",
    "sequence": "2026-11-30187",
    "type": "EMS CALL",
@@ -264,84 +264,6 @@
    "priority": "PRI 1",
    "lat": 34.987437,
    "lon": -85.236884,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821826",
-   "sequence": "2026-11-30183",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:04:14Z",
-   "created": "2026-11-21T16:51:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "866 MABEL ST",
-   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 UTC N",
-   "priority": "PRI 1",
-   "lat": 35.044588,
-   "lon": -85.303755,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821827",
-   "sequence": "2026-11-30184",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:51:55Z",
-   "created": "2026-11-21T16:51:55Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "866 MABEL ST",
-   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "101 UTC N",
-   "priority": "PRI 2",
-   "lat": 35.044588,
-   "lon": -85.303755,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821825",
-   "sequence": "2026-11-30181",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:50:56Z",
-   "created": "2026-11-21T16:50:56Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5108 ST ELMO AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 1",
-   "lat": 34.991768,
-   "lon": -85.330709,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -581,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9821777",
-   "sequence": "2026-11-30147",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:31:07Z",
-   "created": "2026-11-21T16:27:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1122 MCDONALD DR",
-   "cross": "E BRAINERD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.00435,
-   "lon": -85.140655,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821771",
    "sequence": "2026-11-30142",
    "type": "Backup EMS Unit",
@@ -633,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9821761",
-   "sequence": "2026-11-30139",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:21:44Z",
-   "created": "2026-11-21T16:21:44Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.988101,
-   "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821735",
    "sequence": "2026-11-30138",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:45:26Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T17:12:07Z",
    "created": "2026-11-21T16:20:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
