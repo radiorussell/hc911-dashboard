@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T12:35:24+00:00",
+ "updated": "2026-11-21T12:41:21+00:00",
  "counts": {
-  "year": 369042,
-  "upstream_day": 166,
-  "day": 238,
+  "year": 369048,
+  "upstream_day": 172,
+  "day": 240,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9821486",
+   "sequence": "2026-11-29945",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:36:30Z",
+   "created": "2026-11-21T12:36:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "810 LINE ST",
+   "cross": "SOUTH ST/BON AIR CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 1",
+   "lat": 35.041718,
+   "lon": -85.247257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821481",
    "sequence": "2026-11-29943",
@@ -64,8 +90,8 @@
    "id": "9821479",
    "sequence": "2026-11-29941",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T12:37:02Z",
    "created": "2026-11-21T12:31:16Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -139,58 +165,6 @@
    "notable": false
   },
   {
-   "id": "9821463",
-   "sequence": "2026-11-29930",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T12:21:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6712 RINGGOLD RD",
-   "cross": "ST THOMAS ST/FRAWLEY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.989351,
-   "lon": -85.199013,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821459",
-   "sequence": "2026-11-29927",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T12:24:20Z",
-   "created": "2026-11-21T12:17:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "930 DOUGLAS ST",
-   "cross": "E MARTIN LUTHER KING BLVD/E 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.04304,
-   "lon": -85.302996,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821457",
    "sequence": "2026-11-29926",
    "type": "Fire Special Assign",
@@ -215,84 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821454",
-   "sequence": "2026-11-29924",
-   "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:05:15Z",
-   "created": "2026-11-21T12:05:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "N TERRACE / SPRING CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 2",
-   "lat": 35.005845,
-   "lon": -85.219205,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821449",
-   "sequence": "2026-11-29923",
-   "type": "Unknown Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-21T12:12:00Z",
-   "created": "2026-11-21T12:04:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "N TERRACE / SPRING CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 2",
-   "lat": 35.005845,
-   "lon": -85.219205,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821450",
-   "sequence": "2026-11-29921",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T12:13:13Z",
-   "created": "2026-11-21T12:04:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1298 PRESTON ST",
-   "cross": "No Cross Street/N GREENWOOD AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.047931,
-   "lon": -85.277205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821444",
@@ -324,8 +220,8 @@
    "id": "9821437",
    "sequence": "2026-11-29914",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T12:21:20Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T12:40:50Z",
    "created": "2026-11-21T11:51:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.233251,
    "lon": -85.174425,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821417",
-   "sequence": "2026-11-29899",
-   "type": "Theft From a Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:35:36Z",
-   "created": "2026-11-21T11:27:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2318 E MAIN ST",
-   "cross": "S WATKINS ST/BUCKLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.023298,
-   "lon": -85.272822,
    "units": 1,
    "stacked": false,
    "notable": false
