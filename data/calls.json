@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-21T23:35:44+00:00",
+ "updated": "2026-11-21T23:40:39+00:00",
  "counts": {
-  "year": 369561,
-  "upstream_day": 684,
-  "day": 934,
+  "year": 369571,
+  "upstream_day": 694,
+  "day": 938,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9822477",
+   "sequence": "2026-11-30643",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T23:37:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "180 - 218 HIGHWAY 153 NB",
+   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 2",
+   "lat": 35.049081,
+   "lon": -85.188811,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822478",
+   "sequence": "2026-11-30642",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T23:37:46Z",
+   "created": "2026-11-21T23:37:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1500 - 1507 N CONCORD RD",
+   "cross": "PALMS CT/DELBERT LN",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.020459,
+   "lon": -85.172836,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822471",
    "sequence": "2026-11-30638",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T23:36:20Z",
    "created": "2026-11-21T23:33:06Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9822467",
    "sequence": "2026-11-30634",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T23:39:08Z",
    "created": "2026-11-21T23:31:24Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -212,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.041158,
    "lon": -85.299422,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822457",
-   "sequence": "2026-11-30626",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T23:23:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LUPTON DR / HIXSON PIKE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.104258,
-   "lon": -85.273557,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,63 +399,11 @@
    "notable": false
   },
   {
-   "id": "9822440",
-   "sequence": "2026-11-30610",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-21T23:21:45Z",
-   "created": "2026-11-21T23:13:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8641 - 8799 OLD LEE HWY",
-   "cross": "OLD CLEVELAND PIKE/OOLTEWAH CEMETERY RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.082328,
-   "lon": -85.077697,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822438",
-   "sequence": "2026-11-30607",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:16:29Z",
-   "created": "2026-11-21T23:13:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2315 DAISY ST",
-   "cross": "O REAR ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 2",
-   "lat": 35.065734,
-   "lon": -85.250657,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822435",
    "sequence": "2026-11-30609",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T23:39:39Z",
    "created": "2026-11-21T23:12:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -529,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9822420",
-   "sequence": "2026-11-30593",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T23:03:54Z",
-   "created": "2026-11-21T23:03:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2505 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.026075,
-   "lon": -85.311789,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822417",
    "sequence": "2026-11-30592",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:15:23Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T23:35:59Z",
    "created": "2026-11-21T23:03:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
