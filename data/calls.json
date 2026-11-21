@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-21T08:11:21+00:00",
+ "updated": "2026-11-21T08:17:23+00:00",
  "counts": {
   "year": 368965,
   "upstream_day": 89,
-  "day": 122,
+  "day": 130,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9821319",
+   "sequence": "2026-11-29835",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T08:15:59Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "137 LYNDA DR",
+   "cross": "ALDEN AVE/LYNDA CIR",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 1",
+   "lat": 35.088349,
+   "lon": -85.32159,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821316",
+   "sequence": "2026-11-29832",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T08:13:52Z",
+   "created": "2026-11-21T08:13:52Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821317",
+   "sequence": "2026-11-29833",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T08:13:52Z",
+   "created": "2026-11-21T08:13:52Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 1",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821315",
+   "sequence": "2026-11-29831",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T08:13:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821308",
    "sequence": "2026-11-29827",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T08:14:03Z",
    "created": "2026-11-21T08:02:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -27,32 +131,6 @@
    "cross": "N WILLOW ST/N KELLEY ST",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.041667,
-   "lon": -85.267359,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821305",
-   "sequence": "2026-11-29824",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T08:09:38Z",
-   "created": "2026-11-21T08:02:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2120 CLEVELAND AVE",
-   "cross": "N WILLOW ST/N KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "503",
    "priority": "PRI 1",
    "lat": 35.041667,
    "lon": -85.267359,
@@ -243,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9821282",
-   "sequence": "2026-11-29811",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-21T07:57:14Z",
-   "created": "2026-11-21T07:45:42Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2131 - 2240 HIGHWAY 27 SB",
-   "cross": "EXIT TSATI TER OFF RAMP SB/EXIT HIGHWAY 27 OFF RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 2",
-   "lat": 35.285852,
-   "lon": -85.152484,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821278",
    "sequence": "2026-11-29807",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T08:09:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T08:15:41Z",
    "created": "2026-11-21T07:43:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
