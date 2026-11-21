@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T09:05:22+00:00",
+ "updated": "2026-11-21T09:11:23+00:00",
  "counts": {
-  "year": 368981,
-  "upstream_day": 105,
+  "year": 368982,
+  "upstream_day": 106,
   "day": 146,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
   {
    "id": "9821355",
    "sequence": "2026-11-29851",
    "type": "Assault Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:06:23Z",
    "created": "2026-11-21T08:59:46Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9821329",
    "sequence": "2026-11-29843",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:07:32Z",
    "created": "2026-11-21T08:42:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9821315",
    "sequence": "2026-11-29831",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T08:41:36Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T09:08:54Z",
    "created": "2026-11-21T08:13:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -197,32 +197,6 @@
    "status": "At Hospital",
    "status_at": "2026-11-21T08:38:32Z",
    "created": "2026-11-21T07:56:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821284",
-   "sequence": "2026-11-29813",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T08:41:50Z",
-   "created": "2026-11-21T07:47:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
