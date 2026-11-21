@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-21T17:45:38+00:00",
+ "updated": "2026-11-21T17:50:43+00:00",
  "counts": {
-  "year": 369260,
-  "upstream_day": 383,
-  "day": 518,
+  "year": null,
+  "upstream_day": null,
+  "day": 524,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
   {
+   "id": "9821911",
+   "sequence": "2026-11-30229",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:50:04Z",
+   "created": "2026-11-21T17:50:04Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2813 HIDDEN TRAIL LN",
+   "cross": "No Cross Street/ST LAWRENCE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.039308,
+   "lon": -85.101829,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821905",
+   "sequence": "2026-11-30225",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:45:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 BROAD ST",
+   "cross": "W 10TH ST/W 11TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 2",
+   "lat": 35.04436,
+   "lon": -85.310763,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821902",
    "sequence": "2026-11-30223",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:41:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T17:41:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9821893",
-   "sequence": "2026-11-30217",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:38:31Z",
-   "created": "2026-11-21T17:37:20Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "929 SPRING CREEK RD",
-   "cross": "S TERRACE/N MACK SMITH RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.999996,
-   "lon": -85.218853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821891",
    "sequence": "2026-11-30216",
    "type": "Police Assist Citizen",
@@ -212,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.073499,
    "lon": -85.294794,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821890",
-   "sequence": "2026-11-30215",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-21T17:44:32Z",
-   "created": "2026-11-21T17:33:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "401 - 429 GLENWOOD DR",
-   "cross": "E 3RD ST/HEALTHY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.037948,
-   "lon": -85.261127,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +272,8 @@
    "id": "9821870",
    "sequence": "2026-11-30207",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:35:38Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T17:48:22Z",
    "created": "2026-11-21T17:20:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -636,8 +636,8 @@
    "id": "9821721",
    "sequence": "2026-11-30130",
    "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-21T16:16:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T16:16:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -655,7 +655,7 @@
    "lat": 35.033758,
    "lon": -85.301096,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
