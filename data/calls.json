@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T13:23:22+00:00",
+ "updated": "2026-11-21T13:29:23+00:00",
  "counts": {
-  "year": 369071,
-  "upstream_day": 195,
-  "day": 269,
+  "year": 369076,
+  "upstream_day": 200,
+  "day": 272,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9821536",
+   "sequence": "2026-11-29977",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T13:26:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DAVIDSON RD / GUNBARREL RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.003769,
+   "lon": -85.17064,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821526",
    "sequence": "2026-11-29974",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:20:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T13:19:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9821528",
    "sequence": "2026-11-29972",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T13:28:32Z",
    "created": "2026-11-21T13:18:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9821503",
-   "sequence": "2026-11-29954",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:46:48Z",
-   "created": "2026-11-21T12:46:48Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1148 MOUNTAIN CREEK RD",
-   "cross": "WELLSTONE DR/SOUTHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 2",
-   "lat": 35.115468,
-   "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821500",
    "sequence": "2026-11-29955",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T13:08:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T13:26:14Z",
    "created": "2026-11-21T12:46:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9821499",
    "sequence": "2026-11-29953",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T12:57:45Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T13:24:47Z",
    "created": "2026-11-21T12:46:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9821497",
-   "sequence": "2026-11-29949",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:45:34Z",
-   "created": "2026-11-21T12:45:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821491",
    "sequence": "2026-11-29947",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:01:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T13:24:56Z",
    "created": "2026-11-21T12:45:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
