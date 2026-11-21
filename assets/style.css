@@ -275,8 +275,6 @@ a.maplink:hover { color: var(--accent); }
 .scanner-body.collapsed #scanner-audio,
 .scanner-body.collapsed .listen { display: none; }
 .listen { padding: 12px 14px 2px; }
-.listen-lede { margin: 0 0 10px; font-size: 12.5px; line-height: 1.5; color: var(--text); }
-.listen-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip.accent {
   color: #06121f;
   background: var(--accent);
