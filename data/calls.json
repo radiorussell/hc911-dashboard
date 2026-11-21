@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T22:10:42+00:00",
+ "updated": "2026-11-21T22:15:42+00:00",
  "counts": {
   "year": 369493,
   "upstream_day": 616,
-  "day": 833,
+  "day": 838,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9822351",
+   "sequence": "2026-11-30543",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:14:22Z",
+   "created": "2026-11-21T22:14:22Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OLD LEE HWY / LITTLE DEBBIE PKWY",
+   "cross": "",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 2",
+   "lat": 35.08334,
+   "lon": -85.064357,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822349",
+   "sequence": "2026-11-30542",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:13:54Z",
+   "created": "2026-11-21T22:13:43Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LITTLE DEBBIE PKWY / OLD LEE HWY",
+   "cross": "",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 2",
+   "lat": 35.08334,
+   "lon": -85.064357,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822343",
    "sequence": "2026-11-30538",
@@ -137,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822330",
-   "sequence": "2026-11-30531",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:10:40Z",
-   "created": "2026-11-21T22:01:05Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "222 SEQUOYAH RD",
-   "cross": "DAYTON PIKE/HWY 27 SB @ SEQUOYAH RD - OFF RAMP",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.24911,
-   "lon": -85.180943,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822325",
@@ -298,8 +324,8 @@
    "id": "9822317",
    "sequence": "2026-11-30517",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T21:58:45Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T22:10:37Z",
    "created": "2026-11-21T21:48:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +480,8 @@
    "id": "9822292",
    "sequence": "2026-11-30502",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T21:48:42Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T22:13:23Z",
    "created": "2026-11-21T21:42:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
