@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T11:53:20+00:00",
+ "updated": "2026-11-21T11:59:21+00:00",
  "counts": {
-  "year": 369026,
-  "upstream_day": 150,
-  "day": 211,
+  "year": 369032,
+  "upstream_day": 156,
+  "day": 214,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9821446",
+   "sequence": "2026-11-29919",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:56:28Z",
+   "created": "2026-11-21T11:56:28Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "730 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040022,
+   "lon": -85.299846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821445",
+   "sequence": "2026-11-29918",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:56:28Z",
+   "created": "2026-11-21T11:56:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "730 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040022,
+   "lon": -85.299846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821444",
+   "sequence": "2026-11-29917",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:55:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "730 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040022,
+   "lon": -85.299846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821441",
    "sequence": "2026-11-29916",
@@ -90,8 +168,8 @@
    "id": "9821430",
    "sequence": "2026-11-29911",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T11:54:11Z",
    "created": "2026-11-21T11:44:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,58 +212,6 @@
    "priority": "PRI 4",
    "lat": 34.989554,
    "lon": -85.198923,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821419",
-   "sequence": "2026-11-29901",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:38:08Z",
-   "created": "2026-11-21T11:32:21Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "621 E MARTIN LUTHER KING BLVD",
-   "cross": "UNIVERSITY ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.043119,
-   "lon": -85.300586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821420",
-   "sequence": "2026-11-29902",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-21T11:45:39Z",
-   "created": "2026-11-21T11:32:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4114 FAGAN ST",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.001487,
-   "lon": -85.309679,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +272,8 @@
    "id": "9821408",
    "sequence": "2026-11-29890",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T11:44:22Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T11:53:21Z",
    "created": "2026-11-21T11:14:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
