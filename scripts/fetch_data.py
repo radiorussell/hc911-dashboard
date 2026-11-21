@@ -18,7 +18,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, time, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
@@ -119,14 +119,95 @@ def fetch_calls() -> tuple[list[dict], dict]:
 
 
 def fetch_counts() -> dict:
+    """Upstream YTD total, plus a daily total we compute ourselves.
+
+    The county's /api/count endpoint returns [[{"":<yearTotal>}],[{"":<dayTotal>}]],
+    and the second value has been stuck on 0 — HC911's own homepage renders that
+    same 0 in its "Daily Total Incidents" slot, so the break is upstream, not
+    here. The year total is live, so keep it and derive the day ourselves from
+    the per-incident sequence numbers on the live call feed (dense, monotonic:
+    "2026-29665" is the 29,665th incident of the year) against a baseline we
+    persist across runs in data/counts.json.
+    """
     try:
         data = json.loads(http_get(COUNT_URL, {"User-Agent": UA}))
         year = next(iter(data[0][0].values()))
-        day = next(iter(data[1][0].values()))
-        return {"year": year, "day": day}
+        upstream_day = next(iter(data[1][0].values()))
     except Exception as e:  # counters are cosmetic
         print(f"warn: counters unavailable ({e})", file=sys.stderr)
-        return {"year": None, "day": None}
+        year, upstream_day = None, None
+    return {"year": year, "upstream_day": upstream_day}
+
+
+def seq_number(row: dict) -> int | None:
+    tail = str(row.get("sequencenumber") or "").rsplit("-", 1)[-1]
+    return int(tail) if tail.isdigit() else None
+
+
+def day_counter(rows: list[dict], out_dir: str) -> dict:
+    """Incidents since local midnight, counted from the sequence numbers.
+
+    Sequence numbers are dense and monotonic per incident, so the highest one
+    now minus the highest one dispatched before midnight is the day's count —
+    it survives calls clearing off the active list. The pre-midnight anchor is
+    only trusted when it is close to midnight (a stale road closure from this
+    morning would skew the total), so early in the day the value is withheld
+    rather than shown wrong. Baseline is persisted in data/counts.json and
+    committed by the workflow, which keeps it stable across runs.
+    """
+    now = datetime.now(timezone.utc)
+    today = now.astimezone(EASTERN).date()
+    midnight = datetime.combine(today, time(0, 0), tzinfo=EASTERN).astimezone(timezone.utc)
+
+    state_path = os.path.join(out_dir, "counts.json")
+    state: dict = {}
+    if os.path.exists(state_path):
+        try:
+            with open(state_path, encoding="utf-8") as f:
+                state = json.load(f)
+        except Exception:
+            state = {}
+
+    stamped: list[tuple[datetime, int]] = []
+    for r in rows:
+        seq = seq_number(r)
+        when = to_utc(r.get("creation"))
+        if seq is None or not when:
+            continue
+        stamped.append((datetime.fromisoformat(when.replace("Z", "+00:00")), seq))
+
+    today_seqs = [s for dt, s in stamped if dt >= midnight]
+    before = [(dt, s) for dt, s in stamped if dt < midnight]
+
+    base = state.get("seq_base") if state.get("local_day") == today.isoformat() else None
+    basis = state.get("day_basis") if base is not None else None
+
+    if base is None:
+        anchor = max(before, default=None)
+        if anchor and (midnight - anchor[0]) <= timedelta(hours=2):
+            base, basis = anchor[1], "midnight"
+        elif today_seqs:
+            base, basis = min(today_seqs) - 1, "bootstrap"
+        else:
+            base, basis = None, "unknown"
+
+    if base is None:
+        day = None
+    elif today_seqs:
+        day = max(0, max(today_seqs) - base)
+    else:
+        day = 0
+
+    out = {
+        "updated": now.isoformat(timespec="seconds"),
+        "local_day": today.isoformat(),
+        "seq_base": base,
+        "day": day,
+        "day_basis": basis,
+    }
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=1)
+    return out
 
 
 def is_notable(call_type: str) -> bool:
@@ -267,6 +348,8 @@ def main() -> int:
     raw, meta = fetch_calls()
     incidents = group_incidents(raw)
     counts = fetch_counts()
+    day = day_counter(raw, args.out)
+    counts.update({"day": day["day"], "day_basis": day["day_basis"]})
     news = fetch_news()
 
     with open(os.path.join(args.out, "calls.json"), "w", encoding="utf-8") as f:

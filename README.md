@@ -108,6 +108,14 @@ python3 -m http.server 8000
   not relay Broadcastify's mount; they block it and it breaks their terms.
 - Incident data is public record. Keep the source link and don't imply agency
   endorsement.
+- **HC911's daily total is broken upstream.** `/api/count` returns
+  `[[{"":<year>}],[{"":0}]]` and the second value stays at 0 — their own homepage
+  renders that same 0 under "Daily Total Incidents". The board ignores it and
+  counts the day itself: sequence numbers on the live feed (`2026-29665`) are
+  dense and monotonic per incident, so today's total is the current highest
+  sequence minus the highest one dispatched before local midnight. The baseline
+  persists in `data/counts.json`; until a post-midnight anchor exists the counter
+  shows `—` rather than a wrong number.
 - `data/` commits every five minutes, so the repo history grows. That is
   intentional and cheap; prune occasionally if it bothers you.
 - **The hc911 API stamps Eastern local time but appends a `Z`**, as if it were

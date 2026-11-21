@@ -115,7 +115,17 @@ async function load() {
     ]);
     state.incidents = calls.incidents || [];
     state.news = news.items || [];
-    $('#count-day').textContent = calls.counts?.day ?? '—';
+    const dayEl = $('#count-day');
+    const dayVal = calls.counts?.day;
+    if (typeof dayVal === 'number' && calls.counts?.day_basis === 'midnight') {
+      dayEl.textContent = dayVal.toLocaleString();
+      dayEl.title = 'Incidents dispatched since local midnight (counted from HC911 sequence numbers)';
+    } else {
+      // HC911's own daily total is broken upstream — it reads 0 on their
+      // homepage too — so show nothing rather than a wrong number.
+      dayEl.textContent = '—';
+      dayEl.title = "HC911's daily counter reports 0 upstream; this board counts from the next midnight.";
+    }
     $('#count-year').textContent = calls.counts?.year ? calls.counts.year.toLocaleString() : '—';
     renderStamp(calls.updated);
     renderCalls();
