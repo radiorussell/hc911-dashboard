@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T18:40:39+00:00",
+ "updated": "2026-11-21T18:45:38+00:00",
  "counts": {
   "year": 369317,
   "upstream_day": 440,
-  "day": 593,
+  "day": 599,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9822021",
+   "sequence": "2026-11-30304",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:45:24Z",
+   "created": "2026-11-21T18:45:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5739 BROWNTOWN RD",
+   "cross": "TALL TIMBER TRL/COURTNEY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.162164,
+   "lon": -85.278182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822011",
+   "sequence": "2026-11-30302",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:42:19Z",
+   "created": "2026-11-21T18:39:20Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18300 INTERSTATE 24 EB",
+   "cross": "EXIT 183 OFF RAMP EB/EXIT 184 OFF RAMP EB",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.015811,
+   "lon": -85.254188,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822008",
    "sequence": "2026-11-30298",
@@ -117,7 +169,7 @@
    "sequence": "2026-11-30286",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T18:45:14Z",
    "created": "2026-11-21T18:23:47Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9821980",
    "sequence": "2026-11-30282",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T18:35:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T18:45:35Z",
    "created": "2026-11-21T18:20:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9821958",
    "sequence": "2026-11-30268",
    "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:45:17Z",
    "created": "2026-11-21T18:11:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9821940",
    "sequence": "2026-11-30253",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:44:41Z",
    "created": "2026-11-21T18:02:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
