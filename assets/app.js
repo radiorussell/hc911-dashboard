@@ -180,28 +180,40 @@ setInterval(() => {
 $('#clock').textContent = new Date().toLocaleTimeString([], { hour12: false });
 
 // The block-letter signature has to fit whatever width the grid hands the
-// scanner panel (it swings from ~290px to ~830px depending on viewport), and a
+// scanner panel (it swings from ~270px to ~830px depending on viewport), and a
 // vw-based size clips at the extremes. Measure the art once at a known size and
-// scale it to the container, clamped so it never gets silly.
+// scale it to the container. Driven by a ResizeObserver on the panel rather than
+// window.resize: the panel width changes with grid breakpoints, and only the
+// observed element guarantees a refit after those.
 (function fitSignature() {
   const pre = document.querySelector('.signature pre');
   if (!pre) return;
+  const box = pre.parentElement;
+  let lastWidth = 0;
+
   const fit = () => {
-    const avail = pre.parentElement.clientWidth - 28; // .signature side padding
+    const avail = box.clientWidth - 28; // .signature side padding
     if (avail <= 0) return;
     pre.style.fontSize = '100px';
     const raw = pre.scrollWidth;
     pre.style.fontSize = '';
     if (!raw) return;
-    const px = Math.min(19, Math.max(7, Math.round((100 * avail) / raw * 100) / 100));
+    const px = Math.min(19, Math.max(7, Math.round(((100 * avail) / raw) * 100) / 100));
     pre.style.fontSize = `${px}px`;
   };
+
+  const refit = () => {
+    const w = box.clientWidth;
+    if (w === lastWidth) return;
+    lastWidth = w;
+    pre.style.fontSize = '';
+    fit();
+  };
+
   fit();
-  let t;
-  addEventListener('resize', () => {
-    clearTimeout(t);
-    t = setTimeout(fit, 120);
-  });
+  if (window.ResizeObserver) new ResizeObserver(refit).observe(box);
+  else addEventListener('resize', refit);
+  if (document.fonts?.ready) document.fonts.ready.then(fit);
 })();
 
 load();
