@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-21T04:18:39+00:00",
+ "updated": "2026-11-21T04:23:33+00:00",
  "counts": {
-  "year": 368834,
+  "year": 368848,
   "upstream_day": 0,
-  "day": 915,
+  "day": 917,
   "day_basis": "bootstrap"
  },
  "raw_rows": 27,
  "incidents": [
   {
+   "id": "9821106",
+   "sequence": "2026-11-29673",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:23:19Z",
+   "created": "2026-11-21T04:23:19Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821104",
+   "sequence": "2026-11-29672",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:23:19Z",
+   "created": "2026-11-21T04:22:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821101",
    "sequence": "2026-11-29671",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:18:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:18:30Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9821099",
    "sequence": "2026-11-29669",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:18:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:18:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9821098",
    "sequence": "2026-11-29668",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:19:44Z",
    "created": "2026-11-21T04:16:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9821090",
    "sequence": "2026-11-29665",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:22:32Z",
    "created": "2026-11-21T04:12:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9821091",
-   "sequence": "2026-11-29664",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T04:11:58Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "101 - 137 HARRISON LN",
-   "cross": "DAYTON PIKE/RECO DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 2",
-   "lat": 35.237003,
-   "lon": -85.198989,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821088",
    "sequence": "2026-11-29659",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:19:29Z",
    "created": "2026-11-21T04:11:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +576,6 @@
    "priority": "PRI 1",
    "lat": 35.067898,
    "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821016",
-   "sequence": "2026-11-29603",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T03:25:23Z",
-   "created": "2026-11-21T03:16:30Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4653 DUSTY TRAIL LN",
-   "cross": "SUE DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.060156,
-   "lon": -85.10738,
    "units": 1,
    "stacked": false,
    "notable": false
