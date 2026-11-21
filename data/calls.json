@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T14:11:21+00:00",
+ "updated": "2026-11-21T14:17:27+00:00",
  "counts": {
   "year": 369096,
   "upstream_day": 220,
-  "day": 299,
+  "day": 302,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9821567",
+   "sequence": "2026-11-30007",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:17:06Z",
+   "created": "2026-11-21T14:15:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.061233,
+   "lon": -85.131847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821564",
    "sequence": "2026-11-30004",
@@ -38,8 +64,8 @@
    "id": "9821562",
    "sequence": "2026-11-30003",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:09:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T14:08:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9821554",
-   "sequence": "2026-11-29994",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:03:40Z",
-   "created": "2026-11-21T13:52:54Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.048898,
-   "lon": -85.14941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821551",
    "sequence": "2026-11-29992",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:11:57Z",
    "created": "2026-11-21T13:52:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
