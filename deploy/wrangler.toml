@@ -1,0 +1,10 @@
+name = "hc911-cron"
+main = "cloudflare-worker.js"
+compatibility_date = "2025-09-01"
+
+# External clock for GitHub's unreliable */5 schedule. Cloudflare cron is UTC.
+[triggers]
+crons = ["*/5 * * * *"]
+
+[observability]
+enabled = true

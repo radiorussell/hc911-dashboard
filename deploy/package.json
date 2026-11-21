@@ -1,0 +1,13 @@
+{
+  "name": "hc911-cron",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "secret": "wrangler secret put GH_TOKEN"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

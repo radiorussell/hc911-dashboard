@@ -17,10 +17,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Pull hc911 + news into data/
         run: python3 scripts/fetch_data.py --out data
@@ -39,7 +39,7 @@ jobs:
             git push || { git pull --rebase --autostash && git push; }
           fi
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - name: Stage the static site
         run: |
@@ -48,7 +48,21 @@ jobs:
           cp -r assets data _site/
           touch _site/.nojekyll
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
-      - uses: actions/deploy-pages@v4
+
+  # Deploy from its own job, not a step after the upload. Deploying in the same
+  # job looks the artifact up ~0.3s after it is finalized, and the artifacts API
+  # sometimes has not indexed it yet: "Found 0 artifact(s)" -> run fails, Pages
+  # keeps serving the previous build. Two runs died that way on 2026-11-21
+  # (actions/deploy-pages#451). A separate job leaves the API a few seconds.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
