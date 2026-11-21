@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-21T21:30:41+00:00",
+ "updated": "2026-11-21T21:35:40+00:00",
  "counts": {
   "year": 369454,
   "upstream_day": 577,
-  "day": 778,
+  "day": 788,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9822279",
+   "sequence": "2026-11-30493",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:35:22Z",
+   "created": "2026-11-21T21:35:01Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1024 FALCON RUN DR",
+   "cross": "BARBEE RD/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.23771,
+   "lon": -85.154327,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822276",
+   "sequence": "2026-11-30492",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T21:32:49Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "525 BATTERY PL",
+   "cross": "No Cross Street/LINDSAY ST",
+   "city": "CHATTANOOGA",
+   "zone": "102",
+   "priority": "PRI 1",
+   "lat": 35.053665,
+   "lon": -85.302423,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822275",
+   "sequence": "2026-11-30489",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:32:32Z",
+   "created": "2026-11-21T21:32:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2420 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.02874,
+   "lon": -85.313273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822272",
+   "sequence": "2026-11-30488",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T21:30:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3417 7TH AVE",
+   "cross": "E 34TH ST/E 35TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 3",
+   "lat": 35.002468,
+   "lon": -85.284118,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822269",
    "sequence": "2026-11-30483",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:32:12Z",
    "created": "2026-11-21T21:27:43Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +168,8 @@
    "id": "9822262",
    "sequence": "2026-11-30480",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:32:38Z",
    "created": "2026-11-21T21:18:36Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9822253",
    "sequence": "2026-11-30470",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:33:15Z",
    "created": "2026-11-21T21:13:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +298,8 @@
    "id": "9822251",
    "sequence": "2026-11-30468",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-21T21:11:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T21:11:20Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -221,7 +325,7 @@
    "sequence": "2026-11-30469",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T21:33:03Z",
    "created": "2026-11-21T21:11:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +350,8 @@
    "id": "9822245",
    "sequence": "2026-11-30464",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:34:48Z",
    "created": "2026-11-21T21:02:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +402,8 @@
    "id": "9822215",
    "sequence": "2026-11-30445",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T20:43:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T20:43:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9822197",
-   "sequence": "2026-11-30430",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T20:36:50Z",
-   "created": "2026-11-21T20:36:20Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5 FRANCIS ST",
-   "cross": "CUMMINGS HWY/KELLYS FERRY RD",
-   "city": "CHATTANOOGA",
-   "zone": "301",
-   "priority": "PRI 1",
-   "lat": 35.022683,
-   "lon": -85.387745,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822196",
    "sequence": "2026-11-30429",
    "type": "EMS CALL",
@@ -420,32 +498,6 @@
    "priority": "PRI 3",
    "lat": 35.022683,
    "lon": -85.387745,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822170",
-   "sequence": "2026-11-30412",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:57:19Z",
-   "created": "2026-11-21T20:14:01Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3209 MONTVIEW DR",
-   "cross": "N SEMINOLE DR/W BROW TER",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.029081,
-   "lon": -85.253521,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -501,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822077",
-   "sequence": "2026-11-30340",
-   "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": "2026-11-21T19:32:00Z",
-   "created": "2026-11-21T19:23:06Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8600 HIGHWAY 58",
-   "cross": "BRAMLETT RD/GOLDEN POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 1",
-   "lat": 35.168144,
-   "lon": -85.078092,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9821997",
