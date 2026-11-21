@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T18:35:41+00:00",
+ "updated": "2026-11-21T18:40:39+00:00",
  "counts": {
-  "year": 369311,
-  "upstream_day": 434,
+  "year": 369317,
+  "upstream_day": 440,
   "day": 593,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 32,
  "incidents": [
   {
    "id": "9822008",
@@ -38,8 +38,8 @@
    "id": "9822007",
    "sequence": "2026-11-30297",
    "type": "Brush Fire",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:35:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T18:35:10Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -59,32 +59,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822005",
-   "sequence": "2026-11-30295",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:33:33Z",
-   "created": "2026-11-21T18:33:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SIGNAL MOUNTAIN RD / MOUNTAIN CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.098362,
-   "lon": -85.327969,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821997",
@@ -139,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9821989",
-   "sequence": "2026-11-30287",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:24:11Z",
-   "created": "2026-11-21T18:24:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "151 RIVER ST",
-   "cross": "No Cross Street/TREMONT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.062192,
-   "lon": -85.307599,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821988",
    "sequence": "2026-11-30286",
    "type": "Deceptive Practice",
@@ -186,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.148644,
    "lon": -85.052054,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821982",
-   "sequence": "2026-11-30283",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:21:01Z",
-   "created": "2026-11-21T18:21:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.152975,
-   "lon": -85.24562,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9821979",
-   "sequence": "2026-11-30280",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-21T18:31:57Z",
-   "created": "2026-11-21T18:18:55Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "116 GOTHARD ST",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.376658,
-   "lon": -85.110108,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821976",
    "sequence": "2026-11-30278",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:17:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T18:17:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +220,8 @@
    "id": "9821966",
    "sequence": "2026-11-30276",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:36:45Z",
    "created": "2026-11-21T18:15:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -342,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.028575,
    "lon": -85.288691,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821967",
-   "sequence": "2026-11-30272",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:31:57Z",
-   "created": "2026-11-21T18:15:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "825 HOUSTON ST",
-   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.045074,
-   "lon": -85.305503,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -501,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821933",
-   "sequence": "2026-11-30245",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:00:08Z",
-   "created": "2026-11-21T18:00:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1012 BROWNS FERRY RD",
-   "cross": "HIGH WATER TRL/GARDEN SPOT LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.049349,
-   "lon": -85.351384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821930",
@@ -914,32 +758,6 @@
    "priority": "PRI 4",
    "lat": 34.990916,
    "lon": -85.236306,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821789",
-   "sequence": "2026-11-30157",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:40:42Z",
-   "created": "2026-11-21T16:34:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7000 HIGHWAY 153",
-   "cross": "BOY SCOUT RD/CASSIE LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.18257,
-   "lon": -85.246692,
    "units": 1,
    "stacked": false,
    "notable": false
