@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T21:15:39+00:00",
+ "updated": "2026-11-21T21:20:42+00:00",
  "counts": {
-  "year": 369438,
-  "upstream_day": 561,
-  "day": 772,
+  "year": 369449,
+  "upstream_day": 572,
+  "day": 775,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9822262",
+   "sequence": "2026-11-30480",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T21:18:36Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7713 MORGAN ESTATES RD",
+   "cross": "WOLFTEVER TRL/SHORT TAIL SPRINGS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.136477,
+   "lon": -85.081024,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822259",
    "sequence": "2026-11-30477",
    "type": "Elevator Emergency",
-   "status": "Queued",
-   "status_at": "2026-11-21T21:15:37Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:20:10Z",
    "created": "2026-11-21T21:15:12Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9822257",
    "sequence": "2026-11-30476",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T21:15:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T21:14:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9822245",
    "sequence": "2026-11-30464",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T21:03:13Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T21:02:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
