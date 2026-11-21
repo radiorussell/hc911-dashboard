@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T06:17:25+00:00",
+ "updated": "2026-11-21T06:23:22+00:00",
  "counts": {
   "year": 368926,
   "upstream_day": 50,
-  "day": 61,
+  "day": 71,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9821243",
+   "sequence": "2026-11-29776",
+   "type": "Harrassing Threats",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T06:21:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4101 JEROME AVE",
+   "cross": "E 39TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.99695,
+   "lon": -85.301064,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821226",
    "sequence": "2026-11-29765",
@@ -56,58 +82,6 @@
    "priority": "PRI 1",
    "lat": 35.051269,
    "lon": -85.169866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821223",
-   "sequence": "2026-11-29761",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:59:06Z",
-   "created": "2026-11-21T05:59:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2505 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.026082,
-   "lon": -85.311793,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821224",
-   "sequence": "2026-11-29762",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:02:18Z",
-   "created": "2026-11-21T05:59:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2505 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "201 B",
-   "priority": "PRI 1",
-   "lat": 35.026082,
-   "lon": -85.311793,
    "units": 1,
    "stacked": false,
    "notable": false
