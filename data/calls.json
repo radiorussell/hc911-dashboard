@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T19:55:38+00:00",
+ "updated": "2026-11-21T20:00:39+00:00",
  "counts": {
-  "year": 369380,
-  "upstream_day": 503,
-  "day": 687,
+  "year": 369390,
+  "upstream_day": 513,
+  "day": 689,
   "day_basis": "midnight"
  },
- "raw_rows": 48,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9822149",
+   "sequence": "2026-11-30394",
+   "type": "Smoke Investigation",
+   "status": "Queued",
+   "status_at": "2026-11-21T20:00:30Z",
+   "created": "2026-11-21T19:59:57Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1511 - 1525 HIGHWAY 27 NB",
+   "cross": "EXIT THRASHER PIKE OFF RAMP NB/EXIT THRASHER PIKE ON RAMP NB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.21288,
+   "lon": -85.217706,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822146",
    "sequence": "2026-11-30390",
@@ -38,8 +64,8 @@
    "id": "9822147",
    "sequence": "2026-11-30391",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:54:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T19:54:58Z",
    "jurisdiction": "Sequoyah VFD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9822144",
    "sequence": "2026-11-30392",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:55:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T19:54:38Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7010 S DENT RD",
-   "cross": "BOY SCOUT RD/COFFELT RD",
+   "address": "BOY SCOUT RD / S DENT RD",
+   "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 3 B",
    "priority": "PRI 3",
-   "lat": 35.177538,
-   "lon": -85.214811,
+   "lat": 35.176321,
+   "lon": -85.216271,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +194,8 @@
    "id": "9822136",
    "sequence": "2026-11-30382",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:58:39Z",
    "created": "2026-11-21T19:50:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -179,13 +205,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "200 GLENWOOD DR",
-   "cross": "GLENWOOD PKWY/IVY ST",
+   "address": "2600 IVY ST",
+   "cross": "GLENWOOD DR/GLENWOOD CIR",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.033498,
-   "lon": -85.262493,
+   "lat": 35.034335,
+   "lon": -85.262445,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +220,8 @@
    "id": "9822137",
    "sequence": "2026-11-30383",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:57:38Z",
    "created": "2026-11-21T19:50:52Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -324,8 +350,8 @@
    "id": "9822125",
    "sequence": "2026-11-30376",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:57:43Z",
    "created": "2026-11-21T19:45:12Z",
    "jurisdiction": "Sequoyah VFD",
    "agencies": [
@@ -481,7 +507,7 @@
    "sequence": "2026-11-30367",
    "type": "Non Threatening w/weapon",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T19:59:33Z",
    "created": "2026-11-21T19:37:57Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -581,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9822104",
-   "sequence": "2026-11-30361",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:33:27Z",
-   "created": "2026-11-21T19:33:27Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6200 HIXSON PIKE",
-   "cross": "FELDSPAR LN/WINDBROOK LN",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 2",
-   "lat": 35.150946,
-   "lon": -85.198934,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822102",
    "sequence": "2026-11-30362",
    "type": "Well Being Check",
@@ -636,8 +636,8 @@
    "id": "9822101",
    "sequence": "2026-11-30360",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:44:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T19:56:17Z",
    "created": "2026-11-21T19:32:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -715,7 +715,7 @@
    "sequence": "2026-11-30341",
    "type": "MVC Entrapment",
    "status": "Transporting",
-   "status_at": "2026-11-21T19:51:55Z",
+   "status_at": "2026-11-21T19:56:46Z",
    "created": "2026-11-21T19:23:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1099,32 +1099,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821930",
-   "sequence": "2026-11-30244",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T18:56:47Z",
-   "created": "2026-11-21T17:59:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1012 BROWNS FERRY RD",
-   "cross": "HIGH WATER TRL/GARDEN SPOT LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049349,
-   "lon": -85.351384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821891",
