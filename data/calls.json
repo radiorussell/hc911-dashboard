@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-21T07:35:22+00:00",
+ "updated": "2026-11-21T07:41:21+00:00",
  "counts": {
-  "year": 368943,
-  "upstream_day": 67,
-  "day": 97,
+  "year": 368947,
+  "upstream_day": 71,
+  "day": 99,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 7,
  "incidents": [
   {
-   "id": "9821270",
-   "sequence": "2026-11-29802",
-   "type": "Alarm Distress",
+   "id": "9821275",
+   "sequence": "2026-11-29804",
+   "type": "Property",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T07:32:00Z",
-   "jurisdiction": "Collegedale PD",
+   "created": "2026-11-21T07:36:00Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Collegedale PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "5002 UNIVERSITY DR",
-   "cross": "TAYLOR CIR/HARMONY LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 2",
-   "lat": 35.048697,
-   "lon": -85.048683,
+   "address": "5773 BRAINERD RD",
+   "cross": "DEBRA RD/GREENWAY VIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.013349,
+   "lon": -85.212358,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9821269",
    "sequence": "2026-11-29801",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T07:40:34Z",
    "created": "2026-11-21T07:31:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.083704,
    "lon": -85.203338,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821257",
-   "sequence": "2026-11-29790",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T07:04:03Z",
-   "created": "2026-11-21T06:59:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "745 CHERRY ST",
-   "cross": "E 7TH ST/E 8TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.047333,
-   "lon": -85.308598,
    "units": 1,
    "stacked": false,
    "notable": false
