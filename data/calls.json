@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T11:59:21+00:00",
+ "updated": "2026-11-21T12:05:22+00:00",
  "counts": {
   "year": 369032,
   "upstream_day": 156,
-  "day": 214,
+  "day": 219,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9821454",
+   "sequence": "2026-11-29924",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:05:15Z",
+   "created": "2026-11-21T12:05:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "N TERRACE / SPRING CREEK RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 2",
+   "lat": 35.005845,
+   "lon": -85.219205,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821449",
+   "sequence": "2026-11-29923",
+   "type": "Unknown Fire",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:05:15Z",
+   "created": "2026-11-21T12:04:46Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "N TERRACE / SPRING CREEK RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 2",
+   "lat": 35.005845,
+   "lon": -85.219205,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821450",
+   "sequence": "2026-11-29921",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:05:09Z",
+   "created": "2026-11-21T12:04:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1298 PRESTON ST",
+   "cross": "No Cross Street/N GREENWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.047931,
+   "lon": -85.277205,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821446",
    "sequence": "2026-11-29919",
@@ -113,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9821440",
-   "sequence": "2026-11-29915",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T11:52:38Z",
-   "created": "2026-11-21T11:52:38Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.233251,
-   "lon": -85.174425,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821437",
    "sequence": "2026-11-29914",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T12:01:24Z",
    "created": "2026-11-21T11:51:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
