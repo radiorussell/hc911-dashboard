@@ -1,17 +1,43 @@
 {
- "updated": "2026-11-21T17:25:37+00:00",
+ "updated": "2026-11-21T17:30:38+00:00",
  "counts": {
-  "year": 369252,
-  "upstream_day": 375,
-  "day": 505,
+  "year": 369257,
+  "upstream_day": 380,
+  "day": 506,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9821877",
+   "sequence": "2026-11-30211",
+   "type": "Shoplifter",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:26:22Z",
+   "created": "2026-11-21T17:26:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821871",
    "sequence": "2026-11-30210",
-   "type": "Miscellaneous Complaint",
+   "type": "Check For A Hazard",
    "status": "Queued",
    "status_at": "2026-11-21T17:25:10Z",
    "created": "2026-11-21T17:21:30Z",
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HOWARDSVILLE RD / APISON PIKE",
-   "cross": "",
+   "address": "4500 HOWARDSVILLE RD",
+   "cross": "RED CLAY RD/APISON PIKE",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 35.01067,
-   "lon": -84.997377,
+   "priority": "PRI 2",
+   "lat": 35.005012,
+   "lon": -84.997279,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9821873",
    "sequence": "2026-11-30208",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:28:27Z",
    "created": "2026-11-21T17:21:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -217,37 +243,11 @@
    "notable": true
   },
   {
-   "id": "9821845",
-   "sequence": "2026-11-30195",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:08:07Z",
-   "created": "2026-11-21T17:01:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4704 MAYWOOD LN",
-   "cross": "RIGHTON LN/ROCKY RIVER RD",
-   "city": "CHATTANOOGA",
-   "zone": "602",
-   "priority": "PRI 1",
-   "lat": 35.078768,
-   "lon": -85.193437,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821843",
    "sequence": "2026-11-30193",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:09:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T17:28:51Z",
    "created": "2026-11-21T17:00:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,84 +295,6 @@
    "notable": false
   },
   {
-   "id": "9821830",
-   "sequence": "2026-11-30187",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:53:07Z",
-   "created": "2026-11-21T16:53:07Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5339 GREENBRIAR RD",
-   "cross": "WREN RD/PRIGMORE RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 34.987437,
-   "lon": -85.236884,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821828",
-   "sequence": "2026-11-30185",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:57:44Z",
-   "created": "2026-11-21T16:52:40Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5339 GREENBRIAR RD",
-   "cross": "WREN RD/PRIGMORE RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.987437,
-   "lon": -85.236884,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821821",
-   "sequence": "2026-11-30177",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-21T16:55:02Z",
-   "created": "2026-11-21T16:47:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "105 WHITEHALL RD",
-   "cross": "RIVERSIDE AVE/BRELSFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.064674,
-   "lon": -85.321265,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821813",
    "sequence": "2026-11-30169",
    "type": "EMS CALL",
@@ -402,8 +324,8 @@
    "id": "9821806",
    "sequence": "2026-11-30167",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:43:40Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:29:16Z",
    "created": "2026-11-21T16:43:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -428,8 +350,8 @@
    "id": "9821802",
    "sequence": "2026-11-30165",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:42:00Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:28:16Z",
    "created": "2026-11-21T16:41:25Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -506,8 +428,8 @@
    "id": "9821778",
    "sequence": "2026-11-30149",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T16:56:02Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T17:28:59Z",
    "created": "2026-11-21T16:27:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +550,6 @@
    "priority": "PRI 4",
    "lat": 35.041078,
    "lon": -85.267765,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821704",
-   "sequence": "2026-11-30117",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T17:02:32Z",
-   "created": "2026-11-21T16:07:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "635 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "MEDIC 08 SM G",
-   "priority": "PRI 1",
-   "lat": 35.122758,
-   "lon": -85.364709,
    "units": 1,
    "stacked": false,
    "notable": false
