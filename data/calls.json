@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T16:30:38+00:00",
+ "updated": "2026-11-21T16:35:37+00:00",
  "counts": {
   "year": 369214,
   "upstream_day": 337,
-  "day": 448,
+  "day": 452,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9821789",
+   "sequence": "2026-11-30157",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:34:53Z",
+   "created": "2026-11-21T16:34:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIGHWAY 153 / BOY SCOUT RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.18257,
+   "lon": -85.246692,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821788",
+   "sequence": "2026-11-30155",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:34:16Z",
+   "created": "2026-11-21T16:33:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2988 CLIFTON TER",
+   "cross": "CLIFTON TERRACE ALY/E 30TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.009353,
+   "lon": -85.298322,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821786",
+   "sequence": "2026-11-30154",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": "2026-11-21T16:32:26Z",
+   "created": "2026-11-21T16:32:26Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7489 MADELIA CT",
+   "cross": "No Cross Street/ABINGTON FARMS WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 4",
+   "lat": 35.186186,
+   "lon": -85.190495,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821783",
    "sequence": "2026-11-30152",
@@ -38,8 +116,8 @@
    "id": "9821784",
    "sequence": "2026-11-30153",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T16:34:01Z",
    "created": "2026-11-21T16:28:11Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9821776",
    "sequence": "2026-11-30146",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T16:33:14Z",
    "created": "2026-11-21T16:27:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9821777",
    "sequence": "2026-11-30147",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T16:31:07Z",
    "created": "2026-11-21T16:27:11Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -221,7 +299,7 @@
    "sequence": "2026-11-30144",
    "type": "Backup Fire Unit",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T16:33:17Z",
    "created": "2026-11-21T16:27:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9821772",
    "sequence": "2026-11-30145",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T16:34:03Z",
    "created": "2026-11-21T16:26:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -347,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9821748",
-   "sequence": "2026-11-30136",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:20:29Z",
-   "created": "2026-11-21T16:20:29Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "813 N PARKDALE AVE",
-   "cross": "ARROWHEAD TRL/TOMAHAWK TRL",
-   "city": "CHATTANOOGA",
-   "zone": "1301 A",
-   "priority": "PRI 2",
-   "lat": 35.025708,
-   "lon": -85.226404,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821735",
    "sequence": "2026-11-30138",
    "type": "EMS CALL",
@@ -402,8 +454,8 @@
    "id": "9821727",
    "sequence": "2026-11-30135",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:25:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T16:33:06Z",
    "created": "2026-11-21T16:19:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
