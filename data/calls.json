@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-21T13:59:22+00:00",
+ "updated": "2026-11-21T14:05:21+00:00",
  "counts": {
   "year": 369091,
   "upstream_day": 215,
-  "day": 289,
+  "day": 293,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9821558",
+   "sequence": "2026-11-29996",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:02:19Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "205 THAD LN",
+   "cross": "SPRINGFIELD RD/TIMBERLINE CIR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.230388,
+   "lon": -85.215618,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821556",
+   "sequence": "2026-11-29998",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:03:49Z",
+   "created": "2026-11-21T14:02:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1261 DREAMCATCHER WAY",
+   "cross": "MILL RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.155003,
+   "lon": -85.236023,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821553",
    "sequence": "2026-11-29993",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:04:33Z",
    "created": "2026-11-21T13:52:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9821554",
    "sequence": "2026-11-29994",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:03:40Z",
    "created": "2026-11-21T13:52:54Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -82,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.048898,
    "lon": -85.14941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821544",
-   "sequence": "2026-11-29984",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:51:05Z",
-   "created": "2026-11-21T13:38:33Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "CEDAR GLEN CIR / FRAWLEY RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.997298,
-   "lon": -85.188194,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,58 +295,6 @@
    "notable": false
   },
   {
-   "id": "9821500",
-   "sequence": "2026-11-29955",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T13:26:14Z",
-   "created": "2026-11-21T12:46:44Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6708 RINGGOLD RD",
-   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.989554,
-   "lon": -85.198923,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821499",
-   "sequence": "2026-11-29953",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T13:40:51Z",
-   "created": "2026-11-21T12:46:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1148 MOUNTAIN CREEK RD",
-   "cross": "WELLSTONE DR/SOUTHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.115468,
-   "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821491",
    "sequence": "2026-11-29947",
    "type": "EMS CALL",
@@ -342,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821477",
-   "sequence": "2026-11-29939",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T13:18:02Z",
-   "created": "2026-11-21T12:31:11Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "810 LINE ST",
-   "cross": "SOUTH ST/BON AIR CIR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.041718,
-   "lon": -85.247257,
    "units": 1,
    "stacked": false,
    "notable": false
