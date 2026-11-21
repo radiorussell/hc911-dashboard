@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T09:29:20+00:00",
+ "updated": "2026-11-21T09:35:23+00:00",
  "counts": {
   "year": 368993,
   "upstream_day": 117,
   "day": 160,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9821370",
@@ -38,8 +38,8 @@
    "id": "9821369",
    "sequence": "2026-11-29864",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:33:16Z",
    "created": "2026-11-21T09:20:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -63,7 +63,7 @@
   {
    "id": "9821368",
    "sequence": "2026-11-29862",
-   "type": "Hospital Fire",
+   "type": "Backup Fire Unit",
    "status": "On Scene",
    "status_at": "2026-11-21T09:23:10Z",
    "created": "2026-11-21T09:20:23Z",
@@ -79,7 +79,7 @@
    "cross": "HAMPTON ST/WIEHL ST",
    "city": "CHATTANOOGA",
    "zone": "A8",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.048719,
    "lon": -85.290431,
    "units": 1,
@@ -220,8 +220,8 @@
    "id": "9821360",
    "sequence": "2026-11-29855",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:33:40Z",
    "created": "2026-11-21T09:14:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,32 +269,6 @@
    "notable": true
   },
   {
-   "id": "9821329",
-   "sequence": "2026-11-29843",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T09:07:32Z",
-   "created": "2026-11-21T08:42:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5856 HEFNER WAY",
-   "cross": "LU LN/JEN RUE LN",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.065668,
-   "lon": -85.029954,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821323",
    "sequence": "2026-11-29839",
    "type": "EMS CALL",
@@ -316,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 34.992237,
    "lon": -85.329195,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821315",
-   "sequence": "2026-11-29831",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T09:08:54Z",
-   "created": "2026-11-21T08:13:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.062053,
-   "lon": -85.073704,
    "units": 1,
    "stacked": false,
    "notable": false
