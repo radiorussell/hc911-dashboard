@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-21T06:29:21+00:00",
+ "updated": "2026-11-21T06:35:21+00:00",
  "counts": {
   "year": 368927,
   "upstream_day": 51,
-  "day": 71,
+  "day": 77,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9821249",
+   "sequence": "2026-11-29782",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-21T06:34:30Z",
+   "created": "2026-11-21T06:31:53Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4644 ARDMORE DR",
+   "cross": "OLD LEE HWY/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.067222,
+   "lon": -85.108012,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821247",
+   "sequence": "2026-11-29781",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T06:33:30Z",
+   "created": "2026-11-21T06:31:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2407 GLASS ST",
+   "cross": "LATTA ST/WHEELER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.06491,
+   "lon": -85.251239,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821244",
+   "sequence": "2026-11-29779",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T06:30:46Z",
+   "created": "2026-11-21T06:30:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "500 NORTHERN AVE",
+   "cross": "SUMMERFIELD LN/OLSEN AVE",
+   "city": "WALDEN",
+   "zone": "WEST 2 WALDEN",
+   "priority": "PRI 3",
+   "lat": 35.175611,
+   "lon": -85.307467,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821245",
+   "sequence": "2026-11-29778",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T06:29:46Z",
+   "jurisdiction": "Waldens Ridge Emergency Srv",
+   "agencies": [
+    "Waldens Ridge Emergency Srv"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "500 NORTHERN AVE",
+   "cross": "SUMMERFIELD LN/OLSEN AVE",
+   "city": "WALDEN",
+   "zone": "WALDEN FD WA A",
+   "priority": "PRI 3",
+   "lat": 35.175611,
+   "lon": -85.307467,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9821243",
    "sequence": "2026-11-29776",
@@ -64,8 +168,8 @@
    "id": "9821221",
    "sequence": "2026-11-29760",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:05:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T06:30:44Z",
    "created": "2026-11-21T05:58:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.051269,
    "lon": -85.169866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821217",
-   "sequence": "2026-11-29756",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-21T05:59:36Z",
-   "created": "2026-11-21T05:53:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "810 BROAD ST",
-   "cross": "W 8TH ST/W MARTIN LUTHER KING BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.04675,
-   "lon": -85.310232,
    "units": 1,
    "stacked": false,
    "notable": false
