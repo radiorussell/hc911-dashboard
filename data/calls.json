@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-21T12:29:26+00:00",
+ "updated": "2026-11-21T12:35:24+00:00",
  "counts": {
   "year": 369042,
   "upstream_day": 166,
-  "day": 225,
+  "day": 238,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9821481",
+   "sequence": "2026-11-29943",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": "2026-11-21T12:32:29Z",
+   "created": "2026-11-21T12:32:29Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4855 COLCORD DR",
+   "cross": "WHITE OAK DR/HICKMAN DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 1",
+   "lat": 35.046509,
+   "lon": -85.054075,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821478",
+   "sequence": "2026-11-29940",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T12:31:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "810 LINE ST",
+   "cross": "SOUTH ST/BON AIR CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.041718,
+   "lon": -85.247257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821479",
+   "sequence": "2026-11-29941",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T12:31:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "810 LINE ST",
+   "cross": "SOUTH ST/BON AIR CIR",
+   "city": "CHATTANOOGA",
+   "zone": "1501",
+   "priority": "PRI 1",
+   "lat": 35.041718,
+   "lon": -85.247257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821477",
+   "sequence": "2026-11-29939",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T12:31:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "810 LINE ST",
+   "cross": "SOUTH ST/BON AIR CIR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.041718,
+   "lon": -85.247257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821472",
+   "sequence": "2026-11-29942",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T12:28:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3236 BRAINERD RD",
+   "cross": "ELMWOOD DR/W BROW TER",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 2",
+   "lat": 35.026813,
+   "lon": -85.253649,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821463",
    "sequence": "2026-11-29930",
