@@ -1,0 +1,56 @@
+name: Deploy Cloudflare Worker
+
+# Keeps the worker at hc911-cron.sanchez-stroud.workers.dev in lockstep with
+# deploy/cloudflare-worker.js. Without this, a push to the repo changes nothing
+# live and the dashboard copy silently becomes the real source.
+#
+# Requires repo secret CLOUDFLARE_API_TOKEN: a Cloudflare API token with the
+# "Edit Cloudflare Workers" permission (Workers Scripts: Edit, Account Settings:
+# Read). Set it once:  gh secret set CLOUDFLARE_API_TOKEN --repo radiorussell/hc911-dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "deploy/cloudflare-worker.js"
+      - "deploy/wrangler.toml"
+      - "deploy/package.json"
+      - ".github/workflows/deploy-worker.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    defaults:
+      run:
+        working-directory: deploy
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install wrangler
+        run: npm install --no-audit --no-fund
+
+      # Skip instead of failing while the secret is missing: a red X every push
+      # would train you to ignore this workflow.
+      - name: Deploy
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::CLOUDFLARE_API_TOKEN is not set — worker NOT deployed."
+            echo "Set it once, then re-run this job:"
+            echo "  gh secret set CLOUDFLARE_API_TOKEN --repo radiorussell/hc911-dashboard"
+            exit 0
+          fi
+          npx wrangler deploy
