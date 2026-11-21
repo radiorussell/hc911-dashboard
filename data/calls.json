@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T19:25:37+00:00",
+ "updated": "2026-11-21T19:30:37+00:00",
  "counts": {
-  "year": 369349,
-  "upstream_day": 472,
-  "day": 640,
+  "year": 369360,
+  "upstream_day": 483,
+  "day": 651,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9822093",
+   "sequence": "2026-11-30354",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:26:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6819 CHISWICK DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.031427,
+   "lon": -85.171288,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822094",
+   "sequence": "2026-11-30355",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:26:13Z",
+   "created": "2026-11-21T19:26:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6819 CHISWICK DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.031427,
+   "lon": -85.171288,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822095",
+   "sequence": "2026-11-30356",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:26:13Z",
+   "created": "2026-11-21T19:26:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8634 HIGHWAY 58",
+   "cross": "BRAMLETT RD/GOLDEN POND LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.169585,
+   "lon": -85.075715,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822084",
    "sequence": "2026-11-30345",
@@ -27,32 +105,6 @@
    "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.168144,
-   "lon": -85.078092,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9822078",
-   "sequence": "2026-11-30344",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:23:50Z",
-   "created": "2026-11-21T19:23:39Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIGHWAY 58 / GREENWOOD RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
    "priority": "PRI 1",
    "lat": 35.168144,
    "lon": -85.078092,
@@ -90,8 +142,8 @@
    "id": "9822080",
    "sequence": "2026-11-30342",
    "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:27:19Z",
    "created": "2026-11-21T19:23:15Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -477,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9821966",
-   "sequence": "2026-11-30276",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:36:45Z",
-   "created": "2026-11-21T18:15:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1240 E MAIN ST",
-   "cross": "GULF ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.028575,
-   "lon": -85.288691,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821963",
    "sequence": "2026-11-30270",
    "type": "Assault PD Only",
@@ -576,32 +602,6 @@
    "priority": "PRI 1",
    "lat": 35.049349,
    "lon": -85.351384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821915",
-   "sequence": "2026-11-30234",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T17:54:03Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1525 SPRINGVALE RD",
-   "cross": "RINGGOLD RD/CLEMONS RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.989612,
-   "lon": -85.226001,
    "units": 1,
    "stacked": false,
    "notable": false
