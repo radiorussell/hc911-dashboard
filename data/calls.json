@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-21T14:35:21+00:00",
+ "updated": "2026-11-21T14:41:21+00:00",
  "counts": {
-  "year": 369107,
-  "upstream_day": 231,
-  "day": 315,
+  "year": 369112,
+  "upstream_day": 236,
+  "day": 321,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9821591",
+   "sequence": "2026-11-30026",
+   "type": "Shoplifter",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:40:31Z",
+   "created": "2026-11-21T14:40:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821590",
+   "sequence": "2026-11-30025",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:38:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1400 MARKET ST",
+   "cross": "W 14TH ST/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 1",
+   "lat": 35.037227,
+   "lon": -85.306833,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821588",
+   "sequence": "2026-11-30023",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:38:16Z",
+   "created": "2026-11-21T14:38:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821589",
+   "sequence": "2026-11-30024",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:38:16Z",
+   "created": "2026-11-21T14:38:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 2",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821587",
+   "sequence": "2026-11-30022",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:37:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821585",
    "sequence": "2026-11-30020",
@@ -269,63 +399,11 @@
    "notable": false
   },
   {
-   "id": "9821562",
-   "sequence": "2026-11-30003",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-21T14:19:33Z",
-   "created": "2026-11-21T14:08:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3510 E 51ST ST",
-   "cross": "18TH AVE/TANAKA TRL",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.985117,
-   "lon": -85.280289,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821553",
-   "sequence": "2026-11-29993",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:04:33Z",
-   "created": "2026-11-21T13:52:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.048898,
-   "lon": -85.14941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821551",
    "sequence": "2026-11-29992",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T14:25:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T14:37:36Z",
    "created": "2026-11-21T13:52:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
