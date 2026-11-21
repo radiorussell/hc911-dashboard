@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T11:11:24+00:00",
+ "updated": "2026-11-21T11:17:23+00:00",
  "counts": {
   "year": 369010,
   "upstream_day": 134,
-  "day": 180,
+  "day": 186,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9821409",
+   "sequence": "2026-11-29891",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:14:44Z",
+   "created": "2026-11-21T11:14:44Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821408",
+   "sequence": "2026-11-29890",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:14:03Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821402",
    "sequence": "2026-11-29885",
