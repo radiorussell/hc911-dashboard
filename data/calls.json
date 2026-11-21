@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-21T19:15:37+00:00",
+ "updated": "2026-11-21T19:20:38+00:00",
  "counts": {
-  "year": 369340,
-  "upstream_day": 463,
-  "day": 627,
+  "year": 369349,
+  "upstream_day": 472,
+  "day": 632,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9822062",
-   "sequence": "2026-11-30332",
-   "type": "Disorder",
+   "id": "9822070",
+   "sequence": "2026-11-30337",
+   "type": "Auto Theft",
    "status": "Queued",
-   "status_at": "2026-11-21T19:15:07Z",
-   "created": "2026-11-21T19:14:24Z",
+   "status_at": "2026-11-21T19:20:12Z",
+   "created": "2026-11-21T19:19:51Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "19 W ONTARIO AVE",
+   "cross": "DEFUE ST/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.094336,
+   "lon": -85.309247,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822072",
+   "sequence": "2026-11-30336",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-21T19:18:37Z",
+   "created": "2026-11-21T19:18:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3407 LOCKWOOD CIR",
-   "cross": "LOCKWOOD TER/VAN WINKLE CIR",
+   "address": "20 CHEROKEE BLVD",
+   "cross": "N MARKET ST/VELMA ST",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
+   "zone": "A7",
    "priority": "PRI 3",
-   "lat": 35.108437,
-   "lon": -85.284707,
+   "lat": 35.063057,
+   "lon": -85.309725,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9822035",
-   "sequence": "2026-11-30316",
-   "type": "EMS Standby With FD",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:06:46Z",
-   "created": "2026-11-21T18:56:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3514 SALUDA ST",
-   "cross": "No Cross Street/OSWEGO ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.070702,
-   "lon": -85.230986,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822033",
    "sequence": "2026-11-30317",
    "type": "Well Being Check",
@@ -243,32 +243,6 @@
    "notable": true
   },
   {
-   "id": "9822026",
-   "sequence": "2026-11-30311",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:11:05Z",
-   "created": "2026-11-21T18:50:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1814 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.023801,
-   "lon": -85.156119,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822023",
    "sequence": "2026-11-30307",
    "type": "Odor Investigation",
@@ -290,32 +264,6 @@
    "priority": "PRI 2",
    "lat": 35.061596,
    "lon": -85.307614,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822016",
-   "sequence": "2026-11-30305",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T18:45:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3052 TOWERWAY DR",
-   "cross": "NORTHWAY LN/TUNNEL BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.066718,
-   "lon": -85.230751,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -449,6 +397,32 @@
    "units": 1,
    "stacked": false,
    "notable": false
+  },
+  {
+   "id": "9821963",
+   "sequence": "2026-11-30270",
+   "type": "Assault PD Only",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:17:54Z",
+   "created": "2026-11-21T18:13:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "973 MARKET ST",
+   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.045072,
+   "lon": -85.309727,
+   "units": 1,
+   "stacked": false,
+   "notable": true
   },
   {
    "id": "9821958",
