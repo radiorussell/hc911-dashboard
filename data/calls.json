@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T07:11:22+00:00",
+ "updated": "2026-11-21T07:17:21+00:00",
  "counts": {
   "year": 368939,
   "upstream_day": 63,
-  "day": 85,
+  "day": 91,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9821263",
+   "sequence": "2026-11-29796",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T07:14:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MURRAY HILLS DR / HIGHWAY 58",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.083704,
+   "lon": -85.203338,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821257",
    "sequence": "2026-11-29790",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9821252",
-   "sequence": "2026-11-29785",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T06:37:28Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3416 MISSIONAIRE AVE",
-   "cross": "S CREST RD/LAND ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 34.98529,
-   "lon": -85.271956,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821247",
    "sequence": "2026-11-29781",
    "type": "MVC No Injuries",
@@ -111,58 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821244",
-   "sequence": "2026-11-29779",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T06:30:46Z",
-   "created": "2026-11-21T06:30:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "500 NORTHERN AVE",
-   "cross": "SUMMERFIELD LN/OLSEN AVE",
-   "city": "WALDEN",
-   "zone": "WEST 2 WALDEN",
-   "priority": "PRI 3",
-   "lat": 35.175611,
-   "lon": -85.307467,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821245",
-   "sequence": "2026-11-29778",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:51:43Z",
-   "created": "2026-11-21T06:29:46Z",
-   "jurisdiction": "Waldens Ridge Emergency Srv",
-   "agencies": [
-    "Waldens Ridge Emergency Srv"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "500 NORTHERN AVE",
-   "cross": "SUMMERFIELD LN/OLSEN AVE",
-   "city": "WALDEN",
-   "zone": "WALDEN FD WA A",
-   "priority": "PRI 3",
-   "lat": 35.175611,
-   "lon": -85.307467,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9821226",
