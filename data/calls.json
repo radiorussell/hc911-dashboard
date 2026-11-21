@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-21T10:11:21+00:00",
+ "updated": "2026-11-21T10:17:21+00:00",
  "counts": {
   "year": 369003,
   "upstream_day": 127,
-  "day": 174,
+  "day": 176,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 8,
  "incidents": [
   {
-   "id": "9821393",
-   "sequence": "2026-11-29878",
+   "id": "9821396",
+   "sequence": "2026-11-29881",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T10:06:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4608 HIGHWAY 58",
-   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.084843,
-   "lon": -85.193451,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821394",
-   "sequence": "2026-11-29879",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T10:06:17Z",
+   "status": "Queued",
+   "status_at": "2026-11-21T10:15:50Z",
+   "created": "2026-11-21T10:15:50Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -49,24 +23,24 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "4608 HIGHWAY 58",
-   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "address": "6700 WILLOW BROOK DR",
+   "cross": "No Cross Street/WILLOW TRACE DR",
    "city": "CHATTANOOGA",
-   "zone": "602",
+   "zone": "801 A",
    "priority": "PRI 1",
-   "lat": 35.084843,
-   "lon": -85.193451,
+   "lat": 35.049504,
+   "lon": -85.16753,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9821392",
-   "sequence": "2026-11-29877",
+   "id": "9821395",
+   "sequence": "2026-11-29880",
    "type": "EMS CALL",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T10:05:50Z",
+   "created": "2026-11-21T10:14:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -75,39 +49,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "4608 HIGHWAY 58",
-   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "address": "6700 WILLOW BROOK DR",
+   "cross": "No Cross Street/WILLOW TRACE DR",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
+   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 35.084843,
-   "lon": -85.193451,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821381",
-   "sequence": "2026-11-29874",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-21T09:59:18Z",
-   "created": "2026-11-21T09:53:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5525 HIGHWAY 153",
-   "cross": "BEREAN LN/O HENRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "2202",
-   "priority": "PRI 1",
-   "lat": 35.145599,
-   "lon": -85.249957,
+   "lat": 35.049504,
+   "lon": -85.16753,
    "units": 1,
    "stacked": false,
    "notable": false
