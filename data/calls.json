@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T04:45:12+00:00",
+ "updated": "2026-11-21T04:47:21+00:00",
  "counts": {
   "year": 368857,
   "upstream_day": 0,
   "day": 930,
   "day_basis": "bootstrap"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9821120",
@@ -38,8 +38,8 @@
    "id": "9821121",
    "sequence": "2026-11-29686",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:44:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:44:51Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9821118",
    "sequence": "2026-11-29684",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:44:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:44:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9821116",
    "sequence": "2026-11-29683",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:44:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:42:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9821093",
-   "sequence": "2026-11-29661",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:12:03Z",
-   "created": "2026-11-21T04:12:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3021 ALTON PARK BLVD",
-   "cross": "SHIPP AVE/W 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "1404",
-   "priority": "PRI 1",
-   "lat": 35.019709,
-   "lon": -85.315427,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821079",
    "sequence": "2026-11-29649",
    "type": "Miscellaneous Complaint",
@@ -290,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.012954,
    "lon": -85.271655,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821076",
-   "sequence": "2026-11-29648",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T04:13:15Z",
-   "created": "2026-11-21T04:04:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3111 HARRISON PIKE",
-   "cross": "BIBLE LN/BENTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.084593,
-   "lon": -85.218912,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -394,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.325978,
    "lon": -84.969455,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821053",
-   "sequence": "2026-11-29631",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-21T03:54:22Z",
-   "created": "2026-11-21T03:44:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1606 S HOLTZCLAW AVE",
-   "cross": "E MAIN ST/E 17TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.027409,
-   "lon": -85.288816,
    "units": 1,
    "stacked": false,
    "notable": false
