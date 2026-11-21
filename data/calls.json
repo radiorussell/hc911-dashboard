@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-21T19:00:38+00:00",
+ "updated": "2026-11-21T19:05:38+00:00",
  "counts": {
   "year": 369330,
   "upstream_day": 453,
-  "day": 613,
+  "day": 620,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9822044",
+   "sequence": "2026-11-30325",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:05:29Z",
+   "created": "2026-11-21T19:05:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ASHLAND TER / SANDERS DR",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.117263,
+   "lon": -85.278132,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822045",
+   "sequence": "2026-11-30323",
+   "type": "Burglary Attempt",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:05:19Z",
+   "created": "2026-11-21T19:05:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "911 TALLEY RD",
+   "cross": "BLANCHARD ST/WOODMORE TER",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.034892,
+   "lon": -85.229789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822040",
+   "sequence": "2026-11-30322",
+   "type": "Disorder Weapon Involve",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:04:30Z",
+   "created": "2026-11-21T19:03:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "617 W 14TH STREET CT",
+   "cross": "POPLAR ST/CYPRESS STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 1",
+   "lat": 35.041216,
+   "lon": -85.31726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822039",
+   "sequence": "2026-11-30320",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:01:56Z",
+   "created": "2026-11-21T19:01:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4729 BRIARWOOD CIR",
+   "cross": "BRIARWOOD DR/BRIARWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.083742,
+   "lon": -85.190573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822037",
+   "sequence": "2026-11-30319",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:01:11Z",
+   "created": "2026-11-21T19:01:04Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "523 SHARONDALE RD",
+   "cross": "S TERRACE/MADONNA AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 35.005388,
+   "lon": -85.236956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822036",
    "sequence": "2026-11-30318",
@@ -61,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9822034",
-   "sequence": "2026-11-30315",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:56:17Z",
-   "created": "2026-11-21T18:56:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7443 COMMONS BLVD",
-   "cross": "OGLETREE AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.034245,
-   "lon": -85.147002,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822033",
    "sequence": "2026-11-30317",
    "type": "Well Being Check",
@@ -117,7 +221,7 @@
    "sequence": "2026-11-30313",
    "type": "Residential Fire",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T19:02:52Z",
    "created": "2026-11-21T18:51:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +321,6 @@
    "notable": true
   },
   {
-   "id": "9822025",
-   "sequence": "2026-11-30306",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-21T18:58:00Z",
-   "created": "2026-11-21T18:49:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6117 ATLANTA AVE",
-   "cross": "WALDEN AVE/SPELLMAN ST",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.039184,
-   "lon": -85.185755,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822023",
    "sequence": "2026-11-30307",
    "type": "Odor Investigation",
@@ -321,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9822011",
-   "sequence": "2026-11-30302",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-21T18:52:17Z",
-   "created": "2026-11-21T18:39:20Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18300 INTERSTATE 24 EB",
-   "cross": "EXIT 183 OFF RAMP EB/EXIT 184 OFF RAMP EB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.015811,
-   "lon": -85.254188,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821997",
    "sequence": "2026-11-30293",
    "type": "Deceptive Practice",
@@ -394,58 +446,6 @@
    "priority": "PRI 4",
    "lat": 35.132718,
    "lon": -85.261337,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821988",
-   "sequence": "2026-11-30286",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-21T18:45:14Z",
-   "created": "2026-11-21T18:23:47Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7941 FROSTWOOD LN",
-   "cross": "No Cross Street/DAKOTA SKY WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.148644,
-   "lon": -85.052054,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821980",
-   "sequence": "2026-11-30282",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T18:45:35Z",
-   "created": "2026-11-21T18:20:44Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.152975,
-   "lon": -85.24562,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -659,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9821877",
-   "sequence": "2026-11-30211",
-   "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": "2026-11-21T17:26:22Z",
-   "created": "2026-11-21T17:26:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "490 GREENWAY VIEW DR",
-   "cross": "SKURLOCK RD/CORNELISON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.008709,
-   "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821863",
    "sequence": "2026-11-30205",
    "type": "MVC Unknown Injuries",
@@ -709,32 +683,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821849",
-   "sequence": "2026-11-30198",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-21T17:05:40Z",
-   "created": "2026-11-21T17:04:27Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9034 CAREER LN",
-   "cross": "HIGHWAY 58/MAHAN GAP RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 3",
-   "lat": 35.181425,
-   "lon": -85.061733,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9821831",
@@ -813,58 +761,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821543",
-   "sequence": "2026-11-29983",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T13:40:10Z",
-   "created": "2026-11-21T13:37:24Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CEDAR GLEN CIR / FRAWLEY RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 1",
-   "lat": 34.997298,
-   "lon": -85.188194,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821457",
-   "sequence": "2026-11-29926",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-21T12:09:39Z",
-   "created": "2026-11-21T12:08:36Z",
-   "jurisdiction": "Chattanooga Hamilton Co Rescue",
-   "agencies": [
-    "Chattanooga Hamilton Co Rescue"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3998 GAME RESERVE RD",
-   "cross": "",
-   "city": "",
-   "zone": "",
-   "priority": "PRI 3",
-   "lat": 0,
-   "lon": 0,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9796493",
