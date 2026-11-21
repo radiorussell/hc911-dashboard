@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-21T19:20:38+00:00",
+ "updated": "2026-11-21T19:25:37+00:00",
  "counts": {
   "year": 369349,
   "upstream_day": 472,
-  "day": 632,
+  "day": 640,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9822084",
+   "sequence": "2026-11-30345",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:23:50Z",
+   "created": "2026-11-21T19:23:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "HIGHWAY 58 / GREENWOOD RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.168144,
+   "lon": -85.078092,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822078",
+   "sequence": "2026-11-30344",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:23:50Z",
+   "created": "2026-11-21T19:23:39Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIGHWAY 58 / GREENWOOD RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 1",
+   "lat": 35.168144,
+   "lon": -85.078092,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822079",
+   "sequence": "2026-11-30341",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:23:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "HIGHWAY 58 / GREENWOOD RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.168144,
+   "lon": -85.078092,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822080",
+   "sequence": "2026-11-30342",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:23:15Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "HIGHWAY 58 / GREENWOOD RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.168144,
+   "lon": -85.078092,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822077",
+   "sequence": "2026-11-30340",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:23:06Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIGHWAY 58 / GREENWOOD RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 1",
+   "lat": 35.168144,
+   "lon": -85.078092,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822070",
    "sequence": "2026-11-30337",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:20:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T19:19:51Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9822060",
    "sequence": "2026-11-30331",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:24:30Z",
    "created": "2026-11-21T19:12:58Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +220,8 @@
    "id": "9822044",
    "sequence": "2026-11-30325",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:05:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T19:05:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -117,7 +247,7 @@
    "sequence": "2026-11-30323",
    "type": "Burglary Attempt",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T19:21:09Z",
    "created": "2026-11-21T19:05:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -241,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822023",
-   "sequence": "2026-11-30307",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:59:14Z",
-   "created": "2026-11-21T18:48:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "150 RIVER ST",
-   "cross": "No Cross Street/TREMONT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1203 B",
-   "priority": "PRI 2",
-   "lat": 35.061596,
-   "lon": -85.307614,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822021",
@@ -423,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821958",
-   "sequence": "2026-11-30268",
-   "type": "Civil Matter",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:45:17Z",
-   "created": "2026-11-21T18:11:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8882 MILLARD LEE LN",
-   "cross": "BLUE OAK DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 4",
-   "lat": 35.10853,
-   "lon": -85.166683,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821938",
@@ -630,32 +708,6 @@
    "lon": -85.146643,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9821813",
-   "sequence": "2026-11-30169",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:52:33Z",
-   "created": "2026-11-21T16:44:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5000 NEW COUNTRY DR",
-   "cross": "No Cross Street/HAMILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.120459,
-   "lon": -85.240922,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
