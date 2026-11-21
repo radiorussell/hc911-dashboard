@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T04:23:33+00:00",
+ "updated": "2026-11-21T04:31:06+00:00",
  "counts": {
-  "year": 368848,
+  "year": 368855,
   "upstream_day": 0,
-  "day": 917,
+  "day": 918,
   "day_basis": "bootstrap"
  },
- "raw_rows": 27,
+ "raw_rows": 23,
  "incidents": [
   {
    "id": "9821106",
@@ -35,11 +35,37 @@
    "notable": false
   },
   {
+   "id": "9821105",
+   "sequence": "2026-11-29674",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-21T04:28:22Z",
+   "created": "2026-11-21T04:23:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8264 ELLIE PLAZA PL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 2",
+   "lat": 35.189846,
+   "lon": -85.169172,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821104",
    "sequence": "2026-11-29672",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:23:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:22:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,58 +82,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821101",
-   "sequence": "2026-11-29671",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T04:18:30Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "211 PRIMROSE WAY",
-   "cross": "PRIMROSE CIR/No Cross Street",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 3",
-   "lat": 35.133195,
-   "lon": -85.344749,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821099",
-   "sequence": "2026-11-29669",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T04:18:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "211 PRIMROSE WAY",
-   "cross": "PRIMROSE CIR/No Cross Street",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "MEDIC 08 SM G",
-   "priority": "PRI 2",
-   "lat": 35.133195,
-   "lon": -85.344749,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -134,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.133195,
    "lon": -85.344749,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821098",
-   "sequence": "2026-11-29668",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T04:19:44Z",
-   "created": "2026-11-21T04:16:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6121 LEE HWY",
-   "cross": "VAN NESS RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.029911,
-   "lon": -85.187659,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -361,13 +309,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3100 - 3149 HARRISON PIKE",
+   "address": "3111 HARRISON PIKE",
    "cross": "BIBLE LN/BENTON DR",
    "city": "CHATTANOOGA",
    "zone": "B1 A",
    "priority": "PRI 3",
-   "lat": 35.083749,
-   "lon": -85.220183,
+   "lat": 35.084593,
+   "lon": -85.218912,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,63 +373,11 @@
    "notable": true
   },
   {
-   "id": "9821067",
-   "sequence": "2026-11-29638",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T03:55:49Z",
-   "created": "2026-11-21T03:55:49Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1600 SHADWICK CEMETERY RD",
-   "cross": "SPURLING DR/MIDDLE VALLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.179194,
-   "lon": -85.205467,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821068",
-   "sequence": "2026-11-29639",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T04:03:34Z",
-   "created": "2026-11-21T03:55:49Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1600 SHADWICK CEMETERY RD",
-   "cross": "SPURLING DR/MIDDLE VALLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.179194,
-   "lon": -85.205467,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821066",
    "sequence": "2026-11-29637",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T04:04:19Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T04:26:39Z",
    "created": "2026-11-21T03:55:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
