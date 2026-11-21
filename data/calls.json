@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T11:23:22+00:00",
+ "updated": "2026-11-21T11:29:23+00:00",
  "counts": {
-  "year": 369012,
-  "upstream_day": 136,
-  "day": 186,
+  "year": 369017,
+  "upstream_day": 141,
+  "day": 194,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9821417",
+   "sequence": "2026-11-29899",
+   "type": "Theft From a Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:27:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2318 E MAIN ST",
+   "cross": "S WATKINS ST/BUCKLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.023298,
+   "lon": -85.272822,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821414",
+   "sequence": "2026-11-29894",
+   "type": "Harrassing Threats",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:23:45Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1612 FOREST EDGE DR",
+   "cross": "No Cross Street/MIDDLE VALLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.182635,
+   "lon": -85.196002,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821412",
+   "sequence": "2026-11-29893",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:23:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7834 STONEHENGE DR",
+   "cross": "MOORGATE DR/WIMBLETON PL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.064304,
+   "lon": -85.122485,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821409",
    "sequence": "2026-11-29891",
@@ -38,8 +116,8 @@
    "id": "9821408",
    "sequence": "2026-11-29890",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T11:24:38Z",
    "created": "2026-11-21T11:14:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
