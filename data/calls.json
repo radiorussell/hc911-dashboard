@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-21T05:17:23+00:00",
+ "updated": "2026-11-21T05:23:22+00:00",
  "counts": {
-  "year": 368878,
-  "upstream_day": 2,
-  "day": 18,
+  "year": 368889,
+  "upstream_day": 13,
+  "day": 22,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9821175",
+   "sequence": "2026-11-29726",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T05:17:39Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5746 CARMACK RD",
+   "cross": "GARRETT DR/NORTHWOODS DR",
+   "city": "CHATTANOOGA",
+   "zone": "2202",
+   "priority": "PRI 1",
+   "lat": 35.15349,
+   "lon": -85.251783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821174",
+   "sequence": "2026-11-29725",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-21T05:19:15Z",
+   "created": "2026-11-21T05:17:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5746 CARMACK RD",
+   "cross": "GARRETT DR/NORTHWOODS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.15349,
+   "lon": -85.251783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821173",
+   "sequence": "2026-11-29724",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T05:17:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5746 CARMACK RD",
+   "cross": "GARRETT DR/NORTHWOODS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.15349,
+   "lon": -85.251783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821172",
+   "sequence": "2026-11-29727",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-21T05:19:49Z",
+   "created": "2026-11-21T05:17:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "40 - 93 HIGHWAY 27 SB",
+   "cross": "EXIT W MAIN ST ON RAMP SB/EXIT W M L KING BLVD E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.037212,
+   "lon": -85.319681,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821171",
    "sequence": "2026-11-29723",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:16:25Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T05:18:01Z",
    "created": "2026-11-21T05:16:02Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -30,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 34.996637,
    "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821169",
-   "sequence": "2026-11-29721",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:15:00Z",
-   "created": "2026-11-21T05:14:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2804 SIENER LN",
-   "cross": "CAROUSEL RD/MONTEREY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.051354,
-   "lon": -85.246116,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +194,8 @@
    "id": "9821162",
    "sequence": "2026-11-29718",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:20:11Z",
    "created": "2026-11-21T05:12:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9821155",
    "sequence": "2026-11-29712",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:20:30Z",
    "created": "2026-11-21T05:09:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.140506,
    "lon": -85.253852,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821149",
-   "sequence": "2026-11-29709",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-21T05:16:54Z",
-   "created": "2026-11-21T05:03:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "648 W 13TH STREET CT",
-   "cross": "POPLAR ST/CYPRESS STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.04213,
-   "lon": -85.317467,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,58 +347,6 @@
    "notable": false
   },
   {
-   "id": "9821140",
-   "sequence": "2026-11-29701",
-   "type": "Brush Fire",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:57:17Z",
-   "created": "2026-11-21T04:57:17Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "850 PONDEROSA DR",
-   "cross": "LOVELL RD/BIG PINE LN",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.243515,
-   "lon": -85.16506,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821135",
-   "sequence": "2026-11-29697",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:53:58Z",
-   "created": "2026-11-21T04:53:58Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "HIGHWAY 58 / HIGHWAY 60",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 4",
-   "priority": "PRI 1",
-   "lat": 35.301199,
-   "lon": -84.959151,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821131",
    "sequence": "2026-11-29695",
    "type": "Auto Theft",
@@ -373,63 +373,11 @@
    "notable": false
   },
   {
-   "id": "9821126",
-   "sequence": "2026-11-29691",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:48:07Z",
-   "created": "2026-11-21T04:48:07Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "14304 BACK VALLEY RD",
-   "cross": "BOXCAR TRL/FULLER LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 1",
-   "lat": 35.365829,
-   "lon": -85.125662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821125",
-   "sequence": "2026-11-29690",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:48:07Z",
-   "created": "2026-11-21T04:48:07Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14304 BACK VALLEY RD",
-   "cross": "BOXCAR TRL/FULLER LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.365829,
-   "lon": -85.125662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821124",
    "sequence": "2026-11-29689",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T05:00:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T05:17:27Z",
    "created": "2026-11-21T04:47:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -579,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821056",
-   "sequence": "2026-11-29633",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T03:52:30Z",
-   "created": "2026-11-21T03:47:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6501 - 6999 ANDERSON ACRES DR",
-   "cross": "No Cross Street/HIGHWAY 60",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 3",
-   "lat": 35.325978,
-   "lon": -84.969455,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9820997",
