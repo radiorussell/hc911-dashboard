@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T17:55:36+00:00",
+ "updated": "2026-11-21T18:00:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 530,
+  "day": 541,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 32,
  "incidents": [
   {
-   "id": "9821919",
-   "sequence": "2026-11-30235",
-   "type": "Check For A Hazard",
+   "id": "9821933",
+   "sequence": "2026-11-30245",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-21T17:55:29Z",
-   "created": "2026-11-21T17:55:17Z",
+   "status_at": "2026-11-21T18:00:08Z",
+   "created": "2026-11-21T18:00:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,117 @@
    "agency_types": [
     "Law"
    ],
-   "address": "610 HIGHWAY 153 SB",
-   "cross": "HWY 153 SB @ N ACCESS RD - ON RAMP/HWY 153 SB @ AMNICOLA HWY - OFF RAMP",
+   "address": "1012 BROWNS FERRY RD",
+   "cross": "HIGH WATER TRL/GARDEN SPOT LN",
    "city": "CHATTANOOGA",
-   "zone": "A3 B",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.049349,
+   "lon": -85.351384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821934",
+   "sequence": "2026-11-30246",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:00:08Z",
+   "created": "2026-11-21T18:00:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1012 BROWNS FERRY RD",
+   "cross": "HIGH WATER TRL/GARDEN SPOT LN",
+   "city": "CHATTANOOGA",
+   "zone": "301",
    "priority": "PRI 2",
-   "lat": 35.104437,
-   "lon": -85.229114,
+   "lat": 35.049349,
+   "lon": -85.351384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821930",
+   "sequence": "2026-11-30244",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:59:32Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1012 BROWNS FERRY RD",
+   "cross": "HIGH WATER TRL/GARDEN SPOT LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.049349,
+   "lon": -85.351384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821922",
+   "sequence": "2026-11-30237",
+   "type": "Disorder Weapon Involve",
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:59:12Z",
+   "created": "2026-11-21T17:55:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "617 W 14TH STREET CT",
+   "cross": "POPLAR ST/CYPRESS STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 1",
+   "lat": 35.041216,
+   "lon": -85.31726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821920",
+   "sequence": "2026-11-30238",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:56:09Z",
+   "created": "2026-11-21T17:55:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "262 NORTHGATE MALL DR",
+   "cross": "NORTHGATE PARK LN/EXECUTIVE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.132532,
+   "lon": -85.237325,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +168,8 @@
    "id": "9821915",
    "sequence": "2026-11-30234",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:54:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T17:54:03Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -82,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 34.989612,
    "lon": -85.226001,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821910",
-   "sequence": "2026-11-30230",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:50:55Z",
-   "created": "2026-11-21T17:50:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2000 - 2098 BROAD ST",
-   "cross": "W 20TH ST/W 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.032908,
-   "lon": -85.313637,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +220,8 @@
    "id": "9821902",
    "sequence": "2026-11-30223",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:56:49Z",
    "created": "2026-11-21T17:41:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9821899",
-   "sequence": "2026-11-30222",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:40:41Z",
-   "created": "2026-11-21T17:40:41Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "490 GREENWAY VIEW DR",
-   "cross": "SKURLOCK RD/CORNELISON RD",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 2",
-   "lat": 35.008709,
-   "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821898",
    "sequence": "2026-11-30221",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:51:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T17:59:54Z",
    "created": "2026-11-21T17:40:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.008709,
    "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821896",
-   "sequence": "2026-11-30219",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:40:09Z",
-   "created": "2026-11-21T17:40:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1980 SAPPHIRE PL",
-   "cross": "CITRINE  WAY/GEMSTONE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.018106,
-   "lon": -85.127146,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,11 +295,37 @@
    "notable": false
   },
   {
+   "id": "9821896",
+   "sequence": "2026-11-30219",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:40:09Z",
+   "created": "2026-11-21T17:40:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1980 SAPPHIRE PL",
+   "cross": "CITRINE  WAY/GEMSTONE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.018106,
+   "lon": -85.127146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821895",
    "sequence": "2026-11-30218",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:57:12Z",
    "created": "2026-11-21T17:40:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +558,8 @@
    "id": "9821831",
    "sequence": "2026-11-30188",
    "type": "Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-21T16:54:01Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:57:38Z",
    "created": "2026-11-21T16:53:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -525,7 +577,7 @@
    "lat": 35.03602,
    "lon": -85.146643,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
