@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import time as _time
 import urllib.error
 import urllib.request
 from datetime import datetime, time, timedelta, timezone
@@ -108,14 +109,60 @@ def http_get(url: str, headers: dict | None = None, timeout: int = 25) -> bytes:
         return r.read()
 
 
-def fetch_calls() -> tuple[list[dict], dict]:
-    raw = http_get(CALLS_URL, HC911_HEADERS)
-    data = json.loads(raw)
-    if isinstance(data, dict):  # {"message": "Forbidden: ..."} arrives as HTTP 200
-        raise RuntimeError(f"hc911 feed refused: {data.get('message', data)}")
-    if not isinstance(data, list):
-        raise RuntimeError("hc911 feed returned unexpected payload")
-    return data, {"fetched": len(data)}
+# The county gateway is flaky: 504s, silent ~30 s stalls, and errors that come
+# back as HTTP 200 with a {"message": ...} body. A single bad attempt used to
+# fail the whole five-minute refresh cycle and leave the board on stale data, so
+# transient failures are retried instead of raised.
+#
+# Measured 2026-11-21 16:20-16:30Z, four requests 15 s apart: three returned
+# `{"message":"Internal Server Error"}` after 15-21 s and one returned 10 KB of
+# real calls in 4 s. Roughly one success in four, so three attempts is not
+# enough — the loop runs to a wall-clock deadline instead, spaced to avoid
+# hammering a gateway that is clearly already unhappy.
+CALLS_ATTEMPTS = 6
+CALLS_DEADLINE = 100            # total seconds of retrying before giving up
+CALLS_BACKOFF = (2, 3, 5, 5, 8)  # sleep before attempt 2..6
+CALL_TIMEOUT = 25               # per attempt
+
+
+def _refusal_text(data) -> str:
+    if isinstance(data, dict):
+        return str(data.get("message", data))
+    return str(data)[:120]
+
+
+def fetch_calls(attempts: int = CALLS_ATTEMPTS,
+                deadline: float = CALLS_DEADLINE) -> tuple[list[dict], dict]:
+    last: Exception | None = None
+    started = _time.monotonic()
+    for n in range(attempts):
+        try:
+            raw = http_get(CALLS_URL, HC911_HEADERS, timeout=CALL_TIMEOUT)
+            data = json.loads(raw)
+        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+            # URLError covers 504/503 and connection resets; ValueError covers a
+            # truncated body or an HTML error page.
+            last = exc
+        else:
+            if isinstance(data, list):
+                if n:
+                    print(f"hc911 feed recovered on attempt {n + 1} "
+                          f"after {_time.monotonic() - started:.0f}s", file=sys.stderr)
+                return data, {"fetched": len(data)}
+            # HTTP 200 with {"message": "Forbidden: ..."} or a gateway error page.
+            # A refusal is permanent (bad header/UA) — everything else, including
+            # "Internal Server Error" and "Endpoint request timed out", is the
+            # gateway being flaky and is worth another attempt.
+            text = _refusal_text(data)
+            last = RuntimeError(f"hc911 feed refused: {text}")
+            if any(k in text.lower() for k in ("forbidden", "unauthori", "invalid auth")):
+                break
+        if n + 1 < attempts:
+            pause = CALLS_BACKOFF[min(n, len(CALLS_BACKOFF) - 1)]
+            if _time.monotonic() - started + pause > deadline:
+                break
+            _time.sleep(pause)
+    raise last if last is not None else RuntimeError("hc911 feed unavailable")
 
 
 def fetch_counts() -> dict:

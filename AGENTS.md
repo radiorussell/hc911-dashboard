@@ -32,6 +32,11 @@ the county 9-1-1 feed and local news every five minutes, commits the result as J
 6. **No frameworks, no bundler, no npm at the site root.** Vanilla JS and CSS variables
    only; the only `package.json` is `deploy/package.json` for wrangler. Keep the page
    loading from static files.
+7. **Keep the retry loop in `fetch_calls()`.** The county gateway is down or 500-ing for
+   roughly three of every four requests during busy periods (measured 2026-11-21: one
+   success in four, failures taking 15–21 s). The function retries transient failures to a
+   100 s deadline and fails fast only on a real `Forbidden`/`Unauthorized` refusal. Without
+   it, a single upstream blip kills a whole five-minute cycle and the board goes stale.
 
 ## How a refresh actually happens
 
