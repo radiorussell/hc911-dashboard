@@ -1,19 +1,227 @@
 {
- "updated": "2026-11-21T14:41:21+00:00",
+ "updated": "2026-11-21T14:47:22+00:00",
  "counts": {
   "year": 369112,
   "upstream_day": 236,
-  "day": 321,
+  "day": 335,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9821608",
+   "sequence": "2026-11-30040",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:45:16Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3636 RINGGOLD RD",
+   "cross": "S GERMANTOWN RD/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.001504,
+   "lon": -85.260055,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821610",
+   "sequence": "2026-11-30039",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:45:15Z",
+   "created": "2026-11-21T14:45:15Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2313 LEGGETT RD",
+   "cross": "BECK RD/CLIFTON BEND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 1",
+   "lat": 35.423848,
+   "lon": -85.136802,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821609",
+   "sequence": "2026-11-30038",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:45:14Z",
+   "created": "2026-11-21T14:45:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2313 LEGGETT RD",
+   "cross": "BECK RD/CLIFTON BEND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.423848,
+   "lon": -85.136802,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821606",
+   "sequence": "2026-11-30035",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:45:08Z",
+   "created": "2026-11-21T14:45:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2517 BAILEY AVE",
+   "cross": "BUCKLEY ST/BURKETT MILLER DR",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.029912,
+   "lon": -85.266089,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821607",
+   "sequence": "2026-11-30036",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:45:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2517 BAILEY AVE",
+   "cross": "BUCKLEY ST/BURKETT MILLER DR",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.029912,
+   "lon": -85.266089,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821605",
+   "sequence": "2026-11-30037",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:45:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2313 LEGGETT RD",
+   "cross": "BECK RD/CLIFTON BEND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.423848,
+   "lon": -85.136802,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821601",
+   "sequence": "2026-11-30034",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:44:32Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2517 BAILEY AVE",
+   "cross": "BUCKLEY ST/BURKETT MILLER DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.029912,
+   "lon": -85.266089,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821595",
+   "sequence": "2026-11-30030",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:42:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1519 RYAN ST",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.019632,
+   "lon": -85.268076,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821591",
    "sequence": "2026-11-30026",
    "type": "Shoplifter",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:40:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T14:40:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.008709,
    "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821590",
-   "sequence": "2026-11-30025",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:38:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1400 MARKET ST",
-   "cross": "W 14TH ST/STATION ST",
-   "city": "CHATTANOOGA",
-   "zone": "201 A",
-   "priority": "PRI 1",
-   "lat": 35.037227,
-   "lon": -85.306833,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +324,8 @@
    "id": "9821585",
    "sequence": "2026-11-30020",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:33:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T14:33:25Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -169,7 +351,7 @@
    "sequence": "2026-11-30019",
    "type": "Missing Endangered",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T14:44:33Z",
    "created": "2026-11-21T14:32:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -189,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821583",
-   "sequence": "2026-11-30018",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:30:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2915 TAYLOR ST",
-   "cross": "CUSHMAN ST/STUART ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 4",
-   "lat": 35.071319,
-   "lon": -85.2493,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821582",
@@ -246,8 +402,8 @@
    "id": "9821581",
    "sequence": "2026-11-30016",
    "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:44:28Z",
    "created": "2026-11-21T14:26:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9821564",
-   "sequence": "2026-11-30004",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:24:58Z",
-   "created": "2026-11-21T14:09:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5814 BRAINERD RD",
-   "cross": "DEBRA RD/GREENWAY VIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.012078,
-   "lon": -85.212659,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821551",
    "sequence": "2026-11-29992",
    "type": "EMS CALL",
@@ -498,32 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.009556,
    "lon": -85.402655,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821528",
-   "sequence": "2026-11-29972",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:28:32Z",
-   "created": "2026-11-21T13:18:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "OXFORD RD / OLD DALLAS RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.082211,
-   "lon": -85.297008,
    "units": 1,
    "stacked": false,
    "notable": false
