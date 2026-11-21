@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T16:35:37+00:00",
+ "updated": "2026-11-21T16:40:42+00:00",
  "counts": {
-  "year": 369214,
-  "upstream_day": 337,
-  "day": 452,
+  "year": 369217,
+  "upstream_day": 340,
+  "day": 455,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9821795",
+   "sequence": "2026-11-30160",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T16:39:22Z",
+   "created": "2026-11-21T16:38:51Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "509 SHARONDALE RD",
+   "cross": "S TERRACE/MADONNA AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 35.006693,
+   "lon": -85.236248,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821789",
    "sequence": "2026-11-30157",
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIGHWAY 153 / BOY SCOUT RD",
+   "address": "DAYTON PIKE / HIGHWAY 153",
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.18257,
-   "lon": -85.246692,
+   "lat": 35.188113,
+   "lon": -85.246304,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9821788",
    "sequence": "2026-11-30155",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:34:16Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T16:39:00Z",
    "created": "2026-11-21T16:33:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.009353,
    "lon": -85.298322,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821786",
-   "sequence": "2026-11-30154",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-21T16:32:26Z",
-   "created": "2026-11-21T16:32:26Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7489 MADELIA CT",
-   "cross": "No Cross Street/ABINGTON FARMS WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 4",
-   "lat": 35.186186,
-   "lon": -85.190495,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,58 +295,6 @@
    "notable": false
   },
   {
-   "id": "9821775",
-   "sequence": "2026-11-30144",
-   "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-21T16:33:17Z",
-   "created": "2026-11-21T16:27:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2109 DAISY ST",
-   "cross": "CURTIS ST/DODSON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 2",
-   "lat": 35.066826,
-   "lon": -85.253822,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9821773",
-   "sequence": "2026-11-30143",
-   "type": "Trash Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:30:01Z",
-   "created": "2026-11-21T16:27:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2109 DAISY ST",
-   "cross": "CURTIS ST/DODSON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 3",
-   "lat": 35.066826,
-   "lon": -85.253822,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9821772",
    "sequence": "2026-11-30145",
    "type": "EMS CALL",
@@ -377,7 +325,7 @@
    "sequence": "2026-11-30142",
    "type": "Backup EMS Unit",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T16:36:12Z",
    "created": "2026-11-21T16:26:37Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -506,8 +454,8 @@
    "id": "9821714",
    "sequence": "2026-11-30127",
    "type": "Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-21T16:15:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T16:13:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -525,7 +473,7 @@
    "lat": 35.041078,
    "lon": -85.267765,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -555,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9821708",
-   "sequence": "2026-11-30119",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T16:07:58Z",
-   "created": "2026-11-21T16:07:58Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "635 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.122758,
-   "lon": -85.364709,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821704",
    "sequence": "2026-11-30117",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:18:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T16:39:45Z",
    "created": "2026-11-21T16:07:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.034378,
    "lon": -85.283678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821662",
-   "sequence": "2026-11-30081",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-21T16:04:41Z",
-   "created": "2026-11-21T15:28:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1105 ARLINGTON AVE",
-   "cross": "WINDSOR ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.047246,
-   "lon": -85.261222,
    "units": 1,
    "stacked": false,
    "notable": false
