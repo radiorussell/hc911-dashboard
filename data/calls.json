@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-21T10:05:22+00:00",
+ "updated": "2026-11-21T10:11:21+00:00",
  "counts": {
-  "year": 369000,
-  "upstream_day": 124,
-  "day": 171,
+  "year": 369003,
+  "upstream_day": 127,
+  "day": 174,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 10,
  "incidents": [
   {
-   "id": "9821386",
-   "sequence": "2026-11-29876",
-   "type": "Auto Improperly Parked",
+   "id": "9821393",
+   "sequence": "2026-11-29878",
+   "type": "EMS CALL",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T10:00:55Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "created": "2026-11-21T10:06:17Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "11182 CAPTAINS COVE DR",
-   "cross": "No Cross Street/HIXSON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 4",
-   "lat": 35.269218,
-   "lon": -85.135479,
+   "address": "4608 HIGHWAY 58",
+   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 1",
+   "lat": 35.084843,
+   "lon": -85.193451,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821394",
+   "sequence": "2026-11-29879",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T10:06:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4608 HIGHWAY 58",
+   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "602",
+   "priority": "PRI 1",
+   "lat": 35.084843,
+   "lon": -85.193451,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821392",
+   "sequence": "2026-11-29877",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T10:05:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4608 HIGHWAY 58",
+   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.084843,
+   "lon": -85.193451,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.103817,
    "lon": -85.284292,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821323",
-   "sequence": "2026-11-29839",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T09:37:36Z",
-   "created": "2026-11-21T08:38:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5100 BEULAH AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.992237,
-   "lon": -85.329195,
    "units": 1,
    "stacked": false,
    "notable": false
