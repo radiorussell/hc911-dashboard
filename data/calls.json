@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T05:59:22+00:00",
+ "updated": "2026-11-21T06:05:23+00:00",
  "counts": {
   "year": 368916,
   "upstream_day": 40,
-  "day": 57,
+  "day": 61,
   "day_basis": "midnight"
  },
  "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9821226",
+   "sequence": "2026-11-29765",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T06:01:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2334 DAVID CIR",
+   "cross": "DAVID LN/DAVID LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.051269,
+   "lon": -85.169866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821227",
+   "sequence": "2026-11-29766",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T06:01:49Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2334 DAVID CIR",
+   "cross": "DAVID LN/DAVID LN",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.051269,
+   "lon": -85.169866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821223",
    "sequence": "2026-11-29761",
@@ -38,8 +90,8 @@
    "id": "9821224",
    "sequence": "2026-11-29762",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:59:06Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T06:02:18Z",
    "created": "2026-11-21T05:59:06Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9821221",
    "sequence": "2026-11-29760",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:59:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T05:58:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9821220",
    "sequence": "2026-11-29758",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T06:00:49Z",
    "created": "2026-11-21T05:54:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -143,7 +195,7 @@
    "sequence": "2026-11-29756",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T05:59:36Z",
    "created": "2026-11-21T05:53:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -451,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9821104",
-   "sequence": "2026-11-29672",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T04:54:18Z",
-   "created": "2026-11-21T04:22:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821089",
    "sequence": "2026-11-29663",
    "type": "Harrassing Threats",
@@ -501,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821069",
-   "sequence": "2026-11-29640",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T04:49:37Z",
-   "created": "2026-11-21T03:58:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1701 - 1799 S HOLTZCLAW AVE",
-   "cross": "E 17TH ST/E 18TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.026917,
-   "lon": -85.289232,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9819747",
