@@ -198,7 +198,7 @@ $('#clock').textContent = new Date().toLocaleTimeString([], { hour12: false });
     const raw = pre.scrollWidth;
     pre.style.fontSize = '';
     if (!raw) return;
-    const px = Math.min(19, Math.max(7, Math.round(((100 * avail) / raw) * 100) / 100));
+    const px = Math.min(19, Math.max(7, Math.round(((100 * avail * 0.96) / raw) * 100) / 100));
     pre.style.fontSize = `${px}px`;
   };
 
