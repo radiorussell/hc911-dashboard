@@ -1,35 +1,113 @@
 {
- "updated": "2026-11-21T05:03:07+00:00",
+ "updated": "2026-11-21T05:12:00+00:00",
  "counts": {
-  "year": 368874,
-  "upstream_day": 0,
-  "day": 0,
+  "year": 368878,
+  "upstream_day": 2,
+  "day": 9,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9821144",
-   "sequence": "2026-11-29705",
-   "type": "Noise Complaint",
+   "id": "9821158",
+   "sequence": "2026-11-29713",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T05:09:31Z",
+   "created": "2026-11-21T05:09:31Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4743 DEANNE LN",
+   "cross": "No Cross Street/GADD RD",
+   "city": "CHATTANOOGA",
+   "zone": "1903",
+   "priority": "PRI 2",
+   "lat": 35.140506,
+   "lon": -85.253852,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821157",
+   "sequence": "2026-11-29714",
+   "type": "Domestic Disorder",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T04:59:39Z",
-   "jurisdiction": "Hamilton Co SO",
+   "created": "2026-11-21T05:09:25Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Hamilton Co SO"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "4685 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
+   "address": "1088 S SEMINOLE DR",
+   "cross": "SEMINOLE CREST LN/BIMINI PL",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 2",
+   "lat": 35.003555,
+   "lon": -85.266739,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821155",
+   "sequence": "2026-11-29712",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T05:09:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4743 DEANNE LN",
+   "cross": "No Cross Street/GADD RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.140506,
+   "lon": -85.253852,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821149",
+   "sequence": "2026-11-29709",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T05:03:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "648 W 13TH STREET CT",
+   "cross": "POPLAR ST/CYPRESS STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
    "priority": "PRI 3",
-   "lat": 35.067372,
-   "lon": -85.108575,
+   "lat": 35.04213,
+   "lon": -85.317467,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +168,8 @@
    "id": "9821138",
    "sequence": "2026-11-29700",
    "type": "Brush Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:06:12Z",
    "created": "2026-11-21T04:56:49Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -142,8 +220,8 @@
    "id": "9821134",
    "sequence": "2026-11-29696",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:05:23Z",
    "created": "2026-11-21T04:53:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
