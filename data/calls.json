@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-21T14:59:23+00:00",
+ "updated": "2026-11-21T15:05:22+00:00",
  "counts": {
   "year": 369132,
   "upstream_day": 256,
-  "day": 344,
+  "day": 348,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
   {
-   "id": "9821621",
-   "sequence": "2026-11-30049",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:59:12Z",
-   "created": "2026-11-21T14:58:20Z",
+   "id": "9821625",
+   "sequence": "2026-11-30053",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:01:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2501 JENKINS RD",
+   "cross": "PINEWOOD DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 3",
+   "lat": 35.042929,
+   "lon": -85.129499,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821624",
+   "sequence": "2026-11-30051",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-21T15:00:35Z",
+   "created": "2026-11-21T15:00:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "40 STARVIEW LN",
-   "cross": "CUMMINGS HWY/No Cross Street",
+   "address": "SHALLOWFORD RD / HAMILTON PLACE BLVD",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.01959,
-   "lon": -85.380541,
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.041829,
+   "lon": -85.154033,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821623",
+   "sequence": "2026-11-30050",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:59:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2413 E 5TH ST",
+   "cross": "DERBY ST/KILMER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.036,
+   "lon": -85.263722,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +90,8 @@
    "id": "9821617",
    "sequence": "2026-11-30046",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:55:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T14:55:06Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9821607",
-   "sequence": "2026-11-30036",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:45:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2517 BAILEY AVE",
-   "cross": "BUCKLEY ST/BURKETT MILLER DR",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.029912,
-   "lon": -85.266089,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821605",
    "sequence": "2026-11-30037",
    "type": "EMS CALL",
@@ -220,8 +246,8 @@
    "id": "9821601",
    "sequence": "2026-11-30034",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:52:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T15:03:51Z",
    "created": "2026-11-21T14:44:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -247,7 +273,7 @@
    "sequence": "2026-11-30026",
    "type": "Shoplifter",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T15:01:12Z",
    "created": "2026-11-21T14:40:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -451,58 +477,6 @@
    "notable": false
   },
   {
-   "id": "9821570",
-   "sequence": "2026-11-30008",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-21T14:25:45Z",
-   "created": "2026-11-21T14:18:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CARR ST / W 26TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.026104,
-   "lon": -85.312718,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821551",
-   "sequence": "2026-11-29992",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T14:37:36Z",
-   "created": "2026-11-21T13:52:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.048898,
-   "lon": -85.14941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821543",
    "sequence": "2026-11-29983",
    "type": "EMS CALL",
@@ -524,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 34.997298,
    "lon": -85.188194,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821526",
-   "sequence": "2026-11-29974",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T13:19:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "567 KESTREL LN",
-   "cross": "DRY BRANCH CT/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.009556,
-   "lon": -85.402655,
    "units": 1,
    "stacked": false,
    "notable": false
