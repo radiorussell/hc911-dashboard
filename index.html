@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamilton County Ops Board</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="dot live"></span>
+    <h1>Hamilton County Ops Board</h1>
+    <span class="sub">911 active incidents · local news · scanner</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><span id="clock">--:--:--</span><label>local</label></div>
+    <div class="stat"><span id="count-incidents">0</span><label>active</label></div>
+    <div class="stat"><span id="count-day">—</span><label>today</label></div>
+    <div class="stat"><span id="count-year">—</span><label>YTD</label></div>
+    <div class="stat"><span id="stamp">loading</span><label>data</label></div>
+  </div>
+</header>
+
+<main class="board">
+  <!-- NEWS -->
+  <section class="panel" id="panel-news">
+    <header class="panel-head">
+      <h2>Local news</h2>
+      <span class="hint" id="news-count"></span>
+    </header>
+    <ol class="news-list" id="news-list"></ol>
+  </section>
+
+  <!-- INCIDENTS -->
+  <section class="panel wide" id="panel-calls">
+    <header class="panel-head">
+      <h2>Active incidents</h2>
+      <div class="controls">
+        <div class="chips" id="type-chips">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="Law">Law</button>
+          <button class="chip" data-filter="Fire">Fire</button>
+          <button class="chip" data-filter="EMS">EMS</button>
+          <button class="chip" data-filter="notable">Notable</button>
+        </div>
+        <input id="search" type="search" placeholder="address, type, agency…" autocomplete="off">
+      </div>
+    </header>
+    <div class="table-wrap">
+      <table id="calls-table">
+        <thead>
+          <tr>
+            <th>Time</th><th>Status</th><th>Event</th><th>Agency</th>
+            <th>Location</th><th>Area</th><th>PRI</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty" id="calls-empty" hidden>No incidents match this filter.</p>
+    </div>
+    <footer class="panel-foot">
+      <span id="calls-note">Dispatch entries — unconfirmed until an agency releases details.</span>
+      <a href="https://www.hamiltontn911.gov/active-incidents.php" target="_blank" rel="noopener">source ↗</a>
+    </footer>
+  </section>
+
+  <!-- SCANNER -->
+  <section class="panel" id="panel-scanner">
+    <header class="panel-head">
+      <h2>Scanner</h2>
+      <div class="controls">
+        <button class="chip" id="scanner-toggle">hide</button>
+        <a class="chip" href="https://www.broadcastify.com/listen/feed/44571" target="_blank" rel="noopener">open ↗</a>
+      </div>
+    </header>
+    <div class="scanner-body" id="scanner-body">
+      <iframe id="scanner-frame" title="Hamilton County Public Safety scanner"
+              src="https://www.broadcastify.com/listen/feed/44571/web?rl=rr"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p class="note">Press play inside the player. Audio is streamed by Broadcastify (feed 44571, Hamilton County law dispatch) — it needs a click because of browser autoplay rules.</p>
+      <div class="legend">
+        <h3>Status</h3>
+        <ul>
+          <li><i class="s queued"></i>Queued — dispatched, not moving yet</li>
+          <li><i class="s enroute"></i>Enroute</li>
+          <li><i class="s scene"></i>On scene</li>
+          <li><i class="s transport"></i>Transporting</li>
+          <li><i class="s hospital"></i>At hospital</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
