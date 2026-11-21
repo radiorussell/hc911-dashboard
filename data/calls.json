@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T23:20:37+00:00",
+ "updated": "2026-11-21T23:22:45+00:00",
  "counts": {
   "year": 369557,
   "upstream_day": 680,
   "day": 913,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 31,
  "incidents": [
   {
    "id": "9822447",
@@ -63,7 +63,7 @@
   {
    "id": "9822444",
    "sequence": "2026-11-30616",
-   "type": "MVC No Response",
+   "type": "MVC No Injuries",
    "status": "Queued",
    "status_at": "2026-11-21T23:16:30Z",
    "created": "2026-11-21T23:16:11Z",
@@ -79,7 +79,7 @@
    "cross": "GOODWIN RD/LANDRESS DR",
    "city": "CHATTANOOGA",
    "zone": "C7",
-   "priority": "PRI 0",
+   "priority": "PRI 3",
    "lat": 35.034276,
    "lon": -85.154478,
    "units": 1,
@@ -169,7 +169,7 @@
    "sequence": "2026-11-30610",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T23:21:45Z",
    "created": "2026-11-21T23:13:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -210,32 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "B2",
    "priority": "PRI 1",
-   "lat": 35.065734,
-   "lon": -85.250657,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822439",
-   "sequence": "2026-11-30608",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:19:54Z",
-   "created": "2026-11-21T23:13:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2315 DAISY ST",
-   "cross": "O REAR ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 2",
    "lat": 35.065734,
    "lon": -85.250657,
    "units": 1,
@@ -316,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.132436,
    "lon": -85.243203,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822425",
-   "sequence": "2026-11-30599",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-21T23:20:25Z",
-   "created": "2026-11-21T23:08:51Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "13828 BIRCHWOOD PIKE",
-   "cross": "ELDRIDGE RD/SAM SMITH RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 3",
-   "lat": 35.328892,
-   "lon": -85.013729,
    "units": 1,
    "stacked": false,
    "notable": false
