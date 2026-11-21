@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-21T17:40:40+00:00",
+ "updated": "2026-11-21T17:45:38+00:00",
  "counts": {
   "year": 369260,
   "upstream_day": 383,
-  "day": 515,
+  "day": 518,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9821902",
+   "sequence": "2026-11-30223",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:41:52Z",
+   "created": "2026-11-21T17:41:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3641 WILLOW LAKE CIR",
+   "cross": "BROWNS FERRY RD/BROWNS FERRY RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.036735,
+   "lon": -85.362492,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821899",
+   "sequence": "2026-11-30222",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:40:41Z",
+   "created": "2026-11-21T17:40:41Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 2",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821898",
+   "sequence": "2026-11-30221",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:40:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821897",
+   "sequence": "2026-11-30220",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:40:09Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1980 SAPPHIRE PL",
+   "cross": "CITRINE  WAY/GEMSTONE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.018106,
+   "lon": -85.127146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821896",
    "sequence": "2026-11-30219",
@@ -35,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9821897",
-   "sequence": "2026-11-30220",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:40:09Z",
-   "created": "2026-11-21T17:40:09Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1980 SAPPHIRE PL",
-   "cross": "CITRINE  WAY/GEMSTONE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.018106,
-   "lon": -85.127146,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821895",
    "sequence": "2026-11-30218",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:40:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T17:40:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -143,7 +221,7 @@
    "sequence": "2026-11-30215",
    "type": "Unknown 911",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T17:44:32Z",
    "created": "2026-11-21T17:33:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -247,7 +325,7 @@
    "sequence": "2026-11-30205",
    "type": "MVC Unknown Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T17:41:58Z",
    "created": "2026-11-21T17:13:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9821854",
-   "sequence": "2026-11-30202",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:07:05Z",
-   "created": "2026-11-21T17:07:05Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "523 SHARONDALE RD",
-   "cross": "S TERRACE/MADONNA AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 35.005388,
-   "lon": -85.236956,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821853",
    "sequence": "2026-11-30201",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:18:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T17:40:44Z",
    "created": "2026-11-21T17:07:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +402,8 @@
    "id": "9821843",
    "sequence": "2026-11-30193",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T17:28:51Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T17:44:49Z",
    "created": "2026-11-21T17:00:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9821795",
-   "sequence": "2026-11-30160",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T16:44:59Z",
-   "created": "2026-11-21T16:38:51Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "523 SHARONDALE RD",
-   "cross": "S TERRACE/MADONNA AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 35.005388,
-   "lon": -85.236956,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821789",
    "sequence": "2026-11-30157",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:40:42Z",
    "created": "2026-11-21T16:34:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
