@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T13:17:26+00:00",
+ "updated": "2026-11-21T13:23:22+00:00",
  "counts": {
-  "year": 369070,
-  "upstream_day": 194,
-  "day": 262,
+  "year": 369071,
+  "upstream_day": 195,
+  "day": 269,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9821526",
+   "sequence": "2026-11-29974",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-21T13:20:19Z",
+   "created": "2026-11-21T13:19:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "567 KESTREL LN",
+   "cross": "DRY BRANCH CT/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.009556,
+   "lon": -85.402655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821528",
+   "sequence": "2026-11-29972",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T13:18:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OXFORD RD / OLD DALLAS RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.082211,
+   "lon": -85.297008,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821527",
+   "sequence": "2026-11-29971",
+   "type": "Theft From a Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T13:17:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2420 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.02874,
+   "lon": -85.313273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821518",
    "sequence": "2026-11-29967",
@@ -220,8 +298,8 @@
    "id": "9821477",
    "sequence": "2026-11-29939",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T13:06:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T13:18:02Z",
    "created": "2026-11-21T12:31:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.041718,
    "lon": -85.247257,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821472",
-   "sequence": "2026-11-29942",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-21T13:03:13Z",
-   "created": "2026-11-21T12:28:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3236 BRAINERD RD",
-   "cross": "ELMWOOD DR/W BROW TER",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 2",
-   "lat": 35.026813,
-   "lon": -85.253649,
    "units": 1,
    "stacked": false,
    "notable": false
