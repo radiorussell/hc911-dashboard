@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T06:41:22+00:00",
+ "updated": "2026-11-21T06:47:22+00:00",
  "counts": {
   "year": 368934,
   "upstream_day": 58,
   "day": 82,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9821254",
@@ -87,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9821249",
-   "sequence": "2026-11-29782",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:40:22Z",
-   "created": "2026-11-21T06:31:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4644 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.067222,
-   "lon": -85.108012,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821247",
    "sequence": "2026-11-29781",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T06:42:49Z",
    "created": "2026-11-21T06:31:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +168,8 @@
    "id": "9821226",
    "sequence": "2026-11-29765",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T06:28:20Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T06:46:58Z",
    "created": "2026-11-21T06:01:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.051269,
    "lon": -85.169866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821199",
-   "sequence": "2026-11-29745",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T06:13:08Z",
-   "created": "2026-11-21T05:37:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1201 BOYNTON DR",
-   "cross": "GATEWAY AVE/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.045229,
-   "lon": -85.32022,
    "units": 1,
    "stacked": false,
    "notable": false
