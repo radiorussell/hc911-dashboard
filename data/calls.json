@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-21T09:11:23+00:00",
+ "updated": "2026-11-21T09:17:21+00:00",
  "counts": {
   "year": 368982,
   "upstream_day": 106,
-  "day": 146,
+  "day": 154,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9821364",
+   "sequence": "2026-11-29859",
+   "type": "Interpreter Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T09:17:18Z",
+   "created": "2026-11-21T09:17:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3221 SOCIAL CIR",
+   "cross": "PAUL KERN LN/LOCKWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 0",
+   "lat": 35.103817,
+   "lon": -85.284292,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821363",
+   "sequence": "2026-11-29857",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T09:15:48Z",
+   "created": "2026-11-21T09:15:48Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11754 OLA WAY",
+   "cross": "GAMBLE RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 5",
+   "priority": "PRI 2",
+   "lat": 35.261548,
+   "lon": -85.042988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821362",
+   "sequence": "2026-11-29856",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T09:15:48Z",
+   "created": "2026-11-21T09:15:48Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11754 OLA WAY",
+   "cross": "GAMBLE RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 3",
+   "lat": 35.261548,
+   "lon": -85.042988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821361",
+   "sequence": "2026-11-29858",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T09:15:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1908 OAK ST",
+   "cross": "N ORCHARD KNOB AVE/N BEECH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 2",
+   "lat": 35.036234,
+   "lon": -85.273466,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821360",
+   "sequence": "2026-11-29855",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T09:14:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "11754 OLA WAY",
+   "cross": "GAMBLE RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.261548,
+   "lon": -85.042988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821355",
    "sequence": "2026-11-29851",
