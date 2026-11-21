@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T22:40:38+00:00",
+ "updated": "2026-11-21T22:45:38+00:00",
  "counts": {
   "year": 369508,
   "upstream_day": 631,
-  "day": 856,
+  "day": 858,
   "day_basis": "midnight"
  },
  "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9822378",
+   "sequence": "2026-11-30563",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:42:56Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "704 S LOVELL AVE",
+   "cross": "DELAWARE DR/MARYLAND DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.001652,
+   "lon": -85.232883,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822377",
+   "sequence": "2026-11-30562",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:42:00Z",
+   "created": "2026-11-21T22:41:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6716 WILLOW TRACE DR",
+   "cross": "No Cross Street/WILLOW BROOK DR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.049808,
+   "lon": -85.166851,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822376",
    "sequence": "2026-11-30561",
@@ -90,8 +142,8 @@
    "id": "9822372",
    "sequence": "2026-11-30557",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:36:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T22:35:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9822364",
-   "sequence": "2026-11-30553",
-   "type": "Smoke Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:30:37Z",
-   "created": "2026-11-21T22:25:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5805 LEE HWY",
-   "cross": "HONEST ST/CHICKAMAUGA RD",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 1",
-   "lat": 35.02089,
-   "lon": -85.201294,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822361",
    "sequence": "2026-11-30552",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T22:41:02Z",
    "created": "2026-11-21T22:24:27Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -169,7 +195,7 @@
    "sequence": "2026-11-30551",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T22:44:04Z",
    "created": "2026-11-21T22:22:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +376,8 @@
    "id": "9822311",
    "sequence": "2026-11-30514",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T22:26:24Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T22:45:20Z",
    "created": "2026-11-21T21:47:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -368,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.230987,
    "lon": -85.20239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822292",
-   "sequence": "2026-11-30502",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T22:25:23Z",
-   "created": "2026-11-21T21:42:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1126 CARRIAGE PARC DR",
-   "cross": "GUNBARREL RD/JOINER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.012609,
-   "lon": -85.16365,
    "units": 1,
    "stacked": false,
    "notable": false
