@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T11:45:20+00:00",
+ "updated": "2026-11-21T11:47:24+00:00",
  "counts": {
   "year": 369023,
   "upstream_day": 147,
   "day": 206,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9821430",
    "sequence": "2026-11-29911",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T11:44:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T11:44:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -91,7 +91,7 @@
    "sequence": "2026-11-29902",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T11:45:39Z",
    "created": "2026-11-21T11:32:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -153,39 +153,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1612 FOREST EDGE DR",
-   "cross": "No Cross Street/MIDDLE VALLEY RD",
+   "address": "9102 GLOUSTER LN",
+   "cross": "No Cross Street/WESTMINISTER CIRCLE DR",
    "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
+   "zone": "EAST 5",
    "priority": "PRI 3",
-   "lat": 35.182635,
-   "lon": -85.196002,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821409",
-   "sequence": "2026-11-29891",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T11:14:44Z",
-   "created": "2026-11-21T11:14:44Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "918 DONALDSON RD",
-   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 35.007914,
-   "lon": -85.260716,
+   "lat": 35.119309,
+   "lon": -85.153872,
    "units": 1,
    "stacked": false,
    "notable": false
