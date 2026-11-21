@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-21T14:17:27+00:00",
+ "updated": "2026-11-21T14:23:21+00:00",
  "counts": {
-  "year": 369096,
-  "upstream_day": 220,
-  "day": 302,
+  "year": 369101,
+  "upstream_day": 225,
+  "day": 306,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9821577",
+   "sequence": "2026-11-30011",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:22:44Z",
+   "created": "2026-11-21T14:22:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4920 ELDRIDGE RD",
+   "cross": "WELLINGTON LN/WAREINGTON LN",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.135334,
+   "lon": -85.259261,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821576",
+   "sequence": "2026-11-30010",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:22:21Z",
+   "created": "2026-11-21T14:21:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3801 CUMMINGS HWY",
+   "cross": "I-24 WB @ EXIT 174 RAMP/FRANCIS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.019695,
+   "lon": -85.384626,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821570",
+   "sequence": "2026-11-30008",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:18:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "CARR ST / W 26TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.026104,
+   "lon": -85.312718,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821567",
    "sequence": "2026-11-30007",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:17:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T14:15:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -65,7 +143,7 @@
    "sequence": "2026-11-30003",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T14:19:33Z",
    "created": "2026-11-21T14:08:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9821561",
    "sequence": "2026-11-30002",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:23:20Z",
    "created": "2026-11-21T14:08:12Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -108,32 +186,6 @@
    "priority": "PRI 3",
    "lat": 35.324693,
    "lon": -85.083841,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821559",
-   "sequence": "2026-11-29999",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:04:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2411 VINE ST",
-   "cross": "DERBY ST/KILMER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.034578,
-   "lon": -85.26523,
    "units": 1,
    "stacked": false,
    "notable": false
