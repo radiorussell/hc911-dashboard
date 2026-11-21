@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T21:55:38+00:00",
+ "updated": "2026-11-21T22:00:38+00:00",
  "counts": {
-  "year": 369474,
-  "upstream_day": 597,
+  "year": 369486,
+  "upstream_day": 609,
   "day": 819,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
   {
    "id": "9822325",
@@ -38,8 +38,8 @@
    "id": "9822326",
    "sequence": "2026-11-30524",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:58:37Z",
    "created": "2026-11-21T21:52:06Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9822317",
    "sequence": "2026-11-30517",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:58:45Z",
    "created": "2026-11-21T21:48:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +220,8 @@
    "id": "9822311",
    "sequence": "2026-11-30514",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:58:09Z",
    "created": "2026-11-21T21:47:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +246,8 @@
    "id": "9822310",
    "sequence": "2026-11-30513",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-21T21:46:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T21:46:34Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -373,6 +373,32 @@
    "notable": false
   },
   {
+   "id": "9822285",
+   "sequence": "2026-11-30495",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:59:52Z",
+   "created": "2026-11-21T21:36:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1171 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 4",
+   "lat": 35.0534,
+   "lon": -85.273673,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9822272",
    "sequence": "2026-11-30488",
    "type": "Disorder",
@@ -394,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.002468,
    "lon": -85.284118,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822265",
-   "sequence": "2026-11-30482",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-21T21:28:13Z",
-   "created": "2026-11-21T21:20:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1639 ROBERSON RD",
-   "cross": "CHELSEA LN/HENSLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 4",
-   "lat": 35.206148,
-   "lon": -85.158749,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9822251",
-   "sequence": "2026-11-30468",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T21:11:20Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6413 COOLEY RD",
-   "cross": "SMOKE GUN LN/POSSUM TRAIL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 4",
-   "lat": 35.246911,
-   "lon": -85.057583,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822250",
    "sequence": "2026-11-30469",
    "type": "MVC No Injuries",
@@ -529,12 +503,12 @@
    "notable": false
   },
   {
-   "id": "9822245",
-   "sequence": "2026-11-30464",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T21:34:48Z",
-   "created": "2026-11-21T21:02:19Z",
+   "id": "9821808",
+   "sequence": "2026-11-30174",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:58:32Z",
+   "created": "2026-11-21T16:43:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -543,67 +517,15 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6459 FOXBORO DR",
-   "cross": "HAMBY CIR/HAMBY CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.065093,
-   "lon": -85.163144,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821863",
-   "sequence": "2026-11-30205",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-21T17:41:58Z",
-   "created": "2026-11-21T17:13:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1816 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
+   "address": "8101 E BRAINERD RD",
+   "cross": "GRAYSVILLE RD/KINSEY DR",
    "city": "CHATTANOOGA",
    "zone": "C8",
-   "priority": "PRI 1",
-   "lat": 35.024501,
-   "lon": -85.155628,
+   "priority": "PRI 4",
+   "lat": 35.005297,
+   "lon": -85.149263,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821831",
-   "sequence": "2026-11-30188",
-   "type": "Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-21T16:54:01Z",
-   "created": "2026-11-21T16:53:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7421 COMMONS BLVD",
-   "cross": "OGLETREE AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.03602,
-   "lon": -85.146643,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
