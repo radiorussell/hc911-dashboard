@@ -66,6 +66,11 @@ python3 -m http.server 8000                  # then open http://127.0.0.1:8000
 
 No installs needed: `fetch_data.py` is stdlib-only (`urllib`, `zoneinfo`, `argparse`).
 
+**Root-level files are opt-in.** Pages serves only `_site/`, and `refresh.yml`'s
+*Stage the static site* step names each root file (`index.html weather.html favicon.ico
+site.webmanifest`). A new root file that is not added there deploys as a 404 — anything
+under `assets/` and `data/` is copied wholesale and needs no change.
+
 ## Verifying a change (do this before saying it works)
 
 - **The feed, not the status code.** These gateways answer refusals with HTTP **200** and
