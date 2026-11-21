@@ -21,6 +21,33 @@ import urllib.request
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
+from zoneinfo import ZoneInfo
+
+EASTERN = ZoneInfo("America/New_York")
+
+
+def to_utc(local_stamp: str | None) -> str | None:
+    """hc911 stamps LOCAL Eastern time but appends a 'Z' as if it were UTC.
+
+    Verified against a live pull: a status change seconds old arrived as
+    '22:39:43.000Z' while the wall clock in Chattanooga read 22:40 EST — five
+    hours ahead of real UTC. Trusting the Z makes every row render five hours
+    stale ("5 hours ago" on a call dispatched a minute ago), so strip the
+    bogus zone, read the value as Eastern, and emit a real UTC instant.
+    """
+    if not local_stamp:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(local_stamp).replace("Z", "+00:00"))
+    except ValueError:
+        return local_stamp
+    naive = dt.replace(tzinfo=None)
+    return (
+        naive.replace(tzinfo=EASTERN)
+        .astimezone(timezone.utc)
+        .isoformat(timespec="seconds")
+        .replace("+00:00", "Z")
+    )
 
 CALLS_URL = "https://hc911server.com/api/calls"
 COUNT_URL = "https://hc911server.com/api/count"
@@ -136,8 +163,8 @@ def group_incidents(rows: list[dict]) -> list[dict]:
                 "status": lead.get("status") or "",
                 "status_at": None
                 if str(lead.get("statusdatetime", "")).startswith("1900")
-                else lead.get("statusdatetime"),
-                "created": earliest.get("creation"),
+                else to_utc(lead.get("statusdatetime")),
+                "created": to_utc(earliest.get("creation")),
                 "jurisdiction": lead.get("jurisdiction") or "",
                 "agencies": sorted({r.get("jurisdiction") or "" for r in group if r.get("jurisdiction")}),
                 "agency_type": lead.get("agency_type") or "",
