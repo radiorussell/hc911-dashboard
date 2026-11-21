@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T11:29:23+00:00",
+ "updated": "2026-11-21T11:35:23+00:00",
  "counts": {
   "year": 369017,
   "upstream_day": 141,
-  "day": 194,
+  "day": 198,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9821421",
+   "sequence": "2026-11-29903",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:34:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "411 S LYERLY ST",
+   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 3",
+   "lat": 35.032246,
+   "lon": -85.269841,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821419",
+   "sequence": "2026-11-29901",
+   "type": "AFA Apartment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:32:21Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "621 E MARTIN LUTHER KING BLVD",
+   "cross": "UNIVERSITY ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.043119,
+   "lon": -85.300586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821420",
+   "sequence": "2026-11-29902",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:32:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4114 FAGAN ST",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.001487,
+   "lon": -85.309679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821417",
    "sequence": "2026-11-29899",
@@ -64,8 +142,8 @@
    "id": "9821412",
    "sequence": "2026-11-29893",
    "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T11:30:39Z",
    "created": "2026-11-21T11:23:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -134,58 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.007914,
    "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821399",
-   "sequence": "2026-11-29884",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": "2026-11-21T10:54:54Z",
-   "created": "2026-11-21T10:41:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4400 - 4498 W RD",
-   "cross": "SEAGLE DR/E BROW RD",
-   "city": "WALDEN",
-   "zone": "WEST 2 WALDEN",
-   "priority": "PRI 2",
-   "lat": 35.144576,
-   "lon": -85.315586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821395",
-   "sequence": "2026-11-29880",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T11:00:20Z",
-   "created": "2026-11-21T10:14:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6700 WILLOW BROOK DR",
-   "cross": "No Cross Street/WILLOW TRACE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049504,
-   "lon": -85.16753,
    "units": 1,
    "stacked": false,
    "notable": false
