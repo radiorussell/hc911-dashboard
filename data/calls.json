@@ -1,38 +1,64 @@
 {
- "updated": "2026-11-21T11:41:22+00:00",
+ "updated": "2026-11-21T11:45:20+00:00",
  "counts": {
   "year": 369023,
   "upstream_day": 147,
-  "day": 198,
+  "day": 206,
   "day_basis": "midnight"
  },
  "raw_rows": 11,
  "incidents": [
   {
-   "id": "9821421",
-   "sequence": "2026-11-29903",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:40:16Z",
-   "created": "2026-11-21T11:34:12Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9821430",
+   "sequence": "2026-11-29911",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:44:55Z",
+   "created": "2026-11-21T11:44:16Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Chattanooga FD"
+    "Chattanooga PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "411 S LYERLY ST",
-   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
+   "address": "4409 ROSSVILLE BLVD",
+   "cross": "E 44TH ST/E 45TH ST",
    "city": "CHATTANOOGA",
-   "zone": "502 A",
+   "zone": "B9",
    "priority": "PRI 3",
-   "lat": 35.032246,
-   "lon": -85.269841,
+   "lat": 34.991746,
+   "lon": -85.290797,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9821428",
+   "sequence": "2026-11-29908",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:42:01Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6708 RINGGOLD RD",
+   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.989554,
+   "lon": -85.198923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9821419",
@@ -139,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9821412",
-   "sequence": "2026-11-29893",
-   "type": "Animal Call",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:30:39Z",
-   "created": "2026-11-21T11:23:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7834 STONEHENGE DR",
-   "cross": "MOORGATE DR/WIMBLETON PL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.064304,
-   "lon": -85.122485,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821409",
    "sequence": "2026-11-29891",
    "type": "EMS CALL",
@@ -194,8 +194,8 @@
    "id": "9821408",
    "sequence": "2026-11-29890",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:24:38Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T11:44:22Z",
    "created": "2026-11-21T11:14:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
