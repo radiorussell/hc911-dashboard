@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-21T15:20:36+00:00",
+ "updated": "2026-11-21T15:25:43+00:00",
  "counts": {
   "year": 369149,
   "upstream_day": 273,
-  "day": 368,
+  "day": 372,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9821654",
+   "sequence": "2026-11-30077",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:24:22Z",
+   "created": "2026-11-21T15:23:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2102 CLEVELAND AVE",
+   "cross": "N WILLOW ST/N KELLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.041987,
+   "lon": -85.268208,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821652",
+   "sequence": "2026-11-30075",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:22:14Z",
+   "created": "2026-11-21T15:22:14Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "307 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.386777,
+   "lon": -85.116271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821651",
+   "sequence": "2026-11-30074",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:21:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "307 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.386777,
+   "lon": -85.116271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821650",
    "sequence": "2026-11-30073",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:20:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T15:19:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9821649",
    "sequence": "2026-11-30072",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:17:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T15:17:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9821630",
    "sequence": "2026-11-30055",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T15:20:48Z",
    "created": "2026-11-21T15:04:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -293,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821625",
-   "sequence": "2026-11-30053",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:09:02Z",
-   "created": "2026-11-21T15:01:07Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2501 JENKINS RD",
-   "cross": "PINEWOOD DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 3",
-   "lat": 35.042929,
-   "lon": -85.129499,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9821623",
@@ -498,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.101687,
    "lon": -85.321286,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821585",
-   "sequence": "2026-11-30020",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-21T14:51:04Z",
-   "created": "2026-11-21T14:33:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9303 BILL REED RD",
-   "cross": "JESSIE TRL/PECAN LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.046849,
-   "lon": -85.086002,
    "units": 1,
    "stacked": false,
    "notable": false
