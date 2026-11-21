@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T21:25:36+00:00",
+ "updated": "2026-11-21T21:30:41+00:00",
  "counts": {
-  "year": 369449,
-  "upstream_day": 572,
-  "day": 777,
+  "year": 369454,
+  "upstream_day": 577,
+  "day": 778,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9822269",
+   "sequence": "2026-11-30483",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T21:27:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "205 MANUFACTURERS RD",
+   "cross": "VELMA ST/HWY 27 NB @ MANUFACTURERS RD - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "1204 B",
+   "priority": "PRI 1",
+   "lat": 35.063089,
+   "lon": -85.31266,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822265",
    "sequence": "2026-11-30482",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T21:28:13Z",
    "created": "2026-11-21T21:20:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -56,58 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.136477,
    "lon": -85.081024,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822259",
-   "sequence": "2026-11-30477",
-   "type": "Elevator Emergency",
-   "status": "On Scene",
-   "status_at": "2026-11-21T21:20:10Z",
-   "created": "2026-11-21T21:15:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "622 GEORGIA AVE",
-   "cross": "E 6TH ST/LOOKOUT ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 3",
-   "lat": 35.049079,
-   "lon": -85.305876,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822257",
-   "sequence": "2026-11-30476",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T21:14:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "790 WOOD GROVE CIR",
-   "cross": "No Cross Street/GRUBB RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.152062,
-   "lon": -85.242899,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -451,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9822195",
-   "sequence": "2026-11-30428",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T20:44:09Z",
-   "created": "2026-11-21T20:36:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5 FRANCIS ST",
-   "cross": "CUMMINGS HWY/KELLYS FERRY RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.022683,
-   "lon": -85.387745,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822170",
    "sequence": "2026-11-30412",
    "type": "EMS CALL",
@@ -524,58 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.242826,
    "lon": -85.117587,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822133",
-   "sequence": "2026-11-30384",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:50:37Z",
-   "created": "2026-11-21T19:50:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 2",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822132",
-   "sequence": "2026-11-30381",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:51:53Z",
-   "created": "2026-11-21T19:47:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2600 IVY ST",
-   "cross": "GLENWOOD DR/GLENWOOD CIR",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 1",
-   "lat": 35.034335,
-   "lon": -85.262445,
    "units": 1,
    "stacked": false,
    "notable": false
