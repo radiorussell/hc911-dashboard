@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T14:23:21+00:00",
+ "updated": "2026-11-21T14:29:22+00:00",
  "counts": {
-  "year": 369101,
-  "upstream_day": 225,
-  "day": 306,
+  "year": 369107,
+  "upstream_day": 231,
+  "day": 311,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 18,
  "incidents": [
   {
-   "id": "9821577",
-   "sequence": "2026-11-30011",
-   "type": "Noise Complaint",
+   "id": "9821581",
+   "sequence": "2026-11-30016",
+   "type": "Supplemental Reports",
    "status": "Queued",
-   "status_at": "2026-11-21T14:22:44Z",
-   "created": "2026-11-21T14:22:44Z",
+   "status_at": "2026-11-21T14:26:38Z",
+   "created": "2026-11-21T14:26:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,24 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4920 ELDRIDGE RD",
-   "cross": "WELLINGTON LN/WAREINGTON LN",
+   "address": "1215 S HICKORY ST",
+   "cross": "E 12TH ST/E 13TH ST",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.135334,
-   "lon": -85.259261,
+   "zone": "B5",
+   "priority": "PRI 4",
+   "lat": 35.028937,
+   "lon": -85.282078,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9821576",
-   "sequence": "2026-11-30010",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:22:21Z",
-   "created": "2026-11-21T14:21:57Z",
+   "id": "9821579",
+   "sequence": "2026-11-30014",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:25:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3801 CUMMINGS HWY",
-   "cross": "I-24 WB @ EXIT 174 RAMP/FRANCIS ST",
+   "address": "4915 BEULAH AVE",
+   "cross": "W 49TH ST/W 51ST ST",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.019695,
-   "lon": -85.384626,
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 34.993561,
+   "lon": -85.329516,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821578",
+   "sequence": "2026-11-30013",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-21T14:24:18Z",
+   "created": "2026-11-21T14:24:18Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5020 LITTLE DEBBIE PKWY",
+   "cross": "APISON PIKE/INTEGRA PRESERVE CT",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.063358,
+   "lon": -85.073298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821573",
+   "sequence": "2026-11-30012",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:23:57Z",
+   "created": "2026-11-21T14:21:06Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1910 HONEYCUT LN",
+   "cross": "CLINE RD/KOONS RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 34.987677,
+   "lon": -85.265203,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -65,7 +117,7 @@
    "sequence": "2026-11-30008",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T14:25:45Z",
    "created": "2026-11-21T14:18:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9821564",
    "sequence": "2026-11-30004",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:24:58Z",
    "created": "2026-11-21T14:09:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9821551",
    "sequence": "2026-11-29992",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:11:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T14:25:48Z",
    "created": "2026-11-21T13:52:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9821540",
    "sequence": "2026-11-29980",
    "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-21T13:33:02Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T14:06:19Z",
    "created": "2026-11-21T13:32:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -291,7 +343,7 @@
    "lat": 35.040538,
    "lon": -85.142733,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
