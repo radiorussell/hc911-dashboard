@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T08:59:21+00:00",
+ "updated": "2026-11-21T09:05:22+00:00",
  "counts": {
   "year": 368981,
   "upstream_day": 105,
-  "day": 138,
+  "day": 146,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9821355",
+   "sequence": "2026-11-29851",
+   "type": "Assault Delayed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T08:59:46Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6620 HILTON DR",
+   "cross": "MCDONALD RD/JENNINGS LN",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.986691,
+   "lon": -85.204789,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9821329",
    "sequence": "2026-11-29843",
@@ -212,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821263",
-   "sequence": "2026-11-29796",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T07:23:49Z",
-   "created": "2026-11-21T07:14:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MURRAY HILLS DR / HIGHWAY 58",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.083704,
-   "lon": -85.203338,
    "units": 1,
    "stacked": false,
    "notable": false
