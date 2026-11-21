@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T06:05:23+00:00",
+ "updated": "2026-11-21T06:11:22+00:00",
  "counts": {
-  "year": 368916,
-  "upstream_day": 40,
+  "year": 368926,
+  "upstream_day": 50,
   "day": 61,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 17,
  "incidents": [
   {
    "id": "9821226",
@@ -116,8 +116,8 @@
    "id": "9821221",
    "sequence": "2026-11-29760",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T06:05:33Z",
    "created": "2026-11-21T05:58:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9821181",
-   "sequence": "2026-11-29732",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T05:35:33Z",
-   "created": "2026-11-21T05:25:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5905 PORTVIEW CIR",
-   "cross": "PINELAWN DR/PINELAWN DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 2",
-   "lat": 35.025666,
-   "lon": -85.201568,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821183",
    "sequence": "2026-11-29730",
    "type": "EMS CALL",
@@ -347,89 +321,11 @@
    "notable": false
   },
   {
-   "id": "9821175",
-   "sequence": "2026-11-29726",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T05:25:16Z",
-   "created": "2026-11-21T05:17:39Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5746 CARMACK RD",
-   "cross": "GARRETT DR/NORTHWOODS DR",
-   "city": "CHATTANOOGA",
-   "zone": "2202",
-   "priority": "PRI 1",
-   "lat": 35.15349,
-   "lon": -85.251783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821174",
-   "sequence": "2026-11-29725",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T05:19:15Z",
-   "created": "2026-11-21T05:17:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5746 CARMACK RD",
-   "cross": "GARRETT DR/NORTHWOODS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.15349,
-   "lon": -85.251783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821173",
-   "sequence": "2026-11-29724",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T05:35:27Z",
-   "created": "2026-11-21T05:17:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5746 CARMACK RD",
-   "cross": "GARRETT DR/NORTHWOODS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.15349,
-   "lon": -85.251783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821161",
    "sequence": "2026-11-29717",
    "type": "EMS CALL",
-   "status": "Stacked",
-   "status_at": "2026-11-21T05:12:15Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:23:42Z",
    "created": "2026-11-21T05:12:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -446,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.051354,
    "lon": -85.246116,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9821157",
-   "sequence": "2026-11-29714",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T05:14:24Z",
-   "created": "2026-11-21T05:09:25Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1088 S SEMINOLE DR",
-   "cross": "SEMINOLE CREST LN/BIMINI PL",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 2",
-   "lat": 35.003555,
-   "lon": -85.266739,
    "units": 1,
    "stacked": false,
    "notable": false
