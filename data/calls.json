@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T04:34:16+00:00",
+ "updated": "2026-11-21T04:36:11+00:00",
  "counts": {
   "year": 368855,
   "upstream_day": 0,
   "day": 918,
   "day_basis": "bootstrap"
  },
- "raw_rows": 22,
+ "raw_rows": 21,
  "incidents": [
   {
    "id": "9821106",
@@ -64,8 +64,8 @@
    "id": "9821104",
    "sequence": "2026-11-29672",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:34:50Z",
    "created": "2026-11-21T04:22:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -158,32 +158,6 @@
    "city": "CHATTANOOGA",
    "zone": "1404",
    "priority": "PRI 1",
-   "lat": 35.019709,
-   "lon": -85.315427,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821092",
-   "sequence": "2026-11-29660",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:12:03Z",
-   "created": "2026-11-21T04:12:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3021 ALTON PARK BLVD",
-   "cross": "SHIPP AVE/W 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
    "lat": 35.019709,
    "lon": -85.315427,
    "units": 1,
