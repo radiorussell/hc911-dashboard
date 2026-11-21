@@ -179,5 +179,30 @@ setInterval(() => {
 }, 1000);
 $('#clock').textContent = new Date().toLocaleTimeString([], { hour12: false });
 
+// The block-letter signature has to fit whatever width the grid hands the
+// scanner panel (it swings from ~290px to ~830px depending on viewport), and a
+// vw-based size clips at the extremes. Measure the art once at a known size and
+// scale it to the container, clamped so it never gets silly.
+(function fitSignature() {
+  const pre = document.querySelector('.signature pre');
+  if (!pre) return;
+  const fit = () => {
+    const avail = pre.parentElement.clientWidth - 28; // .signature side padding
+    if (avail <= 0) return;
+    pre.style.fontSize = '100px';
+    const raw = pre.scrollWidth;
+    pre.style.fontSize = '';
+    if (!raw) return;
+    const px = Math.min(19, Math.max(7, Math.round((100 * avail) / raw * 100) / 100));
+    pre.style.fontSize = `${px}px`;
+  };
+  fit();
+  let t;
+  addEventListener('resize', () => {
+    clearTimeout(t);
+    t = setTimeout(fit, 120);
+  });
+})();
+
 load();
 setInterval(load, REFRESH_MS);
