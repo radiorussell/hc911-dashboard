@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-21T21:10:42+00:00",
+ "updated": "2026-11-21T21:15:39+00:00",
  "counts": {
   "year": 369438,
   "upstream_day": 561,
-  "day": 762,
+  "day": 772,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9822248",
-   "sequence": "2026-11-30467",
+   "id": "9822259",
+   "sequence": "2026-11-30477",
+   "type": "Elevator Emergency",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:15:37Z",
+   "created": "2026-11-21T21:15:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "622 GEORGIA AVE",
+   "cross": "E 6TH ST/LOOKOUT ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 3",
+   "lat": 35.049079,
+   "lon": -85.305876,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822257",
+   "sequence": "2026-11-30476",
    "type": "Well Being Check",
    "status": "Queued",
-   "status_at": "2026-11-21T21:09:33Z",
-   "created": "2026-11-21T21:09:23Z",
+   "status_at": "2026-11-21T21:15:08Z",
+   "created": "2026-11-21T21:14:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,169 @@
    "agency_types": [
     "Law"
    ],
-   "address": "SHALLOWFORD RD / GUNBARREL RD",
-   "cross": "",
+   "address": "790 WOOD GROVE CIR",
+   "cross": "No Cross Street/GRUBB RD",
    "city": "CHATTANOOGA",
-   "zone": "C9",
+   "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.040329,
-   "lon": -85.149997,
+   "lat": 35.152062,
+   "lon": -85.242899,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822255",
+   "sequence": "2026-11-30471",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:13:38Z",
+   "created": "2026-11-21T21:13:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "704 MANSION CIR",
+   "cross": "N NATCHEZ RD/NOTTING HL",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.080453,
+   "lon": -85.2965,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822256",
+   "sequence": "2026-11-30472",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:13:38Z",
+   "created": "2026-11-21T21:13:38Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "704 MANSION CIR",
+   "cross": "N NATCHEZ RD/NOTTING HL",
+   "city": "CHATTANOOGA",
+   "zone": "1201",
+   "priority": "PRI 2",
+   "lat": 35.080453,
+   "lon": -85.2965,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822253",
+   "sequence": "2026-11-30470",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T21:13:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "704 MANSION CIR",
+   "cross": "N NATCHEZ RD/NOTTING HL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.080453,
+   "lon": -85.2965,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822252",
+   "sequence": "2026-11-30473",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-21T21:14:34Z",
+   "created": "2026-11-21T21:13:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2200 - 2299 MARKET ST",
+   "cross": "EXIT 179 S OFF RAMP WB/EXIT 178A OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.029753,
+   "lon": -85.309288,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822251",
+   "sequence": "2026-11-30468",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:11:20Z",
+   "created": "2026-11-21T21:11:20Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6413 COOLEY RD",
+   "cross": "SMOKE GUN LN/POSSUM TRAIL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 4",
+   "lat": 35.246911,
+   "lon": -85.057583,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822250",
+   "sequence": "2026-11-30469",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:12:28Z",
+   "created": "2026-11-21T21:11:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "120 MARKET ST",
+   "cross": "E 1ST ST/E AQUARIUM WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.055208,
+   "lon": -85.309329,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9822243",
-   "sequence": "2026-11-30462",
-   "type": "Abandoned Auto",
-   "status": "Queued",
-   "status_at": "2026-11-21T20:59:59Z",
-   "created": "2026-11-21T20:59:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BORISS DR / BISHOP DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.068392,
-   "lon": -85.167091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822224",
    "sequence": "2026-11-30450",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T21:11:53Z",
    "created": "2026-11-21T20:48:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +480,8 @@
    "id": "9822143",
    "sequence": "2026-11-30389",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T20:38:52Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T21:12:49Z",
    "created": "2026-11-21T19:54:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -397,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822113",
-   "sequence": "2026-11-30368",
-   "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": "2026-11-21T19:45:32Z",
-   "created": "2026-11-21T19:39:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5600 BRAINERD RD",
-   "cross": "EASTGATE LOOP/BELAIRE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.009898,
-   "lon": -85.21624,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822106",
