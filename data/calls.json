@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T13:53:23+00:00",
+ "updated": "2026-11-21T13:59:22+00:00",
  "counts": {
-  "year": 369087,
-  "upstream_day": 211,
+  "year": 369091,
+  "upstream_day": 215,
   "day": 289,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 16,
  "incidents": [
   {
    "id": "9821553",
    "sequence": "2026-11-29993",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:52:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T13:52:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9821554",
    "sequence": "2026-11-29994",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:52:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T13:52:54Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -61,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9821552",
-   "sequence": "2026-11-29991",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:52:35Z",
-   "created": "2026-11-21T13:52:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18120 - 18249 INTERSTATE 24 EB",
-   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
-   "lat": 35.015374,
-   "lon": -85.27694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821551",
    "sequence": "2026-11-29992",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:52:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T13:52:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,84 +82,6 @@
    "priority": "PRI 1",
    "lat": 35.048898,
    "lon": -85.14941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821548",
-   "sequence": "2026-11-29988",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:50:36Z",
-   "created": "2026-11-21T13:41:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 1",
-   "lat": 35.033676,
-   "lon": -85.242342,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821547",
-   "sequence": "2026-11-29987",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:41:25Z",
-   "created": "2026-11-21T13:41:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.033676,
-   "lon": -85.242342,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821546",
-   "sequence": "2026-11-29986",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T13:40:54Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.033676,
-   "lon": -85.242342,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -217,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9821545",
-   "sequence": "2026-11-29985",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:43:08Z",
-   "created": "2026-11-21T13:38:33Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "CEDAR GLEN CIR / FRAWLEY RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.997298,
-   "lon": -85.188194,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821543",
    "sequence": "2026-11-29983",
    "type": "EMS CALL",
@@ -264,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 34.997298,
    "lon": -85.188194,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821542",
-   "sequence": "2026-11-29982",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-21T13:36:14Z",
-   "created": "2026-11-21T13:36:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6125 PRESERVATION DR",
-   "cross": "RESOURCE DR/CENTURY OAKS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.075817,
-   "lon": -85.186574,
    "units": 1,
    "stacked": false,
    "notable": false
