@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-21T20:20:43+00:00",
+ "updated": "2026-11-21T20:25:38+00:00",
  "counts": {
   "year": 369408,
   "upstream_day": 531,
-  "day": 708,
+  "day": 714,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9822183",
+   "sequence": "2026-11-30419",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-21T20:25:07Z",
+   "created": "2026-11-21T20:24:40Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "705 MOORE ST",
+   "cross": "MIDLAND PIKE/WILSONIA AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1506",
+   "priority": "PRI 3",
+   "lat": 35.0299,
+   "lon": -85.229358,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822180",
+   "sequence": "2026-11-30418",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-21T20:20:40Z",
+   "created": "2026-11-21T20:20:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 INTERSTATE 75 SB",
+   "cross": "EXIT 2 OFF RAMP SB/EXIT 3 ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.013029,
+   "lon": -85.183867,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822174",
    "sequence": "2026-11-30413",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:24:24Z",
    "created": "2026-11-21T20:14:52Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9822173",
    "sequence": "2026-11-30411",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:25:04Z",
    "created": "2026-11-21T20:14:34Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -113,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9822160",
-   "sequence": "2026-11-30402",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-21T20:15:00Z",
-   "created": "2026-11-21T20:06:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "336 BROOMSEDGE TRL",
-   "cross": "No Cross Street/MOUNTAIN CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 3",
-   "lat": 35.11137,
-   "lon": -85.324059,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9822146",
    "sequence": "2026-11-30390",
    "type": "EMS CALL",
@@ -195,7 +221,7 @@
    "sequence": "2026-11-30388",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T20:24:07Z",
    "created": "2026-11-21T19:54:56Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -524,58 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.047582,
    "lon": -85.139803,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822102",
-   "sequence": "2026-11-30362",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:33:33Z",
-   "created": "2026-11-21T19:32:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3550 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.015591,
-   "lon": -85.376588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822101",
-   "sequence": "2026-11-30360",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:06:36Z",
-   "created": "2026-11-21T19:32:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6200 HIXSON PIKE",
-   "cross": "FELDSPAR LN/WINDBROOK LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.150946,
-   "lon": -85.198934,
    "units": 1,
    "stacked": false,
    "notable": false
