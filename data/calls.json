@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T18:05:36+00:00",
+ "updated": "2026-11-21T18:10:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 548,
+  "day": 553,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9821948",
+   "sequence": "2026-11-30258",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-21T18:07:58Z",
+   "created": "2026-11-21T18:06:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "631 - 709 SIGNAL MOUNTAIN RD",
+   "cross": "MUNDY ST/MOUNTAIN CREEK RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.0983,
+   "lon": -85.327928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821940",
    "sequence": "2026-11-30253",
@@ -35,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9821939",
-   "sequence": "2026-11-30251",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:02:29Z",
-   "created": "2026-11-21T18:02:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "610 HIGHWAY 153 SB",
-   "cross": "HWY 153 SB @ N ACCESS RD - ON RAMP/HWY 153 SB @ AMNICOLA HWY - OFF RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "A3 B",
-   "priority": "PRI 3",
-   "lat": 35.104437,
-   "lon": -85.229114,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821938",
    "sequence": "2026-11-30252",
    "type": "Assault PD Only",
-   "status": "Queued",
-   "status_at": "2026-11-21T18:02:30Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:08:56Z",
    "created": "2026-11-21T18:01:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -75,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "201 - 299 N HOLTZCLAW AVE",
+   "address": "209 N HOLTZCLAW AVE",
    "cross": "OAK ST/E 5TH ST",
    "city": "CHATTANOOGA",
    "zone": "B4",
    "priority": "PRI 3",
-   "lat": 35.040046,
-   "lon": -85.282211,
+   "lat": 35.039944,
+   "lon": -85.28229,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -90,8 +90,8 @@
    "id": "9821935",
    "sequence": "2026-11-30248",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:07:11Z",
    "created": "2026-11-21T18:00:28Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9821930",
    "sequence": "2026-11-30244",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T18:09:10Z",
    "created": "2026-11-21T17:59:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9821895",
    "sequence": "2026-11-30218",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T17:57:12Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T18:08:50Z",
    "created": "2026-11-21T17:40:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -732,58 +732,6 @@
    "priority": "PRI 3",
    "lat": 35.18257,
    "lon": -85.246692,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821721",
-   "sequence": "2026-11-30130",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T16:16:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "509 E MAIN ST",
-   "cross": "ADAMS ST/JEFFERSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.033758,
-   "lon": -85.301096,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821714",
-   "sequence": "2026-11-30127",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T16:13:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2108 BLACKFORD ST",
-   "cross": "N WILLOW ST/N KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.041078,
-   "lon": -85.267765,
    "units": 1,
    "stacked": false,
    "notable": false
