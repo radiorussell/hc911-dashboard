@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T12:05:22+00:00",
+ "updated": "2026-11-21T12:11:22+00:00",
  "counts": {
-  "year": 369032,
-  "upstream_day": 156,
-  "day": 219,
+  "year": 369036,
+  "upstream_day": 160,
+  "day": 221,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9821457",
+   "sequence": "2026-11-29926",
+   "type": "Fire Special Assign",
+   "status": "Enroute",
+   "status_at": "2026-11-21T12:09:39Z",
+   "created": "2026-11-21T12:08:36Z",
+   "jurisdiction": "Chattanooga Hamilton Co Rescue",
+   "agencies": [
+    "Chattanooga Hamilton Co Rescue"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3998 GAME PRESERVE",
+   "cross": "",
+   "city": "",
+   "zone": "",
+   "priority": "PRI 3",
+   "lat": 0,
+   "lon": 0,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9821454",
    "sequence": "2026-11-29924",
@@ -38,8 +64,8 @@
    "id": "9821449",
    "sequence": "2026-11-29923",
    "type": "Unknown Fire",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:05:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T12:04:46Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9821450",
    "sequence": "2026-11-29921",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:05:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T12:04:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9821444",
    "sequence": "2026-11-29917",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T12:05:34Z",
    "created": "2026-11-21T11:55:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9821441",
    "sequence": "2026-11-29916",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T11:52:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T11:52:39Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.233251,
    "lon": -85.174425,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821430",
-   "sequence": "2026-11-29911",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:54:11Z",
-   "created": "2026-11-21T11:44:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4409 ROSSVILLE BLVD",
-   "cross": "E 44TH ST/E 45TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.991746,
-   "lon": -85.290797,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -342,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.007914,
    "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821364",
-   "sequence": "2026-11-29859",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-21T09:25:31Z",
-   "created": "2026-11-21T09:17:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3221 SOCIAL CIR",
-   "cross": "PAUL KERN LN/LOCKWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.103817,
-   "lon": -85.284292,
    "units": 1,
    "stacked": false,
    "notable": false
