@@ -1,11 +1,169 @@
 {
- "updated": "2026-11-21T04:12:21+00:00",
+ "updated": "2026-11-21T04:18:39+00:00",
  "counts": {
   "year": 368834,
-  "day": 0
+  "upstream_day": 0,
+  "day": 915,
+  "day_basis": "bootstrap"
  },
- "raw_rows": 21,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9821101",
+   "sequence": "2026-11-29671",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:18:30Z",
+   "created": "2026-11-21T04:18:30Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "211 PRIMROSE WAY",
+   "cross": "PRIMROSE CIR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 3",
+   "lat": 35.133195,
+   "lon": -85.344749,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821099",
+   "sequence": "2026-11-29669",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:18:29Z",
+   "created": "2026-11-21T04:18:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "211 PRIMROSE WAY",
+   "cross": "PRIMROSE CIR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 2",
+   "lat": 35.133195,
+   "lon": -85.344749,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821100",
+   "sequence": "2026-11-29670",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:18:29Z",
+   "created": "2026-11-21T04:18:29Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "211 PRIMROSE WAY",
+   "cross": "PRIMROSE CIR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
+   "priority": "PRI 3",
+   "lat": 35.133195,
+   "lon": -85.344749,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821098",
+   "sequence": "2026-11-29668",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T04:16:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6121 LEE HWY",
+   "cross": "VAN NESS RD/VANCE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.029911,
+   "lon": -85.187659,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821090",
+   "sequence": "2026-11-29665",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T04:12:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1851 - 1999 DUPONT PKWY NB",
+   "cross": "EXIT N ACCESS RD OFF RAMP NB/HIGHWAY 153 NB",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.110354,
+   "lon": -85.251975,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821089",
+   "sequence": "2026-11-29663",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:12:37Z",
+   "created": "2026-11-21T04:12:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "314 MCBRIEN RD",
+   "cross": "LYNNLAND TER/N TERRACE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.005526,
+   "lon": -85.224441,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821093",
    "sequence": "2026-11-29661",
@@ -59,11 +217,37 @@
    "notable": false
   },
   {
+   "id": "9821091",
+   "sequence": "2026-11-29664",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T04:11:58Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "101 - 137 HARRISON LN",
+   "cross": "DAYTON PIKE/RECO DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 2",
+   "lat": 35.237003,
+   "lon": -85.198989,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821088",
    "sequence": "2026-11-29659",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:12:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:11:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -88,8 +272,8 @@
    "id": "9821083",
    "sequence": "2026-11-29652",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:09:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:09:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -140,8 +324,8 @@
    "id": "9821076",
    "sequence": "2026-11-29648",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:13:15Z",
    "created": "2026-11-21T04:04:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -293,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9821064",
-   "sequence": "2026-11-29635",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-21T03:59:50Z",
-   "created": "2026-11-21T03:52:35Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "31 - 89 INTERSTATE 75 NB",
-   "cross": "EXIT 1A ON RAMP NB/EXIT 2 OFF RAMP NB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 4",
-   "lat": 34.993791,
-   "lon": -85.206284,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821056",
    "sequence": "2026-11-29633",
    "type": "MVC No Injuries",
@@ -374,8 +532,8 @@
    "id": "9821042",
    "sequence": "2026-11-29621",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T03:58:32Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T04:17:20Z",
    "created": "2026-11-21T03:36:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
