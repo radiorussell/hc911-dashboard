@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T15:11:23+00:00",
+ "updated": "2026-11-21T15:12:40+00:00",
  "counts": {
   "year": 369142,
   "upstream_day": 266,
   "day": 360,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 25,
  "incidents": [
   {
    "id": "9821640",
    "sequence": "2026-11-30065",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:10:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T15:10:21Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -49,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIGHWAY 58 / HIGHWAY 60",
+   "address": "HIGHWAY 58 / THOMAS LN",
    "cross": "",
    "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
+   "zone": "EAST 6",
    "priority": "PRI 3",
-   "lat": 35.301199,
-   "lon": -84.959151,
+   "lat": 35.249184,
+   "lon": -85.003898,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -91,7 +91,7 @@
    "sequence": "2026-11-30061",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T15:11:46Z",
    "created": "2026-11-21T15:06:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9821634",
    "sequence": "2026-11-30059",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:06:26Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T15:11:43Z",
    "created": "2026-11-21T15:06:26Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -342,32 +342,6 @@
    "priority": "PRI 4",
    "lat": 34.996637,
    "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821608",
-   "sequence": "2026-11-30040",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-21T14:53:29Z",
-   "created": "2026-11-21T14:45:16Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3636 RINGGOLD RD",
-   "cross": "S GERMANTOWN RD/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.001504,
-   "lon": -85.260055,
    "units": 1,
    "stacked": false,
    "notable": false
