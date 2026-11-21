@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T11:47:24+00:00",
+ "updated": "2026-11-21T11:53:20+00:00",
  "counts": {
-  "year": 369023,
-  "upstream_day": 147,
-  "day": 206,
+  "year": 369026,
+  "upstream_day": 150,
+  "day": 211,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9821441",
+   "sequence": "2026-11-29916",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:52:39Z",
+   "created": "2026-11-21T11:52:39Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821440",
+   "sequence": "2026-11-29915",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T11:52:38Z",
+   "created": "2026-11-21T11:52:38Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821437",
+   "sequence": "2026-11-29914",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T11:51:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821430",
    "sequence": "2026-11-29911",
@@ -139,27 +217,27 @@
    "notable": false
   },
   {
-   "id": "9821414",
-   "sequence": "2026-11-29894",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T11:23:45Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9821410",
+   "sequence": "2026-11-29898",
+   "type": "Well Being Check",
+   "status": "On Scene",
+   "status_at": "2026-11-21T11:41:25Z",
+   "created": "2026-11-21T11:17:09Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "9102 GLOUSTER LN",
-   "cross": "No Cross Street/WESTMINISTER CIRCLE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.119309,
-   "lon": -85.153872,
+   "lat": 35.061233,
+   "lon": -85.131847,
    "units": 1,
    "stacked": false,
    "notable": false
