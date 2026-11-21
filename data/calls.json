@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T20:30:37+00:00",
+ "updated": "2026-11-21T20:35:38+00:00",
  "counts": {
   "year": 369412,
   "upstream_day": 535,
-  "day": 717,
+  "day": 720,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9822191",
+   "sequence": "2026-11-30425",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T20:32:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822188",
    "sequence": "2026-11-30422",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:34:15Z",
    "created": "2026-11-21T20:27:59Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9822184",
    "sequence": "2026-11-30421",
    "type": "Auto Broken Down Road",
-   "status": "Stacked",
-   "status_at": "2026-11-21T20:26:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T20:24:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,15 +83,15 @@
    "lat": 35.085843,
    "lon": -85.211357,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9822183",
    "sequence": "2026-11-30419",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:35:23Z",
    "created": "2026-11-21T20:24:40Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.029081,
    "lon": -85.253521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822165",
-   "sequence": "2026-11-30403",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-21T20:07:47Z",
-   "created": "2026-11-21T20:07:47Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14816 DAYTON PIKE",
-   "cross": "SALE CREEK LN/REAVLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.375209,
-   "lon": -85.112201,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9822103",
-   "sequence": "2026-11-30363",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:16:09Z",
-   "created": "2026-11-21T19:33:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7447 PINEWOOD DR",
-   "cross": "WENDELL WAY/WILL KELLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.047582,
-   "lon": -85.139803,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822079",
    "sequence": "2026-11-30341",
    "type": "MVC Entrapment",
@@ -576,32 +550,6 @@
    "priority": "PRI 4",
    "lat": 35.094336,
    "lon": -85.309247,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822044",
-   "sequence": "2026-11-30325",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:42:09Z",
-   "created": "2026-11-21T19:05:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ASHLAND TER / SANDERS DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.117263,
-   "lon": -85.278132,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -689,7 +637,7 @@
    "sequence": "2026-11-30292",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T20:34:47Z",
    "created": "2026-11-21T18:28:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
