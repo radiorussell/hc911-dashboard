@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T06:59:21+00:00",
+ "updated": "2026-11-21T07:05:23+00:00",
  "counts": {
   "year": 368937,
   "upstream_day": 61,
-  "day": 82,
+  "day": 85,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9821257",
+   "sequence": "2026-11-29790",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-21T07:04:03Z",
+   "created": "2026-11-21T06:59:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "745 CHERRY ST",
+   "cross": "E 7TH ST/E 8TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.047333,
+   "lon": -85.308598,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821254",
    "sequence": "2026-11-29787",
@@ -267,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9819747",
-   "sequence": "2026-11-28757",
-   "type": "ROAD CLOSURE",
-   "status": "Queued",
-   "status_at": "2026-11-20T16:43:17Z",
-   "created": "2026-11-20T16:43:13Z",
-   "jurisdiction": "HC911",
-   "agencies": [
-    "HC911"
-   ],
-   "agency_type": "HC911",
-   "agency_types": [
-    "HC911"
-   ],
-   "address": "301 - 499 O NEAL ST",
-   "cross": "E 3RD ST/ENGEL DR",
-   "city": "CHATTANOOGA",
-   "zone": "HC911",
-   "priority": "",
-   "lat": 35.045507,
-   "lon": -85.287371,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9796493",
