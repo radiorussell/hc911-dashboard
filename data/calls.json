@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-21T09:17:21+00:00",
+ "updated": "2026-11-21T09:23:22+00:00",
  "counts": {
-  "year": 368982,
-  "upstream_day": 106,
-  "day": 154,
+  "year": 368988,
+  "upstream_day": 112,
+  "day": 160,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9821370",
+   "sequence": "2026-11-29865",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T09:21:00Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "182 COLONY CIR",
+   "cross": "DAYTON BLVD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "2202",
+   "priority": "PRI 1",
+   "lat": 35.173558,
+   "lon": -85.252196,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821369",
+   "sequence": "2026-11-29864",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T09:20:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "182 COLONY CIR",
+   "cross": "DAYTON BLVD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.173558,
+   "lon": -85.252196,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821368",
+   "sequence": "2026-11-29862",
+   "type": "Hospital Fire",
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:23:10Z",
+   "created": "2026-11-21T09:20:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 1",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821367",
+   "sequence": "2026-11-29863",
+   "type": "AFA Hospital",
+   "status": "Queued",
+   "status_at": "2026-11-21T09:20:33Z",
+   "created": "2026-11-21T09:19:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821366",
+   "sequence": "2026-11-29861",
+   "type": "Hospital Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T09:19:37Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9821364",
    "sequence": "2026-11-29859",
-   "type": "Interpreter Call",
-   "status": "Queued",
-   "status_at": "2026-11-21T09:17:18Z",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T09:17:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +157,7 @@
    "cross": "PAUL KERN LN/LOCKWOOD DR",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
-   "priority": "PRI 0",
+   "priority": "PRI 3",
    "lat": 35.103817,
    "lon": -85.284292,
    "units": 1,
@@ -90,8 +220,8 @@
    "id": "9821361",
    "sequence": "2026-11-29858",
    "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:22:52Z",
    "created": "2026-11-21T09:15:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +324,8 @@
    "id": "9821323",
    "sequence": "2026-11-29839",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T08:52:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T09:20:24Z",
    "created": "2026-11-21T08:38:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,32 +446,6 @@
    "priority": "PRI 3",
    "lat": 35.041667,
    "lon": -85.267359,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821295",
-   "sequence": "2026-11-29818",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T08:38:32Z",
-   "created": "2026-11-21T07:56:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
