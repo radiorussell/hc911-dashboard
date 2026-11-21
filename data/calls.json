@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-21T19:35:37+00:00",
+ "updated": "2026-11-21T19:40:38+00:00",
  "counts": {
-  "year": 369360,
-  "upstream_day": 483,
-  "day": 659,
+  "year": 369367,
+  "upstream_day": 490,
+  "day": 665,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9822115",
+   "sequence": "2026-11-30369",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:40:10Z",
+   "created": "2026-11-21T19:40:10Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5600 BRAINERD RD",
+   "cross": "EASTGATE LOOP/BELAIRE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.009898,
+   "lon": -85.21624,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822116",
+   "sequence": "2026-11-30370",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:40:10Z",
+   "created": "2026-11-21T19:40:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5600 BRAINERD RD",
+   "cross": "EASTGATE LOOP/BELAIRE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 1",
+   "lat": 35.009898,
+   "lon": -85.21624,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822113",
+   "sequence": "2026-11-30368",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-21T19:40:10Z",
+   "created": "2026-11-21T19:39:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5600 BRAINERD RD",
+   "cross": "EASTGATE LOOP/BELAIRE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.009898,
+   "lon": -85.21624,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822107",
+   "sequence": "2026-11-30367",
+   "type": "Non Threatening w/weapon",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:37:57Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WEATHERLY SWITCH RD / WESLEYAN RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 B",
+   "priority": "PRI 2",
+   "lat": 35.012696,
+   "lon": -84.970968,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822106",
+   "sequence": "2026-11-30365",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T19:34:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2010 MCCALLIE AVE",
+   "cross": "S BEECH ST/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.034824,
+   "lon": -85.27257,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822105",
    "sequence": "2026-11-30364",
@@ -139,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9822093",
-   "sequence": "2026-11-30354",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T19:26:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6819 CHISWICK DR",
-   "cross": "HICKORY VALLEY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.031427,
-   "lon": -85.171288,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822095",
    "sequence": "2026-11-30356",
    "type": "MVC Injuries",
@@ -189,6 +293,32 @@
    "units": 1,
    "stacked": false,
    "notable": true
+  },
+  {
+   "id": "9822093",
+   "sequence": "2026-11-30354",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-21T19:36:40Z",
+   "created": "2026-11-21T19:26:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6819 CHISWICK DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.031427,
+   "lon": -85.171288,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9822084",
@@ -345,6 +475,32 @@
    "units": 1,
    "stacked": true,
    "notable": false
+  },
+  {
+   "id": "9822067",
+   "sequence": "2026-11-30335",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": "2026-11-21T19:21:12Z",
+   "created": "2026-11-21T19:17:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2017 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.031677,
+   "lon": -85.155287,
+   "units": 1,
+   "stacked": false,
+   "notable": true
   },
   {
    "id": "9822060",
@@ -529,37 +685,11 @@
    "notable": true
   },
   {
-   "id": "9822021",
-   "sequence": "2026-11-30304",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:59:49Z",
-   "created": "2026-11-21T18:45:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5739 BROWNTOWN RD",
-   "cross": "TALL TIMBER TRL/COURTNEY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.162164,
-   "lon": -85.278182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821997",
    "sequence": "2026-11-30293",
    "type": "Deceptive Practice",
-   "status": "Stacked",
-   "status_at": "2026-11-21T18:31:59Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T19:37:13Z",
    "created": "2026-11-21T18:31:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -577,7 +707,7 @@
    "lat": 35.067882,
    "lon": -85.317512,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -714,8 +844,8 @@
    "id": "9821891",
    "sequence": "2026-11-30216",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:34:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T17:34:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
