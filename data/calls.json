@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T23:22:45+00:00",
+ "updated": "2026-11-21T23:25:38+00:00",
  "counts": {
   "year": 369557,
   "upstream_day": 680,
-  "day": 913,
+  "day": 922,
   "day_basis": "midnight"
  },
  "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9822458",
+   "sequence": "2026-11-30627",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T23:25:24Z",
+   "created": "2026-11-21T23:24:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 10TH ST / PEEPLES ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.041158,
+   "lon": -85.299422,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822457",
+   "sequence": "2026-11-30626",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T23:25:02Z",
+   "created": "2026-11-21T23:23:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LUPTON DR / HIXSON PIKE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.104258,
+   "lon": -85.273557,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822447",
    "sequence": "2026-11-30618",
@@ -64,8 +116,8 @@
    "id": "9822444",
    "sequence": "2026-11-30616",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T23:16:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T23:16:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -193,7 +245,7 @@
   {
    "id": "9822438",
    "sequence": "2026-11-30607",
-   "type": "EMS CALL",
+   "type": "Backup EMS Unit",
    "status": "On Scene",
    "status_at": "2026-11-21T23:16:29Z",
    "created": "2026-11-21T23:13:16Z",
@@ -209,7 +261,7 @@
    "cross": "O REAR ST/WHEELER AVE",
    "city": "CHATTANOOGA",
    "zone": "B2",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.065734,
    "lon": -85.250657,
    "units": 1,
@@ -451,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9822412",
-   "sequence": "2026-11-30588",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T23:07:10Z",
-   "created": "2026-11-21T23:02:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2448 WILL KELLEY RD",
-   "cross": "MIN TOM DR/SARMILA WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.042655,
-   "lon": -85.138675,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822413",
-   "sequence": "2026-11-30589",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:09:25Z",
-   "created": "2026-11-21T23:02:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2448 WILL KELLEY RD",
-   "cross": "MIN TOM DR/SARMILA WAY",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.042655,
-   "lon": -85.138675,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822411",
    "sequence": "2026-11-30587",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:10:45Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T23:25:07Z",
    "created": "2026-11-21T23:01:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
