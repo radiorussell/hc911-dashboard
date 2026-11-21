@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-21T15:25:43+00:00",
+ "updated": "2026-11-21T15:30:39+00:00",
  "counts": {
-  "year": 369149,
-  "upstream_day": 273,
-  "day": 372,
+  "year": 369155,
+  "upstream_day": 279,
+  "day": 377,
   "day_basis": "midnight"
  },
  "raw_rows": 26,
  "incidents": [
   {
+   "id": "9821663",
+   "sequence": "2026-11-30082",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:28:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "307 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.386777,
+   "lon": -85.116271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821662",
+   "sequence": "2026-11-30081",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:28:12Z",
+   "created": "2026-11-21T15:28:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1105 ARLINGTON AVE",
+   "cross": "WINDSOR ST/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.047246,
+   "lon": -85.261222,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821657",
+   "sequence": "2026-11-30080",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:27:06Z",
+   "created": "2026-11-21T15:26:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3409 4TH AVE",
+   "cross": "E 34TH ST/E 35TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.004161,
+   "lon": -85.287134,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821654",
    "sequence": "2026-11-30077",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:24:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T15:23:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9821650",
-   "sequence": "2026-11-30073",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T15:19:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2340 CENTER ST",
-   "cross": "SHALLOWFORD RD/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.046556,
-   "lon": -85.158182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821649",
    "sequence": "2026-11-30072",
    "type": "Check For A Hazard",
@@ -169,7 +221,7 @@
    "sequence": "2026-11-30064",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T15:27:03Z",
    "created": "2026-11-21T15:07:53Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -238,58 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.045234,
    "lon": -85.267204,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821634",
-   "sequence": "2026-11-30059",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:11:43Z",
-   "created": "2026-11-21T15:06:26Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8588 BANNER ELK RD",
-   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 3",
-   "lat": 35.200677,
-   "lon": -85.130588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821635",
-   "sequence": "2026-11-30060",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:16:45Z",
-   "created": "2026-11-21T15:06:26Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8588 BANNER ELK RD",
-   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
-   "city": "LAKESITE",
-   "zone": "DALLAS BAY FD 2 LAKESITE",
-   "priority": "PRI 1",
-   "lat": 35.200677,
-   "lon": -85.130588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -394,32 +394,6 @@
    "priority": "PRI 4",
    "lat": 35.036,
    "lon": -85.263722,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821617",
-   "sequence": "2026-11-30046",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T14:55:06Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.996637,
-   "lon": -85.242414,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +506,8 @@
    "id": "9821587",
    "sequence": "2026-11-30022",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T15:06:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T15:29:08Z",
    "created": "2026-11-21T14:37:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -657,6 +631,32 @@
    "units": 1,
    "stacked": false,
    "notable": true
+  },
+  {
+   "id": "9809451",
+   "sequence": "2026-11-21570",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:29:21Z",
+   "created": "2026-11-15T19:30:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2040 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A OFF RAMP NB/EXIT 4A ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.031787,
+   "lon": -85.160173,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9796493",
