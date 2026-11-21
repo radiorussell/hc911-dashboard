@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-21T14:05:21+00:00",
+ "updated": "2026-11-21T14:11:21+00:00",
  "counts": {
-  "year": 369091,
-  "upstream_day": 215,
-  "day": 293,
+  "year": 369096,
+  "upstream_day": 220,
+  "day": 299,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
   {
-   "id": "9821558",
-   "sequence": "2026-11-29996",
-   "type": "Noise Complaint",
+   "id": "9821564",
+   "sequence": "2026-11-30004",
+   "type": "MVC No Injuries",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T14:02:19Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "205 THAD LN",
-   "cross": "SPRINGFIELD RD/TIMBERLINE CIR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.230388,
-   "lon": -85.215618,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821556",
-   "sequence": "2026-11-29998",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-21T14:03:49Z",
-   "created": "2026-11-21T14:02:05Z",
+   "created": "2026-11-21T14:09:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +23,91 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1261 DREAMCATCHER WAY",
-   "cross": "MILL RD/No Cross Street",
+   "address": "5814 BRAINERD RD",
+   "cross": "DEBRA RD/GREENWAY VIEW DR",
    "city": "CHATTANOOGA",
-   "zone": "A1",
+   "zone": "C3 A",
    "priority": "PRI 3",
-   "lat": 35.155003,
-   "lon": -85.236023,
+   "lat": 35.012078,
+   "lon": -85.212659,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821562",
+   "sequence": "2026-11-30003",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T14:09:03Z",
+   "created": "2026-11-21T14:08:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3510 E 51ST ST",
+   "cross": "18TH AVE/TANAKA TRL",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.985117,
+   "lon": -85.280289,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821561",
+   "sequence": "2026-11-30002",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:08:12Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BRETTON DR / SANTA BARBARA CIR",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 3",
+   "lat": 35.324693,
+   "lon": -85.083841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821559",
+   "sequence": "2026-11-29999",
+   "type": "Auto Improperly Parked",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T14:04:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2411 VINE ST",
+   "cross": "DERBY ST/KILMER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.034578,
+   "lon": -85.26523,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +220,8 @@
    "id": "9821540",
    "sequence": "2026-11-29980",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-21T13:33:02Z",
    "created": "2026-11-21T13:32:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -187,7 +239,7 @@
    "lat": 35.040538,
    "lon": -85.142733,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -238,58 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.082211,
    "lon": -85.297008,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821518",
-   "sequence": "2026-11-29967",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T13:03:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "103 MARYLAND ST",
-   "cross": "SPEARS AVE/SNOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.073806,
-   "lon": -85.309934,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821516",
-   "sequence": "2026-11-29966",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-21T13:16:05Z",
-   "created": "2026-11-21T13:02:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "850 MARKET ST",
-   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.046411,
-   "lon": -85.309432,
    "units": 1,
    "stacked": false,
    "notable": false
