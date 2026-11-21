@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-21T13:35:22+00:00",
+ "updated": "2026-11-21T13:41:22+00:00",
  "counts": {
-  "year": 369076,
-  "upstream_day": 200,
-  "day": 275,
+  "year": 369081,
+  "upstream_day": 205,
+  "day": 280,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9821544",
+   "sequence": "2026-11-29984",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T13:38:33Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "CEDAR GLEN CIR / FRAWLEY RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.997298,
+   "lon": -85.188194,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821545",
+   "sequence": "2026-11-29985",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T13:38:33Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "CEDAR GLEN CIR / FRAWLEY RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.997298,
+   "lon": -85.188194,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821543",
+   "sequence": "2026-11-29983",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-21T13:40:10Z",
+   "created": "2026-11-21T13:37:24Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "CEDAR GLEN CIR / FRAWLEY RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 1",
+   "lat": 34.997298,
+   "lon": -85.188194,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821542",
+   "sequence": "2026-11-29982",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-21T13:36:14Z",
+   "created": "2026-11-21T13:36:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6125 PRESERVATION DR",
+   "cross": "RESOURCE DR/CENTURY OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.075817,
+   "lon": -85.186574,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821540",
    "sequence": "2026-11-29980",
@@ -38,8 +142,8 @@
    "id": "9821539",
    "sequence": "2026-11-29979",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T13:38:01Z",
    "created": "2026-11-21T13:29:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9821527",
    "sequence": "2026-11-29971",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T13:36:07Z",
    "created": "2026-11-21T13:17:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +350,8 @@
    "id": "9821499",
    "sequence": "2026-11-29953",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T13:24:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T13:40:51Z",
    "created": "2026-11-21T12:46:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
