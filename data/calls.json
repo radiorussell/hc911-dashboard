@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T12:53:23+00:00",
+ "updated": "2026-11-21T12:59:23+00:00",
  "counts": {
-  "year": 369061,
-  "upstream_day": 185,
-  "day": 254,
+  "year": 369064,
+  "upstream_day": 188,
+  "day": 258,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9821512",
+   "sequence": "2026-11-29963",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T12:57:54Z",
+   "created": "2026-11-21T12:56:49Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11426 - 11698 THATCH RD",
+   "cross": "HINKLE RD/DOGWOOD DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 4",
+   "lat": 35.262572,
+   "lon": -85.078792,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821505",
    "sequence": "2026-11-29956",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9821504",
-   "sequence": "2026-11-29959",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-21T12:47:50Z",
-   "created": "2026-11-21T12:47:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6108 VANCE RD",
-   "cross": "VANCE CIR/AIRPARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 2",
-   "lat": 35.035731,
-   "lon": -85.189412,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821503",
    "sequence": "2026-11-29954",
    "type": "EMS CALL",
@@ -116,8 +116,8 @@
    "id": "9821500",
    "sequence": "2026-11-29955",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T12:56:11Z",
    "created": "2026-11-21T12:46:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9821499",
    "sequence": "2026-11-29953",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T12:57:45Z",
    "created": "2026-11-21T12:46:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,58 +243,6 @@
    "notable": false
   },
   {
-   "id": "9821478",
-   "sequence": "2026-11-29940",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-21T12:43:15Z",
-   "created": "2026-11-21T12:31:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "810 LINE ST",
-   "cross": "SOUTH ST/BON AIR CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.041718,
-   "lon": -85.247257,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821479",
-   "sequence": "2026-11-29941",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T12:37:02Z",
-   "created": "2026-11-21T12:31:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "810 LINE ST",
-   "cross": "SOUTH ST/BON AIR CIR",
-   "city": "CHATTANOOGA",
-   "zone": "1501",
-   "priority": "PRI 1",
-   "lat": 35.041718,
-   "lon": -85.247257,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821477",
    "sequence": "2026-11-29939",
    "type": "EMS CALL",
@@ -373,32 +321,6 @@
    "notable": true
   },
   {
-   "id": "9821444",
-   "sequence": "2026-11-29917",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T12:21:29Z",
-   "created": "2026-11-21T11:55:50Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "730 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040022,
-   "lon": -85.299846,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821437",
    "sequence": "2026-11-29914",
    "type": "EMS CALL",
@@ -446,32 +368,6 @@
    "priority": "PRI 4",
    "lat": 35.023298,
    "lon": -85.272822,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821410",
-   "sequence": "2026-11-29898",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T11:41:25Z",
-   "created": "2026-11-21T11:17:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7710 LEE HWY",
-   "cross": "BONNY OAKS DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.061233,
-   "lon": -85.131847,
    "units": 1,
    "stacked": false,
    "notable": false
