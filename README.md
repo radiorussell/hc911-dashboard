@@ -105,3 +105,8 @@ python3 -m http.server 8000
   endorsement.
 - `data/` commits every five minutes, so the repo history grows. That is
   intentional and cheap; prune occasionally if it bothers you.
+- **The hc911 API stamps Eastern local time but appends a `Z`**, as if it were
+  UTC. Trusting the `Z` makes every row look five hours stale (a call dispatched
+  a minute ago renders as "5 hours ago"). `to_utc()` in `scripts/fetch_data.py`
+  strips the bogus zone, reads the value as `America/New_York`, and emits a real
+  UTC instant — keep any new timestamp field going through it.
