@@ -151,6 +151,19 @@ const setScanner = (hidden) => {
 setScanner(localStorage.getItem(SCANNER_HIDDEN) === 'true');
 toggle.addEventListener('click', () => setScanner(!scannerBody.classList.contains('collapsed')));
 
+// Live audio: Broadcastify retired third-party embeds in 2025 and its web player
+// now requires a free account, so nothing playable can be iframed here. When we
+// (or a partner feed provider) host an Icecast mount that allows cross-origin
+// playback, set it below — the native <audio> element replaces the notice and
+// visitors listen with no account, no embed key, no iframe.
+const STREAM_URL = '';
+if (STREAM_URL) {
+  const audio = $('#scanner-audio');
+  audio.src = STREAM_URL;
+  audio.hidden = false;
+  $('#scanner-notice').hidden = true;
+}
+
 setInterval(() => {
   $('#clock').textContent = new Date().toLocaleTimeString([], { hour12: false });
 }, 1000);

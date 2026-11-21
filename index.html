@@ -76,10 +76,27 @@
       </div>
     </header>
     <div class="scanner-body" id="scanner-body">
-      <iframe id="scanner-frame" title="Hamilton County Public Safety scanner"
-              src="https://www.broadcastify.com/listen/feed/44571/web?rl=rr"
-              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <p class="note">Press play inside the player. Audio is streamed by Broadcastify (feed 44571, Hamilton County law dispatch) — it needs a click because of browser autoplay rules.</p>
+      <!-- Broadcastify retired third-party embeds in 2025, so no iframe here.
+           If we ever host our own Icecast feed, set STREAM_URL in app.js and the
+           native <audio> player takes over from the notice below. -->
+      <audio id="scanner-audio" controls preload="none" hidden></audio>
+      <div class="listen" id="scanner-notice">
+        <p class="listen-lede">
+          Live audio can't be embedded here anymore — Broadcastify retired
+          third-party embeds for security reasons, and its web player now wants a
+          free account. These links play without one.
+        </p>
+        <div class="listen-actions">
+          <a class="chip accent" href="https://scannerradio.app/scanners-hamilton-county?n=MzI0OQ" target="_blank" rel="noopener">Scanner Radio app — no account ↗</a>
+          <a class="chip" href="https://www.broadcastify.com/listen/feed/44571" target="_blank" rel="noopener">Broadcastify feed 44571 ↗</a>
+        </div>
+        <p class="note">
+          Scanner Radio is free on iOS and Android and lists all 29 Hamilton
+          County feeds (CPD Adam/Baker/Charlie, county law, fire, EMS, THP, rail)
+          with no sign-in. The Broadcastify link is Hamilton County law dispatch
+          and needs a free Broadcastify account in a browser.
+        </p>
+      </div>
       <div class="legend">
         <h3>Status</h3>
         <ul>

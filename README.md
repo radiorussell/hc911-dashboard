@@ -98,9 +98,14 @@ python3 -m http.server 8000
 
 - Dispatch text is a caller's or dispatcher's words, not a verified fact. A call
   type of "MVC Injuries" does not mean anyone was hurt.
-- The scanner is Broadcastify's own player and audio, embedded (the raw MP3
-  endpoints reject anonymous requests). Leave the player to Broadcastify; do not
-  re-host or record the audio.
+- Live scanner audio cannot be embedded: Broadcastify retired third-party feed
+  embeds in 2025 (`api.broadcastify.com/embed/player` now answers "The embed feed
+  function has been deprecated for security reasons") and its web player requires
+  a free account. The page therefore links out instead of iframing. Set
+  `STREAM_URL` in `assets/app.js` to switch to a native `<audio>` player once an
+  Icecast mount we control (or a partner provider's second stream) exists — that
+  is Broadcastify's own recommended path and needs no account for listeners. Do
+  not relay Broadcastify's mount; they block it and it breaks their terms.
 - Incident data is public record. Keep the source link and don't imply agency
   endorsement.
 - `data/` commits every five minutes, so the repo history grows. That is
