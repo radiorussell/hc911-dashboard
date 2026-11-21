@@ -1,17 +1,147 @@
 {
- "updated": "2026-11-21T04:06:11+00:00",
+ "updated": "2026-11-21T04:12:21+00:00",
  "counts": {
-  "year": 368823,
+  "year": 368834,
   "day": 0
  },
  "raw_rows": 21,
  "incidents": [
   {
+   "id": "9821093",
+   "sequence": "2026-11-29661",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:12:03Z",
+   "created": "2026-11-21T04:12:03Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3021 ALTON PARK BLVD",
+   "cross": "SHIPP AVE/W 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "1404",
+   "priority": "PRI 1",
+   "lat": 35.019709,
+   "lon": -85.315427,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821092",
+   "sequence": "2026-11-29660",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:12:03Z",
+   "created": "2026-11-21T04:12:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3021 ALTON PARK BLVD",
+   "cross": "SHIPP AVE/W 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.019709,
+   "lon": -85.315427,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821088",
+   "sequence": "2026-11-29659",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:12:03Z",
+   "created": "2026-11-21T04:11:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3021 ALTON PARK BLVD",
+   "cross": "SHIPP AVE/W 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.019709,
+   "lon": -85.315427,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821083",
+   "sequence": "2026-11-29652",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:09:22Z",
+   "created": "2026-11-21T04:09:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2042 CRESCENT CLUB DR",
+   "cross": "ADAMS RD/HAMILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.126423,
+   "lon": -85.232645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821079",
+   "sequence": "2026-11-29649",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-21T04:07:02Z",
+   "created": "2026-11-21T04:07:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2467 15TH AVE",
+   "cross": "No Cross Street/WESTSIDE DR",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.012954,
+   "lon": -85.271655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821076",
    "sequence": "2026-11-29648",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:05:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:04:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,9 +165,9 @@
   {
    "id": "9821075",
    "sequence": "2026-11-29646",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T04:02:25Z",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T04:02:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -59,89 +189,11 @@
    "notable": false
   },
   {
-   "id": "9821074",
-   "sequence": "2026-11-29645",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T04:01:03Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4619 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.066709,
-   "lon": -85.107041,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821072",
-   "sequence": "2026-11-29643",
-   "type": "Elevator Emergency",
-   "status": "On Scene",
-   "status_at": "2026-11-21T04:04:44Z",
-   "created": "2026-11-21T03:58:57Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "515 VINE ST",
-   "cross": "HOUSTON ST/DOUGLAS ST",
-   "city": "CHATTANOOGA",
-   "zone": "102 UTC X",
-   "priority": "PRI 3",
-   "lat": 35.049178,
-   "lon": -85.302365,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821070",
-   "sequence": "2026-11-29641",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T03:58:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1701 - 1799 S HOLTZCLAW AVE",
-   "cross": "E 17TH ST/E 18TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "504",
-   "priority": "PRI 1",
-   "lat": 35.026917,
-   "lon": -85.289232,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9821069",
    "sequence": "2026-11-29640",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T04:07:45Z",
    "created": "2026-11-21T03:58:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -241,32 +293,6 @@
    "notable": false
   },
   {
-   "id": "9821065",
-   "sequence": "2026-11-29636",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T03:53:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2850 - 2999 HICKORY VALLEY RD",
-   "cross": "OCOEE ST/CLAUDE RAMSEY PKWY",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 2",
-   "lat": 35.066307,
-   "lon": -85.157057,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821064",
    "sequence": "2026-11-29635",
    "type": "Auto Broken Down",
@@ -333,42 +359,16 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1701 - 1799 S HOLTZCLAW AVE",
-   "cross": "E 17TH ST/E 18TH ST",
+   "address": "1606 S HOLTZCLAW AVE",
+   "cross": "E MAIN ST/E 17TH ST",
    "city": "CHATTANOOGA",
    "zone": "B6A",
    "priority": "PRI 1",
-   "lat": 35.026917,
-   "lon": -85.289232,
+   "lat": 35.027409,
+   "lon": -85.288816,
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9821050",
-   "sequence": "2026-11-29629",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-21T03:59:38Z",
-   "created": "2026-11-21T03:42:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "511 BROAD ST",
-   "cross": "W 5TH ST/W 6TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.050473,
-   "lon": -85.310886,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9821042",
