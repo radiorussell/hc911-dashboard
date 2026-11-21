@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T15:40:37+00:00",
+ "updated": "2026-11-21T15:45:38+00:00",
  "counts": {
   "year": 369170,
   "upstream_day": 293,
-  "day": 393,
+  "day": 399,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9821686",
+   "sequence": "2026-11-30104",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:44:45Z",
+   "created": "2026-11-21T15:44:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9106 POTOMAC DR",
+   "cross": "ALLEGHENY DR/SHILOH LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.022643,
+   "lon": -85.104827,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821687",
+   "sequence": "2026-11-30103",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:42:55Z",
+   "created": "2026-11-21T15:42:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 2",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821682",
+   "sequence": "2026-11-30100",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:40:41Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2802 FOX RIDGE RD",
+   "cross": "IMPERIAL DR/POST OAK DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 2",
+   "lat": 35.024133,
+   "lon": -85.08124,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821680",
    "sequence": "2026-11-30098",
@@ -30,6 +108,58 @@
    "priority": "PRI 4",
    "lat": 34.997774,
    "lon": -85.124031,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821679",
+   "sequence": "2026-11-30102",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:38:21Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1601 - 1699 PRATER RD",
+   "cross": "MARIETTA ST/STATE LINE RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.986007,
+   "lon": -85.216616,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821678",
+   "sequence": "2026-11-30101",
+   "type": "MVC No Response",
+   "status": "Queued",
+   "status_at": "2026-11-21T15:41:42Z",
+   "created": "2026-11-21T15:38:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 0",
+   "lat": 35.033372,
+   "lon": -85.159309,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +298,8 @@
    "id": "9821667",
    "sequence": "2026-11-30093",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-21T15:34:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T15:31:42Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,6 +477,32 @@
    "notable": false
   },
   {
+   "id": "9821649",
+   "sequence": "2026-11-30072",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T15:17:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5704 MARLIN RD",
+   "cross": "EASTGATE LOOP/DEBRA RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 2",
+   "lat": 35.007565,
+   "lon": -85.21042,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821637",
    "sequence": "2026-11-30064",
    "type": "MVC No Injuries",
@@ -368,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 35.249184,
    "lon": -85.003898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821638",
-   "sequence": "2026-11-30062",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T15:19:07Z",
-   "created": "2026-11-21T15:07:46Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "137 HARRISON LN",
-   "cross": "DAYTON PIKE/RECO DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.236628,
-   "lon": -85.197958,
    "units": 1,
    "stacked": false,
    "notable": false
