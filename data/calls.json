@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T22:50:38+00:00",
+ "updated": "2026-11-21T22:55:38+00:00",
  "counts": {
   "year": 369517,
   "upstream_day": 640,
-  "day": 867,
+  "day": 871,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9822396",
+   "sequence": "2026-11-30576",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T22:53:55Z",
+   "created": "2026-11-21T22:53:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "256 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.996418,
+   "lon": -85.31808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822394",
+   "sequence": "2026-11-30575",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:51:28Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6508 HARRISON PIKE",
+   "cross": "MONTCREST DR/LAKE SHORE TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 1",
+   "lat": 35.122232,
+   "lon": -85.152501,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822395",
+   "sequence": "2026-11-30574",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T22:51:28Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9328 LANCER LN",
+   "cross": "DUKE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.005342,
+   "lon": -85.113961,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822388",
    "sequence": "2026-11-30570",
@@ -35,37 +113,11 @@
    "notable": true
   },
   {
-   "id": "9822386",
-   "sequence": "2026-11-30568",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T22:48:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2110 KIRBY AVE",
-   "cross": "S WILLOW ST/S KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.030146,
-   "lon": -85.273303,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822385",
    "sequence": "2026-11-30567",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:48:08Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T22:51:41Z",
    "created": "2026-11-21T22:48:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9822384",
    "sequence": "2026-11-30572",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:50:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T22:47:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,89 +165,11 @@
    "notable": false
   },
   {
-   "id": "9822378",
-   "sequence": "2026-11-30563",
-   "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T22:42:56Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "704 S LOVELL AVE",
-   "cross": "DELAWARE DR/MARYLAND DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.001652,
-   "lon": -85.232883,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9822377",
-   "sequence": "2026-11-30562",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:42:00Z",
-   "created": "2026-11-21T22:41:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6716 WILLOW TRACE DR",
-   "cross": "No Cross Street/WILLOW BROOK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.049808,
-   "lon": -85.166851,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822376",
-   "sequence": "2026-11-30561",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T22:38:28Z",
-   "created": "2026-11-21T22:38:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1160 TOWNE HILLS DR",
-   "cross": "WINDING LN/TOWNE HILLS LN",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
-   "lat": 35.148062,
-   "lon": -85.246932,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822375",
    "sequence": "2026-11-30560",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:49:58Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T22:51:43Z",
    "created": "2026-11-21T22:37:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.047758,
    "lon": -85.259558,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822314",
-   "sequence": "2026-11-30520",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:26:43Z",
-   "created": "2026-11-21T21:49:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2721 6TH AVE",
-   "cross": "E 25TH STREET CT/E 28TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
-   "lat": 35.011425,
-   "lon": -85.280848,
    "units": 1,
    "stacked": false,
    "notable": false
