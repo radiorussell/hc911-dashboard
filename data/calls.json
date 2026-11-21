@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-21T21:00:43+00:00",
+ "updated": "2026-11-21T21:05:37+00:00",
  "counts": {
   "year": 369435,
   "upstream_day": 558,
-  "day": 757,
+  "day": 759,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9822245",
+   "sequence": "2026-11-30464",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-21T21:03:13Z",
+   "created": "2026-11-21T21:02:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6459 FOXBORO DR",
+   "cross": "HAMBY CIR/HAMBY CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.065093,
+   "lon": -85.163144,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822243",
    "sequence": "2026-11-30462",
@@ -30,32 +56,6 @@
    "priority": "PRI 4",
    "lat": 35.068392,
    "lon": -85.167091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822241",
-   "sequence": "2026-11-30460",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T20:57:08Z",
-   "created": "2026-11-21T20:56:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3114 ROSE TER",
-   "cross": "BIRDS MILL RD/CLEARVIEW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.029019,
-   "lon": -85.256343,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +220,8 @@
    "id": "9822198",
    "sequence": "2026-11-30433",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T20:51:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T21:05:00Z",
    "created": "2026-11-21T20:37:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9822123",
-   "sequence": "2026-11-30375",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:42:24Z",
-   "created": "2026-11-21T19:44:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10538 HIXSON PIKE",
-   "cross": "SEQUOYAH ACCESS RD/IGOU FERRY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.23763,
-   "lon": -85.107807,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822113",
    "sequence": "2026-11-30368",
    "type": "Assault EMS Needed",
@@ -579,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9821938",
-   "sequence": "2026-11-30252",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-21T18:08:56Z",
-   "created": "2026-11-21T18:01:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "209 N HOLTZCLAW AVE",
-   "cross": "OAK ST/E 5TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.039944,
-   "lon": -85.28229,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9821863",
