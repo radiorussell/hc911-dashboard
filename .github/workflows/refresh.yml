@@ -44,7 +44,10 @@ jobs:
       - name: Stage the static site
         run: |
           mkdir -p _site
-          cp index.html weather.html _site/
+          # Root-level files are listed explicitly — Pages serves only _site/, so a
+          # new root file (favicon.ico, site.webmanifest, ...) is invisible until
+          # it is added here.
+          cp index.html weather.html favicon.ico site.webmanifest _site/
           cp -r assets data _site/
           touch _site/.nojekyll
 
