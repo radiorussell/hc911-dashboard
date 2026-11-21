@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T08:05:26+00:00",
+ "updated": "2026-11-21T08:11:21+00:00",
  "counts": {
-  "year": 368961,
-  "upstream_day": 85,
+  "year": 368965,
+  "upstream_day": 89,
   "day": 122,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 16,
  "incidents": [
   {
    "id": "9821308",
@@ -38,8 +38,8 @@
    "id": "9821305",
    "sequence": "2026-11-29824",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T08:09:38Z",
    "created": "2026-11-21T08:02:00Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -91,7 +91,7 @@
    "sequence": "2026-11-29821",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T08:07:58Z",
    "created": "2026-11-21T07:58:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9821295",
    "sequence": "2026-11-29818",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T07:57:19Z",
+   "status": "Enroute",
+   "status_at": "2026-11-21T08:09:46Z",
    "created": "2026-11-21T07:56:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +186,6 @@
    "priority": "PRI 3",
    "lat": 35.245883,
    "lon": -85.166207,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821287",
-   "sequence": "2026-11-29814",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T07:48:16Z",
-   "created": "2026-11-21T07:48:16Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9821280",
-   "sequence": "2026-11-29809",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T07:44:34Z",
-   "created": "2026-11-21T07:44:34Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2131 - 2240 HIGHWAY 27 SB",
-   "cross": "EXIT TSATI TER OFF RAMP SB/EXIT HIGHWAY 27 OFF RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 2",
-   "lat": 35.285852,
-   "lon": -85.152484,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821278",
    "sequence": "2026-11-29807",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T07:49:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T08:09:14Z",
    "created": "2026-11-21T07:43:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
