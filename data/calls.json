@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-21T08:41:22+00:00",
+ "updated": "2026-11-21T08:47:23+00:00",
  "counts": {
   "year": 368974,
   "upstream_day": 98,
-  "day": 136,
+  "day": 138,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9821324",
-   "sequence": "2026-11-29840",
+   "id": "9821329",
+   "sequence": "2026-11-29843",
    "type": "EMS CALL",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-21T08:39:29Z",
-   "jurisdiction": "Chattanooga PD",
+   "created": "2026-11-21T08:42:46Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "5100 BEULAH AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
+   "address": "5856 HEFNER WAY",
+   "cross": "LU LN/JEN RUE LN",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
    "priority": "PRI 1",
-   "lat": 34.992237,
-   "lon": -85.329195,
+   "lat": 35.065668,
+   "lon": -85.029954,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9821325",
    "sequence": "2026-11-29841",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T08:46:50Z",
    "created": "2026-11-21T08:39:29Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -53,6 +53,32 @@
    "cross": "W 51ST ST/W 52ND ST",
    "city": "CHATTANOOGA",
    "zone": "1402",
+   "priority": "PRI 1",
+   "lat": 34.992237,
+   "lon": -85.329195,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821324",
+   "sequence": "2026-11-29840",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-21T08:47:01Z",
+   "created": "2026-11-21T08:39:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5100 BEULAH AVE",
+   "cross": "W 51ST ST/W 52ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
    "priority": "PRI 1",
    "lat": 34.992237,
    "lon": -85.329195,
@@ -90,8 +116,8 @@
    "id": "9821322",
    "sequence": "2026-11-29838",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-21T08:30:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T08:30:00Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -139,63 +165,11 @@
    "notable": true
   },
   {
-   "id": "9821316",
-   "sequence": "2026-11-29832",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T08:13:52Z",
-   "created": "2026-11-21T08:13:52Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.062053,
-   "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821317",
-   "sequence": "2026-11-29833",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T08:13:52Z",
-   "created": "2026-11-21T08:13:52Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 1",
-   "lat": 35.062053,
-   "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821315",
    "sequence": "2026-11-29831",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T08:25:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T08:41:36Z",
    "created": "2026-11-21T08:13:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -219,7 +193,7 @@
   {
    "id": "9821301",
    "sequence": "2026-11-29822",
-   "type": "MVC Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-21T08:02:23Z",
    "created": "2026-11-21T07:59:17Z",
@@ -235,12 +209,12 @@
    "cross": "N WILLOW ST/N KELLEY ST",
    "city": "CHATTANOOGA",
    "zone": "B4",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.041667,
    "lon": -85.267359,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9821295",
@@ -272,8 +246,8 @@
    "id": "9821284",
    "sequence": "2026-11-29813",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T08:35:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T08:41:50Z",
    "created": "2026-11-21T07:47:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,58 +264,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821275",
-   "sequence": "2026-11-29804",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-21T07:51:17Z",
-   "created": "2026-11-21T07:36:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5773 BRAINERD RD",
-   "cross": "DEBRA RD/GREENWAY VIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.013349,
-   "lon": -85.212358,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821265",
-   "sequence": "2026-11-29799",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": "2026-11-21T07:28:37Z",
-   "created": "2026-11-21T07:20:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 2",
-   "lat": 35.048719,
-   "lon": -85.290431,
    "units": 1,
    "stacked": false,
    "notable": false
