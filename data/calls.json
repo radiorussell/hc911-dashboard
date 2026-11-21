@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-21T09:53:22+00:00",
+ "updated": "2026-11-21T09:59:22+00:00",
  "counts": {
-  "year": 368998,
-  "upstream_day": 122,
+  "year": 369000,
+  "upstream_day": 124,
   "day": 169,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9821381",
    "sequence": "2026-11-29874",
    "type": "AFA Commercial",
-   "status": "Queued",
-   "status_at": "2026-11-21T09:53:03Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T09:59:18Z",
    "created": "2026-11-21T09:53:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -30,32 +30,6 @@
    "priority": "PRI 1",
    "lat": 35.145599,
    "lon": -85.249957,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821377",
-   "sequence": "2026-11-29871",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-21T09:46:47Z",
-   "created": "2026-11-21T09:46:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1601 MONTEREY DR",
-   "cross": "SIENER LN/CAROUSEL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.051658,
-   "lon": -85.245501,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,84 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.103817,
    "lon": -85.284292,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821363",
-   "sequence": "2026-11-29857",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T09:15:48Z",
-   "created": "2026-11-21T09:15:48Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "11754 OLA WAY",
-   "cross": "GAMBLE RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 5",
-   "priority": "PRI 2",
-   "lat": 35.261548,
-   "lon": -85.042988,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821362",
-   "sequence": "2026-11-29856",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T09:15:48Z",
-   "created": "2026-11-21T09:15:48Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11754 OLA WAY",
-   "cross": "GAMBLE RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.261548,
-   "lon": -85.042988,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821360",
-   "sequence": "2026-11-29855",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T09:33:40Z",
-   "created": "2026-11-21T09:14:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "11754 OLA WAY",
-   "cross": "GAMBLE RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.261548,
-   "lon": -85.042988,
    "units": 1,
    "stacked": false,
    "notable": false
