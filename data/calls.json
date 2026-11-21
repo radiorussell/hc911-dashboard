@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T20:55:37+00:00",
+ "updated": "2026-11-21T21:00:43+00:00",
  "counts": {
-  "year": 369428,
-  "upstream_day": 551,
-  "day": 752,
+  "year": 369435,
+  "upstream_day": 558,
+  "day": 757,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9822234",
-   "sequence": "2026-11-30457",
-   "type": "Unknown 911",
+   "id": "9822243",
+   "sequence": "2026-11-30462",
+   "type": "Abandoned Auto",
    "status": "Queued",
-   "status_at": "2026-11-21T20:54:15Z",
-   "created": "2026-11-21T20:53:47Z",
+   "status_at": "2026-11-21T20:59:59Z",
+   "created": "2026-11-21T20:59:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2106 E 24TH STREET PL",
-   "cross": "S ORCHARD KNOB AVE/4TH AVE",
+   "address": "BORISS DR / BISHOP DR",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "B7A",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.068392,
+   "lon": -85.167091,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822241",
+   "sequence": "2026-11-30460",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T20:57:08Z",
+   "created": "2026-11-21T20:56:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3114 ROSE TER",
+   "cross": "BIRDS MILL RD/CLEARVIEW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
    "priority": "PRI 3",
-   "lat": 35.015507,
-   "lon": -85.282014,
+   "lat": 35.029019,
+   "lon": -85.256343,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.071838,
    "lon": -85.310493,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822211",
-   "sequence": "2026-11-30441",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-21T20:51:06Z",
-   "created": "2026-11-21T20:39:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2335 JENNIFER DR",
-   "cross": "PINECREST DR/BENDING OAK DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.036214,
-   "lon": -85.119219,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +350,8 @@
    "id": "9822170",
    "sequence": "2026-11-30412",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T20:46:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T20:57:19Z",
    "created": "2026-11-21T20:14:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9822124",
-   "sequence": "2026-11-30377",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-21T20:13:07Z",
-   "created": "2026-11-21T19:45:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.034727,
-   "lon": -85.26761,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822123",
    "sequence": "2026-11-30375",
    "type": "EMS CALL",
@@ -555,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9822079",
-   "sequence": "2026-11-30341",
-   "type": "MVC Entrapment",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T20:18:09Z",
-   "created": "2026-11-21T19:23:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "HIGHWAY 58 / GREENWOOD RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.168144,
-   "lon": -85.078092,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9822077",
    "sequence": "2026-11-30340",
    "type": "MVC Entrapment",
@@ -607,32 +555,6 @@
    "notable": true
   },
   {
-   "id": "9822070",
-   "sequence": "2026-11-30337",
-   "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:20:12Z",
-   "created": "2026-11-21T19:19:51Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "19 W ONTARIO AVE",
-   "cross": "DEFUE ST/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 4",
-   "lat": 35.094336,
-   "lon": -85.309247,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821997",
    "sequence": "2026-11-30293",
    "type": "Deceptive Practice",
@@ -654,32 +576,6 @@
    "priority": "PRI 4",
    "lat": 35.067882,
    "lon": -85.317512,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821976",
-   "sequence": "2026-11-30278",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T18:17:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1244 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 4",
-   "lat": 35.042963,
-   "lon": -85.318123,
    "units": 1,
    "stacked": false,
    "notable": false
