@@ -1,18 +1,174 @@
 {
- "updated": "2026-11-21T17:00:41+00:00",
+ "updated": "2026-11-21T17:05:42+00:00",
  "counts": {
   "year": 369241,
   "upstream_day": 364,
-  "day": 483,
+  "day": 493,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9821849",
+   "sequence": "2026-11-30198",
+   "type": "Fire Special Assign",
+   "status": "Enroute",
+   "status_at": "2026-11-21T17:05:40Z",
+   "created": "2026-11-21T17:04:27Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9034 CAREER LN",
+   "cross": "HIGHWAY 58/MAHAN GAP RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 3",
+   "lat": 35.181425,
+   "lon": -85.061733,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9821846",
+   "sequence": "2026-11-30197",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:03:00Z",
+   "created": "2026-11-21T17:02:32Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "523 SHARONDALE RD",
+   "cross": "S TERRACE/MADONNA AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 35.005388,
+   "lon": -85.236956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821847",
+   "sequence": "2026-11-30196",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:02:25Z",
+   "created": "2026-11-21T17:02:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8634 HIGHWAY 58",
+   "cross": "BRAMLETT RD/GOLDEN POND LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 0",
+   "lat": 35.169585,
+   "lon": -85.075715,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821845",
+   "sequence": "2026-11-30195",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:01:00Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4704 MAYWOOD LN",
+   "cross": "RIGHTON LN/ROCKY RIVER RD",
+   "city": "CHATTANOOGA",
+   "zone": "602",
+   "priority": "PRI 1",
+   "lat": 35.078768,
+   "lon": -85.193437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821844",
+   "sequence": "2026-11-30194",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:01:00Z",
+   "created": "2026-11-21T17:01:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4704 MAYWOOD LN",
+   "cross": "RIGHTON LN/ROCKY RIVER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.078768,
+   "lon": -85.193437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821843",
+   "sequence": "2026-11-30193",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T17:00:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4704 MAYWOOD LN",
+   "cross": "RIGHTON LN/ROCKY RIVER RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.078768,
+   "lon": -85.193437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821831",
    "sequence": "2026-11-30188",
    "type": "Theft",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-21T16:54:01Z",
    "created": "2026-11-21T16:53:21Z",
    "jurisdiction": "Chattanooga PD",
@@ -31,7 +187,7 @@
    "lat": 35.03602,
    "lon": -85.146643,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -116,8 +272,8 @@
    "id": "9821826",
    "sequence": "2026-11-30183",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:04:14Z",
    "created": "2026-11-21T16:51:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -247,7 +403,7 @@
    "sequence": "2026-11-30174",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-21T17:03:25Z",
    "created": "2026-11-21T16:43:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -335,13 +491,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "509 SHARONDALE RD",
+   "address": "523 SHARONDALE RD",
    "cross": "S TERRACE/MADONNA AVE",
    "city": "EAST RIDGE",
    "zone": "ERPD CENTRAL",
    "priority": "PRI 3",
-   "lat": 35.006693,
-   "lon": -85.236248,
+   "lat": 35.005388,
+   "lon": -85.236956,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 35.188113,
    "lon": -85.246304,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821788",
-   "sequence": "2026-11-30155",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-21T16:39:00Z",
-   "created": "2026-11-21T16:33:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2988 CLIFTON TER",
-   "cross": "CLIFTON TERRACE ALY/E 30TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.009353,
-   "lon": -85.298322,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +818,8 @@
    "id": "9821704",
    "sequence": "2026-11-30117",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T16:39:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T17:02:32Z",
    "created": "2026-11-21T16:07:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
