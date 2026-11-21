@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T07:29:22+00:00",
+ "updated": "2026-11-21T07:35:22+00:00",
  "counts": {
   "year": 368943,
   "upstream_day": 67,
-  "day": 94,
+  "day": 97,
   "day_basis": "midnight"
  },
  "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9821270",
+   "sequence": "2026-11-29802",
+   "type": "Alarm Distress",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T07:32:00Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5002 UNIVERSITY DR",
+   "cross": "TAYLOR CIR/HARMONY LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 2",
+   "lat": 35.048697,
+   "lon": -85.048683,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821269",
+   "sequence": "2026-11-29801",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T07:31:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 41ST ST / 15TH AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.993808,
+   "lon": -85.279973,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821265",
    "sequence": "2026-11-29799",
@@ -82,58 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.047333,
    "lon": -85.308598,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821247",
-   "sequence": "2026-11-29781",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:42:49Z",
-   "created": "2026-11-21T06:31:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2407 GLASS ST",
-   "cross": "LATTA ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.06491,
-   "lon": -85.251239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821221",
-   "sequence": "2026-11-29760",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T06:39:15Z",
-   "created": "2026-11-21T05:58:49Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2505 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.026082,
-   "lon": -85.311793,
    "units": 1,
    "stacked": false,
    "notable": false
