@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-21T05:41:22+00:00",
+ "updated": "2026-11-21T05:47:22+00:00",
  "counts": {
   "year": 368904,
   "upstream_day": 28,
-  "day": 42,
+  "day": 46,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9821200",
-   "sequence": "2026-11-29746",
+   "id": "9821206",
+   "sequence": "2026-11-29750",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-21T05:38:19Z",
-   "created": "2026-11-21T05:38:19Z",
+   "status_at": "2026-11-21T05:45:04Z",
+   "created": "2026-11-21T05:45:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -35,11 +35,89 @@
    "notable": false
   },
   {
+   "id": "9821207",
+   "sequence": "2026-11-29751",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T05:45:04Z",
+   "created": "2026-11-21T05:45:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1201 BOYNTON DR",
+   "cross": "GATEWAY AVE/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 1",
+   "lat": 35.045229,
+   "lon": -85.32022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821203",
+   "sequence": "2026-11-29749",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-21T05:44:34Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1201 BOYNTON DR",
+   "cross": "GATEWAY AVE/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.045229,
+   "lon": -85.32022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821200",
+   "sequence": "2026-11-29746",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": "2026-11-21T05:45:59Z",
+   "created": "2026-11-21T05:38:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1201 BOYNTON DR",
+   "cross": "GATEWAY AVE/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 2",
+   "lat": 35.045229,
+   "lon": -85.32022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9821201",
    "sequence": "2026-11-29747",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:38:19Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:46:13Z",
    "created": "2026-11-21T05:38:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -87,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9821197",
-   "sequence": "2026-11-29743",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-21T05:35:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "231 WALNUT ST",
-   "cross": "E AQUARIUM WAY/E 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.054442,
-   "lon": -85.307856,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821193",
    "sequence": "2026-11-29740",
    "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T05:45:50Z",
    "created": "2026-11-21T05:32:28Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -186,58 +238,6 @@
    "priority": "PRI 3",
    "lat": 34.988878,
    "lon": -85.207332,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821188",
-   "sequence": "2026-11-29734",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": "2026-11-21T05:36:23Z",
-   "created": "2026-11-21T05:27:47Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7979 BOSTON LN",
-   "cross": "THRASHER PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 1",
-   "lat": 35.1967,
-   "lon": -85.191816,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821186",
-   "sequence": "2026-11-29733",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T05:25:45Z",
-   "created": "2026-11-21T05:25:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "603 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.117662,
-   "lon": -85.278318,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -399,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9821172",
-   "sequence": "2026-11-29727",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-21T05:35:58Z",
-   "created": "2026-11-21T05:17:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "41 - 93 HIGHWAY 27 SB",
-   "cross": "EXIT W MAIN ST ON RAMP SB/EXIT W M L KING BLVD E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 4",
-   "lat": 35.041432,
-   "lon": -85.315305,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9821167",
    "sequence": "2026-11-29719",
    "type": "Check For A Hazard",
@@ -439,13 +413,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "8001 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/STILL HOLLOW LOOP",
+   "address": "8979 VOLKSWAGEN DR",
+   "cross": "FERDINAND PIECH WAY/EXIT 9 E ON RAMP SB",
    "city": "CHATTANOOGA",
-   "zone": "C6",
+   "zone": "C9",
    "priority": "PRI 2",
-   "lat": 35.080045,
-   "lon": -85.132664,
+   "lat": 35.074742,
+   "lon": -85.113151,
    "units": 1,
    "stacked": false,
    "notable": false
