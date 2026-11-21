@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-21T17:30:38+00:00",
+ "updated": "2026-11-21T17:35:38+00:00",
  "counts": {
   "year": 369257,
   "upstream_day": 380,
-  "day": 506,
+  "day": 511,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9821891",
+   "sequence": "2026-11-30216",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:34:57Z",
+   "created": "2026-11-21T17:34:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "915 FEDERAL ST",
+   "cross": "ALBANY ST/MOUNT VERNON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.073499,
+   "lon": -85.294794,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821890",
+   "sequence": "2026-11-30215",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-21T17:34:05Z",
+   "created": "2026-11-21T17:33:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "409 GLENWOOD DR",
+   "cross": "E 3RD ST/HEALTHY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.037943,
+   "lon": -85.261471,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821877",
    "sequence": "2026-11-30211",
@@ -30,32 +82,6 @@
    "priority": "PRI 4",
    "lat": 35.008709,
    "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821871",
-   "sequence": "2026-11-30210",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-21T17:25:10Z",
-   "created": "2026-11-21T17:21:30Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4500 HOWARDSVILLE RD",
-   "cross": "RED CLAY RD/APISON PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 2",
-   "lat": 35.005012,
-   "lon": -84.997279,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +116,8 @@
    "id": "9821870",
    "sequence": "2026-11-30207",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T17:35:38Z",
    "created": "2026-11-21T17:20:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +506,8 @@
    "id": "9821735",
    "sequence": "2026-11-30138",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-21T17:12:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-21T17:30:46Z",
    "created": "2026-11-21T16:20:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
