@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-21T20:00:39+00:00",
+ "updated": "2026-11-21T20:05:37+00:00",
  "counts": {
   "year": 369390,
   "upstream_day": 513,
-  "day": 689,
+  "day": 695,
   "day_basis": "midnight"
  },
- "raw_rows": 47,
+ "raw_rows": 46,
  "incidents": [
+  {
+   "id": "9822159",
+   "sequence": "2026-11-30400",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-21T20:05:01Z",
+   "created": "2026-11-21T20:04:47Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6823 MANASSAS GAP LN",
+   "cross": "JACKSON MILL DR/DOVE FIELD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 3",
+   "lat": 35.172222,
+   "lon": -85.185001,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822149",
    "sequence": "2026-11-30394",
    "type": "Smoke Investigation",
-   "status": "Queued",
-   "status_at": "2026-11-21T20:00:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-21T19:59:57Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9822144",
    "sequence": "2026-11-30392",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:00:51Z",
    "created": "2026-11-21T19:54:38Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -376,8 +402,8 @@
    "id": "9822123",
    "sequence": "2026-11-30375",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T20:03:59Z",
    "created": "2026-11-21T19:44:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -584,8 +610,8 @@
    "id": "9822103",
    "sequence": "2026-11-30363",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-21T19:47:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-21T20:04:02Z",
    "created": "2026-11-21T19:33:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -657,58 +683,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822095",
-   "sequence": "2026-11-30356",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:26:13Z",
-   "created": "2026-11-21T19:26:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8634 HIGHWAY 58",
-   "cross": "BRAMLETT RD/GOLDEN POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.169585,
-   "lon": -85.075715,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9822084",
-   "sequence": "2026-11-30345",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-21T19:23:50Z",
-   "created": "2026-11-21T19:23:50Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "HIGHWAY 58 / GREENWOOD RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.168144,
-   "lon": -85.078092,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822079",
