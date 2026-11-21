@@ -34,7 +34,9 @@ jobs:
             echo "no change"
           else
             git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # Overlapping triggers (schedule + manual dispatch) can race here;
+            # rebase onto whatever landed first and retry once.
+            git push || { git pull --rebase --autostash && git push; }
           fi
 
       - uses: actions/configure-pages@v5
