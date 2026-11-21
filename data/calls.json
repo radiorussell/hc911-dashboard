@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-21T07:53:22+00:00",
+ "updated": "2026-11-21T07:59:21+00:00",
  "counts": {
-  "year": 368953,
-  "upstream_day": 77,
-  "day": 111,
+  "year": 368961,
+  "upstream_day": 85,
+  "day": 115,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9821297",
+   "sequence": "2026-11-29819",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T07:57:19Z",
+   "created": "2026-11-21T07:57:19Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821298",
+   "sequence": "2026-11-29820",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T07:57:19Z",
+   "created": "2026-11-21T07:57:19Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 3",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9821295",
+   "sequence": "2026-11-29818",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-21T07:57:19Z",
+   "created": "2026-11-21T07:56:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9821291",
    "sequence": "2026-11-29816",
@@ -90,8 +168,8 @@
    "id": "9821284",
    "sequence": "2026-11-29813",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T07:55:37Z",
    "created": "2026-11-21T07:47:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +194,8 @@
    "id": "9821282",
    "sequence": "2026-11-29811",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-21T07:57:14Z",
    "created": "2026-11-21T07:45:42Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -264,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.083704,
    "lon": -85.203338,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9821220",
-   "sequence": "2026-11-29758",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-21T06:00:49Z",
-   "created": "2026-11-21T05:54:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2334 DAVID CIR",
-   "cross": "DAVID LN/DAVID LN",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.051269,
-   "lon": -85.169866,
    "units": 1,
    "stacked": false,
    "notable": false
