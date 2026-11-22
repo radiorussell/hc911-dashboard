@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T16:20:37+00:00",
+ "updated": "2026-11-22T16:25:37+00:00",
  "counts": {
   "year": 370164,
   "upstream_day": 301,
-  "day": 393,
+  "day": 395,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9823518",
+   "sequence": "2026-11-31412",
+   "type": "Backup Police",
+   "status": "Enroute",
+   "status_at": "2026-11-22T16:21:55Z",
+   "created": "2026-11-22T16:21:55Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "941 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 2",
+   "lat": 34.998857,
+   "lon": -85.218956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823517",
+   "sequence": "2026-11-31413",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T16:23:51Z",
+   "created": "2026-11-22T16:21:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5905 PORTVIEW CIR",
+   "cross": "PINELAWN DR/PINELAWN DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.025666,
+   "lon": -85.201568,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823516",
    "sequence": "2026-11-31411",
