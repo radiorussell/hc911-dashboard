@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T20:30:37+00:00",
+ "updated": "2026-11-22T20:35:42+00:00",
  "counts": {
   "year": 370377,
   "upstream_day": 514,
-  "day": 663,
+  "day": 667,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9823860",
+   "sequence": "2026-11-31685",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T20:34:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5478 HIGHWAY 153",
+   "cross": "HELENA DR/GADD RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.141384,
+   "lon": -85.248033,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823857",
+   "sequence": "2026-11-31682",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-22T20:32:37Z",
+   "created": "2026-11-22T20:32:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WOODLAND AVE / E KENT ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 4",
+   "lat": 35.064553,
+   "lon": -85.307763,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823856",
    "sequence": "2026-11-31681",
@@ -23,8 +75,8 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "ROSSVILLE BLVD / E 37TH ST",
-   "cross": "",
+   "address": "3601 ROSSVILLE BLVD",
+   "cross": "E 36TH ST/E 37TH ST",
    "city": "CHATTANOOGA",
    "zone": "902",
    "priority": "PRI 1",
@@ -64,8 +116,8 @@
    "id": "9823854",
    "sequence": "2026-11-31678",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:29:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T20:29:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9823853",
    "sequence": "2026-11-31679",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:30:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T20:29:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -101,13 +153,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "ROSSVILLE BLVD / E 37TH ST",
-   "cross": "",
+   "address": "3601 ROSSVILLE BLVD",
+   "cross": "E 36TH ST/E 37TH ST",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.001392,
-   "lon": -85.292162,
+   "lat": 35.002343,
+   "lon": -85.292768,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9823851",
    "sequence": "2026-11-31676",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:29:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T20:29:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,84 +186,6 @@
    "priority": "PRI 2",
    "lat": 35.063084,
    "lon": -85.295652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823850",
-   "sequence": "2026-11-31675",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T20:27:19Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9214 VOLANS LN",
-   "cross": "HYDRUS DR/CARINA TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.194925,
-   "lon": -85.065127,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823848",
-   "sequence": "2026-11-31673",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:26:01Z",
-   "created": "2026-11-22T20:26:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E MARTIN LUTHER KING BLVD / MAGNOLIA ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.041315,
-   "lon": -85.296211,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823847",
-   "sequence": "2026-11-31672",
-   "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T20:25:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "E MARTIN LUTHER KING BLVD / MAGNOLIA ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 2",
-   "lat": 35.041315,
-   "lon": -85.296211,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9823841",
-   "sequence": "2026-11-31667",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-22T20:19:39Z",
-   "created": "2026-11-22T20:19:39Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7909 HALE RD",
-   "cross": "VARNER RD/CRABTREE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 4",
-   "lat": 35.188222,
-   "lon": -85.182174,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823839",
    "sequence": "2026-11-31665",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T20:31:57Z",
    "created": "2026-11-22T20:15:25Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -290,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 34.99621,
    "lon": -85.12369,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823829",
-   "sequence": "2026-11-31659",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:28:31Z",
-   "created": "2026-11-22T20:07:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6730 - 6999 SHIRLEY POND RD",
-   "cross": "RAMSEY ACRES RD/CANTRELL LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.173559,
-   "lon": -85.088404,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -402,8 +324,8 @@
    "id": "9823795",
    "sequence": "2026-11-31634",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T20:20:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T20:34:05Z",
    "created": "2026-11-22T19:38:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823786",
-   "sequence": "2026-11-31627",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-22T20:01:54Z",
-   "created": "2026-11-22T19:32:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ALABAMA AVE / W 52ND ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.991582,
-   "lon": -85.332741,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -699,8 +595,8 @@
    "agency_types": [
     "Law"
    ],
-   "address": "DODSON AVE / WILSON ST",
-   "cross": "",
+   "address": "1300 DODSON AVE",
+   "cross": "WILSON ST/WILCOX BLVD",
    "city": "CHATTANOOGA",
    "zone": "B3",
    "priority": "PRI 1",
