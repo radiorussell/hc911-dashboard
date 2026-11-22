@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-22T00:35:38+00:00",
+ "updated": "2026-11-22T00:40:38+00:00",
  "counts": {
-  "year": 369624,
+  "year": 369629,
   "upstream_day": 0,
-  "day": 1007,
+  "day": 1021,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9822588",
+   "sequence": "2026-11-30726",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-22T00:40:19Z",
+   "created": "2026-11-22T00:40:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3134 CAMBER HL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 2",
+   "lat": 35.098841,
+   "lon": -85.282783,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822586",
+   "sequence": "2026-11-30725",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-22T00:40:19Z",
+   "created": "2026-11-22T00:39:54Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3134 CAMBER HL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "1601",
+   "priority": "PRI 1",
+   "lat": 35.098841,
+   "lon": -85.282783,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822580",
+   "sequence": "2026-11-30720",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T00:36:00Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6100 HIGHWAY 58",
+   "cross": "HARVEST RUN DR/MAHLON DR",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 1",
+   "lat": 35.118211,
+   "lon": -85.124404,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822579",
+   "sequence": "2026-11-30719",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T00:35:59Z",
+   "created": "2026-11-22T00:35:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6100 HIGHWAY 58",
+   "cross": "HARVEST RUN DR/MAHLON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.118211,
+   "lon": -85.124404,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822575",
+   "sequence": "2026-11-30718",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T00:35:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6100 HIGHWAY 58",
+   "cross": "HARVEST RUN DR/MAHLON DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.118211,
+   "lon": -85.124404,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822569",
    "sequence": "2026-11-30712",
@@ -38,8 +168,8 @@
    "id": "9822568",
    "sequence": "2026-11-30711",
    "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T00:36:25Z",
    "created": "2026-11-22T00:26:56Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -80,32 +210,6 @@
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
    "priority": "PRI 1",
-   "lat": 34.998017,
-   "lon": -85.25443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822565",
-   "sequence": "2026-11-30708",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T00:24:53Z",
-   "created": "2026-11-22T00:24:53Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3904 RINGGOLD RD",
-   "cross": "KINGWOOD DR/WELDON DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
    "lat": 34.998017,
    "lon": -85.25443,
    "units": 1,
@@ -195,7 +299,7 @@
    "sequence": "2026-11-30703",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T00:36:03Z",
    "created": "2026-11-22T00:22:56Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,63 +451,11 @@
    "notable": false
   },
   {
-   "id": "9822529",
-   "sequence": "2026-11-30683",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T00:04:58Z",
-   "created": "2026-11-22T00:04:58Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2912 COUNTY LINE RD",
-   "cross": "No Cross Street/TAFT HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.19533,
-   "lon": -85.346367,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822530",
-   "sequence": "2026-11-30684",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T00:04:58Z",
-   "created": "2026-11-22T00:04:58Z",
-   "jurisdiction": "Waldens Ridge Emergency Srv",
-   "agencies": [
-    "Waldens Ridge Emergency Srv"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2912 COUNTY LINE RD",
-   "cross": "No Cross Street/TAFT HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "WALDEN FD HC B",
-   "priority": "PRI 2",
-   "lat": 35.19533,
-   "lon": -85.346367,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822528",
    "sequence": "2026-11-30682",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:18:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T00:36:18Z",
    "created": "2026-11-22T00:04:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9822507",
-   "sequence": "2026-11-30668",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-21T23:54:39Z",
-   "created": "2026-11-21T23:54:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6022 MILL RD",
-   "cross": "GRUBB RD/MARSH RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.149804,
-   "lon": -85.235436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822506",
    "sequence": "2026-11-30667",
    "type": "EMS CALL",
@@ -506,8 +532,8 @@
    "id": "9822503",
    "sequence": "2026-11-30665",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T00:23:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T00:39:04Z",
    "created": "2026-11-21T23:51:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
