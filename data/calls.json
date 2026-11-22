@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T14:00:37+00:00",
+ "updated": "2026-11-22T14:05:38+00:00",
  "counts": {
   "year": 370078,
   "upstream_day": 215,
-  "day": 279,
+  "day": 285,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9823367",
+   "sequence": "2026-11-31303",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T14:03:39Z",
+   "created": "2026-11-22T14:03:39Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.09006,
+   "lon": -85.066629,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823363",
+   "sequence": "2026-11-31301",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T14:02:55Z",
+   "created": "2026-11-22T14:02:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "700 CLARENDON ST",
+   "cross": "No Cross Street/ALBANY ST",
+   "city": "CHATTANOOGA",
+   "zone": "1201",
+   "priority": "PRI 3",
+   "lat": 35.076469,
+   "lon": -85.29779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823362",
+   "sequence": "2026-11-31302",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T14:02:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.09006,
+   "lon": -85.066629,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823361",
+   "sequence": "2026-11-31300",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T14:02:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "700 CLARENDON ST",
+   "cross": "No Cross Street/ALBANY ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 2",
+   "lat": 35.076469,
+   "lon": -85.29779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823357",
    "sequence": "2026-11-31296",
@@ -137,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823343",
-   "sequence": "2026-11-31286",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": "2026-11-22T13:39:13Z",
-   "created": "2026-11-22T13:39:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1701 BROAD ST",
-   "cross": "W 17TH ST/W 18TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.035896,
-   "lon": -85.312484,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823342",
