@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-22T07:35:37+00:00",
+ "updated": "2026-11-22T07:40:37+00:00",
  "counts": {
-  "year": 369929,
-  "upstream_day": 66,
-  "day": 100,
+  "year": 369933,
+  "upstream_day": 70,
+  "day": 101,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9823110",
+   "sequence": "2026-11-31119",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T07:36:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2709 CITICO AVE",
+   "cross": "DWIGHT AVE/LATIMORE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 1",
+   "lat": 35.043053,
+   "lon": -85.256031,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823108",
    "sequence": "2026-11-31118",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-22T07:33:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T07:33:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9823100",
-   "sequence": "2026-11-31110",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T07:34:35Z",
-   "created": "2026-11-22T07:18:54Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3502 OHLS AVE",
-   "cross": "W 35TH ST/W 37TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.010202,
-   "lon": -85.314558,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823101",
    "sequence": "2026-11-31111",
    "type": "EMS CALL",
@@ -105,6 +105,32 @@
    "cross": "W 35TH ST/W 37TH ST",
    "city": "CHATTANOOGA",
    "zone": "1402",
+   "priority": "PRI 1",
+   "lat": 35.010202,
+   "lon": -85.314558,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823100",
+   "sequence": "2026-11-31110",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-22T07:34:35Z",
+   "created": "2026-11-22T07:18:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3502 OHLS AVE",
+   "cross": "W 35TH ST/W 37TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
    "lat": 35.010202,
    "lon": -85.314558,
