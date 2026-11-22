@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T07:05:37+00:00",
+ "updated": "2026-11-22T07:10:37+00:00",
  "counts": {
-  "year": 369915,
-  "upstream_day": 52,
-  "day": 80,
+  "year": 369919,
+  "upstream_day": 56,
+  "day": 83,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9823091",
+   "sequence": "2026-11-31101",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-22T07:10:12Z",
+   "created": "2026-11-22T07:10:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3131 MOUNTAIN CREEK RD",
+   "cross": "VALLEY BRIDGE RD/VALLEY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 0",
+   "lat": 35.1226,
+   "lon": -85.315953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823088",
+   "sequence": "2026-11-31100",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T07:06:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1130 - 1179 INTERSTATE 75 NB",
+   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.084195,
+   "lon": -85.073266,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823085",
+   "sequence": "2026-11-31099",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T07:05:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1512 WILSON ST",
+   "cross": "N HOLTZCLAW AVE/HENDRICKS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.054132,
+   "lon": -85.270658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823080",
    "sequence": "2026-11-31098",
@@ -38,8 +116,8 @@
    "id": "9823082",
    "sequence": "2026-11-31097",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T07:04:52Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T07:07:10Z",
    "created": "2026-11-22T07:04:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -137,58 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823046",
-   "sequence": "2026-11-31077",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T06:24:44Z",
-   "created": "2026-11-22T06:20:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1 - 99 TACOA AVE",
-   "cross": "BRAINERD RD/TACOA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "1302 A",
-   "priority": "PRI 1",
-   "lat": 35.011,
-   "lon": -85.22317,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9823045",
-   "sequence": "2026-11-31076",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T06:50:05Z",
-   "created": "2026-11-22T06:20:10Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1 - 99 TACOA AVE",
-   "cross": "BRAINERD RD/TACOA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.011,
-   "lon": -85.22317,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823037",
