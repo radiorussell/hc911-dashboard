@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-22T09:35:38+00:00",
+ "updated": "2026-11-22T09:40:36+00:00",
  "counts": {
-  "year": 369977,
-  "upstream_day": 114,
-  "day": 157,
+  "year": 369981,
+  "upstream_day": 118,
+  "day": 160,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
   {
+   "id": "9823197",
+   "sequence": "2026-11-31178",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T09:37:23Z",
+   "created": "2026-11-22T09:34:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "16 FRAZIER AVE",
+   "cross": "WOODLAND AVE/FOREST AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.062433,
+   "lon": -85.308026,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9823190",
    "sequence": "2026-11-31175",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T09:27:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T09:27:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9823143",
-   "sequence": "2026-11-31143",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:14:39Z",
-   "created": "2026-11-22T08:11:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4510 ROSSVILLE BLVD",
-   "cross": "E 45TH ST/E 46TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 1",
-   "lat": 34.990813,
-   "lon": -85.289452,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823134",
    "sequence": "2026-11-31137",
    "type": "MVC No Injuries",
@@ -246,8 +246,8 @@
    "id": "9823133",
    "sequence": "2026-11-31136",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-22T09:35:06Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T08:09:26Z",
    "created": "2026-11-22T08:02:29Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
