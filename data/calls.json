@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T10:15:37+00:00",
+ "updated": "2026-11-22T10:20:42+00:00",
  "counts": {
-  "year": 369989,
-  "upstream_day": 126,
+  "year": 369993,
+  "upstream_day": 130,
   "day": 176,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9823218",
@@ -38,8 +38,8 @@
    "id": "9823219",
    "sequence": "2026-11-31194",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T10:14:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T10:14:28Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9823212",
    "sequence": "2026-11-31190",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:16:47Z",
    "created": "2026-11-22T10:05:55Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -163,84 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823201",
-   "sequence": "2026-11-31180",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-22T10:09:42Z",
-   "created": "2026-11-22T09:42:36Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6801 RINGGOLD RD",
-   "cross": "FRAWLEY RD/S SANCTUARY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 2",
-   "lat": 34.988701,
-   "lon": -85.18971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823202",
-   "sequence": "2026-11-31181",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T09:42:36Z",
-   "created": "2026-11-22T09:42:36Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6801 RINGGOLD RD",
-   "cross": "FRAWLEY RD/S SANCTUARY RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.988701,
-   "lon": -85.18971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823200",
-   "sequence": "2026-11-31179",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:53:16Z",
-   "created": "2026-11-22T09:41:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6801 RINGGOLD RD",
-   "cross": "FRAWLEY RD/S SANCTUARY RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988701,
-   "lon": -85.18971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823171",
@@ -290,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.052507,
    "lon": -85.309279,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823095",
-   "sequence": "2026-11-31105",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-22T07:18:24Z",
-   "created": "2026-11-22T07:13:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S HOLTZCLAW AVE / E MAIN ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.028954,
-   "lon": -85.288142,
    "units": 1,
    "stacked": false,
    "notable": false
