@@ -1,20 +1,124 @@
 {
- "updated": "2026-11-22T22:15:37+00:00",
+ "updated": "2026-11-22T22:20:41+00:00",
  "counts": {
-  "year": 370459,
-  "upstream_day": 596,
-  "day": 760,
+  "year": 370465,
+  "upstream_day": 602,
+  "day": 769,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 28,
  "incidents": [
   {
-   "id": "9823979",
-   "sequence": "2026-11-31778",
-   "type": "Police Assist Citizen",
+   "id": "9823988",
+   "sequence": "2026-11-31787",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:20:07Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7204 FAIRINGTON CIR",
+   "cross": "WOOD PINES LN/CARTERWOOD LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 1",
+   "lat": 35.179179,
+   "lon": -85.220807,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823986",
+   "sequence": "2026-11-31784",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-22T22:15:22Z",
-   "created": "2026-11-22T22:15:18Z",
+   "status_at": "2026-11-22T22:18:35Z",
+   "created": "2026-11-22T22:18:35Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7301 RUNYAN RD",
+   "cross": "GAMBLE RD/TIPSY TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 4",
+   "priority": "PRI 2",
+   "lat": 35.256756,
+   "lon": -85.016085,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823985",
+   "sequence": "2026-11-31782",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:18:23Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MARLBORO AVE / RINGGOLD RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 2",
+   "lat": 34.997171,
+   "lon": -85.243107,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823984",
+   "sequence": "2026-11-31783",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:17:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7301 RUNYAN RD",
+   "cross": "GAMBLE RD/TIPSY TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.256756,
+   "lon": -85.016085,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823982",
+   "sequence": "2026-11-31779",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:16:46Z",
+   "created": "2026-11-22T22:16:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +127,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "414 N LOVELL AVE",
-   "cross": "GOLFVIEW DR/GREENVIEW DR",
+   "address": "1766 PINE NEEDLES TRL",
+   "cross": "No Cross Street/IGOU GAP RD",
    "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.021202,
-   "lon": -85.222289,
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.013238,
+   "lon": -85.123625,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823980",
+   "sequence": "2026-11-31780",
+   "type": "Shoplifter",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:17:07Z",
+   "created": "2026-11-22T22:15:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "541 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.096027,
+   "lon": -85.330335,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +194,8 @@
    "id": "9823977",
    "sequence": "2026-11-31776",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:12:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T22:12:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +272,8 @@
    "id": "9823973",
    "sequence": "2026-11-31772",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T22:15:39Z",
    "created": "2026-11-22T22:05:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9823957",
-   "sequence": "2026-11-31756",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:54:27Z",
-   "created": "2026-11-22T21:54:27Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7306 IGOU FERRY RD",
-   "cross": "BETTIS ESTATES LN/SIMS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.204979,
-   "lon": -85.057298,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823956",
    "sequence": "2026-11-31755",
    "type": "EMS CALL",
@@ -503,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9823941",
-   "sequence": "2026-11-31746",
-   "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:31:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3920 HIXSON PIKE",
-   "cross": "NORCROSS RD/ASHLAND TER",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.113261,
-   "lon": -85.260914,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823923",
    "sequence": "2026-11-31731",
    "type": "EMS CALL",
@@ -550,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.038,
    "lon": -85.147349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823918",
-   "sequence": "2026-11-31726",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T21:14:54Z",
-   "created": "2026-11-22T21:12:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT 4 OFF RAMP SB",
-   "cross": "INTERSTATE 75 SB/EXIT 4 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.028544,
-   "lon": -85.175528,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +662,8 @@
    "id": "9823883",
    "sequence": "2026-11-31700",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:40:21Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T22:18:51Z",
    "created": "2026-11-22T20:49:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
