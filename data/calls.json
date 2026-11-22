@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-22T17:50:37+00:00",
+ "updated": "2026-11-22T17:55:36+00:00",
  "counts": {
   "year": 370239,
   "upstream_day": 376,
-  "day": 488,
+  "day": 491,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9823635",
+   "sequence": "2026-11-31509",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:53:56Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2345 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 1",
+   "lat": 35.045427,
+   "lon": -85.156054,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823633",
+   "sequence": "2026-11-31508",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-22T17:50:39Z",
+   "created": "2026-11-22T17:50:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MOUNTAIN CREEK RD / QUAIL LN",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.125475,
+   "lon": -85.31096,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823629",
    "sequence": "2026-11-31506",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:49:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T17:49:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9823626",
    "sequence": "2026-11-31503",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:51:27Z",
    "created": "2026-11-22T17:47:28Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9823625",
    "sequence": "2026-11-31502",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:53:40Z",
    "created": "2026-11-22T17:47:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9823624",
    "sequence": "2026-11-31505",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:52:40Z",
    "created": "2026-11-22T17:47:24Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -195,7 +247,7 @@
    "sequence": "2026-11-31490",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T17:51:23Z",
    "created": "2026-11-22T17:42:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9823588",
-   "sequence": "2026-11-31474",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T17:27:52Z",
-   "created": "2026-11-22T17:24:40Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5080 S TERRACE",
-   "cross": "MCBRIEN RD/SPRING CREEK RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 35.002491,
-   "lon": -85.22387,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823582",
    "sequence": "2026-11-31469",
    "type": "MVC No Injuries",
@@ -558,8 +584,8 @@
    "id": "9823524",
    "sequence": "2026-11-31419",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T17:14:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T17:51:22Z",
    "created": "2026-11-22T16:37:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
