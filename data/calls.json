@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T23:20:38+00:00",
+ "updated": "2026-11-22T23:25:37+00:00",
  "counts": {
   "year": 370525,
   "upstream_day": 662,
-  "day": 843,
+  "day": 851,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9824093",
+   "sequence": "2026-11-31869",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:25:31Z",
+   "created": "2026-11-22T23:25:31Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4611 BEVERLY KAY DR",
+   "cross": "HAL DR/CARR TER",
+   "city": "CHATTANOOGA",
+   "zone": "602",
+   "priority": "PRI 3",
+   "lat": 35.086099,
+   "lon": -85.188131,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824092",
+   "sequence": "2026-11-31868",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:25:30Z",
+   "created": "2026-11-22T23:25:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4611 BEVERLY KAY DR",
+   "cross": "HAL DR/CARR TER",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 2",
+   "lat": 35.086099,
+   "lon": -85.188131,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824082",
+   "sequence": "2026-11-31864",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T23:20:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3535 BROAD ST",
+   "cross": "TENNESSEE AVE/ST ELMO AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 2",
+   "lat": 35.015067,
+   "lon": -85.325438,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824080",
    "sequence": "2026-11-31861",
@@ -30,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.081783,
    "lon": -85.26321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824078",
-   "sequence": "2026-11-31859",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:18:18Z",
-   "created": "2026-11-22T23:18:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3801 CUMMINGS HWY",
-   "cross": "I-24 WB @ EXIT 174 RAMP/FRANCIS ST",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.019695,
-   "lon": -85.384626,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +376,8 @@
    "id": "9824048",
    "sequence": "2026-11-31839",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:02:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:02:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +402,8 @@
    "id": "9824046",
    "sequence": "2026-11-31837",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:01:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:00:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -368,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.001571,
    "lon": -85.156121,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824044",
-   "sequence": "2026-11-31834",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T23:01:28Z",
-   "created": "2026-11-22T22:58:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4800 - 4848 HIXSON PIKE",
-   "cross": "WILLIAMS RD/GREENDALE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.128369,
-   "lon": -85.246543,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -500,32 +526,6 @@
    "lon": -85.190676,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9824008",
-   "sequence": "2026-11-31803",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-22T22:49:06Z",
-   "created": "2026-11-22T22:31:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7710 LEE HWY",
-   "cross": "BONNY OAKS DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.061233,
-   "lon": -85.131847,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -656,32 +656,6 @@
    "lon": -85.123625,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9823969",
-   "sequence": "2026-11-31769",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T22:01:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1428 STOCKYARD PL",
-   "cross": "ST ELMO AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 4",
-   "lat": 35.020209,
-   "lon": -85.322844,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
