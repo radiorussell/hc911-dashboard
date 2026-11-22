@@ -1,46 +1,124 @@
 {
- "updated": "2026-11-22T19:05:41+00:00",
+ "updated": "2026-11-22T19:10:37+00:00",
  "counts": {
-  "year": 370301,
-  "upstream_day": 438,
-  "day": 576,
+  "year": 370308,
+  "upstream_day": 445,
+  "day": 584,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 35,
  "incidents": [
   {
-   "id": "9823743",
-   "sequence": "2026-11-31594",
-   "type": "Deceptive Practice",
+   "id": "9823753",
+   "sequence": "2026-11-31601",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-22T19:05:24Z",
-   "created": "2026-11-22T19:05:24Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-22T19:10:14Z",
+   "created": "2026-11-22T19:10:14Z",
+   "jurisdiction": "Soddy Daisy PD",
    "agencies": [
-    "Chattanooga PD"
+    "Soddy Daisy PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2332 SHALLOWFORD VILLAGE DR",
-   "cross": "AMIN DR/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.043989,
-   "lon": -85.156512,
+   "address": "243 DEPOT ST",
+   "cross": "PRUETT ST/SPRING ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.28848,
+   "lon": -85.161808,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9823741",
-   "sequence": "2026-11-31592",
-   "type": "Unknown 911",
+   "id": "9823754",
+   "sequence": "2026-11-31602",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-22T19:04:51Z",
-   "created": "2026-11-22T19:04:47Z",
+   "status_at": "2026-11-22T19:10:14Z",
+   "created": "2026-11-22T19:10:14Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "243 DEPOT ST",
+   "cross": "PRUETT ST/SPRING ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.28848,
+   "lon": -85.161808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823752",
+   "sequence": "2026-11-31600",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:09:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "243 DEPOT ST",
+   "cross": "PRUETT ST/SPRING ST",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 02 SD B",
+   "priority": "PRI 1",
+   "lat": 35.28848,
+   "lon": -85.161808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823751",
+   "sequence": "2026-11-31599",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:09:57Z",
+   "created": "2026-11-22T19:09:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8381 LAKE SCENE CT",
+   "cross": "SUMMERLIN PL/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 4",
+   "lat": 35.155225,
+   "lon": -85.044919,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823749",
+   "sequence": "2026-11-31598",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:09:22Z",
+   "created": "2026-11-22T19:08:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,16 +127,94 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "2049 S KELLEY ST",
+   "cross": "E 20TH ST/4TH AVE",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "B6A",
    "priority": "PRI 3",
-   "lat": 35.081439,
-   "lon": -85.263662,
+   "lat": 35.018718,
+   "lon": -85.279723,
    "units": 1,
    "stacked": false,
    "notable": false
+  },
+  {
+   "id": "9823748",
+   "sequence": "2026-11-31597",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:09:17Z",
+   "created": "2026-11-22T19:08:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1664 GREENDALE WAY",
+   "cross": "CLOVERDALE DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.126449,
+   "lon": -85.24526,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823745",
+   "sequence": "2026-11-31596",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:06:26Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "RINGGOLD RD / BOYD ST",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996118,
+   "lon": -85.239183,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823744",
+   "sequence": "2026-11-31595",
+   "type": "Fire Assist Citizen",
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:10:13Z",
+   "created": "2026-11-22T19:05:43Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.003813,
+   "lon": -85.241382,
+   "units": 1,
+   "stacked": false,
+   "notable": true
   },
   {
    "id": "9823740",
@@ -116,8 +272,8 @@
    "id": "9823737",
    "sequence": "2026-11-31590",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:07:07Z",
    "created": "2026-11-22T19:02:23Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -142,8 +298,8 @@
    "id": "9823738",
    "sequence": "2026-11-31589",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:02:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:02:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -186,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 34.985086,
    "lon": -85.334005,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823735",
-   "sequence": "2026-11-31587",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:55:50Z",
-   "created": "2026-11-22T18:55:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.032886,
-   "lon": -85.15932,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9823728",
-   "sequence": "2026-11-31581",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:42:21Z",
-   "created": "2026-11-22T18:42:21Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6729 HICKORY BROOK RD",
-   "cross": "HICKORY MEADOW DR/HICKORY CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 2",
-   "lat": 35.052474,
-   "lon": -85.164898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823727",
    "sequence": "2026-11-31580",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T18:54:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T19:09:52Z",
    "created": "2026-11-22T18:41:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +532,8 @@
    "id": "9823704",
    "sequence": "2026-11-31568",
    "type": "Fraud",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:09:12Z",
    "created": "2026-11-22T18:24:45Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -507,7 +611,7 @@
    "sequence": "2026-11-31557",
    "type": "MVC Injuries",
    "status": "At Hospital",
-   "status_at": "2026-11-22T19:03:36Z",
+   "status_at": "2026-11-22T19:06:09Z",
    "created": "2026-11-22T18:22:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
