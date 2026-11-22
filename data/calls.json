@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-22T11:35:42+00:00",
+ "updated": "2026-11-22T11:38:25+00:00",
  "counts": {
   "year": 370010,
   "upstream_day": 147,
-  "day": 200,
+  "day": 203,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9823252",
+   "sequence": "2026-11-31221",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:37:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "125 CHEROKEE BLVD",
+   "cross": "VELMA ST/SPEARS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.064014,
+   "lon": -85.310453,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823251",
+   "sequence": "2026-11-31220",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:35:54Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8462 BAY RUN DR",
+   "cross": "HALE RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.207226,
+   "lon": -85.167044,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9823249",
    "sequence": "2026-11-31218",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:36:01Z",
    "created": "2026-11-22T11:31:38Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
