@@ -1,45 +1,71 @@
 {
- "updated": "2026-11-22T10:00:41+00:00",
+ "updated": "2026-11-22T10:05:39+00:00",
  "counts": {
   "year": 369987,
   "upstream_day": 124,
-  "day": 167,
+  "day": 171,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 15,
  "incidents": [
   {
-   "id": "9823207",
-   "sequence": "2026-11-31185",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T09:55:49Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "id": "9823213",
+   "sequence": "2026-11-31189",
+   "type": "Backup EMS Unit",
+   "status": "Queued",
+   "status_at": "2026-11-22T10:05:26Z",
+   "created": "2026-11-22T10:05:26Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "East Ridge PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
-   "address": "1207 RADMOOR DR",
-   "cross": "N CONCORD RD/RADMOOR LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.010487,
-   "lon": -85.17657,
+   "address": "6801 RINGGOLD RD",
+   "cross": "FRAWLEY RD/S SANCTUARY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 2",
+   "lat": 34.988701,
+   "lon": -85.18971,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
+   "id": "9823211",
+   "sequence": "2026-11-31188",
+   "type": "Missing Juv Not 21",
+   "status": "Queued",
+   "status_at": "2026-11-22T10:03:57Z",
+   "created": "2026-11-22T10:03:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6103 VANCE CIR",
+   "cross": "VANCE RD/VANCE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 1",
+   "lat": 35.03598,
+   "lon": -85.190298,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9823204",
    "sequence": "2026-11-31182",
    "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:55:14Z",
+   "status": "Queued",
+   "status_at": "2026-11-22T09:48:00Z",
    "created": "2026-11-22T09:47:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +217,6 @@
    "notable": true
   },
   {
-   "id": "9823183",
-   "sequence": "2026-11-31171",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T09:19:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3901 13TH AVE",
-   "cross": "E 39TH ST/E 40TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.996559,
-   "lon": -85.281299,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823177",
    "sequence": "2026-11-31170",
    "type": "Noise Complaint",
@@ -264,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.025684,
    "lon": -85.248735,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823160",
-   "sequence": "2026-11-31158",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T09:17:54Z",
-   "created": "2026-11-22T08:50:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
    "units": 1,
    "stacked": false,
    "notable": false
