@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-22T19:20:38+00:00",
+ "updated": "2026-11-22T19:25:37+00:00",
  "counts": {
   "year": 370317,
   "upstream_day": 454,
-  "day": 592,
+  "day": 600,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9823773",
+   "sequence": "2026-11-31618",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:22:47Z",
+   "created": "2026-11-22T19:22:47Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6698 PALMS CT",
+   "cross": "GREENWAY DR/N CONCORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 2",
+   "lat": 35.021295,
+   "lon": -85.174428,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823769",
+   "sequence": "2026-11-31617",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:22:14Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6698 PALMS CT",
+   "cross": "GREENWAY DR/N CONCORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.021295,
+   "lon": -85.174428,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823770",
+   "sequence": "2026-11-31615",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:22:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "205 MANUFACTURERS RD",
+   "cross": "VELMA ST/MIDDLE RIVER  RD",
+   "city": "CHATTANOOGA",
+   "zone": "1204 B",
+   "priority": "PRI 1",
+   "lat": 35.063094,
+   "lon": -85.31271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823767",
+   "sequence": "2026-11-31612",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:21:17Z",
+   "created": "2026-11-22T19:21:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2400 STUART ST",
+   "cross": "WHEELER AVE/N CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.070618,
+   "lon": -85.247504,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823768",
+   "sequence": "2026-11-31613",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:21:17Z",
+   "created": "2026-11-22T19:21:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2400 STUART ST",
+   "cross": "WHEELER AVE/N CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "404",
+   "priority": "PRI 2",
+   "lat": 35.070618,
+   "lon": -85.247504,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823766",
+   "sequence": "2026-11-31614",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:21:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "22 STARVIEW LN",
+   "cross": "CUMMINGS HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.020037,
+   "lon": -85.377895,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823764",
+   "sequence": "2026-11-31611",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:20:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2400 STUART ST",
+   "cross": "WHEELER AVE/N CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.070618,
+   "lon": -85.247504,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823761",
    "sequence": "2026-11-31610",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:23:56Z",
    "created": "2026-11-22T19:19:41Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +246,8 @@
    "id": "9823757",
    "sequence": "2026-11-31606",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:24:29Z",
    "created": "2026-11-22T19:18:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +298,8 @@
    "id": "9823756",
    "sequence": "2026-11-31605",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:18:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:15:36Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +324,8 @@
    "id": "9823750",
    "sequence": "2026-11-31604",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:15:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:12:23Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -160,58 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.089284,
    "lon": -85.312491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823755",
-   "sequence": "2026-11-31603",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:16:18Z",
-   "created": "2026-11-22T19:12:06Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1901 DAYTON BLVD",
-   "cross": "HEDGEWOOD DR/MERRIMAN AVE",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 4",
-   "lat": 35.086434,
-   "lon": -85.315917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823753",
-   "sequence": "2026-11-31601",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:10:14Z",
-   "created": "2026-11-22T19:10:14Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "243 DEPOT ST",
-   "cross": "PRUETT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.28848,
-   "lon": -85.161808,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +402,8 @@
    "id": "9823751",
    "sequence": "2026-11-31599",
    "type": "Burglary",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:09:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:09:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -376,8 +506,8 @@
    "id": "9823740",
    "sequence": "2026-11-31593",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:24:31Z",
    "created": "2026-11-22T19:04:17Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -506,8 +636,8 @@
    "id": "9823727",
    "sequence": "2026-11-31580",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T19:09:52Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T19:23:35Z",
    "created": "2026-11-22T18:41:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,37 +659,11 @@
    "notable": false
   },
   {
-   "id": "9823726",
-   "sequence": "2026-11-31579",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:40:01Z",
-   "created": "2026-11-22T18:40:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2135 CAMDEN ST",
-   "cross": "BRADT ST/DODSON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "402",
-   "priority": "PRI 2",
-   "lat": 35.054652,
-   "lon": -85.260416,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823723",
    "sequence": "2026-11-31578",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:02:54Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T19:21:21Z",
    "created": "2026-11-22T18:39:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -631,58 +735,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823709",
-   "sequence": "2026-11-31569",
-   "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": "2026-11-22T18:41:52Z",
-   "created": "2026-11-22T18:24:15Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9055 HAILEYS POND DR",
-   "cross": "ELLA LN/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 B",
-   "priority": "PRI 1",
-   "lat": 35.079202,
-   "lon": -85.08157,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9823701",
-   "sequence": "2026-11-31558",
-   "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-22T18:25:44Z",
-   "created": "2026-11-22T18:22:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "DODSON AVE / WILSON ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "401",
-   "priority": "PRI 1",
-   "lat": 35.05097,
-   "lon": -85.261726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823700",
