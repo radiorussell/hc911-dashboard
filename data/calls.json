@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-22T18:10:36+00:00",
+ "updated": "2026-11-22T18:15:38+00:00",
  "counts": {
   "year": 370258,
   "upstream_day": 395,
-  "day": 511,
+  "day": 518,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9823672",
+   "sequence": "2026-11-31536",
+   "type": "AFA Hospital",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T18:14:41Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "821 HOUSTON ST",
+   "cross": "E 8TH ST/E MARTIN LUTHER KING BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.045822,
+   "lon": -85.304951,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823671",
+   "sequence": "2026-11-31535",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-22T18:14:25Z",
+   "created": "2026-11-22T18:14:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "413 SPRING ST",
+   "cross": "HARPER ST/DAVENPORT ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.067898,
+   "lon": -85.314482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823664",
+   "sequence": "2026-11-31531",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T18:10:58Z",
+   "created": "2026-11-22T18:10:58Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7031 GLOVER RD",
+   "cross": "SHOALS LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.139072,
+   "lon": -85.147078,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823663",
+   "sequence": "2026-11-31530",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T18:10:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7031 GLOVER RD",
+   "cross": "SHOALS LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.139072,
+   "lon": -85.147078,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823660",
    "sequence": "2026-11-31529",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:10:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T18:09:47Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -191,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9823643",
-   "sequence": "2026-11-31518",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:58:40Z",
-   "created": "2026-11-22T17:58:21Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5291 USHER DR",
-   "cross": "E 52ND ST/HALSEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.988592,
-   "lon": -85.316885,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823642",
    "sequence": "2026-11-31515",
    "type": "EMS CALL",
@@ -295,36 +373,10 @@
    "notable": false
   },
   {
-   "id": "9823635",
-   "sequence": "2026-11-31509",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T17:58:15Z",
-   "created": "2026-11-22T17:53:56Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2345 SHALLOWFORD VILLAGE DR",
-   "cross": "AMIN DR/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.045427,
-   "lon": -85.156054,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823633",
    "sequence": "2026-11-31508",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-22T17:50:39Z",
    "created": "2026-11-22T17:50:22Z",
    "jurisdiction": "Chattanooga PD",
@@ -343,7 +395,7 @@
    "lat": 35.125475,
    "lon": -85.31096,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -423,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823606",
-   "sequence": "2026-11-31490",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-22T17:51:23Z",
-   "created": "2026-11-22T17:42:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1902 E 32ND ST",
-   "cross": "S ORCHARD KNOB AVE/2ND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 4",
-   "lat": 35.007588,
-   "lon": -85.289806,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823605",
@@ -602,58 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.114538,
    "lon": -85.258028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823572",
-   "sequence": "2026-11-31458",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T17:04:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3001 DEE DR",
-   "cross": "GREENWOOD RD/JUDY ANN DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.058241,
-   "lon": -85.243537,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823524",
-   "sequence": "2026-11-31419",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T17:51:22Z",
-   "created": "2026-11-22T16:37:44Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1647 WENDY CIR",
-   "cross": "SMITH MORGAN RD/SMITH MORGAN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.233456,
-   "lon": -85.145742,
    "units": 1,
    "stacked": false,
    "notable": false
