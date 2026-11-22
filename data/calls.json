@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T20:20:39+00:00",
+ "updated": "2026-11-22T20:25:37+00:00",
  "counts": {
   "year": 370371,
   "upstream_day": 508,
-  "day": 649,
+  "day": 653,
   "day_basis": "midnight"
  },
  "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9823846",
+   "sequence": "2026-11-31671",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-22T20:25:20Z",
+   "created": "2026-11-22T20:24:39Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823842",
+   "sequence": "2026-11-31669",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T20:20:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3903 HIXSON PIKE",
+   "cross": "KENSINGTON DR/NORCROSS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.113785,
+   "lon": -85.261847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823841",
    "sequence": "2026-11-31667",
@@ -91,7 +143,7 @@
    "sequence": "2026-11-31658",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T20:21:30Z",
    "created": "2026-11-22T20:07:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -503,32 +555,6 @@
    "notable": false
   },
   {
-   "id": "9823727",
-   "sequence": "2026-11-31580",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T19:23:35Z",
-   "created": "2026-11-22T18:41:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6729 HICKORY BROOK RD",
-   "cross": "HICKORY MEADOW DR/HICKORY CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.052474,
-   "lon": -85.164898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823723",
    "sequence": "2026-11-31578",
    "type": "EMS CALL",
@@ -579,32 +605,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823644",
-   "sequence": "2026-11-31521",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T19:01:09Z",
-   "created": "2026-11-22T17:58:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3831 OOLTEWAH RINGGOLD RD",
-   "cross": "MEMORY LN/ANDROS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.042052,
-   "lon": -85.076028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823351",
