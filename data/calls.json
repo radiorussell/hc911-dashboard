@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-22T11:30:40+00:00",
+ "updated": "2026-11-22T11:35:42+00:00",
  "counts": {
   "year": 370010,
   "upstream_day": 147,
-  "day": 196,
+  "day": 200,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
   {
-   "id": "9823243",
-   "sequence": "2026-11-31213",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:24:53Z",
-   "created": "2026-11-22T11:18:00Z",
+   "id": "9823249",
+   "sequence": "2026-11-31218",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:31:38Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "2904 CALHOUN AVE",
-   "cross": "E 29TH ST/E 30TH ST",
+   "address": "3113 WOOD AVE",
+   "cross": "WILDER ST/ELMENDORF ST",
    "city": "CHATTANOOGA",
-   "zone": "904",
-   "priority": "PRI 2",
-   "lat": 35.011974,
-   "lon": -85.295232,
+   "zone": "1003",
+   "priority": "PRI 1",
+   "lat": 35.077581,
+   "lon": -85.258637,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +90,8 @@
    "id": "9823235",
    "sequence": "2026-11-31205",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:35:27Z",
    "created": "2026-11-22T11:09:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9823228",
-   "sequence": "2026-11-31200",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T10:46:32Z",
-   "created": "2026-11-22T10:46:32Z",
-   "jurisdiction": "Waldens Ridge Emergency Srv",
-   "agencies": [
-    "Waldens Ridge Emergency Srv"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4407 N FAIRMOUNT RD",
-   "cross": "FAIRMOUNT CEMETERY RD/BRUCE LEWIS TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "WALDEN FD HC B",
-   "priority": "PRI 1",
-   "lat": 35.184577,
-   "lon": -85.321514,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823224",
    "sequence": "2026-11-31199",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:11:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T11:34:26Z",
    "created": "2026-11-22T10:45:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
