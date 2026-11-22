@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T13:05:38+00:00",
+ "updated": "2026-11-22T13:10:36+00:00",
  "counts": {
-  "year": 370059,
-  "upstream_day": 196,
-  "day": 259,
+  "year": 370062,
+  "upstream_day": 199,
+  "day": 262,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9823330",
+   "sequence": "2026-11-31279",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T13:06:29Z",
+   "created": "2026-11-22T13:06:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6716 WILLOW BROOK DR",
+   "cross": "No Cross Street/WILLOW TRACE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.049104,
+   "lon": -85.167039,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823331",
+   "sequence": "2026-11-31280",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T13:06:29Z",
+   "created": "2026-11-22T13:06:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6716 WILLOW BROOK DR",
+   "cross": "No Cross Street/WILLOW TRACE DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.049104,
+   "lon": -85.167039,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823329",
+   "sequence": "2026-11-31278",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T13:06:03Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6716 WILLOW BROOK DR",
+   "cross": "No Cross Street/WILLOW TRACE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.049104,
+   "lon": -85.167039,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823325",
    "sequence": "2026-11-31277",
@@ -38,8 +116,8 @@
    "id": "9823319",
    "sequence": "2026-11-31270",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:47:26Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T12:47:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -49,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6123 MOUNTAIN VIEW RD",
-   "cross": "SNOW HILL RD/AMOS RD",
+   "address": "6001-6009 OOLTEWAH GEORGETOWN RD",
+   "cross": "MAIN ST/BRADMORE LN",
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 4",
-   "lat": 35.093487,
-   "lon": -85.06273,
+   "lat": 35.082742,
+   "lon": -85.058535,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9823306",
-   "sequence": "2026-11-31262",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:40:47Z",
-   "created": "2026-11-22T12:34:29Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "109 SEQUOYAH RD",
-   "cross": "DAYTON PIKE/HWY 27 SB @ SEQUOYAH RD - OFF RAMP",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.253974,
-   "lon": -85.181056,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823295",
-   "sequence": "2026-11-31255",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T12:44:51Z",
-   "created": "2026-11-22T12:26:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823292",
    "sequence": "2026-11-31252",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T12:58:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T13:09:18Z",
    "created": "2026-11-22T12:25:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.305708,
    "lon": -85.163983,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823276",
-   "sequence": "2026-11-31239",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T12:47:10Z",
-   "created": "2026-11-22T12:12:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8264 ELLIE PLAZA PL",
-   "cross": "No Cross Street/HIXSON PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.189898,
-   "lon": -85.169178,
    "units": 1,
    "stacked": false,
    "notable": false
