@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T07:45:38+00:00",
+ "updated": "2026-11-22T07:50:38+00:00",
  "counts": {
-  "year": 369933,
-  "upstream_day": 70,
-  "day": 107,
+  "year": 369938,
+  "upstream_day": 75,
+  "day": 111,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9823125",
+   "sequence": "2026-11-31129",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T07:48:46Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7821 SLATERMILL DR",
+   "cross": "STILLWATER CIR/STILLWATER CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 B",
+   "priority": "PRI 2",
+   "lat": 35.076153,
+   "lon": -85.089359,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823122",
+   "sequence": "2026-11-31128",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T07:47:33Z",
+   "created": "2026-11-22T07:47:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 B",
+   "priority": "PRI 2",
+   "lat": 35.026082,
+   "lon": -85.311793,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823121",
+   "sequence": "2026-11-31127",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T07:47:00Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.026082,
+   "lon": -85.311793,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823119",
    "sequence": "2026-11-31125",
    "type": "Harrassing Threats",
-   "status": "Queued",
-   "status_at": "2026-11-22T07:44:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T07:44:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,39 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1920 CHESTNUT ST",
-   "cross": "W 19TH ST/W 20TH ST",
+   "address": "3355 CENTERVIEW LN",
+   "cross": "No Cross Street/ISBILL RD",
    "city": "CHATTANOOGA",
-   "zone": "A10",
+   "zone": "A13 A",
    "priority": "PRI 3",
-   "lat": 35.034346,
-   "lon": -85.315143,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823116",
-   "sequence": "2026-11-31123",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T07:41:03Z",
-   "created": "2026-11-22T07:40:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2709 CITICO AVE",
-   "cross": "DWIGHT AVE/LATIMORE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.043053,
-   "lon": -85.256031,
+   "lat": 35.02643,
+   "lon": -85.372448,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +142,8 @@
    "id": "9823108",
    "sequence": "2026-11-31118",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T07:47:44Z",
    "created": "2026-11-22T07:33:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.064935,
    "lon": -85.314725,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823109",
-   "sequence": "2026-11-31117",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-22T07:32:49Z",
-   "created": "2026-11-22T07:32:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3747 - 3799 CUMMINGS HWY",
-   "cross": "EXIT 174 ON RAMP EB/EXIT 174 OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.018625,
-   "lon": -85.383128,
    "units": 1,
    "stacked": false,
    "notable": false
