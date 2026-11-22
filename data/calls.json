@@ -1,45 +1,71 @@
 {
- "updated": "2026-11-22T10:05:39+00:00",
+ "updated": "2026-11-22T10:10:38+00:00",
  "counts": {
-  "year": 369987,
-  "upstream_day": 124,
-  "day": 171,
+  "year": 369989,
+  "upstream_day": 126,
+  "day": 173,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
-   "id": "9823213",
-   "sequence": "2026-11-31189",
-   "type": "Backup EMS Unit",
+   "id": "9823214",
+   "sequence": "2026-11-31191",
+   "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-22T10:05:26Z",
-   "created": "2026-11-22T10:05:26Z",
-   "jurisdiction": "East Ridge PD",
+   "status_at": "2026-11-22T10:10:33Z",
+   "created": "2026-11-22T10:10:23Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "6801 RINGGOLD RD",
-   "cross": "FRAWLEY RD/S SANCTUARY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 2",
-   "lat": 34.988701,
-   "lon": -85.18971,
+   "address": "3512 LILLIAN CT",
+   "cross": "LILLIAN LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.043784,
+   "lon": -85.236463,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
+   "id": "9823212",
+   "sequence": "2026-11-31190",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T10:05:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4920 BAL HARBOR CIR",
+   "cross": "BAL HARBOR DR/BAL HARBOR DR",
+   "city": "CHATTANOOGA",
+   "zone": "603 A",
+   "priority": "PRI 3",
+   "lat": 35.099134,
+   "lon": -85.193796,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9823211",
    "sequence": "2026-11-31188",
    "type": "Missing Juv Not 21",
-   "status": "Queued",
-   "status_at": "2026-11-22T10:03:57Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:10:25Z",
    "created": "2026-11-22T10:03:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823203",
-   "sequence": "2026-11-31183",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:58:17Z",
-   "created": "2026-11-22T09:47:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1207 RADMOOR DR",
-   "cross": "N CONCORD RD/RADMOOR LN",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.010487,
-   "lon": -85.17657,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823201",
    "sequence": "2026-11-31180",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T09:42:36Z",
+   "type": "Backup EMS Unit",
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:09:42Z",
    "created": "2026-11-22T09:42:36Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -131,7 +131,7 @@
    "cross": "FRAWLEY RD/S SANCTUARY RD",
    "city": "EAST RIDGE",
    "zone": "ERPD EAST",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 34.988701,
    "lon": -85.18971,
    "units": 1,
@@ -186,58 +186,6 @@
    "priority": "PRI 1",
    "lat": 34.988701,
    "lon": -85.18971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823190",
-   "sequence": "2026-11-31175",
-   "type": "Backup Fire Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:46:26Z",
-   "created": "2026-11-22T09:27:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1207 RADMOOR DR",
-   "cross": "N CONCORD RD/RADMOOR LN",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 2",
-   "lat": 35.010487,
-   "lon": -85.17657,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9823177",
-   "sequence": "2026-11-31170",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:51:31Z",
-   "created": "2026-11-22T09:15:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.033508,
-   "lon": -85.243204,
    "units": 1,
    "stacked": false,
    "notable": false
