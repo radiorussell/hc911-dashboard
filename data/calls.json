@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T18:40:37+00:00",
+ "updated": "2026-11-22T18:45:37+00:00",
  "counts": {
   "year": 370289,
   "upstream_day": 426,
-  "day": 561,
+  "day": 564,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9823729",
+   "sequence": "2026-11-31582",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-22T18:44:42Z",
+   "created": "2026-11-22T18:43:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2333 MCCALLIE AVE",
+   "cross": "S LYERLY ST/S WATKINS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.034727,
+   "lon": -85.26761,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823728",
+   "sequence": "2026-11-31581",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T18:42:21Z",
+   "created": "2026-11-22T18:42:21Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6729 HICKORY BROOK RD",
+   "cross": "HICKORY MEADOW DR/HICKORY CREEK RD",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 2",
+   "lat": 35.052474,
+   "lon": -85.164898,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823727",
+   "sequence": "2026-11-31580",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T18:41:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6729 HICKORY BROOK RD",
+   "cross": "HICKORY MEADOW DR/HICKORY CREEK RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.052474,
+   "lon": -85.164898,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823726",
    "sequence": "2026-11-31579",
@@ -90,8 +168,8 @@
    "id": "9823725",
    "sequence": "2026-11-31577",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T18:44:03Z",
    "created": "2026-11-22T18:39:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -169,7 +247,7 @@
    "sequence": "2026-11-31572",
    "type": "MVC Unknown Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T18:40:59Z",
    "created": "2026-11-22T18:31:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -247,7 +325,7 @@
    "sequence": "2026-11-31569",
    "type": "Missing Juv Not 21",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T18:41:52Z",
    "created": "2026-11-22T18:24:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -349,7 +427,7 @@
   {
    "id": "9823687",
    "sequence": "2026-11-31560",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC Injuries",
    "status": "Enroute",
    "status_at": "2026-11-22T18:24:02Z",
    "created": "2026-11-22T18:21:53Z",
@@ -370,33 +448,7 @@
    "lon": -85.261726,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823682",
-   "sequence": "2026-11-31547",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T18:30:33Z",
-   "created": "2026-11-22T18:19:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1103 E DALLAS RD",
-   "cross": "WESTWOOD AVE/LONGHOLM CT",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.082435,
-   "lon": -85.293699,
-   "units": 1,
-   "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9823681",
@@ -425,58 +477,6 @@
    "notable": true
   },
   {
-   "id": "9823674",
-   "sequence": "2026-11-31540",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": "2026-11-22T18:26:05Z",
-   "created": "2026-11-22T18:17:19Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8930 DALTON LN",
-   "cross": "BLACKSHEAR CT/BENT TREE CT",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 4",
-   "lat": 35.203682,
-   "lon": -85.145977,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823676",
-   "sequence": "2026-11-31538",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T18:16:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1933 HAMILL RD",
-   "cross": "GENESIS LN/NEW COUNTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.123297,
-   "lon": -85.240129,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823661",
    "sequence": "2026-11-31537",
    "type": "Supplemental Reports",
@@ -503,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9823664",
-   "sequence": "2026-11-31531",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:10:58Z",
-   "created": "2026-11-22T18:10:58Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7031 GLOVER RD",
-   "cross": "SHOALS LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 2",
-   "lat": 35.139072,
-   "lon": -85.147078,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823663",
    "sequence": "2026-11-31530",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T18:23:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T18:45:31Z",
    "created": "2026-11-22T18:10:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.139072,
    "lon": -85.147078,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823660",
-   "sequence": "2026-11-31529",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T18:36:15Z",
-   "created": "2026-11-22T18:09:47Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5707 RINGGOLD RD",
-   "cross": "LOCKHART LN/SEWANEE DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.991717,
-   "lon": -85.223352,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +636,8 @@
    "id": "9823633",
    "sequence": "2026-11-31508",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T18:43:59Z",
    "created": "2026-11-22T17:50:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
