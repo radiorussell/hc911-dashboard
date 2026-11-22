@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-22T05:10:42+00:00",
+ "updated": "2026-11-22T05:15:38+00:00",
  "counts": {
   "year": 369865,
   "upstream_day": 3,
-  "day": 3,
+  "day": 9,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
   {
+   "id": "9822991",
+   "sequence": "2026-11-31027",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T05:14:08Z",
+   "created": "2026-11-22T05:13:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3302 PINEWOOD TER",
+   "cross": "PINEWOOD AVE/MONTVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 2",
+   "lat": 35.029734,
+   "lon": -85.253034,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9822984",
    "sequence": "2026-11-31021",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T05:13:59Z",
    "created": "2026-11-22T05:07:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9822966",
-   "sequence": "2026-11-31009",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T04:49:51Z",
-   "created": "2026-11-22T04:49:51Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8645 BRIAR ROSE PL",
-   "cross": "PRICKLY LOOP/PRICKLY LOOP",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.107433,
-   "lon": -85.061146,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822965",
    "sequence": "2026-11-31008",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T05:02:44Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T05:10:57Z",
    "created": "2026-11-22T04:49:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
