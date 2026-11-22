@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T02:00:37+00:00",
+ "updated": "2026-11-22T02:05:44+00:00",
  "counts": {
   "year": 369705,
   "upstream_day": 0,
-  "day": 1125,
+  "day": 1126,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9822739",
+   "sequence": "2026-11-30831",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T02:02:08Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1541 MANASSAS DR",
+   "cross": "POTOMAC RIVER DR/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 3",
+   "lat": 35.170587,
+   "lon": -85.17962,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822738",
    "sequence": "2026-11-30828",
@@ -38,8 +64,8 @@
    "id": "9822720",
    "sequence": "2026-11-30830",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T02:00:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T02:00:12Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9822737",
    "sequence": "2026-11-30827",
    "type": "Backup EMS Unit",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:59:31Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T02:03:49Z",
    "created": "2026-11-22T01:59:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9822730",
    "sequence": "2026-11-30823",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:58:24Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T02:02:21Z",
    "created": "2026-11-22T01:58:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -153,13 +179,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "C4",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.036887,
-   "lon": -85.185028,
+   "lat": 35.061233,
+   "lon": -85.131847,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +272,8 @@
    "id": "9822709",
    "sequence": "2026-11-30815",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:02:39Z",
    "created": "2026-11-22T01:54:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +558,8 @@
    "id": "9822646",
    "sequence": "2026-11-30763",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:12:36Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T02:04:07Z",
    "created": "2026-11-22T01:12:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -581,32 +607,6 @@
    "notable": true
   },
   {
-   "id": "9822630",
-   "sequence": "2026-11-30750",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:14:25Z",
-   "created": "2026-11-22T01:04:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S TERRACE / S GERMANTOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 1",
-   "lat": 35.013819,
-   "lon": -85.252073,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9822621",
    "sequence": "2026-11-30747",
    "type": "MVC No Injuries",
@@ -628,32 +628,6 @@
    "priority": "PRI 3",
    "lat": 35.054645,
    "lon": -85.194241,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822591",
-   "sequence": "2026-11-30730",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T01:33:11Z",
-   "created": "2026-11-22T00:41:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1139 COFFELT RD",
-   "cross": "No Cross Street/MOSES RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.186831,
-   "lon": -85.226451,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -683,32 +657,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822557",
-   "sequence": "2026-11-30701",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T01:30:55Z",
-   "created": "2026-11-22T00:21:22Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "814 HYATTE RD",
-   "cross": "LONESOME TRL/LOVELL RD",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.228168,
-   "lon": -85.174899,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822528",
