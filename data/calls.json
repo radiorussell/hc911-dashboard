@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-22T03:45:38+00:00",
+ "updated": "2026-11-22T03:50:37+00:00",
  "counts": {
-  "year": 369801,
+  "year": 369804,
   "upstream_day": 0,
-  "day": 1241,
+  "day": 1246,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9822884",
-   "sequence": "2026-11-30946",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T03:40:44Z",
+   "id": "9822891",
+   "sequence": "2026-11-30951",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-22T03:48:55Z",
+   "created": "2026-11-22T03:48:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "110 N MARKET ST",
-   "cross": "CHEROKEE BLVD/E KENT ST",
+   "address": "2312 CENTER ST",
+   "cross": "SHALLOWFORD RD/MCCUTCHEON RD",
    "city": "CHATTANOOGA",
-   "zone": "A4 A",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.063253,
-   "lon": -85.3083,
+   "lat": 35.045344,
+   "lon": -85.15882,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822892",
+   "sequence": "2026-11-30950",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:47:58Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9320 LANCER LN",
+   "cross": "DUKE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.005105,
+   "lon": -85.114544,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -217,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9822818",
-   "sequence": "2026-11-30899",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T03:21:38Z",
-   "created": "2026-11-22T02:55:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4027 SUNBEAM AVE",
-   "cross": "THORNTON AVE/BROOKFIELD AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.016756,
-   "lon": -85.238419,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822802",
    "sequence": "2026-11-30883",
    "type": "EMS CALL",
@@ -290,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.024046,
    "lon": -85.180945,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822780",
-   "sequence": "2026-11-30861",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T03:19:16Z",
-   "created": "2026-11-22T02:31:03Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "515 VINE ST",
-   "cross": "HOUSTON ST/DOUGLAS ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049178,
-   "lon": -85.302365,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -449,58 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822621",
-   "sequence": "2026-11-30747",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:02:27Z",
-   "created": "2026-11-22T00:59:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5959 SHALLOWFORD RD",
-   "cross": "POLYMER DR/EXIT SHALLOWFORD RD ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.055455,
-   "lon": -85.19429,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822337",
-   "sequence": "2026-11-30533",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:23:16Z",
-   "created": "2026-11-21T22:05:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1813 MULBERRY ST",
-   "cross": "E 18TH ST/E 19TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.021908,
-   "lon": -85.280423,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9796493",
