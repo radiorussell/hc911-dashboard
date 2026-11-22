@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-22T19:30:38+00:00",
+ "updated": "2026-11-22T19:35:42+00:00",
  "counts": {
   "year": 370330,
   "upstream_day": 467,
-  "day": 606,
+  "day": 610,
   "day_basis": "midnight"
  },
- "raw_rows": 40,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9823787",
+   "sequence": "2026-11-31628",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:35:17Z",
+   "created": "2026-11-22T19:35:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4803 13TH AVE",
+   "cross": "E 48TH ST/E 49TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.987172,
+   "lon": -85.286071,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823786",
+   "sequence": "2026-11-31627",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:33:30Z",
+   "created": "2026-11-22T19:32:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ALABAMA AVE / W 52ND ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.991582,
+   "lon": -85.332741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823785",
+   "sequence": "2026-11-31626",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:31:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1007 QUEENS DR",
+   "cross": "CRUTCHFIELD ST/ELENA DR",
+   "city": "CHATTANOOGA",
+   "zone": "1002",
+   "priority": "PRI 3",
+   "lat": 35.06848,
+   "lon": -85.267922,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823784",
+   "sequence": "2026-11-31625",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:30:46Z",
+   "created": "2026-11-22T19:30:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5225 BRAINERD RD",
+   "cross": "N HOWELL AVE/TACOA AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.011483,
+   "lon": -85.223705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823783",
    "sequence": "2026-11-31624",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:30:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:29:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9823769",
    "sequence": "2026-11-31617",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:32:18Z",
    "created": "2026-11-22T19:22:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +324,8 @@
    "id": "9823766",
    "sequence": "2026-11-31614",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:34:12Z",
    "created": "2026-11-22T19:21:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9823761",
-   "sequence": "2026-11-31610",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:23:56Z",
-   "created": "2026-11-22T19:19:41Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "535 CHEROKEE BLVD",
-   "cross": "CHILHOWIE ST/GURLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 1",
-   "lat": 35.068278,
-   "lon": -85.315568,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823760",
    "sequence": "2026-11-31609",
    "type": "Fire Special Assign",
@@ -319,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823757",
-   "sequence": "2026-11-31606",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:24:29Z",
-   "created": "2026-11-22T19:18:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1409 ARMOUR ST",
-   "cross": "No Cross Street/OAKDALE AVE",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.998427,
-   "lon": -85.23746,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823758",
@@ -373,53 +425,27 @@
    "notable": false
   },
   {
-   "id": "9823756",
-   "sequence": "2026-11-31605",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:26:37Z",
-   "created": "2026-11-22T19:15:36Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9823757",
+   "sequence": "2026-11-31606",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:24:29Z",
+   "created": "2026-11-22T19:18:13Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Hamilton Co SO"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "2954 CORRAL RD",
-   "cross": "SIGNAL FOREST DR/TAFT HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.187946,
-   "lon": -85.348921,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823750",
-   "sequence": "2026-11-31604",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T19:12:23Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "W MIDVALE AVE / DAYTON BLVD",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.089284,
-   "lon": -85.312491,
+   "address": "1409 ARMOUR ST",
+   "cross": "No Cross Street/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.998427,
+   "lon": -85.23746,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,32 +524,6 @@
    "priority": "PRI 4",
    "lat": 35.155225,
    "lon": -85.044919,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823749",
-   "sequence": "2026-11-31598",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:16:58Z",
-   "created": "2026-11-22T19:08:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2049 S KELLEY ST",
-   "cross": "E 20TH ST/4TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.018718,
-   "lon": -85.279723,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -637,7 +637,7 @@
    "sequence": "2026-11-31589",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T19:31:01Z",
    "created": "2026-11-22T19:02:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -940,32 +940,6 @@
    "priority": "PRI 1",
    "lat": 35.042052,
    "lon": -85.076028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823642",
-   "sequence": "2026-11-31515",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T18:46:20Z",
-   "created": "2026-11-22T17:58:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5291 USHER DR",
-   "cross": "E 52ND ST/HALSEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.988592,
-   "lon": -85.316885,
    "units": 1,
    "stacked": false,
    "notable": false
