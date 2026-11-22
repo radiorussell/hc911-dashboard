@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T23:25:37+00:00",
+ "updated": "2026-11-22T23:30:38+00:00",
  "counts": {
-  "year": 370525,
-  "upstream_day": 662,
+  "year": 370533,
+  "upstream_day": 670,
   "day": 851,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 26,
  "incidents": [
   {
    "id": "9824093",
@@ -38,8 +38,8 @@
    "id": "9824092",
    "sequence": "2026-11-31868",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:25:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:25:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9824082",
    "sequence": "2026-11-31864",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T23:27:23Z",
    "created": "2026-11-22T23:20:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9824080",
    "sequence": "2026-11-31861",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:20:29Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T23:28:49Z",
    "created": "2026-11-22T23:19:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.355771,
    "lon": -85.191755,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824068",
-   "sequence": "2026-11-31854",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T23:19:25Z",
-   "created": "2026-11-22T23:13:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "120 E 10TH ST",
-   "cross": "COLUMBIA ST/LINDSAY ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.044228,
-   "lon": -85.307948,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +298,8 @@
    "id": "9824053",
    "sequence": "2026-11-31844",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T23:26:17Z",
    "created": "2026-11-22T23:06:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.034762,
    "lon": -85.1523,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824031",
-   "sequence": "2026-11-31823",
-   "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": "2026-11-22T22:55:15Z",
-   "created": "2026-11-22T22:51:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BRAINERD RD / N GERMANTOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 1",
-   "lat": 35.024151,
-   "lon": -85.246464,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -709,32 +657,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823888",
-   "sequence": "2026-11-31705",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:54:23Z",
-   "created": "2026-11-22T20:51:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2302 WINDSOR ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 1",
-   "lat": 35.047413,
-   "lon": -85.261849,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823351",
