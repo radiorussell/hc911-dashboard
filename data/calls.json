@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-22T12:00:37+00:00",
+ "updated": "2026-11-22T12:05:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 217,
+  "day": 216,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
-  {
-   "id": "9823267",
-   "sequence": "2026-11-31235",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-22T11:53:06Z",
-   "created": "2026-11-22T11:51:48Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3117 DAYTON BLVD",
-   "cross": "LANCASTER AVE/W NEWBERRY ST",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 4",
-   "lat": 35.105913,
-   "lon": -85.298216,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9823270",
    "sequence": "2026-11-31234",
@@ -142,8 +116,8 @@
    "id": "9823262",
    "sequence": "2026-11-31229",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:03:52Z",
    "created": "2026-11-22T11:48:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +212,6 @@
    "priority": "PRI 2",
    "lat": 35.000798,
    "lon": -85.245652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823253",
-   "sequence": "2026-11-31222",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:46:52Z",
-   "created": "2026-11-22T11:38:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "603 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.117662,
-   "lon": -85.278318,
    "units": 1,
    "stacked": false,
    "notable": false
