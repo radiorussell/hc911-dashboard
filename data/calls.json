@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-22T12:40:38+00:00",
+ "updated": "2026-11-22T12:45:38+00:00",
  "counts": {
   "year": 370050,
   "upstream_day": 187,
-  "day": 245,
+  "day": 250,
   "day_basis": "midnight"
  },
  "raw_rows": 16,
  "incidents": [
   {
+   "id": "9823316",
+   "sequence": "2026-11-31268",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:43:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2615 LONG ST",
+   "cross": "W 26TH ST/W 27TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.025978,
+   "lon": -85.314322,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823313",
+   "sequence": "2026-11-31266",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:40:40Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6022 TALLANT RD",
+   "cross": "CROOK CREST DR/JOHNSTON RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 4",
+   "lat": 35.055855,
+   "lon": -85.00907,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9823309",
    "sequence": "2026-11-31263",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:43:31Z",
    "created": "2026-11-22T12:35:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9823306",
    "sequence": "2026-11-31262",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:40:47Z",
    "created": "2026-11-22T12:34:29Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -61,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823298",
-   "sequence": "2026-11-31256",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:26:45Z",
-   "created": "2026-11-22T12:26:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823295",
    "sequence": "2026-11-31255",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T12:40:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T12:44:51Z",
    "created": "2026-11-22T12:26:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823297",
-   "sequence": "2026-11-31254",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:30:55Z",
-   "created": "2026-11-22T12:26:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7301 E BRAINERD RD",
-   "cross": "KENMOOR DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.016271,
-   "lon": -85.163561,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +350,8 @@
    "id": "9823255",
    "sequence": "2026-11-31224",
    "type": "Backup EMS Unit",
-   "status": "Stacked",
-   "status_at": "2026-11-22T11:40:43Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T11:49:28Z",
    "created": "2026-11-22T11:40:43Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -369,7 +369,7 @@
    "lat": 35.000798,
    "lon": -85.245652,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
