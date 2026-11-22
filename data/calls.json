@@ -1,20 +1,72 @@
 {
- "updated": "2026-11-22T17:45:39+00:00",
+ "updated": "2026-11-22T17:50:37+00:00",
  "counts": {
-  "year": 370221,
-  "upstream_day": 358,
-  "day": 481,
+  "year": 370239,
+  "upstream_day": 376,
+  "day": 488,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 29,
  "incidents": [
   {
-   "id": "9823615",
-   "sequence": "2026-11-31497",
-   "type": "MVC Injuries",
+   "id": "9823629",
+   "sequence": "2026-11-31506",
+   "type": "Backup Fire Unit",
    "status": "Queued",
-   "status_at": "2026-11-22T17:45:06Z",
-   "created": "2026-11-22T17:45:06Z",
+   "status_at": "2026-11-22T17:49:35Z",
+   "created": "2026-11-22T17:49:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1169 FAIRMOUNT AVE",
+   "cross": "VALENTINE CIR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 2",
+   "lat": 35.0754,
+   "lon": -85.301758,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823626",
+   "sequence": "2026-11-31503",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:47:28Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2178 MARKET ST",
+   "cross": "W 21ST ST/EXIT 179 S OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 1",
+   "lat": 35.029985,
+   "lon": -85.309169,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823625",
+   "sequence": "2026-11-31502",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:47:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -23,75 +75,49 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "111 MORRISON SPRINGS RD",
-   "cross": "DAYTON BLVD/OAKLAND TER",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 RB C",
+   "address": "2178 MARKET ST",
+   "cross": "W 21ST ST/EXIT 179 S OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.120327,
-   "lon": -85.290085,
+   "lat": 35.029985,
+   "lon": -85.309169,
    "units": 1,
    "stacked": false,
    "notable": true
   },
   {
-   "id": "9823616",
-   "sequence": "2026-11-31498",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:45:06Z",
-   "created": "2026-11-22T17:45:06Z",
-   "jurisdiction": "Red Bank FD",
+   "id": "9823624",
+   "sequence": "2026-11-31505",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:47:24Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Red Bank FD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "111 MORRISON SPRINGS RD",
-   "cross": "DAYTON BLVD/OAKLAND TER",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 2",
-   "priority": "PRI 1",
-   "lat": 35.120327,
-   "lon": -85.290085,
+   "address": "1169 FAIRMOUNT AVE",
+   "cross": "VALENTINE CIR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1202 A",
+   "priority": "PRI 3",
+   "lat": 35.0754,
+   "lon": -85.301758,
    "units": 1,
    "stacked": false,
    "notable": true
   },
   {
-   "id": "9823609",
-   "sequence": "2026-11-31499",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:45:14Z",
-   "created": "2026-11-22T17:44:28Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3901 DAYTON BLVD",
-   "cross": "UNAKA ST/MORRISON SPRINGS RD",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 1",
-   "lat": 35.119695,
-   "lon": -85.291474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823613",
    "sequence": "2026-11-31495",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:47:47Z",
    "created": "2026-11-22T17:44:03Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -139,63 +165,11 @@
    "notable": true
   },
   {
-   "id": "9823610",
-   "sequence": "2026-11-31493",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:44:03Z",
-   "created": "2026-11-22T17:43:53Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MORRISON SPRINGS RD / DAYTON BLVD",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 1",
-   "lat": 35.119742,
-   "lon": -85.289503,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9823608",
-   "sequence": "2026-11-31496",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:44:15Z",
-   "created": "2026-11-22T17:43:35Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "12675 BETTIS RD",
-   "cross": "GRASSHOPPER RD/CRANFIELD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 4",
-   "lat": 35.295449,
-   "lon": -84.983392,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823607",
    "sequence": "2026-11-31492",
    "type": "MVC Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T17:46:16Z",
    "created": "2026-11-22T17:43:31Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -269,63 +243,11 @@
    "notable": false
   },
   {
-   "id": "9823600",
-   "sequence": "2026-11-31484",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T17:38:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "952 ELY RD",
-   "cross": "BYRNEWOOD VILLAGE CIR/DELASHMITT RD",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 2",
-   "lat": 35.122195,
-   "lon": -85.264186,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823599",
-   "sequence": "2026-11-31486",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T17:38:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4428 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.083805,
-   "lon": -85.2011,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823598",
    "sequence": "2026-11-31487",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:46:54Z",
    "created": "2026-11-22T17:38:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -339,19 +261,19 @@
    "cross": "W 21ST ST/EXIT 179 S OFF RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "A10",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.029985,
    "lon": -85.309169,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9823597",
    "sequence": "2026-11-31483",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:46:45Z",
    "created": "2026-11-22T17:37:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +298,8 @@
    "id": "9823595",
    "sequence": "2026-11-31482",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:46:23Z",
    "created": "2026-11-22T17:36:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -402,8 +324,8 @@
    "id": "9823594",
    "sequence": "2026-11-31479",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:34:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T17:34:57Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -480,8 +402,8 @@
    "id": "9823582",
    "sequence": "2026-11-31469",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T17:25:20Z",
+   "status": "Stacked",
+   "status_at": "2026-11-22T17:17:24Z",
    "created": "2026-11-22T17:16:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -499,7 +421,7 @@
    "lat": 35.163315,
    "lon": -85.247128,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -555,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9823574",
-   "sequence": "2026-11-31461",
-   "type": "Residential Fire",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:08:06Z",
-   "created": "2026-11-22T17:08:06Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "417 GIBSON POND RD",
-   "cross": "No Cross Street/SHADOW POINT CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 2",
-   "lat": 35.00953,
-   "lon": -85.10227,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823572",
    "sequence": "2026-11-31458",
    "type": "Harrassing Threats",
@@ -605,58 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823570",
-   "sequence": "2026-11-31457",
-   "type": "Child Found",
-   "status": "Enroute",
-   "status_at": "2026-11-22T17:13:03Z",
-   "created": "2026-11-22T17:03:18Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6523 LAKESHORE PKWY",
-   "cross": "HILLSDALE CIR/MONTCREST DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.124525,
-   "lon": -85.15288,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823569",
-   "sequence": "2026-11-31456",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-22T17:10:54Z",
-   "created": "2026-11-22T17:03:04Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "417 GIBSON POND RD",
-   "cross": "No Cross Street/SHADOW POINT CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 1",
-   "lat": 35.00953,
-   "lon": -85.10227,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823558",
