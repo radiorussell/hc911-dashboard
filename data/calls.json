@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T12:30:39+00:00",
+ "updated": "2026-11-22T12:35:38+00:00",
  "counts": {
   "year": 370047,
   "upstream_day": 184,
-  "day": 240,
+  "day": 244,
   "day_basis": "midnight"
  },
  "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9823307",
+   "sequence": "2026-11-31260",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:34:58Z",
+   "created": "2026-11-22T12:34:36Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8264 ELLIE PLAZA PL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.189898,
+   "lon": -85.169178,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823306",
+   "sequence": "2026-11-31262",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:35:12Z",
+   "created": "2026-11-22T12:34:29Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "109 SEQUOYAH RD",
+   "cross": "DAYTON PIKE/HWY 27 SB @ SEQUOYAH RD - OFF RAMP",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.253974,
+   "lon": -85.181056,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823298",
    "sequence": "2026-11-31256",
@@ -64,8 +116,8 @@
    "id": "9823295",
    "sequence": "2026-11-31255",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:33:56Z",
    "created": "2026-11-22T12:26:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9823297",
    "sequence": "2026-11-31254",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:30:55Z",
    "created": "2026-11-22T12:26:08Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9823292",
    "sequence": "2026-11-31252",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:35:24Z",
    "created": "2026-11-22T12:25:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9823291",
    "sequence": "2026-11-31258",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:32:49Z",
    "created": "2026-11-22T12:23:02Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -217,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9823288",
-   "sequence": "2026-11-31249",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T12:22:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1804 WILLIAMS ST",
-   "cross": "W 18TH ST/W 19TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.034051,
-   "lon": -85.310528,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823283",
    "sequence": "2026-11-31244",
    "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:34:08Z",
    "created": "2026-11-22T12:17:50Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -342,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.189898,
    "lon": -85.169178,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823270",
-   "sequence": "2026-11-31234",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T11:51:29Z",
-   "jurisdiction": "Lookout Mountain FD",
-   "agencies": [
-    "Lookout Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "504 FLEETWOOD DR",
-   "cross": "EASTVIEW DR/GLENVIEW ST",
-   "city": "LOOKOUT MOUNTAIN",
-   "zone": "LOOKOUT MOUNTAIN FD",
-   "priority": "PRI 2",
-   "lat": 34.988009,
-   "lon": -85.349732,
    "units": 1,
    "stacked": false,
    "notable": false
