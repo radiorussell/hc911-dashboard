@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T16:25:37+00:00",
+ "updated": "2026-11-22T16:30:37+00:00",
  "counts": {
-  "year": 370164,
-  "upstream_day": 301,
-  "day": 395,
+  "year": 370168,
+  "upstream_day": 305,
+  "day": 396,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9823519",
+   "sequence": "2026-11-31414",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T16:27:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "817 MOUNTAIN CREEK RD",
+   "cross": "GRANDVIEW AVE/COMMERCIAL LN",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.101439,
+   "lon": -85.327863,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823518",
    "sequence": "2026-11-31412",
@@ -38,8 +64,8 @@
    "id": "9823517",
    "sequence": "2026-11-31413",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T16:23:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T16:21:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823512",
-   "sequence": "2026-11-31408",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T16:13:01Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1101 - 1199 COFFELT RD",
-   "cross": "No Cross Street/MOSES RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.186174,
-   "lon": -85.225535,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823511",
    "sequence": "2026-11-31407",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-22T16:12:47Z",
    "created": "2026-11-22T16:10:56Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -135,7 +135,7 @@
    "lat": 34.992826,
    "lon": -85.202645,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -420,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.126682,
    "lon": -85.326321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823397",
-   "sequence": "2026-11-31325",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T15:18:27Z",
-   "created": "2026-11-22T14:32:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "721 LATITUDE CIR",
-   "cross": "MOLLY LN/MARINER WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.05409,
-   "lon": -85.321161,
    "units": 1,
    "stacked": false,
    "notable": false
