@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-22T06:10:38+00:00",
+ "updated": "2026-11-22T06:15:39+00:00",
  "counts": {
   "year": 369894,
   "upstream_day": 32,
-  "day": 45,
+  "day": 36,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 6,
  "incidents": [
-  {
-   "id": "9823032",
-   "sequence": "2026-11-31063",
-   "type": "Repossessed Auto",
-   "status": "Queued",
-   "status_at": "2026-11-22T06:10:10Z",
-   "created": "2026-11-22T06:10:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2401 GLASS ST",
-   "cross": "LATTA ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 0",
-   "lat": 35.064798,
-   "lon": -85.251717,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9823022",
    "sequence": "2026-11-31054",
    "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T06:15:34Z",
    "created": "2026-11-22T05:50:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -59,32 +33,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823014",
-   "sequence": "2026-11-31047",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-22T05:50:49Z",
-   "created": "2026-11-22T05:34:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8170 BLUEGILL CIR",
-   "cross": "BIGGS RD/BIGGS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.152824,
-   "lon": -85.049846,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823000",
