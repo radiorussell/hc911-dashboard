@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T19:25:37+00:00",
+ "updated": "2026-11-22T19:30:38+00:00",
  "counts": {
-  "year": 370317,
-  "upstream_day": 454,
-  "day": 600,
+  "year": 370330,
+  "upstream_day": 467,
+  "day": 606,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9823783",
+   "sequence": "2026-11-31624",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:30:33Z",
+   "created": "2026-11-22T19:29:50Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "926 WESLEY DR",
+   "cross": "ELWYN LN/MIDDLE VALLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.179512,
+   "lon": -85.201894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823778",
+   "sequence": "2026-11-31623",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:27:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5100 BRAINERD RD",
+   "cross": "N ST MARKS AVE/N HOWELL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.011579,
+   "lon": -85.225887,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823779",
+   "sequence": "2026-11-31621",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:27:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "101 FERN AVE",
+   "cross": "HEMLOCK CIR/KELLYS FERRY RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.02241,
+   "lon": -85.37445,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823773",
    "sequence": "2026-11-31618",
@@ -64,8 +142,8 @@
    "id": "9823770",
    "sequence": "2026-11-31615",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:26:59Z",
    "created": "2026-11-22T19:22:04Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9823764",
    "sequence": "2026-11-31611",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:30:20Z",
    "created": "2026-11-22T19:20:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -299,7 +377,7 @@
    "sequence": "2026-11-31605",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T19:26:37Z",
    "created": "2026-11-22T19:15:36Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -581,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9823736",
-   "sequence": "2026-11-31588",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:16:49Z",
-   "created": "2026-11-22T18:58:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5707 ALABAMA AVE",
-   "cross": "W 57TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.985086,
-   "lon": -85.334005,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823732",
    "sequence": "2026-11-31584",
    "type": "Disorder",
@@ -662,8 +714,8 @@
    "id": "9823723",
    "sequence": "2026-11-31578",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T19:21:21Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T19:27:29Z",
    "created": "2026-11-22T18:39:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
