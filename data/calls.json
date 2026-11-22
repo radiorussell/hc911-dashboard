@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T17:05:37+00:00",
+ "updated": "2026-11-22T17:10:37+00:00",
  "counts": {
-  "year": 370192,
-  "upstream_day": 329,
-  "day": 441,
+  "year": 370204,
+  "upstream_day": 341,
+  "day": 445,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9823576",
+   "sequence": "2026-11-31463",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:08:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "119 HOLLYBERRY LN",
+   "cross": "N TUXEDO AVE/CHERRYTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "1301 A",
+   "priority": "PRI 2",
+   "lat": 35.019742,
+   "lon": -85.237585,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823575",
+   "sequence": "2026-11-31462",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:08:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "119 HOLLYBERRY LN",
+   "cross": "N TUXEDO AVE/CHERRYTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.019742,
+   "lon": -85.237585,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823574",
+   "sequence": "2026-11-31461",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-22T17:08:06Z",
+   "created": "2026-11-22T17:08:06Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "417 GIBSON POND RD",
+   "cross": "No Cross Street/SHADOW POINT CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 2",
+   "lat": 35.00953,
+   "lon": -85.10227,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823573",
+   "sequence": "2026-11-31460",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-22T17:06:02Z",
+   "created": "2026-11-22T17:05:42Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823572",
    "sequence": "2026-11-31458",
@@ -89,7 +193,7 @@
   {
    "id": "9823569",
    "sequence": "2026-11-31456",
-   "type": "Smoke Investigation",
+   "type": "Residential Fire",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-22T17:03:04Z",
@@ -106,11 +210,11 @@
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 5 F",
    "priority": "PRI 1",
-   "lat": 35.009513,
-   "lon": -85.102268,
+   "lat": 35.00953,
+   "lon": -85.10227,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9823568",
@@ -247,7 +351,7 @@
    "sequence": "2026-11-31446",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T17:07:48Z",
    "created": "2026-11-22T16:57:44Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -347,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9823551",
-   "sequence": "2026-11-31440",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T16:58:55Z",
-   "created": "2026-11-22T16:52:31Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "419 GLENHILL DR",
-   "cross": "MARTIN RD/GLENHILL CIR",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 2",
-   "lat": 35.105849,
-   "lon": -85.307383,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823550",
    "sequence": "2026-11-31439",
    "type": "EMS CALL",
@@ -397,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823549",
-   "sequence": "2026-11-31438",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T16:58:41Z",
-   "created": "2026-11-22T16:49:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3000 STAGE RUN",
-   "cross": "No Cross Street/COACH DR",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 3",
-   "lat": 35.135847,
-   "lon": -85.214779,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823541",
@@ -810,32 +862,6 @@
    "priority": "PRI 3",
    "lat": 35.352105,
    "lon": -85.111354,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823436",
-   "sequence": "2026-11-31353",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T15:54:42Z",
-   "created": "2026-11-22T14:59:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5555 HIXSON PIKE",
-   "cross": "LONGVIEW DR/MIDDLE VALLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.147324,
-   "lon": -85.221314,
    "units": 1,
    "stacked": false,
    "notable": false
