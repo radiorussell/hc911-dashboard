@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-22T12:25:43+00:00",
+ "updated": "2026-11-22T12:30:39+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 233,
+  "year": 370047,
+  "upstream_day": 184,
+  "day": 240,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9823298",
+   "sequence": "2026-11-31256",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:26:45Z",
+   "created": "2026-11-22T12:26:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823299",
+   "sequence": "2026-11-31257",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:26:45Z",
+   "created": "2026-11-22T12:26:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823295",
+   "sequence": "2026-11-31255",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:26:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823296",
+   "sequence": "2026-11-31253",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:26:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7301 E BRAINERD RD",
+   "cross": "KENMOOR DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.016271,
+   "lon": -85.163561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823297",
+   "sequence": "2026-11-31254",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:26:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7301 E BRAINERD RD",
+   "cross": "KENMOOR DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.016271,
+   "lon": -85.163561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823292",
+   "sequence": "2026-11-31252",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:25:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7301 E BRAINERD RD",
+   "cross": "KENMOOR DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.016271,
+   "lon": -85.163561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823291",
+   "sequence": "2026-11-31258",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:23:02Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2040 HIGHWAY 27 NB",
+   "cross": "EXIT SEQUOYAH RD ON RAMP NB/EXIT TSATI TER OFF RAMP NB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.269812,
+   "lon": -85.159079,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823289",
    "sequence": "2026-11-31251",
@@ -15,21 +197,21 @@
    "status": "On Scene",
    "status_at": "2026-11-22T12:24:48Z",
    "created": "2026-11-22T12:22:32Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Soddy Daisy PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Soddy Daisy PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "HIGHWATER RD / BACK VALLEY RD",
-   "cross": "",
+   "address": "11691 HIGHWAY 111 SB",
+   "cross": "EXIT BACK VALLEY RD OFF RAMP SB/EXIT JONES GAP RD ON RAMP SB",
    "city": "SODDY DAISY",
-   "zone": "WEST 7",
+   "zone": "SODDY DAISY 12",
    "priority": "PRI 4",
-   "lat": 35.325019,
-   "lon": -85.150084,
+   "lat": 35.305708,
+   "lon": -85.163983,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +220,8 @@
    "id": "9823288",
    "sequence": "2026-11-31249",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:22:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T12:22:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +454,8 @@
    "id": "9823255",
    "sequence": "2026-11-31224",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-22T11:49:28Z",
+   "status": "Stacked",
+   "status_at": "2026-11-22T11:40:43Z",
    "created": "2026-11-22T11:40:43Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -291,7 +473,7 @@
    "lat": 35.000798,
    "lon": -85.245652,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -342,32 +524,6 @@
    "priority": "PRI 4",
    "lat": 35.003256,
    "lon": -85.119934,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823224",
-   "sequence": "2026-11-31199",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T12:09:29Z",
-   "created": "2026-11-22T10:45:07Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4407 N FAIRMOUNT RD",
-   "cross": "FAIRMOUNT CEMETERY RD/BRUCE LEWIS TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 08 HC B",
-   "priority": "PRI 1",
-   "lat": 35.184577,
-   "lon": -85.321514,
    "units": 1,
    "stacked": false,
    "notable": false
