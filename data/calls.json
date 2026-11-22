@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-22T19:15:38+00:00",
+ "updated": "2026-11-22T19:20:38+00:00",
  "counts": {
-  "year": 370308,
-  "upstream_day": 445,
-  "day": 585,
+  "year": 370317,
+  "upstream_day": 454,
+  "day": 592,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9823761",
+   "sequence": "2026-11-31610",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:19:41Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "535 CHEROKEE BLVD",
+   "cross": "CHILHOWIE ST/GURLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "1202 A",
+   "priority": "PRI 1",
+   "lat": 35.068278,
+   "lon": -85.315568,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823760",
+   "sequence": "2026-11-31609",
+   "type": "Fire Special Assign",
+   "status": "Enroute",
+   "status_at": "2026-11-22T19:19:29Z",
+   "created": "2026-11-22T19:18:58Z",
+   "jurisdiction": "Sequoyah VFD",
+   "agencies": [
+    "Sequoyah VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10456 HAMBY RD",
+   "cross": "ELSEA DR/GREEN POND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SEQUOYAH FD",
+   "priority": "PRI 3",
+   "lat": 35.239293,
+   "lon": -85.131975,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823757",
+   "sequence": "2026-11-31606",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:18:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1409 ARMOUR ST",
+   "cross": "No Cross Street/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.998427,
+   "lon": -85.23746,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823758",
+   "sequence": "2026-11-31607",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:18:13Z",
+   "created": "2026-11-22T19:18:13Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1409 ARMOUR ST",
+   "cross": "No Cross Street/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.998427,
+   "lon": -85.23746,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823756",
+   "sequence": "2026-11-31605",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:18:03Z",
+   "created": "2026-11-22T19:15:36Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2954 CORRAL RD",
+   "cross": "SIGNAL FOREST DR/TAFT HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.187946,
+   "lon": -85.348921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823750",
+   "sequence": "2026-11-31604",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:15:40Z",
+   "created": "2026-11-22T19:12:23Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "W MIDVALE AVE / DAYTON BLVD",
+   "cross": "",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 3",
+   "lat": 35.089284,
+   "lon": -85.312491,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823755",
    "sequence": "2026-11-31603",
    "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:16:18Z",
    "created": "2026-11-22T19:12:06Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -30,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.086434,
    "lon": -85.315917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823754",
-   "sequence": "2026-11-31602",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:10:14Z",
-   "created": "2026-11-22T19:10:14Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "243 DEPOT ST",
-   "cross": "PRUETT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.28848,
-   "lon": -85.161808,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -80,6 +210,32 @@
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 12",
    "priority": "PRI 3",
+   "lat": 35.28848,
+   "lon": -85.161808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823754",
+   "sequence": "2026-11-31602",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:10:14Z",
+   "created": "2026-11-22T19:10:14Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "243 DEPOT ST",
+   "cross": "PRUETT ST/SPRING ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
    "lat": 35.28848,
    "lon": -85.161808,
    "units": 1,
@@ -143,7 +299,7 @@
    "sequence": "2026-11-31598",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T19:16:58Z",
    "created": "2026-11-22T19:08:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +376,8 @@
    "id": "9823740",
    "sequence": "2026-11-31593",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:04:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:04:17Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -241,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823739",
-   "sequence": "2026-11-31591",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:14:53Z",
-   "created": "2026-11-22T19:03:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1906 CAMDEN ST",
-   "cross": "N ORCHARD KNOB AVE/ROANOKE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "402",
-   "priority": "PRI 3",
-   "lat": 35.055375,
-   "lon": -85.26343,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823737",
@@ -324,8 +454,8 @@
    "id": "9823736",
    "sequence": "2026-11-31588",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:16:49Z",
    "created": "2026-11-22T18:58:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -602,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.05097,
    "lon": -85.261726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9823681",
-   "sequence": "2026-11-31545",
-   "type": "Stabbing",
-   "status": "Enroute",
-   "status_at": "2026-11-22T18:30:28Z",
-   "created": "2026-11-22T18:18:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5084 S TERRACE",
-   "cross": "MCBRIEN RD/SPRING CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 B",
-   "priority": "PRI 1",
-   "lat": 35.003539,
-   "lon": -85.222152,
    "units": 1,
    "stacked": false,
    "notable": true
