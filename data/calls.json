@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T23:35:37+00:00",
+ "updated": "2026-11-22T23:40:37+00:00",
  "counts": {
-  "year": 370533,
-  "upstream_day": 670,
-  "day": 859,
+  "year": 370540,
+  "upstream_day": 677,
+  "day": 863,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9824105",
+   "sequence": "2026-11-31881",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:38:37Z",
+   "created": "2026-11-22T23:38:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ROANOKE AVE / N ORCHARD KNOB AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 4",
+   "lat": 35.04967,
+   "lon": -85.266113,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824107",
+   "sequence": "2026-11-31880",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T23:36:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "725 E 48TH ST",
+   "cross": "WILSON RD/JEFFERY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.992863,
+   "lon": -85.305707,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824104",
+   "sequence": "2026-11-31878",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": "2026-11-22T23:38:14Z",
+   "created": "2026-11-22T23:34:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "20 W 26TH ST",
+   "cross": "MARKET ST/CARR ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.025769,
+   "lon": -85.312386,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824103",
    "sequence": "2026-11-31877",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:34:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:34:25Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9824092",
    "sequence": "2026-11-31868",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T23:37:52Z",
    "created": "2026-11-22T23:25:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9824062",
    "sequence": "2026-11-31850",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T23:37:11Z",
    "created": "2026-11-22T23:10:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +402,8 @@
    "id": "9824048",
    "sequence": "2026-11-31839",
    "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-22T23:02:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:02:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -343,7 +421,7 @@
    "lat": 35.010327,
    "lon": -85.220476,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -454,8 +532,8 @@
    "id": "9824007",
    "sequence": "2026-11-31809",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-22T22:37:33Z",
    "created": "2026-11-22T22:30:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,7 +551,7 @@
    "lat": 35.068392,
    "lon": -85.167091,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -602,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.264823,
    "lon": -85.14198,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823956",
-   "sequence": "2026-11-31755",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T22:55:04Z",
-   "created": "2026-11-22T21:53:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7306 IGOU FERRY RD",
-   "cross": "BETTIS ESTATES LN/SIMS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.204979,
-   "lon": -85.057298,
    "units": 1,
    "stacked": false,
    "notable": false
