@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T01:35:41+00:00",
+ "updated": "2026-11-22T01:40:38+00:00",
  "counts": {
-  "year": 369673,
+  "year": 369683,
   "upstream_day": 0,
-  "day": 1084,
+  "day": 1090,
   "day_basis": "midnight"
  },
  "raw_rows": 32,
  "incidents": [
   {
+   "id": "9822684",
+   "sequence": "2026-11-30794",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T01:39:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822685",
+   "sequence": "2026-11-30795",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:39:27Z",
+   "created": "2026-11-22T01:39:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822682",
+   "sequence": "2026-11-30793",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:39:27Z",
+   "created": "2026-11-22T01:39:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9822677",
    "sequence": "2026-11-30788",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:34:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:34:28Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9822676",
    "sequence": "2026-11-30787",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:34:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:34:28Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9822664",
    "sequence": "2026-11-30777",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:36:45Z",
    "created": "2026-11-22T01:27:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +402,8 @@
    "id": "9822655",
    "sequence": "2026-11-30770",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:38:28Z",
    "created": "2026-11-22T01:20:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 34.987673,
    "lon": -85.244335,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822651",
-   "sequence": "2026-11-30766",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:13:00Z",
-   "created": "2026-11-22T01:13:00Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "BELVOIR AVE / RINGGOLD RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 34.997552,
-   "lon": -85.248739,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -394,32 +446,6 @@
    "priority": "PRI 3",
    "lat": 35.028414,
    "lon": -85.177695,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822643",
-   "sequence": "2026-11-30764",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:13:00Z",
-   "created": "2026-11-22T01:11:50Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BELVOIR AVE / RINGGOLD RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.997552,
-   "lon": -85.248739,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -454,8 +480,8 @@
    "id": "9822634",
    "sequence": "2026-11-30753",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-22T01:29:38Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T01:39:35Z",
    "created": "2026-11-22T01:06:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -685,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9822506",
-   "sequence": "2026-11-30667",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T00:52:32Z",
-   "created": "2026-11-21T23:54:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6022 MILL RD",
-   "cross": "GRUBB RD/MARSH RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.149804,
-   "lon": -85.235436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822415",
    "sequence": "2026-11-30591",
    "type": "Intoxicated Person",
@@ -740,7 +740,7 @@
    "id": "9822337",
    "sequence": "2026-11-30533",
    "type": "Missing Juv Not 21",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-22T01:34:24Z",
    "created": "2026-11-21T22:05:01Z",
    "jurisdiction": "Chattanooga PD",
@@ -759,7 +759,7 @@
    "lat": 35.021908,
    "lon": -85.280423,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
   },
   {
