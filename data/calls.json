@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T16:00:40+00:00",
+ "updated": "2026-11-22T16:05:58+00:00",
  "counts": {
   "year": 370157,
   "upstream_day": 294,
-  "day": 378,
+  "day": 384,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9823499",
+   "sequence": "2026-11-31402",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-22T16:06:34Z",
+   "created": "2026-11-22T16:03:26Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1429 MARKET ST",
+   "cross": "CHOO CHOO AVE/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 1",
+   "lat": 35.037578,
+   "lon": -85.307791,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823497",
+   "sequence": "2026-11-31400",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T16:02:40Z",
+   "created": "2026-11-22T16:02:40Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "359 CARNATION ST",
+   "cross": "No Cross Street/ADKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "301",
+   "priority": "PRI 2",
+   "lat": 35.033957,
+   "lon": -85.363196,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823496",
+   "sequence": "2026-11-31399",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T16:01:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "359 CARNATION ST",
+   "cross": "No Cross Street/ADKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.033957,
+   "lon": -85.363196,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823489",
    "sequence": "2026-11-31396",
@@ -30,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.146073,
    "lon": -85.252215,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823488",
-   "sequence": "2026-11-31395",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:52:18Z",
-   "created": "2026-11-22T15:48:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2084 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A OFF RAMP NB/EXIT 4A ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.032782,
-   "lon": -85.161009,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9823472",
    "sequence": "2026-11-31383",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:55:30Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T16:03:52Z",
    "created": "2026-11-22T15:31:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9823437",
    "sequence": "2026-11-31350",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:34:59Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T16:05:22Z",
    "created": "2026-11-22T15:00:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.126682,
    "lon": -85.326321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823425",
-   "sequence": "2026-11-31343",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:11:33Z",
-   "created": "2026-11-22T14:51:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1400 CHESTNUT ST",
-   "cross": "W 14TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.039254,
-   "lon": -85.311997,
    "units": 1,
    "stacked": false,
    "notable": false
