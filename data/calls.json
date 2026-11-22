@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-22T06:15:39+00:00",
+ "updated": "2026-11-22T06:20:37+00:00",
  "counts": {
-  "year": 369894,
-  "upstream_day": 32,
-  "day": 36,
+  "year": 369897,
+  "upstream_day": 35,
+  "day": 59,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9823046",
+   "sequence": "2026-11-31077",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T06:20:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1 - 99 TACOA AVE",
+   "cross": "BRAINERD RD/TACOA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "1302 A",
+   "priority": "PRI 1",
+   "lat": 35.011,
+   "lon": -85.22317,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823045",
+   "sequence": "2026-11-31076",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T06:20:10Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1 - 99 TACOA AVE",
+   "cross": "BRAINERD RD/TACOA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.011,
+   "lon": -85.22317,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823042",
+   "sequence": "2026-11-31075",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-22T06:19:56Z",
+   "created": "2026-11-22T06:19:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5301 BRAINERD RD",
+   "cross": "TACOA AVE/MCBRIEN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.011105,
+   "lon": -85.222923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823035",
+   "sequence": "2026-11-31070",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T06:17:49Z",
+   "created": "2026-11-22T06:17:14Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1810 JOHN ROSS RD",
+   "cross": "CLAYTON AVE EXT/S CREST RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.987277,
+   "lon": -85.272019,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823037",
+   "sequence": "2026-11-31068",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T06:16:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 99 TACOA AVE",
+   "cross": "BRAINERD RD/TACOA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.011,
+   "lon": -85.22317,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9823022",
    "sequence": "2026-11-31054",
@@ -38,8 +168,8 @@
    "id": "9823000",
    "sequence": "2026-11-31036",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T06:04:27Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T06:17:33Z",
    "created": "2026-11-22T05:29:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
