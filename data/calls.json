@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T00:25:37+00:00",
+ "updated": "2026-11-22T00:30:40+00:00",
  "counts": {
-  "year": 369610,
+  "year": 369624,
   "upstream_day": 0,
-  "day": 1004,
+  "day": 1007,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9822569",
+   "sequence": "2026-11-30712",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-22T00:27:37Z",
+   "created": "2026-11-22T00:27:37Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6827 HAMPTON WOOD CIR",
+   "cross": "WHISPERWOOD TRL/WOODFERN TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.172914,
+   "lon": -85.22512,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822568",
+   "sequence": "2026-11-30711",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T00:26:56Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6827 HAMPTON WOOD CIR",
+   "cross": "WHISPERWOOD TRL/WOODFERN TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.172914,
+   "lon": -85.22512,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822566",
    "sequence": "2026-11-30709",
@@ -168,8 +220,8 @@
    "id": "9822560",
    "sequence": "2026-11-30703",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T00:23:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T00:22:56Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9822558",
    "sequence": "2026-11-30702",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T00:27:27Z",
    "created": "2026-11-22T00:21:22Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9822548",
    "sequence": "2026-11-30696",
    "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T00:27:15Z",
    "created": "2026-11-22T00:17:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +368,6 @@
    "priority": "PRI 4",
    "lat": 35.072921,
    "lon": -85.163312,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822533",
-   "sequence": "2026-11-30687",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:13:08Z",
-   "created": "2026-11-22T00:06:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "705 MCCALLIE AVE",
-   "cross": "DOUGLAS ST/UNIVERSITY ST",
-   "city": "CHATTANOOGA",
-   "zone": "102 UTC",
-   "priority": "PRI 1",
-   "lat": 35.045469,
-   "lon": -85.298451,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -451,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9822513",
-   "sequence": "2026-11-30672",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:15:46Z",
-   "created": "2026-11-21T23:56:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8644 E BRAINERD RD",
-   "cross": "MORRIS LN/HURRICANE CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 34.99941,
-   "lon": -85.13381,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822507",
    "sequence": "2026-11-30668",
    "type": "EMS CALL",
@@ -496,32 +496,6 @@
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.149804,
-   "lon": -85.235436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822508",
-   "sequence": "2026-11-30669",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:23:34Z",
-   "created": "2026-11-21T23:54:39Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6022 MILL RD",
-   "cross": "GRUBB RD/MARSH RD",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
    "lat": 35.149804,
    "lon": -85.235436,
    "units": 1,
@@ -584,8 +558,8 @@
    "id": "9822495",
    "sequence": "2026-11-30660",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T00:17:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T00:26:10Z",
    "created": "2026-11-21T23:50:22Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -688,8 +662,8 @@
    "id": "9822469",
    "sequence": "2026-11-30637",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T00:06:30Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T00:29:12Z",
    "created": "2026-11-21T23:32:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -706,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.037133,
    "lon": -85.102138,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822434",
-   "sequence": "2026-11-30606",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T23:49:45Z",
-   "created": "2026-11-21T23:12:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2315 DAISY ST",
-   "cross": "O REAR ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.065734,
-   "lon": -85.250657,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -758,58 +706,6 @@
    "priority": "PRI 2",
    "lat": 35.043089,
    "lon": -85.219116,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822405",
-   "sequence": "2026-11-30583",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T23:56:41Z",
-   "created": "2026-11-21T22:58:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "HICKORY VALLEY RD/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 03 HC B",
-   "priority": "PRI 2",
-   "lat": 35.107025,
-   "lon": -85.157883,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822400",
-   "sequence": "2026-11-30577",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-21T23:52:35Z",
-   "created": "2026-11-21T22:57:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9328 LANCER LN",
-   "cross": "DUKE LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.005342,
-   "lon": -85.113961,
    "units": 1,
    "stacked": false,
    "notable": false
