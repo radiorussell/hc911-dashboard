@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T05:25:39+00:00",
+ "updated": "2026-11-22T05:30:37+00:00",
  "counts": {
-  "year": 369867,
-  "upstream_day": 5,
-  "day": 11,
+  "year": 369873,
+  "upstream_day": 11,
+  "day": 19,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9823003",
+   "sequence": "2026-11-31037",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T05:30:12Z",
+   "created": "2026-11-22T05:30:12Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "124 HEADLYN DR",
+   "cross": "No Cross Street/CLARA DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.180105,
+   "lon": -85.174534,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823000",
+   "sequence": "2026-11-31036",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T05:30:12Z",
+   "created": "2026-11-22T05:29:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "124 HEADLYN DR",
+   "cross": "No Cross Street/CLARA DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.180105,
+   "lon": -85.174534,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822999",
+   "sequence": "2026-11-31033",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": "2026-11-22T05:29:32Z",
+   "created": "2026-11-22T05:25:43Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6674 RINGGOLD RD",
+   "cross": "I-75 NB @ EXIT 1A RAMP/CAMP JORDAN PKWY",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 2",
+   "lat": 34.98779,
+   "lon": -85.200622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822998",
+   "sequence": "2026-11-31032",
+   "type": "Extra Job",
+   "status": "Enroute",
+   "status_at": "2026-11-22T05:24:28Z",
+   "created": "2026-11-22T05:24:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4903 BRAINERD RD",
+   "cross": "CLUB DR/S LOVELL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.012915,
+   "lon": -85.227459,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822995",
    "sequence": "2026-11-31029",
