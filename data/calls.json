@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T09:15:38+00:00",
+ "updated": "2026-11-22T09:20:39+00:00",
  "counts": {
-  "year": 369970,
-  "upstream_day": 107,
-  "day": 151,
+  "year": 369972,
+  "upstream_day": 109,
+  "day": 153,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9823183",
+   "sequence": "2026-11-31171",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-22T09:19:08Z",
+   "created": "2026-11-22T09:19:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3901 13TH AVE",
+   "cross": "E 39TH ST/E 40TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.996559,
+   "lon": -85.281299,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823177",
+   "sequence": "2026-11-31170",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T09:15:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "404 TUNNEL BLVD",
+   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.033508,
+   "lon": -85.243204,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823174",
    "sequence": "2026-11-31169",
@@ -53,32 +105,6 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.025684,
-   "lon": -85.248735,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823172",
-   "sequence": "2026-11-31166",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:08:56Z",
-   "created": "2026-11-22T09:02:20Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "BRAINERD RD / TUNNEL BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1507",
    "priority": "PRI 3",
    "lat": 35.025684,
    "lon": -85.248735,
@@ -165,89 +191,11 @@
    "notable": false
   },
   {
-   "id": "9823167",
-   "sequence": "2026-11-31162",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:59:43Z",
-   "created": "2026-11-22T08:54:18Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3001 DODSON AVE",
-   "cross": "STUART ST/WILDER ST",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 1",
-   "lat": 35.07211,
-   "lon": -85.250658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823163",
-   "sequence": "2026-11-31159",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T08:50:59Z",
-   "created": "2026-11-22T08:50:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823164",
-   "sequence": "2026-11-31160",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T08:50:59Z",
-   "created": "2026-11-22T08:50:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823160",
    "sequence": "2026-11-31158",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T09:15:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T09:17:54Z",
    "created": "2026-11-22T08:50:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -368,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.148195,
    "lon": -85.343463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823098",
-   "sequence": "2026-11-31108",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-22T07:15:08Z",
-   "created": "2026-11-22T07:15:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3502 OHLS AVE",
-   "cross": "W 35TH ST/W 37TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.010202,
-   "lon": -85.314558,
    "units": 1,
    "stacked": false,
    "notable": false
