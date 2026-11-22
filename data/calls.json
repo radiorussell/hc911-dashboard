@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T20:00:37+00:00",
+ "updated": "2026-11-22T20:05:40+00:00",
  "counts": {
   "year": 370359,
   "upstream_day": 496,
-  "day": 633,
+  "day": 639,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9823827",
+   "sequence": "2026-11-31657",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T20:05:40Z",
+   "created": "2026-11-22T20:05:32Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996631,
+   "lon": -85.242409,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823826",
+   "sequence": "2026-11-31656",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T20:05:04Z",
+   "created": "2026-11-22T20:05:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "729 ELY RD",
+   "cross": "MAYBELLE LN/ASHWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "1903",
+   "priority": "PRI 1",
+   "lat": 35.122815,
+   "lon": -85.272702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823825",
+   "sequence": "2026-11-31655",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T20:05:04Z",
+   "created": "2026-11-22T20:05:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "729 ELY RD",
+   "cross": "MAYBELLE LN/ASHWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.122815,
+   "lon": -85.272702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823824",
+   "sequence": "2026-11-31654",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T20:04:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "729 ELY RD",
+   "cross": "MAYBELLE LN/ASHWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.122815,
+   "lon": -85.272702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823821",
    "sequence": "2026-11-31651",
@@ -64,8 +168,8 @@
    "id": "9823818",
    "sequence": "2026-11-31649",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T20:04:20Z",
    "created": "2026-11-22T19:55:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9823815",
    "sequence": "2026-11-31647",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:49:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:49:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -325,7 +429,7 @@
    "sequence": "2026-11-31627",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T20:01:54Z",
    "created": "2026-11-22T19:32:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9823760",
-   "sequence": "2026-11-31609",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:19:29Z",
-   "created": "2026-11-22T19:18:58Z",
-   "jurisdiction": "Sequoyah VFD",
-   "agencies": [
-    "Sequoyah VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10456 HAMBY RD",
-   "cross": "ELSEA DR/GREEN POND RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "SEQUOYAH FD",
-   "priority": "PRI 3",
-   "lat": 35.239293,
-   "lon": -85.131975,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823757",
    "sequence": "2026-11-31606",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T19:43:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T20:02:06Z",
    "created": "2026-11-22T19:18:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +532,8 @@
    "id": "9823752",
    "sequence": "2026-11-31600",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T19:42:26Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T20:03:28Z",
    "created": "2026-11-22T19:09:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -472,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.28848,
    "lon": -85.161808,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823751",
-   "sequence": "2026-11-31599",
-   "type": "Burglary",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:39:05Z",
-   "created": "2026-11-22T19:09:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8381 LAKE SCENE CT",
-   "cross": "SUMMERLIN PL/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.155225,
-   "lon": -85.044919,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -657,32 +709,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823700",
-   "sequence": "2026-11-31557",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T19:06:09Z",
-   "created": "2026-11-22T18:22:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "DODSON AVE / WILSON ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.05097,
-   "lon": -85.261726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823687",
