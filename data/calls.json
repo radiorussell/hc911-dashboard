@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T02:40:42+00:00",
+ "updated": "2026-11-22T02:45:37+00:00",
  "counts": {
   "year": 369750,
   "upstream_day": 0,
-  "day": 1175,
+  "day": 1180,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9822803",
+   "sequence": "2026-11-30884",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T02:45:08Z",
+   "created": "2026-11-22T02:45:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9909 WHIRLING WIND LN",
+   "cross": "E WIND DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 D",
+   "priority": "PRI 3",
+   "lat": 35.22056,
+   "lon": -85.11999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822804",
+   "sequence": "2026-11-30885",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T02:45:08Z",
+   "created": "2026-11-22T02:45:08Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9909 WHIRLING WIND LN",
+   "cross": "E WIND DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.22056,
+   "lon": -85.11999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822802",
+   "sequence": "2026-11-30883",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T02:44:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9909 WHIRLING WIND LN",
+   "cross": "E WIND DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.22056,
+   "lon": -85.11999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822798",
    "sequence": "2026-11-30879",
@@ -64,8 +142,8 @@
    "id": "9822795",
    "sequence": "2026-11-30878",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T02:39:23Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:44:51Z",
    "created": "2026-11-22T02:39:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +194,8 @@
    "id": "9822794",
    "sequence": "2026-11-30875",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:42:43Z",
    "created": "2026-11-22T02:38:06Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9822782",
    "sequence": "2026-11-30864",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:42:57Z",
    "created": "2026-11-22T02:31:59Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -714,8 +792,8 @@
    "id": "9822706",
    "sequence": "2026-11-30809",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T02:08:34Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T02:41:14Z",
    "created": "2026-11-22T01:53:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -792,8 +870,8 @@
    "id": "9822664",
    "sequence": "2026-11-30777",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-22T01:50:16Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T02:41:40Z",
    "created": "2026-11-22T01:27:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
