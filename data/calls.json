@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-22T12:45:38+00:00",
+ "updated": "2026-11-22T12:50:38+00:00",
  "counts": {
-  "year": 370050,
-  "upstream_day": 187,
-  "day": 250,
+  "year": 370054,
+  "upstream_day": 191,
+  "day": 252,
   "day_basis": "midnight"
  },
  "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9823319",
+   "sequence": "2026-11-31270",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:47:26Z",
+   "created": "2026-11-22T12:47:26Z",
+   "jurisdiction": "",
+   "agencies": [],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OOL/OOL",
+   "cross": "",
+   "city": "",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 0,
+   "lon": 0,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823316",
    "sequence": "2026-11-31268",
@@ -39,7 +63,7 @@
    "sequence": "2026-11-31266",
    "type": "Animal Call",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T12:48:45Z",
    "created": "2026-11-22T12:40:40Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -217,37 +241,11 @@
    "notable": false
   },
   {
-   "id": "9823283",
-   "sequence": "2026-11-31244",
-   "type": "Animal Call",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:34:08Z",
-   "created": "2026-11-22T12:17:50Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11691 HIGHWAY 111 SB",
-   "cross": "EXIT BACK VALLEY RD OFF RAMP SB/EXIT JONES GAP RD ON RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 4",
-   "lat": 35.305708,
-   "lon": -85.163983,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823276",
    "sequence": "2026-11-31239",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T12:36:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T12:47:10Z",
    "created": "2026-11-22T12:12:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
