@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T15:20:38+00:00",
+ "updated": "2026-11-22T15:25:39+00:00",
  "counts": {
   "year": 370138,
   "upstream_day": 275,
   "day": 355,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 32,
  "incidents": [
   {
    "id": "9823461",
@@ -38,8 +38,8 @@
    "id": "9823462",
    "sequence": "2026-11-31373",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:21:12Z",
    "created": "2026-11-22T15:16:10Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9823460",
    "sequence": "2026-11-31370",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:15:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T15:15:50Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9823457",
    "sequence": "2026-11-31366",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:21:24Z",
    "created": "2026-11-22T15:15:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -247,7 +247,7 @@
    "sequence": "2026-11-31367",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T15:24:40Z",
    "created": "2026-11-22T15:14:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -584,8 +584,8 @@
    "id": "9823431",
    "sequence": "2026-11-31347",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:21:16Z",
    "created": "2026-11-22T14:58:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.041274,
    "lon": -85.167206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823398",
-   "sequence": "2026-11-31322",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T15:04:41Z",
-   "created": "2026-11-22T14:33:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2113 LYNDON AVE",
-   "cross": "E RIDGEWOOD AVE/KILDARE ST",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 RB C",
-   "priority": "PRI 1",
-   "lat": 35.091232,
-   "lon": -85.309625,
    "units": 1,
    "stacked": false,
    "notable": false
