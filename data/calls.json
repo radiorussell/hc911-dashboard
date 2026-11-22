@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-22T23:00:37+00:00",
+ "updated": "2026-11-22T23:05:36+00:00",
  "counts": {
   "year": 370503,
   "upstream_day": 640,
-  "day": 817,
+  "day": 823,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 24,
  "incidents": [
   {
-   "id": "9824045",
-   "sequence": "2026-11-31835",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T22:59:39Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9824051",
+   "sequence": "2026-11-31841",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:03:50Z",
+   "created": "2026-11-22T23:03:50Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga FD"
+    "East Ridge PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "5508 KENYON RD",
-   "cross": "RENEZET DR/ADELIA DR",
+   "address": "730 GERMANTOWN CIR",
+   "cross": "PIRTLE ST/S GERMANTOWN RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 35.007783,
+   "lon": -85.252705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824048",
+   "sequence": "2026-11-31839",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:02:39Z",
+   "created": "2026-11-22T23:02:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5501 BRAINERD RD",
+   "cross": "SPRING CREEK RD/EASTGATE LOOP",
    "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 1",
-   "lat": 35.086273,
-   "lon": -85.169979,
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.010327,
+   "lon": -85.220476,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824046",
+   "sequence": "2026-11-31837",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:01:14Z",
+   "created": "2026-11-22T23:00:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "981 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.001571,
+   "lon": -85.156121,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -39,7 +91,7 @@
    "sequence": "2026-11-31834",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T23:01:28Z",
    "created": "2026-11-22T22:58:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.128369,
    "lon": -85.246543,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824038",
-   "sequence": "2026-11-31830",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T22:58:09Z",
-   "created": "2026-11-22T22:54:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5012 HIXSON PIKE",
-   "cross": "TRINITY LN/NORTHGATE PARK LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.133463,
-   "lon": -85.241756,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9824033",
-   "sequence": "2026-11-31825",
-   "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-22T22:56:16Z",
-   "created": "2026-11-22T22:51:58Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "BRAINERD RD / N GERMANTOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1304 A",
-   "priority": "PRI 1",
-   "lat": 35.024151,
-   "lon": -85.246464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824031",
    "sequence": "2026-11-31823",
    "type": "Pedestrian Struck",
@@ -243,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9824027",
-   "sequence": "2026-11-31820",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-22T22:57:28Z",
-   "created": "2026-11-22T22:48:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2707 CANNON AVE",
-   "cross": "PRAYER LN/HOSEA LN",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.019208,
-   "lon": -85.298207,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824026",
    "sequence": "2026-11-31818",
    "type": "Auto Improperly Parked",
@@ -290,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.036722,
    "lon": -85.311697,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824022",
-   "sequence": "2026-11-31814",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-22T22:54:35Z",
-   "created": "2026-11-22T22:44:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "409 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 2",
-   "lat": 35.093377,
-   "lon": -85.328199,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -451,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9824000",
-   "sequence": "2026-11-31797",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-22T22:31:34Z",
-   "created": "2026-11-22T22:25:05Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9611 SANDRA GALE DR",
-   "cross": "BREWER DR/LOVELL LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 2",
-   "lat": 35.076437,
-   "lon": -85.052602,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823996",
    "sequence": "2026-11-31795",
    "type": "Unknown 911",
@@ -610,8 +532,8 @@
    "id": "9823965",
    "sequence": "2026-11-31763",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T22:37:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T23:01:50Z",
    "created": "2026-11-22T22:00:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -683,32 +605,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823880",
-   "sequence": "2026-11-31696",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T21:44:53Z",
-   "created": "2026-11-22T20:47:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5648 GINKGO RD",
-   "cross": "HOSTA LN/HOMEWOOD CIR",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.066234,
-   "lon": -85.044108,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823351",
