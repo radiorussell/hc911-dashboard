@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-22T17:00:37+00:00",
+ "updated": "2026-11-22T17:05:37+00:00",
  "counts": {
   "year": 370192,
   "upstream_day": 329,
-  "day": 435,
+  "day": 441,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9823572",
+   "sequence": "2026-11-31458",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-22T17:04:25Z",
+   "created": "2026-11-22T17:04:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3001 DEE DR",
+   "cross": "GREENWOOD RD/JUDY ANN DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.058241,
+   "lon": -85.243537,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823571",
+   "sequence": "2026-11-31459",
+   "type": "Missing Juv Not 21",
+   "status": "Queued",
+   "status_at": "2026-11-22T17:04:38Z",
+   "created": "2026-11-22T17:03:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6503 LAKESHORE PKWY",
+   "cross": "MONTCREST DR/HILLSDALE CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 1",
+   "lat": 35.122699,
+   "lon": -85.154293,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9823570",
+   "sequence": "2026-11-31457",
+   "type": "Child Found",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:03:18Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6523 LAKESHORE PKWY",
+   "cross": "HILLSDALE CIR/MONTCREST DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.124525,
+   "lon": -85.15288,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823569",
+   "sequence": "2026-11-31456",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:03:04Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "417 GIBSON POND RD",
+   "cross": "No Cross Street/SHADOW POINT CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 1",
+   "lat": 35.009513,
+   "lon": -85.102268,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823568",
+   "sequence": "2026-11-31455",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:02:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "11212 LONDON LN",
+   "cross": "BILL JONES RD/KEITH RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 34.987944,
+   "lon": -85.028928,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9823566",
    "sequence": "2026-11-31453",
@@ -61,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9823564",
-   "sequence": "2026-11-31450",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:00:28Z",
-   "created": "2026-11-22T17:00:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7641 LEE HWY",
-   "cross": "HAMILTON PARK DR/YERBEY DR",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 2",
-   "lat": 35.060567,
-   "lon": -85.135205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823563",
    "sequence": "2026-11-31451",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:00:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T17:00:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.128532,
    "lon": -85.245334,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823562",
-   "sequence": "2026-11-31449",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T17:00:28Z",
-   "created": "2026-11-22T16:59:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7641 LEE HWY",
-   "cross": "HAMILTON PARK DR/YERBEY DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.060567,
-   "lon": -85.135205,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -247,7 +325,7 @@
    "sequence": "2026-11-31441",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T17:05:25Z",
    "created": "2026-11-22T16:53:45Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,37 +425,11 @@
    "notable": true
   },
   {
-   "id": "9823544",
-   "sequence": "2026-11-31436",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T16:47:15Z",
-   "created": "2026-11-22T16:47:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1020 W 37TH ST",
-   "cross": "PIROLA ST/CHARGER DR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.010456,
-   "lon": -85.32141,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823541",
    "sequence": "2026-11-31435",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T16:53:55Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T17:02:46Z",
    "created": "2026-11-22T16:46:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
