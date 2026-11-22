@@ -1,18 +1,70 @@
 {
- "updated": "2026-11-22T21:35:38+00:00",
+ "updated": "2026-11-22T21:40:37+00:00",
  "counts": {
-  "year": 370428,
-  "upstream_day": 565,
-  "day": 729,
+  "year": 370433,
+  "upstream_day": 570,
+  "day": 731,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9823946",
+   "sequence": "2026-11-31749",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:40:09Z",
+   "created": "2026-11-22T21:40:06Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2011 TOMBRAS AVE",
+   "cross": "GREENBRIAR RD/CAULKINS WAY",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.989516,
+   "lon": -85.244354,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823945",
+   "sequence": "2026-11-31748",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:36:17Z",
+   "created": "2026-11-22T21:36:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1005 GREY OAKS LN",
+   "cross": "PATTERSON RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 34.998056,
+   "lon": -85.147611,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823941",
    "sequence": "2026-11-31746",
    "type": "Auto Theft",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-22T21:31:33Z",
    "created": "2026-11-22T21:31:33Z",
    "jurisdiction": "Chattanooga PD",
@@ -31,59 +83,7 @@
    "lat": 35.113261,
    "lon": -85.260914,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823940",
-   "sequence": "2026-11-31747",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:34:06Z",
-   "created": "2026-11-22T21:31:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5706 LEE HWY",
-   "cross": "BRAINERD RD/AIKEN RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.018106,
-   "lon": -85.204179,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823939",
-   "sequence": "2026-11-31745",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:31:18Z",
-   "created": "2026-11-22T21:31:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5926 WINDING LN",
-   "cross": "OYLER LN/CHASE MEADOWS CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.150106,
-   "lon": -85.246478,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -217,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9823925",
-   "sequence": "2026-11-31733",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:28:06Z",
-   "created": "2026-11-22T21:20:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7430 SHALLOWFORD RD",
-   "cross": "GUNBARREL RD/OGLETREE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.038,
-   "lon": -85.147349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823924",
    "sequence": "2026-11-31732",
    "type": "EMS CALL",
@@ -342,58 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.028544,
    "lon": -85.175528,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823914",
-   "sequence": "2026-11-31722",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:08:37Z",
-   "created": "2026-11-22T21:08:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "807 E 10TH ST",
-   "cross": "MAGNOLIA ST/LOS GATOES LN",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 3",
-   "lat": 35.040162,
-   "lon": -85.295928,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823913",
-   "sequence": "2026-11-31721",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:14:48Z",
-   "created": "2026-11-22T21:08:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "807 E 10TH ST",
-   "cross": "MAGNOLIA ST/LOS GATOES LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 2",
-   "lat": 35.040162,
-   "lon": -85.295928,
    "units": 1,
    "stacked": false,
    "notable": false
