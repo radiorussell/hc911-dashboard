@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-22T03:55:37+00:00",
+ "updated": "2026-11-22T04:00:38+00:00",
  "counts": {
-  "year": 369804,
+  "year": 369815,
   "upstream_day": 0,
-  "day": 1251,
+  "day": 1261,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9822910",
+   "sequence": "2026-11-30965",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T03:59:58Z",
+   "created": "2026-11-22T03:59:58Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.055026,
+   "lon": -85.072687,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822911",
+   "sequence": "2026-11-30966",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T03:59:58Z",
+   "created": "2026-11-22T03:59:58Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 1",
+   "lat": 35.055026,
+   "lon": -85.072687,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822908",
+   "sequence": "2026-11-30964",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:58:57Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.055026,
+   "lon": -85.072687,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822906",
+   "sequence": "2026-11-30963",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:57:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1818 CHESTNUT ST",
+   "cross": "W 17TH ST/W 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 2",
+   "lat": 35.03538,
+   "lon": -85.31456,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822905",
+   "sequence": "2026-11-30961",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:55:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1604 CHAMBERLAIN AVE",
+   "cross": "S HOLLY ST/S HICKORY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.035422,
+   "lon": -85.279399,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822900",
    "sequence": "2026-11-30956",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:55:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:55:01Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +168,8 @@
    "id": "9822899",
    "sequence": "2026-11-30955",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:55:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:55:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9822898",
    "sequence": "2026-11-30954",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:55:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:54:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +220,8 @@
    "id": "9822891",
    "sequence": "2026-11-30951",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T03:57:28Z",
    "created": "2026-11-22T03:48:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -127,13 +257,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "9320 LANCER LN",
+   "address": "9328 LANCER LN",
    "cross": "DUKE LN/No Cross Street",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 1",
    "priority": "PRI 3",
-   "lat": 35.005105,
-   "lon": -85.114544,
+   "lat": 35.005342,
+   "lon": -85.113961,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -169,7 +299,7 @@
    "sequence": "2026-11-30935",
    "type": "Auto Broken Down Road",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T03:59:04Z",
    "created": "2026-11-22T03:27:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -368,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 34.999097,
    "lon": -85.281545,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822756",
-   "sequence": "2026-11-30848",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T02:33:51Z",
-   "created": "2026-11-22T02:21:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "520 INTERSTATE 75 NB",
-   "cross": "EXIT INTERSTATE 75 OFF RAMP NB/EXIT 5 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.038292,
-   "lon": -85.160292,
    "units": 1,
    "stacked": false,
    "notable": false
