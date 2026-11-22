@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T15:55:38+00:00",
+ "updated": "2026-11-22T16:00:40+00:00",
  "counts": {
-  "year": 370154,
-  "upstream_day": 291,
+  "year": 370157,
+  "upstream_day": 294,
   "day": 378,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9823489",
@@ -65,7 +65,7 @@
    "sequence": "2026-11-31394",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T16:01:34Z",
    "created": "2026-11-22T15:47:31Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -113,63 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823474",
-   "sequence": "2026-11-31385",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:31:51Z",
-   "created": "2026-11-22T15:31:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2003 BENNETT AVE",
-   "cross": "S BEECH ST/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "504",
-   "priority": "PRI 1",
-   "lat": 35.028872,
-   "lon": -85.276878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823473",
-   "sequence": "2026-11-31384",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:31:51Z",
-   "created": "2026-11-22T15:31:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2003 BENNETT AVE",
-   "cross": "S BEECH ST/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.028872,
-   "lon": -85.276878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823472",
    "sequence": "2026-11-31383",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:36:20Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:55:30Z",
    "created": "2026-11-22T15:31:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,58 +191,6 @@
    "notable": false
   },
   {
-   "id": "9823462",
-   "sequence": "2026-11-31373",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:21:12Z",
-   "created": "2026-11-22T15:16:10Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "415 FERN TRL",
-   "cross": "DRUID DR/No Cross Street",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 1",
-   "lat": 35.125445,
-   "lon": -85.330251,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823458",
-   "sequence": "2026-11-31371",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:43:50Z",
-   "created": "2026-11-22T15:15:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "415 FERN TRL",
-   "cross": "DRUID DR/No Cross Street",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "MEDIC 08 SM G",
-   "priority": "PRI 1",
-   "lat": 35.125445,
-   "lon": -85.330251,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823456",
    "sequence": "2026-11-31365",
    "type": "EMS CALL",
@@ -350,8 +246,8 @@
    "id": "9823443",
    "sequence": "2026-11-31358",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:44:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T15:57:00Z",
    "created": "2026-11-22T15:07:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
