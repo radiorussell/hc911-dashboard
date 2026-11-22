@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T11:45:38+00:00",
+ "updated": "2026-11-22T11:50:38+00:00",
  "counts": {
-  "year": 370013,
-  "upstream_day": 150,
-  "day": 208,
+  "year": 370020,
+  "upstream_day": 157,
+  "day": 212,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9823263",
+   "sequence": "2026-11-31230",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T11:49:23Z",
+   "created": "2026-11-22T11:49:23Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3600 REDDING RD",
+   "cross": "E EUCLID AVE/E LEAWOOD AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.113643,
+   "lon": -85.290878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823262",
+   "sequence": "2026-11-31229",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:48:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3600 REDDING RD",
+   "cross": "E EUCLID AVE/E LEAWOOD AVE",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.113643,
+   "lon": -85.290878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823257",
    "sequence": "2026-11-31226",
@@ -39,7 +91,7 @@
    "sequence": "2026-11-31224",
    "type": "Backup EMS Unit",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T11:49:28Z",
    "created": "2026-11-22T11:40:43Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9823256",
    "sequence": "2026-11-31225",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:49:25Z",
    "created": "2026-11-22T11:40:43Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9823253",
    "sequence": "2026-11-31222",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:46:52Z",
    "created": "2026-11-22T11:38:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9823251",
    "sequence": "2026-11-31220",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:48:34Z",
    "created": "2026-11-22T11:35:54Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9823241",
    "sequence": "2026-11-31212",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T11:39:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T11:48:32Z",
    "created": "2026-11-22T11:17:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
