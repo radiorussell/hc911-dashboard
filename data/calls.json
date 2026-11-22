@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T22:00:38+00:00",
+ "updated": "2026-11-22T22:05:38+00:00",
  "counts": {
   "year": 370446,
   "upstream_day": 583,
-  "day": 747,
+  "day": 751,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9823969",
+   "sequence": "2026-11-31769",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:02:22Z",
+   "created": "2026-11-22T22:01:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1428 STOCKYARD PL",
+   "cross": "ST ELMO AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 4",
+   "lat": 35.020209,
+   "lon": -85.322844,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823970",
+   "sequence": "2026-11-31768",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:01:47Z",
+   "created": "2026-11-22T22:01:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3903 CAINE LN",
+   "cross": "SHALLOWFORD RD/CREEKVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.051178,
+   "lon": -85.212962,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823966",
+   "sequence": "2026-11-31767",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:01:11Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3903 CAINE LN",
+   "cross": "SHALLOWFORD RD/CREEKVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "1504",
+   "priority": "PRI 2",
+   "lat": 35.051178,
+   "lon": -85.212962,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823967",
    "sequence": "2026-11-31764",
@@ -38,8 +116,8 @@
    "id": "9823968",
    "sequence": "2026-11-31765",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:00:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T22:00:19Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9823965",
    "sequence": "2026-11-31763",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:00:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T22:00:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -89,7 +167,7 @@
   {
    "id": "9823961",
    "sequence": "2026-11-31761",
-   "type": "Unknown 911",
+   "type": "Property",
    "status": "Queued",
    "status_at": "2026-11-22T21:56:04Z",
    "created": "2026-11-22T21:56:00Z",
@@ -105,7 +183,7 @@
    "cross": "W 40TH ST/W 41ST ST",
    "city": "CHATTANOOGA",
    "zone": "A12",
-   "priority": "PRI 3",
+   "priority": "PRI 4",
    "lat": 35.00477,
    "lon": -85.31599,
    "units": 1,
