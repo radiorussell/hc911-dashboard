@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-22T18:45:37+00:00",
+ "updated": "2026-11-22T18:50:43+00:00",
  "counts": {
-  "year": 370289,
-  "upstream_day": 426,
-  "day": 564,
+  "year": 370298,
+  "upstream_day": 435,
+  "day": 566,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 30,
  "incidents": [
   {
-   "id": "9823729",
-   "sequence": "2026-11-31582",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-22T18:44:42Z",
-   "created": "2026-11-22T18:43:59Z",
+   "id": "9823732",
+   "sequence": "2026-11-31584",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T18:46:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
+   "address": "1301 ARLINGTON AVE",
+   "cross": "WILSON ST/BALTO ST",
    "city": "CHATTANOOGA",
-   "zone": "B4",
+   "zone": "B3",
    "priority": "PRI 3",
-   "lat": 35.034727,
-   "lon": -85.26761,
+   "lat": 35.050473,
+   "lon": -85.259994,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +194,8 @@
    "id": "9823722",
    "sequence": "2026-11-31575",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T18:47:55Z",
    "created": "2026-11-22T18:39:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -351,7 +351,7 @@
    "sequence": "2026-11-31567",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T18:48:34Z",
    "created": "2026-11-22T18:24:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -584,8 +584,8 @@
    "id": "9823642",
    "sequence": "2026-11-31515",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T18:24:52Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T18:46:20Z",
    "created": "2026-11-22T17:58:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -647,13 +647,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "MOUNTAIN CREEK RD / QUAIL LN",
-   "cross": "",
+   "address": "3678 MOUNTAIN CREEK RD",
+   "cross": "QUAIL LN/BRASS LANTERN WAY",
    "city": "CHATTANOOGA",
    "zone": "A5",
    "priority": "PRI 2",
-   "lat": 35.125475,
-   "lon": -85.31096,
+   "lat": 35.126058,
+   "lon": -85.310625,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -732,32 +732,6 @@
    "priority": "PRI 3",
    "lat": 35.163315,
    "lon": -85.247128,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823465",
-   "sequence": "2026-11-31376",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:45:18Z",
-   "created": "2026-11-22T15:27:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14035 STORMER RD",
-   "cross": "MCCALLIE FERRY RD/GUNSMOKE TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.352105,
-   "lon": -85.111354,
    "units": 1,
    "stacked": false,
    "notable": false
