@@ -1,61 +1,61 @@
 {
- "updated": "2026-11-22T21:10:37+00:00",
+ "updated": "2026-11-22T21:15:37+00:00",
  "counts": {
   "year": 370412,
   "upstream_day": 549,
-  "day": 706,
+  "day": 709,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9823916",
-   "sequence": "2026-11-31724",
-   "type": "EMS CALL",
+   "id": "9823919",
+   "sequence": "2026-11-31727",
+   "type": "Harassment",
    "status": "Queued",
-   "status_at": "2026-11-22T21:10:23Z",
-   "created": "2026-11-22T21:10:23Z",
-   "jurisdiction": "Chattanooga FD",
+   "status_at": "2026-11-22T21:13:03Z",
+   "created": "2026-11-22T21:12:54Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Chattanooga FD"
+    "Chattanooga PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "807 E 10TH ST",
-   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "address": "1008 BRYNEWOOD TER",
+   "cross": "BRYNEWOOD PARK DR/BRYNEWOOD PARK LN",
    "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040162,
-   "lon": -85.295928,
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.124812,
+   "lon": -85.269932,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9823915",
-   "sequence": "2026-11-31723",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:10:22Z",
-   "created": "2026-11-22T21:09:25Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "id": "9823918",
+   "sequence": "2026-11-31726",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-22T21:14:54Z",
+   "created": "2026-11-22T21:12:02Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "Chattanooga PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
-   "address": "807 E 10TH ST",
-   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "address": "1 - 9 EXIT 4 OFF RAMP SB",
+   "cross": "INTERSTATE 75 SB/EXIT 4 OFF RAMP NB",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
+   "zone": "C6",
    "priority": "PRI 1",
-   "lat": 35.040162,
-   "lon": -85.295928,
+   "lat": 35.028544,
+   "lon": -85.175528,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +90,8 @@
    "id": "9823913",
    "sequence": "2026-11-31721",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:14:48Z",
    "created": "2026-11-22T21:08:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9823910",
    "sequence": "2026-11-31719",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:05:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:04:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.029694,
    "lon": -85.193308,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823905",
-   "sequence": "2026-11-31713",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:00:52Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.107019,
-   "lon": -85.157878,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9823899",
-   "sequence": "2026-11-31710",
-   "type": "Residential Fire",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:55:44Z",
-   "created": "2026-11-22T20:55:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7244 TAILGATE LOOP",
-   "cross": "No Cross Street/PROVIDENCE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 2",
-   "lat": 35.135288,
-   "lon": -85.058906,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823898",
    "sequence": "2026-11-31709",
    "type": "Missing Juv Not 21",
@@ -293,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823897",
-   "sequence": "2026-11-31708",
-   "type": "Miscellaneous Complaint",
-   "status": "Stacked",
-   "status_at": "2026-11-22T20:53:52Z",
-   "created": "2026-11-22T20:53:39Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.060281,
-   "lon": -85.070921,
-   "units": 1,
-   "stacked": true,
-   "notable": false
   },
   {
    "id": "9823895",
@@ -446,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.22337,
    "lon": -85.039245,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823881",
-   "sequence": "2026-11-31697",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:53:11Z",
-   "created": "2026-11-22T20:47:43Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5648 GINKGO RD",
-   "cross": "HOSTA LN/HOMEWOOD CIR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 1",
-   "lat": 35.066234,
-   "lon": -85.044108,
    "units": 1,
    "stacked": false,
    "notable": false
