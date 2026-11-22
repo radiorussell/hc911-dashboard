@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-22T15:15:40+00:00",
+ "updated": "2026-11-22T15:20:38+00:00",
  "counts": {
-  "year": 370123,
-  "upstream_day": 260,
-  "day": 348,
+  "year": 370138,
+  "upstream_day": 275,
+  "day": 355,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9823461",
+   "sequence": "2026-11-31372",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:16:10Z",
+   "created": "2026-11-22T15:16:10Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "415 FERN TRL",
+   "cross": "DRUID DR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.125445,
+   "lon": -85.330251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823462",
+   "sequence": "2026-11-31373",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:16:10Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "415 FERN TRL",
+   "cross": "DRUID DR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 1",
+   "lat": 35.125445,
+   "lon": -85.330251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823459",
+   "sequence": "2026-11-31369",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:15:50Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.225502,
+   "lon": -85.217712,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823460",
+   "sequence": "2026-11-31370",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:15:50Z",
+   "created": "2026-11-22T15:15:50Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 2",
+   "lat": 35.225502,
+   "lon": -85.217712,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823458",
+   "sequence": "2026-11-31371",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:15:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "415 FERN TRL",
+   "cross": "DRUID DR/No Cross Street",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.125445,
+   "lon": -85.330251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823456",
    "sequence": "2026-11-31365",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:15:17Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:19:25Z",
    "created": "2026-11-22T15:15:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +168,8 @@
    "id": "9823457",
    "sequence": "2026-11-31366",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:15:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T15:15:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -61,11 +191,37 @@
    "notable": false
   },
   {
+   "id": "9823455",
+   "sequence": "2026-11-31368",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:15:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.225502,
+   "lon": -85.217712,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9823454",
    "sequence": "2026-11-31364",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:15:17Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:18:21Z",
    "created": "2026-11-22T15:14:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,6 +238,32 @@
    "priority": "PRI 1",
    "lat": 35.062024,
    "lon": -85.133468,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823453",
+   "sequence": "2026-11-31367",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:14:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2545 MCCALLIE AVE",
+   "cross": "EXIT MCCALLIE AVE ON RAMP WB/EXIT BAILEY AVE  RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.032302,
+   "lon": -85.264472,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.108153,
    "lon": -85.317953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823441",
-   "sequence": "2026-11-31356",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-22T15:11:34Z",
-   "created": "2026-11-22T15:03:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2303 E 23RD ST",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.017328,
-   "lon": -85.276601,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -455,7 +611,7 @@
    "sequence": "2026-11-31355",
    "type": "Shots Fired",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T15:19:40Z",
    "created": "2026-11-22T14:58:01Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -558,8 +714,8 @@
    "id": "9823397",
    "sequence": "2026-11-31325",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:09:46Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T15:18:27Z",
    "created": "2026-11-22T14:32:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
