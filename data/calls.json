@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T01:40:38+00:00",
+ "updated": "2026-11-22T01:45:38+00:00",
  "counts": {
   "year": 369683,
   "upstream_day": 0,
-  "day": 1090,
+  "day": 1096,
   "day_basis": "midnight"
  },
  "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9822694",
+   "sequence": "2026-11-30801",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:43:29Z",
+   "created": "2026-11-22T01:43:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5425 HIGHWAY 153",
+   "cross": "HWY 153 SB @ HIXSON PK SB - OFF RAMP/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.138164,
+   "lon": -85.24936,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822684",
    "sequence": "2026-11-30794",
@@ -64,8 +90,8 @@
    "id": "9822682",
    "sequence": "2026-11-30793",
    "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:39:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:39:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9822677",
    "sequence": "2026-11-30788",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:42:16Z",
    "created": "2026-11-22T01:34:28Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -117,7 +143,7 @@
    "sequence": "2026-11-30787",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T01:44:25Z",
    "created": "2026-11-22T01:34:28Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9822674",
    "sequence": "2026-11-30786",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:41:56Z",
    "created": "2026-11-22T01:34:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9822675",
    "sequence": "2026-11-30789",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:35:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:34:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -221,7 +247,7 @@
    "sequence": "2026-11-30783",
    "type": "Shoplifter",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T01:43:57Z",
    "created": "2026-11-22T01:31:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -247,7 +273,7 @@
    "sequence": "2026-11-30780",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T01:42:25Z",
    "created": "2026-11-22T01:30:33Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -760,32 +786,6 @@
    "lon": -85.280423,
    "units": 1,
    "stacked": true,
-   "notable": true
-  },
-  {
-   "id": "9822335",
-   "sequence": "2026-11-30529",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-21T22:09:28Z",
-   "created": "2026-11-21T22:02:42Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
    "notable": true
   },
   {
