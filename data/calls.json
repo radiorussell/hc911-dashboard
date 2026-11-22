@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-22T21:05:42+00:00",
+ "updated": "2026-11-22T21:10:37+00:00",
  "counts": {
-  "year": 370405,
-  "upstream_day": 542,
-  "day": 696,
+  "year": 370412,
+  "upstream_day": 549,
+  "day": 706,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9823916",
+   "sequence": "2026-11-31724",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:10:23Z",
+   "created": "2026-11-22T21:10:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "807 E 10TH ST",
+   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040162,
+   "lon": -85.295928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823915",
+   "sequence": "2026-11-31723",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:10:22Z",
+   "created": "2026-11-22T21:09:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "807 E 10TH ST",
+   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040162,
+   "lon": -85.295928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823914",
+   "sequence": "2026-11-31722",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:08:37Z",
+   "created": "2026-11-22T21:08:37Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "807 E 10TH ST",
+   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 3",
+   "lat": 35.040162,
+   "lon": -85.295928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823913",
+   "sequence": "2026-11-31721",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:08:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "807 E 10TH ST",
+   "cross": "MAGNOLIA ST/LOS GATOES LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 2",
+   "lat": 35.040162,
+   "lon": -85.295928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823910",
+   "sequence": "2026-11-31719",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:05:53Z",
+   "created": "2026-11-22T21:04:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "900 AIRPORT RD",
+   "cross": "HANCOCK RD/APPROACH PATH",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.029694,
+   "lon": -85.193308,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823905",
    "sequence": "2026-11-31713",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:00:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:00:52Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +168,8 @@
    "id": "9823906",
    "sequence": "2026-11-31714",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:08:08Z",
    "created": "2026-11-22T21:00:52Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9823903",
    "sequence": "2026-11-31712",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:08:09Z",
    "created": "2026-11-22T21:00:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +402,8 @@
    "id": "9823885",
    "sequence": "2026-11-31701",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:07:45Z",
    "created": "2026-11-22T20:49:57Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -319,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823845",
-   "sequence": "2026-11-31699",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:59:17Z",
-   "created": "2026-11-22T20:48:51Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7244 TAILGATE LOOP",
-   "cross": "No Cross Street/PROVIDENCE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 1",
-   "lat": 35.135288,
-   "lon": -85.058906,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823881",
@@ -425,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9823865",
-   "sequence": "2026-11-31687",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:36:17Z",
-   "created": "2026-11-22T20:36:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7511 SHALLOWFORD RD",
-   "cross": "PEMBROOK LN/ASHFORD VILLA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 3",
-   "lat": 35.039359,
-   "lon": -85.142711,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823864",
    "sequence": "2026-11-31686",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:41:22Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:07:40Z",
    "created": "2026-11-22T20:35:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -472,32 +550,6 @@
    "priority": "PRI 2",
    "lat": 35.039359,
    "lon": -85.142711,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823854",
-   "sequence": "2026-11-31678",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T20:29:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2180 GUNBARREL RD",
-   "cross": "LANDRESS DR/COMMONS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.034718,
-   "lon": -85.149653,
    "units": 1,
    "stacked": false,
    "notable": false
