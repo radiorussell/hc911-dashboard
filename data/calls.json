@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-22T19:10:37+00:00",
+ "updated": "2026-11-22T19:15:38+00:00",
  "counts": {
   "year": 370308,
   "upstream_day": 445,
-  "day": 584,
+  "day": 585,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 32,
  "incidents": [
   {
-   "id": "9823753",
-   "sequence": "2026-11-31601",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:10:14Z",
-   "created": "2026-11-22T19:10:14Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "id": "9823755",
+   "sequence": "2026-11-31603",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:12:06Z",
+   "jurisdiction": "Red Bank PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Red Bank PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "243 DEPOT ST",
-   "cross": "PRUETT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.28848,
-   "lon": -85.161808,
+   "address": "1901 DAYTON BLVD",
+   "cross": "HEDGEWOOD DR/MERRIMAN AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.086434,
+   "lon": -85.315917,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,11 +61,37 @@
    "notable": false
   },
   {
+   "id": "9823753",
+   "sequence": "2026-11-31601",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:10:14Z",
+   "created": "2026-11-22T19:10:14Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "243 DEPOT ST",
+   "cross": "PRUETT ST/SPRING ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.28848,
+   "lon": -85.161808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9823752",
    "sequence": "2026-11-31600",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:14:50Z",
    "created": "2026-11-22T19:09:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9823749",
    "sequence": "2026-11-31598",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:09:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:08:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -141,9 +167,9 @@
   {
    "id": "9823748",
    "sequence": "2026-11-31597",
-   "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:09:17Z",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:08:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9823744",
-   "sequence": "2026-11-31595",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:10:13Z",
-   "created": "2026-11-22T19:05:43Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "720 S SWEETBRIAR AVE",
-   "cross": "SWEET ST/SWEETBRIAR CIR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.003813,
-   "lon": -85.241382,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823740",
    "sequence": "2026-11-31593",
    "type": "Auto Theft",
@@ -246,8 +246,8 @@
    "id": "9823739",
    "sequence": "2026-11-31591",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:14:53Z",
    "created": "2026-11-22T19:03:25Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -342,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 34.985086,
    "lon": -85.334005,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823733",
-   "sequence": "2026-11-31585",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:00:15Z",
-   "created": "2026-11-22T18:54:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6314 E BRAINERD RD",
-   "cross": "OSBORNE DR/WILLIAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.016891,
-   "lon": -85.19664,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -524,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.269468,
    "lon": -85.029155,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823704",
-   "sequence": "2026-11-31568",
-   "type": "Fraud",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:09:12Z",
-   "created": "2026-11-22T18:24:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8646 STREAMSIDE DR",
-   "cross": "LAZY BROOK CT/TRANQUILITY DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 4",
-   "lat": 35.117929,
-   "lon": -85.055163,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -714,8 +662,8 @@
    "id": "9823663",
    "sequence": "2026-11-31530",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T18:45:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T19:11:34Z",
    "created": "2026-11-22T18:10:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -839,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823582",
-   "sequence": "2026-11-31469",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T17:25:20Z",
-   "created": "2026-11-22T17:16:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5900 HIGHWAY 153",
-   "cross": "LITTLEBURY WAY/STONE RIDGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.163315,
-   "lon": -85.247128,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823351",
