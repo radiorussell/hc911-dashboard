@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T11:38:25+00:00",
+ "updated": "2026-11-22T11:40:38+00:00",
  "counts": {
-  "year": 370010,
-  "upstream_day": 147,
-  "day": 203,
+  "year": 370013,
+  "upstream_day": 150,
+  "day": 204,
   "day_basis": "midnight"
  },
  "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9823253",
+   "sequence": "2026-11-31222",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-22T11:39:26Z",
+   "created": "2026-11-22T11:38:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "603 ASHLAND TER",
+   "cross": "THRUSHWOOD DR/SANDERS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.117662,
+   "lon": -85.278318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823252",
    "sequence": "2026-11-31221",
@@ -87,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823244",
-   "sequence": "2026-11-31214",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T11:18:00Z",
-   "created": "2026-11-22T11:18:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2904 CALHOUN AVE",
-   "cross": "E 29TH ST/E 30TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.011974,
-   "lon": -85.295232,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823241",
    "sequence": "2026-11-31212",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:25:22Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T11:39:40Z",
    "created": "2026-11-22T11:17:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
