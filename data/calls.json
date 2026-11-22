@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-22T12:35:38+00:00",
+ "updated": "2026-11-22T12:40:38+00:00",
  "counts": {
-  "year": 370047,
-  "upstream_day": 184,
-  "day": 244,
+  "year": 370050,
+  "upstream_day": 187,
+  "day": 245,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 16,
  "incidents": [
   {
-   "id": "9823307",
-   "sequence": "2026-11-31260",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:34:58Z",
-   "created": "2026-11-22T12:34:36Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9823309",
+   "sequence": "2026-11-31263",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:35:43Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "8264 ELLIE PLAZA PL",
-   "cross": "No Cross Street/HIXSON PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.189898,
-   "lon": -85.169178,
+   "address": "8708 IGOU GAP RD",
+   "cross": "MORRIS HILL RD/PINE NEEDLES TRL",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 2",
+   "lat": 35.015863,
+   "lon": -85.124857,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9823306",
    "sequence": "2026-11-31262",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:35:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T12:34:29Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -87,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9823299",
-   "sequence": "2026-11-31257",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:26:45Z",
-   "created": "2026-11-22T12:26:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823295",
    "sequence": "2026-11-31255",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:33:56Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T12:40:15Z",
    "created": "2026-11-22T12:26:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823296",
-   "sequence": "2026-11-31253",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T12:26:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7301 E BRAINERD RD",
-   "cross": "KENMOOR DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.016271,
-   "lon": -85.163561,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,63 +243,11 @@
    "notable": false
   },
   {
-   "id": "9823278",
-   "sequence": "2026-11-31241",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:23:08Z",
-   "created": "2026-11-22T12:13:09Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8264 ELLIE PLAZA PL",
-   "cross": "No Cross Street/HIXSON PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.189898,
-   "lon": -85.169178,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823277",
-   "sequence": "2026-11-31240",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:13:09Z",
-   "created": "2026-11-22T12:13:09Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8264 ELLIE PLAZA PL",
-   "cross": "No Cross Street/HIXSON PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.189898,
-   "lon": -85.169178,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823276",
    "sequence": "2026-11-31239",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:24:43Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T12:36:15Z",
    "created": "2026-11-22T12:12:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +272,8 @@
    "id": "9823264",
    "sequence": "2026-11-31232",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:10:53Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T12:37:33Z",
    "created": "2026-11-22T11:51:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +324,8 @@
    "id": "9823262",
    "sequence": "2026-11-31229",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T12:17:19Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T12:37:46Z",
    "created": "2026-11-22T11:48:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +376,8 @@
    "id": "9823254",
    "sequence": "2026-11-31223",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T12:21:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T12:36:50Z",
    "created": "2026-11-22T11:40:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +394,6 @@
    "priority": "PRI 2",
    "lat": 35.000798,
    "lon": -85.245652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823235",
-   "sequence": "2026-11-31205",
-   "type": "Auto Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:35:27Z",
-   "created": "2026-11-22T11:09:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1120 EVERETT DR",
-   "cross": "E BRAINERD RD/SPRINGVIEW DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 35.003256,
-   "lon": -85.119934,
    "units": 1,
    "stacked": false,
    "notable": false
