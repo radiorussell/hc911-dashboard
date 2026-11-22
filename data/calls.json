@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T12:15:36+00:00",
+ "updated": "2026-11-22T12:20:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 223,
+  "day": 227,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9823285",
+   "sequence": "2026-11-31245",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:18:36Z",
+   "created": "2026-11-22T12:18:36Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11600 HIGHWAY 111 SB",
+   "cross": "EXIT BACK VALLEY RD OFF RAMP SB/EXIT JONES GAP RD ON RAMP SB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 4",
+   "lat": 35.304783,
+   "lon": -85.163128,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823283",
+   "sequence": "2026-11-31244",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:17:50Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11691 HIGHWAY 111 SB",
+   "cross": "EXIT BACK VALLEY RD OFF RAMP SB/EXIT JONES GAP RD ON RAMP SB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 4",
+   "lat": 35.305708,
+   "lon": -85.163983,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823278",
    "sequence": "2026-11-31241",
@@ -82,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.189898,
    "lon": -85.169178,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823275",
-   "sequence": "2026-11-31238",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:11:28Z",
-   "created": "2026-11-22T12:07:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "120 E 10TH ST",
-   "cross": "COLUMBIA ST/LINDSAY ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.044228,
-   "lon": -85.307948,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9823263",
-   "sequence": "2026-11-31230",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T11:49:23Z",
-   "created": "2026-11-22T11:49:23Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3600 REDDING RD",
-   "cross": "E EUCLID AVE/E LEAWOOD AVE",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 2",
-   "lat": 35.113643,
-   "lon": -85.290878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823262",
    "sequence": "2026-11-31229",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T12:03:52Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T12:17:19Z",
    "created": "2026-11-22T11:48:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -262,32 +262,6 @@
    "city": "EAST RIDGE",
    "zone": "ERPD CENTRAL",
    "priority": "PRI 2",
-   "lat": 35.000798,
-   "lon": -85.245652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823256",
-   "sequence": "2026-11-31225",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:49:25Z",
-   "created": "2026-11-22T11:40:43Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4012 BELVOIR DR",
-   "cross": "BELVOIR AVE/BROOKFIELD AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
    "lat": 35.000798,
    "lon": -85.245652,
    "units": 1,
