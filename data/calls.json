@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T08:40:38+00:00",
+ "updated": "2026-11-22T08:45:37+00:00",
  "counts": {
   "year": 369960,
   "upstream_day": 97,
   "day": 138,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9823156",
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9823131",
-   "sequence": "2026-11-31134",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T08:00:37Z",
-   "created": "2026-11-22T08:00:37Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "24 HIDDEN BROOK LN",
-   "cross": "WHISPERING PINES DR/COOL SPRINGS RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 3",
-   "lat": 35.148195,
-   "lon": -85.343463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823129",
    "sequence": "2026-11-31133",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:15:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T08:43:47Z",
    "created": "2026-11-22T08:00:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.148195,
    "lon": -85.343463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823127",
-   "sequence": "2026-11-31132",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:05:32Z",
-   "created": "2026-11-22T07:57:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "251 - 323 HIGHWAY 27 NB",
-   "cross": "EXIT MANUFACTURERS RD ON RAMP NB/EXIT DAYTON BLVD OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.066807,
-   "lon": -85.318874,
    "units": 1,
    "stacked": false,
    "notable": false
