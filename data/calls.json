@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T14:45:37+00:00",
+ "updated": "2026-11-22T14:50:39+00:00",
  "counts": {
-  "year": 370105,
-  "upstream_day": 242,
-  "day": 320,
+  "year": 370110,
+  "upstream_day": 247,
+  "day": 321,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9823418",
+   "sequence": "2026-11-31339",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T14:46:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 E MAIN ST",
+   "cross": "WASHINGTON ST/ADAMS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.034316,
+   "lon": -85.302555,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823417",
    "sequence": "2026-11-31338",
@@ -38,8 +64,8 @@
    "id": "9823413",
    "sequence": "2026-11-31336",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T14:47:01Z",
    "created": "2026-11-22T14:42:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -82,84 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.041274,
    "lon": -85.167206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823409",
-   "sequence": "2026-11-31331",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:42:51Z",
-   "created": "2026-11-22T14:36:50Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3901 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 1",
-   "lat": 35.115281,
-   "lon": -85.26244,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823408",
-   "sequence": "2026-11-31330",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:36:50Z",
-   "created": "2026-11-22T14:36:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3901 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.115281,
-   "lon": -85.26244,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823406",
-   "sequence": "2026-11-31329",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T14:36:42Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3901 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.115281,
-   "lon": -85.26244,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +298,8 @@
    "id": "9823393",
    "sequence": "2026-11-31319",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:40:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T14:50:35Z",
    "created": "2026-11-22T14:32:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.024494,
    "lon": -85.155624,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823379",
-   "sequence": "2026-11-31312",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-22T14:25:02Z",
-   "created": "2026-11-22T14:20:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "625 GEORGIA AVE",
-   "cross": "E 6TH ST/LOOKOUT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.049301,
-   "lon": -85.306913,
    "units": 1,
    "stacked": false,
    "notable": false
