@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T04:30:39+00:00",
+ "updated": "2026-11-22T04:35:42+00:00",
  "counts": {
   "year": 369839,
   "upstream_day": 0,
-  "day": 1289,
+  "day": 1294,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9822955",
+   "sequence": "2026-11-30999",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T04:35:24Z",
+   "created": "2026-11-22T04:35:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "360 BROWN BEAR TRL",
+   "cross": "SHMILY LN/GATES RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.18521,
+   "lon": -85.219144,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822953",
+   "sequence": "2026-11-30997",
+   "type": "Backup Fire Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T04:32:50Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4522 W RAVENWOOD DR",
+   "cross": "COVE LN/E RAVENWOOD DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 2",
+   "lat": 35.127431,
+   "lon": -85.273311,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822952",
+   "sequence": "2026-11-30996",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T04:30:41Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4522 W RAVENWOOD DR",
+   "cross": "COVE LN/E RAVENWOOD DR",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 2",
+   "priority": "PRI 3",
+   "lat": 35.127431,
+   "lon": -85.273311,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9822945",
    "sequence": "2026-11-30993",
@@ -191,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9822923",
-   "sequence": "2026-11-30974",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T04:07:37Z",
-   "created": "2026-11-22T04:07:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1818 CHESTNUT ST",
-   "cross": "W 17TH ST/W 19TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "103 B",
-   "priority": "PRI 2",
-   "lat": 35.03538,
-   "lon": -85.31456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822922",
    "sequence": "2026-11-30973",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T04:17:41Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T04:34:21Z",
    "created": "2026-11-22T04:07:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
