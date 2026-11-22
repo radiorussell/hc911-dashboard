@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T21:45:37+00:00",
+ "updated": "2026-11-22T21:50:38+00:00",
  "counts": {
-  "year": 370433,
-  "upstream_day": 570,
+  "year": 370435,
+  "upstream_day": 572,
   "day": 731,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
   {
    "id": "9823946",
@@ -64,8 +64,8 @@
    "id": "9823941",
    "sequence": "2026-11-31746",
    "type": "Auto Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-22T21:31:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:31:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -83,7 +83,7 @@
    "lat": 35.113261,
    "lon": -85.260914,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -108,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.249612,
    "lon": -85.193018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823930",
-   "sequence": "2026-11-31737",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-22T21:27:36Z",
-   "created": "2026-11-22T21:26:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.094368,
-   "lon": -85.331318,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +194,8 @@
    "id": "9823921",
    "sequence": "2026-11-31729",
    "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:49:39Z",
    "created": "2026-11-22T21:17:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
