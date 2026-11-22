@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T21:55:38+00:00",
+ "updated": "2026-11-22T22:00:38+00:00",
  "counts": {
-  "year": 370435,
-  "upstream_day": 572,
-  "day": 739,
+  "year": 370446,
+  "upstream_day": 583,
+  "day": 747,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9823967",
+   "sequence": "2026-11-31764",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:00:19Z",
+   "created": "2026-11-22T22:00:19Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1059 TROJAN RUN DR",
+   "cross": "ZEUS CT/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.264823,
+   "lon": -85.14198,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823968",
+   "sequence": "2026-11-31765",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:00:19Z",
+   "created": "2026-11-22T22:00:19Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1059 TROJAN RUN DR",
+   "cross": "ZEUS CT/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.264823,
+   "lon": -85.14198,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823965",
+   "sequence": "2026-11-31763",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:00:19Z",
+   "created": "2026-11-22T22:00:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1059 TROJAN RUN DR",
+   "cross": "ZEUS CT/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.264823,
+   "lon": -85.14198,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823961",
+   "sequence": "2026-11-31761",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:56:04Z",
+   "created": "2026-11-22T21:56:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4032 CHANDLER AVE",
+   "cross": "W 40TH ST/W 41ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.00477,
+   "lon": -85.31599,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823958",
    "sequence": "2026-11-31757",
@@ -290,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.107019,
    "lon": -85.157878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823895",
-   "sequence": "2026-11-31707",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:02:47Z",
-   "created": "2026-11-22T20:52:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2303 E 23RD ST",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.017328,
-   "lon": -85.276601,
    "units": 1,
    "stacked": false,
    "notable": false
