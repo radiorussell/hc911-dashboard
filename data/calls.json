@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T01:45:38+00:00",
+ "updated": "2026-11-22T01:50:37+00:00",
  "counts": {
-  "year": 369683,
+  "year": 369692,
   "upstream_day": 0,
   "day": 1096,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 27,
  "incidents": [
   {
    "id": "9822694",
@@ -38,8 +38,8 @@
    "id": "9822684",
    "sequence": "2026-11-30794",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:49:40Z",
    "created": "2026-11-22T01:39:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9822682",
    "sequence": "2026-11-30793",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T01:46:26Z",
    "created": "2026-11-22T01:39:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -132,32 +132,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "HIGHWAY 58 FD 2",
    "priority": "PRI 1",
-   "lat": 35.14665,
-   "lon": -85.069698,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822676",
-   "sequence": "2026-11-30787",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-22T01:44:25Z",
-   "created": "2026-11-22T01:34:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7912 JONATHAN DR",
-   "cross": "GIORGIO CIR/LEXSATURNO LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
    "lat": 35.14665,
    "lon": -85.069698,
    "units": 1,
@@ -295,6 +269,32 @@
    "notable": false
   },
   {
+   "id": "9822664",
+   "sequence": "2026-11-30777",
+   "type": "MVC Injuries",
+   "status": "Transporting",
+   "status_at": "2026-11-22T01:50:16Z",
+   "created": "2026-11-22T01:27:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2900 - 2998 HIXSON PIKE",
+   "cross": "OZARK RD/BRALY PL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.09437,
+   "lon": -85.2833,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9822665",
    "sequence": "2026-11-30778",
    "type": "MVC Injuries",
@@ -313,32 +313,6 @@
    "cross": "OZARK RD/BRALY PL",
    "city": "CHATTANOOGA",
    "zone": "1601",
-   "priority": "PRI 1",
-   "lat": 35.09437,
-   "lon": -85.2833,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9822664",
-   "sequence": "2026-11-30777",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:36:45Z",
-   "created": "2026-11-22T01:27:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2900 - 2998 HIXSON PIKE",
-   "cross": "OZARK RD/BRALY PL",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
    "priority": "PRI 1",
    "lat": 35.09437,
    "lon": -85.2833,
@@ -373,63 +347,11 @@
    "notable": true
   },
   {
-   "id": "9822656",
-   "sequence": "2026-11-30771",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:20:58Z",
-   "created": "2026-11-22T01:20:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4400 BENNETT RD",
-   "cross": "TOMBRAS AVE/DUGAN ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.987673,
-   "lon": -85.244335,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822657",
-   "sequence": "2026-11-30772",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:20:58Z",
-   "created": "2026-11-22T01:20:58Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4400 BENNETT RD",
-   "cross": "TOMBRAS AVE/DUGAN ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.987673,
-   "lon": -85.244335,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822655",
    "sequence": "2026-11-30770",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:38:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T01:49:17Z",
    "created": "2026-11-22T01:20:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -475,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822635",
-   "sequence": "2026-11-30754",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:12:53Z",
-   "created": "2026-11-22T01:06:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "S TERRACE / S GERMANTOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1304 B",
-   "priority": "PRI 1",
-   "lat": 35.013819,
-   "lon": -85.252073,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822634",
@@ -576,32 +472,6 @@
    "priority": "PRI 3",
    "lat": 35.054645,
    "lon": -85.194241,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822606",
-   "sequence": "2026-11-30740",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T00:50:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1908 BAILEY AVE",
-   "cross": "S ORCHARD KNOB AVE/S BEECH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.032697,
-   "lon": -85.274906,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -766,8 +636,8 @@
    "id": "9822337",
    "sequence": "2026-11-30533",
    "type": "Missing Juv Not 21",
-   "status": "Stacked",
-   "status_at": "2026-11-22T01:34:24Z",
+   "status": "On Scene",
+   "status_at": "2026-11-21T22:23:16Z",
    "created": "2026-11-21T22:05:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -785,7 +655,7 @@
    "lat": 35.021908,
    "lon": -85.280423,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": true
   },
   {
