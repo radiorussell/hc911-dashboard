@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-22T15:05:43+00:00",
+ "updated": "2026-11-22T15:10:39+00:00",
  "counts": {
-  "year": 370112,
-  "upstream_day": 249,
-  "day": 338,
+  "year": 370123,
+  "upstream_day": 260,
+  "day": 344,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9823447",
+   "sequence": "2026-11-31361",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:09:00Z",
+   "created": "2026-11-22T15:08:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3901 DODDS AVE",
+   "cross": "E 39TH ST/E 40TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.997258,
+   "lon": -85.283529,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823448",
+   "sequence": "2026-11-31362",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:08:50Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "941 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.998857,
+   "lon": -85.218956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823445",
+   "sequence": "2026-11-31359",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:08:30Z",
+   "created": "2026-11-22T15:08:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1020 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 2",
+   "lat": 35.108153,
+   "lon": -85.317953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823446",
+   "sequence": "2026-11-31360",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:08:30Z",
+   "created": "2026-11-22T15:08:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1020 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.108153,
+   "lon": -85.317953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823443",
+   "sequence": "2026-11-31358",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:07:57Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1020 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.108153,
+   "lon": -85.317953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823441",
    "sequence": "2026-11-31356",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:04:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T15:03:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +272,8 @@
    "id": "9823436",
    "sequence": "2026-11-31353",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:08:12Z",
    "created": "2026-11-22T14:59:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +298,8 @@
    "id": "9823435",
    "sequence": "2026-11-31349",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:07:43Z",
    "created": "2026-11-22T14:59:08Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -325,7 +455,7 @@
    "sequence": "2026-11-31339",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T15:06:40Z",
    "created": "2026-11-22T14:46:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +480,8 @@
    "id": "9823412",
    "sequence": "2026-11-31335",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:02:42Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T15:08:59Z",
    "created": "2026-11-22T14:41:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +584,8 @@
    "id": "9823397",
    "sequence": "2026-11-31325",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:44:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:09:46Z",
    "created": "2026-11-22T14:32:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +610,8 @@
    "id": "9823393",
    "sequence": "2026-11-31319",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T14:50:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T15:06:10Z",
    "created": "2026-11-22T14:32:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
