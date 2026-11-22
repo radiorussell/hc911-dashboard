@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T15:25:39+00:00",
+ "updated": "2026-11-22T15:30:38+00:00",
  "counts": {
-  "year": 370138,
-  "upstream_day": 275,
-  "day": 355,
+  "year": 370141,
+  "upstream_day": 278,
+  "day": 364,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9823470",
+   "sequence": "2026-11-31382",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:30:19Z",
+   "created": "2026-11-22T15:30:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6123 MOUNTAIN VIEW RD",
+   "cross": "SNOW HILL RD/AMOS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.093487,
+   "lon": -85.06273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823469",
+   "sequence": "2026-11-31380",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:30:07Z",
+   "created": "2026-11-22T15:30:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6123 MOUNTAIN VIEW RD",
+   "cross": "SNOW HILL RD/AMOS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.093487,
+   "lon": -85.06273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823465",
+   "sequence": "2026-11-31376",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:27:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14035 STORMER RD",
+   "cross": "MCCALLIE FERRY RD/GUNSMOKE TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.352105,
+   "lon": -85.111354,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823461",
    "sequence": "2026-11-31372",
@@ -61,58 +139,6 @@
    "notable": false
   },
   {
-   "id": "9823459",
-   "sequence": "2026-11-31369",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T15:15:50Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8783 DAYTON PIKE",
-   "cross": "MIMOSA DR/SHEARER ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.225502,
-   "lon": -85.217712,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823460",
-   "sequence": "2026-11-31370",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T15:15:50Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8783 DAYTON PIKE",
-   "cross": "MIMOSA DR/SHEARER ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 2",
-   "lat": 35.225502,
-   "lon": -85.217712,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823458",
    "sequence": "2026-11-31371",
    "type": "EMS CALL",
@@ -158,32 +184,6 @@
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 1",
-   "lat": 35.062024,
-   "lon": -85.133468,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823457",
-   "sequence": "2026-11-31366",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:21:24Z",
-   "created": "2026-11-22T15:15:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7707 LEE HWY",
-   "cross": "BONNY OAKS DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 2",
    "lat": 35.062024,
    "lon": -85.133468,
    "units": 1,
@@ -350,8 +350,8 @@
    "id": "9823443",
    "sequence": "2026-11-31358",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:29:16Z",
    "created": "2026-11-22T15:07:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -503,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9823435",
-   "sequence": "2026-11-31349",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:07:43Z",
-   "created": "2026-11-22T14:59:08Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "504 N PALISADES DR",
-   "cross": "ARROW DR/E BROW RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.126682,
-   "lon": -85.326321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823434",
    "sequence": "2026-11-31348",
    "type": "EMS CALL",
@@ -548,6 +522,32 @@
    "city": "SIGNAL MOUNTAIN",
    "zone": "SIGNAL MOUNTAIN 2 A",
    "priority": "PRI 3",
+   "lat": 35.126682,
+   "lon": -85.326321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823435",
+   "sequence": "2026-11-31349",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:07:43Z",
+   "created": "2026-11-22T14:59:08Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "504 N PALISADES DR",
+   "cross": "ARROW DR/E BROW RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 2",
    "lat": 35.126682,
    "lon": -85.326321,
    "units": 1,
@@ -659,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9823412",
-   "sequence": "2026-11-31335",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T15:08:59Z",
-   "created": "2026-11-22T14:41:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6860 LEE HWY",
-   "cross": "HICKORY VALLEY RD/CONNER LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.041274,
-   "lon": -85.167206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823397",
    "sequence": "2026-11-31325",
    "type": "EMS CALL",
@@ -758,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.09006,
    "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823355",
-   "sequence": "2026-11-31295",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T15:02:33Z",
-   "created": "2026-11-22T13:56:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "488 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "MEDIC 08 SM G",
-   "priority": "PRI 1",
-   "lat": 35.124182,
-   "lon": -85.366435,
    "units": 1,
    "stacked": false,
    "notable": false
