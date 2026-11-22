@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T21:00:38+00:00",
+ "updated": "2026-11-22T21:05:42+00:00",
  "counts": {
   "year": 370405,
   "upstream_day": 542,
-  "day": 693,
+  "day": 696,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9823905",
+   "sequence": "2026-11-31713",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:00:52Z",
+   "created": "2026-11-22T21:00:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.107019,
+   "lon": -85.157878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823906",
+   "sequence": "2026-11-31714",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:00:52Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.107019,
+   "lon": -85.157878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823903",
+   "sequence": "2026-11-31712",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:00:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.107019,
+   "lon": -85.157878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823900",
    "sequence": "2026-11-31711",
@@ -90,8 +168,8 @@
    "id": "9823897",
    "sequence": "2026-11-31708",
    "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-22T20:56:59Z",
+   "status": "Stacked",
+   "status_at": "2026-11-22T20:53:52Z",
    "created": "2026-11-22T20:53:39Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -109,15 +187,15 @@
    "lat": 35.060281,
    "lon": -85.070921,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9823895",
    "sequence": "2026-11-31707",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:02:47Z",
    "created": "2026-11-22T20:52:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9823883",
    "sequence": "2026-11-31700",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:03:10Z",
    "created": "2026-11-22T20:49:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.043989,
    "lon": -85.156512,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823732",
-   "sequence": "2026-11-31584",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-22T18:56:41Z",
-   "created": "2026-11-22T18:46:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2300 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.049682,
-   "lon": -85.260739,
    "units": 1,
    "stacked": false,
    "notable": false
