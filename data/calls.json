@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T17:20:43+00:00",
+ "updated": "2026-11-22T17:25:36+00:00",
  "counts": {
   "year": 370213,
   "upstream_day": 350,
-  "day": 452,
+  "day": 456,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9823588",
+   "sequence": "2026-11-31474",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T17:24:40Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5080 S TERRACE",
+   "cross": "MCBRIEN RD/SPRING CREEK RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 35.002491,
+   "lon": -85.22387,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823586",
+   "sequence": "2026-11-31473",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-22T17:23:37Z",
+   "created": "2026-11-22T17:23:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6100 MOUNTAIN VIEW RD",
+   "cross": "SNOW HILL RD/AMOS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.090337,
+   "lon": -85.061139,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823583",
    "sequence": "2026-11-31470",
@@ -39,7 +91,7 @@
    "sequence": "2026-11-31469",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T17:25:20Z",
    "created": "2026-11-22T17:16:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9823577",
    "sequence": "2026-11-31464",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:22:09Z",
    "created": "2026-11-22T17:11:09Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9823575",
    "sequence": "2026-11-31462",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:20:52Z",
    "created": "2026-11-22T17:08:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -347,32 +399,6 @@
    "notable": true
   },
   {
-   "id": "9823568",
-   "sequence": "2026-11-31455",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T17:02:08Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "11212 LONDON LN",
-   "cross": "BILL JONES RD/KEITH RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 34.987944,
-   "lon": -85.028928,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823566",
    "sequence": "2026-11-31453",
    "type": "EMS CALL",
@@ -451,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9823560",
-   "sequence": "2026-11-31447",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T16:57:44Z",
-   "created": "2026-11-22T16:57:44Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8805 JEN RUE LN",
-   "cross": "KAREN ST/LU LN",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 2",
-   "lat": 35.066839,
-   "lon": -85.029103,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823558",
    "sequence": "2026-11-31445",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T17:13:54Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T17:25:04Z",
    "created": "2026-11-22T16:57:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9823552",
-   "sequence": "2026-11-31441",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-22T17:05:25Z",
-   "created": "2026-11-22T16:53:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10022 HIXSON PIKE",
-   "cross": "ANGLER DR/IGOU FERRY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 5 D",
-   "priority": "PRI 4",
-   "lat": 35.222792,
-   "lon": -85.112853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823550",
    "sequence": "2026-11-31439",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T17:11:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T17:22:46Z",
    "created": "2026-11-22T16:51:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -740,8 +714,8 @@
    "id": "9823511",
    "sequence": "2026-11-31407",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T17:24:22Z",
    "created": "2026-11-22T16:10:56Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -810,32 +784,6 @@
    "priority": "PRI 3",
    "lat": 35.020998,
    "lon": -85.372554,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823472",
-   "sequence": "2026-11-31383",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T16:03:52Z",
-   "created": "2026-11-22T15:31:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2003 BENNETT AVE",
-   "cross": "S BEECH ST/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.028872,
-   "lon": -85.276878,
    "units": 1,
    "stacked": false,
    "notable": false
