@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22T21:40:37+00:00",
+ "updated": "2026-11-22T21:45:37+00:00",
  "counts": {
   "year": 370433,
   "upstream_day": 570,
   "day": 731,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9823946",
    "sequence": "2026-11-31749",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:40:09Z",
+   "type": "Theft",
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:45:07Z",
    "created": "2026-11-22T21:40:06Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -27,7 +27,7 @@
    "cross": "GREENBRIAR RD/CAULKINS WAY",
    "city": "EAST RIDGE",
    "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
+   "priority": "PRI 4",
    "lat": 34.989516,
    "lon": -85.244354,
    "units": 1,
@@ -87,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9823937",
-   "sequence": "2026-11-31744",
-   "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:30:55Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "130 SUMMERS DR",
-   "cross": "SUMMERS PARK LN/SPRINGFIELD RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 3",
-   "lat": 35.221341,
-   "lon": -85.226494,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823932",
    "sequence": "2026-11-31739",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:40:38Z",
    "created": "2026-11-22T21:26:59Z",
    "jurisdiction": "Mowbray VFD",
    "agencies": [
@@ -165,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9823931",
-   "sequence": "2026-11-31738",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:30:11Z",
-   "created": "2026-11-22T21:26:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "1701 A",
-   "priority": "PRI 1",
-   "lat": 35.094368,
-   "lon": -85.331318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823928",
    "sequence": "2026-11-31736",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:35:01Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:44:10Z",
    "created": "2026-11-22T21:26:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +194,8 @@
    "id": "9823923",
    "sequence": "2026-11-31731",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:32:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:44:34Z",
    "created": "2026-11-22T21:20:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -425,37 +373,11 @@
    "notable": true
   },
   {
-   "id": "9823886",
-   "sequence": "2026-11-31702",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:58:55Z",
-   "created": "2026-11-22T20:49:57Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10208 SIMS HARRIS RD",
-   "cross": "SPOOKY LN/QUARTER HORSE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.22337,
-   "lon": -85.039245,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823883",
    "sequence": "2026-11-31700",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:03:10Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:40:21Z",
    "created": "2026-11-22T20:49:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +402,8 @@
    "id": "9823880",
    "sequence": "2026-11-31696",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:29:21Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T21:44:53Z",
    "created": "2026-11-22T20:47:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
