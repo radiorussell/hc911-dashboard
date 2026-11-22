@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-22T21:25:37+00:00",
+ "updated": "2026-11-22T21:30:38+00:00",
  "counts": {
-  "year": 370417,
-  "upstream_day": 554,
-  "day": 715,
+  "year": 370428,
+  "upstream_day": 565,
+  "day": 721,
   "day_basis": "midnight"
  },
  "raw_rows": 23,
  "incidents": [
   {
-   "id": "9823925",
-   "sequence": "2026-11-31733",
+   "id": "9823932",
+   "sequence": "2026-11-31739",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:26:59Z",
+   "jurisdiction": "Mowbray VFD",
+   "agencies": [
+    "Mowbray VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9826 INDIAN RIDGE LN",
+   "cross": "MOWBRAY PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MOWBRAY MOUNTAIN FD",
+   "priority": "PRI 1",
+   "lat": 35.249612,
+   "lon": -85.193018,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823930",
+   "sequence": "2026-11-31737",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-22T21:27:36Z",
+   "created": "2026-11-22T21:26:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823931",
+   "sequence": "2026-11-31738",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:30:11Z",
+   "created": "2026-11-22T21:26:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 1",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823928",
+   "sequence": "2026-11-31736",
    "type": "EMS CALL",
    "status": "Enroute",
    "status_at": null,
+   "created": "2026-11-22T21:26:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823925",
+   "sequence": "2026-11-31733",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:28:06Z",
    "created": "2026-11-22T21:20:34Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9823921",
    "sequence": "2026-11-31729",
    "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:18:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:17:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -108,32 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.049941,
    "lon": -85.127588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823919",
-   "sequence": "2026-11-31727",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:12:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1008 BRYNEWOOD TER",
-   "cross": "BRYNEWOOD PARK DR/BRYNEWOOD PARK LN",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.124812,
-   "lon": -85.269932,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +324,8 @@
    "id": "9823903",
    "sequence": "2026-11-31712",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:08:09Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:28:52Z",
    "created": "2026-11-22T21:00:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -361,13 +439,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2203 MILNE ST",
-   "cross": "N WILLOW ST/DODSON AVE",
+   "address": "1103 ARLINGTON AVE",
+   "cross": "WINDSOR ST/WILSON ST",
    "city": "CHATTANOOGA",
    "zone": "B3",
    "priority": "PRI 1",
-   "lat": 35.047002,
-   "lon": -85.264231,
+   "lat": 35.047978,
+   "lon": -85.261444,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -425,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9823882",
-   "sequence": "2026-11-31698",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:54:18Z",
-   "created": "2026-11-22T20:47:43Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5648 GINKGO RD",
-   "cross": "HOSTA LN/HOMEWOOD CIR",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 1",
-   "lat": 35.066234,
-   "lon": -85.044108,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823880",
    "sequence": "2026-11-31696",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:17:46Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T21:29:21Z",
    "created": "2026-11-22T20:47:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +532,8 @@
    "id": "9823864",
    "sequence": "2026-11-31686",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:07:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T21:29:05Z",
    "created": "2026-11-22T20:35:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +550,6 @@
    "priority": "PRI 2",
    "lat": 35.039359,
    "lon": -85.142711,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823824",
-   "sequence": "2026-11-31654",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T21:00:34Z",
-   "created": "2026-11-22T20:04:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "729 ELY RD",
-   "cross": "MAYBELLE LN/ASHWOOD TER",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.122815,
-   "lon": -85.272702,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -550,32 +576,6 @@
    "priority": "PRI 1",
    "lat": 35.021295,
    "lon": -85.174428,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823745",
-   "sequence": "2026-11-31596",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:52:18Z",
-   "created": "2026-11-22T19:06:26Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "RINGGOLD RD / BOYD ST",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.996118,
-   "lon": -85.239183,
    "units": 1,
    "stacked": false,
    "notable": false
