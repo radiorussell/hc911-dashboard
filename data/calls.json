@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T14:25:38+00:00",
+ "updated": "2026-11-22T14:30:38+00:00",
  "counts": {
-  "year": 370087,
-  "upstream_day": 224,
-  "day": 295,
+  "year": 370090,
+  "upstream_day": 227,
+  "day": 298,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9823387",
+   "sequence": "2026-11-31316",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T14:28:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823382",
    "sequence": "2026-11-31313",
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7313 IGOU GAP RD",
-   "cross": "FARRIS RD/GUNBARREL RD",
+   "address": "1816 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
    "city": "CHATTANOOGA",
-   "zone": "C7",
+   "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.02743,
-   "lon": -85.157932,
+   "lat": 35.024494,
+   "lon": -85.155624,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,115 +113,11 @@
    "notable": false
   },
   {
-   "id": "9823373",
-   "sequence": "2026-11-31307",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:10:36Z",
-   "created": "2026-11-22T14:10:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2501 JENKINS RD",
-   "cross": "PINEWOOD DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.042929,
-   "lon": -85.129499,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823372",
-   "sequence": "2026-11-31306",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:20:26Z",
-   "created": "2026-11-22T14:10:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2501 JENKINS RD",
-   "cross": "PINEWOOD DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.042929,
-   "lon": -85.129499,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823369",
-   "sequence": "2026-11-31305",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:18:36Z",
-   "created": "2026-11-22T14:08:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2501 JENKINS RD",
-   "cross": "PINEWOOD DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 2",
-   "lat": 35.042929,
-   "lon": -85.129499,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823367",
-   "sequence": "2026-11-31303",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:03:39Z",
-   "created": "2026-11-22T14:03:39Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823362",
    "sequence": "2026-11-31302",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:16:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T14:27:57Z",
    "created": "2026-11-22T14:02:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
