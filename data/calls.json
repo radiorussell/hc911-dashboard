@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T11:50:38+00:00",
+ "updated": "2026-11-22T11:55:36+00:00",
  "counts": {
   "year": 370020,
   "upstream_day": 157,
-  "day": 212,
+  "day": 217,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9823267",
+   "sequence": "2026-11-31235",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-22T11:53:06Z",
+   "created": "2026-11-22T11:51:48Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3117 DAYTON BLVD",
+   "cross": "LANCASTER AVE/W NEWBERRY ST",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.105913,
+   "lon": -85.298216,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823270",
+   "sequence": "2026-11-31234",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:51:29Z",
+   "jurisdiction": "Lookout Mountain FD",
+   "agencies": [
+    "Lookout Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "504 FLEETWOOD DR",
+   "cross": "EASTVIEW DR/GLENVIEW ST",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
+   "priority": "PRI 2",
+   "lat": 34.988009,
+   "lon": -85.349732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823264",
+   "sequence": "2026-11-31232",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T11:51:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "504 FLEETWOOD DR",
+   "cross": "EASTVIEW DR/GLENVIEW ST",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "MEDIC 10 LM U",
+   "priority": "PRI 1",
+   "lat": 34.988009,
+   "lon": -85.349732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823266",
+   "sequence": "2026-11-31231",
+   "type": "City Shop",
+   "status": "Enroute",
+   "status_at": "2026-11-22T11:50:48Z",
+   "created": "2026-11-22T11:50:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 E 12TH ST",
+   "cross": "PEEPLES ST/PARK AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 4",
+   "lat": 35.038154,
+   "lon": -85.296917,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823263",
    "sequence": "2026-11-31230",
@@ -56,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.113643,
    "lon": -85.290878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823257",
-   "sequence": "2026-11-31226",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T11:42:29Z",
-   "created": "2026-11-22T11:42:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "603 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.117662,
-   "lon": -85.278318,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +220,8 @@
    "id": "9823254",
    "sequence": "2026-11-31223",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:53:05Z",
    "created": "2026-11-22T11:40:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -215,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823251",
-   "sequence": "2026-11-31220",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:48:34Z",
-   "created": "2026-11-22T11:35:54Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8462 BAY RUN DR",
-   "cross": "HALE RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.207226,
-   "lon": -85.167044,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823241",
@@ -319,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823211",
-   "sequence": "2026-11-31188",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-22T10:10:25Z",
-   "created": "2026-11-22T10:03:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6103 VANCE CIR",
-   "cross": "VANCE RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.03598,
-   "lon": -85.190298,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9796493",
