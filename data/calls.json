@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-22T10:45:37+00:00",
+ "updated": "2026-11-22T10:50:37+00:00",
  "counts": {
-  "year": 369994,
-  "upstream_day": 131,
-  "day": 180,
+  "year": 369998,
+  "upstream_day": 135,
+  "day": 185,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9823231",
+   "sequence": "2026-11-31202",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T10:50:06Z",
+   "created": "2026-11-22T10:50:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823232",
+   "sequence": "2026-11-31203",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T10:50:06Z",
+   "created": "2026-11-22T10:50:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823229",
+   "sequence": "2026-11-31201",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T10:49:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823228",
+   "sequence": "2026-11-31200",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T10:46:32Z",
+   "created": "2026-11-22T10:46:32Z",
+   "jurisdiction": "Waldens Ridge Emergency Srv",
+   "agencies": [
+    "Waldens Ridge Emergency Srv"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4407 N FAIRMOUNT RD",
+   "cross": "FAIRMOUNT CEMETERY RD/BRUCE LEWIS TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "WALDEN FD HC B",
+   "priority": "PRI 1",
+   "lat": 35.184577,
+   "lon": -85.321514,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823224",
+   "sequence": "2026-11-31199",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T10:45:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4407 N FAIRMOUNT RD",
+   "cross": "FAIRMOUNT CEMETERY RD/BRUCE LEWIS TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 08 HC B",
+   "priority": "PRI 1",
+   "lat": 35.184577,
+   "lon": -85.321514,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823223",
    "sequence": "2026-11-31197",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:47:00Z",
    "created": "2026-11-22T10:39:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +168,8 @@
    "id": "9823222",
    "sequence": "2026-11-31198",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:48:52Z",
    "created": "2026-11-22T10:38:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
