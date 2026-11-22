@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-22T20:15:39+00:00",
+ "updated": "2026-11-22T20:20:39+00:00",
  "counts": {
-  "year": 370365,
-  "upstream_day": 502,
-  "day": 645,
+  "year": 370371,
+  "upstream_day": 508,
+  "day": 649,
   "day_basis": "midnight"
  },
  "raw_rows": 25,
  "incidents": [
   {
-   "id": "9823833",
-   "sequence": "2026-11-31663",
-   "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T20:11:31Z",
-   "created": "2026-11-22T20:10:49Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9823841",
+   "sequence": "2026-11-31667",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": "2026-11-22T20:19:39Z",
+   "created": "2026-11-22T20:19:39Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "25 S GERMANTOWN RD",
-   "cross": "N GERMANTOWN RD/CHATEAU LN",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 2",
-   "lat": 35.023055,
-   "lon": -85.24749,
+   "address": "7909 HALE RD",
+   "cross": "VARNER RD/CRABTREE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 4",
+   "lat": 35.188222,
+   "lon": -85.182174,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823839",
+   "sequence": "2026-11-31665",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T20:15:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8981 FULLER RD",
+   "cross": "KELSO LN/FULLER GLEN CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 34.99621,
+   "lon": -85.12369,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9823800",
-   "sequence": "2026-11-31637",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:54:51Z",
-   "created": "2026-11-22T19:42:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5213 HICKORY WOODS LN",
-   "cross": "AUSTIN RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.139508,
-   "lon": -85.239118,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823798",
    "sequence": "2026-11-31635",
    "type": "EMS CALL",
@@ -246,8 +246,8 @@
    "id": "9823795",
    "sequence": "2026-11-31634",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:47:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T20:20:15Z",
    "created": "2026-11-22T19:38:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9823790",
    "sequence": "2026-11-31631",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T20:09:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T20:19:17Z",
    "created": "2026-11-22T19:36:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
