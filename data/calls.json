@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T23:50:38+00:00",
+ "updated": "2026-11-22T23:55:37+00:00",
  "counts": {
   "year": 370544,
   "upstream_day": 681,
-  "day": 871,
+  "day": 875,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9824120",
+   "sequence": "2026-11-31892",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T23:52:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4103 ROSSVILLE BLVD",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.996382,
+   "lon": -85.291175,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824121",
+   "sequence": "2026-11-31893",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T23:52:04Z",
+   "created": "2026-11-22T23:52:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4103 ROSSVILLE BLVD",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "902",
+   "priority": "PRI 3",
+   "lat": 34.996382,
+   "lon": -85.291175,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824116",
    "sequence": "2026-11-31887",
@@ -38,8 +90,8 @@
    "id": "9824117",
    "sequence": "2026-11-31888",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:48:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:48:53Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9824115",
    "sequence": "2026-11-31885",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:48:41Z",
+   "status": "Enroute",
+   "status_at": "2026-11-22T23:52:52Z",
    "created": "2026-11-22T23:48:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -89,9 +141,9 @@
   {
    "id": "9824114",
    "sequence": "2026-11-31889",
-   "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:49:19Z",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-22T23:51:48Z",
    "created": "2026-11-22T23:48:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -105,7 +157,7 @@
    "cross": "E 41ST ST/E 42ND ST",
    "city": "CHATTANOOGA",
    "zone": "B9",
-   "priority": "PRI 4",
+   "priority": "PRI 3",
    "lat": 34.996382,
    "lon": -85.291175,
    "units": 1,
@@ -584,8 +636,8 @@
    "id": "9824003",
    "sequence": "2026-11-31798",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T23:07:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T23:55:08Z",
    "created": "2026-11-22T22:27:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -682,32 +734,6 @@
    "lon": -85.123625,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9823965",
-   "sequence": "2026-11-31763",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T23:01:50Z",
-   "created": "2026-11-22T22:00:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1059 TROJAN RUN DR",
-   "cross": "ZEUS CT/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.264823,
-   "lon": -85.14198,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
