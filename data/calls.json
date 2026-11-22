@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22T15:40:38+00:00",
+ "updated": "2026-11-22T15:45:37+00:00",
  "counts": {
   "year": 370148,
   "upstream_day": 285,
   "day": 372,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 24,
  "incidents": [
   {
    "id": "9823479",
    "sequence": "2026-11-31390",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:40:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T15:40:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9823470",
    "sequence": "2026-11-31382",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:30:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T15:30:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9823465",
    "sequence": "2026-11-31376",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:45:18Z",
    "created": "2026-11-22T15:27:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.352105,
    "lon": -85.111354,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823461",
-   "sequence": "2026-11-31372",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:16:10Z",
-   "created": "2026-11-22T15:16:10Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "415 FERN TRL",
-   "cross": "DRUID DR/No Cross Street",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 2 A",
-   "priority": "PRI 3",
-   "lat": 35.125445,
-   "lon": -85.330251,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +194,8 @@
    "id": "9823458",
    "sequence": "2026-11-31371",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T15:43:50Z",
    "created": "2026-11-22T15:15:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,63 +347,11 @@
    "notable": false
   },
   {
-   "id": "9823445",
-   "sequence": "2026-11-31359",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:08:30Z",
-   "created": "2026-11-22T15:08:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1020 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "1701 A",
-   "priority": "PRI 2",
-   "lat": 35.108153,
-   "lon": -85.317953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823446",
-   "sequence": "2026-11-31360",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:08:30Z",
-   "created": "2026-11-22T15:08:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1020 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.108153,
-   "lon": -85.317953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823443",
    "sequence": "2026-11-31358",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:29:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:44:25Z",
    "created": "2026-11-22T15:07:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +454,8 @@
    "id": "9823431",
    "sequence": "2026-11-31347",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:21:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:41:55Z",
    "created": "2026-11-22T14:58:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
