@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T02:25:41+00:00",
+ "updated": "2026-11-22T02:30:37+00:00",
  "counts": {
-  "year": 369725,
+  "year": 369734,
   "upstream_day": 0,
-  "day": 1149,
+  "day": 1154,
   "day_basis": "midnight"
  },
  "raw_rows": 26,
  "incidents": [
   {
+   "id": "9822775",
+   "sequence": "2026-11-30859",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T02:30:13Z",
+   "created": "2026-11-22T02:29:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2143 NORTHPOINT BLVD",
+   "cross": "ALPHA LN/EXECUTIVE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.134781,
+   "lon": -85.235419,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822770",
+   "sequence": "2026-11-30858",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-22T02:29:45Z",
+   "created": "2026-11-22T02:27:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7300 - 7398 LANDRESS DR",
+   "cross": "No Cross Street/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 2",
+   "lat": 35.035404,
+   "lon": -85.154662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822767",
+   "sequence": "2026-11-30856",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-22T02:25:57Z",
+   "created": "2026-11-22T02:25:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "142 DAL BROWN RD",
+   "cross": "BLEDSOE TER/SIGNAL HILLS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.099123,
+   "lon": -85.333117,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9822764",
    "sequence": "2026-11-30853",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T02:25:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T02:25:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9822765",
    "sequence": "2026-11-30854",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:28:54Z",
    "created": "2026-11-22T02:25:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9822762",
    "sequence": "2026-11-30852",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T02:25:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T02:24:22Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +194,8 @@
    "id": "9822754",
    "sequence": "2026-11-30846",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T02:28:21Z",
    "created": "2026-11-22T02:19:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.0414,
    "lon": -85.267533,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822750",
-   "sequence": "2026-11-30842",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-22T02:22:09Z",
-   "created": "2026-11-22T02:15:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3400 JENKINS RD",
-   "cross": "STANDIFER GAP RD/XPRESS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.050344,
-   "lon": -85.12731,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +246,8 @@
    "id": "9822747",
    "sequence": "2026-11-30840",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T02:14:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T02:14:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9822682",
-   "sequence": "2026-11-30793",
-   "type": "Assault EMS Needed",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:46:26Z",
-   "created": "2026-11-22T01:39:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7200 DISCOVERY DR",
-   "cross": "VOLKSWAGEN DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.068318,
-   "lon": -85.141215,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9822674",
    "sequence": "2026-11-30786",
    "type": "EMS CALL",
@@ -529,27 +555,27 @@
    "notable": true
   },
   {
-   "id": "9822655",
-   "sequence": "2026-11-30770",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T02:09:51Z",
-   "created": "2026-11-22T01:20:30Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "id": "9822632",
+   "sequence": "2026-11-30755",
+   "type": "Supplemental Reports",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T01:06:22Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "East Ridge PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
-   "address": "4400 BENNETT RD",
-   "cross": "TOMBRAS AVE/DUGAN ST",
+   "address": "4401 RINGGOLD RD",
+   "cross": "CHOATE RD/MCBRIEN RD",
    "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.987673,
-   "lon": -85.244335,
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.995864,
+   "lon": -85.236086,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -631,32 +657,6 @@
    "units": 1,
    "stacked": true,
    "notable": false
-  },
-  {
-   "id": "9822337",
-   "sequence": "2026-11-30533",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-21T22:23:16Z",
-   "created": "2026-11-21T22:05:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1813 MULBERRY ST",
-   "cross": "E 18TH ST/E 19TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.021908,
-   "lon": -85.280423,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9796493",
