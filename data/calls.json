@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-22T21:15:37+00:00",
+ "updated": "2026-11-22T21:20:36+00:00",
  "counts": {
-  "year": 370412,
-  "upstream_day": 549,
-  "day": 709,
+  "year": 370417,
+  "upstream_day": 554,
+  "day": 715,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9823925",
+   "sequence": "2026-11-31733",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:20:34Z",
+   "created": "2026-11-22T21:20:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7430 SHALLOWFORD RD",
+   "cross": "GUNBARREL RD/OGLETREE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.038,
+   "lon": -85.147349,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823924",
+   "sequence": "2026-11-31732",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:20:34Z",
+   "created": "2026-11-22T21:20:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7430 SHALLOWFORD RD",
+   "cross": "GUNBARREL RD/OGLETREE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.038,
+   "lon": -85.147349,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823923",
+   "sequence": "2026-11-31731",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:20:34Z",
+   "created": "2026-11-22T21:20:03Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7430 SHALLOWFORD RD",
+   "cross": "GUNBARREL RD/OGLETREE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.038,
+   "lon": -85.147349,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823921",
+   "sequence": "2026-11-31729",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:18:25Z",
+   "created": "2026-11-22T21:17:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3400 JENKINS RD",
+   "cross": "STANDIFER GAP RD/XPRESS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.049941,
+   "lon": -85.127588,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823919",
    "sequence": "2026-11-31727",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:13:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:12:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -37,7 +141,7 @@
   {
    "id": "9823918",
    "sequence": "2026-11-31726",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "Enroute",
    "status_at": "2026-11-22T21:14:54Z",
    "created": "2026-11-22T21:12:02Z",
@@ -53,7 +157,7 @@
    "cross": "INTERSTATE 75 SB/EXIT 4 OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C6",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.028544,
    "lon": -85.175528,
    "units": 1,
@@ -117,7 +221,7 @@
    "sequence": "2026-11-31719",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T21:18:18Z",
    "created": "2026-11-22T21:04:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -402,8 +506,8 @@
    "id": "9823880",
    "sequence": "2026-11-31696",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T21:17:46Z",
    "created": "2026-11-22T20:47:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +654,6 @@
    "priority": "PRI 3",
    "lat": 34.996118,
    "lon": -85.239183,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823738",
-   "sequence": "2026-11-31589",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-22T19:31:01Z",
-   "created": "2026-11-22T19:02:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2332 SHALLOWFORD VILLAGE DR",
-   "cross": "AMIN DR/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.043989,
-   "lon": -85.156512,
    "units": 1,
    "stacked": false,
    "notable": false
