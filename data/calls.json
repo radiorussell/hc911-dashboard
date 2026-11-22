@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T22:25:38+00:00",
+ "updated": "2026-11-22T22:30:38+00:00",
  "counts": {
-  "year": 370465,
-  "upstream_day": 602,
-  "day": 779,
+  "year": 370480,
+  "upstream_day": 617,
+  "day": 782,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9824005",
+   "sequence": "2026-11-31800",
+   "type": "Alarm Holdup",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:28:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3600 HIXSON PIKE",
+   "cross": "INTERMONT RD/MANCHESTER DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.107144,
+   "lon": -85.271431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824004",
+   "sequence": "2026-11-31799",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:28:05Z",
+   "created": "2026-11-22T22:28:05Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3926 WINDWARD LN",
+   "cross": "WINDJAMMER DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.357866,
+   "lon": -85.054914,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824003",
+   "sequence": "2026-11-31798",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:27:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3926 WINDWARD LN",
+   "cross": "WINDJAMMER DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.357866,
+   "lon": -85.054914,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824000",
    "sequence": "2026-11-31797",
    "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:25:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T22:25:05Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9823998",
    "sequence": "2026-11-31796",
    "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:25:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T22:24:40Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -108,58 +186,6 @@
    "priority": "PRI 3",
    "lat": 34.991009,
    "lon": -85.305329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823993",
-   "sequence": "2026-11-31791",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:21:57Z",
-   "created": "2026-11-22T22:20:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17800 INTERSTATE 24 EB",
-   "cross": "EXIT 175 ON RAMP EB/EXIT 178A OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.023476,
-   "lon": -85.32509,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823992",
-   "sequence": "2026-11-31793",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:22:18Z",
-   "created": "2026-11-22T22:20:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17800 INTERSTATE 24 EB",
-   "cross": "EXIT 175 ON RAMP EB/EXIT 178A OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.023476,
-   "lon": -85.32509,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +264,6 @@
    "priority": "PRI 2",
    "lat": 35.256756,
    "lon": -85.016085,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823985",
-   "sequence": "2026-11-31782",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T22:18:23Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MARLBORO AVE / RINGGOLD RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 2",
-   "lat": 34.997171,
-   "lon": -85.243107,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9823970",
-   "sequence": "2026-11-31768",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:01:47Z",
-   "created": "2026-11-22T22:01:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3903 CAINE LN",
-   "cross": "SHALLOWFORD RD/CREEKVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.051178,
-   "lon": -85.212962,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823967",
    "sequence": "2026-11-31764",
    "type": "EMS CALL",
@@ -636,8 +610,8 @@
    "id": "9823956",
    "sequence": "2026-11-31755",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T22:11:35Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T22:28:55Z",
    "created": "2026-11-22T21:53:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +654,6 @@
    "priority": "PRI 4",
    "lat": 35.03884,
    "lon": -85.185975,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823945",
-   "sequence": "2026-11-31748",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:36:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1005 GREY OAKS LN",
-   "cross": "PATTERSON RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 34.998056,
-   "lon": -85.147611,
    "units": 1,
    "stacked": false,
    "notable": false
