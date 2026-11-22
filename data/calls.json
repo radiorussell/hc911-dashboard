@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T06:35:37+00:00",
+ "updated": "2026-11-22T06:40:37+00:00",
  "counts": {
-  "year": 369906,
-  "upstream_day": 44,
-  "day": 61,
+  "year": 369910,
+  "upstream_day": 47,
+  "day": 72,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9823064",
+   "sequence": "2026-11-31090",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-22T06:37:58Z",
+   "created": "2026-11-22T06:37:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17140 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 34.987551,
+   "lon": -85.404355,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823063",
+   "sequence": "2026-11-31089",
+   "type": "Unknown Trouble",
+   "status": "On Scene",
+   "status_at": "2026-11-22T06:40:36Z",
+   "created": "2026-11-22T06:36:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "609 SNOW ST",
+   "cross": "GUILD ST/CHAMBLISS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 1",
+   "lat": 35.069226,
+   "lon": -85.311173,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823047",
    "sequence": "2026-11-31079",
@@ -38,8 +90,8 @@
    "id": "9823045",
    "sequence": "2026-11-31076",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T06:26:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T06:38:08Z",
    "created": "2026-11-22T06:20:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
