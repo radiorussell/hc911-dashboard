@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-22T09:00:37+00:00",
+ "updated": "2026-11-22T09:05:39+00:00",
  "counts": {
   "year": 369966,
   "upstream_day": 103,
-  "day": 144,
+  "day": 149,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9823171",
+   "sequence": "2026-11-31165",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T09:02:20Z",
+   "created": "2026-11-22T09:02:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BRAINERD RD / TUNNEL BLVD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.025684,
+   "lon": -85.248735,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823172",
+   "sequence": "2026-11-31166",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T09:02:20Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "BRAINERD RD / TUNNEL BLVD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1507",
+   "priority": "PRI 3",
+   "lat": 35.025684,
+   "lon": -85.248735,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823170",
+   "sequence": "2026-11-31164",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T09:01:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "BRAINERD RD / TUNNEL BLVD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.025684,
+   "lon": -85.248735,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823169",
+   "sequence": "2026-11-31167",
+   "type": "Not Endangered",
+   "status": "Queued",
+   "status_at": "2026-11-22T09:02:24Z",
+   "created": "2026-11-22T09:00:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "110 FOREST AVE",
+   "cross": "FRAZIER AVE/HARTMAN ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 2",
+   "lat": 35.062828,
+   "lon": -85.3064,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9823166",
    "sequence": "2026-11-31161",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T09:01:38Z",
    "created": "2026-11-22T08:54:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9823160",
    "sequence": "2026-11-31158",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T09:02:59Z",
    "created": "2026-11-22T08:50:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
