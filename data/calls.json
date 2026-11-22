@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T03:35:38+00:00",
+ "updated": "2026-11-22T03:40:41+00:00",
  "counts": {
-  "year": 369796,
+  "year": 369801,
   "upstream_day": 0,
-  "day": 1230,
+  "day": 1238,
   "day_basis": "midnight"
  },
  "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9822881",
+   "sequence": "2026-11-30943",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:36:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2014 CAMDEN ST",
+   "cross": "ROANOKE AVE/BRADT ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.054946,
+   "lon": -85.262074,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822871",
    "sequence": "2026-11-30935",
@@ -142,8 +168,8 @@
    "id": "9822831",
    "sequence": "2026-11-30910",
    "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T03:14:39Z",
+   "status": "Stacked",
+   "status_at": "2026-11-22T03:01:21Z",
    "created": "2026-11-22T03:00:54Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -161,7 +187,7 @@
    "lat": 35.173704,
    "lon": -85.218307,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -498,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 35.055455,
    "lon": -85.19429,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822415",
-   "sequence": "2026-11-30591",
-   "type": "Intoxicated Person",
-   "status": "On Scene",
-   "status_at": "2026-11-21T23:11:51Z",
-   "created": "2026-11-21T23:03:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4026 SHALLOWFORD RD",
-   "cross": "AGAWELA DR/N MOORE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 2",
-   "lat": 35.043089,
-   "lon": -85.219116,
    "units": 1,
    "stacked": false,
    "notable": false
