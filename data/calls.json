@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T09:20:39+00:00",
+ "updated": "2026-11-22T09:25:37+00:00",
  "counts": {
   "year": 369972,
   "upstream_day": 109,
-  "day": 153,
+  "day": 155,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9823186",
+   "sequence": "2026-11-31173",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-22T09:20:58Z",
+   "created": "2026-11-22T09:20:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3006 DODSON AVE",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.072123,
+   "lon": -85.25001,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823183",
    "sequence": "2026-11-31171",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9823174",
-   "sequence": "2026-11-31169",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:14:46Z",
-   "created": "2026-11-22T09:09:41Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3400 JENKINS RD",
-   "cross": "STANDIFER GAP RD/XPRESS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 1",
-   "lat": 35.051145,
-   "lon": -85.125873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823171",
    "sequence": "2026-11-31165",
    "type": "EMS CALL",
@@ -116,8 +116,8 @@
    "id": "9823170",
    "sequence": "2026-11-31164",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:12:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T09:22:19Z",
    "created": "2026-11-22T09:01:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -163,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823166",
-   "sequence": "2026-11-31161",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T09:01:38Z",
-   "created": "2026-11-22T08:54:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3001 DODSON AVE",
-   "cross": "STUART ST/WILDER ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.07211,
-   "lon": -85.250658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9823160",
@@ -371,32 +345,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822998",
-   "sequence": "2026-11-31032",
-   "type": "Extra Job",
-   "status": "Enroute",
-   "status_at": "2026-11-22T05:24:28Z",
-   "created": "2026-11-22T05:24:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4903 BRAINERD RD",
-   "cross": "CLUB DR/S LOVELL AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.012915,
-   "lon": -85.227459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822890",
