@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-22T12:10:37+00:00",
+ "updated": "2026-11-22T12:15:36+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 220,
+  "day": 223,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9823278",
+   "sequence": "2026-11-31241",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:13:09Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8264 ELLIE PLAZA PL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.189898,
+   "lon": -85.169178,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823277",
+   "sequence": "2026-11-31240",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:13:09Z",
+   "created": "2026-11-22T12:13:09Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8264 ELLIE PLAZA PL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.189898,
+   "lon": -85.169178,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823276",
+   "sequence": "2026-11-31239",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T12:12:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8264 ELLIE PLAZA PL",
+   "cross": "No Cross Street/HIXSON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.189898,
+   "lon": -85.169178,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823275",
    "sequence": "2026-11-31238",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:11:28Z",
    "created": "2026-11-22T12:07:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9823264",
    "sequence": "2026-11-31232",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:10:53Z",
    "created": "2026-11-22T11:51:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.000798,
    "lon": -85.245652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823241",
-   "sequence": "2026-11-31212",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T11:48:32Z",
-   "created": "2026-11-22T11:17:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2904 CALHOUN AVE",
-   "cross": "E 29TH ST/E 30TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "",
-   "lat": 35.011974,
-   "lon": -85.295232,
    "units": 1,
    "stacked": false,
    "notable": false
