@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-22T04:00:38+00:00",
+ "updated": "2026-11-22T04:05:36+00:00",
  "counts": {
   "year": 369815,
   "upstream_day": 0,
-  "day": 1261,
+  "day": 1264,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9822916",
+   "sequence": "2026-11-30969",
+   "type": "City Shop",
+   "status": "Queued",
+   "status_at": "2026-11-22T04:03:21Z",
+   "created": "2026-11-22T04:03:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "601 JUSTICE WAY",
+   "cross": "STANDIFER GAP RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.050831,
+   "lon": -85.133053,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822910",
    "sequence": "2026-11-30965",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:59:58Z",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:59:58Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -27,7 +53,7 @@
    "cross": "ILENE CT/SWINYAR DR",
    "city": "COLLEGEDALE",
    "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.055026,
    "lon": -85.072687,
    "units": 1,
@@ -90,8 +116,8 @@
    "id": "9822906",
    "sequence": "2026-11-30963",
    "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T04:02:58Z",
    "created": "2026-11-22T03:57:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9822905",
    "sequence": "2026-11-30961",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T04:01:42Z",
    "created": "2026-11-22T03:55:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9822900",
    "sequence": "2026-11-30956",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T04:02:15Z",
    "created": "2026-11-22T03:55:01Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9822899",
    "sequence": "2026-11-30955",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T04:04:02Z",
    "created": "2026-11-22T03:55:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9822898",
    "sequence": "2026-11-30954",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T04:04:17Z",
    "created": "2026-11-22T03:54:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9822892",
-   "sequence": "2026-11-30950",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T03:51:16Z",
-   "created": "2026-11-22T03:47:58Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9328 LANCER LN",
-   "cross": "DUKE LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.005342,
-   "lon": -85.113961,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822881",
    "sequence": "2026-11-30943",
    "type": "MVC No Injuries",
@@ -290,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.054946,
    "lon": -85.262074,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822871",
-   "sequence": "2026-11-30935",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-22T03:59:04Z",
-   "created": "2026-11-22T03:27:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17180 INTERSTATE 24 WB",
-   "cross": "EXIT 169 OFF RAMP WB/EXIT 174 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 34.992232,
-   "lon": -85.401314,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.999097,
    "lon": -85.281545,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822747",
-   "sequence": "2026-11-30840",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T03:30:51Z",
-   "created": "2026-11-22T02:14:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4917 HIGHWAY 58",
-   "cross": "GOLD WING WAY/JERSEY PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.093482,
-   "lon": -85.181451,
    "units": 1,
    "stacked": false,
    "notable": false
