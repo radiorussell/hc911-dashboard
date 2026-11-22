@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T19:50:38+00:00",
+ "updated": "2026-11-22T19:55:38+00:00",
  "counts": {
   "year": 370352,
   "upstream_day": 489,
   "day": 629,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 32,
  "incidents": [
   {
    "id": "9823815",
@@ -35,63 +35,11 @@
    "notable": false
   },
   {
-   "id": "9823813",
-   "sequence": "2026-11-31646",
-   "type": "Private Property Tow",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:48:36Z",
-   "created": "2026-11-22T19:48:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1458 STOCKYARD PL",
-   "cross": "ST ELMO AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 0",
-   "lat": 35.020218,
-   "lon": -85.323157,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823807",
-   "sequence": "2026-11-31644",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:47:09Z",
-   "created": "2026-11-22T19:46:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIGHWAY 58 / HIGHWAY 60",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 3",
-   "lat": 35.301199,
-   "lon": -84.959151,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823804",
    "sequence": "2026-11-31641",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-22T19:45:14Z",
    "created": "2026-11-22T19:45:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9823805",
-   "sequence": "2026-11-31642",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:49:09Z",
-   "created": "2026-11-22T19:45:14Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1128 SHERIDAN AVE",
-   "cross": "PORTLAND ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "401",
-   "priority": "PRI 1",
-   "lat": 35.052042,
-   "lon": -85.267959,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823802",
    "sequence": "2026-11-31640",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:50:52Z",
    "created": "2026-11-22T19:44:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -195,7 +117,7 @@
    "sequence": "2026-11-31637",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T19:54:51Z",
    "created": "2026-11-22T19:42:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +220,8 @@
    "id": "9823794",
    "sequence": "2026-11-31633",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:51:09Z",
    "created": "2026-11-22T19:37:43Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -376,8 +298,8 @@
    "id": "9823786",
    "sequence": "2026-11-31627",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:33:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:32:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -397,32 +319,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823785",
-   "sequence": "2026-11-31626",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:36:51Z",
-   "created": "2026-11-22T19:31:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1007 QUEENS DR",
-   "cross": "CRUTCHFIELD ST/ELENA DR",
-   "city": "CHATTANOOGA",
-   "zone": "1002",
-   "priority": "PRI 3",
-   "lat": 35.06848,
-   "lon": -85.267922,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823783",
@@ -498,58 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.021295,
    "lon": -85.174428,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823767",
-   "sequence": "2026-11-31612",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:21:17Z",
-   "created": "2026-11-22T19:21:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2400 STUART ST",
-   "cross": "WHEELER AVE/N CHAMBERLAIN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.070618,
-   "lon": -85.247504,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823766",
-   "sequence": "2026-11-31614",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:34:12Z",
-   "created": "2026-11-22T19:21:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "22 STARVIEW LN",
-   "cross": "CUMMINGS HWY/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.020037,
-   "lon": -85.377895,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -662,8 +506,8 @@
    "id": "9823745",
    "sequence": "2026-11-31596",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T19:52:18Z",
    "created": "2026-11-22T19:06:26Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
