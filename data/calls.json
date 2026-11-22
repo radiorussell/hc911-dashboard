@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T16:50:39+00:00",
+ "updated": "2026-11-22T16:55:39+00:00",
  "counts": {
   "year": 370184,
   "upstream_day": 321,
-  "day": 420,
+  "day": 423,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9823552",
+   "sequence": "2026-11-31441",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-22T16:54:45Z",
+   "created": "2026-11-22T16:53:45Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10022 HIXSON PIKE",
+   "cross": "ANGLER DR/IGOU FERRY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 D",
+   "priority": "PRI 4",
+   "lat": 35.222792,
+   "lon": -85.112853,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823551",
+   "sequence": "2026-11-31440",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T16:52:31Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "419 GLENHILL DR",
+   "cross": "MARTIN RD/GLENHILL CIR",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.105849,
+   "lon": -85.307383,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823550",
+   "sequence": "2026-11-31439",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T16:51:45Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "419 GLENHILL DR",
+   "cross": "MARTIN RD/GLENHILL CIR",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.105849,
+   "lon": -85.307383,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823549",
    "sequence": "2026-11-31438",
@@ -64,8 +142,8 @@
    "id": "9823545",
    "sequence": "2026-11-31437",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T16:51:23Z",
    "created": "2026-11-22T16:47:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9823541",
    "sequence": "2026-11-31435",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T16:53:55Z",
    "created": "2026-11-22T16:46:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -117,7 +195,7 @@
    "sequence": "2026-11-31433",
    "type": "Check For A Hazard",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T16:54:48Z",
    "created": "2026-11-22T16:43:37Z",
    "jurisdiction": "Signal Mountain PD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9823535",
    "sequence": "2026-11-31427",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T16:54:27Z",
    "created": "2026-11-22T16:42:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9823534",
    "sequence": "2026-11-31426",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T16:51:54Z",
    "created": "2026-11-22T16:42:25Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -428,8 +506,8 @@
    "id": "9823496",
    "sequence": "2026-11-31399",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T16:35:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T16:51:04Z",
    "created": "2026-11-22T16:01:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
