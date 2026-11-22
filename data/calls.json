@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T10:20:42+00:00",
+ "updated": "2026-11-22T10:25:37+00:00",
  "counts": {
   "year": 369993,
   "upstream_day": 130,
   "day": 176,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 9,
  "incidents": [
   {
    "id": "9823218",
@@ -38,8 +38,8 @@
    "id": "9823219",
    "sequence": "2026-11-31194",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:24:07Z",
    "created": "2026-11-22T10:14:28Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9823215",
    "sequence": "2026-11-31192",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T10:22:43Z",
    "created": "2026-11-22T10:13:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -85,58 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823214",
-   "sequence": "2026-11-31191",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T10:10:33Z",
-   "created": "2026-11-22T10:10:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3512 LILLIAN CT",
-   "cross": "LILLIAN LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.043784,
-   "lon": -85.236463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823212",
-   "sequence": "2026-11-31190",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T10:16:47Z",
-   "created": "2026-11-22T10:05:55Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4920 BAL HARBOR CIR",
-   "cross": "BAL HARBOR DR/BAL HARBOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "603 A",
-   "priority": "PRI 3",
-   "lat": 35.099134,
-   "lon": -85.193796,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823211",
@@ -194,8 +142,8 @@
    "id": "9823134",
    "sequence": "2026-11-31137",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T08:03:25Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T08:11:41Z",
    "created": "2026-11-22T08:02:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
