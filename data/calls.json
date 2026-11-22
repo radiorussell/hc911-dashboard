@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T19:55:38+00:00",
+ "updated": "2026-11-22T20:00:37+00:00",
  "counts": {
-  "year": 370352,
-  "upstream_day": 489,
-  "day": 629,
+  "year": 370359,
+  "upstream_day": 496,
+  "day": 633,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9823821",
+   "sequence": "2026-11-31651",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:56:55Z",
+   "created": "2026-11-22T19:56:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.026075,
+   "lon": -85.311789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823819",
+   "sequence": "2026-11-31650",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T19:56:15Z",
+   "created": "2026-11-22T19:56:15Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 B",
+   "priority": "PRI 3",
+   "lat": 35.026075,
+   "lon": -85.311789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823818",
+   "sequence": "2026-11-31649",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T19:55:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.026075,
+   "lon": -85.311789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823815",
    "sequence": "2026-11-31647",
@@ -30,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.013239,
    "lon": -85.21254,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823804",
-   "sequence": "2026-11-31641",
-   "type": "Backup EMS Unit",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:45:14Z",
-   "created": "2026-11-22T19:45:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1128 SHERIDAN AVE",
-   "cross": "PORTLAND ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 2",
-   "lat": 35.052042,
-   "lon": -85.267959,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +142,8 @@
    "id": "9823801",
    "sequence": "2026-11-31638",
    "type": "Backup Other Agency",
-   "status": "Queued",
-   "status_at": "2026-11-22T19:43:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T19:43:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9823794",
-   "sequence": "2026-11-31633",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T19:51:09Z",
-   "created": "2026-11-22T19:37:43Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4602 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 3",
-   "lat": 35.067436,
-   "lon": -85.107474,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9823793",
    "sequence": "2026-11-31632",
    "type": "EMS CALL",
@@ -321,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9823783",
-   "sequence": "2026-11-31624",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T19:29:50Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "926 WESLEY DR",
-   "cross": "ELWYN LN/MIDDLE VALLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 4",
-   "lat": 35.179512,
-   "lon": -85.201894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823778",
    "sequence": "2026-11-31623",
    "type": "Disorder",
@@ -376,8 +376,8 @@
    "id": "9823769",
    "sequence": "2026-11-31617",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T19:49:16Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T19:58:14Z",
    "created": "2026-11-22T19:22:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -654,32 +654,6 @@
    "priority": "PRI 1",
    "lat": 35.054652,
    "lon": -85.260416,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823716",
-   "sequence": "2026-11-31572",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T18:40:59Z",
-   "created": "2026-11-22T18:31:14Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6827 GAMBLE RD",
-   "cross": "SENTELL HL/DOLLY POND RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 1",
-   "lat": 35.269468,
-   "lon": -85.029155,
    "units": 1,
    "stacked": false,
    "notable": false
