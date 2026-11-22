@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-22T08:20:36+00:00",
+ "updated": "2026-11-22T08:25:37+00:00",
  "counts": {
   "year": 369958,
   "upstream_day": 95,
-  "day": 131,
+  "day": 138,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
   {
-   "id": "9823149",
-   "sequence": "2026-11-31149",
-   "type": "Noise Complaint",
+   "id": "9823156",
+   "sequence": "2026-11-31156",
+   "type": "Disorder",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-22T08:14:02Z",
-   "jurisdiction": "East Ridge PD",
+   "created": "2026-11-22T08:23:54Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "3725 FOUNTAIN AVE",
-   "cross": "JASON DR/MARLEY WAY",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
+   "address": "2904 E 37TH ST",
+   "cross": "12TH AVE/13TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
    "priority": "PRI 3",
-   "lat": 35.007475,
-   "lon": -85.249763,
+   "lat": 34.998184,
+   "lon": -85.280935,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -53,32 +53,6 @@
    "cross": "E 45TH ST/E 46TH ST",
    "city": "CHATTANOOGA",
    "zone": "B9",
-   "priority": "PRI 1",
-   "lat": 34.990813,
-   "lon": -85.289452,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823144",
-   "sequence": "2026-11-31144",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:16:38Z",
-   "created": "2026-11-22T08:11:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4510 ROSSVILLE BLVD",
-   "cross": "E 45TH ST/E 46TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "902",
    "priority": "PRI 1",
    "lat": 34.990813,
    "lon": -85.289452,
@@ -142,8 +116,8 @@
    "id": "9823134",
    "sequence": "2026-11-31137",
    "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:11:41Z",
+   "status": "Queued",
+   "status_at": "2026-11-22T08:03:25Z",
    "created": "2026-11-22T08:02:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
