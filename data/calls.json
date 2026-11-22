@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22T05:20:37+00:00",
+ "updated": "2026-11-22T05:25:39+00:00",
  "counts": {
   "year": 369867,
   "upstream_day": 5,
   "day": 11,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9822995",
    "sequence": "2026-11-31029",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T05:20:13Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T05:24:30Z",
    "created": "2026-11-22T05:19:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9822991",
    "sequence": "2026-11-31027",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T05:23:01Z",
    "created": "2026-11-22T05:13:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,63 +87,11 @@
    "notable": false
   },
   {
-   "id": "9822978",
-   "sequence": "2026-11-31018",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T05:06:08Z",
-   "created": "2026-11-22T04:59:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1621 BARRY RD",
-   "cross": "CLEMONS RD/MAXWELL RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 1",
-   "lat": 34.98909,
-   "lon": -85.231601,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822977",
-   "sequence": "2026-11-31017",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T05:06:07Z",
-   "created": "2026-11-22T04:58:52Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1621 BARRY RD",
-   "cross": "CLEMONS RD/MAXWELL RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.98909,
-   "lon": -85.231601,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822975",
    "sequence": "2026-11-31016",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T05:20:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T05:25:14Z",
    "created": "2026-11-22T04:58:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
