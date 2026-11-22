@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-22T12:20:38+00:00",
+ "updated": "2026-11-22T12:25:43+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 227,
+  "day": 233,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
   {
-   "id": "9823285",
-   "sequence": "2026-11-31245",
+   "id": "9823289",
+   "sequence": "2026-11-31251",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-22T12:18:36Z",
-   "created": "2026-11-22T12:18:36Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:24:48Z",
+   "created": "2026-11-22T12:22:32Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Soddy Daisy PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "11600 HIGHWAY 111 SB",
-   "cross": "EXIT BACK VALLEY RD OFF RAMP SB/EXIT JONES GAP RD ON RAMP SB",
+   "address": "HIGHWATER RD / BACK VALLEY RD",
+   "cross": "",
    "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
+   "zone": "WEST 7",
    "priority": "PRI 4",
-   "lat": 35.304783,
-   "lon": -85.163128,
+   "lat": 35.325019,
+   "lon": -85.150084,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823288",
+   "sequence": "2026-11-31249",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T12:22:32Z",
+   "created": "2026-11-22T12:22:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1804 WILLIAMS ST",
+   "cross": "W 18TH ST/W 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.034051,
+   "lon": -85.310528,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +90,8 @@
    "id": "9823278",
    "sequence": "2026-11-31241",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:23:08Z",
    "created": "2026-11-22T12:13:09Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9823276",
    "sequence": "2026-11-31239",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T12:24:43Z",
    "created": "2026-11-22T12:12:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +298,8 @@
    "id": "9823254",
    "sequence": "2026-11-31223",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T11:53:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T12:21:15Z",
    "created": "2026-11-22T11:40:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
