@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22T01:15:37+00:00",
+ "updated": "2026-11-22T01:20:37+00:00",
  "counts": {
-  "year": 369658,
+  "year": 369666,
   "upstream_day": 0,
   "day": 1062,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
   {
    "id": "9822652",
    "sequence": "2026-11-30767",
    "type": "Backup Other Agency",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:14:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:14:18Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -37,7 +37,7 @@
   {
    "id": "9822650",
    "sequence": "2026-11-30765",
-   "type": "Assault EMS Needed",
+   "type": "EMS CALL",
    "status": "Queued",
    "status_at": "2026-11-22T01:13:00Z",
    "created": "2026-11-22T01:13:00Z",
@@ -58,7 +58,7 @@
    "lon": -85.248739,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9822651",
@@ -189,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822632",
-   "sequence": "2026-11-30755",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T01:06:22Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4401 RINGGOLD RD",
-   "cross": "CHOATE RD/MCBRIEN RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.995864,
-   "lon": -85.236086,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822630",
