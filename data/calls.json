@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-22T03:17:52+00:00",
+ "updated": "2026-11-22T03:20:38+00:00",
  "counts": {
-  "year": 369777,
+  "year": 369785,
   "upstream_day": 0,
-  "day": 1218,
+  "day": 1222,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9822860",
+   "sequence": "2026-11-30927",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:18:59Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8806 NELSON RD",
+   "cross": "HIXSON PIKE/LAKEWOOD AVE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 C",
+   "priority": "PRI 3",
+   "lat": 35.20512,
+   "lon": -85.146026,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822858",
+   "sequence": "2026-11-30926",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T03:18:03Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8806 NELSON RD",
+   "cross": "HIXSON PIKE/LAKEWOOD AVE",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.20512,
+   "lon": -85.146026,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822857",
+   "sequence": "2026-11-30924",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T03:17:53Z",
+   "created": "2026-11-22T03:17:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4905 CENTRAL AVE",
+   "cross": "W 47TH ST/HAWKINS OAK  LN",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.994277,
+   "lon": -85.317044,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822856",
    "sequence": "2026-11-30923",
@@ -321,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9822781",
-   "sequence": "2026-11-30867",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-22T02:58:34Z",
-   "created": "2026-11-22T02:31:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3407 LOCKWOOD CIR",
-   "cross": "LOCKWOOD TER/VAN WINKLE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.108437,
-   "lon": -85.284707,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822780",
    "sequence": "2026-11-30861",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T03:06:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T03:19:16Z",
    "created": "2026-11-22T02:31:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
