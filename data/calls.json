@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-22T06:20:37+00:00",
+ "updated": "2026-11-22T06:25:40+00:00",
  "counts": {
   "year": 369897,
   "upstream_day": 35,
-  "day": 59,
+  "day": 65,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9823046",
-   "sequence": "2026-11-31077",
-   "type": "MVC Injuries",
+   "id": "9823052",
+   "sequence": "2026-11-31083",
+   "type": "AFA Commercial",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-22T06:20:10Z",
+   "created": "2026-11-22T06:24:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,16 +23,42 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "1 - 99 TACOA AVE",
-   "cross": "BRAINERD RD/TACOA CIR",
+   "address": "2407 GLASS ST",
+   "cross": "LATTA ST/WHEELER AVE",
    "city": "CHATTANOOGA",
-   "zone": "1302 A",
+   "zone": "404",
    "priority": "PRI 1",
-   "lat": 35.011,
-   "lon": -85.22317,
+   "lat": 35.06491,
+   "lon": -85.251239,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9823047",
+   "sequence": "2026-11-31079",
+   "type": "Sex Offense",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T06:22:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "910 BLACKFORD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.049518,
+   "lon": -85.289863,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9823045",
@@ -61,37 +87,37 @@
    "notable": true
   },
   {
-   "id": "9823042",
-   "sequence": "2026-11-31075",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T06:19:56Z",
-   "created": "2026-11-22T06:19:28Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9823046",
+   "sequence": "2026-11-31077",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-22T06:24:44Z",
+   "created": "2026-11-22T06:20:10Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "5301 BRAINERD RD",
-   "cross": "TACOA AVE/MCBRIEN RD",
+   "address": "1 - 99 TACOA AVE",
+   "cross": "BRAINERD RD/TACOA CIR",
    "city": "CHATTANOOGA",
-   "zone": "C3 A",
+   "zone": "1302 A",
    "priority": "PRI 1",
-   "lat": 35.011105,
-   "lon": -85.222923,
+   "lat": 35.011,
+   "lon": -85.22317,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9823035",
    "sequence": "2026-11-31070",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-22T06:17:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T06:17:14Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9823037",
    "sequence": "2026-11-31068",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T06:21:29Z",
    "created": "2026-11-22T06:16:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
