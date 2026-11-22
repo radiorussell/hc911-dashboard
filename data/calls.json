@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T04:40:37+00:00",
+ "updated": "2026-11-22T04:45:40+00:00",
  "counts": {
   "year": 369847,
   "upstream_day": 0,
-  "day": 1299,
+  "day": 1302,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9822964",
+   "sequence": "2026-11-31007",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T04:44:09Z",
+   "created": "2026-11-22T04:43:56Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7790 LYNNLE WAY",
+   "cross": "THRASHER PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 2",
+   "lat": 35.18229,
+   "lon": -85.180737,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822963",
+   "sequence": "2026-11-31006",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T04:41:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "905 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.05165,
+   "lon": -85.294709,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822961",
    "sequence": "2026-11-31004",
@@ -85,58 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822953",
-   "sequence": "2026-11-30997",
-   "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T04:32:50Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4522 W RAVENWOOD DR",
-   "cross": "COVE LN/E RAVENWOOD DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 2",
-   "lat": 35.127431,
-   "lon": -85.273311,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9822952",
-   "sequence": "2026-11-30996",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T04:39:20Z",
-   "created": "2026-11-22T04:30:41Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4522 W RAVENWOOD DR",
-   "cross": "COVE LN/E RAVENWOOD DR",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 2",
-   "priority": "PRI 3",
-   "lat": 35.127431,
-   "lon": -85.273311,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822945",
@@ -246,8 +246,8 @@
    "id": "9822922",
    "sequence": "2026-11-30973",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T04:34:21Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T04:45:03Z",
    "created": "2026-11-22T04:07:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
