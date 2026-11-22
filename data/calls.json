@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T03:30:38+00:00",
+ "updated": "2026-11-22T03:35:38+00:00",
  "counts": {
   "year": 369796,
   "upstream_day": 0,
   "day": 1230,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 22,
  "incidents": [
   {
    "id": "9822871",
@@ -38,8 +38,8 @@
    "id": "9822870",
    "sequence": "2026-11-30934",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:26:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:26:24Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9822860",
    "sequence": "2026-11-30927",
    "type": "Brush Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T03:32:54Z",
    "created": "2026-11-22T03:18:59Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -137,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9822852",
-   "sequence": "2026-11-30920",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T03:14:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1816 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 2",
-   "lat": 35.024501,
-   "lon": -85.155628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9822831",
@@ -269,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9822792",
-   "sequence": "2026-11-30873",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T03:14:20Z",
-   "created": "2026-11-22T02:35:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "701 N GERMANTOWN RD",
-   "cross": "MENLO ST/TUNNEL BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.033838,
-   "lon": -85.241637,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822790",
    "sequence": "2026-11-30870",
    "type": "Disorder Weapon Involve",
@@ -342,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.049178,
    "lon": -85.302365,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822770",
-   "sequence": "2026-11-30858",
-   "type": "Auto Broken Down Road",
-   "status": "On Scene",
-   "status_at": "2026-11-22T03:12:17Z",
-   "created": "2026-11-22T02:27:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7300 - 7398 LANDRESS DR",
-   "cross": "No Cross Street/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 2",
-   "lat": 35.035404,
-   "lon": -85.154662,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -428,8 +350,8 @@
    "id": "9822747",
    "sequence": "2026-11-30840",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T03:30:51Z",
    "created": "2026-11-22T02:14:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
