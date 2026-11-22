@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T11:00:43+00:00",
+ "updated": "2026-11-22T11:05:37+00:00",
  "counts": {
   "year": 370001,
   "upstream_day": 138,
   "day": 185,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9823231",
@@ -64,8 +64,8 @@
    "id": "9823229",
    "sequence": "2026-11-31201",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T11:02:48Z",
    "created": "2026-11-22T10:49:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -241,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9823171",
-   "sequence": "2026-11-31165",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T09:02:20Z",
-   "created": "2026-11-22T09:02:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BRAINERD RD / TUNNEL BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.025684,
-   "lon": -85.248735,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9796493",
