@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T15:30:38+00:00",
+ "updated": "2026-11-22T15:35:43+00:00",
  "counts": {
   "year": 370141,
   "upstream_day": 278,
-  "day": 364,
+  "day": 369,
   "day_basis": "midnight"
  },
  "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9823476",
+   "sequence": "2026-11-31387",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:32:52Z",
+   "created": "2026-11-22T15:32:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823474",
+   "sequence": "2026-11-31385",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:31:51Z",
+   "created": "2026-11-22T15:31:51Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2003 BENNETT AVE",
+   "cross": "S BEECH ST/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "504",
+   "priority": "PRI 1",
+   "lat": 35.028872,
+   "lon": -85.276878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823473",
+   "sequence": "2026-11-31384",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T15:31:51Z",
+   "created": "2026-11-22T15:31:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2003 BENNETT AVE",
+   "cross": "S BEECH ST/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.028872,
+   "lon": -85.276878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823472",
+   "sequence": "2026-11-31383",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T15:31:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2003 BENNETT AVE",
+   "cross": "S BEECH ST/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.028872,
+   "lon": -85.276878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823470",
    "sequence": "2026-11-31382",
@@ -220,8 +324,8 @@
    "id": "9823454",
    "sequence": "2026-11-31364",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:18:21Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:34:50Z",
    "created": "2026-11-22T15:14:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9823440",
-   "sequence": "2026-11-31354",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T15:00:17Z",
-   "created": "2026-11-22T15:00:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5555 HIXSON PIKE",
-   "cross": "LONGVIEW DR/MIDDLE VALLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
-   "lat": 35.147324,
-   "lon": -85.221314,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823439",
    "sequence": "2026-11-31352",
    "type": "Property",
@@ -454,8 +532,8 @@
    "id": "9823437",
    "sequence": "2026-11-31350",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:14:14Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:34:59Z",
    "created": "2026-11-22T15:00:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +558,8 @@
    "id": "9823436",
    "sequence": "2026-11-31353",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:08:12Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T15:33:07Z",
    "created": "2026-11-22T14:59:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,84 +576,6 @@
    "priority": "PRI 1",
    "lat": 35.147324,
    "lon": -85.221314,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823434",
-   "sequence": "2026-11-31348",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:59:08Z",
-   "created": "2026-11-22T14:59:08Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "504 N PALISADES DR",
-   "cross": "ARROW DR/E BROW RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 2 A",
-   "priority": "PRI 3",
-   "lat": 35.126682,
-   "lon": -85.326321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823435",
-   "sequence": "2026-11-31349",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T15:07:43Z",
-   "created": "2026-11-22T14:59:08Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "504 N PALISADES DR",
-   "cross": "ARROW DR/E BROW RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.126682,
-   "lon": -85.326321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823433",
-   "sequence": "2026-11-31346",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:59:05Z",
-   "created": "2026-11-22T14:59:02Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2500 LEE PIKE",
-   "cross": "MOUNT TABOR RD/SPRADLING RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 3",
-   "lat": 35.313036,
-   "lon": -85.068642,
    "units": 1,
    "stacked": false,
    "notable": false
