@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T22:45:42+00:00",
+ "updated": "2026-11-22T22:50:37+00:00",
  "counts": {
-  "year": 370485,
-  "upstream_day": 622,
-  "day": 796,
+  "year": 370491,
+  "upstream_day": 628,
+  "day": 802,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9824027",
+   "sequence": "2026-11-31820",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T22:48:36Z",
+   "created": "2026-11-22T22:48:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2707 CANNON AVE",
+   "cross": "PRAYER LN/HOSEA LN",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.019208,
+   "lon": -85.298207,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824026",
+   "sequence": "2026-11-31818",
+   "type": "Auto Improperly Parked",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T22:47:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BROAD ST / W 16TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.036722,
+   "lon": -85.311697,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824022",
    "sequence": "2026-11-31814",
@@ -38,8 +90,8 @@
    "id": "9824021",
    "sequence": "2026-11-31813",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:43:43Z",
+   "status": "On Scene",
+   "status_at": "2026-11-22T22:49:58Z",
    "created": "2026-11-22T22:43:33Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9824019",
    "sequence": "2026-11-31812",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T22:50:31Z",
    "created": "2026-11-22T22:40:42Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -87,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9824015",
-   "sequence": "2026-11-31808",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-22T22:35:17Z",
-   "created": "2026-11-22T22:34:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2300 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 4",
-   "lat": 35.049682,
-   "lon": -85.260739,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824008",
    "sequence": "2026-11-31803",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-22T22:49:06Z",
    "created": "2026-11-22T22:31:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9823977",
-   "sequence": "2026-11-31776",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T22:12:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2288 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.039357,
-   "lon": -85.148665,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823969",
    "sequence": "2026-11-31769",
    "type": "Theft",
@@ -472,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.264823,
    "lon": -85.14198,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823961",
-   "sequence": "2026-11-31761",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T21:56:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4032 CHANDLER AVE",
-   "cross": "W 40TH ST/W 41ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 35.00477,
-   "lon": -85.31599,
    "units": 1,
    "stacked": false,
    "notable": false
