@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-22T16:15:38+00:00",
+ "updated": "2026-11-22T16:20:37+00:00",
  "counts": {
-  "year": 370157,
-  "upstream_day": 294,
-  "day": 390,
+  "year": 370164,
+  "upstream_day": 301,
+  "day": 393,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9823516",
+   "sequence": "2026-11-31411",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-22T16:20:07Z",
+   "created": "2026-11-22T16:20:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1410 HIGHWAY 27 SB",
+   "cross": "EXIT DAYTON PIKE N OFF RAMP SB/EXIT THRASHER PIKE ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.202596,
+   "lon": -85.231361,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823512",
    "sequence": "2026-11-31408",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-22T16:13:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T16:13:01Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -160,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.146073,
    "lon": -85.252215,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823487",
-   "sequence": "2026-11-31394",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-22T16:01:34Z",
-   "created": "2026-11-22T15:47:31Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10344 LEE HWY",
-   "cross": "WHITE OAK VALLEY CIR/GILCHRIST LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 4",
-   "lat": 35.08314,
-   "lon": -85.02369,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +350,8 @@
    "id": "9823431",
    "sequence": "2026-11-31347",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T15:41:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T16:16:23Z",
    "created": "2026-11-22T14:58:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.05409,
    "lon": -85.321161,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823362",
-   "sequence": "2026-11-31302",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T14:43:54Z",
-   "created": "2026-11-22T14:02:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.09006,
-   "lon": -85.066629,
    "units": 1,
    "stacked": false,
    "notable": false
