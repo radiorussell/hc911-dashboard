@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-22T14:50:39+00:00",
+ "updated": "2026-11-22T14:55:37+00:00",
  "counts": {
   "year": 370110,
   "upstream_day": 247,
-  "day": 321,
+  "day": 326,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9823426",
+   "sequence": "2026-11-31344",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T14:52:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2660 SIDNEY ST",
+   "cross": "W 26TH ST/W 28TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "103 C",
+   "priority": "PRI 1",
+   "lat": 35.026067,
+   "lon": -85.319726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823425",
+   "sequence": "2026-11-31343",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-22T14:52:12Z",
+   "created": "2026-11-22T14:51:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1400 CHESTNUT ST",
+   "cross": "W 14TH ST/W MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.039254,
+   "lon": -85.311997,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823418",
    "sequence": "2026-11-31339",
@@ -90,8 +142,8 @@
    "id": "9823412",
    "sequence": "2026-11-31335",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T14:52:19Z",
    "created": "2026-11-22T14:41:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -165,63 +217,11 @@
    "notable": false
   },
   {
-   "id": "9823400",
-   "sequence": "2026-11-31323",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T14:34:16Z",
-   "created": "2026-11-22T14:34:16Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2113 LYNDON AVE",
-   "cross": "E RIDGEWOOD AVE/KILDARE ST",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 1",
-   "lat": 35.091232,
-   "lon": -85.309625,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823401",
-   "sequence": "2026-11-31324",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:40:17Z",
-   "created": "2026-11-22T14:34:16Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2113 LYNDON AVE",
-   "cross": "E RIDGEWOOD AVE/KILDARE ST",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 1",
-   "lat": 35.091232,
-   "lon": -85.309625,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823398",
    "sequence": "2026-11-31322",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:39:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T14:52:41Z",
    "created": "2026-11-22T14:33:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9823395",
-   "sequence": "2026-11-31320",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-22T14:38:44Z",
-   "created": "2026-11-22T14:32:31Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S MOORE RD / OAKDALE AVE",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 2",
-   "lat": 34.997283,
-   "lon": -85.236687,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823393",
    "sequence": "2026-11-31319",
    "type": "EMS CALL",
@@ -316,58 +290,6 @@
    "priority": "PRI 1",
    "lat": 34.997283,
    "lon": -85.236687,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823387",
-   "sequence": "2026-11-31316",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-22T14:34:32Z",
-   "created": "2026-11-22T14:28:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823382",
-   "sequence": "2026-11-31313",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T14:23:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1816 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.024494,
-   "lon": -85.155624,
    "units": 1,
    "stacked": false,
    "notable": false
