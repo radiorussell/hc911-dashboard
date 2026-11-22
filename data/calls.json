@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-22T08:50:37+00:00",
+ "updated": "2026-11-22T08:55:37+00:00",
  "counts": {
   "year": 369960,
   "upstream_day": 97,
-  "day": 125,
+  "day": 144,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9823166",
+   "sequence": "2026-11-31161",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T08:54:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3001 DODSON AVE",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.07211,
+   "lon": -85.250658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823167",
+   "sequence": "2026-11-31162",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T08:54:18Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3001 DODSON AVE",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "404",
+   "priority": "PRI 1",
+   "lat": 35.07211,
+   "lon": -85.250658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823164",
+   "sequence": "2026-11-31160",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T08:50:59Z",
+   "created": "2026-11-22T08:50:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823163",
+   "sequence": "2026-11-31159",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T08:50:59Z",
+   "created": "2026-11-22T08:50:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823160",
+   "sequence": "2026-11-31158",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T08:50:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823143",
    "sequence": "2026-11-31143",
@@ -56,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.027786,
    "lon": -85.156328,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823139",
-   "sequence": "2026-11-31139",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-22T08:13:00Z",
-   "created": "2026-11-22T08:05:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "109 STRINGER ST",
-   "cross": "No Cross Street/SOMERVILLE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.064775,
-   "lon": -85.314676,
    "units": 1,
    "stacked": false,
    "notable": false
