@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22T21:20:36+00:00",
+ "updated": "2026-11-22T21:25:37+00:00",
  "counts": {
   "year": 370417,
   "upstream_day": 554,
   "day": 715,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
   {
    "id": "9823925",
    "sequence": "2026-11-31733",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:20:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:20:34Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9823923",
    "sequence": "2026-11-31731",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:20:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T21:20:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9823906",
-   "sequence": "2026-11-31714",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:08:08Z",
-   "created": "2026-11-22T21:00:52Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 2",
-   "lat": 35.107019,
-   "lon": -85.157878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823903",
    "sequence": "2026-11-31712",
    "type": "EMS CALL",
@@ -425,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9823885",
-   "sequence": "2026-11-31701",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:07:45Z",
-   "created": "2026-11-22T20:49:57Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10208 SIMS HARRIS RD",
-   "cross": "SPOOKY LN/QUARTER HORSE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.22337,
-   "lon": -85.039245,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823883",
    "sequence": "2026-11-31700",
    "type": "EMS CALL",
@@ -550,32 +498,6 @@
    "priority": "PRI 2",
    "lat": 35.039359,
    "lon": -85.142711,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823853",
-   "sequence": "2026-11-31679",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T20:58:45Z",
-   "created": "2026-11-22T20:29:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3601 ROSSVILLE BLVD",
-   "cross": "E 36TH ST/E 37TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.002343,
-   "lon": -85.292768,
    "units": 1,
    "stacked": false,
    "notable": false
