@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-22T03:15:38+00:00",
+ "updated": "2026-11-22T03:17:52+00:00",
  "counts": {
   "year": 369777,
   "upstream_day": 0,
-  "day": 1216,
+  "day": 1218,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9822856",
+   "sequence": "2026-11-30923",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-22T03:17:45Z",
+   "created": "2026-11-22T03:17:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1816 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 2",
+   "lat": 35.024501,
+   "lon": -85.155628,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822854",
    "sequence": "2026-11-30921",
@@ -38,8 +64,8 @@
    "id": "9822852",
    "sequence": "2026-11-30920",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-22T03:14:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T03:14:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -454,8 +480,8 @@
    "id": "9822742",
    "sequence": "2026-11-30838",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-22T03:17:18Z",
    "created": "2026-11-22T02:10:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
