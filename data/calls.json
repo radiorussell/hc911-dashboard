@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-22T01:05:37+00:00",
+ "updated": "2026-11-22T01:10:41+00:00",
  "counts": {
-  "year": 369649,
+  "year": 369658,
   "upstream_day": 0,
-  "day": 1046,
+  "day": 1054,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9822641",
+   "sequence": "2026-11-30759",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:09:56Z",
+   "created": "2026-11-22T01:09:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3701 - 3849 S TERRACE",
+   "cross": "EXIT 183 OFF RAMP EB/ANDERSON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.01306,
+   "lon": -85.25012,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822635",
+   "sequence": "2026-11-30754",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T01:06:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "S TERRACE / S GERMANTOWN RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1304 B",
+   "priority": "PRI 1",
+   "lat": 35.013819,
+   "lon": -85.252073,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822634",
+   "sequence": "2026-11-30753",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T01:06:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "S TERRACE / S GERMANTOWN RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.013819,
+   "lon": -85.252073,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9822632",
+   "sequence": "2026-11-30755",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:06:27Z",
+   "created": "2026-11-22T01:06:22Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4401 RINGGOLD RD",
+   "cross": "CHOATE RD/MCBRIEN RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.995864,
+   "lon": -85.236086,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9822633",
+   "sequence": "2026-11-30756",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-22T01:07:11Z",
+   "created": "2026-11-22T01:06:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "509 - 513 S GERMANTOWN RD",
+   "cross": "N TERRACE/EXIT 183 OFF RAMP EB",
+   "city": "EAST RIDGE",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.01405,
+   "lon": -85.25202,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9822631",
    "sequence": "2026-11-30751",
@@ -37,9 +167,9 @@
   {
    "id": "9822630",
    "sequence": "2026-11-30750",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-22T01:05:16Z",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T01:04:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -58,7 +188,7 @@
    "lon": -85.252073,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9822621",
@@ -82,58 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.054645,
    "lon": -85.194241,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822619",
-   "sequence": "2026-11-30744",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-22T00:57:27Z",
-   "created": "2026-11-22T00:57:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5113 MCCAHILL RD",
-   "cross": "GUESS CIR/BROWNTOWN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.146623,
-   "lon": -85.279879,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9822617",
-   "sequence": "2026-11-30743",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:05:32Z",
-   "created": "2026-11-22T00:55:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5113 MCCAHILL RD",
-   "cross": "GUESS CIR/BROWNTOWN RD",
-   "city": "CHATTANOOGA",
-   "zone": "2202",
-   "priority": "PRI 2",
-   "lat": 35.146623,
-   "lon": -85.279879,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9822594",
-   "sequence": "2026-11-30731",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:48:11Z",
-   "created": "2026-11-22T00:42:48Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1139 COFFELT RD",
-   "cross": "No Cross Street/MOSES RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.186831,
-   "lon": -85.226451,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9822592",
    "sequence": "2026-11-30729",
    "type": "Theft",
@@ -246,8 +298,8 @@
    "id": "9822591",
    "sequence": "2026-11-30730",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T01:00:42Z",
+   "status": "Transporting",
+   "status_at": "2026-11-22T01:06:09Z",
    "created": "2026-11-22T00:41:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -293,32 +345,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9822558",
-   "sequence": "2026-11-30702",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-22T00:27:27Z",
-   "created": "2026-11-22T00:21:22Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "814 HYATTE RD",
-   "cross": "LONESOME TRL/LOVELL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.228168,
-   "lon": -85.174899,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9822557",
@@ -428,8 +454,8 @@
    "id": "9822528",
    "sequence": "2026-11-30682",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T00:36:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T01:08:46Z",
    "created": "2026-11-22T00:04:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
