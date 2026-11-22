@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-22T21:50:38+00:00",
+ "updated": "2026-11-22T21:55:38+00:00",
  "counts": {
   "year": 370435,
   "upstream_day": 572,
-  "day": 731,
+  "day": 739,
   "day_basis": "midnight"
  },
  "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9823958",
+   "sequence": "2026-11-31757",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:54:27Z",
+   "created": "2026-11-22T21:54:27Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7306 IGOU FERRY RD",
+   "cross": "BETTIS ESTATES LN/SIMS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.204979,
+   "lon": -85.057298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823957",
+   "sequence": "2026-11-31756",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-22T21:54:27Z",
+   "created": "2026-11-22T21:54:27Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7306 IGOU FERRY RD",
+   "cross": "BETTIS ESTATES LN/SIMS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 3",
+   "lat": 35.204979,
+   "lon": -85.057298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823956",
+   "sequence": "2026-11-31755",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:53:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7306 IGOU FERRY RD",
+   "cross": "BETTIS ESTATES LN/SIMS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.204979,
+   "lon": -85.057298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9823955",
+   "sequence": "2026-11-31754",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-22T21:51:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6116 ATLANTA AVE",
+   "cross": "WALDEN AVE/SPELLMAN ST",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.03884,
+   "lon": -85.185975,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9823946",
    "sequence": "2026-11-31749",
@@ -87,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9823932",
-   "sequence": "2026-11-31739",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:40:38Z",
-   "created": "2026-11-22T21:26:59Z",
-   "jurisdiction": "Mowbray VFD",
-   "agencies": [
-    "Mowbray VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9826 INDIAN RIDGE LN",
-   "cross": "MOWBRAY PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MOWBRAY MOUNTAIN FD",
-   "priority": "PRI 1",
-   "lat": 35.249612,
-   "lon": -85.193018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823928",
    "sequence": "2026-11-31736",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:44:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T21:51:01Z",
    "created": "2026-11-22T21:26:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -139,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9823924",
-   "sequence": "2026-11-31732",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T21:20:34Z",
-   "created": "2026-11-22T21:20:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7430 SHALLOWFORD RD",
-   "cross": "GUNBARREL RD/OGLETREE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.038,
-   "lon": -85.147349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9823923",
    "sequence": "2026-11-31731",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:44:34Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T21:53:33Z",
    "created": "2026-11-22T21:20:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.038,
    "lon": -85.147349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823921",
-   "sequence": "2026-11-31729",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-22T21:49:39Z",
-   "created": "2026-11-22T21:17:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3400 JENKINS RD",
-   "cross": "STANDIFER GAP RD/XPRESS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.049941,
-   "lon": -85.127588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +272,8 @@
    "id": "9823903",
    "sequence": "2026-11-31712",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T21:28:52Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-22T21:51:10Z",
    "created": "2026-11-22T21:00:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.107019,
    "lon": -85.157878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823900",
-   "sequence": "2026-11-31711",
-   "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": "2026-11-22T21:00:26Z",
-   "created": "2026-11-22T20:56:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.094368,
-   "lon": -85.331318,
    "units": 1,
    "stacked": false,
    "notable": false
