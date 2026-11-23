@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-23T00:25:38+00:00",
+ "updated": "2026-11-23T00:30:41+00:00",
  "counts": {
-  "year": 370572,
+  "year": 370581,
   "upstream_day": 0,
-  "day": 904,
+  "day": 912,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9824173",
+   "sequence": "2026-11-31930",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:29:21Z",
+   "created": "2026-11-23T00:29:21Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1527 BURNS AVE",
+   "cross": "ST JAMES AVE/STATE LINE RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.98845,
+   "lon": -85.219622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824170",
+   "sequence": "2026-11-31929",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:28:14Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1527 BURNS AVE",
+   "cross": "ST JAMES AVE/STATE LINE RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.98845,
+   "lon": -85.219622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824168",
+   "sequence": "2026-11-31927",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:27:44Z",
+   "created": "2026-11-23T00:27:44Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5775 CHERRY ST",
+   "cross": "W CHERRY ST/BREWER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 D",
+   "priority": "PRI 3",
+   "lat": 35.075417,
+   "lon": -85.05616,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824169",
+   "sequence": "2026-11-31928",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:27:44Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5775 CHERRY ST",
+   "cross": "W CHERRY ST/BREWER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC I",
+   "priority": "PRI 3",
+   "lat": 35.075417,
+   "lon": -85.05616,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824167",
+   "sequence": "2026-11-31926",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:27:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5775 CHERRY ST",
+   "cross": "W CHERRY ST/BREWER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.075417,
+   "lon": -85.05616,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824160",
    "sequence": "2026-11-31922",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:24:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:24:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.041537,
    "lon": -85.296805,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824158",
-   "sequence": "2026-11-31921",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:22:30Z",
-   "created": "2026-11-23T00:22:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11963 TOWHEE PL",
-   "cross": "HOPE RANCH DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 34.99921,
-   "lon": -85.009941,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -143,7 +247,7 @@
    "sequence": "2026-11-31915",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T00:27:45Z",
    "created": "2026-11-23T00:14:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,63 +295,11 @@
    "notable": false
   },
   {
-   "id": "9824144",
-   "sequence": "2026-11-31909",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:10:05Z",
-   "created": "2026-11-23T00:10:05Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.992388,
-   "lon": -85.235323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824145",
-   "sequence": "2026-11-31910",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:10:05Z",
-   "created": "2026-11-23T00:10:05Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 34.992388,
-   "lon": -85.235323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824142",
    "sequence": "2026-11-31908",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:17:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T00:27:45Z",
    "created": "2026-11-23T00:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9824115",
-   "sequence": "2026-11-31885",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-22T23:52:52Z",
-   "created": "2026-11-22T23:48:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "AIRPORT RD / SHALLOWFORD RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.051096,
-   "lon": -85.21276,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824114",
    "sequence": "2026-11-31889",
    "type": "Disorder",
@@ -376,8 +402,8 @@
    "id": "9824113",
    "sequence": "2026-11-31886",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T00:19:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T00:30:21Z",
    "created": "2026-11-22T23:48:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,58 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.011472,
    "lon": -85.282926,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824107",
-   "sequence": "2026-11-31880",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:18:57Z",
-   "created": "2026-11-22T23:36:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "725 E 48TH ST",
-   "cross": "WILSON RD/JEFFERY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.992863,
-   "lon": -85.305707,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9824072",
-   "sequence": "2026-11-31856",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-22T23:34:44Z",
-   "created": "2026-11-22T23:15:58Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "13302 JONES GAP RD",
-   "cross": "REED LN/SMITH RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 8",
-   "priority": "PRI 3",
-   "lat": 35.355771,
-   "lon": -85.191755,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -524,58 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.220759,
    "lon": -85.030898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824030",
-   "sequence": "2026-11-31826",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T23:13:27Z",
-   "created": "2026-11-22T22:51:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2124 GUNBARREL RD",
-   "cross": "LANDRESS DR/COMMONS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.034762,
-   "lon": -85.1523,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824003",
-   "sequence": "2026-11-31798",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T23:55:08Z",
-   "created": "2026-11-22T22:27:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3926 WINDWARD LN",
-   "cross": "WINDJAMMER DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.357866,
-   "lon": -85.054914,
    "units": 1,
    "stacked": false,
    "notable": false
