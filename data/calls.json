@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T07:05:38+00:00",
+ "updated": "2026-11-23T07:10:38+00:00",
  "counts": {
-  "year": 370844,
-  "upstream_day": 42,
-  "day": 53,
+  "year": 370848,
+  "upstream_day": 46,
+  "day": 63,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9824610",
+   "sequence": "2026-11-32261",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T07:07:56Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3615 FOUNTAIN AVE",
+   "cross": "S GERMANTOWN RD/MCHANN DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 1",
+   "lat": 35.006537,
+   "lon": -85.25387,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824611",
+   "sequence": "2026-11-32262",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T07:07:56Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3615 FOUNTAIN AVE",
+   "cross": "S GERMANTOWN RD/MCHANN DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 35.006537,
+   "lon": -85.25387,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824609",
+   "sequence": "2026-11-32260",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T07:07:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3615 FOUNTAIN AVE",
+   "cross": "S GERMANTOWN RD/MCHANN DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.006537,
+   "lon": -85.25387,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824596",
    "sequence": "2026-11-32252",
@@ -82,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.039254,
    "lon": -85.311997,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824556",
-   "sequence": "2026-11-32220",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T05:28:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "30 TUNNEL BLVD",
-   "cross": "BRAINERD RD/MONTVIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.027268,
-   "lon": -85.247599,
    "units": 1,
    "stacked": false,
    "notable": false
