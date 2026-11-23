@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T21:55:38+00:00",
+ "updated": "2026-11-23T22:00:38+00:00",
  "counts": {
   "year": 371577,
   "upstream_day": 774,
-  "day": 1066,
+  "day": 1069,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9826040",
+   "sequence": "2026-11-33268",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:00:11Z",
+   "created": "2026-11-23T21:59:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2221 HAMILTON PLACE BLVD",
+   "cross": "BAMS DR/PINE GROVE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.041,
+   "lon": -85.155348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826031",
    "sequence": "2026-11-33263",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-23T21:53:13Z",
    "created": "2026-11-23T21:52:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9826032",
    "sequence": "2026-11-33265",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:54:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:52:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9826028",
    "sequence": "2026-11-33261",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:57:54Z",
    "created": "2026-11-23T21:48:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -85,58 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826024",
-   "sequence": "2026-11-33257",
-   "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:46:56Z",
-   "created": "2026-11-23T21:46:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6910 STANDIFER GAP RD",
-   "cross": "EDGEFIELD DR/MIDFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.053448,
-   "lon": -85.15395,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9826022",
-   "sequence": "2026-11-33256",
-   "type": "Trash Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:52:49Z",
-   "created": "2026-11-23T21:46:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6910 STANDIFER GAP RD",
-   "cross": "EDGEFIELD DR/MIDFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 3",
-   "lat": 35.053448,
-   "lon": -85.15395,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826019",
@@ -209,58 +183,6 @@
    "cross": "KINGSTON ST/SELMA ST",
    "city": "RED BANK",
    "zone": "RED BANK 1",
-   "priority": "PRI 1",
-   "lat": 35.110066,
-   "lon": -85.29456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826001",
-   "sequence": "2026-11-33244",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:41:14Z",
-   "created": "2026-11-23T21:36:48Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3316 DAYTON BLVD",
-   "cross": "KINGSTON ST/SELMA ST",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 1",
-   "lat": 35.110066,
-   "lon": -85.29456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825997",
-   "sequence": "2026-11-33242",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:44:01Z",
-   "created": "2026-11-23T21:36:21Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3316 DAYTON BLVD",
-   "cross": "KINGSTON ST/SELMA ST",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 RB C",
    "priority": "PRI 1",
    "lat": 35.110066,
    "lon": -85.29456,
@@ -399,37 +321,11 @@
    "notable": true
   },
   {
-   "id": "9825981",
-   "sequence": "2026-11-33229",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:40:28Z",
-   "created": "2026-11-23T21:35:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1700 - 1729 E 3RD ST",
-   "cross": "N HICKORY ST/ROBERTS ST",
-   "city": "CHATTANOOGA",
-   "zone": "501",
-   "priority": "PRI 1",
-   "lat": 35.041971,
-   "lon": -85.274915,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825970",
    "sequence": "2026-11-33220",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T21:57:07Z",
    "created": "2026-11-23T21:29:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -581,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9825962",
-   "sequence": "2026-11-33214",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:25:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ASPEN LN / FAIRWOOD LN",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.082775,
-   "lon": -85.1983,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825951",
    "sequence": "2026-11-33211",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:23:29Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T21:57:55Z",
    "created": "2026-11-23T21:23:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1000,7 +870,7 @@
    "id": "9825688",
    "sequence": "2026-11-33018",
    "type": "Supplemental Reports",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-23T19:11:05Z",
    "created": "2026-11-23T19:11:05Z",
    "jurisdiction": "Chattanooga PD",
@@ -1019,7 +889,7 @@
    "lat": 35.084696,
    "lon": -85.203333,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
