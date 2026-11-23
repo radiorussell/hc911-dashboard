@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T01:10:37+00:00",
+ "updated": "2026-11-23T01:15:37+00:00",
  "counts": {
   "year": 370609,
   "upstream_day": 0,
-  "day": 945,
+  "day": 947,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9824221",
+   "sequence": "2026-11-31965",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:12:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7500 - 7509 LEE HWY",
+   "cross": "TYNER RD/SILVERDALE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824214",
    "sequence": "2026-11-31961",
@@ -90,8 +116,8 @@
    "id": "9824209",
    "sequence": "2026-11-31957",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:13:30Z",
    "created": "2026-11-23T01:02:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "3514 HIXSON PIKE",
+   "address": "3504 HIXSON PIKE",
    "cross": "LUPTON DR/INTERMONT RD",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 04 CH A",
    "priority": "PRI 1",
-   "lat": 35.104874,
-   "lon": -85.273449,
+   "lat": 35.104469,
+   "lon": -85.272607,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -139,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9824205",
-   "sequence": "2026-11-31953",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:57:28Z",
-   "created": "2026-11-23T00:57:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.050245,
-   "lon": -85.148581,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824206",
-   "sequence": "2026-11-31954",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:05:02Z",
-   "created": "2026-11-23T00:57:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 3",
-   "lat": 35.051313,
-   "lon": -85.147882,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824200",
    "sequence": "2026-11-31950",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:13:14Z",
    "created": "2026-11-23T00:51:25Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
