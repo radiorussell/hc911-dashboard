@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T02:31:06+00:00",
+ "updated": "2026-11-23T02:35:37+00:00",
  "counts": {
   "year": 370680,
   "upstream_day": 0,
-  "day": 1033,
+  "day": 1039,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9824344",
+   "sequence": "2026-11-32056",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T02:34:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.003813,
+   "lon": -85.241382,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824345",
+   "sequence": "2026-11-32057",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:34:53Z",
+   "created": "2026-11-23T02:34:53Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 35.003813,
+   "lon": -85.241382,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824343",
+   "sequence": "2026-11-32055",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:34:47Z",
+   "created": "2026-11-23T02:34:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "901 E MAIN ST",
+   "cross": "CENTRAL AVE/FAGAN ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 0",
+   "lat": 35.031998,
+   "lon": -85.295693,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824335",
+   "sequence": "2026-11-32054",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T02:32:42Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.003813,
+   "lon": -85.241382,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824334",
+   "sequence": "2026-11-32052",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-23T02:33:58Z",
+   "created": "2026-11-23T02:31:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18100 INTERSTATE 24 WB",
+   "cross": "EXIT 181 ON RAMP WB/EXIT 181 OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.016772,
+   "lon": -85.281113,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824333",
    "sequence": "2026-11-32051",
@@ -116,8 +246,8 @@
    "id": "9824329",
    "sequence": "2026-11-32047",
    "type": "Disorder Weapon Involve",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:29:42Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T02:29:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9824327",
-   "sequence": "2026-11-32045",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:27:33Z",
-   "created": "2026-11-23T02:27:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "413 SPRING ST",
-   "cross": "HARPER ST/DAVENPORT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.067898,
-   "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824326",
    "sequence": "2026-11-32044",
    "type": "MVC Delayed",
@@ -217,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9824320",
-   "sequence": "2026-11-32039",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T02:24:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1650 CRISWELL CT",
-   "cross": "BLAKESLEE DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 3",
-   "lat": 35.322782,
-   "lon": -85.105413,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824317",
    "sequence": "2026-11-32040",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T02:34:32Z",
    "created": "2026-11-23T02:24:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
