@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T08:10:42+00:00",
+ "updated": "2026-11-23T08:15:39+00:00",
  "counts": {
   "year": 370859,
   "upstream_day": 57,
   "day": 83,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 7,
  "incidents": [
   {
    "id": "9824631",
@@ -64,8 +64,8 @@
    "id": "9824628",
    "sequence": "2026-11-32279",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T08:10:53Z",
    "created": "2026-11-23T08:06:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.00952,
    "lon": -85.265423,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824609",
-   "sequence": "2026-11-32260",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T07:37:56Z",
-   "created": "2026-11-23T07:07:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3615 FOUNTAIN AVE",
-   "cross": "S GERMANTOWN RD/MCHANN DR",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 35.006537,
-   "lon": -85.25387,
    "units": 1,
    "stacked": false,
    "notable": false
