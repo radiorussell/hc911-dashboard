@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="assets/traffic.css">
 </head>
-<body>
+<body class="traffic-page">
 <header class="topbar">
   <div class="brand">
     <span class="dot live"></span>
@@ -99,13 +99,23 @@
 
 <div class="lightbox" id="lightbox" hidden>
   <div class="lightbox-inner">
-    <header><h3 id="lb-title"></h3><button class="chip" id="lb-close">close</button></header>
-    <img id="lb-img" alt="">
+    <header>
+      <h3 id="lb-title"></h3>
+      <div class="lb-actions">
+        <span class="tag" id="lb-mode">snapshot</span>
+        <button class="chip" id="lb-close">close</button>
+      </div>
+    </header>
+    <div class="lb-stage">
+      <!-- the player is created per camera open, so no video element lives here -->
+      <img id="lb-img" alt="">
+    </div>
     <p class="note" id="lb-meta"></p>
   </div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/hls.js@1.5.20/dist/hls.min.js"></script>
 <script src="assets/traffic.js"></script>
 </body>
 </html>

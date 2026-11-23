@@ -1,5 +1,15 @@
 /* Traffic spike — extra styles only; colors come from assets/style.css vars. */
 
+/* The shared `.board` is a flex child sized to the viewport, so on a laptop-height
+   screen its auto rows get compressed below their content and the panels overlap.
+   This page wants to scroll, not squeeze: drop the flex sizing and let each row size
+   to its content. */
+body.traffic-page .board {
+  flex: none;
+  align-content: start;
+}
+body.traffic-page .panel { max-height: none; }
+
 /* The board grid is a fixed 3 columns and `.wide` in index.html has no CSS behind it,
    so a panel that must be wider than one column needs an explicit span. */
 /* Only lay out the extra spans on the 3-column desktop board; the 2-column and
@@ -71,6 +81,17 @@
 .wstrip .cam { flex: 0 0 156px; }
 .cam.hot { border-color: color-mix(in srgb, var(--amber) 55%, transparent); }
 .cam.hot small { color: var(--amber); }
+/* live-video badge: TDOT streams HLS, so a red dot means "clicking plays video" */
+.cam-live {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, .55);
+}
 
 /* cameras */
 .cam-grid {
@@ -82,6 +103,7 @@
   overflow-y: auto;
 }
 .cam {
+  position: relative;
   background: var(--panel-2);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -110,8 +132,21 @@
   background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
   padding: 12px; max-width: min(92vw, 900px); box-shadow: 0 20px 60px rgba(0, 0, 0, .6);
 }
+.lightbox-inner { width: fit-content; min-width: min(88vw, 360px); }
 .lightbox-inner header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .lightbox-inner h3 { margin: 0 0 8px; font-size: 14px; font-weight: 600; }
-.lightbox-inner img { width: 100%; max-height: 74vh; object-fit: contain; border-radius: 8px; background: #000; }
+.lb-actions { display: flex; align-items: center; gap: 8px; }
+.lb-stage { display: grid; width: min(88vw, 520px); }
+.lb-stage img,
+.lb-stage video {
+  grid-area: 1 / 1;
+  width: 100%;
+  max-height: 74vh;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #000;
+}
+.lb-stage [hidden] { display: none; }
+.tag.muted { color: var(--muted); }
 
 .waze-type { text-transform: capitalize; }

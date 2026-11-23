@@ -274,6 +274,7 @@ function renderWatch() {
                   .map(
                     ({ cam, d }) => `<button class="cam" data-cam="${esc(cam.id)}">
                         <img loading="lazy" src="${stamp(cam.thumb)}" alt="${esc(cam.title)} snapshot">
+                        ${cam.hls ? '<i class="cam-live" title="live video available"></i>' : ''}
                         <span>${esc(cam.title)}<small>${d.toFixed(1)} mi away</small></span>
                       </button>`
                   )
@@ -301,30 +302,139 @@ function renderCams() {
   $('#cam-grid').innerHTML = cams
     .map((c, i) => `<button class="cam ${state.watchOrder.includes(c.id) ? 'hot' : ''}" data-i="${i}">
         <img loading="lazy" src="${stamp(c.thumb)}" alt="${esc(c.title)} live snapshot">
+        ${c.hls ? '<i class="cam-live" title="live video available"></i>' : ''}
         <span>${esc(c.title)}<small>${esc(c.route || '')} · MM ${esc(c.mm || '')}${state.watchOrder.includes(c.id) ? ' · near call' : ''}</small></span>
-      </button>`
-    )
+      </button>`)
     .join('');
   for (const el of document.querySelectorAll('#cam-grid .cam')) {
     el.addEventListener('click', () => openLightbox(cams[Number(el.dataset.i)]));
   }
 }
 
-/* ---------------- lightbox ---------------- */
+/* ---------------- lightbox: live HLS video with a snapshot fallback ----------------
+   TDOT publishes each camera as an HLS stream (320×240) that answers CORS with `*`,
+   so the browser can play it directly. Safari handles the playlist natively; Chrome
+   and Firefox need hls.js over MSE. Every open builds a FRESH <video> element: reusing
+   one element across streams left the previous MediaSource attached and the next
+   play() failed with "NotSupportedError: no supported source". */
 let lbTimer = null;
+let lbHls = null;
+let lbVideo = null;
+let lbWatchdog = null;
+
+function teardownPlayer() {
+  clearTimeout(lbWatchdog);
+  lbWatchdog = null;
+  if (lbHls) {
+    try { lbHls.destroy(); } catch (e) { /* already torn down */ }
+    lbHls = null;
+  }
+  if (lbVideo) {
+    try { lbVideo.pause(); } catch (e) { /* not playing */ }
+    lbVideo.remove();
+    lbVideo = null;
+  }
+}
+
+function showSnapshot(cam, note) {
+  teardownPlayer();
+  clearInterval(lbTimer);
+  const img = $('#lb-img');
+  img.hidden = false;
+  img.src = stamp(cam.thumb);
+  $('#lb-mode').textContent = 'snapshot';
+  $('#lb-mode').classList.add('muted');
+  if (note) $('#lb-meta').textContent = `${cam.route || ''} · MM ${cam.mm || ''} · ${note}`;
+  lbTimer = setInterval(() => (img.src = stamp(cam.thumb)), SHOT_MS);
+}
+
+function playLive(cam) {
+  const stage = document.querySelector('.lb-stage');
+  const img = $('#lb-img');
+  // Keep the snapshot on screen while the stream negotiates — the player fades in
+  // over it on the first frame, so nobody stares at a black rectangle.
+  img.hidden = false;
+  img.src = stamp(cam.thumb);
+
+  const video = document.createElement('video');
+  video.playsInline = true;
+  video.muted = true;
+  video.controls = true;
+  video.style.opacity = '0';
+  stage.appendChild(video);
+  lbVideo = video;
+
+  $('#lb-mode').textContent = 'connecting';
+  $('#lb-mode').classList.remove('muted');
+  $('#lb-meta').textContent = `${cam.route || ''} · MM ${cam.mm || ''} · live CCTV · 320×240`;
+
+  video.addEventListener('playing', () => {
+    clearTimeout(lbWatchdog);
+    lbWatchdog = null;
+    clearInterval(lbTimer);
+    lbTimer = null;
+    img.hidden = true;
+    video.style.opacity = '1';
+    $('#lb-mode').textContent = 'live';
+  }, { once: true });
+
+  const beginPlayback = () => {
+    const attempt = () => {
+      if (lbVideo !== video) return;              // a newer camera took the stage
+      video.play().catch(() => {
+        if (lbVideo === video && video.readyState === 0) $('#lb-mode').textContent = 'press play';
+      });
+    };
+    attempt();
+    // A manifest can parse a hair before the first segment is appendable, which
+    // rejects the first play() with NotSupportedError; one retry on canplay sticks.
+    video.addEventListener('canplay', attempt, { once: true });
+  };
+
+  // A camera whose encoder is down can serve a valid playlist that never produces a
+  // frame — hls.js stays quiet, so time out into the snapshot instead of a black box.
+  lbWatchdog = setTimeout(() => {
+    if (lbVideo === video && video.readyState < 2) {
+      showSnapshot(cam, 'live stream offline — showing the latest snapshot');
+    }
+  }, 12000);
+
+  // Prefer hls.js wherever MediaSource exists, even if the browser claims native HLS:
+  // Chrome answers canPlayType('application/vnd.apple.mpegurl') with "maybe" but its
+  // native player fails these streams intermittently ("no supported source"). Native
+  // is only right for Safari, where Hls.isSupported() is false.
+  if (window.Hls && Hls.isSupported()) {
+    lbHls = new Hls({ maxBufferLength: 12, backBufferLength: 20, enableWorker: true });
+    lbHls.attachMedia(video);
+    lbHls.on(Hls.Events.MEDIA_ATTACHED, () => lbHls && lbHls.loadSource(cam.hls));
+    lbHls.on(Hls.Events.MANIFEST_PARSED, beginPlayback);
+    lbHls.on(Hls.Events.ERROR, (_evt, data) => {
+      if (!data.fatal) return;
+      showSnapshot(cam, 'live stream unavailable — showing the latest snapshot');
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = cam.hls;
+    beginPlayback();
+  } else {
+    showSnapshot(cam, 'this browser cannot play HLS — showing snapshots');
+  }
+}
+
 function openLightbox(cam) {
   $('#lightbox').hidden = false;
   $('#lb-title').textContent = cam.title;
   $('#lb-meta').textContent = `${cam.route || ''} · MM ${cam.mm || ''} · ${cam.jur || ''}`;
-  const img = $('#lb-img');
-  img.src = stamp(cam.thumb);
+  teardownPlayer();
   clearInterval(lbTimer);
-  lbTimer = setInterval(() => (img.src = stamp(cam.thumb)), SHOT_MS);
+  if (cam.hls) playLive(cam);
+  else showSnapshot(cam, 'no live stream for this camera — snapshot only');
 }
+
 function closeLightbox() {
   $('#lightbox').hidden = true;
   clearInterval(lbTimer);
   lbTimer = null;
+  teardownPlayer();
 }
 
 /* ---------------- boot ---------------- */
