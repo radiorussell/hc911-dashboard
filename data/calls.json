@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T03:25:37+00:00",
+ "updated": "2026-11-23T03:30:37+00:00",
  "counts": {
-  "year": 370733,
+  "year": 370737,
   "upstream_day": 0,
   "day": 1096,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 30,
  "incidents": [
   {
    "id": "9824426",
    "sequence": "2026-11-32114",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T03:28:26Z",
    "created": "2026-11-23T03:23:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -108,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.105913,
    "lon": -85.298216,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824417",
-   "sequence": "2026-11-32108",
-   "type": "Alarm Distress",
-   "status": "On Scene",
-   "status_at": "2026-11-23T03:24:52Z",
-   "created": "2026-11-23T03:17:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2503 WESTSIDE DR",
-   "cross": "ELDER ST/RINGGOLD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.012321,
-   "lon": -85.272706,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +220,8 @@
    "id": "9824407",
    "sequence": "2026-11-32100",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T03:28:02Z",
    "created": "2026-11-23T03:13:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9824403",
-   "sequence": "2026-11-32098",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T03:07:45Z",
-   "created": "2026-11-23T03:07:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2426 CHAMBERLAIN AVE",
-   "cross": "S WATKINS ST/BUCKLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.031033,
-   "lon": -85.267546,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824399",
    "sequence": "2026-11-32096",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T03:15:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T03:26:48Z",
    "created": "2026-11-23T03:07:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,58 +576,6 @@
    "priority": "PRI 2",
    "lat": 35.026021,
    "lon": -85.182156,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824347",
-   "sequence": "2026-11-32061",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T03:04:08Z",
-   "created": "2026-11-23T02:35:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2741 6TH AVENUE CT",
-   "cross": "E 27TH STREET CT/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.011342,
-   "lon": -85.281834,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824330",
-   "sequence": "2026-11-32048",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T02:50:59Z",
-   "created": "2026-11-23T02:29:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "418 CUMBERLAND ST",
-   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.044804,
-   "lon": -85.28,
    "units": 1,
    "stacked": false,
    "notable": false
