@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T12:20:38+00:00",
+ "updated": "2026-11-23T12:25:39+00:00",
  "counts": {
   "year": 370942,
   "upstream_day": 140,
-  "day": 197,
+  "day": 206,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9824803",
+   "sequence": "2026-11-32405",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:22:33Z",
+   "created": "2026-11-23T12:22:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2524 GUNBARREL RD",
+   "cross": "POPULUS LOOP/PINEWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.046865,
+   "lon": -85.145277,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824799",
+   "sequence": "2026-11-32404",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:20:46Z",
+   "created": "2026-11-23T12:20:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8005 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/STILL HOLLOW LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.087197,
+   "lon": -85.134496,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824776",
    "sequence": "2026-11-32396",
@@ -90,8 +142,8 @@
    "id": "9824765",
    "sequence": "2026-11-32383",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T12:24:24Z",
    "created": "2026-11-23T12:02:19Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -217,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9824706",
-   "sequence": "2026-11-32342",
-   "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": "2026-11-23T11:17:58Z",
-   "created": "2026-11-23T11:16:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "350 - 368 W MARTIN LUTHER KING BLVD",
-   "cross": "EXIT W M L KING BLVD E ON RAMP NB/EXIT W 4TH ST OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.046776,
-   "lon": -85.314549,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824705",
    "sequence": "2026-11-32339",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T12:04:19Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T12:24:53Z",
    "created": "2026-11-23T11:16:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
