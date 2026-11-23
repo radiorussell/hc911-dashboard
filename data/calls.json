@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T00:00:38+00:00",
+ "updated": "2026-11-23T00:05:36+00:00",
  "counts": {
   "year": 370555,
   "upstream_day": 0,
-  "day": 875,
+  "day": 882,
   "day_basis": "midnight"
  },
  "raw_rows": 26,
  "incidents": [
   {
+   "id": "9824128",
+   "sequence": "2026-11-31900",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:00:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1800 BROAD ST",
+   "cross": "W 18TH ST/W 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.035075,
+   "lon": -85.31261,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824127",
+   "sequence": "2026-11-31895",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:00:55Z",
+   "created": "2026-11-22T23:59:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4616 SUNFLOWER LN",
+   "cross": "OAKHILL RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.08722,
+   "lon": -85.197956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9824120",
    "sequence": "2026-11-31892",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:03:28Z",
    "created": "2026-11-22T23:52:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9824109",
-   "sequence": "2026-11-31883",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:43:20Z",
-   "created": "2026-11-22T23:43:20Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2201 E 28TH ST",
-   "cross": "4TH AVE/5TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 3",
-   "lat": 35.011472,
-   "lon": -85.282926,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824108",
    "sequence": "2026-11-31882",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Transporting",
+   "status_at": "2026-11-23T00:02:25Z",
    "created": "2026-11-22T23:42:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,32 +321,6 @@
    "notable": true
   },
   {
-   "id": "9824104",
-   "sequence": "2026-11-31878",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-22T23:38:14Z",
-   "created": "2026-11-22T23:34:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "20 W 26TH ST",
-   "cross": "MARKET ST/CARR ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.025769,
-   "lon": -85.312386,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824080",
    "sequence": "2026-11-31861",
    "type": "Police Assist Citizen",
@@ -376,8 +376,8 @@
    "id": "9824062",
    "sequence": "2026-11-31850",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T23:56:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T00:04:22Z",
    "created": "2026-11-22T23:10:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
