@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T21:15:37+00:00",
+ "updated": "2026-11-23T21:20:38+00:00",
  "counts": {
   "year": 371521,
   "upstream_day": 718,
-  "day": 1004,
+  "day": 1010,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9825956",
+   "sequence": "2026-11-33209",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:20:13Z",
+   "created": "2026-11-23T21:19:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 HIGHWAY 153 SB",
+   "cross": "EXIT SHALLOWFORD RD OFF RAMP SB/EXIT JERSEY PIKE ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.06148,
+   "lon": -85.193674,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825953",
+   "sequence": "2026-11-33207",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:16:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2101 E 3RD ST",
+   "cross": "N WILLOW ST/N KELLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.039964,
+   "lon": -85.268586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825946",
    "sequence": "2026-11-33203",
@@ -38,8 +90,8 @@
    "id": "9825942",
    "sequence": "2026-11-33201",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:20:10Z",
    "created": "2026-11-23T21:12:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9825941",
    "sequence": "2026-11-33202",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:20:25Z",
    "created": "2026-11-23T21:12:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -191,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9825931",
-   "sequence": "2026-11-33192",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:12:27Z",
-   "created": "2026-11-23T21:08:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2464 AMNICOLA HWY",
-   "cross": "LATTA ST/APPLING ST",
-   "city": "CHATTANOOGA",
-   "zone": "1003",
-   "priority": "PRI 1",
-   "lat": 35.071719,
-   "lon": -85.268694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825930",
    "sequence": "2026-11-33190",
    "type": "Backup Fire Unit",
@@ -267,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9825924",
-   "sequence": "2026-11-33186",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:14:15Z",
-   "created": "2026-11-23T21:07:43Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "THATCHER RD / HIXSON PIKE",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 2",
-   "lat": 35.252851,
-   "lon": -85.119412,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9825922",
@@ -376,8 +376,8 @@
    "id": "9825919",
    "sequence": "2026-11-33181",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:20:16Z",
    "created": "2026-11-23T21:04:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9825918",
    "sequence": "2026-11-33184",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:16:03Z",
    "created": "2026-11-23T21:03:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,32 +602,6 @@
    "priority": "PRI 4",
    "lat": 35.012339,
    "lon": -85.189463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825886",
-   "sequence": "2026-11-33155",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-23T20:54:26Z",
-   "created": "2026-11-23T20:44:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "421 N HAWTHORNE ST",
-   "cross": "E 3RD ST/GARFIELD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.042518,
-   "lon": -85.273186,
    "units": 1,
    "stacked": false,
    "notable": false
