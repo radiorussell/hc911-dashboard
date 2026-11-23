@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T19:00:45+00:00",
+ "updated": "2026-11-23T19:05:40+00:00",
  "counts": {
-  "year": 371372,
-  "upstream_day": 569,
-  "day": 805,
+  "year": 371378,
+  "upstream_day": 575,
+  "day": 813,
   "day_basis": "midnight"
  },
- "raw_rows": 44,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9825677",
+   "sequence": "2026-11-33012",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:05:17Z",
+   "created": "2026-11-23T19:05:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5799 BRAINERD RD",
+   "cross": "DEBRA RD/GREENWAY VIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.013818,
+   "lon": -85.211747,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825674",
+   "sequence": "2026-11-33010",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:03:13Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11601 - 11899 DAYTON PIKE",
+   "cross": "DEPOT ST/OSAGE DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.29852,
+   "lon": -85.14794,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825672",
+   "sequence": "2026-11-33008",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:02:10Z",
+   "created": "2026-11-23T19:02:10Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "854 LOVELADY RD",
+   "cross": "BRICKHILL LN/LOVELL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.24966,
+   "lon": -85.158844,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825673",
+   "sequence": "2026-11-33009",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:02:10Z",
+   "created": "2026-11-23T19:02:10Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "854 LOVELADY RD",
+   "cross": "BRICKHILL LN/LOVELL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.24966,
+   "lon": -85.158844,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825670",
+   "sequence": "2026-11-33005",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:00:56Z",
+   "created": "2026-11-23T19:00:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 OLD MOUNTAIN RD",
+   "cross": "W 40TH ST/EVERETT ST",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.008812,
+   "lon": -85.330667,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825669",
    "sequence": "2026-11-33004",
@@ -35,27 +165,27 @@
    "notable": false
   },
   {
-   "id": "9825664",
-   "sequence": "2026-11-33001",
+   "id": "9825668",
+   "sequence": "2026-11-33007",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:58:58Z",
-   "created": "2026-11-23T18:58:58Z",
-   "jurisdiction": "Chattanooga PD",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:00:40Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "514 SEMI CIRCLE DR",
-   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.109222,
-   "lon": -85.28756,
+   "address": "854 LOVELADY RD",
+   "cross": "BRICKHILL LN/LOVELL RD",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.24966,
+   "lon": -85.158844,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,11 +217,37 @@
    "notable": false
   },
   {
+   "id": "9825664",
+   "sequence": "2026-11-33001",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:58:58Z",
+   "created": "2026-11-23T18:58:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "514 SEMI CIRCLE DR",
+   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.109222,
+   "lon": -85.28756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825663",
    "sequence": "2026-11-33003",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:00:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:58:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9825646",
-   "sequence": "2026-11-32984",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:43:48Z",
-   "created": "2026-11-23T18:43:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1005 BRYNEWOOD TER",
-   "cross": "BRYNWOOD TER/BRYNEWOOD PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.124152,
-   "lon": -85.270076,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825642",
    "sequence": "2026-11-32981",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T19:03:36Z",
    "created": "2026-11-23T18:43:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -371,32 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9825639",
-   "sequence": "2026-11-32979",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:58:50Z",
-   "created": "2026-11-23T18:42:26Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1012 WHISPERING OAK LN",
-   "cross": "OAK VIEW DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 34.996559,
-   "lon": -85.141308,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9825630",
@@ -425,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9825626",
-   "sequence": "2026-11-32971",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:40:00Z",
-   "created": "2026-11-23T18:40:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.036243,
-   "lon": -85.140298,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825627",
    "sequence": "2026-11-32972",
    "type": "EMS CALL",
@@ -470,6 +548,32 @@
    "city": "CHATTANOOGA",
    "zone": "2101",
    "priority": "PRI 1",
+   "lat": 35.036243,
+   "lon": -85.140298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825626",
+   "sequence": "2026-11-32971",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:40:00Z",
+   "created": "2026-11-23T18:40:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
    "lat": 35.036243,
    "lon": -85.140298,
    "units": 1,
@@ -558,8 +662,8 @@
    "id": "9825592",
    "sequence": "2026-11-32956",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:36:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T19:04:34Z",
    "created": "2026-11-23T18:28:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -610,8 +714,8 @@
    "id": "9825588",
    "sequence": "2026-11-32952",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T18:49:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:04:44Z",
    "created": "2026-11-23T18:26:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -803,13 +907,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4900 S TERRACE",
-   "cross": "S ST MARKS AVE/S HOWELL AVE",
-   "city": "EAST RIDGE",
+   "address": "4805 S TERRACE",
+   "cross": "S MOORE RD/EXIT 184 ON RAMP EB",
+   "city": "CHATTANOOGA",
    "zone": "C3 B",
    "priority": "PRI 3",
-   "lat": 35.005357,
-   "lon": -85.229613,
+   "lat": 35.006174,
+   "lon": -85.231834,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -836,32 +940,6 @@
    "priority": "PRI 4",
    "lat": 35.035115,
    "lon": -85.263841,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825524",
-   "sequence": "2026-11-32903",
-   "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": "2026-11-23T17:58:57Z",
-   "created": "2026-11-23T17:56:38Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5109 CHESTNUTT CREEK RD",
-   "cross": "RACE LN/No Cross Street",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 2",
-   "lat": 35.048696,
-   "lon": -85.035974,
    "units": 1,
    "stacked": false,
    "notable": false
