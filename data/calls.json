@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-23T16:50:39+00:00",
+ "updated": "2026-11-23T16:55:38+00:00",
  "counts": {
-  "year": 371215,
-  "upstream_day": 413,
-  "day": 595,
+  "year": 371221,
+  "upstream_day": 419,
+  "day": 604,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9825382",
+   "sequence": "2026-11-32803",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:54:52Z",
+   "created": "2026-11-23T16:54:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "312 MCBRIEN RD",
+   "cross": "LYNNLAND TER/N TERRACE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.005801,
+   "lon": -85.223461,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825381",
+   "sequence": "2026-11-32802",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:53:21Z",
+   "created": "2026-11-23T16:53:21Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3900 6TH AVE",
+   "cross": "E 39TH ST/E 40TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "902",
+   "priority": "PRI 2",
+   "lat": 34.99816,
+   "lon": -85.28717,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825378",
+   "sequence": "2026-11-32801",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:53:57Z",
+   "created": "2026-11-23T16:52:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3900 6TH AVE",
+   "cross": "E 39TH ST/E 40TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.99816,
+   "lon": -85.28717,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825376",
+   "sequence": "2026-11-32799",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T16:51:22Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1131 STRINGERS RIDGE RD",
+   "cross": "E FRONTAGE RD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "1701 C",
+   "priority": "PRI 1",
+   "lat": 35.075218,
+   "lon": -85.32007,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825370",
    "sequence": "2026-11-32794",
@@ -90,8 +194,8 @@
    "id": "9825367",
    "sequence": "2026-11-32790",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:55:18Z",
    "created": "2026-11-23T16:45:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9825329",
-   "sequence": "2026-11-32764",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T16:37:19Z",
-   "created": "2026-11-23T16:31:26Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "12 GRAYSWOOD HILL RD",
-   "cross": "BALFOUR CT/HIGHDOWN CT",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.115824,
-   "lon": -85.347553,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825327",
    "sequence": "2026-11-32762",
    "type": "EMS CALL",
@@ -342,32 +420,6 @@
    "priority": "PRI 4",
    "lat": 35.035757,
    "lon": -85.178004,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825306",
-   "sequence": "2026-11-32746",
-   "type": "Theft From a Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-23T16:41:14Z",
-   "created": "2026-11-23T16:21:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6513 LEE HWY",
-   "cross": "DUPRE RD/HERITAGE BUSINESS CT",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.036056,
-   "lon": -85.177602,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -428,8 +480,8 @@
    "id": "9825295",
    "sequence": "2026-11-32737",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T16:27:37Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T16:52:36Z",
    "created": "2026-11-23T16:16:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +558,8 @@
    "id": "9825280",
    "sequence": "2026-11-32729",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T16:42:11Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T16:55:27Z",
    "created": "2026-11-23T16:09:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
