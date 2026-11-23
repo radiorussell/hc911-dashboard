@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T12:05:38+00:00",
+ "updated": "2026-11-23T12:10:40+00:00",
  "counts": {
-  "year": 370933,
-  "upstream_day": 131,
-  "day": 183,
+  "year": 370937,
+  "upstream_day": 135,
+  "day": 184,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9824769",
    "sequence": "2026-11-32382",
    "type": "Harrassing Threats",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:04:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T12:04:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,53 +35,27 @@
    "notable": false
   },
   {
-   "id": "9824752",
-   "sequence": "2026-11-32372",
-   "type": "Traffic Control",
+   "id": "9824765",
+   "sequence": "2026-11-32383",
+   "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": "2026-11-23T11:49:22Z",
-   "created": "2026-11-23T11:49:22Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "status_at": null,
+   "created": "2026-11-23T12:02:19Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Soddy Daisy PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "200 TURNER RD",
-   "cross": "WALDEN ST/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.262808,
-   "lon": -85.171632,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824748",
-   "sequence": "2026-11-32368",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-23T11:45:46Z",
-   "created": "2026-11-23T11:45:46Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "618 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.234563,
-   "lon": -85.17947,
+   "address": "355 KELLYS FERRY PL",
+   "cross": "KELLYS FERRY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 1 D",
+   "priority": "PRI 2",
+   "lat": 35.029786,
+   "lon": -85.408225,
    "units": 1,
    "stacked": false,
    "notable": false
