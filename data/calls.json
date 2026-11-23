@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T22:45:37+00:00",
+ "updated": "2026-11-23T22:50:38+00:00",
  "counts": {
   "year": 371616,
   "upstream_day": 813,
-  "day": 1124,
+  "day": 1133,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9826125",
+   "sequence": "2026-11-33332",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:50:15Z",
+   "created": "2026-11-23T22:50:05Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "511 - 599 SPRING CREST DR",
+   "cross": "MEADOW CREST LN/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.20177,
+   "lon": -85.21517,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826123",
+   "sequence": "2026-11-33331",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:47:03Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 1",
+   "lat": 35.094418,
+   "lon": -85.330838,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826122",
+   "sequence": "2026-11-33330",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:47:03Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.094418,
+   "lon": -85.330838,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826113",
+   "sequence": "2026-11-33325",
+   "type": "Missing Juv Not 21",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:45:41Z",
+   "created": "2026-11-23T22:44:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1020 N MOORE RD",
+   "cross": "MIDLAND PIKE/BELLE VISTA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.027863,
+   "lon": -85.21911,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9826115",
    "sequence": "2026-11-33323",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:44:44Z",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:44:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -32,7 +136,7 @@
    "lon": -85.330838,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9826110",
@@ -108,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.065961,
    "lon": -85.12503,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826106",
-   "sequence": "2026-11-33316",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T22:40:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6000 - 6199 MOUNTAIN VIEW RD",
-   "cross": "SNOW HILL RD/AMOS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.087992,
-   "lon": -85.065018,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -581,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9825951",
-   "sequence": "2026-11-33211",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-23T21:57:55Z",
-   "created": "2026-11-23T21:23:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4510 HIGHWAY 58",
-   "cross": "INNWOOD LN/OAKHILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.083886,
-   "lon": -85.197621,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825918",
    "sequence": "2026-11-33184",
    "type": "EMS CALL",
@@ -714,8 +766,8 @@
    "id": "9825688",
    "sequence": "2026-11-33018",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-23T19:11:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:11:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -733,7 +785,7 @@
    "lat": 35.084696,
    "lon": -85.203333,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
