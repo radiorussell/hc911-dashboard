@@ -1,38 +1,90 @@
 {
- "updated": "2026-11-23T15:45:39+00:00",
+ "updated": "2026-11-23T15:50:41+00:00",
  "counts": {
   "year": 371148,
   "upstream_day": 346,
-  "day": 489,
+  "day": 500,
   "day_basis": "midnight"
  },
- "raw_rows": 43,
+ "raw_rows": 35,
  "incidents": [
   {
-   "id": "9825220",
-   "sequence": "2026-11-32688",
-   "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:43:47Z",
-   "created": "2026-11-23T15:43:47Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9825235",
+   "sequence": "2026-11-32699",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:48:36Z",
+   "jurisdiction": "Soddy Daisy PD",
    "agencies": [
-    "Chattanooga FD"
+    "Soddy Daisy PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "2602 OCOEE ST",
-   "cross": "DIAMOND ST/OLIVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "407",
-   "priority": "PRI 1",
-   "lat": 35.053075,
-   "lon": -85.253565,
+   "address": "9632 DAYTON PIKE",
+   "cross": "MOUNTAIN RD/CRAWLEY RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.243281,
+   "lon": -85.190686,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9825228",
+   "sequence": "2026-11-32698",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:46:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DERBY ST / IVY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.035392,
+   "lon": -85.2653,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825223",
+   "sequence": "2026-11-32695",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:44:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7019 HIGHWAY 153",
+   "cross": "BEA LN/ARDIS LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.185226,
+   "lon": -85.247015,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9825203",
@@ -87,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9825196",
-   "sequence": "2026-11-32686",
-   "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:43:47Z",
-   "created": "2026-11-23T15:38:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2602 OCOEE ST",
-   "cross": "DIAMOND ST/OLIVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.053075,
-   "lon": -85.253565,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825197",
    "sequence": "2026-11-32677",
    "type": "Property",
@@ -160,32 +186,6 @@
    "priority": "PRI 0",
    "lat": 35.04034,
    "lon": -85.152791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825190",
-   "sequence": "2026-11-32675",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:45:26Z",
-   "created": "2026-11-23T15:36:42Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7463 PINEWOOD DR",
-   "cross": "WENDELL WAY/WILL KELLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.046344,
-   "lon": -85.138384,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +246,8 @@
    "id": "9825177",
    "sequence": "2026-11-32667",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:49:17Z",
    "created": "2026-11-23T15:35:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.075043,
    "lon": -85.211571,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825173",
-   "sequence": "2026-11-32660",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:34:22Z",
-   "created": "2026-11-23T15:34:22Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3700 RINGGOLD RD",
-   "cross": "BALES AVE/KINGWOOD DR",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 3",
-   "lat": 35.000634,
-   "lon": -85.258325,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -313,6 +287,32 @@
    "cross": "BALES AVE/KINGWOOD DR",
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.000634,
+   "lon": -85.258325,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825173",
+   "sequence": "2026-11-32660",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:34:22Z",
+   "created": "2026-11-23T15:34:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3700 RINGGOLD RD",
+   "cross": "BALES AVE/KINGWOOD DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
    "priority": "PRI 3",
    "lat": 35.000634,
    "lon": -85.258325,
@@ -347,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9825158",
-   "sequence": "2026-11-32653",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:35:32Z",
-   "created": "2026-11-23T15:29:55Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3306 RINGGOLD RD",
-   "cross": "WYNNWOOD RD/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.007927,
-   "lon": -85.264199,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825155",
    "sequence": "2026-11-32649",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:46:18Z",
    "created": "2026-11-23T15:28:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -480,8 +454,8 @@
    "id": "9825143",
    "sequence": "2026-11-32645",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:47:32Z",
    "created": "2026-11-23T15:26:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -524,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.040959,
    "lon": -85.221504,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825123",
-   "sequence": "2026-11-32632",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:27:31Z",
-   "created": "2026-11-23T15:15:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1503 MIDDLE ST",
-   "cross": "ST ELMO AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1404",
-   "priority": "PRI 2",
-   "lat": 35.019979,
-   "lon": -85.323592,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -607,32 +555,6 @@
    "notable": false
   },
   {
-   "id": "9825091",
-   "sequence": "2026-11-32603",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-23T15:00:10Z",
-   "created": "2026-11-23T15:00:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6123 MOUNTAIN VIEW RD",
-   "cross": "SNOW HILL RD/AMOS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.093487,
-   "lon": -85.06273,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825090",
    "sequence": "2026-11-32602",
    "type": "MVC Delayed",
@@ -657,32 +579,6 @@
    "units": 1,
    "stacked": true,
    "notable": false
-  },
-  {
-   "id": "9825087",
-   "sequence": "2026-11-32600",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:07:18Z",
-   "created": "2026-11-23T14:56:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7630 AUSTIN DR",
-   "cross": "MIDDLE DR/BONNIE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.071904,
-   "lon": -85.170089,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9825084",
@@ -789,63 +685,11 @@
    "notable": false
   },
   {
-   "id": "9825029",
-   "sequence": "2026-11-32559",
-   "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-23T14:30:50Z",
-   "created": "2026-11-23T14:30:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8005 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/STILL HOLLOW LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.087197,
-   "lon": -85.134496,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9825026",
-   "sequence": "2026-11-32557",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-23T15:05:42Z",
-   "created": "2026-11-23T14:27:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3001 HAMILL RD",
-   "cross": "RIDGEVIEW RD/CREEKSIDE PRESERVE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 4",
-   "lat": 35.13146,
-   "lon": -85.214597,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825020",
    "sequence": "2026-11-32552",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:24:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:24:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -919,32 +763,6 @@
    "notable": false
   },
   {
-   "id": "9824991",
-   "sequence": "2026-11-32537",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:11:17Z",
-   "created": "2026-11-23T14:10:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "714 W 42ND ST",
-   "cross": "GRAND AVE/CAIN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.005085,
-   "lon": -85.319352,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824988",
    "sequence": "2026-11-32529",
    "type": "Assault EMS Needed",
@@ -994,32 +812,6 @@
    "lon": -85.234671,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9824965",
-   "sequence": "2026-11-32508",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:59:22Z",
-   "created": "2026-11-23T13:58:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "714 W 42ND ST",
-   "cross": "GRAND AVE/CAIN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.005085,
-   "lon": -85.319352,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
