@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T22:55:37+00:00",
+ "updated": "2026-11-23T23:00:41+00:00",
  "counts": {
   "year": 371629,
   "upstream_day": 826,
-  "day": 1136,
+  "day": 1140,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9826138",
+   "sequence": "2026-11-33339",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:56:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2011 WALKER AVE",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.044698,
+   "lon": -85.267722,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826135",
+   "sequence": "2026-11-33336",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:55:22Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8612 HIGHWAY 58",
+   "cross": "BRAMLETT RD/GOLDEN POND LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.168291,
+   "lon": -85.076996,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826133",
+   "sequence": "2026-11-33338",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:56:32Z",
+   "created": "2026-11-23T22:54:30Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1688 OOLTEWAH RINGGOLD RD",
+   "cross": "COBBLECREEK WAY/E BRAINERD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 34.998447,
+   "lon": -85.092873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826131",
    "sequence": "2026-11-33335",
@@ -116,8 +194,8 @@
    "id": "9826122",
    "sequence": "2026-11-33330",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:58:40Z",
    "created": "2026-11-23T22:47:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -189,32 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826110",
-   "sequence": "2026-11-33321",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:50:43Z",
-   "created": "2026-11-23T22:44:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT INTERSTATE 24 E OFF RAMP SB",
-   "cross": "EXIT BROAD ST OFF RAMP SB/INTERSTATE 24 EB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.032118,
-   "lon": -85.31845,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826114",
@@ -298,8 +350,8 @@
    "id": "9826098",
    "sequence": "2026-11-33314",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:57:19Z",
    "created": "2026-11-23T22:37:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -654,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.045305,
    "lon": -85.281043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825827",
-   "sequence": "2026-11-33116",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-23T20:39:06Z",
-   "created": "2026-11-23T20:05:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2020 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.030081,
-   "lon": -85.153146,
    "units": 1,
    "stacked": false,
    "notable": false
