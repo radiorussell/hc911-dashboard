@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T15:10:39+00:00",
+ "updated": "2026-11-23T15:15:38+00:00",
  "counts": {
-  "year": 371086,
-  "upstream_day": 284,
-  "day": 425,
+  "year": 371105,
+  "upstream_day": 303,
+  "day": 430,
   "day_basis": "midnight"
  },
  "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9825121",
+   "sequence": "2026-11-32628",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:13:10Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2602 OCOEE ST",
+   "cross": "DIAMOND ST/OLIVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.053075,
+   "lon": -85.253565,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825122",
+   "sequence": "2026-11-32629",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:13:10Z",
+   "created": "2026-11-23T15:13:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2602 OCOEE ST",
+   "cross": "DIAMOND ST/OLIVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "407",
+   "priority": "PRI 1",
+   "lat": 35.053075,
+   "lon": -85.253565,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825120",
+   "sequence": "2026-11-32627",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:12:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 4TH ST / GEORGIA AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 2",
+   "lat": 35.05225,
+   "lon": -85.304592,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825114",
    "sequence": "2026-11-32624",
@@ -38,8 +116,8 @@
    "id": "9825102",
    "sequence": "2026-11-32620",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:14:44Z",
    "created": "2026-11-23T15:03:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9825096",
-   "sequence": "2026-11-32607",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-23T15:01:07Z",
-   "created": "2026-11-23T15:01:07Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825094",
    "sequence": "2026-11-32605",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:11:07Z",
    "created": "2026-11-23T15:00:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.093487,
    "lon": -85.06273,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825092",
-   "sequence": "2026-11-32604",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:02:06Z",
-   "created": "2026-11-23T15:00:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5928 HIXSON PIKE",
-   "cross": "VALLEYBROOK CIR/CASSANDRA SMITH RD",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 1",
-   "lat": 35.147481,
-   "lon": -85.20734,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9825086",
-   "sequence": "2026-11-32599",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:56:26Z",
-   "created": "2026-11-23T14:56:26Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10632 CARD RD",
-   "cross": "MAPLE ST/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.267339,
-   "lon": -85.170496,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825084",
    "sequence": "2026-11-32596",
    "type": "Theft",
@@ -376,8 +376,8 @@
    "id": "9825080",
    "sequence": "2026-11-32597",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:03:21Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T15:14:32Z",
    "created": "2026-11-23T14:55:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -843,7 +843,7 @@
   {
    "id": "9824988",
    "sequence": "2026-11-32529",
-   "type": "Disorder",
+   "type": "Assault EMS Needed",
    "status": "On Scene",
    "status_at": "2026-11-23T14:26:33Z",
    "created": "2026-11-23T14:09:21Z",
@@ -859,12 +859,12 @@
    "cross": "DIAMOND ST/OLIVE ST",
    "city": "CHATTANOOGA",
    "zone": "B2",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.053075,
    "lon": -85.253565,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9824984",
