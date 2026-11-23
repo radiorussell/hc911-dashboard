@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T10:00:41+00:00",
+ "updated": "2026-11-23T10:05:39+00:00",
  "counts": {
   "year": 370884,
   "upstream_day": 82,
-  "day": 111,
+  "day": 112,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9824670",
+   "sequence": "2026-11-32311",
+   "type": "Burglary Attempt",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T10:02:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "606 DODSON AVE",
+   "cross": "BLACKFORD ST/RAMSEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.042087,
+   "lon": -85.265102,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824668",
    "sequence": "2026-11-32309",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T10:03:57Z",
    "created": "2026-11-23T09:55:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9824666",
    "sequence": "2026-11-32307",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T10:03:34Z",
    "created": "2026-11-23T09:47:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
