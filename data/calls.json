@@ -1,37 +1,13 @@
 {
- "updated": "2026-11-23T14:40:43+00:00",
+ "updated": "2026-11-23T14:45:39+00:00",
  "counts": {
-  "year": 371057,
-  "upstream_day": 255,
-  "day": 369,
+  "year": 371063,
+  "upstream_day": 261,
+  "day": 366,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 28,
  "incidents": [
-  {
-   "id": "9825049",
-   "sequence": "2026-11-32568",
-   "type": "Auto Boost",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:39:04Z",
-   "created": "2026-11-23T14:38:42Z",
-   "jurisdiction": "",
-   "agencies": [],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "910 E 8TH ST",
-   "cross": "PALMETTO ST/MAGNOLIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.042784,
-   "lon": -85.296246,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9825044",
    "sequence": "2026-11-32564",
@@ -111,11 +87,37 @@
    "notable": false
   },
   {
+   "id": "9825029",
+   "sequence": "2026-11-32559",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:30:50Z",
+   "created": "2026-11-23T14:30:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "404 TUNNEL BLVD",
+   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.033851,
+   "lon": -85.243151,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825026",
    "sequence": "2026-11-32557",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:28:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:27:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -322,8 +324,8 @@
    "id": "9824999",
    "sequence": "2026-11-32534",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:25:47Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T14:44:01Z",
    "created": "2026-11-23T14:11:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -345,35 +347,9 @@
    "notable": false
   },
   {
-   "id": "9825000",
-   "sequence": "2026-11-32535",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:20:51Z",
-   "created": "2026-11-23T14:11:04Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2015 OOLTEWAH RINGGOLD RD",
-   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3-CATOOSA B",
-   "priority": "PRI 1",
-   "lat": 35.005729,
-   "lon": -85.096785,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824995",
    "sequence": "2026-11-32532",
-   "type": "EMS CALL",
+   "type": "Backup EMS Unit",
    "status": "Enroute",
    "status_at": "2026-11-23T14:10:51Z",
    "created": "2026-11-23T14:10:51Z",
@@ -389,7 +365,7 @@
    "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 1",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.005729,
    "lon": -85.096785,
    "units": 1,
@@ -607,9 +583,9 @@
   {
    "id": "9824954",
    "sequence": "2026-11-32498",
-   "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:53:47Z",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": "2026-11-23T14:41:59Z",
    "created": "2026-11-23T13:53:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -678,32 +654,6 @@
    "priority": "PRI 4",
    "lat": 35.11298,
    "lon": -85.268381,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824874",
-   "sequence": "2026-11-32452",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T13:09:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1806 DOGWOOD DR",
-   "cross": "BENNINGTON DR/MARK TWAIN CIR",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.04976,
-   "lon": -85.228987,
    "units": 1,
    "stacked": false,
    "notable": false
