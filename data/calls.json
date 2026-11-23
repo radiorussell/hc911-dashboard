@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T14:50:37+00:00",
+ "updated": "2026-11-23T14:55:38+00:00",
  "counts": {
-  "year": 371063,
-  "upstream_day": 261,
-  "day": 366,
+  "year": 371071,
+  "upstream_day": 269,
+  "day": 390,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9825074",
+   "sequence": "2026-11-32589",
+   "type": "Brush Fire",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:52:23Z",
+   "created": "2026-11-23T14:52:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3937 KELLYS FERRY RD",
+   "cross": "DOWER RD/FRANCIS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.025141,
+   "lon": -85.384984,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825070",
+   "sequence": "2026-11-32588",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:51:40Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3937 KELLYS FERRY RD",
+   "cross": "DOWER RD/FRANCIS ST",
+   "city": "CHATTANOOGA",
+   "zone": "301",
+   "priority": "PRI 2",
+   "lat": 35.025141,
+   "lon": -85.384984,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825060",
+   "sequence": "2026-11-32582",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:47:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6783 SAWTOOTH DR",
+   "cross": "BAKER BOY DR/RILEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 4",
+   "lat": 35.111775,
+   "lon": -85.098357,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825044",
    "sequence": "2026-11-32564",
@@ -61,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9825037",
-   "sequence": "2026-11-32560",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T14:32:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2114 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.032972,
-   "lon": -85.153183,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825029",
    "sequence": "2026-11-32559",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:30:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:30:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -299,7 +351,7 @@
    "sequence": "2026-11-32542",
    "type": "MVC Injuries",
    "status": "Transporting",
-   "status_at": "2026-11-23T14:47:13Z",
+   "status_at": "2026-11-23T14:51:50Z",
    "created": "2026-11-23T14:13:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -576,32 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.077075,
    "lon": -85.130623,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824949",
-   "sequence": "2026-11-32497",
-   "type": "Shoplifter",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:57:17Z",
-   "created": "2026-11-23T13:50:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "490 GREENWAY VIEW DR",
-   "cross": "SKURLOCK RD/CORNELISON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.008709,
-   "lon": -85.205213,
    "units": 1,
    "stacked": false,
    "notable": false
