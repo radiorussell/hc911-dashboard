@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T00:15:38+00:00",
+ "updated": "2026-11-23T00:20:39+00:00",
  "counts": {
-  "year": 370563,
+  "year": 370572,
   "upstream_day": 0,
-  "day": 897,
+  "day": 901,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9824155",
+   "sequence": "2026-11-31919",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:18:37Z",
+   "created": "2026-11-23T00:18:23Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "632 MORRISON SPRINGS RD",
+   "cross": "TOM WEATHERS DR/PRICELESS VW",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.123407,
+   "lon": -85.302088,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824156",
+   "sequence": "2026-11-31918",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:18:19Z",
+   "created": "2026-11-23T00:18:19Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "160 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 2",
+   "lat": 34.99533,
+   "lon": -85.318445,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824154",
+   "sequence": "2026-11-31917",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:17:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "160 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 34.99533,
+   "lon": -85.318445,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824153",
+   "sequence": "2026-11-31916",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:16:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "22 STARVIEW LN",
+   "cross": "CUMMINGS HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 1",
+   "lat": 35.02038,
+   "lon": -85.378301,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9824152",
    "sequence": "2026-11-31915",
    "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:15:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:14:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9824142",
    "sequence": "2026-11-31908",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:17:03Z",
    "created": "2026-11-23T00:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9824116",
-   "sequence": "2026-11-31887",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:48:53Z",
-   "created": "2026-11-22T23:48:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.051994,
-   "lon": -85.152296,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824115",
    "sequence": "2026-11-31885",
    "type": "Auto Broken Down",
@@ -298,8 +376,8 @@
    "id": "9824113",
    "sequence": "2026-11-31886",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T23:57:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T00:19:15Z",
    "created": "2026-11-22T23:48:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +454,8 @@
    "id": "9824107",
    "sequence": "2026-11-31880",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:18:57Z",
    "created": "2026-11-22T23:36:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
