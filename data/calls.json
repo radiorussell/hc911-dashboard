@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-23T13:15:38+00:00",
+ "updated": "2026-11-23T13:20:38+00:00",
  "counts": {
   "year": 370974,
   "upstream_day": 172,
-  "day": 258,
+  "day": 264,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9824889",
+   "sequence": "2026-11-32462",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:17:02Z",
+   "created": "2026-11-23T13:17:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1618 COLONIAL SHORES DR",
+   "cross": "FAIRVIEW RD/COLONIAL WAY CIR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.133131,
+   "lon": -85.202434,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824890",
+   "sequence": "2026-11-32463",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:17:02Z",
+   "created": "2026-11-23T13:17:02Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1618 COLONIAL SHORES DR",
+   "cross": "FAIRVIEW RD/COLONIAL WAY CIR",
+   "city": "CHATTANOOGA",
+   "zone": "1101",
+   "priority": "PRI 2",
+   "lat": 35.133131,
+   "lon": -85.202434,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824887",
+   "sequence": "2026-11-32460",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-23T13:16:08Z",
+   "created": "2026-11-23T13:16:08Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1301 JAMES BLVD",
+   "cross": "LANCASTER DR/DANBURY COVE PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
+   "priority": "PRI 4",
+   "lat": 35.143773,
+   "lon": -85.332206,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824885",
+   "sequence": "2026-11-32461",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:16:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1618 COLONIAL SHORES DR",
+   "cross": "FAIRVIEW RD/COLONIAL WAY CIR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.133131,
+   "lon": -85.202434,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824883",
    "sequence": "2026-11-32457",
@@ -30,6 +134,32 @@
    "priority": "PRI 2",
    "lat": 35.175133,
    "lon": -85.328779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824882",
+   "sequence": "2026-11-32458",
+   "type": "AFA School",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:16:01Z",
+   "created": "2026-11-23T13:15:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1100 MOUNTAIN CREEK RD",
+   "cross": "N RUNYAN DR/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 1",
+   "lat": 35.110778,
+   "lon": -85.321604,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +220,8 @@
    "id": "9824875",
    "sequence": "2026-11-32453",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:18:44Z",
    "created": "2026-11-23T13:13:27Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +298,8 @@
    "id": "9824870",
    "sequence": "2026-11-32450",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:19:56Z",
    "created": "2026-11-23T13:07:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +376,8 @@
    "id": "9824866",
    "sequence": "2026-11-32447",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:20:04Z",
    "created": "2026-11-23T13:06:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,84 +451,6 @@
    "notable": false
   },
   {
-   "id": "9824854",
-   "sequence": "2026-11-32437",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T12:57:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2565 LIFESTYLE WAY",
-   "cross": "ELAM LN/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.045261,
-   "lon": -85.151353,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824849",
-   "sequence": "2026-11-32433",
-   "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T12:53:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8015 VOLKSWAGEN DR",
-   "cross": "FERDINAND PIECH WAY/EXIT 9 E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.076413,
-   "lon": -85.127306,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9824848",
-   "sequence": "2026-11-32432",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T12:57:25Z",
-   "created": "2026-11-23T12:52:14Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT SIGNAL MOUNTAIN RD ON RAMP SB",
-   "cross": "SIGNAL MOUNTAIN RD/HIGHWAY 27 SB",
-   "city": "CHATTANOOGA",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.085017,
-   "lon": -85.324789,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824843",
    "sequence": "2026-11-32429",
    "type": "EMS CALL",
@@ -428,8 +480,8 @@
    "id": "9824841",
    "sequence": "2026-11-32428",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T12:58:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T13:16:38Z",
    "created": "2026-11-23T12:46:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +506,8 @@
    "id": "9824827",
    "sequence": "2026-11-32417",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T13:11:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T13:17:46Z",
    "created": "2026-11-23T12:40:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
