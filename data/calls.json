@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-23T05:30:37+00:00",
+ "updated": "2026-11-23T05:35:38+00:00",
  "counts": {
   "year": 370816,
   "upstream_day": 14,
-  "day": 25,
+  "day": 27,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9824560",
-   "sequence": "2026-11-32224",
-   "type": "Backup EMS Unit",
+   "id": "9824562",
+   "sequence": "2026-11-32226",
+   "type": "Miscellaneous Complaint",
    "status": "Queued",
-   "status_at": "2026-11-23T05:30:29Z",
-   "created": "2026-11-23T05:30:29Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-23T05:33:43Z",
+   "created": "2026-11-23T05:33:43Z",
+   "jurisdiction": "Red Bank PD",
    "agencies": [
-    "Chattanooga PD"
+    "Red Bank PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1400 CHESTNUT ST",
-   "cross": "W 14TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.039254,
-   "lon": -85.311997,
+   "address": "3117 DAYTON BLVD",
+   "cross": "LANCASTER AVE/W NEWBERRY ST",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.105913,
+   "lon": -85.298216,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9824555",
    "sequence": "2026-11-32219",
    "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:33:48Z",
    "created": "2026-11-23T05:28:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9824552",
    "sequence": "2026-11-32217",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:35:30Z",
    "created": "2026-11-23T05:24:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9824543",
    "sequence": "2026-11-32208",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:34:47Z",
    "created": "2026-11-23T05:13:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.125336,
    "lon": -85.314819,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824542",
-   "sequence": "2026-11-32206",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:16:38Z",
-   "created": "2026-11-23T05:11:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1444 MARKET ST",
-   "cross": "W 14TH ST/STATION ST",
-   "city": "CHATTANOOGA",
-   "zone": "201 A",
-   "priority": "PRI 2",
-   "lat": 35.03685,
-   "lon": -85.306814,
    "units": 1,
    "stacked": false,
    "notable": false
