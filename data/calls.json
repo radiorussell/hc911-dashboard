@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-23T16:25:38+00:00",
+ "updated": "2026-11-23T16:30:39+00:00",
  "counts": {
   "year": 371189,
   "upstream_day": 387,
-  "day": 549,
+  "day": 559,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9825322",
+   "sequence": "2026-11-32758",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:28:29Z",
+   "created": "2026-11-23T16:28:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "12 W 13TH ST",
+   "cross": "KING ST/COWART ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 1",
+   "lat": 35.039257,
+   "lon": -85.308552,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825320",
+   "sequence": "2026-11-32757",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:28:29Z",
+   "created": "2026-11-23T16:27:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "12 W 13TH ST",
+   "cross": "KING ST/COWART ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.039257,
+   "lon": -85.308552,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825318",
+   "sequence": "2026-11-32756",
+   "type": "Theft From a Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T16:26:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6509 LEE HWY",
+   "cross": "DUPRE RD/HERITAGE BUSINESS CT",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.035757,
+   "lon": -85.178004,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825311",
+   "sequence": "2026-11-32753",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:26:01Z",
+   "created": "2026-11-23T16:25:02Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "107 GOODSON AVE",
+   "cross": "HEDGEWOOD DR/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.089579,
+   "lon": -85.316695,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825308",
    "sequence": "2026-11-32748",
@@ -168,8 +272,8 @@
    "id": "9825295",
    "sequence": "2026-11-32737",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:27:37Z",
    "created": "2026-11-23T16:16:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -584,8 +688,8 @@
    "id": "9825187",
    "sequence": "2026-11-32669",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:35:51Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T16:26:20Z",
    "created": "2026-11-23T15:35:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -602,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.080045,
    "lon": -85.132664,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825177",
-   "sequence": "2026-11-32667",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T16:07:05Z",
-   "created": "2026-11-23T15:35:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3925 ALLGOOD CT",
-   "cross": "No Cross Street/KAYLA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.075043,
-   "lon": -85.211571,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -714,8 +792,8 @@
    "id": "9825150",
    "sequence": "2026-11-32646",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T16:10:43Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T16:27:26Z",
    "created": "2026-11-23T15:26:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
