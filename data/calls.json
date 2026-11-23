@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T07:35:37+00:00",
+ "updated": "2026-11-23T07:40:42+00:00",
  "counts": {
-  "year": 370853,
-  "upstream_day": 51,
-  "day": 72,
+  "year": 370854,
+  "upstream_day": 52,
+  "day": 73,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9824621",
+   "sequence": "2026-11-32272",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T07:40:00Z",
+   "created": "2026-11-23T07:39:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "225 DELAWANNA TER",
+   "cross": "DAGNAN LN/PINEVILLE RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.08393,
+   "lon": -85.326153,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824620",
    "sequence": "2026-11-32271",
@@ -30,58 +56,6 @@
    "priority": "PRI 2",
    "lat": 35.048719,
    "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824619",
-   "sequence": "2026-11-32270",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T07:31:23Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIXSON PIKE / DAYTON PIKE",
-   "cross": "",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 1",
-   "lat": 35.283754,
-   "lon": -85.155253,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824616",
-   "sequence": "2026-11-32267",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T07:24:41Z",
-   "created": "2026-11-23T07:16:18Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 35.00952,
-   "lon": -85.265423,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +142,8 @@
    "id": "9824609",
    "sequence": "2026-11-32260",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T07:32:09Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T07:37:56Z",
    "created": "2026-11-23T07:07:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.039254,
    "lon": -85.311997,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824185",
-   "sequence": "2026-11-31942",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:39:09Z",
-   "created": "2026-11-23T00:38:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S GERMANTOWN RD / S TERRACE",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.013819,
-   "lon": -85.252073,
    "units": 1,
    "stacked": false,
    "notable": false
