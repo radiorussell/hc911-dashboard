@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-23T10:10:44+00:00",
+ "updated": "2026-11-23T10:15:37+00:00",
  "counts": {
   "year": 370887,
   "upstream_day": 85,
-  "day": 114,
+  "day": 112,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 8,
  "incidents": [
-  {
-   "id": "9824672",
-   "sequence": "2026-11-32313",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T10:08:09Z",
-   "created": "2026-11-23T10:07:57Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6204 DEEP CANYON RD",
-   "cross": "CANYON CRST/CANYON SPRINGS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 A",
-   "priority": "PRI 3",
-   "lat": 35.185914,
-   "lon": -85.260852,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9824670",
    "sequence": "2026-11-32311",
@@ -116,8 +90,8 @@
    "id": "9824667",
    "sequence": "2026-11-32308",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T10:15:08Z",
    "created": "2026-11-23T09:55:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +142,8 @@
    "id": "9824661",
    "sequence": "2026-11-32305",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T09:58:11Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T10:14:33Z",
    "created": "2026-11-23T09:32:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
