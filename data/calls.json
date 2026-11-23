@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T08:15:39+00:00",
+ "updated": "2026-11-23T08:20:37+00:00",
  "counts": {
-  "year": 370859,
-  "upstream_day": 57,
-  "day": 83,
+  "year": 370864,
+  "upstream_day": 62,
+  "day": 85,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 6,
  "incidents": [
+  {
+   "id": "9824633",
+   "sequence": "2026-11-32284",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T08:16:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1040 INTERSTATE 75 SB",
+   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.080299,
+   "lon": -85.088329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824631",
    "sequence": "2026-11-32282",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9824628",
-   "sequence": "2026-11-32279",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-23T08:10:53Z",
-   "created": "2026-11-23T08:06:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1905 HUFF PL",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.022904,
-   "lon": -85.286244,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824620",
    "sequence": "2026-11-32271",
    "type": "Backup Other Agency",
@@ -108,32 +108,6 @@
    "priority": "PRI 2",
    "lat": 35.048719,
    "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824614",
-   "sequence": "2026-11-32265",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T07:51:25Z",
-   "created": "2026-11-23T07:15:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 35.00952,
-   "lon": -85.265423,
    "units": 1,
    "stacked": false,
    "notable": false
