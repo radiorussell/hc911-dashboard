@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T13:50:39+00:00",
+ "updated": "2026-11-23T13:55:39+00:00",
  "counts": {
-  "year": 371001,
-  "upstream_day": 199,
-  "day": 294,
+  "year": 371007,
+  "upstream_day": 205,
+  "day": 301,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9824957",
+   "sequence": "2026-11-32500",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:54:29Z",
+   "created": "2026-11-23T13:54:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "500 N HIGHLAND PARK AVE",
+   "cross": "E 3RD ST/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.044333,
+   "lon": -85.276338,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824954",
+   "sequence": "2026-11-32498",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:53:47Z",
+   "created": "2026-11-23T13:53:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7469 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.077075,
+   "lon": -85.130623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824949",
+   "sequence": "2026-11-32497",
+   "type": "Shoplifter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:50:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824939",
    "sequence": "2026-11-32493",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:48:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T13:47:13Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -212,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.136371,
    "lon": -85.242536,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824890",
-   "sequence": "2026-11-32463",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:17:02Z",
-   "created": "2026-11-23T13:17:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1618 COLONIAL SHORES DR",
-   "cross": "FAIRVIEW RD/COLONIAL WAY CIR",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 2",
-   "lat": 35.133131,
-   "lon": -85.202434,
    "units": 1,
    "stacked": false,
    "notable": false
