@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T06:25:38+00:00",
+ "updated": "2026-11-23T06:30:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
   "day": 54,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 15,
  "incidents": [
   {
    "id": "9824596",
    "sequence": "2026-11-32252",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T06:27:11Z",
    "created": "2026-11-23T06:24:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9824597",
    "sequence": "2026-11-32253",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T06:29:50Z",
    "created": "2026-11-23T06:24:08Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -61,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9824595",
-   "sequence": "2026-11-32251",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T06:23:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "600 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.11718,
-   "lon": -85.279285,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824582",
    "sequence": "2026-11-32247",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T06:14:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T06:14:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9824577",
-   "sequence": "2026-11-32240",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-23T06:02:37Z",
-   "created": "2026-11-23T05:58:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7011 POPULUS LOOP",
-   "cross": "MIN TOM DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.047215,
-   "lon": -85.147209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824574",
    "sequence": "2026-11-32238",
    "type": "Harassment",
@@ -238,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.151829,
    "lon": -85.25042,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824568",
-   "sequence": "2026-11-32234",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:59:53Z",
-   "created": "2026-11-23T05:47:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18230 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.021263,
-   "lon": -85.262848,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -394,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.12735,
    "lon": -85.28209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824484",
-   "sequence": "2026-11-32157",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T05:11:50Z",
-   "created": "2026-11-23T04:04:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3612 WILCOX BLVD",
-   "cross": "AGNES AVE/DOGWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.04586,
-   "lon": -85.233636,
    "units": 1,
    "stacked": false,
    "notable": false
