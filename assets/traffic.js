@@ -293,21 +293,54 @@ function renderWatch() {
   }
 }
 
+// Two grids, Tennessee above Georgia. Cameras nearest a live call float to the top of
+// whichever box they belong to.
+const CAM_PANELS = [
+  { grid: '#cam-grid-tn', count: '#cam-count-tn', match: (c) => c.src !== 'GDOT' },
+  { grid: '#cam-grid-ga', count: '#cam-count-ga', match: (c) => c.src === 'GDOT' },
+];
+
 function renderCams() {
   const byId = new Map(state.data.cameras.map((c) => [c.id, c]));
   const priority = state.watchOrder.map((id) => byId.get(id)).filter(Boolean);
-  const rest = state.data.cameras.filter((c) => !state.watchOrder.includes(c.id));
-  const cams = [...priority, ...rest];
-  $('#cam-count').textContent = `${cams.length} in range · ${priority.length} near calls`;
-  $('#cam-grid').innerHTML = cams
-    .map((c, i) => `<button class="cam ${state.watchOrder.includes(c.id) ? 'hot' : ''}" data-i="${i}">
-        <img loading="lazy" src="${stamp(c.thumb)}" alt="${esc(c.title)} live snapshot">
-        ${c.hls ? '<i class="cam-live" title="live video available"></i>' : ''}
-        <span>${esc(c.title)}<small>${esc(c.route || '')} · MM ${esc(c.mm || '')}${state.watchOrder.includes(c.id) ? ' · near call' : ''}</small></span>
-      </button>`)
-    .join('');
-  for (const el of document.querySelectorAll('#cam-grid .cam')) {
-    el.addEventListener('click', () => openLightbox(cams[Number(el.dataset.i)]));
+  const ordered = [...priority, ...state.data.cameras.filter((c) => !state.watchOrder.includes(c.id))];
+
+  for (const panel of CAM_PANELS) {
+    const cams = ordered.filter(panel.match);
+    const near = cams.filter((c) => state.watchOrder.includes(c.id)).length;
+    $(panel.count).textContent = `${cams.length} in range · ${near} near calls`;
+    $(panel.grid).innerHTML = cams
+      .map((c, i) => `<button class="cam ${state.watchOrder.includes(c.id) ? 'hot' : ''}" data-i="${i}">
+          <img loading="lazy" src="${stamp(c.thumb)}" alt="${esc(c.title)} live snapshot">
+          ${c.hls ? '<i class="cam-live" title="live video available"></i>' : ''}
+          <span>${esc(c.title)}<small>${esc(c.route || '')}${c.mm ? ' · MM ' + esc(c.mm) : ''}${state.watchOrder.includes(c.id) ? ' · near call' : ''}</small></span>
+        </button>`)
+      .join('');
+    for (const el of document.querySelectorAll(`${panel.grid} .cam`)) {
+      el.addEventListener('click', () => openLightbox(cams[Number(el.dataset.i)]));
+    }
+  }
+}
+
+/* Collapsible camera boxes — state kept in localStorage so a reload remembers it. */
+function setupCollapse() {
+  for (const btn of document.querySelectorAll('.chip.collapse')) {
+    const panel = document.getElementById(btn.dataset.panel);
+    if (!panel) continue;
+    const apply = (collapsed) => {
+      panel.classList.toggle('collapsed', collapsed);
+      btn.textContent = collapsed ? 'show' : 'hide';
+      btn.setAttribute('aria-expanded', String(!collapsed));
+      try {
+        localStorage.setItem(btn.dataset.key, collapsed ? '1' : '0');
+      } catch (e) { /* private mode */ }
+    };
+    let saved = null;
+    try {
+      saved = localStorage.getItem(btn.dataset.key);
+    } catch (e) { /* private mode */ }
+    apply(saved === '1');
+    btn.addEventListener('click', () => apply(!panel.classList.contains('collapsed')));
   }
 }
 
@@ -524,6 +557,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
 
+setupCollapse();
 load();
 setInterval(load, REFRESH_MS);
 setInterval(() => {

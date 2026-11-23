@@ -11,6 +11,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import concurrent.futures as futures
 import html
 import json
 import math
@@ -407,6 +408,23 @@ TDOT_WAZE_URL = (
     "?where=1%3D1&geometry={bbox}&geometryType=esriGeometryEnvelope&inSR=4326"
     "&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&outSR=4326&f=geojson"
 )
+# GDOT publishes its whole CCTV inventory as a public ArcGIS layer (no key, CORS-open).
+# Georgia counties are the ones the weather board already counts as the Chattanooga DMA.
+GDOT_CAMERAS_URL = (
+    "https://enterprisegis.dot.ga.gov/hosting/rest/services/web_trafficcameras/MapServer/0/query"
+    "?where=COUNTY_NAME+IN+({counties})&outFields=OBJECTID,DEVICE_NAME,ACTIVE,PRIMARY_ROAD,"
+    "CROSS_ROAD_NAME,DIRECTION,COUNTY_NAME,URL,LATITUDE,LONGITUDE"
+    "&returnGeometry=true&outSR=4326&f=geojson"
+)
+GDOT_DMA_COUNTIES = ["Catoosa", "Walker", "Dade", "Whitfield", "Murray", "Chattooga", "Gordon"]
+
+# Both vendors serve the same grey "STREAM NOT AVAILABLE" PNG when an encoder is down.
+# It is byte-identical between them (md5 a2f0687d…), which makes a HEAD + Content-Length
+# check enough to hide dead nodes. A full sweep is ~250 requests, so the result is cached
+# in data/camera-health.json and refreshed a few times a day, not on every 5-minute run.
+CAMERA_PLACEHOLDER_BYTES = 21107
+CAMERA_HEALTH_HOURS = 6
+
 TDOT_CENTER = (35.0456, -85.3097)          # downtown Chattanooga
 TDOT_RADIUS_MI = 35                        # keeps I-24/I-75 approaches in frame
 TDOT_BBOX = (-85.70, 34.78, -84.72, 35.42)  # W, S, E, N for signs + Waze
@@ -484,7 +502,83 @@ def _tdot_event(ev: dict) -> dict:
     }
 
 
-def fetch_traffic() -> dict:
+def fetch_gdot_cameras() -> list[dict]:
+    """GDOT CCTV nodes for the Georgia side of the DMA — snapshots only; the live
+    HLS streams sit behind 511GA's developer key."""
+    where = ",".join(f"'{c}'" for c in GDOT_DMA_COUNTIES)
+    payload = tdot_get(GDOT_CAMERAS_URL.format(counties=where)) or {}
+    cams = []
+    for feat in payload.get("features", []):
+        prop = feat.get("properties") or {}
+        coords = (feat.get("geometry") or {}).get("coordinates") or [None, None]
+        lat = prop.get("LATITUDE") or coords[1]
+        lng = prop.get("LONGITUDE") or coords[0]
+        if lat is None or lng is None:
+            continue
+        name = (prop.get("DEVICE_NAME") or "").strip()
+        road = (prop.get("PRIMARY_ROAD") or "").strip()
+        cross = (prop.get("CROSS_ROAD_NAME") or "").strip()
+        title = name or (f"{road} @ {cross}" if cross else f"{road} ({prop.get('COUNTY_NAME')})")
+        cams.append({
+            "id": f"ga-{prop.get('OBJECTID')}",
+            "title": title or "GDOT camera",
+            "route": road or None,
+            "mm": None,
+            "jur": prop.get("COUNTY_NAME"),
+            "lat": lat,
+            "lng": lng,
+            "active": bool(prop.get("ACTIVE")),
+            "thumb": prop.get("URL"),
+            "hls": None,
+            "src": "GDOT",
+        })
+    return [c for c in cams if c["thumb"]]
+
+
+def camera_health(cameras: list[dict], out_dir: str) -> set[str]:
+    """Ids of cameras whose snapshot is the shared placeholder image.
+
+    Cached in data/camera-health.json: the sweep is ~250 HEAD requests, far too much to
+    repeat every five minutes, but a camera that dies mid-window simply shows the
+    placeholder until the next sweep, which the UI already tolerates.
+    """
+    path = os.path.join(out_dir, "camera-health.json")
+    state = {}
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                state = json.load(f)
+        except Exception:
+            state = {}
+    try:
+        checked = datetime.fromisoformat(str(state.get("updated")).replace("Z", "+00:00"))
+    except ValueError:
+        checked = None
+    fresh = checked and (datetime.now(timezone.utc) - checked) < timedelta(hours=CAMERA_HEALTH_HOURS)
+    if fresh:
+        return set(state.get("dead") or [])
+
+    def size(cam):
+        try:
+            req = urllib.request.Request(cam["thumb"], method="HEAD",
+                                         headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return int(r.headers.get("Content-Length") or 0)
+        except Exception:
+            return None
+
+    with futures.ThreadPoolExecutor(max_workers=8) as pool:
+        sizes = list(pool.map(size, cameras))
+
+    dead = sorted(c["id"] for c, n in zip(cameras, sizes) if n == CAMERA_PLACEHOLDER_BYTES)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+                   "checked": len(cameras), "dead": dead}, f, indent=1)
+    print(f"camera health: {len(dead)} of {len(cameras)} serving the placeholder", file=sys.stderr)
+    return set(dead)
+
+
+def fetch_traffic(out_dir: str = "data") -> dict:
     """Hamilton County traffic snapshot: events, cameras, message signs, Waze jams."""
     config = tdot_get(TDOT_CONFIG_URL) or {}
     key = config.get("apiKey")
@@ -523,8 +617,22 @@ def fetch_traffic() -> dict:
             "active": str(cam.get("active")).lower() == "true",
             "thumb": cam.get("thumbnailUrl"),
             "hls": cam.get("httpsVideoUrl") or cam.get("httpVideoUrl"),
+            "src": "TDOT",
         })
     cameras.sort(key=lambda c: (c["route"] or "", float(c["mm"] or 0)))
+
+    try:
+        gdot = fetch_gdot_cameras()
+        print(f"  gdot cameras in DMA counties: {len(gdot)}", file=sys.stderr)
+        cameras.extend(gdot)
+    except Exception as e:
+        print(f"warn: gdot cameras unavailable ({e})", file=sys.stderr)
+
+    hidden = camera_health(cameras, out_dir)
+    if hidden:
+        before = len(cameras)
+        cameras = [c for c in cameras if c["id"] not in hidden]
+        print(f"  hid {before - len(cameras)} dead cameras", file=sys.stderr)
 
     signs = []
     for sign in tdot_get(TDOT_API_BASE + "RoadwayMessageSigns", headers) or []:
@@ -566,6 +674,8 @@ def fetch_traffic() -> dict:
             "events": len(traffic_events),
             "closures": sum(1 for e in traffic_events if e["closure"]),
             "cameras": len(cameras),
+            "cameras_tdot": sum(1 for c in cameras if c["src"] == "TDOT"),
+            "cameras_gdot": sum(1 for c in cameras if c["src"] == "GDOT"),
             "signs": len(signs),
             "waze": len(waze),
         },
@@ -593,7 +703,7 @@ def main() -> int:
     # the incidents or the news, so the write is skipped and the last good
     # traffic.json keeps serving.
     try:
-        traffic = fetch_traffic()
+        traffic = fetch_traffic(args.out)
         traffic["updated"] = now
         with open(os.path.join(args.out, "traffic.json"), "w", encoding="utf-8") as f:
             json.dump(traffic, f, ensure_ascii=False, separators=(",", ":"))

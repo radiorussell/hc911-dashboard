@@ -20,8 +20,14 @@ body.traffic-page .panel { max-height: none; }
   #panel-waze { grid-column: 1 / 3; grid-row: 2; }
   #panel-watch { grid-column: 1 / 3; grid-row: 3; }
   #panel-signs { grid-column: 3; grid-row: 3; }
-  #panel-cams { grid-column: 1 / -1; grid-row: 4; }
+  #panel-cams-tn { grid-column: 1 / -1; grid-row: 4; }
+  #panel-cams-ga { grid-column: 1 / -1; grid-row: 5; }
 }
+
+/* collapsible camera boxes: header stays, body and footer fold away */
+.panel.collapsed .cam-grid,
+.panel.collapsed .panel-foot { display: none; }
+.chip.collapse { font-size: 10px; padding: 2px 8px; }
 
 #traffic-map {
   height: 440px;

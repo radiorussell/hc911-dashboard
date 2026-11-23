@@ -112,6 +112,21 @@ under `assets/` and `data/` is copied wholesale and needs no change.
 - **Traffic failures never fail the run.** `fetch_traffic()` is wrapped so a TDOT outage leaves
   the previous `traffic.json` serving instead of killing the incident refresh.
 
+### GDOT (Georgia cameras)
+
+- Source: `enterprisegis.dot.ga.gov/hosting/rest/services/web_trafficcameras/MapServer/0` — a
+  public ArcGIS layer of ~4,100 CCTV points, no key, CORS-open. `fetch_gdot_cameras()` keeps the
+  ones in the seven Georgia DMA counties the weather board already uses and merges them into the
+  same camera schema with `src: 'GDOT'`, `hls: null`.
+- **Georgia has no public live video.** 511GA's API needs a developer key; the ArcGIS layer is
+  snapshots only, so GA nodes open as stills.
+- **Dead-camera filter:** both states serve the same 21,107-byte placeholder PNG when an encoder is
+  down, so one `HEAD` + Content-Length check catches both. The sweep is ~250 requests, so it is
+  cached in `data/camera-health.json` and refreshed every `CAMERA_HEALTH_HOURS` (6) rather than
+  every cycle — a camera that dies between sweeps shows the placeholder until the next one.
+- The traffic page renders two camera boxes (Tennessee above Georgia); each collapses via its
+  header button and remembers that in localStorage.
+
 ## Domain quirks worth knowing before debugging
 
 - **HC911's own daily total is broken upstream** (`/api/count` returns a hard `0`). The

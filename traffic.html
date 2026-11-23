@@ -79,15 +79,33 @@
     </footer>
   </section>
 
-  <section class="panel wide" id="panel-cams">
+  <section class="panel cam-panel" id="panel-cams-tn">
     <header class="panel-head">
-      <h2>Traffic cameras</h2>
-      <span class="hint" id="cam-count"></span>
+      <h2>Cameras — Tennessee</h2>
+      <div class="controls">
+        <span class="hint" id="cam-count-tn"></span>
+        <button class="chip collapse" data-panel="panel-cams-tn" data-key="hc911.cams.tn">hide</button>
+      </div>
     </header>
-    <div class="cam-grid" id="cam-grid"></div>
+    <div class="cam-grid" id="cam-grid-tn"></div>
     <footer class="panel-foot">
-      <span>Snapshots refresh every 60 s in place. Click for a larger view.</span>
+      <span>TDOT SmartWay · snapshots refresh every 60 s · click to open</span>
       <a href="https://smartway.tn.gov/traffic" target="_blank" rel="noopener">live video ↗</a>
+    </footer>
+  </section>
+
+  <section class="panel cam-panel" id="panel-cams-ga">
+    <header class="panel-head">
+      <h2>Cameras — Georgia</h2>
+      <div class="controls">
+        <span class="hint" id="cam-count-ga"></span>
+        <button class="chip collapse" data-panel="panel-cams-ga" data-key="hc911.cams.ga">hide</button>
+      </div>
+    </header>
+    <div class="cam-grid" id="cam-grid-ga"></div>
+    <footer class="panel-foot">
+      <span>GDOT CCTV · Chattanooga DMA counties · snapshots only</span>
+      <a href="https://511ga.org/" target="_blank" rel="noopener">511GA ↗</a>
     </footer>
   </section>
 

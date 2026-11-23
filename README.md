@@ -15,7 +15,7 @@ those files from its own origin.
 | Local news | Chattanooga Times Free Press RSS + Google News RSS queries for WDEF / Local 3 / NewsChannel 9 / Chattanoogan / Nooga | 5 min |
 | Scanner | Broadcastify feed 44571 — *Hamilton County Public Safety* (law dispatch), embedded player | live |
 | Congestion minimap (bottom right) | TDOT SmartWay Waze jams + active TDOT closures (read from `data/traffic.json`) | 5 min (Action) + 120 s page poll |
-| Traffic board (`traffic.html`) | TDOT SmartWay: incidents, construction, cameras, message signs, Waze; plus nearest camera to each active 911 call | 5 min (Action) + 60 s page poll |
+| Traffic board (`traffic.html`) | TDOT SmartWay: incidents, construction, cameras, message signs, Waze; plus nearest camera to each active 911 call. Georgia cameras from GDOT's public CCTV layer (DMA counties, snapshots only) | 5 min (Action) + 60 s page poll |
 | Radar + weather (`weather.html`) | RainViewer radar loop, NWS active alerts, Open-Meteo conditions for 8 DMA cities | 5–10 min |
 
 ## Why the data is fetched by the Action and not the browser
