@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T20:20:39+00:00",
+ "updated": "2026-11-23T20:25:39+00:00",
  "counts": {
-  "year": 371469,
-  "upstream_day": 666,
-  "day": 926,
+  "year": 371475,
+  "upstream_day": 672,
+  "day": 932,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9825850",
+   "sequence": "2026-11-33131",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:25:17Z",
+   "created": "2026-11-23T20:23:59Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10022 HIXSON PIKE",
+   "cross": "ANGLER DR/IGOU FERRY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 D",
+   "priority": "PRI 3",
+   "lat": 35.222792,
+   "lon": -85.112853,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825842",
    "sequence": "2026-11-33125",
@@ -30,32 +56,6 @@
    "priority": "PRI 4",
    "lat": 35.134781,
    "lon": -85.235419,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825831",
-   "sequence": "2026-11-33120",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:14:15Z",
-   "created": "2026-11-23T20:09:41Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6708 RINGGOLD RD",
-   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.989554,
-   "lon": -85.198923,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +90,8 @@
    "id": "9825815",
    "sequence": "2026-11-33112",
    "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:16:09Z",
+   "status": "Stacked",
+   "status_at": "2026-11-23T20:00:24Z",
    "created": "2026-11-23T19:58:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -109,7 +109,7 @@
    "lat": 34.998181,
    "lon": -85.148713,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -272,8 +272,8 @@
    "id": "9825744",
    "sequence": "2026-11-33066",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:57:51Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T20:23:20Z",
    "created": "2026-11-23T19:31:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.24966,
    "lon": -85.158844,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825662",
-   "sequence": "2026-11-33000",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T19:37:41Z",
-   "created": "2026-11-23T18:58:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "514 SEMI CIRCLE DR",
-   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.109222,
-   "lon": -85.28756,
    "units": 1,
    "stacked": false,
    "notable": false
