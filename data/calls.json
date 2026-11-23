@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-23T04:55:39+00:00",
+ "updated": "2026-11-23T05:00:41+00:00",
  "counts": {
-  "year": 370791,
+  "year": 370799,
   "upstream_day": 0,
-  "day": 1173,
+  "day": 0,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9824531",
+   "sequence": "2026-11-32198",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T04:59:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DODDS AVE / E MAIN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.022189,
+   "lon": -85.269488,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824532",
+   "sequence": "2026-11-32199",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T04:59:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "DODDS AVE / E MAIN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.022189,
+   "lon": -85.269488,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824530",
+   "sequence": "2026-11-32197",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T04:59:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "DODDS AVE / E MAIN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.022189,
+   "lon": -85.269488,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824528",
+   "sequence": "2026-11-32194",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T04:57:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2514 AMNICOLA HWY",
+   "cross": "LATTA ST/APPLING ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.07273,
+   "lon": -85.268273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824529",
+   "sequence": "2026-11-32195",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T04:57:16Z",
+   "created": "2026-11-23T04:57:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2514 AMNICOLA HWY",
+   "cross": "LATTA ST/APPLING ST",
+   "city": "CHATTANOOGA",
+   "zone": "1003",
+   "priority": "PRI 2",
+   "lat": 35.07273,
+   "lon": -85.268273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824526",
+   "sequence": "2026-11-32193",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-23T04:57:06Z",
+   "created": "2026-11-23T04:57:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2514 AMNICOLA HWY",
+   "cross": "LATTA ST/APPLING ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.07273,
+   "lon": -85.268273,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824524",
    "sequence": "2026-11-32191",
@@ -64,8 +220,8 @@
    "id": "9824517",
    "sequence": "2026-11-32184",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:58:01Z",
    "created": "2026-11-23T04:44:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +246,8 @@
    "id": "9824518",
    "sequence": "2026-11-32185",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:57:09Z",
    "created": "2026-11-23T04:44:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +272,8 @@
    "id": "9824515",
    "sequence": "2026-11-32183",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:57:10Z",
    "created": "2026-11-23T04:43:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -158,32 +314,6 @@
    "city": "CHATTANOOGA",
    "zone": "C6",
    "priority": "PRI 3",
-   "lat": 35.03548,
-   "lon": -85.172902,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824511",
-   "sequence": "2026-11-32178",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T04:38:10Z",
-   "created": "2026-11-23T04:35:19Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6717 BRIANNA WAY",
-   "cross": "No Cross Street/HICKORY VALLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
    "lat": 35.03548,
    "lon": -85.172902,
    "units": 1,
@@ -238,58 +368,6 @@
    "priority": "PRI 2",
    "lat": 35.149905,
    "lon": -85.201796,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824485",
-   "sequence": "2026-11-32158",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:05:01Z",
-   "created": "2026-11-23T04:05:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3612 WILCOX BLVD",
-   "cross": "AGNES AVE/DOGWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.04586,
-   "lon": -85.233636,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824486",
-   "sequence": "2026-11-32159",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:05:01Z",
-   "created": "2026-11-23T04:05:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3612 WILCOX BLVD",
-   "cross": "AGNES AVE/DOGWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 2",
-   "lat": 35.04586,
-   "lon": -85.233636,
    "units": 1,
    "stacked": false,
    "notable": false
