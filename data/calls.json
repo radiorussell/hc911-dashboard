@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T01:20:36+00:00",
+ "updated": "2026-11-23T01:25:37+00:00",
  "counts": {
   "year": 370614,
   "upstream_day": 0,
-  "day": 950,
+  "day": 960,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9824239",
+   "sequence": "2026-11-31978",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:24:13Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1200 - 1299 E MAIN ST",
+   "cross": "GULF ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "202",
+   "priority": "PRI 1",
+   "lat": 35.029628,
+   "lon": -85.289999,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824238",
+   "sequence": "2026-11-31977",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:24:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1200 - 1299 E MAIN ST",
+   "cross": "GULF ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.029628,
+   "lon": -85.289999,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824236",
+   "sequence": "2026-11-31975",
+   "type": "MVC Unknown Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:24:57Z",
+   "created": "2026-11-23T01:23:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1227 E MAIN ST",
+   "cross": "GULF ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.029459,
+   "lon": -85.288603,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824224",
    "sequence": "2026-11-31968",
@@ -82,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.104469,
    "lon": -85.272607,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824213",
-   "sequence": "2026-11-31963",
-   "type": "Intoxicated Person",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:19:07Z",
-   "created": "2026-11-23T01:03:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9453 BRADMORE LN",
-   "cross": "ARBURY WAY/CHESTERTON WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.082838,
-   "lon": -85.055173,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +376,8 @@
    "id": "9824167",
    "sequence": "2026-11-31926",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T00:59:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T01:22:19Z",
    "created": "2026-11-23T00:27:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
