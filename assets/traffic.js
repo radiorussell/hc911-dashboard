@@ -195,19 +195,19 @@ function renderWaze() {
 }
 
 function renderSigns() {
-  const rows = state.data.signs || [];
-  const lit = rows.filter((s) => s.msg);
-  $('#sign-count').textContent = `${lit.length}/${rows.length} showing text`;
+  const signs = state.data.signs || [];
+  // Only signs with something actually posted: a blank board is not news, and the
+  // list was mostly "BLANK" rows. The count keeps the in-range total for context.
+  const rows = signs.filter((s) => (s.msg || '').trim());
+  $('#sign-count').textContent = rows.length ? `${rows.length} lit of ${signs.length}` : `${signs.length} in range`;
   $('#sign-list').innerHTML = rows.length
     ? rows
-        .sort((a, b) => (b.msg ? 1 : 0) - (a.msg ? 1 : 0))
         .map(
-          (s) => `<li><span class="ev"><span class="top"><span class="kind">${esc(s.title)}</span>
-            ${s.msg ? '' : '<span class="tag">blank</span>'}</span>
-            <span class="where">${esc((s.msg || 'no active message').replace(/\|/g, ' · '))}</span></span></li>`
+          (s) => `<li><span class="ev"><span class="top"><span class="kind">${esc(s.title)}</span></span>
+            <span class="where">${esc(s.msg.replace(/\|/g, ' · '))}</span></span></li>`
         )
         .join('')
-    : '<li><p class="empty">No signs in range.</p></li>';
+    : '<li><p class="empty">No message signs showing text right now.</p></li>';
 }
 
 /* ---------------- incident watch: nearest cameras to each live call ---------------- */
