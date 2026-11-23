@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T03:04:35+00:00",
+ "updated": "2026-11-23T03:05:38+00:00",
  "counts": {
   "year": 370712,
   "upstream_day": 0,
-  "day": 1073,
+  "day": 1076,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9824396",
+   "sequence": "2026-11-32094",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-23T03:04:37Z",
+   "created": "2026-11-23T03:04:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "224 BROAD ST",
+   "cross": "W AQUARIUM WAY/W 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.053876,
+   "lon": -85.310387,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824388",
    "sequence": "2026-11-32091",
@@ -38,8 +64,8 @@
    "id": "9824389",
    "sequence": "2026-11-32090",
    "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-23T03:01:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T03:01:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
