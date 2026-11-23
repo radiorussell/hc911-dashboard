@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-23T15:50:41+00:00",
+ "updated": "2026-11-23T15:55:45+00:00",
  "counts": {
-  "year": 371148,
-  "upstream_day": 346,
-  "day": 500,
+  "year": 371161,
+  "upstream_day": 359,
+  "day": 508,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9825246",
+   "sequence": "2026-11-32707",
+   "type": "Child Found",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:54:56Z",
+   "created": "2026-11-23T15:53:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4378 HOWELL RD",
+   "cross": "TALLEY RD/WOODMORE LN",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.032194,
+   "lon": -85.227566,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825241",
+   "sequence": "2026-11-32703",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:54:49Z",
+   "created": "2026-11-23T15:52:15Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3927 RINGGOLD RD",
+   "cross": "WELDON DR/JOHN ROSS RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.998209,
+   "lon": -85.252816,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825242",
+   "sequence": "2026-11-32704",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:52:15Z",
+   "created": "2026-11-23T15:52:15Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3927 RINGGOLD RD",
+   "cross": "WELDON DR/JOHN ROSS RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 34.998209,
+   "lon": -85.252816,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825240",
+   "sequence": "2026-11-32702",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:51:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3927 RINGGOLD RD",
+   "cross": "WELDON DR/JOHN ROSS RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.998209,
+   "lon": -85.252816,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825238",
+   "sequence": "2026-11-32701",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:51:11Z",
+   "created": "2026-11-23T15:51:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.052181,
+   "lon": -85.151941,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825235",
    "sequence": "2026-11-32699",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:51:58Z",
    "created": "2026-11-23T15:48:36Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -38,8 +168,8 @@
    "id": "9825228",
    "sequence": "2026-11-32698",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:54:12Z",
    "created": "2026-11-23T15:46:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +376,8 @@
    "id": "9825177",
    "sequence": "2026-11-32667",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:49:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T15:54:55Z",
    "created": "2026-11-23T15:35:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.075043,
    "lon": -85.211571,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825172",
-   "sequence": "2026-11-32659",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:34:22Z",
-   "created": "2026-11-23T15:34:22Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3700 RINGGOLD RD",
-   "cross": "BALES AVE/KINGWOOD DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.000634,
-   "lon": -85.258325,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +636,8 @@
    "id": "9825094",
    "sequence": "2026-11-32605",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T15:25:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T15:54:24Z",
    "created": "2026-11-23T15:00:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -633,58 +737,6 @@
    "notable": false
   },
   {
-   "id": "9825044",
-   "sequence": "2026-11-32564",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:35:16Z",
-   "created": "2026-11-23T14:35:16Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1200 SPRING CREEK RD",
-   "cross": "SUNNYFIELD LN/PRATER RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 3",
-   "lat": 34.992835,
-   "lon": -85.21739,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825045",
-   "sequence": "2026-11-32565",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:35:16Z",
-   "created": "2026-11-23T14:35:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1200 SPRING CREEK RD",
-   "cross": "SUNNYFIELD LN/PRATER RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 3",
-   "lat": 34.992835,
-   "lon": -85.21739,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825020",
    "sequence": "2026-11-32552",
    "type": "Property",
@@ -709,32 +761,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9825007",
-   "sequence": "2026-11-32542",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T15:20:34Z",
-   "created": "2026-11-23T14:13:45Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "GANN RD / THRASHER PIKE",
-   "cross": "",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.202548,
-   "lon": -85.207425,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9824995",
