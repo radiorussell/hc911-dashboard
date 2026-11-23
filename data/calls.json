@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T01:15:37+00:00",
+ "updated": "2026-11-23T01:20:36+00:00",
  "counts": {
-  "year": 370609,
+  "year": 370614,
   "upstream_day": 0,
-  "day": 947,
+  "day": 950,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9824224",
+   "sequence": "2026-11-31968",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:20:34Z",
+   "created": "2026-11-23T01:15:44Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "251 N LYERLY ST",
+   "cross": "E 5TH ST/E 4TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.037558,
+   "lon": -85.268246,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824221",
    "sequence": "2026-11-31965",
@@ -64,8 +90,8 @@
    "id": "9824213",
    "sequence": "2026-11-31963",
    "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:19:07Z",
    "created": "2026-11-23T01:03:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "3514 HIXSON PIKE",
+   "address": "3504 HIXSON PIKE",
    "cross": "LUPTON DR/INTERMONT RD",
    "city": "CHATTANOOGA",
    "zone": "1602 A",
    "priority": "PRI 2",
-   "lat": 35.104915,
-   "lon": -85.272389,
+   "lat": 35.104469,
+   "lon": -85.272607,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +272,8 @@
    "id": "9824182",
    "sequence": "2026-11-31939",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T00:58:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T01:16:12Z",
    "created": "2026-11-23T00:36:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
