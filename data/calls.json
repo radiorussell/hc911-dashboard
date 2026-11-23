@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T18:45:40+00:00",
+ "updated": "2026-11-23T18:50:37+00:00",
  "counts": {
   "year": 371353,
   "upstream_day": 550,
   "day": 791,
   "day_basis": "midnight"
  },
- "raw_rows": 51,
+ "raw_rows": 44,
  "incidents": [
   {
    "id": "9825650",
    "sequence": "2026-11-32989",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:45:03Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:48:18Z",
    "created": "2026-11-23T18:45:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7320 SHALLOWFORD RD",
+   "address": "7324 SHALLOWFORD RD",
    "cross": "LIFESTYLE WAY/GUNBARREL RD",
    "city": "CHATTANOOGA",
    "zone": "C7",
    "priority": "PRI 1",
-   "lat": 35.040332,
-   "lon": -85.152101,
+   "lat": 35.039739,
+   "lon": -85.151941,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9825651",
    "sequence": "2026-11-32990",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:45:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:45:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -89,9 +89,9 @@
   {
    "id": "9825645",
    "sequence": "2026-11-32983",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:43:48Z",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:43:48Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -105,12 +105,12 @@
    "cross": "BRYNWOOD TER/BRYNEWOOD PARK DR",
    "city": "CHATTANOOGA",
    "zone": "1903",
-   "priority": "PRI 2",
+   "priority": "PRI 3",
    "lat": 35.124152,
    "lon": -85.270076,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9825646",
@@ -142,8 +142,8 @@
    "id": "9825642",
    "sequence": "2026-11-32981",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:43:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:43:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.090569,
    "lon": -85.185459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825641",
-   "sequence": "2026-11-32982",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T18:43:14Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1005 BRYNEWOOD TER",
-   "cross": "BRYNWOOD TER/BRYNEWOOD PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.124152,
-   "lon": -85.270076,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,32 +217,6 @@
    "notable": true
   },
   {
-   "id": "9825632",
-   "sequence": "2026-11-32976",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:40:07Z",
-   "created": "2026-11-23T18:40:07Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 2",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825631",
    "sequence": "2026-11-32975",
    "type": "EMS CALL",
@@ -314,6 +262,32 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 14 CH",
    "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825632",
+   "sequence": "2026-11-32976",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:40:07Z",
+   "created": "2026-11-23T18:40:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 2",
    "lat": 35.050662,
    "lon": -85.291613,
    "units": 1,
@@ -399,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9825619",
-   "sequence": "2026-11-32968",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T18:37:43Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1837 DAYLONG PL",
-   "cross": "GORSE LN/GORSE LN",
-   "city": "CHATTANOOGA",
-   "zone": "801 B",
-   "priority": "PRI 1",
-   "lat": 35.036425,
-   "lon": -85.187201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825618",
    "sequence": "2026-11-32967",
    "type": "Police Assist Citizen",
@@ -477,37 +425,11 @@
    "notable": false
   },
   {
-   "id": "9825603",
-   "sequence": "2026-11-32960",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:35:34Z",
-   "created": "2026-11-23T18:31:28Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "DAYTON BLVD / SIGNAL MOUNTAIN RD",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 1",
-   "lat": 35.083971,
-   "lon": -85.317606,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825602",
    "sequence": "2026-11-32959",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:37:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:49:18Z",
    "created": "2026-11-23T18:31:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -581,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9825590",
-   "sequence": "2026-11-32953",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:27:49Z",
-   "created": "2026-11-23T18:27:49Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6532 OLD DAYTON PIKE",
-   "cross": "PITTS RD/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.187496,
-   "lon": -85.250791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825591",
-   "sequence": "2026-11-32954",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:39:18Z",
-   "created": "2026-11-23T18:27:49Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6532 OLD DAYTON PIKE",
-   "cross": "PITTS RD/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 3",
-   "lat": 35.187496,
-   "lon": -85.250791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825589",
    "sequence": "2026-11-32955",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:47:58Z",
    "created": "2026-11-23T18:27:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -662,8 +532,8 @@
    "id": "9825588",
    "sequence": "2026-11-32952",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:38:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:49:47Z",
    "created": "2026-11-23T18:26:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -766,8 +636,8 @@
    "id": "9825567",
    "sequence": "2026-11-32939",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:21:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:47:47Z",
    "created": "2026-11-23T18:15:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -789,37 +659,11 @@
    "notable": false
   },
   {
-   "id": "9825562",
-   "sequence": "2026-11-32933",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:17:26Z",
-   "created": "2026-11-23T18:13:09Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2305 DODSON AVE",
-   "cross": "CRUTCHFIELD ST/DAISY ST",
-   "city": "CHATTANOOGA",
-   "zone": "403",
-   "priority": "PRI 1",
-   "lat": 35.064867,
-   "lon": -85.255022,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825558",
    "sequence": "2026-11-32931",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T18:38:29Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T18:50:26Z",
    "created": "2026-11-23T18:12:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1070,32 +914,6 @@
    "priority": "PRI 1",
    "lat": 35.065894,
    "lon": -85.250941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825477",
-   "sequence": "2026-11-32868",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T18:26:29Z",
-   "created": "2026-11-23T17:40:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7249 AVENTINE WAY",
-   "cross": "PANORAMA DR/PANORAMA DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.014371,
-   "lon": -85.168841,
    "units": 1,
    "stacked": false,
    "notable": false
