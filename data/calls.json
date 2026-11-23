@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T00:40:37+00:00",
+ "updated": "2026-11-23T00:45:42+00:00",
  "counts": {
   "year": 370590,
   "upstream_day": 0,
-  "day": 924,
+  "day": 928,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9824192",
+   "sequence": "2026-11-31945",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:41:05Z",
+   "created": "2026-11-23T00:41:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2288 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.037485,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824189",
+   "sequence": "2026-11-31944",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:40:37Z",
+   "created": "2026-11-23T00:40:24Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3650 RINGGOLD RD",
+   "cross": "S GERMANTOWN RD/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.001463,
+   "lon": -85.258788,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824187",
+   "sequence": "2026-11-31946",
+   "type": "Child Found",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:40:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 - 398 S BEECH ST",
+   "cross": "N BEECH ST/DUNCAN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.035346,
+   "lon": -85.273226,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824185",
    "sequence": "2026-11-31942",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:39:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:38:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9824168",
-   "sequence": "2026-11-31927",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:27:44Z",
-   "created": "2026-11-23T00:27:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5775 CHERRY ST",
-   "cross": "W CHERRY ST/BREWER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 3",
-   "lat": 35.075417,
-   "lon": -85.05616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824169",
    "sequence": "2026-11-31928",
    "type": "EMS CALL",
@@ -272,8 +324,8 @@
    "id": "9824167",
    "sequence": "2026-11-31926",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:41:40Z",
    "created": "2026-11-23T00:27:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9824153",
-   "sequence": "2026-11-31916",
-   "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": "2026-11-23T00:36:49Z",
-   "created": "2026-11-23T00:16:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "22 STARVIEW LN",
-   "cross": "CUMMINGS HWY/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 1",
-   "lat": 35.02038,
-   "lon": -85.378301,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824152",
    "sequence": "2026-11-31915",
    "type": "Domestic Disorder",
@@ -425,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9824149",
-   "sequence": "2026-11-31913",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:33:56Z",
-   "created": "2026-11-23T00:13:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4600 - 4729 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.068195,
-   "lon": -85.107547,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824142",
    "sequence": "2026-11-31908",
    "type": "EMS CALL",
@@ -472,58 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.992388,
    "lon": -85.235323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824127",
-   "sequence": "2026-11-31895",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T23:59:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4616 SUNFLOWER LN",
-   "cross": "OAKHILL RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.08722,
-   "lon": -85.197956,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824120",
-   "sequence": "2026-11-31892",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T00:22:54Z",
-   "created": "2026-11-22T23:52:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4103 ROSSVILLE BLVD",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 34.996382,
-   "lon": -85.291175,
    "units": 1,
    "stacked": false,
    "notable": false
