@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-23T14:10:40+00:00",
+ "updated": "2026-11-23T14:15:39+00:00",
  "counts": {
-  "year": 371020,
-  "upstream_day": 218,
-  "day": 330,
+  "year": 371032,
+  "upstream_day": 230,
+  "day": 345,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9825005",
+   "sequence": "2026-11-32544",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:14:24Z",
+   "created": "2026-11-23T14:13:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "206 TREMONT ST",
+   "cross": "OLIVER ST/TAMPA ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 4",
+   "lat": 35.062663,
+   "lon": -85.303696,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825008",
+   "sequence": "2026-11-32543",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:13:45Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "GANN RD / THRASHER PIKE",
+   "cross": "",
+   "city": "SODDY DAISY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 1",
+   "lat": 35.202548,
+   "lon": -85.207425,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825007",
+   "sequence": "2026-11-32542",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:13:45Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "GANN RD / THRASHER PIKE",
+   "cross": "",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.202548,
+   "lon": -85.207425,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824999",
+   "sequence": "2026-11-32534",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:11:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2015 OOLTEWAH RINGGOLD RD",
+   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.005729,
+   "lon": -85.096785,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825000",
+   "sequence": "2026-11-32535",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:11:04Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2015 OOLTEWAH RINGGOLD RD",
+   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3-CATOOSA B",
+   "priority": "PRI 1",
+   "lat": 35.005729,
+   "lon": -85.096785,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824995",
+   "sequence": "2026-11-32532",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-23T14:10:51Z",
+   "created": "2026-11-23T14:10:51Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2015 OOLTEWAH RINGGOLD RD",
+   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.005729,
+   "lon": -85.096785,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824991",
+   "sequence": "2026-11-32537",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:11:17Z",
+   "created": "2026-11-23T14:10:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "714 W 42ND ST",
+   "cross": "GRAND AVE/CAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 35.005085,
+   "lon": -85.319352,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824988",
    "sequence": "2026-11-32529",
@@ -30,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.053075,
    "lon": -85.253565,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824989",
-   "sequence": "2026-11-32528",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:09:26Z",
-   "created": "2026-11-23T14:09:17Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1300 - 1307 THRASHER PIKE",
-   "cross": "GANN RD/THORNEWOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 1",
-   "lat": 35.202548,
-   "lon": -85.207425,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -89,9 +245,9 @@
   {
    "id": "9824987",
    "sequence": "2026-11-32525",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:12:19Z",
    "created": "2026-11-23T14:08:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -110,7 +266,7 @@
    "lon": -85.207425,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9824978",
@@ -298,8 +454,8 @@
    "id": "9824938",
    "sequence": "2026-11-32490",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:46:46Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T14:13:07Z",
    "created": "2026-11-23T13:46:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -347,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9824912",
-   "sequence": "2026-11-32474",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-23T13:44:25Z",
-   "created": "2026-11-23T13:29:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3740 CARL WHITE PL",
-   "cross": "W 37TH ST/W 38TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.00929,
-   "lon": -85.320101,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824911",
    "sequence": "2026-11-32473",
    "type": "EMS CALL",
@@ -394,32 +524,6 @@
    "priority": "PRI 2",
    "lat": 35.162879,
    "lon": -85.208333,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824903",
-   "sequence": "2026-11-32467",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:02:35Z",
-   "created": "2026-11-23T13:22:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1966 NORTHPOINT BLVD",
-   "cross": "HIGHWAY 153/PRESCHOOL LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.136371,
-   "lon": -85.242536,
    "units": 1,
    "stacked": false,
    "notable": false
