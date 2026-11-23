@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T06:30:38+00:00",
+ "updated": "2026-11-23T06:35:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 54,
+  "day": 53,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9824596",
@@ -27,32 +27,6 @@
    "cross": "THRUSHWOOD DR/SANDERS DR",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.11718,
-   "lon": -85.279285,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824597",
-   "sequence": "2026-11-32253",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T06:29:50Z",
-   "created": "2026-11-23T06:24:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "600 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
    "priority": "PRI 1",
    "lat": 35.11718,
    "lon": -85.279285,
@@ -87,63 +61,11 @@
    "notable": false
   },
   {
-   "id": "9824580",
-   "sequence": "2026-11-32243",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T06:06:05Z",
-   "created": "2026-11-23T06:06:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824581",
-   "sequence": "2026-11-32244",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T06:06:05Z",
-   "created": "2026-11-23T06:06:05Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 3",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824579",
    "sequence": "2026-11-32242",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T06:15:36Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T06:31:25Z",
    "created": "2026-11-23T06:05:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +142,8 @@
    "id": "9824557",
    "sequence": "2026-11-32221",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T06:21:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T06:35:01Z",
    "created": "2026-11-23T05:29:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.12735,
    "lon": -85.28209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824350",
-   "sequence": "2026-11-32064",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-23T02:47:16Z",
-   "created": "2026-11-23T02:36:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6965 DELLRIDGE PL",
-   "cross": "VANCE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 2",
-   "lat": 35.026021,
-   "lon": -85.182156,
    "units": 1,
    "stacked": false,
    "notable": false
