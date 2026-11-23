@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T04:04:07+00:00",
+ "updated": "2026-11-23T04:05:38+00:00",
  "counts": {
   "year": 370768,
   "upstream_day": 0,
-  "day": 1133,
+  "day": 1141,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9824485",
+   "sequence": "2026-11-32158",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T04:05:01Z",
+   "created": "2026-11-23T04:05:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3612 WILCOX BLVD",
+   "cross": "AGNES AVE/DOGWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.04586,
+   "lon": -85.233636,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824486",
+   "sequence": "2026-11-32159",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T04:05:01Z",
+   "created": "2026-11-23T04:05:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3612 WILCOX BLVD",
+   "cross": "AGNES AVE/DOGWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "1506",
+   "priority": "PRI 2",
+   "lat": 35.04586,
+   "lon": -85.233636,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824484",
+   "sequence": "2026-11-32157",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T04:05:01Z",
+   "created": "2026-11-23T04:04:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3612 WILCOX BLVD",
+   "cross": "AGNES AVE/DOGWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.04586,
+   "lon": -85.233636,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824477",
    "sequence": "2026-11-32150",
@@ -64,8 +142,8 @@
    "id": "9824475",
    "sequence": "2026-11-32149",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:04:25Z",
    "created": "2026-11-23T03:57:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9824461",
    "sequence": "2026-11-32141",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:04:13Z",
    "created": "2026-11-23T03:48:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
