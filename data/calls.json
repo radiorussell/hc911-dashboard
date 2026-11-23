@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T06:10:37+00:00",
+ "updated": "2026-11-23T06:15:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 45,
+  "day": 48,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9824582",
+   "sequence": "2026-11-32247",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T06:14:18Z",
+   "created": "2026-11-23T06:14:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7604 STANDIFER GAP RD",
+   "cross": "WALKER RD/JUSTICE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.047716,
+   "lon": -85.134897,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824580",
    "sequence": "2026-11-32243",
@@ -64,8 +90,8 @@
    "id": "9824579",
    "sequence": "2026-11-32242",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T06:15:36Z",
    "created": "2026-11-23T06:05:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 2",
    "lat": 35.047215,
    "lon": -85.147209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824576",
-   "sequence": "2026-11-32239",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T05:58:36Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "724 ASHBROOK DR",
-   "cross": "BROOKHILL DR/FOREST HILL DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 1",
-   "lat": 35.215552,
-   "lon": -85.189666,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,63 +191,11 @@
    "notable": false
   },
   {
-   "id": "9824569",
-   "sequence": "2026-11-32231",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:46:57Z",
-   "created": "2026-11-23T05:46:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824570",
-   "sequence": "2026-11-32232",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:46:57Z",
-   "created": "2026-11-23T05:46:57Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824566",
    "sequence": "2026-11-32230",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:54:53Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T06:10:40Z",
    "created": "2026-11-23T05:46:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.027268,
    "lon": -85.247599,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824555",
-   "sequence": "2026-11-32219",
-   "type": "Intoxicated Person",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:33:48Z",
-   "created": "2026-11-23T05:28:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1400 CHESTNUT ST",
-   "cross": "W 14TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.039254,
-   "lon": -85.311997,
    "units": 1,
    "stacked": false,
    "notable": false
