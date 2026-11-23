@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T02:08:56+00:00",
+ "updated": "2026-11-23T02:10:38+00:00",
  "counts": {
-  "year": 370657,
+  "year": 370663,
   "upstream_day": 0,
   "day": 1009,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9824300",
@@ -143,7 +143,7 @@
    "sequence": "2026-11-32019",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T02:10:31Z",
    "created": "2026-11-23T01:56:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9824266",
-   "sequence": "2026-11-32000",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:48:47Z",
-   "created": "2026-11-23T01:44:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5512 MILLER DR",
-   "cross": "N TERRACE/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 2",
-   "lat": 35.005547,
-   "lon": -85.217774,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824264",
    "sequence": "2026-11-31999",
    "type": "Auto Broken Down Road",
@@ -373,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9824254",
-   "sequence": "2026-11-31992",
-   "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-23T01:37:02Z",
-   "created": "2026-11-23T01:36:59Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5701 - 5759 TALLANT RD",
-   "cross": "KINDRED LN/EAGLEFEATHER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 3",
-   "lat": 35.062908,
-   "lon": -85.027441,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
    "id": "9824255",
    "sequence": "2026-11-31995",
    "type": "Police Assist Citizen",
@@ -420,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.061233,
    "lon": -85.131847,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824250",
-   "sequence": "2026-11-31987",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:55:00Z",
-   "created": "2026-11-23T01:32:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3908 FOREST HIGHLAND CIR",
-   "cross": "FOREST HIGHLAND DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.11298,
-   "lon": -85.268381,
    "units": 1,
    "stacked": false,
    "notable": false
