@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T10:05:39+00:00",
+ "updated": "2026-11-23T10:10:44+00:00",
  "counts": {
-  "year": 370884,
-  "upstream_day": 82,
-  "day": 112,
+  "year": 370887,
+  "upstream_day": 85,
+  "day": 114,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9824672",
+   "sequence": "2026-11-32313",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T10:08:09Z",
+   "created": "2026-11-23T10:07:57Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6204 DEEP CANYON RD",
+   "cross": "CANYON CRST/CANYON SPRINGS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 3",
+   "lat": 35.185914,
+   "lon": -85.260852,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824670",
    "sequence": "2026-11-32311",
    "type": "Burglary Attempt",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T10:07:24Z",
    "created": "2026-11-23T10:02:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
