@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-23T00:50:38+00:00",
+ "updated": "2026-11-23T00:55:37+00:00",
  "counts": {
   "year": 370595,
   "upstream_day": 0,
-  "day": 930,
+  "day": 933,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
   {
-   "id": "9824198",
-   "sequence": "2026-11-31948",
-   "type": "Miscellaneous Complaint",
+   "id": "9824202",
+   "sequence": "2026-11-31951",
+   "type": "Animal Call",
    "status": "Queued",
-   "status_at": "2026-11-23T00:49:45Z",
-   "created": "2026-11-23T00:49:45Z",
+   "status_at": "2026-11-23T00:52:40Z",
+   "created": "2026-11-23T00:52:19Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9449 DAYTON PIKE",
+   "cross": "HARRISON LN/PORTER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.239083,
+   "lon": -85.199002,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824200",
+   "sequence": "2026-11-31950",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:51:40Z",
+   "created": "2026-11-23T00:51:25Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
     "East Ridge PD"
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "100 INTERSTATE 75 SB",
-   "cross": "EXIT 1 OFF RAMP SB/EXIT 185A OFF RAMP EB",
+   "address": "3648 LARRY LN",
+   "cross": "JOHN SIMS RD/GLEASON DR",
    "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 4",
-   "lat": 34.996382,
-   "lon": -85.208366,
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.010584,
+   "lon": -85.251632,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -82,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.001463,
    "lon": -85.258788,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824187",
-   "sequence": "2026-11-31946",
-   "type": "Child Found",
-   "status": "Enroute",
-   "status_at": "2026-11-23T00:50:24Z",
-   "created": "2026-11-23T00:40:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "300 - 398 S BEECH ST",
-   "cross": "N BEECH ST/DUNCAN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.035346,
-   "lon": -85.273226,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +194,8 @@
    "id": "9824183",
    "sequence": "2026-11-31938",
    "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-23T00:36:38Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:36:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -213,7 +213,7 @@
    "lat": 35.147298,
    "lon": -85.251651,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -399,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9824156",
-   "sequence": "2026-11-31918",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:18:19Z",
-   "created": "2026-11-23T00:18:19Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "160 HAWKINS OAK LN",
-   "cross": "CENTRAL AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 2",
-   "lat": 34.99533,
-   "lon": -85.318445,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824154",
    "sequence": "2026-11-31917",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:33:53Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T00:53:00Z",
    "created": "2026-11-23T00:17:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
