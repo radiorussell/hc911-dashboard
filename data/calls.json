@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T18:05:39+00:00",
+ "updated": "2026-11-23T18:10:38+00:00",
  "counts": {
   "year": 371304,
   "upstream_day": 502,
-  "day": 718,
+  "day": 728,
   "day_basis": "midnight"
  },
- "raw_rows": 45,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9825551",
+   "sequence": "2026-11-32927",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:10:36Z",
+   "created": "2026-11-23T18:10:33Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5504 SUNNY DELL LN",
+   "cross": "SUNNY DELL CIR/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.999786,
+   "lon": -85.226113,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825549",
+   "sequence": "2026-11-32923",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:09:40Z",
+   "created": "2026-11-23T18:09:40Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "113 BAXTER ST",
+   "cross": "WILLIAMSBURG LN/EASTON AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 3",
+   "lat": 35.102186,
+   "lon": -85.298644,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825550",
+   "sequence": "2026-11-32924",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:09:40Z",
+   "created": "2026-11-23T18:09:40Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "113 BAXTER ST",
+   "cross": "WILLIAMSBURG LN/EASTON AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.102186,
+   "lon": -85.298644,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825546",
+   "sequence": "2026-11-32922",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:08:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "113 BAXTER ST",
+   "cross": "WILLIAMSBURG LN/EASTON AVE",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.102186,
+   "lon": -85.298644,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825538",
    "sequence": "2026-11-32917",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:04:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:03:12Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -56,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.041701,
    "lon": -85.260662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825537",
-   "sequence": "2026-11-32915",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T18:02:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18400 INTERSTATE 24 EB",
-   "cross": "EXIT 184 OFF RAMP EB/EXIT 184 ON RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.008654,
-   "lon": -85.237704,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +220,8 @@
    "id": "9825529",
    "sequence": "2026-11-32908",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:08:17Z",
    "created": "2026-11-23T17:58:30Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -428,8 +506,8 @@
    "id": "9825506",
    "sequence": "2026-11-32890",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:06:42Z",
    "created": "2026-11-23T17:47:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +558,8 @@
    "id": "9825501",
    "sequence": "2026-11-32887",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:09:30Z",
    "created": "2026-11-23T17:45:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -766,8 +844,8 @@
    "id": "9825460",
    "sequence": "2026-11-32858",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:08:49Z",
    "created": "2026-11-23T17:30:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -896,8 +974,8 @@
    "id": "9825443",
    "sequence": "2026-11-32847",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T18:02:32Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T18:08:23Z",
    "created": "2026-11-23T17:25:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -922,8 +1000,8 @@
    "id": "9825438",
    "sequence": "2026-11-32843",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T17:56:49Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T18:10:16Z",
    "created": "2026-11-23T17:24:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -940,32 +1018,6 @@
    "priority": "PRI 1",
    "lat": 35.043922,
    "lon": -85.309345,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825427",
-   "sequence": "2026-11-32834",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-23T17:20:38Z",
-   "created": "2026-11-23T17:20:38Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7002 SPORTSMAN DR",
-   "cross": "FAIREST DR/BARTER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 4",
-   "lat": 35.125239,
-   "lon": -85.116745,
    "units": 1,
    "stacked": false,
    "notable": false
