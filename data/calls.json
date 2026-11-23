@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T21:25:38+00:00",
+ "updated": "2026-11-23T21:30:42+00:00",
  "counts": {
   "year": 371535,
   "upstream_day": 732,
-  "day": 1013,
+  "day": 1023,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 38,
  "incidents": [
   {
-   "id": "9825960",
-   "sequence": "2026-11-33212",
+   "id": "9825972",
+   "sequence": "2026-11-33222",
    "type": "Check For A Hazard",
    "status": "Queued",
-   "status_at": "2026-11-23T21:23:59Z",
-   "created": "2026-11-23T21:23:31Z",
+   "status_at": "2026-11-23T21:30:03Z",
+   "created": "2026-11-23T21:29:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,247 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1160 INTERSTATE 75 NB",
-   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
+   "address": "941 - 1139 INTERSTATE 75 SB",
+   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 2",
-   "lat": 35.08668,
-   "lon": -85.066621,
+   "lat": 35.081273,
+   "lon": -85.084594,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825970",
+   "sequence": "2026-11-33220",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:29:36Z",
+   "created": "2026-11-23T21:29:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2900 - 3207 AMNICOLA HWY",
+   "cross": "STUART ST/ELMENDORF CIR",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.077681,
+   "lon": -85.266151,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825971",
+   "sequence": "2026-11-33221",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:29:51Z",
+   "created": "2026-11-23T21:29:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "940 - 1138 INTERSTATE 75 SB",
+   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.08265,
+   "lon": -85.07924,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825968",
+   "sequence": "2026-11-33218",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:28:50Z",
+   "created": "2026-11-23T21:28:50Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5708 SUNBURST CT",
+   "cross": "EDGMON RD/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 3",
+   "lat": 35.063726,
+   "lon": -85.034592,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825969",
+   "sequence": "2026-11-33219",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:28:50Z",
+   "created": "2026-11-23T21:28:50Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5708 SUNBURST CT",
+   "cross": "EDGMON RD/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 1",
+   "lat": 35.063726,
+   "lon": -85.034592,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825967",
+   "sequence": "2026-11-33216",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:28:28Z",
+   "created": "2026-11-23T21:28:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "940 - 1139 INTERSTATE 75 SB",
+   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.075963,
+   "lon": -85.105338,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825966",
+   "sequence": "2026-11-33217",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:28:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5708 SUNBURST CT",
+   "cross": "EDGMON RD/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.063726,
+   "lon": -85.034592,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825964",
+   "sequence": "2026-11-33215",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:27:46Z",
+   "created": "2026-11-23T21:26:43Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8935 GREY MOUNTAIN DR",
+   "cross": "WILLOW OAK DR/MISTY VALLEY DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 4",
+   "lat": 35.069738,
+   "lon": -85.028696,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825963",
+   "sequence": "2026-11-33213",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:25:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1108 LONDON WOODS WAY",
+   "cross": "LONDON LN/LONDON TOWER PL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 34.987042,
+   "lon": -85.04521,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825962",
+   "sequence": "2026-11-33214",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:26:06Z",
+   "created": "2026-11-23T21:25:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ASPEN LN / FAIRWOOD LN",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.082775,
+   "lon": -85.1983,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +272,8 @@
    "id": "9825951",
    "sequence": "2026-11-33211",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:23:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:23:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -82,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.096523,
    "lon": -85.240256,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825956",
-   "sequence": "2026-11-33209",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:20:13Z",
-   "created": "2026-11-23T21:19:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "300 HIGHWAY 153 SB",
-   "cross": "EXIT SHALLOWFORD RD OFF RAMP SB/EXIT JERSEY PIKE ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 4",
-   "lat": 35.06148,
-   "lon": -85.193674,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,32 +368,6 @@
    "priority": "PRI 2",
    "lat": 35.020324,
    "lon": -85.221577,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825939",
-   "sequence": "2026-11-33199",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:11:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7421 BONNY OAKS DR",
-   "cross": "COUNTRY LN/LEE HWY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.061472,
-   "lon": -85.134791,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +532,8 @@
    "id": "9825921",
    "sequence": "2026-11-33183",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:28:49Z",
    "created": "2026-11-23T21:04:42Z",
    "jurisdiction": "Sale Creek VFD",
    "agencies": [
@@ -451,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9825916",
-   "sequence": "2026-11-33177",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:02:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4316 DODDS AVE",
-   "cross": "E 43RD ST/E 44TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 4",
-   "lat": 34.991561,
-   "lon": -85.285994,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825901",
    "sequence": "2026-11-33166",
    "type": "EMS CALL",
@@ -498,32 +654,6 @@
    "priority": "PRI 1",
    "lat": 35.10494,
    "lon": -85.06323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825898",
-   "sequence": "2026-11-33167",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T20:50:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4506 ELDRIDGE RD",
-   "cross": "DELASHMITT RD/DONLYN LN",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.127165,
-   "lon": -85.26247,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -740,8 +870,8 @@
    "id": "9825711",
    "sequence": "2026-11-33032",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:30:10Z",
    "created": "2026-11-23T19:20:02Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
