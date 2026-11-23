@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-23T13:25:38+00:00",
+ "updated": "2026-11-23T13:30:38+00:00",
  "counts": {
   "year": 370986,
   "upstream_day": 184,
-  "day": 271,
+  "day": 275,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9824905",
-   "sequence": "2026-11-32470",
-   "type": "Police Assist Citizen",
+   "id": "9824912",
+   "sequence": "2026-11-32474",
+   "type": "Property",
    "status": "Queued",
-   "status_at": "2026-11-23T13:24:55Z",
-   "created": "2026-11-23T13:24:01Z",
-   "jurisdiction": "East Ridge PD",
+   "status_at": "2026-11-23T13:29:09Z",
+   "created": "2026-11-23T13:29:09Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "941 SPRING CREEK RD",
-   "cross": "N MACK SMITH RD/PECK DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.998857,
-   "lon": -85.218956,
+   "address": "3740 CARL WHITE PL",
+   "cross": "W 37TH ST/W 38TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 35.00929,
+   "lon": -85.320101,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824911",
+   "sequence": "2026-11-32473",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:29:01Z",
+   "created": "2026-11-23T13:29:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1623 SHELBY CIR",
+   "cross": "WESTGATE RD/BROOK MANOR DR",
+   "city": "CHATTANOOGA",
+   "zone": "1102",
+   "priority": "PRI 2",
+   "lat": 35.162879,
+   "lon": -85.208333,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824910",
+   "sequence": "2026-11-32472",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:29:00Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6428 CAMDENDOWN LN",
+   "cross": "No Cross Street/RAMSGATE PKWY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.16311,
+   "lon": -85.203521,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +90,8 @@
    "id": "9824904",
    "sequence": "2026-11-32468",
    "type": "Carbon Monoxide Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:23:45Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T13:23:27Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9824880",
    "sequence": "2026-11-32456",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:26:25Z",
    "created": "2026-11-23T13:14:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9824875",
-   "sequence": "2026-11-32453",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:18:44Z",
-   "created": "2026-11-23T13:13:27Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1131 STRINGERS RIDGE RD",
-   "cross": "E FRONTAGE RD/DAYTON BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "1701 C",
-   "priority": "PRI 1",
-   "lat": 35.075218,
-   "lon": -85.32007,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824876",
    "sequence": "2026-11-32454",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:26:05Z",
    "created": "2026-11-23T13:13:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +350,8 @@
    "id": "9824874",
    "sequence": "2026-11-32452",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:09:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T13:09:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,84 +451,6 @@
    "notable": false
   },
   {
-   "id": "9824863",
-   "sequence": "2026-11-32443",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:01:25Z",
-   "created": "2026-11-23T13:01:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6401 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
-   "lat": 35.052227,
-   "lon": -85.174917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824861",
-   "sequence": "2026-11-32442",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:11:35Z",
-   "created": "2026-11-23T13:00:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6401 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.052227,
-   "lon": -85.174917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824843",
-   "sequence": "2026-11-32429",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:47:08Z",
-   "created": "2026-11-23T12:47:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7710 E BRAINERD RD",
-   "cross": "RESERVE WAY/JENKINS RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.007895,
-   "lon": -85.157599,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824841",
    "sequence": "2026-11-32428",
    "type": "EMS CALL",
@@ -584,8 +532,8 @@
    "id": "9824803",
    "sequence": "2026-11-32405",
    "type": "Burglary",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:26:31Z",
    "created": "2026-11-23T12:22:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
