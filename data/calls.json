@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T02:20:38+00:00",
+ "updated": "2026-11-23T02:25:37+00:00",
  "counts": {
   "year": 370668,
   "upstream_day": 0,
-  "day": 1016,
+  "day": 1023,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9824321",
+   "sequence": "2026-11-32041",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:24:46Z",
+   "created": "2026-11-23T02:24:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2000 E 23RD ST",
+   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.01856,
+   "lon": -85.28253,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824320",
+   "sequence": "2026-11-32039",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:24:29Z",
+   "created": "2026-11-23T02:24:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1650 CRISWELL CT",
+   "cross": "BLAKESLEE DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 3",
+   "lat": 35.322782,
+   "lon": -85.105413,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824317",
+   "sequence": "2026-11-32040",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:24:42Z",
+   "created": "2026-11-23T02:24:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "180 INTERSTATE 75 SB",
+   "cross": "EXIT 2 OFF RAMP SB/EXIT 3 ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 2",
+   "lat": 35.008018,
+   "lon": -85.201109,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824311",
    "sequence": "2026-11-32034",
    "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T02:25:11Z",
    "created": "2026-11-23T02:18:41Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -37,9 +115,9 @@
   {
    "id": "9824305",
    "sequence": "2026-11-32032",
-   "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:17:06Z",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T02:16:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.029297,
    "lon": -85.268364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824299",
-   "sequence": "2026-11-32026",
-   "type": "Sex Offense",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:06:09Z",
-   "created": "2026-11-23T02:05:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4501 AMNICOLA HWY",
-   "cross": "S CREEK RD/S ACCESS RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.100234,
-   "lon": -85.237464,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.099874,
    "lon": -85.169696,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824241",
-   "sequence": "2026-11-31981",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:48:13Z",
-   "created": "2026-11-23T01:25:15Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "503 CEDAR GLEN CIR",
-   "cross": "CEDAR WOOD CT/FRAWLEY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 1",
-   "lat": 34.998436,
-   "lon": -85.19185,
    "units": 1,
    "stacked": false,
    "notable": false
