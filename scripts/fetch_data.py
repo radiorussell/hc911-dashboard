@@ -423,7 +423,7 @@ GDOT_DMA_COUNTIES = ["Catoosa", "Walker", "Dade", "Whitfield", "Murray", "Chatto
 # check enough to hide dead nodes. A full sweep is ~250 requests, so the result is cached
 # in data/camera-health.json and refreshed a few times a day, not on every 5-minute run.
 CAMERA_PLACEHOLDER_BYTES = 21107
-CAMERA_HEALTH_HOURS = 6
+CAMERA_HEALTH_HOURS = 1
 
 TDOT_CENTER = (35.0456, -85.3097)          # downtown Chattanooga
 TDOT_RADIUS_MI = 35                        # keeps I-24/I-75 approaches in frame
@@ -539,8 +539,8 @@ def camera_health(cameras: list[dict], out_dir: str) -> set[str]:
     """Ids of cameras whose snapshot is the shared placeholder image.
 
     Cached in data/camera-health.json: the sweep is ~250 HEAD requests, far too much to
-    repeat every five minutes, but a camera that dies mid-window simply shows the
-    placeholder until the next sweep, which the UI already tolerates.
+    repeat every five minutes. Hourly keeps the dead count close to reality (~4 requests a
+    minute on average) while a camera that dies mid-hour waits for the next sweep.
     """
     path = os.path.join(out_dir, "camera-health.json")
     state = {}

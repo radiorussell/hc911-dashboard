@@ -122,7 +122,7 @@ under `assets/` and `data/` is copied wholesale and needs no change.
   snapshots only, so GA nodes open as stills.
 - **Dead-camera filter:** both states serve the same 21,107-byte placeholder PNG when an encoder is
   down, so one `HEAD` + Content-Length check catches both. The sweep is ~250 requests, so it is
-  cached in `data/camera-health.json` and refreshed every `CAMERA_HEALTH_HOURS` (6) rather than
+  cached in `data/camera-health.json` and refreshed every `CAMERA_HEALTH_HOURS` (1) rather than
   every cycle — a camera that dies between sweeps shows the placeholder until the next one.
 - The traffic page renders two camera boxes (Tennessee above Georgia); each collapses via its
   header button and remembers that in localStorage.
