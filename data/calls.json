@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T09:55:38+00:00",
+ "updated": "2026-11-23T10:00:41+00:00",
  "counts": {
-  "year": 370881,
-  "upstream_day": 79,
-  "day": 108,
+  "year": 370884,
+  "upstream_day": 82,
+  "day": 111,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9824668",
+   "sequence": "2026-11-32309",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T09:55:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1362 PASSENGER ST",
+   "cross": "CHOO CHOO AVE/E 14TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 2",
+   "lat": 35.035948,
+   "lon": -85.303685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824669",
+   "sequence": "2026-11-32310",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T09:55:53Z",
+   "created": "2026-11-23T09:55:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1362 PASSENGER ST",
+   "cross": "CHOO CHOO AVE/E 14TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 1",
+   "lat": 35.035948,
+   "lon": -85.303685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824667",
+   "sequence": "2026-11-32308",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T09:55:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1362 PASSENGER ST",
+   "cross": "CHOO CHOO AVE/E 14TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.035948,
+   "lon": -85.303685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824666",
    "sequence": "2026-11-32307",
@@ -35,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9824664",
-   "sequence": "2026-11-32306",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T09:42:44Z",
-   "created": "2026-11-23T09:33:12Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1518 STORYVALE LN",
-   "cross": "HALE RD/No Cross Street",
-   "city": "LAKESITE",
-   "zone": "DALLAS BAY FD 2 LAKESITE",
-   "priority": "PRI 2",
-   "lat": 35.203211,
-   "lon": -85.166873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824661",
    "sequence": "2026-11-32305",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T09:47:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T09:58:11Z",
    "created": "2026-11-23T09:32:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
