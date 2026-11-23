@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T16:05:39+00:00",
+ "updated": "2026-11-23T16:10:45+00:00",
  "counts": {
   "year": 371171,
   "upstream_day": 369,
-  "day": 518,
+  "day": 531,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9825285",
+   "sequence": "2026-11-32730",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:11:14Z",
+   "created": "2026-11-23T16:11:14Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "961 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 34.99816,
+   "lon": -85.221096,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825283",
+   "sequence": "2026-11-32727",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T16:10:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5229 SLAYTON AVE",
+   "cross": "ASCENSION ST/HALSEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 1",
+   "lat": 34.989656,
+   "lon": -85.320801,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825280",
+   "sequence": "2026-11-32729",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:11:14Z",
+   "created": "2026-11-23T16:09:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "961 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.99816,
+   "lon": -85.221096,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825278",
+   "sequence": "2026-11-32724",
+   "type": "Narcotics Violation",
+   "status": "Enroute",
+   "status_at": "2026-11-23T16:08:25Z",
+   "created": "2026-11-23T16:08:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2015 OOLTEWAH RINGGOLD RD",
+   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.005729,
+   "lon": -85.096785,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825274",
+   "sequence": "2026-11-32725",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:08:48Z",
+   "created": "2026-11-23T16:07:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1180 - 1329 INTERSTATE 75 NB",
+   "cross": "EXIT 11 ON RAMP NB/INTERSTATE 75 SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.088396,
+   "lon": -85.062778,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825266",
    "sequence": "2026-11-32717",
@@ -82,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.013805,
    "lon": -85.246459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825246",
-   "sequence": "2026-11-32707",
-   "type": "Child Found",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:54:56Z",
-   "created": "2026-11-23T15:53:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4319 HOWELL RD",
-   "cross": "TALLEY RD/WOODMORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.032335,
-   "lon": -85.227359,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +376,8 @@
    "id": "9825201",
    "sequence": "2026-11-32679",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T16:00:33Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T16:10:32Z",
    "created": "2026-11-23T15:39:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,37 +581,11 @@
    "notable": false
   },
   {
-   "id": "9825151",
-   "sequence": "2026-11-32647",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:27:51Z",
-   "created": "2026-11-23T15:27:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5840 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.109283,
-   "lon": -85.212678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825150",
    "sequence": "2026-11-32646",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:39:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T16:10:43Z",
    "created": "2026-11-23T15:26:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -607,6 +685,32 @@
    "notable": false
   },
   {
+   "id": "9825098",
+   "sequence": "2026-11-32613",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:09:07Z",
+   "created": "2026-11-23T15:02:26Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "915 S SEMINOLE DR",
+   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.009331,
+   "lon": -85.265439,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825094",
    "sequence": "2026-11-32605",
    "type": "EMS CALL",
@@ -685,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9824995",
-   "sequence": "2026-11-32532",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:10:51Z",
-   "created": "2026-11-23T14:10:51Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2015 OOLTEWAH RINGGOLD RD",
-   "cross": "FROST CREEK DR/LESLIE SANDIDGE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 2",
-   "lat": 35.005729,
-   "lon": -85.096785,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824988",
    "sequence": "2026-11-32529",
    "type": "Assault EMS Needed",
@@ -784,32 +862,6 @@
    "priority": "PRI 3",
    "lat": 35.043228,
    "lon": -85.29587,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824954",
-   "sequence": "2026-11-32498",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:41:59Z",
-   "created": "2026-11-23T13:53:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7469 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.077075,
-   "lon": -85.130623,
    "units": 1,
    "stacked": false,
    "notable": false
