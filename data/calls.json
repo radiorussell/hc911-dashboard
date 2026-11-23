@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T22:20:39+00:00",
+ "updated": "2026-11-23T22:25:37+00:00",
  "counts": {
-  "year": 371588,
-  "upstream_day": 785,
-  "day": 1088,
+  "year": 371596,
+  "upstream_day": 793,
+  "day": 1092,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9826067",
+   "sequence": "2026-11-33290",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:22:04Z",
+   "created": "2026-11-23T22:22:04Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "12129 BACK VALLEY RD",
+   "cross": "RATLEDGE RD/CROCKETT LN",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.312921,
+   "lon": -85.159401,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826068",
+   "sequence": "2026-11-33291",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:22:04Z",
+   "created": "2026-11-23T22:22:04Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "12129 BACK VALLEY RD",
+   "cross": "RATLEDGE RD/CROCKETT LN",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.312921,
+   "lon": -85.159401,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826066",
+   "sequence": "2026-11-33289",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:21:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "12129 BACK VALLEY RD",
+   "cross": "RATLEDGE RD/CROCKETT LN",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 02 SD B",
+   "priority": "PRI 1",
+   "lat": 35.312921,
+   "lon": -85.159401,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826064",
    "sequence": "2026-11-33287",
@@ -113,63 +191,11 @@
    "notable": true
   },
   {
-   "id": "9826052",
-   "sequence": "2026-11-33276",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:06:42Z",
-   "created": "2026-11-23T22:06:42Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3901 DAYTON BLVD",
-   "cross": "UNAKA ST/MORRISON SPRINGS RD",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.119695,
-   "lon": -85.291474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826053",
-   "sequence": "2026-11-33277",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:11:35Z",
-   "created": "2026-11-23T22:06:42Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3901 DAYTON BLVD",
-   "cross": "UNAKA ST/MORRISON SPRINGS RD",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 2",
-   "lat": 35.119695,
-   "lon": -85.291474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826051",
    "sequence": "2026-11-33275",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:13:10Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T22:23:06Z",
    "created": "2026-11-23T22:06:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.131738,
    "lon": -85.192106,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826028",
-   "sequence": "2026-11-33261",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:57:54Z",
-   "created": "2026-11-23T21:48:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5110 - 5149 HIGHWAY 153",
-   "cross": "DUPONT PKWY SB/HAMILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.121501,
-   "lon": -85.238265,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -472,32 +472,6 @@
    "priority": "PRI 3",
    "lat": 35.061472,
    "lon": -85.134791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825919",
-   "sequence": "2026-11-33181",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T22:05:13Z",
-   "created": "2026-11-23T21:04:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1819 OAKDALE RD",
-   "cross": "MAY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.363789,
-   "lon": -85.063726,
    "units": 1,
    "stacked": false,
    "notable": false
