@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T05:40:37+00:00",
+ "updated": "2026-11-23T05:45:37+00:00",
  "counts": {
   "year": 370822,
   "upstream_day": 20,
   "day": 23,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9824557",
    "sequence": "2026-11-32221",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:45:14Z",
    "created": "2026-11-23T05:29:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,84 +243,6 @@
    "notable": false
   },
   {
-   "id": "9824541",
-   "sequence": "2026-11-32205",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:20:26Z",
-   "created": "2026-11-23T05:10:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1444 MARKET ST",
-   "cross": "W 14TH ST/STATION ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.03685,
-   "lon": -85.306814,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824540",
-   "sequence": "2026-11-32204",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:18:17Z",
-   "created": "2026-11-23T05:07:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 2",
-   "lat": 35.034727,
-   "lon": -85.26761,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824537",
-   "sequence": "2026-11-32201",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:05:33Z",
-   "created": "2026-11-23T05:05:33Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "113 SANTEELAH ST",
-   "cross": "DAYTON BLVD/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.127406,
-   "lon": -85.281999,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824538",
    "sequence": "2026-11-32202",
    "type": "EMS CALL",
@@ -350,8 +272,8 @@
    "id": "9824536",
    "sequence": "2026-11-32200",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:18:51Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T05:43:01Z",
    "created": "2026-11-23T05:05:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +298,8 @@
    "id": "9824530",
    "sequence": "2026-11-32197",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T05:36:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T05:40:37Z",
    "created": "2026-11-23T04:59:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.04586,
    "lon": -85.233636,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824439",
-   "sequence": "2026-11-32125",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T04:21:24Z",
-   "created": "2026-11-23T03:37:54Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4208 WEBB RD",
-   "cross": "HONOR CIR/PRESERVE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.096361,
-   "lon": -85.181717,
    "units": 1,
    "stacked": false,
    "notable": false
