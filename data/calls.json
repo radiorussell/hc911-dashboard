@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-23T22:50:38+00:00",
+ "updated": "2026-11-23T22:55:37+00:00",
  "counts": {
-  "year": 371616,
-  "upstream_day": 813,
-  "day": 1133,
+  "year": 371629,
+  "upstream_day": 826,
+  "day": 1136,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 31,
  "incidents": [
   {
-   "id": "9826125",
-   "sequence": "2026-11-33332",
-   "type": "Unknown 911",
+   "id": "9826131",
+   "sequence": "2026-11-33335",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-23T22:50:15Z",
-   "created": "2026-11-23T22:50:05Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "status_at": "2026-11-23T22:52:21Z",
+   "created": "2026-11-23T22:52:21Z",
+   "jurisdiction": "East Ridge FD",
    "agencies": [
-    "Soddy Daisy PD"
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "406 DUNLAP AVE",
+   "cross": "CASTLE AVE/WESTONIA DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.016346,
+   "lon": -85.260924,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826130",
+   "sequence": "2026-11-33333",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-23T22:52:11Z",
+   "created": "2026-11-23T22:52:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "511 - 599 SPRING CREST DR",
-   "cross": "MEADOW CREST LN/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
+   "address": "4417 HIGHWAY 58",
+   "cross": "MURRAY HILLS DR/SHELBORNE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
    "priority": "PRI 3",
-   "lat": 35.20177,
-   "lon": -85.21517,
+   "lat": 35.084699,
+   "lon": -85.202247,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826128",
+   "sequence": "2026-11-33334",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:51:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "406 DUNLAP AVE",
+   "cross": "CASTLE AVE/WESTONIA DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.016346,
+   "lon": -85.260924,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +90,8 @@
    "id": "9826123",
    "sequence": "2026-11-33331",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:51:19Z",
    "created": "2026-11-23T22:47:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9826113",
    "sequence": "2026-11-33325",
    "type": "Missing Juv Not 21",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:45:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:44:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9826115",
    "sequence": "2026-11-33323",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:53:18Z",
    "created": "2026-11-23T22:44:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9826110",
    "sequence": "2026-11-33321",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:50:43Z",
    "created": "2026-11-23T22:44:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,63 +477,11 @@
    "notable": true
   },
   {
-   "id": "9826067",
-   "sequence": "2026-11-33290",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:22:04Z",
-   "created": "2026-11-23T22:22:04Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "12129 BACK VALLEY RD",
-   "cross": "RATLEDGE RD/CROCKETT LN",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.312921,
-   "lon": -85.159401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826068",
-   "sequence": "2026-11-33291",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:22:04Z",
-   "created": "2026-11-23T22:22:04Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "12129 BACK VALLEY RD",
-   "cross": "RATLEDGE RD/CROCKETT LN",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 2",
-   "lat": 35.312921,
-   "lon": -85.159401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826066",
    "sequence": "2026-11-33289",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:35:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T22:51:41Z",
    "created": "2026-11-23T22:21:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -558,8 +558,8 @@
    "id": "9826040",
    "sequence": "2026-11-33268",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:53:37Z",
    "created": "2026-11-23T21:59:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -628,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.238079,
    "lon": -85.17548,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825966",
-   "sequence": "2026-11-33217",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T22:26:33Z",
-   "created": "2026-11-23T21:28:11Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5708 SUNBURST CT",
-   "cross": "EDGMON RD/No Cross Street",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.063726,
-   "lon": -85.034592,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -766,8 +740,8 @@
    "id": "9825688",
    "sequence": "2026-11-33018",
    "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T19:11:05Z",
    "created": "2026-11-23T19:11:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -785,7 +759,7 @@
    "lat": 35.084696,
    "lon": -85.203333,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
