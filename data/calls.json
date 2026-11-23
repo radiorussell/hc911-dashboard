@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T06:20:40+00:00",
+ "updated": "2026-11-23T06:25:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 48,
+  "day": 54,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9824596",
+   "sequence": "2026-11-32252",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T06:24:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "600 ASHLAND TER",
+   "cross": "THRUSHWOOD DR/SANDERS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.11718,
+   "lon": -85.279285,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824597",
+   "sequence": "2026-11-32253",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T06:24:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "600 ASHLAND TER",
+   "cross": "THRUSHWOOD DR/SANDERS DR",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.11718,
+   "lon": -85.279285,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824595",
+   "sequence": "2026-11-32251",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T06:23:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "600 ASHLAND TER",
+   "cross": "THRUSHWOOD DR/SANDERS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.11718,
+   "lon": -85.279285,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824582",
    "sequence": "2026-11-32247",
@@ -220,8 +298,8 @@
    "id": "9824557",
    "sequence": "2026-11-32221",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:45:14Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T06:21:47Z",
    "created": "2026-11-23T05:29:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -236,32 +314,6 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.039254,
-   "lon": -85.311997,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824558",
-   "sequence": "2026-11-32222",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:29:21Z",
-   "created": "2026-11-23T05:29:21Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1400 CHESTNUT ST",
-   "cross": "W 14TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 2",
    "lat": 35.039254,
    "lon": -85.311997,
    "units": 1,
@@ -342,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.12735,
    "lon": -85.28209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824515",
-   "sequence": "2026-11-32183",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T05:19:46Z",
-   "created": "2026-11-23T04:43:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2608 E 37TH ST",
-   "cross": "7TH AVE/10TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 34.999303,
-   "lon": -85.283839,
    "units": 1,
    "stacked": false,
    "notable": false
