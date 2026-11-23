@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T02:25:37+00:00",
+ "updated": "2026-11-23T02:30:42+00:00",
  "counts": {
-  "year": 370668,
+  "year": 370680,
   "upstream_day": 0,
-  "day": 1023,
+  "day": 1033,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 22,
  "incidents": [
   {
-   "id": "9824321",
-   "sequence": "2026-11-32041",
-   "type": "Unknown 911",
+   "id": "9824333",
+   "sequence": "2026-11-32051",
+   "type": "Supplemental Reports",
    "status": "Queued",
-   "status_at": "2026-11-23T02:24:46Z",
-   "created": "2026-11-23T02:24:25Z",
+   "status_at": "2026-11-23T02:30:28Z",
+   "created": "2026-11-23T02:30:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,195 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2000 E 23RD ST",
-   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
+   "address": "255 N HAWTHORNE ST",
+   "cross": "IVY ST/E 5TH ST",
    "city": "CHATTANOOGA",
-   "zone": "B6A",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.039348,
+   "lon": -85.274831,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824331",
+   "sequence": "2026-11-32049",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:29:46Z",
+   "created": "2026-11-23T02:29:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "418 CUMBERLAND ST",
+   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
    "priority": "PRI 3",
-   "lat": 35.01856,
-   "lon": -85.28253,
+   "lat": 35.044804,
+   "lon": -85.28,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824332",
+   "sequence": "2026-11-32050",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:29:46Z",
+   "created": "2026-11-23T02:29:46Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "418 CUMBERLAND ST",
+   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.044804,
+   "lon": -85.28,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824330",
+   "sequence": "2026-11-32048",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T02:29:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "418 CUMBERLAND ST",
+   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.044804,
+   "lon": -85.28,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824329",
+   "sequence": "2026-11-32047",
+   "type": "Disorder Weapon Involve",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:29:42Z",
+   "created": "2026-11-23T02:29:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "504 S WATKINS ST",
+   "cross": "CHAMBERLAIN AVE/BAILEY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.031464,
+   "lon": -85.268223,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824328",
+   "sequence": "2026-11-32046",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:28:18Z",
+   "created": "2026-11-23T02:28:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1201 DUNCAN AVE",
+   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.038712,
+   "lon": -85.284369,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824327",
+   "sequence": "2026-11-32045",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:27:33Z",
+   "created": "2026-11-23T02:27:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "413 SPRING ST",
+   "cross": "HARPER ST/DAVENPORT ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 4",
+   "lat": 35.067898,
+   "lon": -85.314482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824326",
+   "sequence": "2026-11-32044",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T02:27:26Z",
+   "created": "2026-11-23T02:27:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1005 GADD RD",
+   "cross": "NORCROSS RD/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.141796,
+   "lon": -85.251508,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +220,8 @@
    "id": "9824320",
    "sequence": "2026-11-32039",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:24:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T02:24:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -64,8 +246,8 @@
    "id": "9824317",
    "sequence": "2026-11-32040",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:24:42Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T02:24:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +298,8 @@
    "id": "9824305",
    "sequence": "2026-11-32032",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T02:17:06Z",
    "created": "2026-11-23T02:16:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -135,67 +317,15 @@
    "lat": 35.029297,
    "lon": -85.268364,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824296",
-   "sequence": "2026-11-32024",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:59:35Z",
-   "created": "2026-11-23T01:59:35Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9102 RIVER OAKS RD",
-   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.11581,
-   "lon": -85.144482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824297",
-   "sequence": "2026-11-32025",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:59:35Z",
-   "created": "2026-11-23T01:59:35Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9102 RIVER OAKS RD",
-   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 2",
-   "lat": 35.11581,
-   "lon": -85.144482,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9824295",
    "sequence": "2026-11-32023",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T02:13:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T02:29:43Z",
    "created": "2026-11-23T01:59:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 35.061233,
    "lon": -85.131847,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824244",
-   "sequence": "2026-11-31983",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-23T02:15:47Z",
-   "created": "2026-11-23T01:27:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CHAMPION RD / HIGHWAY 58",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.099874,
-   "lon": -85.169696,
    "units": 1,
    "stacked": false,
    "notable": false
