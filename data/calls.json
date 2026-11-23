@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T11:55:38+00:00",
+ "updated": "2026-11-23T12:00:40+00:00",
  "counts": {
-  "year": 370928,
-  "upstream_day": 126,
-  "day": 174,
+  "year": 370933,
+  "upstream_day": 131,
+  "day": 177,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 13,
  "incidents": [
   {
-   "id": "9824753",
-   "sequence": "2026-11-32373",
+   "id": "9824759",
+   "sequence": "2026-11-32376",
    "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-23T11:50:51Z",
-   "created": "2026-11-23T11:50:48Z",
+   "status_at": "2026-11-23T11:56:58Z",
+   "created": "2026-11-23T11:56:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "350 LOOKOUT HIGH ST",
-   "cross": "No Cross Street/ADKINS RD",
+   "address": "1803 AVALON AVE",
+   "cross": "CRESTWOOD DR/ALTAMONT RD",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
+   "zone": "A4 A",
    "priority": "PRI 3",
-   "lat": 35.033462,
-   "lon": -85.36555,
+   "lat": 35.085817,
+   "lon": -85.29536,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,58 +87,6 @@
    "notable": false
   },
   {
-   "id": "9824745",
-   "sequence": "2026-11-32367",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-23T11:53:51Z",
-   "created": "2026-11-23T11:45:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1907 STUART ST",
-   "cross": "SHOLAR AVE/ROANOKE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.073223,
-   "lon": -85.253458,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824747",
-   "sequence": "2026-11-32366",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T11:45:09Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10923 DOLLY POND RD",
-   "cross": "WELDON LN/HINSHAW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 5",
-   "priority": "PRI 1",
-   "lat": 35.24715,
-   "lon": -85.035443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824746",
    "sequence": "2026-11-32365",
    "type": "EMS CALL",
@@ -168,8 +116,8 @@
    "id": "9824744",
    "sequence": "2026-11-32364",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T11:56:25Z",
    "created": "2026-11-23T11:44:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9824720",
-   "sequence": "2026-11-32350",
-   "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-23T11:24:49Z",
-   "created": "2026-11-23T11:24:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1309 MAYFIELD LN",
-   "cross": "AUSTIN RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.141064,
-   "lon": -85.240905,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824719",
    "sequence": "2026-11-32351",
    "type": "Disorder",
@@ -272,8 +194,8 @@
    "id": "9824709",
    "sequence": "2026-11-32343",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T11:45:56Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T11:56:24Z",
    "created": "2026-11-23T11:18:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.050831,
    "lon": -85.133053,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824707",
-   "sequence": "2026-11-32340",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T11:17:16Z",
-   "created": "2026-11-23T11:17:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1040 LOWER BROW RD",
-   "cross": "SUNSET DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 1 C",
-   "priority": "PRI 3",
-   "lat": 35.108271,
-   "lon": -85.344519,
    "units": 1,
    "stacked": false,
    "notable": false
