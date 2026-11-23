@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T09:05:38+00:00",
+ "updated": "2026-11-23T09:10:39+00:00",
  "counts": {
-  "year": 370874,
-  "upstream_day": 72,
-  "day": 98,
+  "year": 370877,
+  "upstream_day": 75,
+  "day": 100,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9824652",
+   "sequence": "2026-11-32298",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T09:06:01Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2900 E 46TH ST",
+   "cross": "12TH AVE/13TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.989149,
+   "lon": -85.286136,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824653",
+   "sequence": "2026-11-32299",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T09:06:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2900 E 46TH ST",
+   "cross": "12TH AVE/13TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "901",
+   "priority": "PRI 1",
+   "lat": 34.989149,
+   "lon": -85.286136,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824651",
    "sequence": "2026-11-32297",
-   "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-23T09:03:45Z",
+   "type": "Backup EMS Unit",
+   "status": "On Scene",
+   "status_at": "2026-11-23T09:10:35Z",
    "created": "2026-11-23T09:03:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +79,7 @@
    "cross": "12TH AVE/13TH AVE",
    "city": "CHATTANOOGA",
    "zone": "B9",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 34.989149,
    "lon": -85.286136,
    "units": 1,
@@ -38,8 +90,8 @@
    "id": "9824641",
    "sequence": "2026-11-32290",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T08:58:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T09:06:10Z",
    "created": "2026-11-23T08:33:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,6 +134,32 @@
    "priority": "PRI 1",
    "lat": 35.050426,
    "lon": -85.260972,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824636",
+   "sequence": "2026-11-32286",
+   "type": "Property",
+   "status": "On Scene",
+   "status_at": "2026-11-23T08:27:42Z",
+   "created": "2026-11-23T08:24:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1009 TAFT AVE",
+   "cross": "No Cross Street/CANNON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.023403,
+   "lon": -85.298005,
    "units": 1,
    "stacked": false,
    "notable": false
