@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T21:40:41+00:00",
+ "updated": "2026-11-23T21:45:39+00:00",
  "counts": {
-  "year": 371541,
-  "upstream_day": 738,
-  "day": 1049,
+  "year": 371565,
+  "upstream_day": 762,
+  "day": 1053,
   "day_basis": "midnight"
  },
- "raw_rows": 49,
+ "raw_rows": 42,
  "incidents": [
+  {
+   "id": "9826018",
+   "sequence": "2026-11-33251",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:44:34Z",
+   "created": "2026-11-23T21:44:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4147 MOUNTAIN CREEK RD",
+   "cross": "MORRISON SPRINGS RD/READS LAKE RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.13369,
+   "lon": -85.306777,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826016",
+   "sequence": "2026-11-33252",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:44:36Z",
+   "created": "2026-11-23T21:44:27Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2206 CORRAL RD",
+   "cross": "WALKER RD/GRAY FRYAR RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.200471,
+   "lon": -85.320149,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826010",
    "sequence": "2026-11-33247",
@@ -90,8 +142,8 @@
    "id": "9826001",
    "sequence": "2026-11-33244",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:41:14Z",
    "created": "2026-11-23T21:36:48Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9826000",
    "sequence": "2026-11-33243",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:41:33Z",
    "created": "2026-11-23T21:36:48Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9825997",
    "sequence": "2026-11-33242",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:44:01Z",
    "created": "2026-11-23T21:36:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,141 +295,11 @@
    "notable": false
   },
   {
-   "id": "9825994",
-   "sequence": "2026-11-33237",
-   "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:36:00Z",
-   "created": "2026-11-23T21:36:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 3RD ST / ROBERTS ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 2",
-   "lat": 35.041701,
-   "lon": -85.274185,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825992",
-   "sequence": "2026-11-33234",
-   "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:35:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "DERBY ST / E 3RD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.03807,
-   "lon": -85.263864,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825993",
-   "sequence": "2026-11-33235",
-   "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:40:40Z",
-   "created": "2026-11-23T21:35:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "DERBY ST / E 3RD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 1",
-   "lat": 35.03807,
-   "lon": -85.263864,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825988",
-   "sequence": "2026-11-33236",
-   "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:36:00Z",
-   "created": "2026-11-23T21:35:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "E 3RD ST / ROBERTS ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "501",
-   "priority": "PRI 1",
-   "lat": 35.041701,
-   "lon": -85.274185,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825985",
-   "sequence": "2026-11-33233",
-   "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:35:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DERBY ST / E 3RD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 1",
-   "lat": 35.03807,
-   "lon": -85.263864,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825986",
    "sequence": "2026-11-33238",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:44:26Z",
    "created": "2026-11-23T21:35:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -403,7 +325,7 @@
    "sequence": "2026-11-33230",
    "type": "Vehicle Fire",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T21:45:05Z",
    "created": "2026-11-23T21:35:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -449,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9825973",
-   "sequence": "2026-11-33224",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:35:08Z",
-   "created": "2026-11-23T21:30:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2464 AMNICOLA HWY",
-   "cross": "LATTA ST/APPLING ST",
-   "city": "CHATTANOOGA",
-   "zone": "1003",
-   "priority": "PRI 1",
-   "lat": 35.071719,
-   "lon": -85.268694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9825970",
@@ -662,8 +558,8 @@
    "id": "9825962",
    "sequence": "2026-11-33214",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:26:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:25:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -715,7 +611,7 @@
    "sequence": "2026-11-33210",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T21:40:59Z",
    "created": "2026-11-23T21:22:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -725,13 +621,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4392 - 4699 AMNICOLA HWY",
+   "address": "4698 AMNICOLA HWY",
    "cross": "S CREEK RD/S ACCESS RD",
    "city": "CHATTANOOGA",
    "zone": "B1 A",
    "priority": "PRI 3",
-   "lat": 35.096523,
-   "lon": -85.240256,
+   "lat": 35.089081,
+   "lon": -85.219825,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -841,63 +737,11 @@
    "notable": false
   },
   {
-   "id": "9825933",
-   "sequence": "2026-11-33193",
-   "type": "Wires Down",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:14:32Z",
-   "created": "2026-11-23T21:09:02Z",
-   "jurisdiction": "Sequoyah VFD",
-   "agencies": [
-    "Sequoyah VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "THATCHER RD / HIXSON PIKE",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "SEQUOYAH FD",
-   "priority": "PRI 2",
-   "lat": 35.252851,
-   "lon": -85.119412,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825922",
-   "sequence": "2026-11-33185",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:04:45Z",
-   "created": "2026-11-23T21:04:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "425 CUMBERLAND ST",
-   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 2",
-   "lat": 35.045305,
-   "lon": -85.281043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825919",
    "sequence": "2026-11-33181",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:20:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T21:40:32Z",
    "created": "2026-11-23T21:04:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -922,8 +766,8 @@
    "id": "9825918",
    "sequence": "2026-11-33184",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:16:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T21:40:47Z",
    "created": "2026-11-23T21:03:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -948,8 +792,8 @@
    "id": "9825901",
    "sequence": "2026-11-33166",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T21:21:36Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T21:45:25Z",
    "created": "2026-11-23T20:51:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1174,32 +1018,6 @@
    "priority": "PRI 4",
    "lat": 35.045288,
    "lon": -85.132457,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825711",
-   "sequence": "2026-11-33032",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:30:10Z",
-   "created": "2026-11-23T19:20:02Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "825 LOVELADY RD",
-   "cross": "BRICKHILL LN/LOVELL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.251563,
-   "lon": -85.159598,
    "units": 1,
    "stacked": false,
    "notable": false
