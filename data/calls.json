@@ -1,46 +1,98 @@
 {
- "updated": "2026-11-23T01:55:36+00:00",
+ "updated": "2026-11-23T02:00:36+00:00",
  "counts": {
-  "year": 370646,
+  "year": 370657,
   "upstream_day": 0,
-  "day": 999,
+  "day": 1007,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
   {
-   "id": "9824288",
-   "sequence": "2026-11-32017",
-   "type": "Check For A Hazard",
+   "id": "9824296",
+   "sequence": "2026-11-32024",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-23T01:55:05Z",
-   "created": "2026-11-23T01:55:02Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-23T01:59:35Z",
+   "created": "2026-11-23T01:59:35Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "622 - 999 BOY SCOUT RD",
-   "cross": "ECHO GLEN DR/SANDSWITCH RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.182165,
-   "lon": -85.244988,
+   "address": "9102 RIVER OAKS RD",
+   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.11581,
+   "lon": -85.144482,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9824282",
-   "sequence": "2026-11-32012",
-   "type": "Backup Fire Unit",
+   "id": "9824297",
+   "sequence": "2026-11-32025",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-23T01:51:17Z",
-   "created": "2026-11-23T01:51:17Z",
+   "status_at": "2026-11-23T01:59:35Z",
+   "created": "2026-11-23T01:59:35Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9102 RIVER OAKS RD",
+   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.11581,
+   "lon": -85.144482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824295",
+   "sequence": "2026-11-32023",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:59:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9102 RIVER OAKS RD",
+   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.11581,
+   "lon": -85.144482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824293",
+   "sequence": "2026-11-32019",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:57:18Z",
+   "created": "2026-11-23T01:56:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +101,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "5512 MILLER DR",
-   "cross": "N TERRACE/EASTGATE LOOP",
+   "address": "17940 - 18029 INTERSTATE 24 WB",
+   "cross": "EXIT 178 OFF RAMP WB/EXIT 180B ON RAMP WB",
    "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 2",
-   "lat": 35.005547,
-   "lon": -85.217774,
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.026943,
+   "lon": -85.304979,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824291",
+   "sequence": "2026-11-32021",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:57:41Z",
+   "created": "2026-11-23T01:56:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7504 OLD LEE HWY",
+   "cross": "EXIT 7B ON RAMP NB/STONEHENGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.062227,
+   "lon": -85.125807,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824290",
+   "sequence": "2026-11-32020",
+   "type": "Assault Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:57:20Z",
+   "created": "2026-11-23T01:55:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7402 LEE HWY",
+   "cross": "COURAGE WAY/SILVERDALE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.055087,
+   "lon": -85.143332,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -143,7 +247,7 @@
    "sequence": "2026-11-32004",
    "type": "Intoxicated Person",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T01:56:25Z",
    "created": "2026-11-23T01:46:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +272,8 @@
    "id": "9824269",
    "sequence": "2026-11-32003",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:58:25Z",
    "created": "2026-11-23T01:45:25Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -186,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.026499,
    "lon": -85.311682,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9824267",
-   "sequence": "2026-11-32001",
-   "type": "Brush Fire",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:45:05Z",
-   "created": "2026-11-23T01:45:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5512 MILLER DR",
-   "cross": "N TERRACE/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.005547,
-   "lon": -85.217774,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -246,8 +324,8 @@
    "id": "9824264",
    "sequence": "2026-11-31999",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:58:59Z",
    "created": "2026-11-23T01:44:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -299,7 +377,7 @@
    "sequence": "2026-11-31996",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T01:59:18Z",
    "created": "2026-11-23T01:39:26Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -449,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9824236",
-   "sequence": "2026-11-31975",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:24:57Z",
-   "created": "2026-11-23T01:23:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1227 E MAIN ST",
-   "cross": "GULF ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 1",
-   "lat": 35.029459,
-   "lon": -85.288603,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9824207",
