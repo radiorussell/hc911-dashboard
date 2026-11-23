@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-23T06:00:37+00:00",
+ "updated": "2026-11-23T06:05:41+00:00",
  "counts": {
   "year": 370831,
   "upstream_day": 29,
   "day": 41,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9824577",
    "sequence": "2026-11-32240",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:59:17Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T06:02:37Z",
    "created": "2026-11-23T05:58:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9824574",
    "sequence": "2026-11-32238",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:54:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T05:53:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -394,58 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.12735,
    "lon": -85.28209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824530",
-   "sequence": "2026-11-32197",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T05:40:37Z",
-   "created": "2026-11-23T04:59:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "DODDS AVE / E MAIN ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.022189,
-   "lon": -85.269488,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824524",
-   "sequence": "2026-11-32191",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-23T05:03:55Z",
-   "created": "2026-11-23T04:51:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3614 SUMTER AVE",
-   "cross": "NIMITZ ST/DOOLITTLE ST",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.058244,
-   "lon": -85.228422,
    "units": 1,
    "stacked": false,
    "notable": false
