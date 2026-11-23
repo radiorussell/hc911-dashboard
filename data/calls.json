@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T16:55:38+00:00",
+ "updated": "2026-11-23T17:00:38+00:00",
  "counts": {
   "year": 371221,
   "upstream_day": 419,
-  "day": 604,
+  "day": 608,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9825388",
+   "sequence": "2026-11-32807",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:59:46Z",
+   "created": "2026-11-23T16:59:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3001 HAMILL RD",
+   "cross": "RIDGEVIEW RD/CREEKSIDE PRESERVE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1101",
+   "priority": "PRI 1",
+   "lat": 35.13146,
+   "lon": -85.214597,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825382",
    "sequence": "2026-11-32803",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-23T16:54:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T16:54:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9825376",
    "sequence": "2026-11-32799",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:57:14Z",
    "created": "2026-11-23T16:51:22Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.075218,
    "lon": -85.32007,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825370",
-   "sequence": "2026-11-32794",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T16:48:43Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8843 FOREST CREEK LN",
-   "cross": "No Cross Street/SNOW HILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 1",
-   "lat": 35.100048,
-   "lon": -85.066913,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -347,37 +347,11 @@
    "notable": true
   },
   {
-   "id": "9825340",
-   "sequence": "2026-11-32771",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-23T16:44:23Z",
-   "created": "2026-11-23T16:33:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5560 HIGHWAY 153",
-   "cross": "O HENRY DR/WINDING LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.147361,
-   "lon": -85.249259,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825327",
    "sequence": "2026-11-32762",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T16:40:39Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T16:58:32Z",
    "created": "2026-11-23T16:31:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -891,32 +865,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9824958",
-   "sequence": "2026-11-32505",
-   "type": "Sex Offense",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:19:56Z",
-   "created": "2026-11-23T13:54:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "800 MCCALLIE AVE",
-   "cross": "PALMETTO ST/MAGNOLIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.043228,
-   "lon": -85.29587,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9824938",
