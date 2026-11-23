@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T22:15:38+00:00",
+ "updated": "2026-11-23T22:20:39+00:00",
  "counts": {
   "year": 371588,
   "upstream_day": 785,
-  "day": 1083,
+  "day": 1088,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9826064",
+   "sequence": "2026-11-33287",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:17:39Z",
+   "created": "2026-11-23T22:17:39Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7642 GANN RD",
+   "cross": "IRONGATE DR/N DENT RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.18911,
+   "lon": -85.201964,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826063",
+   "sequence": "2026-11-33286",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:17:15Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7642 GANN RD",
+   "cross": "IRONGATE DR/N DENT RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.18911,
+   "lon": -85.201964,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826047",
    "sequence": "2026-11-33282",
@@ -38,8 +90,8 @@
    "id": "9826057",
    "sequence": "2026-11-33281",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:11:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:08:49Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -134,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.119695,
    "lon": -85.291474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826045",
-   "sequence": "2026-11-33272",
-   "type": "Alarm Distress",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:11:29Z",
-   "created": "2026-11-23T22:03:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "611 W MANNING ST",
-   "cross": "WINCHESTER ST/RIVERSIDE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 2",
-   "lat": 35.066153,
-   "lon": -85.31762,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9825959",
-   "sequence": "2026-11-33210",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-23T21:40:59Z",
-   "created": "2026-11-23T21:22:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4698 AMNICOLA HWY",
-   "cross": "S CREEK RD/S ACCESS RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.089081,
-   "lon": -85.219825,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825939",
    "sequence": "2026-11-33199",
    "type": "Harrassing Threats",
@@ -472,32 +472,6 @@
    "priority": "PRI 3",
    "lat": 35.061472,
    "lon": -85.134791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825936",
-   "sequence": "2026-11-33197",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:10:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "109 VALLEYBROOK RD",
-   "cross": "HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.151675,
-   "lon": -85.211332,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -550,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.045305,
    "lon": -85.281043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825901",
-   "sequence": "2026-11-33166",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T21:45:25Z",
-   "created": "2026-11-23T20:51:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6279 PRICKLY LOOP",
-   "cross": "BRAMBLE BERRY LN/THISTLE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.10494,
-   "lon": -85.06323,
    "units": 1,
    "stacked": false,
    "notable": false
