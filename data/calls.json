@@ -1,20 +1,72 @@
 {
- "updated": "2026-11-23T20:50:38+00:00",
+ "updated": "2026-11-23T20:55:37+00:00",
  "counts": {
-  "year": 371487,
-  "upstream_day": 684,
-  "day": 965,
+  "year": 371497,
+  "upstream_day": 694,
+  "day": 971,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9825896",
-   "sequence": "2026-11-33163",
-   "type": "Pedestrian Struck",
+   "id": "9825905",
+   "sequence": "2026-11-33170",
+   "type": "Auto Broken Down",
    "status": "Queued",
-   "status_at": "2026-11-23T20:50:11Z",
-   "created": "2026-11-23T20:50:11Z",
+   "status_at": "2026-11-23T20:54:52Z",
+   "created": "2026-11-23T20:54:27Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "660 HIGHWAY 27 NB",
+   "cross": "EXIT MORRISON SPRINGS RD OFF RAMP NB/EXIT MORRISON SPRINGS RD ON RAMP NB",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.118363,
+   "lon": -85.300034,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825904",
+   "sequence": "2026-11-33169",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T20:53:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3805 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.11045,
+   "lon": -85.270965,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825901",
+   "sequence": "2026-11-33166",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T20:51:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -23,13 +75,39 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "3201 12TH AVE",
-   "cross": "E 32ND ST/E 33RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
+   "address": "6279 PRICKLY LOOP",
+   "cross": "BRAMBLE BERRY LN/THISTLE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
    "priority": "PRI 1",
-   "lat": 35.004112,
-   "lon": -85.278772,
+   "lat": 35.10494,
+   "lon": -85.06323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825898",
+   "sequence": "2026-11-33167",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:51:38Z",
+   "created": "2026-11-23T20:50:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4506 ELDRIDGE RD",
+   "cross": "DELASHMITT RD/DONLYN LN",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.127165,
+   "lon": -85.26247,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +142,8 @@
    "id": "9825895",
    "sequence": "2026-11-33161",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-23T20:48:40Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T20:55:01Z",
    "created": "2026-11-23T20:48:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9825888",
    "sequence": "2026-11-33156",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T20:45:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T20:44:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -195,7 +273,7 @@
    "sequence": "2026-11-33155",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T20:54:26Z",
    "created": "2026-11-23T20:44:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9825885",
-   "sequence": "2026-11-33152",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T20:44:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2120 CHESTNUT ST",
-   "cross": "W 21ST ST/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.032928,
-   "lon": -85.316204,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825870",
    "sequence": "2026-11-33144",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-23T20:37:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T20:37:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -297,9 +349,9 @@
   {
    "id": "9825866",
    "sequence": "2026-11-33141",
-   "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-23T20:35:37Z",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T20:35:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -317,7 +369,7 @@
    "lat": 35.000646,
    "lon": -85.277341,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -342,32 +394,6 @@
    "priority": "PRI 4",
    "lat": 35.016032,
    "lon": -85.257953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825861",
-   "sequence": "2026-11-33137",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-23T20:47:24Z",
-   "created": "2026-11-23T20:32:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "408 MARKET ST",
-   "cross": "W 4TH ST/W 5TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.052049,
-   "lon": -85.309311,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -420,58 +446,6 @@
    "priority": "PRI 3",
    "lat": 35.033262,
    "lon": -85.153236,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825856",
-   "sequence": "2026-11-33134",
-   "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": "2026-11-23T20:42:42Z",
-   "created": "2026-11-23T20:30:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3201 12TH AVE",
-   "cross": "E 32ND ST/E 33RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 1",
-   "lat": 35.004112,
-   "lon": -85.278772,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825842",
-   "sequence": "2026-11-33125",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T20:16:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2143 NORTHPOINT BLVD",
-   "cross": "ALPHA LN/EXECUTIVE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 4",
-   "lat": 35.134781,
-   "lon": -85.235419,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -628,32 +602,6 @@
    "priority": "PRI 4",
    "lat": 35.251563,
    "lon": -85.159598,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825690",
-   "sequence": "2026-11-33020",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T20:16:03Z",
-   "created": "2026-11-23T19:11:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1860 - 1888 HIGHWAY 27 NB",
-   "cross": "EXIT SEQUOYAH RD OFF RAMP NB/EXIT SEQUOYAH RD ON RAMP NB",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.25168,
-   "lon": -85.176828,
    "units": 1,
    "stacked": false,
    "notable": false
