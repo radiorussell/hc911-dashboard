@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T18:20:38+00:00",
+ "updated": "2026-11-23T18:25:39+00:00",
  "counts": {
-  "year": 371317,
-  "upstream_day": 514,
-  "day": 741,
+  "year": 371331,
+  "upstream_day": 528,
+  "day": 749,
   "day_basis": "midnight"
  },
- "raw_rows": 46,
+ "raw_rows": 44,
  "incidents": [
+  {
+   "id": "9825579",
+   "sequence": "2026-11-32948",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:22:11Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DAYTON BLVD / SIGNAL MOUNTAIN RD",
+   "cross": "",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 1",
+   "lat": 35.083971,
+   "lon": -85.317606,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825581",
+   "sequence": "2026-11-32947",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:22:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1420 WINDBROOK LN",
+   "cross": "HOGAN CT/INNISBROOK DR",
+   "city": "CHATTANOOGA",
+   "zone": "1102",
+   "priority": "PRI 1",
+   "lat": 35.153433,
+   "lon": -85.202123,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825575",
+   "sequence": "2026-11-32944",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:20:43Z",
+   "created": "2026-11-23T18:20:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040471,
+   "lon": -85.299887,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825576",
+   "sequence": "2026-11-32945",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:20:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040471,
+   "lon": -85.299887,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825572",
+   "sequence": "2026-11-32943",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:19:56Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040471,
+   "lon": -85.299887,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825568",
    "sequence": "2026-11-32940",
@@ -38,8 +168,8 @@
    "id": "9825567",
    "sequence": "2026-11-32939",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:21:25Z",
    "created": "2026-11-23T18:15:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +246,8 @@
    "id": "9825558",
    "sequence": "2026-11-32931",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:20:41Z",
    "created": "2026-11-23T18:12:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +298,8 @@
    "id": "9825551",
    "sequence": "2026-11-32927",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:10:36Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:23:56Z",
    "created": "2026-11-23T18:10:33Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -186,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 34.999786,
    "lon": -85.226113,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825549",
-   "sequence": "2026-11-32923",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:09:40Z",
-   "created": "2026-11-23T18:09:40Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "113 BAXTER ST",
-   "cross": "WILLIAMSBURG LN/EASTON AVE",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.102186,
-   "lon": -85.298644,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -275,21 +379,21 @@
    "status": "On Scene",
    "status_at": "2026-11-23T18:18:23Z",
    "created": "2026-11-23T18:03:12Z",
-   "jurisdiction": "East Ridge PD",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "4800 - 4828 S TERRACE",
-   "cross": "S MOORE RD/EXIT 184 ON RAMP EB",
+   "address": "4900 S TERRACE",
+   "cross": "S ST MARKS AVE/S HOWELL AVE",
    "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
+   "zone": "C3 B",
    "priority": "PRI 3",
-   "lat": 35.00594,
-   "lon": -85.23157,
+   "lat": 35.005357,
+   "lon": -85.229613,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -399,32 +503,6 @@
    "notable": true
   },
   {
-   "id": "9825524",
-   "sequence": "2026-11-32903",
-   "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": "2026-11-23T17:58:57Z",
-   "created": "2026-11-23T17:56:38Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5109 CHESTNUTT CREEK RD",
-   "cross": "RACE LN/No Cross Street",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 2",
-   "lat": 35.048696,
-   "lon": -85.035974,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825525",
    "sequence": "2026-11-32904",
    "type": "EMS CALL",
@@ -451,11 +529,37 @@
    "notable": false
   },
   {
+   "id": "9825524",
+   "sequence": "2026-11-32903",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": "2026-11-23T17:58:57Z",
+   "created": "2026-11-23T17:56:38Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5109 CHESTNUTT CREEK RD",
+   "cross": "RACE LN/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 2",
+   "lat": 35.048696,
+   "lon": -85.035974,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825522",
    "sequence": "2026-11-32901",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:22:33Z",
    "created": "2026-11-23T17:56:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -610,8 +714,8 @@
    "id": "9825501",
    "sequence": "2026-11-32887",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:09:30Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:24:43Z",
    "created": "2026-11-23T17:45:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.050666,
    "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825489",
-   "sequence": "2026-11-32880",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T17:42:59Z",
-   "created": "2026-11-23T17:42:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2502 O REAR ST",
-   "cross": "DAISY ST/APPLING ST",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 2",
-   "lat": 35.065894,
-   "lon": -85.250941,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +766,8 @@
    "id": "9825479",
    "sequence": "2026-11-32876",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:24:07Z",
    "created": "2026-11-23T17:42:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -706,58 +784,6 @@
    "priority": "PRI 4",
    "lat": 35.089617,
    "lon": -85.258354,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825481",
-   "sequence": "2026-11-32873",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T17:41:01Z",
-   "created": "2026-11-23T17:41:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "413 SPRING ST",
-   "cross": "HARPER ST/DAVENPORT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 2",
-   "lat": 35.067898,
-   "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825480",
-   "sequence": "2026-11-32869",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T17:40:30Z",
-   "created": "2026-11-23T17:40:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7249 AVENTINE WAY",
-   "cross": "PANORAMA DR/PANORAMA DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.014371,
-   "lon": -85.168841,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -867,58 +893,6 @@
    "notable": false
   },
   {
-   "id": "9825451",
-   "sequence": "2026-11-32853",
-   "type": "Assault EMS Needed",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T17:59:58Z",
-   "created": "2026-11-23T17:27:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825452",
-   "sequence": "2026-11-32854",
-   "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-23T17:27:47Z",
-   "created": "2026-11-23T17:27:47Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825447",
    "sequence": "2026-11-32852",
    "type": "Assault EMS Needed",
@@ -1018,32 +992,6 @@
    "priority": "PRI 1",
    "lat": 35.043922,
    "lon": -85.309345,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825426",
-   "sequence": "2026-11-32835",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T18:00:40Z",
-   "created": "2026-11-23T17:20:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
