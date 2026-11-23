@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T05:50:37+00:00",
+ "updated": "2026-11-23T05:55:37+00:00",
  "counts": {
   "year": 370827,
   "upstream_day": 25,
-  "day": 35,
+  "day": 39,
   "day_basis": "midnight"
  },
  "raw_rows": 20,
  "incidents": [
   {
+   "id": "9824574",
+   "sequence": "2026-11-32238",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:54:59Z",
+   "created": "2026-11-23T05:53:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5714 CARMACK RD",
+   "cross": "HIGHWAY 153/GARRETT DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.151829,
+   "lon": -85.25042,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9824568",
    "sequence": "2026-11-32234",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-23T05:49:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T05:47:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "18150 - 18249 INTERSTATE 24 WB",
+   "address": "18230 INTERSTATE 24 WB",
    "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "B6A",
    "priority": "PRI 4",
-   "lat": 35.014556,
-   "lon": -85.272971,
+   "lat": 35.021263,
+   "lon": -85.262848,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +142,8 @@
    "id": "9824566",
    "sequence": "2026-11-32230",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:54:53Z",
    "created": "2026-11-23T05:46:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9824545",
-   "sequence": "2026-11-32211",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-23T05:28:34Z",
-   "created": "2026-11-23T05:14:42Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2011 HOLDEN FARM PL",
-   "cross": "SERENDIPITY CIR/SILENT CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 1",
-   "lat": 34.987756,
-   "lon": -85.097879,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824543",
    "sequence": "2026-11-32208",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T05:45:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T05:55:25Z",
    "created": "2026-11-23T05:13:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
