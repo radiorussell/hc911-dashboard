@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T07:45:39+00:00",
+ "updated": "2026-11-23T07:50:39+00:00",
  "counts": {
-  "year": 370854,
-  "upstream_day": 52,
+  "year": 370855,
+  "upstream_day": 53,
   "day": 74,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 6,
  "incidents": [
   {
    "id": "9824622",
@@ -35,37 +35,11 @@
    "notable": true
   },
   {
-   "id": "9824621",
-   "sequence": "2026-11-32272",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T07:40:00Z",
-   "created": "2026-11-23T07:39:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "225 DELAWANNA TER",
-   "cross": "DAGNAN LN/PINEVILLE RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.08393,
-   "lon": -85.326153,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824620",
    "sequence": "2026-11-32271",
    "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T07:50:05Z",
    "created": "2026-11-23T07:32:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.11718,
    "lon": -85.279285,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824579",
-   "sequence": "2026-11-32242",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T06:42:55Z",
-   "created": "2026-11-23T06:05:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.041281,
-   "lon": -85.171521,
    "units": 1,
    "stacked": false,
    "notable": false
