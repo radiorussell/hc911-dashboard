@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T01:30:37+00:00",
+ "updated": "2026-11-23T01:35:37+00:00",
  "counts": {
   "year": 370624,
   "upstream_day": 0,
-  "day": 965,
+  "day": 972,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9824253",
+   "sequence": "2026-11-31990",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:34:44Z",
+   "created": "2026-11-23T01:34:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LINDSAY ST / E 8TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 2",
+   "lat": 35.046622,
+   "lon": -85.306146,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824250",
+   "sequence": "2026-11-31987",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:32:30Z",
+   "created": "2026-11-23T01:32:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3908 FOREST HIGHLAND CIR",
+   "cross": "FOREST HIGHLAND DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.11298,
+   "lon": -85.268381,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824249",
+   "sequence": "2026-11-31989",
+   "type": "Unknown Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:32:25Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "LINDSAY ST / E 8TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 2",
+   "lat": 35.046622,
+   "lon": -85.306146,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9824244",
    "sequence": "2026-11-31983",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:28:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T01:27:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3725 JENKINS RD",
-   "cross": "STANDIFER GAP RD/XPRESS DR",
+   "address": "CHAMPION RD / HIGHWAY 58",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "C9",
+   "zone": "C6",
    "priority": "PRI 3",
-   "lat": 35.05508,
-   "lon": -85.127884,
+   "lat": 35.099874,
+   "lon": -85.169696,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -56,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 34.998436,
    "lon": -85.19185,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824240",
-   "sequence": "2026-11-31979",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T01:24:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6274 FELDSPAR LN",
-   "cross": "HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.149905,
-   "lon": -85.201796,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9824238",
    "sequence": "2026-11-31977",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:32:06Z",
    "created": "2026-11-23T01:24:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -210,32 +262,6 @@
    "city": "CHATTANOOGA",
    "zone": "A3 A",
    "priority": "PRI 3",
-   "lat": 35.104469,
-   "lon": -85.272607,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824212",
-   "sequence": "2026-11-31959",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:02:32Z",
-   "created": "2026-11-23T01:02:32Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3504 HIXSON PIKE",
-   "cross": "LUPTON DR/INTERMONT RD",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 2",
    "lat": 35.104469,
    "lon": -85.272607,
    "units": 1,
@@ -472,6 +498,32 @@
    "priority": "PRI 1",
    "lat": 34.99533,
    "lon": -85.318445,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824152",
+   "sequence": "2026-11-31915",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-23T00:27:45Z",
+   "created": "2026-11-23T00:14:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6274 FELDSPAR LN",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 2",
+   "lat": 35.149849,
+   "lon": -85.201958,
    "units": 1,
    "stacked": false,
    "notable": false
