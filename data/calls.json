@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T14:25:39+00:00",
+ "updated": "2026-11-23T14:26:30+00:00",
  "counts": {
   "year": 371050,
   "upstream_day": 248,
-  "day": 353,
+  "day": 355,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9825021",
+   "sequence": "2026-11-32554",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:25:45Z",
+   "created": "2026-11-23T14:25:38Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5200 SPALDING DR",
+   "cross": "APISON PIKE/TIMBERVIEW TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 4",
+   "lat": 35.057423,
+   "lon": -85.055039,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825020",
    "sequence": "2026-11-32552",
@@ -142,8 +168,8 @@
    "id": "9824999",
    "sequence": "2026-11-32534",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:25:47Z",
    "created": "2026-11-23T14:11:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -347,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9824961",
-   "sequence": "2026-11-32506",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:07:28Z",
-   "created": "2026-11-23T13:56:22Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3108 WHISTLING WAY",
-   "cross": "No Cross Street/WANDERING WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.036423,
-   "lon": -85.091057,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824958",
    "sequence": "2026-11-32505",
    "type": "Sex Offense",
@@ -498,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.11298,
    "lon": -85.268381,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824918",
-   "sequence": "2026-11-32479",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:23:56Z",
-   "created": "2026-11-23T13:32:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ROSSVILLE BLVD / E 45TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.991305,
-   "lon": -85.290167,
    "units": 1,
    "stacked": false,
    "notable": false
