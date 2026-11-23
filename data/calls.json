@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T11:45:38+00:00",
+ "updated": "2026-11-23T11:50:39+00:00",
  "counts": {
-  "year": 370920,
-  "upstream_day": 118,
-  "day": 167,
+  "year": 370928,
+  "upstream_day": 126,
+  "day": 173,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9824752",
+   "sequence": "2026-11-32372",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-23T11:49:22Z",
+   "created": "2026-11-23T11:49:22Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "200 TURNER RD",
+   "cross": "WALDEN ST/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.262808,
+   "lon": -85.171632,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824748",
+   "sequence": "2026-11-32368",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-23T11:45:46Z",
+   "created": "2026-11-23T11:45:46Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "618 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.234563,
+   "lon": -85.17947,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824745",
+   "sequence": "2026-11-32367",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T11:45:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1907 STUART ST",
+   "cross": "SHOLAR AVE/ROANOKE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.073223,
+   "lon": -85.253458,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824747",
    "sequence": "2026-11-32366",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T11:45:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T11:45:09Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -141,7 +219,7 @@
   {
    "id": "9824719",
    "sequence": "2026-11-32351",
-   "type": "Harassment",
+   "type": "Disorder",
    "status": "Enroute",
    "status_at": "2026-11-23T11:33:52Z",
    "created": "2026-11-23T11:24:07Z",
@@ -157,35 +235,9 @@
    "cross": "ROBIN DR/STANDIFER GAP RD",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 4",
+   "priority": "PRI 3",
    "lat": 35.052578,
    "lon": -85.152879,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824711",
-   "sequence": "2026-11-32344",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T11:18:43Z",
-   "created": "2026-11-23T11:18:43Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "601 JUSTICE WAY",
-   "cross": "STANDIFER GAP RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 1",
-   "lat": 35.050831,
-   "lon": -85.133053,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +246,8 @@
    "id": "9824709",
    "sequence": "2026-11-32343",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T11:32:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T11:45:56Z",
    "created": "2026-11-23T11:18:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.10831,
    "lon": -85.34459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824703",
-   "sequence": "2026-11-32337",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T11:36:37Z",
-   "created": "2026-11-23T11:14:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.992245,
-   "lon": -85.235222,
    "units": 1,
    "stacked": false,
    "notable": false
