@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T15:55:45+00:00",
+ "updated": "2026-11-23T16:00:38+00:00",
  "counts": {
-  "year": 371161,
-  "upstream_day": 359,
-  "day": 508,
+  "year": 371171,
+  "upstream_day": 369,
+  "day": 512,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9825252",
+   "sequence": "2026-11-32711",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:58:10Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1707 LONGVIEW ST",
+   "cross": "MIDDLE VALLEY RD/HALE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.1903,
+   "lon": -85.188155,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825248",
+   "sequence": "2026-11-32709",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:54:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3806 MISSION VIEW AVE",
+   "cross": "GARDNER ST/BELVOIR AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.013805,
+   "lon": -85.246459,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825246",
    "sequence": "2026-11-32707",
@@ -23,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4378 HOWELL RD",
+   "address": "4319 HOWELL RD",
    "cross": "TALLEY RD/WOODMORE LN",
    "city": "CHATTANOOGA",
    "zone": "C2",
    "priority": "PRI 3",
-   "lat": 35.032194,
-   "lon": -85.227566,
+   "lat": 35.032335,
+   "lon": -85.227359,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +298,8 @@
    "id": "9825201",
    "sequence": "2026-11-32679",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:44:52Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T16:00:33Z",
    "created": "2026-11-23T15:39:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -888,6 +940,32 @@
    "priority": "PRI 4",
    "lat": 35.077075,
    "lon": -85.130623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824938",
+   "sequence": "2026-11-32490",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:57:52Z",
+   "created": "2026-11-23T13:46:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3908 FOREST HIGHLAND CIR",
+   "cross": "FOREST HIGHLAND DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.11298,
+   "lon": -85.268381,
    "units": 1,
    "stacked": false,
    "notable": false
