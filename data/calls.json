@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T05:00:41+00:00",
+ "updated": "2026-11-23T05:05:38+00:00",
  "counts": {
   "year": 370799,
   "upstream_day": 0,
-  "day": 0,
+  "day": 3,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9824537",
+   "sequence": "2026-11-32201",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:05:33Z",
+   "created": "2026-11-23T05:05:33Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "113 SANTEELAH ST",
+   "cross": "DAYTON BLVD/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.127406,
+   "lon": -85.281999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824538",
+   "sequence": "2026-11-32202",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:05:33Z",
+   "created": "2026-11-23T05:05:33Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "113 SANTEELAH ST",
+   "cross": "DAYTON BLVD/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 2",
+   "priority": "PRI 2",
+   "lat": 35.127406,
+   "lon": -85.281999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824536",
+   "sequence": "2026-11-32200",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:05:33Z",
+   "created": "2026-11-23T05:05:00Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "113 SANTEELAH ST",
+   "cross": "DAYTON BLVD/No Cross Street",
+   "city": "RED BANK",
+   "zone": "MEDIC 04 RB C",
+   "priority": "PRI 1",
+   "lat": 35.127406,
+   "lon": -85.281999,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824531",
    "sequence": "2026-11-32198",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:02:41Z",
    "created": "2026-11-23T04:59:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9824532",
    "sequence": "2026-11-32199",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:05:03Z",
    "created": "2026-11-23T04:59:35Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9824528",
    "sequence": "2026-11-32194",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:00:58Z",
    "created": "2026-11-23T04:57:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -169,7 +247,7 @@
    "sequence": "2026-11-32191",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T05:03:55Z",
    "created": "2026-11-23T04:51:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,58 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.213145,
    "lon": -85.033454,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824517",
-   "sequence": "2026-11-32184",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-23T04:58:01Z",
-   "created": "2026-11-23T04:44:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2608 E 37TH ST",
-   "cross": "7TH AVE/10TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 2",
-   "lat": 34.999303,
-   "lon": -85.283839,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824518",
-   "sequence": "2026-11-32185",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T04:57:09Z",
-   "created": "2026-11-23T04:44:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2608 E 37TH ST",
-   "cross": "7TH AVE/10TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 1",
-   "lat": 34.999303,
-   "lon": -85.283839,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -399,58 +425,6 @@
    "notable": false
   },
   {
-   "id": "9824461",
-   "sequence": "2026-11-32141",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T04:29:42Z",
-   "created": "2026-11-23T03:48:08Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3628 FOUNTAIN AVE",
-   "cross": "S GERMANTOWN RD/MCHANN DR",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 35.005567,
-   "lon": -85.252339,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824443",
-   "sequence": "2026-11-32128",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T04:31:48Z",
-   "created": "2026-11-23T03:42:00Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1019 APPLING ST",
-   "cross": "BLISS AVE/BENTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.072174,
-   "lon": -85.264585,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824439",
    "sequence": "2026-11-32125",
    "type": "EMS CALL",
@@ -524,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.044807,
    "lon": -85.318443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824389",
-   "sequence": "2026-11-32090",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-23T03:14:23Z",
-   "created": "2026-11-23T03:01:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1819 RUBIO ST",
-   "cross": "SHERIDAN AVE/N ORCHARD KNOB AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 1",
-   "lat": 35.053636,
-   "lon": -85.265658,
    "units": 1,
    "stacked": false,
    "notable": false
