@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-23T17:35:39+00:00",
+ "updated": "2026-11-23T17:40:37+00:00",
  "counts": {
   "year": 371268,
   "upstream_day": 466,
-  "day": 664,
+  "day": 670,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 35,
  "incidents": [
   {
-   "id": "9825464",
-   "sequence": "2026-11-32862",
+   "id": "9825480",
+   "sequence": "2026-11-32869",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-23T17:32:34Z",
-   "created": "2026-11-23T17:32:34Z",
-   "jurisdiction": "Hamilton Co SO",
+   "status_at": "2026-11-23T17:40:30Z",
+   "created": "2026-11-23T17:40:30Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7249 AVENTINE WAY",
+   "cross": "PANORAMA DR/PANORAMA DR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.014371,
+   "lon": -85.168841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825477",
+   "sequence": "2026-11-32868",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T17:40:30Z",
+   "created": "2026-11-23T17:40:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7249 AVENTINE WAY",
+   "cross": "PANORAMA DR/PANORAMA DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.014371,
+   "lon": -85.168841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825469",
+   "sequence": "2026-11-32865",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T17:36:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "629 BARKER RD",
-   "cross": "VANDERGRIFF CEMETERY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 A",
-   "priority": "PRI 3",
-   "lat": 35.203116,
-   "lon": -85.257801,
+   "address": "3912 MEADOW LN",
+   "cross": "HARRISON PIKE/GRACE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.081627,
+   "lon": -85.235148,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,27 +113,27 @@
    "notable": false
   },
   {
-   "id": "9825461",
-   "sequence": "2026-11-32860",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T17:31:56Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9825464",
+   "sequence": "2026-11-32862",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T17:32:34Z",
+   "created": "2026-11-23T17:32:34Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "E BRAINERD RD / LEE HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
+   "address": "629 BARKER RD",
+   "cross": "VANDERGRIFF CEMETERY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
    "priority": "PRI 3",
-   "lat": 35.017745,
-   "lon": -85.205769,
+   "lat": 35.203116,
+   "lon": -85.257801,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -139,6 +191,32 @@
    "notable": false
   },
   {
+   "id": "9825451",
+   "sequence": "2026-11-32853",
+   "type": "Assault EMS Needed",
+   "status": "On Scene",
+   "status_at": "2026-11-23T17:40:27Z",
+   "created": "2026-11-23T17:27:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9825452",
    "sequence": "2026-11-32854",
    "type": "Assault EMS Needed",
@@ -157,32 +235,6 @@
    "cross": "BALDWIN ST/PEEPLES ST",
    "city": "CHATTANOOGA",
    "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825451",
-   "sequence": "2026-11-32853",
-   "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T17:27:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
@@ -272,8 +324,8 @@
    "id": "9825444",
    "sequence": "2026-11-32851",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T17:39:13Z",
    "created": "2026-11-23T17:26:22Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9825434",
    "sequence": "2026-11-32839",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T17:38:36Z",
    "created": "2026-11-23T17:21:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
