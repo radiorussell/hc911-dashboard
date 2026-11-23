@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T23:35:37+00:00",
+ "updated": "2026-11-23T23:40:36+00:00",
  "counts": {
   "year": 371668,
   "upstream_day": 865,
   "day": 1194,
   "day_basis": "midnight"
  },
- "raw_rows": 42,
+ "raw_rows": 40,
  "incidents": [
   {
    "id": "9826212",
@@ -246,8 +246,8 @@
    "id": "9826199",
    "sequence": "2026-11-33382",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:35:45Z",
    "created": "2026-11-23T23:29:20Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9826195",
    "sequence": "2026-11-33380",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:40:14Z",
    "created": "2026-11-23T23:28:43Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -347,30 +347,30 @@
    "notable": false
   },
   {
-   "id": "9826187",
-   "sequence": "2026-11-33376",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:32:35Z",
-   "created": "2026-11-23T23:23:20Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9826184",
+   "sequence": "2026-11-33373",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:21:23Z",
+   "created": "2026-11-23T23:21:23Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Chattanooga FD"
+    "Chattanooga PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "3909 MELINDA CIR",
-   "cross": "LOCKSLEY LN/MELINDA DR",
+   "address": "312 MCBRIEN RD",
+   "cross": "LYNNLAND TER/N TERRACE",
    "city": "CHATTANOOGA",
-   "zone": "603 A",
+   "zone": "C3 A",
    "priority": "PRI 3",
-   "lat": 35.086938,
-   "lon": -85.203204,
+   "lat": 35.005974,
+   "lon": -85.224458,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9826185",
@@ -392,32 +392,6 @@
    "city": "CHATTANOOGA",
    "zone": "1302 A",
    "priority": "PRI 1",
-   "lat": 35.005974,
-   "lon": -85.224458,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826184",
-   "sequence": "2026-11-33373",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T23:21:23Z",
-   "created": "2026-11-23T23:21:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "312 MCBRIEN RD",
-   "cross": "LYNNLAND TER/N TERRACE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
    "lat": 35.005974,
    "lon": -85.224458,
    "units": 1,
@@ -737,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9826135",
-   "sequence": "2026-11-33336",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:21:11Z",
-   "created": "2026-11-23T22:55:22Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8612 HIGHWAY 58",
-   "cross": "BRAMLETT RD/GOLDEN POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.168291,
-   "lon": -85.076996,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826128",
    "sequence": "2026-11-33334",
    "type": "EMS CALL",
@@ -870,8 +818,8 @@
    "id": "9826109",
    "sequence": "2026-11-33319",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:42:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:42:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -948,8 +896,8 @@
    "id": "9826096",
    "sequence": "2026-11-33310",
    "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-23T22:36:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:36:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -967,7 +915,7 @@
    "lat": 35.392459,
    "lon": -85.107415,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
