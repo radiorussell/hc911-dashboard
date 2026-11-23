@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T13:10:38+00:00",
+ "updated": "2026-11-23T13:15:38+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 253,
+  "year": 370974,
+  "upstream_day": 172,
+  "day": 258,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9824883",
+   "sequence": "2026-11-32457",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:15:09Z",
+   "created": "2026-11-23T13:15:09Z",
+   "jurisdiction": "Waldens Ridge Emergency Srv",
+   "agencies": [
+    "Waldens Ridge Emergency Srv"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3708 TAFT HWY",
+   "cross": "HOLLISTER RD/MOURNING DOVE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WALDEN FD HC B",
+   "priority": "PRI 2",
+   "lat": 35.175133,
+   "lon": -85.328779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824880",
+   "sequence": "2026-11-32456",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:14:34Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3708 TAFT HWY",
+   "cross": "HOLLISTER RD/MOURNING DOVE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 08 HC B",
+   "priority": "PRI 1",
+   "lat": 35.175133,
+   "lon": -85.328779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824879",
+   "sequence": "2026-11-32455",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:14:06Z",
+   "created": "2026-11-23T13:14:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4544 TRICIA DR",
+   "cross": "MARY HALL LN/JERSEY PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "601 A",
+   "priority": "PRI 1",
+   "lat": 35.083504,
+   "lon": -85.180301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824875",
+   "sequence": "2026-11-32453",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:13:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1131 STRINGERS RIDGE RD",
+   "cross": "E FRONTAGE RD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "1701 C",
+   "priority": "PRI 1",
+   "lat": 35.075218,
+   "lon": -85.32007,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824876",
+   "sequence": "2026-11-32454",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:13:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4544 TRICIA DR",
+   "cross": "MARY HALL LN/JERSEY PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.083504,
+   "lon": -85.180301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824874",
    "sequence": "2026-11-32452",
@@ -26,7 +156,7 @@
    "address": "1806 DOGWOOD DR",
    "cross": "BENNINGTON DR/MARK TWAIN CIR",
    "city": "CHATTANOOGA",
-   "zone": "C1",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.04976,
    "lon": -85.228987,
@@ -168,8 +298,8 @@
    "id": "9824861",
    "sequence": "2026-11-32442",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:11:35Z",
    "created": "2026-11-23T13:00:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9824835",
-   "sequence": "2026-11-32426",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-23T13:05:20Z",
-   "created": "2026-11-23T12:44:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "703 SIGNAL MOUNTAIN RD",
-   "cross": "MUNDY ST/MOUNTAIN CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.098406,
-   "lon": -85.329331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824827",
    "sequence": "2026-11-32417",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T12:52:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T13:11:17Z",
    "created": "2026-11-23T12:40:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +654,6 @@
    "priority": "PRI 1",
    "lat": 35.24715,
    "lon": -85.035443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824743",
-   "sequence": "2026-11-32363",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-23T11:43:20Z",
-   "created": "2026-11-23T11:43:20Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5100 OOLTEWAH RINGGOLD RD",
-   "cross": "APISON PIKE/DAVID SMITH LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.063196,
-   "lon": -85.06418,
    "units": 1,
    "stacked": false,
    "notable": false
