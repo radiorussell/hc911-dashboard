@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-23T01:00:37+00:00",
+ "updated": "2026-11-23T01:05:38+00:00",
  "counts": {
   "year": 370602,
   "upstream_day": 0,
-  "day": 936,
+  "day": 945,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9824214",
+   "sequence": "2026-11-31961",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:03:10Z",
+   "created": "2026-11-23T01:03:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3504 HIXSON PIKE",
+   "cross": "LUPTON DR/INTERMONT RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.104469,
+   "lon": -85.272607,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824213",
+   "sequence": "2026-11-31963",
+   "type": "Intoxicated Person",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:03:16Z",
+   "created": "2026-11-23T01:03:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9453 BRADMORE LN",
+   "cross": "ARBURY WAY/CHESTERTON WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.082838,
+   "lon": -85.055173,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824208",
+   "sequence": "2026-11-31960",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:03:10Z",
+   "created": "2026-11-23T01:02:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3514 HIXSON PIKE",
+   "cross": "LUPTON DR/INTERMONT RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.104915,
+   "lon": -85.272389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824211",
+   "sequence": "2026-11-31958",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:02:32Z",
+   "created": "2026-11-23T01:02:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3513 HIXSON PIKE",
+   "cross": "LUPTON DR/INTERMONT RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.104874,
+   "lon": -85.273449,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824212",
+   "sequence": "2026-11-31959",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:02:32Z",
+   "created": "2026-11-23T01:02:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3513 HIXSON PIKE",
+   "cross": "LUPTON DR/INTERMONT RD",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 2",
+   "lat": 35.104874,
+   "lon": -85.273449,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824209",
+   "sequence": "2026-11-31957",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:02:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3513 HIXSON PIKE",
+   "cross": "LUPTON DR/INTERMONT RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.104874,
+   "lon": -85.273449,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824207",
+   "sequence": "2026-11-31955",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:00:51Z",
+   "created": "2026-11-23T01:00:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "900 AIRPORT RD",
+   "cross": "HANCOCK RD/APPROACH PATH",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.02851,
+   "lon": -85.194072,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824205",
    "sequence": "2026-11-31953",
@@ -38,8 +220,8 @@
    "id": "9824206",
    "sequence": "2026-11-31954",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:05:02Z",
    "created": "2026-11-23T00:57:28Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -54,8 +236,8 @@
    "city": "CHATTANOOGA",
    "zone": "802 A",
    "priority": "PRI 3",
-   "lat": 35.050245,
-   "lon": -85.148581,
+   "lat": 35.051313,
+   "lon": -85.147882,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -64,8 +246,8 @@
    "id": "9824200",
    "sequence": "2026-11-31950",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:51:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:51:25Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -87,12 +269,12 @@
    "notable": false
   },
   {
-   "id": "9824192",
-   "sequence": "2026-11-31945",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:41:05Z",
-   "created": "2026-11-23T00:41:05Z",
+   "id": "9824201",
+   "sequence": "2026-11-31949",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-23T00:58:28Z",
+   "created": "2026-11-23T00:51:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -101,13 +283,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2288 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "address": "1908 COLONIAL WAY CIR",
+   "cross": "REVOLUTIONARY LN/RIVER CHASE RD",
    "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.037485,
-   "lon": -85.149705,
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.136063,
+   "lon": -85.196376,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9824170",
-   "sequence": "2026-11-31929",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:34:35Z",
-   "created": "2026-11-23T00:28:14Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1527 BURNS AVE",
-   "cross": "ST JAMES AVE/STATE LINE RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.98845,
-   "lon": -85.219622,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824167",
    "sequence": "2026-11-31926",
    "type": "EMS CALL",
@@ -316,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.075417,
    "lon": -85.05616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824160",
-   "sequence": "2026-11-31922",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T00:24:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E MARTIN LUTHER KING BLVD / WALL ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.041537,
-   "lon": -85.296805,
    "units": 1,
    "stacked": false,
    "notable": false
