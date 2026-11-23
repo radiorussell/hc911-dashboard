@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T16:00:38+00:00",
+ "updated": "2026-11-23T16:05:39+00:00",
  "counts": {
   "year": 371171,
   "upstream_day": 369,
-  "day": 512,
+  "day": 518,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9825266",
+   "sequence": "2026-11-32717",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:07:25Z",
+   "created": "2026-11-23T16:02:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1805 S GREENWOOD AVE",
+   "cross": "E 18TH ST/E 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.025181,
+   "lon": -85.289193,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825252",
    "sequence": "2026-11-32711",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:02:17Z",
    "created": "2026-11-23T15:58:10Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9825248",
    "sequence": "2026-11-32709",
    "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:04:09Z",
    "created": "2026-11-23T15:54:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9825240",
    "sequence": "2026-11-32702",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:03:45Z",
    "created": "2026-11-23T15:51:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9825235",
-   "sequence": "2026-11-32699",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:51:58Z",
-   "created": "2026-11-23T15:48:36Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9632 DAYTON PIKE",
-   "cross": "MOUNTAIN RD/CRAWLEY RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.243281,
-   "lon": -85.190686,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825228",
    "sequence": "2026-11-32698",
    "type": "Property",
@@ -246,8 +246,8 @@
    "id": "9825223",
    "sequence": "2026-11-32695",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T16:05:44Z",
    "created": "2026-11-23T15:44:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.185226,
    "lon": -85.247015,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825203",
-   "sequence": "2026-11-32680",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:39:34Z",
-   "created": "2026-11-23T15:39:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1 E 11TH ST",
-   "cross": "GEORGIA AVE/COLUMBIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 2",
-   "lat": 35.043925,
-   "lon": -85.308844,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -399,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9825186",
-   "sequence": "2026-11-32668",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:35:50Z",
-   "created": "2026-11-23T15:35:50Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3925 ALLGOOD CT",
-   "cross": "No Cross Street/KAYLA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "605",
-   "priority": "PRI 2",
-   "lat": 35.075043,
-   "lon": -85.211571,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825177",
    "sequence": "2026-11-32667",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T15:54:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T16:07:05Z",
    "created": "2026-11-23T15:35:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9825152",
-   "sequence": "2026-11-32648",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:38:05Z",
-   "created": "2026-11-23T15:27:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5840 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 1",
-   "lat": 35.109283,
-   "lon": -85.212678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825151",
    "sequence": "2026-11-32647",
    "type": "EMS CALL",
@@ -610,8 +532,8 @@
    "id": "9825143",
    "sequence": "2026-11-32645",
    "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:47:32Z",
+   "status": "Stacked",
+   "status_at": "2026-11-23T15:26:39Z",
    "created": "2026-11-23T15:26:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -629,7 +551,7 @@
    "lat": 35.020343,
    "lon": -85.239587,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -714,8 +636,8 @@
    "id": "9825090",
    "sequence": "2026-11-32602",
    "type": "MVC Delayed",
-   "status": "Stacked",
-   "status_at": "2026-11-23T14:59:19Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T16:03:17Z",
    "created": "2026-11-23T14:59:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -732,58 +654,6 @@
    "priority": "PRI 4",
    "lat": 35.041458,
    "lon": -85.290524,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9825084",
-   "sequence": "2026-11-32596",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-23T15:45:21Z",
-   "created": "2026-11-23T14:55:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4355 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.084696,
-   "lon": -85.203333,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825080",
-   "sequence": "2026-11-32597",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T15:37:23Z",
-   "created": "2026-11-23T14:55:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10632 CARD RD",
-   "cross": "MAPLE ST/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.267339,
-   "lon": -85.170496,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -966,32 +836,6 @@
    "priority": "PRI 4",
    "lat": 35.11298,
    "lon": -85.268381,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824769",
-   "sequence": "2026-11-32382",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-23T12:51:19Z",
-   "created": "2026-11-23T12:04:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "500 N HIGHLAND PARK AVE",
-   "cross": "E 3RD ST/CLEVELAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.044333,
-   "lon": -85.276338,
    "units": 1,
    "stacked": false,
    "notable": false
