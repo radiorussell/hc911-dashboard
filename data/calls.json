@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T01:35:37+00:00",
+ "updated": "2026-11-23T01:40:38+00:00",
  "counts": {
-  "year": 370624,
+  "year": 370636,
   "upstream_day": 0,
-  "day": 972,
+  "day": 978,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9824261",
+   "sequence": "2026-11-31996",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:39:53Z",
+   "created": "2026-11-23T01:39:26Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4812 NORTHWIND DR",
+   "cross": "BAR SHORE DR/SHORE MANOR LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 2",
+   "lat": 35.118769,
+   "lon": -85.160286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824254",
+   "sequence": "2026-11-31992",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T01:36:59Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5701 - 5759 TALLANT RD",
+   "cross": "KINDRED LN/EAGLEFEATHER LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 3",
+   "lat": 35.062908,
+   "lon": -85.027441,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824255",
+   "sequence": "2026-11-31995",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:38:09Z",
+   "created": "2026-11-23T01:36:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.061233,
+   "lon": -85.131847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824253",
    "sequence": "2026-11-31990",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:34:44Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T01:38:23Z",
    "created": "2026-11-23T01:34:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9824249",
    "sequence": "2026-11-31989",
    "type": "Unknown Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:39:35Z",
    "created": "2026-11-23T01:32:25Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9824239",
-   "sequence": "2026-11-31978",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:28:05Z",
-   "created": "2026-11-23T01:24:13Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1200 - 1299 E MAIN ST",
-   "cross": "GULF ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "202",
-   "priority": "PRI 1",
-   "lat": 35.029628,
-   "lon": -85.289999,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824238",
    "sequence": "2026-11-31977",
    "type": "MVC Injuries",
@@ -193,7 +245,7 @@
   {
    "id": "9824236",
    "sequence": "2026-11-31975",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC Injuries",
    "status": "On Scene",
    "status_at": "2026-11-23T01:24:57Z",
    "created": "2026-11-23T01:23:43Z",
@@ -214,7 +266,7 @@
    "lon": -85.288603,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9824224",
@@ -238,58 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.037558,
    "lon": -85.268246,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824214",
-   "sequence": "2026-11-31961",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:03:10Z",
-   "created": "2026-11-23T01:03:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3504 HIXSON PIKE",
-   "cross": "LUPTON DR/INTERMONT RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.104469,
-   "lon": -85.272607,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824209",
-   "sequence": "2026-11-31957",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:13:30Z",
-   "created": "2026-11-23T01:02:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3504 HIXSON PIKE",
-   "cross": "LUPTON DR/INTERMONT RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.104469,
-   "lon": -85.272607,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -423,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9824175",
-   "sequence": "2026-11-31932",
-   "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": "2026-11-23T00:37:23Z",
-   "created": "2026-11-23T00:30:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3937 N QUAIL LN",
-   "cross": "S QUAIL LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.126085,
-   "lon": -85.309932,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9824167",
