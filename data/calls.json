@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T08:05:37+00:00",
+ "updated": "2026-11-23T08:10:42+00:00",
  "counts": {
-  "year": 370857,
-  "upstream_day": 55,
-  "day": 72,
+  "year": 370859,
+  "upstream_day": 57,
+  "day": 83,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9824631",
+   "sequence": "2026-11-32282",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T08:08:58Z",
+   "created": "2026-11-23T08:08:58Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "708 HOOKER RD",
+   "cross": "WILSON RD/EDINGBURG DR",
+   "city": "CHATTANOOGA",
+   "zone": "903",
+   "priority": "PRI 1",
+   "lat": 34.993501,
+   "lon": -85.306589,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824629",
+   "sequence": "2026-11-32281",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T08:08:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "708 HOOKER RD",
+   "cross": "WILSON RD/EDINGBURG DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.993501,
+   "lon": -85.306589,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824628",
+   "sequence": "2026-11-32279",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T08:06:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1905 HUFF PL",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.022904,
+   "lon": -85.286244,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824620",
    "sequence": "2026-11-32271",
