@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T10:20:45+00:00",
+ "updated": "2026-11-23T10:25:44+00:00",
  "counts": {
   "year": 370889,
   "upstream_day": 87,
   "day": 119,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9824676",
@@ -38,8 +38,8 @@
    "id": "9824677",
    "sequence": "2026-11-32318",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T10:20:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T10:20:16Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9824675",
    "sequence": "2026-11-32316",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T10:20:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T10:19:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.042087,
    "lon": -85.265102,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824669",
-   "sequence": "2026-11-32310",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T09:55:53Z",
-   "created": "2026-11-23T09:55:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1362 PASSENGER ST",
-   "cross": "CHOO CHOO AVE/E 14TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "201 A",
-   "priority": "PRI 1",
-   "lat": 35.035948,
-   "lon": -85.303685,
    "units": 1,
    "stacked": false,
    "notable": false
