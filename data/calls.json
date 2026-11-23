@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T19:25:38+00:00",
+ "updated": "2026-11-23T19:30:41+00:00",
  "counts": {
   "year": 371406,
   "upstream_day": 603,
-  "day": 848,
+  "day": 862,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 45,
  "incidents": [
   {
-   "id": "9825725",
-   "sequence": "2026-11-33047",
-   "type": "Private Property Tow",
+   "id": "9825741",
+   "sequence": "2026-11-33061",
+   "type": "Deceptive Practice",
    "status": "Queued",
-   "status_at": "2026-11-23T19:24:59Z",
-   "created": "2026-11-23T19:24:59Z",
+   "status_at": "2026-11-23T19:30:39Z",
+   "created": "2026-11-23T19:30:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,24 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "400 WORKMAN RD",
-   "cross": "FAGAN ST/WILSON RD",
+   "address": "2245 HICKORY VALLEY RD",
+   "cross": "EXECUTIVE OAK LN/SHALLOWFORD RD",
    "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 0",
-   "lat": 34.996444,
-   "lon": -85.309655,
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.046061,
+   "lon": -85.167018,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9825724",
-   "sequence": "2026-11-33046",
-   "type": "Unknown 911",
+   "id": "9825738",
+   "sequence": "2026-11-33060",
+   "type": "Deceptive Practice",
    "status": "Queued",
-   "status_at": "2026-11-23T19:24:36Z",
-   "created": "2026-11-23T19:24:26Z",
+   "status_at": "2026-11-23T19:29:41Z",
+   "created": "2026-11-23T19:29:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,195 @@
    "agency_types": [
     "Law"
    ],
-   "address": "316 MCBRIEN RD",
-   "cross": "LYNNLAND TER/N TERRACE",
+   "address": "5120 HIGHWAY 153",
+   "cross": "DUPONT PKWY SB/HAMILL RD",
    "city": "CHATTANOOGA",
-   "zone": "C3 A",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.122929,
+   "lon": -85.238444,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825736",
+   "sequence": "2026-11-33058",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:29:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "11897 DAYTON PIKE",
+   "cross": "DEPOT ST/OSAGE DR",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 02 SD B",
+   "priority": "PRI 1",
+   "lat": 35.298476,
+   "lon": -85.147848,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825737",
+   "sequence": "2026-11-33059",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:29:05Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11897 DAYTON PIKE",
+   "cross": "DEPOT ST/OSAGE DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.298476,
+   "lon": -85.147848,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825734",
+   "sequence": "2026-11-33056",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-23T19:28:30Z",
+   "created": "2026-11-23T19:28:30Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6638 SAWYER RD",
+   "cross": "BONFIRE HOLW/SAWYER FARMS LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.195145,
+   "lon": -85.311287,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825732",
+   "sequence": "2026-11-33054",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:28:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1106 MCCALLIE AVE",
+   "cross": "NATIONAL AVE/SPRUCE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.039476,
+   "lon": -85.284862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825733",
+   "sequence": "2026-11-33055",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:28:18Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1106 MCCALLIE AVE",
+   "cross": "NATIONAL AVE/SPRUCE ST",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.039476,
+   "lon": -85.284862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825729",
+   "sequence": "2026-11-33053",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:27:57Z",
+   "created": "2026-11-23T19:27:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ANSLEY DR / W 55TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
    "priority": "PRI 3",
-   "lat": 35.005491,
-   "lon": -85.225921,
+   "lat": 34.988139,
+   "lon": -85.327084,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825728",
+   "sequence": "2026-11-33051",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:30:37Z",
+   "created": "2026-11-23T19:26:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1101 - 1199 MCCALLIE AVE",
+   "cross": "NATIONAL AVE/SPRUCE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.03972,
+   "lon": -85.285003,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +272,8 @@
    "id": "9825720",
    "sequence": "2026-11-33041",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:22:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:22:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -101,13 +283,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1 BROAD ST",
-   "cross": "W AQUARIUM WAY/W 3RD ST",
+   "address": "193 CHESTNUT ST",
+   "cross": "RIVERSIDE DR/W AQUARIUM WAY",
    "city": "CHATTANOOGA",
    "zone": "A7",
    "priority": "PRI 3",
-   "lat": 35.055843,
-   "lon": -85.311021,
+   "lat": 35.054938,
+   "lon": -85.312134,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -245,9 +427,9 @@
   {
    "id": "9825691",
    "sequence": "2026-11-33021",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:12:00Z",
+   "type": "Backup EMS Unit",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:28:56Z",
    "created": "2026-11-23T19:12:00Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -261,7 +443,7 @@
    "cross": "EXIT SEQUOYAH RD OFF RAMP NB/EXIT SEQUOYAH RD ON RAMP NB",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.251728,
    "lon": -85.176796,
    "units": 1,
@@ -347,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9825687",
-   "sequence": "2026-11-33016",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:10:29Z",
-   "created": "2026-11-23T19:10:29Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1043 FLOYD DR",
-   "cross": "MCCALL RD/HOLIDAY DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.992866,
-   "lon": -85.212622,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825686",
    "sequence": "2026-11-33017",
    "type": "MVC No Injuries",
@@ -402,8 +558,8 @@
    "id": "9825685",
    "sequence": "2026-11-33015",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T19:19:41Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T19:28:56Z",
    "created": "2026-11-23T19:10:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -453,7 +609,7 @@
   {
    "id": "9825674",
    "sequence": "2026-11-33010",
-   "type": "MVC No Injuries",
+   "type": "MVC Injuries",
    "status": "On Scene",
    "status_at": "2026-11-23T19:12:51Z",
    "created": "2026-11-23T19:03:13Z",
@@ -469,12 +625,12 @@
    "cross": "DEPOT ST/OSAGE DR",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.298476,
    "lon": -85.147848,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9825672",
@@ -581,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9825663",
-   "sequence": "2026-11-33003",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T18:58:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SILVERDALE RD / BONNY OAKS DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.062264,
-   "lon": -85.137819,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825662",
    "sequence": "2026-11-33000",
    "type": "EMS CALL",
@@ -662,8 +792,8 @@
    "id": "9825659",
    "sequence": "2026-11-32997",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:26:39Z",
    "created": "2026-11-23T18:55:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -714,8 +844,8 @@
    "id": "9825648",
    "sequence": "2026-11-32988",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:12:08Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:27:33Z",
    "created": "2026-11-23T18:44:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -740,8 +870,8 @@
    "id": "9825623",
    "sequence": "2026-11-32970",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:11:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:28:21Z",
    "created": "2026-11-23T18:38:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -813,32 +943,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9825579",
-   "sequence": "2026-11-32948",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:28:00Z",
-   "created": "2026-11-23T18:22:11Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DAYTON BLVD / SIGNAL MOUNTAIN RD",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 1",
-   "lat": 35.083971,
-   "lon": -85.317606,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9825572",
