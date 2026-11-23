@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-23T20:05:46+00:00",
+ "updated": "2026-11-23T20:10:45+00:00",
  "counts": {
   "year": 371466,
   "upstream_day": 663,
-  "day": 917,
+  "day": 921,
   "day_basis": "midnight"
  },
  "raw_rows": 31,
  "incidents": [
   {
+   "id": "9825831",
+   "sequence": "2026-11-33120",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:10:29Z",
+   "created": "2026-11-23T20:09:41Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6708 RINGGOLD RD",
+   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.989554,
+   "lon": -85.198923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825827",
    "sequence": "2026-11-33116",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-23T20:05:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T20:05:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.054978,
    "lon": -85.259833,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825768",
-   "sequence": "2026-11-33080",
-   "type": "MVC Delayed",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:00:03Z",
-   "created": "2026-11-23T19:40:31Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3721 CONNELLY LN",
-   "cross": "DANIEL DR/BENNETT RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 34.996162,
-   "lon": -85.257995,
    "units": 1,
    "stacked": false,
    "notable": false
