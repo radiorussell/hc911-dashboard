@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T11:50:39+00:00",
+ "updated": "2026-11-23T11:55:38+00:00",
  "counts": {
   "year": 370928,
   "upstream_day": 126,
-  "day": 173,
+  "day": 174,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9824753",
+   "sequence": "2026-11-32373",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:50:51Z",
+   "created": "2026-11-23T11:50:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "350 LOOKOUT HIGH ST",
+   "cross": "No Cross Street/ADKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.033462,
+   "lon": -85.36555,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824752",
    "sequence": "2026-11-32372",
@@ -65,7 +91,7 @@
    "sequence": "2026-11-32367",
    "type": "Unknown 911",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T11:53:51Z",
    "created": "2026-11-23T11:45:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
