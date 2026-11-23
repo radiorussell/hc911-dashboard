@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T13:00:42+00:00",
+ "updated": "2026-11-23T13:05:37+00:00",
  "counts": {
   "year": 370967,
   "upstream_day": 165,
-  "day": 240,
+  "day": 244,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9824863",
+   "sequence": "2026-11-32443",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:01:25Z",
+   "created": "2026-11-23T13:01:25Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6401 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.052227,
+   "lon": -85.174917,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824861",
+   "sequence": "2026-11-32442",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:00:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6401 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.052227,
+   "lon": -85.174917,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824860",
    "sequence": "2026-11-32439",
@@ -169,7 +221,7 @@
    "sequence": "2026-11-32426",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T13:05:20Z",
    "created": "2026-11-23T12:44:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
