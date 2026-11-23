@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T13:05:37+00:00",
+ "updated": "2026-11-23T13:10:38+00:00",
  "counts": {
-  "year": 370967,
-  "upstream_day": 165,
-  "day": 244,
+  "year": null,
+  "upstream_day": null,
+  "day": 253,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9824874",
+   "sequence": "2026-11-32452",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:09:32Z",
+   "created": "2026-11-23T13:09:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1806 DOGWOOD DR",
+   "cross": "BENNINGTON DR/MARK TWAIN CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.04976,
+   "lon": -85.228987,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824870",
+   "sequence": "2026-11-32450",
+   "type": "Missing Endangered",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:07:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1623 SHELBY CIR",
+   "cross": "WESTGATE RD/BROOK MANOR DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.162879,
+   "lon": -85.208333,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824868",
+   "sequence": "2026-11-32449",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:06:51Z",
+   "created": "2026-11-23T13:06:51Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 4 CO C",
+   "priority": "PRI 2",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824867",
+   "sequence": "2026-11-32448",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:06:50Z",
+   "created": "2026-11-23T13:06:50Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824866",
+   "sequence": "2026-11-32447",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T13:06:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824863",
    "sequence": "2026-11-32443",
@@ -56,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.052227,
    "lon": -85.174917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824860",
-   "sequence": "2026-11-32439",
-   "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:59:46Z",
-   "created": "2026-11-23T12:59:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5304 CENTRAL AVE",
-   "cross": "HALSEY ST/LEE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.988637,
-   "lon": -85.319278,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9824830",
-   "sequence": "2026-11-32419",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T12:48:10Z",
-   "created": "2026-11-23T12:41:04Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "19 W MEADOWBROOK DR",
-   "cross": "DAYTON BLVD/OAKLAND TER",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 2",
-   "priority": "PRI 1",
-   "lat": 35.125541,
-   "lon": -85.288007,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824827",
    "sequence": "2026-11-32417",
    "type": "EMS CALL",
@@ -290,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.125541,
    "lon": -85.288007,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824825",
-   "sequence": "2026-11-32415",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-23T12:44:42Z",
-   "created": "2026-11-23T12:39:32Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "APISON PIKE / WHITENER LN",
-   "cross": "",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.063341,
-   "lon": -85.076551,
    "units": 1,
    "stacked": false,
    "notable": false
