@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-23T11:40:43+00:00",
+ "updated": "2026-11-23T11:45:38+00:00",
  "counts": {
   "year": 370920,
   "upstream_day": 118,
-  "day": 152,
+  "day": 167,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9824747",
+   "sequence": "2026-11-32366",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:45:09Z",
+   "created": "2026-11-23T11:45:09Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10923 DOLLY POND RD",
+   "cross": "WELDON LN/HINSHAW LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 5",
+   "priority": "PRI 1",
+   "lat": 35.24715,
+   "lon": -85.035443,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824746",
+   "sequence": "2026-11-32365",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:45:09Z",
+   "created": "2026-11-23T11:45:09Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10923 DOLLY POND RD",
+   "cross": "WELDON LN/HINSHAW LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 3",
+   "lat": 35.24715,
+   "lon": -85.035443,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824744",
+   "sequence": "2026-11-32364",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T11:44:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "10923 DOLLY POND RD",
+   "cross": "WELDON LN/HINSHAW LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.24715,
+   "lon": -85.035443,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824743",
+   "sequence": "2026-11-32363",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-23T11:43:20Z",
+   "created": "2026-11-23T11:43:20Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5100 OOLTEWAH RINGGOLD RD",
+   "cross": "APISON PIKE/DAVID SMITH LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.063196,
+   "lon": -85.06418,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824720",
    "sequence": "2026-11-32350",
@@ -264,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.010228,
    "lon": -85.321534,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824596",
-   "sequence": "2026-11-32252",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T06:27:11Z",
-   "created": "2026-11-23T06:24:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "600 ASHLAND TER",
-   "cross": "THRUSHWOOD DR/SANDERS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.11718,
-   "lon": -85.279285,
    "units": 1,
    "stacked": false,
    "notable": false
