@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T08:25:38+00:00",
+ "updated": "2026-11-23T08:30:38+00:00",
  "counts": {
-  "year": 370864,
-  "upstream_day": 62,
-  "day": 85,
+  "year": 370869,
+  "upstream_day": 67,
+  "day": 90,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9824639",
+   "sequence": "2026-11-32288",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T08:26:25Z",
+   "created": "2026-11-23T08:26:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2300 WILSON ST",
+   "cross": "DODSON AVE/ARLINGTON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.050426,
+   "lon": -85.260972,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824640",
+   "sequence": "2026-11-32289",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T08:26:25Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2300 WILSON ST",
+   "cross": "DODSON AVE/ARLINGTON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "401",
+   "priority": "PRI 3",
+   "lat": 35.050426,
+   "lon": -85.260972,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824638",
+   "sequence": "2026-11-32287",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T08:25:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2300 WILSON ST",
+   "cross": "DODSON AVE/ARLINGTON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050426,
+   "lon": -85.260972,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824633",
    "sequence": "2026-11-32284",
@@ -35,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9824631",
-   "sequence": "2026-11-32282",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T08:08:58Z",
-   "created": "2026-11-23T08:08:58Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "708 HOOKER RD",
-   "cross": "WILSON RD/EDINGBURG DR",
-   "city": "CHATTANOOGA",
-   "zone": "903",
-   "priority": "PRI 1",
-   "lat": 34.993501,
-   "lon": -85.306589,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824629",
    "sequence": "2026-11-32281",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T08:25:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T08:28:00Z",
    "created": "2026-11-23T08:08:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
