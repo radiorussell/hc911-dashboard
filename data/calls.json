@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T12:35:44+00:00",
+ "updated": "2026-11-23T12:40:37+00:00",
  "counts": {
-  "year": 370947,
-  "upstream_day": 145,
-  "day": 211,
+  "year": 370951,
+  "upstream_day": 149,
+  "day": 216,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9824825",
+   "sequence": "2026-11-32415",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:39:41Z",
+   "created": "2026-11-23T12:39:32Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "APISON PIKE / WHITENER LN",
+   "cross": "",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.063341,
+   "lon": -85.076551,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824824",
+   "sequence": "2026-11-32414",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-23T12:39:05Z",
+   "created": "2026-11-23T12:39:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "13000 HIGHWAY 111 NB",
+   "cross": "EXIT BACK VALLEY RD ON RAMP NB/EXIT JONES GAP RD OFF RAMP NB",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 8",
+   "priority": "PRI 4",
+   "lat": 35.344824,
+   "lon": -85.172769,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824814",
    "sequence": "2026-11-32410",
@@ -39,7 +91,7 @@
    "sequence": "2026-11-32409",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T12:39:04Z",
    "created": "2026-11-23T12:26:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -63,7 +115,7 @@
   {
    "id": "9824803",
    "sequence": "2026-11-32405",
-   "type": "Theft",
+   "type": "Burglary",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-23T12:22:33Z",
@@ -78,10 +130,10 @@
    "address": "2524 GUNBARREL RD",
    "cross": "POPULUS LOOP/PINEWOOD DR",
    "city": "CHATTANOOGA",
-   "zone": "",
+   "zone": "C9",
    "priority": "PRI 4",
-   "lat": 35.046865,
-   "lon": -85.145277,
+   "lat": 35.047079,
+   "lon": -85.145607,
    "units": 1,
    "stacked": false,
    "notable": false
