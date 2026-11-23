@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T12:10:40+00:00",
+ "updated": "2026-11-23T12:15:38+00:00",
  "counts": {
   "year": 370937,
   "upstream_day": 135,
-  "day": 184,
+  "day": 197,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9824776",
+   "sequence": "2026-11-32396",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:12:16Z",
+   "created": "2026-11-23T12:12:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "N GERMANTOWN RD / MENLO ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.033367,
+   "lon": -85.241441,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824778",
+   "sequence": "2026-11-32394",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:10:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "702 GRAYSVILLE RD",
+   "cross": "E MOUNTAIN LN/NEIGHBORHOOD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 34.988179,
+   "lon": -85.147775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824769",
    "sequence": "2026-11-32382",
