@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T12:40:37+00:00",
+ "updated": "2026-11-23T12:45:39+00:00",
  "counts": {
   "year": 370951,
   "upstream_day": 149,
-  "day": 216,
+  "day": 227,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9824835",
+   "sequence": "2026-11-32426",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:45:12Z",
+   "created": "2026-11-23T12:44:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "703 SIGNAL MOUNTAIN RD",
+   "cross": "MUNDY ST/MOUNTAIN CREEK RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.098406,
+   "lon": -85.329331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824829",
+   "sequence": "2026-11-32418",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:41:04Z",
+   "created": "2026-11-23T12:41:04Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "19 W MEADOWBROOK DR",
+   "cross": "DAYTON BLVD/OAKLAND TER",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.125541,
+   "lon": -85.288007,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824830",
+   "sequence": "2026-11-32419",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:41:04Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "19 W MEADOWBROOK DR",
+   "cross": "DAYTON BLVD/OAKLAND TER",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 2",
+   "priority": "PRI 1",
+   "lat": 35.125541,
+   "lon": -85.288007,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824827",
+   "sequence": "2026-11-32417",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:40:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "19 W MEADOWBROOK DR",
+   "cross": "DAYTON BLVD/OAKLAND TER",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.125541,
+   "lon": -85.288007,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824825",
    "sequence": "2026-11-32415",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:39:41Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T12:44:42Z",
    "created": "2026-11-23T12:39:32Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -30,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.063341,
    "lon": -85.076551,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824824",
-   "sequence": "2026-11-32414",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-23T12:39:05Z",
-   "created": "2026-11-23T12:39:05Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "13000 HIGHWAY 111 NB",
-   "cross": "EXIT BACK VALLEY RD ON RAMP NB/EXIT JONES GAP RD OFF RAMP NB",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 8",
-   "priority": "PRI 4",
-   "lat": 35.344824,
-   "lon": -85.172769,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +194,8 @@
    "id": "9824803",
    "sequence": "2026-11-32405",
    "type": "Burglary",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-23T12:22:33Z",
    "created": "2026-11-23T12:22:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.050831,
    "lon": -85.133053,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824705",
-   "sequence": "2026-11-32339",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T12:24:53Z",
-   "created": "2026-11-23T11:16:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1040 LOWER BROW RD",
-   "cross": "SUNSET DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 08 HC E",
-   "priority": "PRI 1",
-   "lat": 35.10831,
-   "lon": -85.34459,
    "units": 1,
    "stacked": false,
    "notable": false
