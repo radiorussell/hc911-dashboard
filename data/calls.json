@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T22:40:39+00:00",
+ "updated": "2026-11-23T22:45:37+00:00",
  "counts": {
-  "year": 371605,
-  "upstream_day": 802,
-  "day": 1115,
+  "year": 371616,
+  "upstream_day": 813,
+  "day": 1124,
   "day_basis": "midnight"
  },
  "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9826115",
+   "sequence": "2026-11-33323",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:44:44Z",
+   "created": "2026-11-23T22:44:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.094418,
+   "lon": -85.330838,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826110",
+   "sequence": "2026-11-33321",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:44:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT INTERSTATE 24 E OFF RAMP SB",
+   "cross": "EXIT BROAD ST OFF RAMP SB/INTERSTATE 24 EB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.032118,
+   "lon": -85.31845,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826114",
+   "sequence": "2026-11-33320",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:44:23Z",
+   "created": "2026-11-23T22:43:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5912 LEE HWY",
+   "cross": "WHIRLAWAY DR/CHARLES DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.023038,
+   "lon": -85.196661,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826109",
+   "sequence": "2026-11-33319",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T22:42:40Z",
+   "created": "2026-11-23T22:42:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "800 - 859 INTERSTATE 75 NB",
+   "cross": "EXIT 7B ON RAMP NB/EXIT 9 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.065961,
+   "lon": -85.12503,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826106",
+   "sequence": "2026-11-33316",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:40:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6000 - 6199 MOUNTAIN VIEW RD",
+   "cross": "SNOW HILL RD/AMOS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.087992,
+   "lon": -85.065018,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826102",
    "sequence": "2026-11-33313",
@@ -38,8 +168,8 @@
    "id": "9826098",
    "sequence": "2026-11-33314",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:37:45Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:37:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +220,8 @@
    "id": "9826099",
    "sequence": "2026-11-33312",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T22:45:31Z",
    "created": "2026-11-23T22:36:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -163,84 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826086",
-   "sequence": "2026-11-33305",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:34:31Z",
-   "created": "2026-11-23T22:29:14Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "280 HIGHWAY 153 SB",
-   "cross": "EXIT SHALLOWFORD RD OFF RAMP SB/EXIT JERSEY PIKE ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "606",
-   "priority": "PRI 1",
-   "lat": 35.058626,
-   "lon": -85.192592,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9826081",
-   "sequence": "2026-11-33301",
-   "type": "Wires Down",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:28:27Z",
-   "created": "2026-11-23T22:28:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ALTON PARK BLVD / W 33RD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 2",
-   "lat": 35.014868,
-   "lon": -85.314346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826080",
-   "sequence": "2026-11-33300",
-   "type": "Shoplifter",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:31:45Z",
-   "created": "2026-11-23T22:27:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3158 BROAD ST",
-   "cross": "W 31ST ST/W 32ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 4",
-   "lat": 35.01868,
-   "lon": -85.321184,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826073",
@@ -368,58 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.312921,
    "lon": -85.159401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826064",
-   "sequence": "2026-11-33287",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:17:39Z",
-   "created": "2026-11-23T22:17:39Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7642 GANN RD",
-   "cross": "IRONGATE DR/N DENT RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.18911,
-   "lon": -85.201964,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826063",
-   "sequence": "2026-11-33286",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:30:31Z",
-   "created": "2026-11-23T22:17:15Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7642 GANN RD",
-   "cross": "IRONGATE DR/N DENT RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.18911,
-   "lon": -85.201964,
    "units": 1,
    "stacked": false,
    "notable": false
