@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T12:45:39+00:00",
+ "updated": "2026-11-23T12:50:44+00:00",
  "counts": {
-  "year": 370951,
-  "upstream_day": 149,
-  "day": 227,
+  "year": 370963,
+  "upstream_day": 161,
+  "day": 230,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9824843",
+   "sequence": "2026-11-32429",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:47:08Z",
+   "created": "2026-11-23T12:47:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7710 E BRAINERD RD",
+   "cross": "RESERVE WAY/JENKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 2",
+   "lat": 35.007895,
+   "lon": -85.157599,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824841",
+   "sequence": "2026-11-32428",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:46:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7710 E BRAINERD RD",
+   "cross": "RESERVE WAY/JENKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.007895,
+   "lon": -85.157599,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824835",
    "sequence": "2026-11-32426",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:45:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T12:44:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9824830",
    "sequence": "2026-11-32419",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T12:48:10Z",
    "created": "2026-11-23T12:41:04Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9824803",
    "sequence": "2026-11-32405",
    "type": "Burglary",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:22:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T12:22:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
