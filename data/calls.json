@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T19:35:39+00:00",
+ "updated": "2026-11-23T19:40:39+00:00",
  "counts": {
   "year": 371422,
   "upstream_day": 619,
-  "day": 874,
+  "day": 881,
   "day_basis": "midnight"
  },
- "raw_rows": 46,
+ "raw_rows": 43,
  "incidents": [
+  {
+   "id": "9825768",
+   "sequence": "2026-11-33080",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:40:31Z",
+   "created": "2026-11-23T19:40:31Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3721 CONNELLY LN",
+   "cross": "DANIEL DR/BENNETT RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 34.996162,
+   "lon": -85.257995,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825762",
+   "sequence": "2026-11-33078",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:38:59Z",
+   "created": "2026-11-23T19:38:59Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "915 S SEMINOLE DR",
+   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 35.009134,
+   "lon": -85.265454,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825752",
    "sequence": "2026-11-33073",
    "type": "AFA Apartment",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:35:19Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:40:33Z",
    "created": "2026-11-23T19:34:09Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9825750",
    "sequence": "2026-11-33071",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:34:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:33:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9825741",
    "sequence": "2026-11-33061",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:38:29Z",
    "created": "2026-11-23T19:30:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9825737",
-   "sequence": "2026-11-33059",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T19:34:52Z",
-   "created": "2026-11-23T19:29:05Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "11897 DAYTON PIKE",
-   "cross": "DEPOT ST/OSAGE DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.298476,
-   "lon": -85.147848,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825736",
    "sequence": "2026-11-33058",
    "type": "MVC Injuries",
@@ -287,6 +313,32 @@
    "cross": "DEPOT ST/OSAGE DR",
    "city": "SODDY DAISY",
    "zone": "MEDIC 02 SD B",
+   "priority": "PRI 1",
+   "lat": 35.298476,
+   "lon": -85.147848,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825737",
+   "sequence": "2026-11-33059",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:34:52Z",
+   "created": "2026-11-23T19:29:05Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11897 DAYTON PIKE",
+   "cross": "DEPOT ST/OSAGE DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
    "priority": "PRI 1",
    "lat": 35.298476,
    "lon": -85.147848,
@@ -316,58 +368,6 @@
    "priority": "PRI 4",
    "lat": 35.195145,
    "lon": -85.311287,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825729",
-   "sequence": "2026-11-33053",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:27:57Z",
-   "created": "2026-11-23T19:27:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ANSLEY DR / W 55TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.988139,
-   "lon": -85.327084,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825721",
-   "sequence": "2026-11-33043",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-23T19:23:21Z",
-   "created": "2026-11-23T19:23:21Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15000 DAYTON PIKE",
-   "cross": "GOTHARD ST/WIDOW ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.38056,
-   "lon": -85.109595,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,36 +425,10 @@
    "notable": false
   },
   {
-   "id": "9825709",
-   "sequence": "2026-11-33036",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-23T19:32:25Z",
-   "created": "2026-11-23T19:20:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ST ELMO AVE / W 38TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.011256,
-   "lon": -85.328212,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825711",
    "sequence": "2026-11-33032",
    "type": "Property",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-23T19:20:02Z",
    "created": "2026-11-23T19:20:02Z",
    "jurisdiction": "Soddy Daisy PD",
@@ -473,7 +447,7 @@
    "lat": 35.251563,
    "lon": -85.159598,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -766,8 +740,8 @@
    "id": "9825670",
    "sequence": "2026-11-33005",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:00:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:00:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -818,8 +792,8 @@
    "id": "9825662",
    "sequence": "2026-11-33000",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:22:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:37:41Z",
    "created": "2026-11-23T18:58:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -997,32 +971,6 @@
    "notable": false
   },
   {
-   "id": "9825572",
-   "sequence": "2026-11-32943",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T18:58:41Z",
-   "created": "2026-11-23T18:19:56Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040471,
-   "lon": -85.299887,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825533",
    "sequence": "2026-11-32910",
    "type": "Supplemental Reports",
@@ -1044,32 +992,6 @@
    "priority": "PRI 4",
    "lat": 35.035115,
    "lon": -85.263841,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825501",
-   "sequence": "2026-11-32887",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T18:39:18Z",
-   "created": "2026-11-23T17:45:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7809 SAFARI DR",
-   "cross": "BROCK RD/MEGAN CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.050666,
-   "lon": -85.119658,
    "units": 1,
    "stacked": false,
    "notable": false
