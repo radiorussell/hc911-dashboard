@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T21:45:39+00:00",
+ "updated": "2026-11-23T21:50:39+00:00",
  "counts": {
   "year": 371565,
   "upstream_day": 762,
-  "day": 1053,
+  "day": 1062,
   "day_basis": "midnight"
  },
  "raw_rows": 42,
  "incidents": [
   {
-   "id": "9826018",
-   "sequence": "2026-11-33251",
-   "type": "Animal Call",
+   "id": "9826028",
+   "sequence": "2026-11-33261",
+   "type": "MVC No Injuries",
    "status": "Queued",
-   "status_at": "2026-11-23T21:44:34Z",
-   "created": "2026-11-23T21:44:34Z",
+   "status_at": "2026-11-23T21:49:26Z",
+   "created": "2026-11-23T21:48:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,91 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4147 MOUNTAIN CREEK RD",
-   "cross": "MORRISON SPRINGS RD/READS LAKE RD",
+   "address": "5110 - 5149 HIGHWAY 153",
+   "cross": "DUPONT PKWY SB/HAMILL RD",
    "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.13369,
-   "lon": -85.306777,
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.121501,
+   "lon": -85.238265,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826024",
+   "sequence": "2026-11-33257",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:46:56Z",
+   "created": "2026-11-23T21:46:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6910 STANDIFER GAP RD",
+   "cross": "EDGEFIELD DR/MIDFIELD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.053448,
+   "lon": -85.15395,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826022",
+   "sequence": "2026-11-33256",
+   "type": "Trash Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:46:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6910 STANDIFER GAP RD",
+   "cross": "EDGEFIELD DR/MIDFIELD DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 3",
+   "lat": 35.053448,
+   "lon": -85.15395,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826019",
+   "sequence": "2026-11-33255",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:45:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "101 EVENINGSIDE DR",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.027203,
+   "lon": -85.283952,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +116,8 @@
    "id": "9826016",
    "sequence": "2026-11-33252",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:44:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:44:27Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -64,38 +142,12 @@
    "id": "9826010",
    "sequence": "2026-11-33247",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:50:12Z",
    "created": "2026-11-23T21:39:10Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
     "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1140 INTERSTATE 75 SB",
-   "cross": "EXIT 11 E ON RAMP SB/EXIT 11 W ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
-   "priority": "PRI 1",
-   "lat": 35.084965,
-   "lon": -85.071844,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9826011",
-   "sequence": "2026-11-33248",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T21:39:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
@@ -139,32 +191,6 @@
    "notable": true
   },
   {
-   "id": "9826001",
-   "sequence": "2026-11-33244",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:41:14Z",
-   "created": "2026-11-23T21:36:48Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3316 DAYTON BLVD",
-   "cross": "KINGSTON ST/SELMA ST",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 1",
-   "lat": 35.110066,
-   "lon": -85.29456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826000",
    "sequence": "2026-11-33243",
    "type": "EMS CALL",
@@ -183,6 +209,32 @@
    "cross": "KINGSTON ST/SELMA ST",
    "city": "RED BANK",
    "zone": "RED BANK 1",
+   "priority": "PRI 1",
+   "lat": 35.110066,
+   "lon": -85.29456,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826001",
+   "sequence": "2026-11-33244",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:41:14Z",
+   "created": "2026-11-23T21:36:48Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3316 DAYTON BLVD",
+   "cross": "KINGSTON ST/SELMA ST",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
    "priority": "PRI 1",
    "lat": 35.110066,
    "lon": -85.29456,
@@ -246,8 +298,8 @@
    "id": "9825996",
    "sequence": "2026-11-33240",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:36:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:36:12Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9825970",
    "sequence": "2026-11-33220",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:29:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:29:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -584,24 +636,24 @@
    "id": "9825951",
    "sequence": "2026-11-33211",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-23T21:23:29Z",
    "created": "2026-11-23T21:23:08Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "5817 QUAIL HOLLOW CIR",
-   "cross": "WILLOW LAWN DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
+   "address": "4510 HIGHWAY 58",
+   "cross": "INNWOOD LN/OAKHILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
    "priority": "PRI 4",
-   "lat": 35.124631,
-   "lon": -85.165504,
+   "lat": 35.083886,
+   "lon": -85.197621,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -628,32 +680,6 @@
    "priority": "PRI 3",
    "lat": 35.089081,
    "lon": -85.219825,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825953",
-   "sequence": "2026-11-33207",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-23T21:30:43Z",
-   "created": "2026-11-23T21:16:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2101 E 3RD ST",
-   "cross": "N WILLOW ST/N KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.039964,
-   "lon": -85.268586,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -766,8 +792,8 @@
    "id": "9825918",
    "sequence": "2026-11-33184",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T21:40:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T21:49:04Z",
    "created": "2026-11-23T21:03:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -914,32 +940,6 @@
    "priority": "PRI 4",
    "lat": 35.016032,
    "lon": -85.257953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825857",
-   "sequence": "2026-11-33135",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:43:52Z",
-   "created": "2026-11-23T20:30:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9900 COOL WAY",
-   "cross": "No Cross Street/VIOLETTE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 5 D",
-   "priority": "PRI 4",
-   "lat": 35.219394,
-   "lon": -85.113058,
    "units": 1,
    "stacked": false,
    "notable": false
