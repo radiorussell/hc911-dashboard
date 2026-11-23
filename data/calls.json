@@ -1,19 +1,147 @@
 {
- "updated": "2026-11-23T15:15:38+00:00",
+ "updated": "2026-11-23T15:20:38+00:00",
  "counts": {
   "year": 371105,
   "upstream_day": 303,
-  "day": 430,
+  "day": 437,
   "day_basis": "midnight"
  },
  "raw_rows": 40,
  "incidents": [
   {
+   "id": "9825129",
+   "sequence": "2026-11-32636",
+   "type": "Missing Juv Not 21",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:17:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1300 SHALLOWFORD RD",
+   "cross": "MICHAEL LN/AGAWELA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.040959,
+   "lon": -85.221504,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825127",
+   "sequence": "2026-11-32633",
+   "type": "Brush Fire",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:16:50Z",
+   "created": "2026-11-23T15:16:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "35°01'22.94\"N / 085°19'19.60\"W",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.022641,
+   "lon": -85.321337,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825126",
+   "sequence": "2026-11-32634",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:16:56Z",
+   "created": "2026-11-23T15:16:08Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1417 ST THOMAS ST",
+   "cross": "No Cross Street/WRIGHT ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.990805,
+   "lon": -85.199594,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825123",
+   "sequence": "2026-11-32632",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:15:30Z",
+   "jurisdiction": "",
+   "agencies": [],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "=35.02298 -85.32219",
+   "cross": "",
+   "city": "",
+   "zone": "",
+   "priority": "PRI 2",
+   "lat": 0,
+   "lon": 0,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825124",
+   "sequence": "2026-11-32630",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:15:38Z",
+   "created": "2026-11-23T15:15:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1816 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.024501,
+   "lon": -85.155628,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825121",
    "sequence": "2026-11-32628",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:20:10Z",
    "created": "2026-11-23T15:13:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -38,8 +166,8 @@
    "id": "9825122",
    "sequence": "2026-11-32629",
    "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:13:10Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:19:50Z",
    "created": "2026-11-23T15:13:10Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +192,8 @@
    "id": "9825120",
    "sequence": "2026-11-32627",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:18:44Z",
    "created": "2026-11-23T15:12:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -273,7 +401,7 @@
    "sequence": "2026-11-32601",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T15:19:08Z",
    "created": "2026-11-23T14:59:01Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -394,110 +522,6 @@
    "priority": "PRI 1",
    "lat": 35.267339,
    "lon": -85.170496,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825081",
-   "sequence": "2026-11-32593",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T14:55:41Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "302 DUNLAP AVE",
-   "cross": "BLOOM RD/CASTLE AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.017446,
-   "lon": -85.260287,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825074",
-   "sequence": "2026-11-32589",
-   "type": "Brush Fire",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:52:23Z",
-   "created": "2026-11-23T14:52:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3937 KELLYS FERRY RD",
-   "cross": "DOWER RD/FRANCIS ST",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.025141,
-   "lon": -85.384984,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825070",
-   "sequence": "2026-11-32588",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:56:43Z",
-   "created": "2026-11-23T14:51:40Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3937 KELLYS FERRY RD",
-   "cross": "DOWER RD/FRANCIS ST",
-   "city": "CHATTANOOGA",
-   "zone": "301",
-   "priority": "PRI 2",
-   "lat": 35.025141,
-   "lon": -85.384984,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825060",
-   "sequence": "2026-11-32582",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:56:15Z",
-   "created": "2026-11-23T14:47:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6783 SAWTOOTH DR",
-   "cross": "BAKER BOY DR/RILEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 4",
-   "lat": 35.111775,
-   "lon": -85.098357,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -740,8 +764,8 @@
    "id": "9825007",
    "sequence": "2026-11-32542",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-23T14:51:50Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T15:20:34Z",
    "created": "2026-11-23T14:13:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -893,32 +917,6 @@
    "notable": false
   },
   {
-   "id": "9824987",
-   "sequence": "2026-11-32525",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:12:19Z",
-   "created": "2026-11-23T14:08:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "GANN RD / THRASHER PIKE",
-   "cross": "",
-   "city": "SODDY DAISY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 1",
-   "lat": 35.202548,
-   "lon": -85.207425,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824965",
    "sequence": "2026-11-32508",
    "type": "Property",
@@ -948,8 +946,8 @@
    "id": "9824958",
    "sequence": "2026-11-32505",
    "type": "Sex Offense",
-   "status": "Stacked",
-   "status_at": "2026-11-23T13:56:30Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:19:56Z",
    "created": "2026-11-23T13:54:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -967,7 +965,7 @@
    "lat": 35.043228,
    "lon": -85.29587,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
