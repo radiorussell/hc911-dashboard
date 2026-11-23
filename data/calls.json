@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-23T11:15:38+00:00",
+ "updated": "2026-11-23T11:20:40+00:00",
  "counts": {
-  "year": 370901,
-  "upstream_day": 99,
-  "day": 139,
+  "year": 370907,
+  "upstream_day": 105,
+  "day": 145,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9824711",
+   "sequence": "2026-11-32344",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:18:43Z",
+   "created": "2026-11-23T11:18:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "601 JUSTICE WAY",
+   "cross": "STANDIFER GAP RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "701 B",
+   "priority": "PRI 1",
+   "lat": 35.050831,
+   "lon": -85.133053,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824709",
+   "sequence": "2026-11-32343",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T11:18:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "601 JUSTICE WAY",
+   "cross": "STANDIFER GAP RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.050831,
+   "lon": -85.133053,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824707",
+   "sequence": "2026-11-32340",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:17:16Z",
+   "created": "2026-11-23T11:17:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1040 LOWER BROW RD",
+   "cross": "SUNSET DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 1 C",
+   "priority": "PRI 3",
+   "lat": 35.108271,
+   "lon": -85.344519,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824708",
+   "sequence": "2026-11-32341",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T11:17:16Z",
+   "jurisdiction": "Waldens Ridge Emergency Srv",
+   "agencies": [
+    "Waldens Ridge Emergency Srv"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1040 LOWER BROW RD",
+   "cross": "SUNSET DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WALDEN FD HC G",
+   "priority": "PRI 2",
+   "lat": 35.108271,
+   "lon": -85.344519,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824706",
+   "sequence": "2026-11-32342",
+   "type": "Abandoned Auto",
+   "status": "Enroute",
+   "status_at": "2026-11-23T11:17:58Z",
+   "created": "2026-11-23T11:16:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "350 - 368 W MARTIN LUTHER KING BLVD",
+   "cross": "EXIT W M L KING BLVD E ON RAMP NB/EXIT W 4TH ST OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.046776,
+   "lon": -85.314549,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824705",
+   "sequence": "2026-11-32339",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T11:16:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1040 LOWER BROW RD",
+   "cross": "SUNSET DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 08 HC E",
+   "priority": "PRI 1",
+   "lat": 35.108271,
+   "lon": -85.344519,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824704",
    "sequence": "2026-11-32338",
