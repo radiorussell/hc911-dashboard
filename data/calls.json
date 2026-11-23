@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T00:30:41+00:00",
+ "updated": "2026-11-23T00:35:38+00:00",
  "counts": {
   "year": 370581,
   "upstream_day": 0,
-  "day": 912,
+  "day": 918,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9824179",
+   "sequence": "2026-11-31936",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:34:17Z",
+   "created": "2026-11-23T00:33:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2505 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.026082,
+   "lon": -85.311793,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824176",
+   "sequence": "2026-11-31933",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:31:32Z",
+   "created": "2026-11-23T00:31:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3933 N QUAIL LN",
+   "cross": "S QUAIL LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.126071,
+   "lon": -85.310017,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824175",
+   "sequence": "2026-11-31932",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:30:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3937 N QUAIL LN",
+   "cross": "S QUAIL LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.126085,
+   "lon": -85.309932,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9824173",
    "sequence": "2026-11-31930",
@@ -38,8 +116,8 @@
    "id": "9824170",
    "sequence": "2026-11-31929",
    "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:34:35Z",
    "created": "2026-11-23T00:28:14Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9824154",
    "sequence": "2026-11-31917",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:33:53Z",
    "created": "2026-11-23T00:17:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9824149",
    "sequence": "2026-11-31913",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:13:38Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:33:56Z",
    "created": "2026-11-23T00:13:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -298,8 +376,8 @@
    "id": "9824142",
    "sequence": "2026-11-31908",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T00:27:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T00:34:57Z",
    "created": "2026-11-23T00:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.051994,
    "lon": -85.152296,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824108",
-   "sequence": "2026-11-31882",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T00:11:13Z",
-   "created": "2026-11-22T23:42:33Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2201 E 28TH ST",
-   "cross": "4TH AVE/5TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.011472,
-   "lon": -85.282926,
    "units": 1,
    "stacked": false,
    "notable": false
