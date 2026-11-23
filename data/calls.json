@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T11:20:40+00:00",
+ "updated": "2026-11-23T11:25:42+00:00",
  "counts": {
   "year": 370907,
   "upstream_day": 105,
-  "day": 145,
+  "day": 152,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9824720",
+   "sequence": "2026-11-32350",
+   "type": "Shots Fired",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:24:49Z",
+   "created": "2026-11-23T11:24:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1309 MAYFIELD LN",
+   "cross": "AUSTIN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.141064,
+   "lon": -85.240905,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824719",
+   "sequence": "2026-11-32351",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:24:49Z",
+   "created": "2026-11-23T11:24:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052578,
+   "lon": -85.152879,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824711",
    "sequence": "2026-11-32344",
@@ -158,8 +210,8 @@
    "city": "HAMILTON COUNTY",
    "zone": "MEDIC 08 HC E",
    "priority": "PRI 1",
-   "lat": 35.108271,
-   "lon": -85.344519,
+   "lat": 35.10831,
+   "lon": -85.34459,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +246,8 @@
    "id": "9824703",
    "sequence": "2026-11-32337",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T11:22:13Z",
    "created": "2026-11-23T11:14:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,63 +295,11 @@
    "notable": false
   },
   {
-   "id": "9824687",
-   "sequence": "2026-11-32327",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T10:51:59Z",
-   "created": "2026-11-23T10:51:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1020 W 37TH ST",
-   "cross": "PIROLA ST/CHARGER DR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.010228,
-   "lon": -85.321534,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824688",
-   "sequence": "2026-11-32328",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T10:51:59Z",
-   "created": "2026-11-23T10:51:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1020 W 37TH ST",
-   "cross": "PIROLA ST/CHARGER DR",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 1",
-   "lat": 35.010228,
-   "lon": -85.321534,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824686",
    "sequence": "2026-11-32326",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T11:03:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T11:21:28Z",
    "created": "2026-11-23T10:51:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
