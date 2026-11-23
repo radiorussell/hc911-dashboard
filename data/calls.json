@@ -1,19 +1,227 @@
 {
- "updated": "2026-11-23T21:00:39+00:00",
+ "updated": "2026-11-23T21:05:39+00:00",
  "counts": {
-  "year": 371497,
-  "upstream_day": 694,
-  "day": 975,
+  "year": 371507,
+  "upstream_day": 704,
+  "day": 986,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9825922",
+   "sequence": "2026-11-33185",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:04:45Z",
+   "created": "2026-11-23T21:04:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "425 CUMBERLAND ST",
+   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 2",
+   "lat": 35.045305,
+   "lon": -85.281043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825921",
+   "sequence": "2026-11-33183",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:04:42Z",
+   "created": "2026-11-23T21:04:42Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1819 OAKDALE RD",
+   "cross": "MAY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 1",
+   "lat": 35.363789,
+   "lon": -85.063726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825920",
+   "sequence": "2026-11-33182",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:04:42Z",
+   "created": "2026-11-23T21:04:42Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1819 OAKDALE RD",
+   "cross": "MAY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.363789,
+   "lon": -85.063726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825919",
+   "sequence": "2026-11-33181",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:04:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1819 OAKDALE RD",
+   "cross": "MAY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.363789,
+   "lon": -85.063726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825918",
+   "sequence": "2026-11-33184",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:04:45Z",
+   "created": "2026-11-23T21:03:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "425 CUMBERLAND ST",
+   "cross": "N HOLTZCLAW AVE/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.045305,
+   "lon": -85.281043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825913",
+   "sequence": "2026-11-33180",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:04:24Z",
+   "created": "2026-11-23T21:03:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 25 HIGHWAY 27 SB",
+   "cross": "EXIT BROAD ST OFF RAMP SB/EXIT INTERSTATE 24 W OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.032617,
+   "lon": -85.318884,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825916",
+   "sequence": "2026-11-33177",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:02:44Z",
+   "created": "2026-11-23T21:02:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4316 DODDS AVE",
+   "cross": "E 43RD ST/E 44TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 4",
+   "lat": 34.991561,
+   "lon": -85.285994,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825914",
+   "sequence": "2026-11-33178",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T21:03:10Z",
+   "created": "2026-11-23T21:02:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5213 HICKORY WOODS LN",
+   "cross": "AUSTIN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.139508,
+   "lon": -85.239118,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825911",
    "sequence": "2026-11-33174",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:00:18Z",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:00:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -27,7 +235,7 @@
    "cross": "N HARBOR RD/No Cross Street",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 6",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.258036,
    "lon": -85.108855,
    "units": 1,
@@ -64,8 +272,8 @@
    "id": "9825905",
    "sequence": "2026-11-33170",
    "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:03:49Z",
    "created": "2026-11-23T20:54:27Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -90,8 +298,8 @@
    "id": "9825904",
    "sequence": "2026-11-33169",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:02:50Z",
    "created": "2026-11-23T20:53:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +454,8 @@
    "id": "9825890",
    "sequence": "2026-11-33157",
    "type": "Vandalism",
-   "status": "Stacked",
-   "status_at": "2026-11-23T20:46:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T20:46:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -265,7 +473,7 @@
    "lat": 35.012339,
    "lon": -85.189463,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -316,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 35.042518,
    "lon": -85.273186,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825870",
-   "sequence": "2026-11-33144",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T20:37:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6383 LARAMIE CIR",
-   "cross": "NOAH REID RD/NOAH REID RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.056914,
-   "lon": -85.178706,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -454,8 +636,8 @@
    "id": "9825855",
    "sequence": "2026-11-33145",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:01:49Z",
    "created": "2026-11-23T20:30:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
