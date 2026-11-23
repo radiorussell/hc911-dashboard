@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T03:00:39+00:00",
+ "updated": "2026-11-23T03:02:25+00:00",
  "counts": {
   "year": 370712,
   "upstream_day": 0,
-  "day": 1070,
+  "day": 1073,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9824388",
+   "sequence": "2026-11-32091",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T03:01:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1209 GROVE ST",
+   "cross": "W 12TH ST/W 12TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 1",
+   "lat": 35.044807,
+   "lon": -85.318443,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824389",
+   "sequence": "2026-11-32090",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T03:01:10Z",
+   "created": "2026-11-23T03:01:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1819 RUBIO ST",
+   "cross": "SHERIDAN AVE/N ORCHARD KNOB AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.053636,
+   "lon": -85.265658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824387",
+   "sequence": "2026-11-32089",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": "2026-11-23T03:00:44Z",
+   "created": "2026-11-23T03:00:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "S WATKINS ST / E MAIN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.023359,
+   "lon": -85.272632,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9824384",
    "sequence": "2026-11-32087",
@@ -210,32 +288,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 4 HC I",
    "priority": "PRI 1",
-   "lat": 35.075417,
-   "lon": -85.05616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824368",
-   "sequence": "2026-11-32075",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T02:46:10Z",
-   "created": "2026-11-23T02:46:10Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5775 CHERRY ST",
-   "cross": "W CHERRY ST/BREWER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 3",
    "lat": 35.075417,
    "lon": -85.05616,
    "units": 1,
@@ -446,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.031464,
    "lon": -85.268223,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824326",
-   "sequence": "2026-11-32044",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-23T02:47:33Z",
-   "created": "2026-11-23T02:27:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1005 GADD RD",
-   "cross": "NORCROSS RD/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.141796,
-   "lon": -85.251508,
    "units": 1,
    "stacked": false,
    "notable": false
