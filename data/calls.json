@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T00:35:38+00:00",
+ "updated": "2026-11-23T00:40:37+00:00",
  "counts": {
-  "year": 370581,
+  "year": 370590,
   "upstream_day": 0,
-  "day": 918,
+  "day": 924,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9824185",
+   "sequence": "2026-11-31942",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:39:09Z",
+   "created": "2026-11-23T00:38:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "S GERMANTOWN RD / S TERRACE",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.013819,
+   "lon": -85.252073,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824184",
+   "sequence": "2026-11-31940",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:37:13Z",
+   "created": "2026-11-23T00:37:13Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5207 WOODLAND VIEW CIR",
+   "cross": "JEFFERY LN/ANGELA DR",
+   "city": "CHATTANOOGA",
+   "zone": "903",
+   "priority": "PRI 2",
+   "lat": 34.989242,
+   "lon": -85.304798,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824182",
+   "sequence": "2026-11-31939",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:36:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5207 WOODLAND VIEW CIR",
+   "cross": "JEFFERY LN/ANGELA DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.989242,
+   "lon": -85.304798,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824183",
+   "sequence": "2026-11-31938",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:36:38Z",
+   "created": "2026-11-23T00:36:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5591 HIGHWAY 153",
+   "cross": "O HENRY DR/WINDING LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.147298,
+   "lon": -85.251651,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824179",
    "sequence": "2026-11-31936",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:34:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:33:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9824176",
-   "sequence": "2026-11-31933",
-   "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:31:32Z",
-   "created": "2026-11-23T00:31:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3933 N QUAIL LN",
-   "cross": "S QUAIL LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.126071,
-   "lon": -85.310017,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824175",
    "sequence": "2026-11-31932",
    "type": "Assault PD Only",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T00:37:23Z",
    "created": "2026-11-23T00:30:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9824169",
    "sequence": "2026-11-31928",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T00:38:26Z",
    "created": "2026-11-23T00:27:44Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -299,7 +377,7 @@
    "sequence": "2026-11-31916",
    "type": "Shots Fired",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T00:36:49Z",
    "created": "2026-11-23T00:16:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -524,58 +602,6 @@
    "priority": "PRI 1",
    "lat": 34.99663,
    "lon": -85.152187,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824053",
-   "sequence": "2026-11-31844",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T00:12:54Z",
-   "created": "2026-11-22T23:06:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10504 SIMS HARRIS RD",
-   "cross": "RUNYAN HILLS LN/HIGHWAY 58",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.220759,
-   "lon": -85.030898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823984",
-   "sequence": "2026-11-31783",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-22T23:45:34Z",
-   "created": "2026-11-22T22:17:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7301 RUNYAN RD",
-   "cross": "GAMBLE RD/TIPSY TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.256756,
-   "lon": -85.016085,
    "units": 1,
    "stacked": false,
    "notable": false
