@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T14:05:39+00:00",
+ "updated": "2026-11-23T14:10:40+00:00",
  "counts": {
   "year": 371020,
   "upstream_day": 218,
-  "day": 309,
+  "day": 330,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9824988",
+   "sequence": "2026-11-32529",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:09:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2602 OCOEE ST",
+   "cross": "DIAMOND ST/OLIVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.053075,
+   "lon": -85.253565,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824989",
+   "sequence": "2026-11-32528",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:09:26Z",
+   "created": "2026-11-23T14:09:17Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1300 - 1307 THRASHER PIKE",
+   "cross": "GANN RD/THORNEWOOD DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 1",
+   "lat": 35.202548,
+   "lon": -85.207425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824984",
+   "sequence": "2026-11-32526",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:08:31Z",
+   "created": "2026-11-23T14:08:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "720 EAST AVE",
+   "cross": "SYLVAN AVE/CROSS ST",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.034317,
+   "lon": -85.234671,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824987",
+   "sequence": "2026-11-32525",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:08:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "GANN RD / THRASHER PIKE",
+   "cross": "",
+   "city": "SODDY DAISY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 1",
+   "lat": 35.202548,
+   "lon": -85.207425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824978",
+   "sequence": "2026-11-32519",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T14:05:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 BIRMINGHAM HWY",
+   "cross": "CUMMINGS RD/BUSINESS PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 2",
+   "lat": 35.008334,
+   "lon": -85.390573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824965",
    "sequence": "2026-11-32508",
@@ -39,7 +169,7 @@
    "sequence": "2026-11-32506",
    "type": "Animal Call",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T14:07:28Z",
    "created": "2026-11-23T13:56:22Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9824958",
    "sequence": "2026-11-32505",
    "type": "Sex Offense",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T13:56:30Z",
    "created": "2026-11-23T13:54:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -83,15 +213,15 @@
    "lat": 35.043228,
    "lon": -85.29587,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9824957",
    "sequence": "2026-11-32500",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:54:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T13:54:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.008709,
    "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824939",
-   "sequence": "2026-11-32493",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:00:22Z",
-   "created": "2026-11-23T13:47:13Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9050 CAREER LN",
-   "cross": "HIGHWAY 58/MAHAN GAP RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.181191,
-   "lon": -85.057316,
    "units": 1,
    "stacked": false,
    "notable": false
