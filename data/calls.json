@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T15:05:40+00:00",
+ "updated": "2026-11-23T15:10:39+00:00",
  "counts": {
   "year": 371086,
   "upstream_day": 284,
-  "day": 414,
+  "day": 425,
   "day_basis": "midnight"
  },
  "raw_rows": 40,
  "incidents": [
   {
+   "id": "9825114",
+   "sequence": "2026-11-32624",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:09:40Z",
+   "created": "2026-11-23T15:09:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5533 OLD MISSION RD",
+   "cross": "PISGAH AVE/CEDARHURST AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.013512,
+   "lon": -85.216779,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825102",
+   "sequence": "2026-11-32620",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:03:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7011 POPULUS LOOP",
+   "cross": "MIN TOM DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.047216,
+   "lon": -85.147377,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825098",
    "sequence": "2026-11-32613",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:09:07Z",
    "created": "2026-11-23T15:02:26Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -141,7 +193,7 @@
   {
    "id": "9825091",
    "sequence": "2026-11-32603",
-   "type": "EMS CALL",
+   "type": "Backup EMS Unit",
    "status": "Enroute",
    "status_at": "2026-11-23T15:00:10Z",
    "created": "2026-11-23T15:00:10Z",
@@ -157,7 +209,7 @@
    "cross": "SNOW HILL RD/AMOS RD",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.093487,
    "lon": -85.06273,
    "units": 1,
@@ -168,8 +220,8 @@
    "id": "9825090",
    "sequence": "2026-11-32602",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:59:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:59:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9825087",
    "sequence": "2026-11-32600",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:07:18Z",
    "created": "2026-11-23T14:56:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -533,7 +585,7 @@
    "sequence": "2026-11-32557",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T15:05:42Z",
    "created": "2026-11-23T14:27:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -685,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9825008",
-   "sequence": "2026-11-32543",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:19:53Z",
-   "created": "2026-11-23T14:13:45Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "GANN RD / THRASHER PIKE",
-   "cross": "",
-   "city": "SODDY DAISY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.202548,
-   "lon": -85.207425,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825007",
    "sequence": "2026-11-32542",
    "type": "MVC Injuries",
@@ -740,8 +766,8 @@
    "id": "9824999",
    "sequence": "2026-11-32534",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T14:44:01Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T15:07:11Z",
    "created": "2026-11-23T14:11:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -891,32 +917,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9824978",
-   "sequence": "2026-11-32519",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:38:52Z",
-   "created": "2026-11-23T14:05:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "400 BIRMINGHAM HWY",
-   "cross": "CUMMINGS RD/BUSINESS PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 35.008334,
-   "lon": -85.390573,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9824965",
