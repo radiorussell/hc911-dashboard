@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T04:45:37+00:00",
+ "updated": "2026-11-23T04:50:37+00:00",
  "counts": {
-  "year": 370787,
+  "year": 370791,
   "upstream_day": 0,
-  "day": 1167,
+  "day": 1172,
   "day_basis": "midnight"
  },
  "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9824519",
+   "sequence": "2026-11-32190",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-23T04:49:13Z",
+   "created": "2026-11-23T04:45:31Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9905 HIGHWAY 58",
+   "cross": "SUTTON RD/MONGER LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 4",
+   "lat": 35.213145,
+   "lon": -85.033454,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824517",
    "sequence": "2026-11-32184",
@@ -38,8 +64,8 @@
    "id": "9824518",
    "sequence": "2026-11-32185",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:44:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T04:44:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -267,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9824475",
-   "sequence": "2026-11-32149",
-   "type": "Assault EMS Needed",
-   "status": "On Scene",
-   "status_at": "2026-11-23T04:04:25Z",
-   "created": "2026-11-23T03:57:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1375 BROAD ST",
-   "cross": "W 13TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 1",
-   "lat": 35.039418,
-   "lon": -85.311018,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9824462",
