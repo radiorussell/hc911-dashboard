@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T21:30:42+00:00",
+ "updated": "2026-11-23T21:35:38+00:00",
  "counts": {
-  "year": 371535,
-  "upstream_day": 732,
-  "day": 1023,
+  "year": 371541,
+  "upstream_day": 738,
+  "day": 1031,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 37,
  "incidents": [
   {
-   "id": "9825972",
-   "sequence": "2026-11-33222",
-   "type": "Check For A Hazard",
+   "id": "9825987",
+   "sequence": "2026-11-33230",
+   "type": "Vehicle Fire",
    "status": "Queued",
-   "status_at": "2026-11-23T21:30:03Z",
-   "created": "2026-11-23T21:29:58Z",
+   "status_at": "2026-11-23T21:35:20Z",
+   "created": "2026-11-23T21:35:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "941 - 1139 INTERSTATE 75 SB",
-   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
+   "address": "1700 - 1729 E 3RD ST",
+   "cross": "N HICKORY ST/ROBERTS ST",
    "city": "CHATTANOOGA",
-   "zone": "C9",
+   "zone": "B4",
    "priority": "PRI 2",
-   "lat": 35.081273,
-   "lon": -85.084594,
+   "lat": 35.041971,
+   "lon": -85.274915,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825981",
+   "sequence": "2026-11-33229",
+   "type": "Vehicle Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T21:35:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1700 - 1729 E 3RD ST",
+   "cross": "N HICKORY ST/ROBERTS ST",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.041971,
+   "lon": -85.274915,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9825973",
+   "sequence": "2026-11-33224",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-23T21:35:08Z",
+   "created": "2026-11-23T21:30:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2464 AMNICOLA HWY",
+   "cross": "LATTA ST/APPLING ST",
+   "city": "CHATTANOOGA",
+   "zone": "1003",
+   "priority": "PRI 1",
+   "lat": 35.071719,
+   "lon": -85.268694,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9825971",
-   "sequence": "2026-11-33221",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:29:51Z",
-   "created": "2026-11-23T21:29:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "940 - 1138 INTERSTATE 75 SB",
-   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.08265,
-   "lon": -85.07924,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825968",
    "sequence": "2026-11-33218",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:28:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:28:50Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9825967",
    "sequence": "2026-11-33216",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:28:28Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T21:33:55Z",
    "created": "2026-11-23T21:28:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9825964",
    "sequence": "2026-11-33215",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:27:46Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T21:26:43Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -325,7 +351,7 @@
    "sequence": "2026-11-33207",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T21:30:43Z",
    "created": "2026-11-23T21:16:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -370,6 +396,32 @@
    "lon": -85.221577,
    "units": 1,
    "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825939",
+   "sequence": "2026-11-33199",
+   "type": "Harrassing Threats",
+   "status": "Stacked",
+   "status_at": "2026-11-23T21:31:55Z",
+   "created": "2026-11-23T21:11:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7421 BONNY OAKS DR",
+   "cross": "COUNTRY LN/LEE HWY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.061472,
+   "lon": -85.134791,
+   "units": 1,
+   "stacked": true,
    "notable": false
   },
   {
@@ -429,7 +481,7 @@
    "sequence": "2026-11-33191",
    "type": "Abandoned Auto",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T21:33:52Z",
    "created": "2026-11-23T21:08:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -449,58 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9825930",
-   "sequence": "2026-11-33190",
-   "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-23T21:08:19Z",
-   "created": "2026-11-23T21:08:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "800 - 899 W 37TH ST",
-   "cross": "ALTON PARK BLVD/WEST AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 2",
-   "lat": 35.009518,
-   "lon": -85.317252,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9825925",
-   "sequence": "2026-11-33189",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:12:59Z",
-   "created": "2026-11-23T21:07:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "800 - 899 W 37TH ST",
-   "cross": "ALTON PARK BLVD/WEST AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 2",
-   "lat": 35.009518,
-   "lon": -85.317252,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9825922",
@@ -524,32 +524,6 @@
    "priority": "PRI 2",
    "lat": 35.045305,
    "lon": -85.281043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825921",
-   "sequence": "2026-11-33183",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:28:49Z",
-   "created": "2026-11-23T21:04:42Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1819 OAKDALE RD",
-   "cross": "MAY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 1",
-   "lat": 35.363789,
-   "lon": -85.063726,
    "units": 1,
    "stacked": false,
    "notable": false
