@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T04:35:38+00:00",
+ "updated": "2026-11-23T04:40:37+00:00",
  "counts": {
-  "year": 370781,
+  "year": 370787,
   "upstream_day": 0,
   "day": 1160,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
   {
    "id": "9824510",
@@ -38,8 +38,8 @@
    "id": "9824511",
    "sequence": "2026-11-32178",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:35:19Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:38:10Z",
    "created": "2026-11-23T04:35:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9824508",
    "sequence": "2026-11-32176",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:35:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T04:34:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -80,8 +80,8 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 35.03548,
-   "lon": -85.172902,
+   "lat": 35.03555,
+   "lon": -85.1729,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9824504",
    "sequence": "2026-11-32175",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-23T04:34:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T04:31:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 2",
    "lat": 35.149905,
    "lon": -85.201796,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824502",
-   "sequence": "2026-11-32171",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-23T04:35:15Z",
-   "created": "2026-11-23T04:27:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1700 E 49TH ST",
-   "cross": "COVINGTON ST/ENGLISH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.98661,
-   "lon": -85.289466,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +584,8 @@
    "id": "9824358",
    "sequence": "2026-11-32069",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:36:21Z",
    "created": "2026-11-23T02:40:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
