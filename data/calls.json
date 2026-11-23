@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-23T20:40:37+00:00",
+ "updated": "2026-11-23T20:45:42+00:00",
  "counts": {
-  "year": 371477,
-  "upstream_day": 674,
-  "day": 946,
+  "year": 371487,
+  "upstream_day": 684,
+  "day": 957,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9825888",
+   "sequence": "2026-11-33156",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:45:34Z",
+   "created": "2026-11-23T20:44:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1610 E 26TH ST",
+   "cross": "WATAUGA ST/S HICKORY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.016495,
+   "lon": -85.289673,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825889",
+   "sequence": "2026-11-33154",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:44:55Z",
+   "created": "2026-11-23T20:44:55Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6279 PRICKLY LOOP",
+   "cross": "BRAMBLE BERRY LN/THISTLE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.10494,
+   "lon": -85.06323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825886",
+   "sequence": "2026-11-33155",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:45:15Z",
+   "created": "2026-11-23T20:44:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "421 N HAWTHORNE ST",
+   "cross": "E 3RD ST/GARFIELD ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.042518,
+   "lon": -85.273186,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825887",
+   "sequence": "2026-11-33153",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T20:44:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6279 PRICKLY LOOP",
+   "cross": "BRAMBLE BERRY LN/THISTLE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.10494,
+   "lon": -85.06323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825885",
+   "sequence": "2026-11-33152",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:44:37Z",
+   "created": "2026-11-23T20:44:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2120 CHESTNUT ST",
+   "cross": "W 21ST ST/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.032928,
+   "lon": -85.316204,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825870",
+   "sequence": "2026-11-33144",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-23T20:37:52Z",
+   "created": "2026-11-23T20:37:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6383 LARAMIE CIR",
+   "cross": "NOAH REID RD/NOAH REID RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.056914,
+   "lon": -85.178706,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825868",
    "sequence": "2026-11-33143",
@@ -116,8 +272,8 @@
    "id": "9825857",
    "sequence": "2026-11-33135",
    "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T20:43:52Z",
    "created": "2026-11-23T20:30:59Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -169,7 +325,7 @@
    "sequence": "2026-11-33134",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T20:42:42Z",
    "created": "2026-11-23T20:30:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.054978,
    "lon": -85.259833,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825747",
-   "sequence": "2026-11-33068",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": "2026-11-23T19:32:30Z",
-   "created": "2026-11-23T19:32:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6383 LARAMIE CIR",
-   "cross": "NOAH REID RD/NOAH REID RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.056914,
-   "lon": -85.178706,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.24966,
    "lon": -85.158844,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825659",
-   "sequence": "2026-11-32997",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T19:43:04Z",
-   "created": "2026-11-23T18:55:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.041281,
-   "lon": -85.171521,
    "units": 1,
    "stacked": false,
    "notable": false
