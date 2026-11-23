@@ -1,17 +1,121 @@
 {
- "updated": "2026-11-23T14:30:39+00:00",
+ "updated": "2026-11-23T14:35:38+00:00",
  "counts": {
-  "year": 371050,
-  "upstream_day": 248,
-  "day": 359,
+  "year": 371057,
+  "upstream_day": 255,
+  "day": 366,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9825044",
+   "sequence": "2026-11-32564",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:35:16Z",
+   "created": "2026-11-23T14:35:16Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1200 SPRING CREEK RD",
+   "cross": "SUNNYFIELD LN/PRATER RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 3",
+   "lat": 34.992835,
+   "lon": -85.21739,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825045",
+   "sequence": "2026-11-32565",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:35:16Z",
+   "created": "2026-11-23T14:35:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1200 SPRING CREEK RD",
+   "cross": "SUNNYFIELD LN/PRATER RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 3",
+   "lat": 34.992835,
+   "lon": -85.21739,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825041",
+   "sequence": "2026-11-32563",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:35:16Z",
+   "created": "2026-11-23T14:35:02Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1200 SPRING CREEK RD",
+   "cross": "SUNNYFIELD LN/PRATER RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 0",
+   "lat": 34.992835,
+   "lon": -85.21739,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825037",
+   "sequence": "2026-11-32560",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:32:48Z",
+   "created": "2026-11-23T14:32:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2114 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.032972,
+   "lon": -85.153183,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825028",
    "sequence": "2026-11-32558",
-   "type": "MVC No Injuries",
+   "type": "MVC No Response",
    "status": "Queued",
    "status_at": "2026-11-23T14:30:23Z",
    "created": "2026-11-23T14:29:28Z",
@@ -27,7 +131,7 @@
    "cross": "HAMILL RD/NORTHGATE MALL DR",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
-   "priority": "PRI 3",
+   "priority": "PRI 0",
    "lat": 35.123659,
    "lon": -85.240463,
    "units": 1,
@@ -61,11 +165,37 @@
    "notable": false
   },
   {
+   "id": "9825025",
+   "sequence": "2026-11-32555",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-23T14:26:37Z",
+   "created": "2026-11-23T14:26:37Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9825021",
    "sequence": "2026-11-32554",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:25:45Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:25:38Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
