@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-23T20:25:39+00:00",
+ "updated": "2026-11-23T20:30:38+00:00",
  "counts": {
   "year": 371475,
   "upstream_day": 672,
-  "day": 932,
+  "day": 926,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 23,
  "incidents": [
-  {
-   "id": "9825850",
-   "sequence": "2026-11-33131",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T20:25:17Z",
-   "created": "2026-11-23T20:23:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10022 HIXSON PIKE",
-   "cross": "ANGLER DR/IGOU FERRY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 5 D",
-   "priority": "PRI 3",
-   "lat": 35.222792,
-   "lon": -85.112853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9825842",
    "sequence": "2026-11-33125",
@@ -84,32 +58,6 @@
    "lon": -85.153146,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825815",
-   "sequence": "2026-11-33112",
-   "type": "Auto Broken Down",
-   "status": "Stacked",
-   "status_at": "2026-11-23T20:00:24Z",
-   "created": "2026-11-23T19:58:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "PATTERSON RD / GRAYSVILLE RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 34.998181,
-   "lon": -85.148713,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
@@ -168,8 +116,8 @@
    "id": "9825773",
    "sequence": "2026-11-33089",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T20:28:14Z",
    "created": "2026-11-23T19:42:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -584,8 +532,8 @@
    "id": "9825533",
    "sequence": "2026-11-32910",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-23T18:00:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T18:00:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -603,7 +551,7 @@
    "lat": 35.035115,
    "lon": -85.263841,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
