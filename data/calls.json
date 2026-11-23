@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-23T18:55:39+00:00",
+ "updated": "2026-11-23T19:00:45+00:00",
  "counts": {
   "year": 371372,
   "upstream_day": 569,
-  "day": 797,
+  "day": 805,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 44,
  "incidents": [
+  {
+   "id": "9825669",
+   "sequence": "2026-11-33004",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:00:43Z",
+   "created": "2026-11-23T19:00:43Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11511 DOLLY POND RD",
+   "cross": "TERESA ST/DANA MICHELLE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 0",
+   "lat": 35.260964,
+   "lon": -85.023912,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825664",
+   "sequence": "2026-11-33001",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:58:58Z",
+   "created": "2026-11-23T18:58:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "514 SEMI CIRCLE DR",
+   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.109222,
+   "lon": -85.28756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825665",
+   "sequence": "2026-11-33002",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:58:58Z",
+   "created": "2026-11-23T18:58:58Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "514 SEMI CIRCLE DR",
+   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.109222,
+   "lon": -85.28756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825663",
+   "sequence": "2026-11-33003",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:00:03Z",
+   "created": "2026-11-23T18:58:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SILVERDALE RD / BONNY OAKS DR",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.062264,
+   "lon": -85.137819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825662",
+   "sequence": "2026-11-33000",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:58:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "514 SEMI CIRCLE DR",
+   "cross": "KNOLLWOOD HILL DR/HURSTWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.109222,
+   "lon": -85.28756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825660",
+   "sequence": "2026-11-32998",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:55:46Z",
+   "created": "2026-11-23T18:55:46Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6705 BALLARD DR",
+   "cross": "BALLARD PL/VADEN VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 2",
+   "lat": 35.041281,
+   "lon": -85.171521,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825659",
+   "sequence": "2026-11-32997",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:55:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6705 BALLARD DR",
+   "cross": "BALLARD PL/VADEN VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.041281,
+   "lon": -85.171521,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825657",
    "sequence": "2026-11-32996",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:58:07Z",
    "created": "2026-11-23T18:50:53Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -139,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9825645",
-   "sequence": "2026-11-32983",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:55:39Z",
-   "created": "2026-11-23T18:43:48Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1005 BRYNEWOOD TER",
-   "cross": "BRYNWOOD TER/BRYNEWOOD PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "1903",
-   "priority": "PRI 3",
-   "lat": 35.124152,
-   "lon": -85.270076,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825646",
    "sequence": "2026-11-32984",
    "type": "EMS CALL",
@@ -220,8 +376,8 @@
    "id": "9825639",
    "sequence": "2026-11-32979",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:58:50Z",
    "created": "2026-11-23T18:42:26Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -506,8 +662,8 @@
    "id": "9825572",
    "sequence": "2026-11-32943",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T18:38:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T18:58:41Z",
    "created": "2026-11-23T18:19:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
