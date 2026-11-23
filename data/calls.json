@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-23T14:20:42+00:00",
+ "updated": "2026-11-23T14:25:39+00:00",
  "counts": {
-  "year": 371032,
-  "upstream_day": 230,
-  "day": 345,
+  "year": 371050,
+  "upstream_day": 248,
+  "day": 353,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9825020",
+   "sequence": "2026-11-32552",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:24:10Z",
+   "created": "2026-11-23T14:24:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "181 INTEGRA VISTAS DR",
+   "cross": "CHAPEL HL/CHAPEL HL",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.178799,
+   "lon": -85.241741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825019",
+   "sequence": "2026-11-32551",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:23:10Z",
+   "created": "2026-11-23T14:23:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "307 MANUFACTURERS RD",
+   "cross": "VELMA ST/MIDDLE RIVER  RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.062269,
+   "lon": -85.314468,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825005",
    "sequence": "2026-11-32544",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:14:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:13:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9825007",
    "sequence": "2026-11-32542",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:22:19Z",
    "created": "2026-11-23T14:13:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9825000",
    "sequence": "2026-11-32535",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:20:51Z",
    "created": "2026-11-23T14:11:04Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -182,7 +234,7 @@
    "address": "714 W 42ND ST",
    "cross": "GRAND AVE/CAIN AVE",
    "city": "CHATTANOOGA",
-   "zone": "A12",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.005085,
    "lon": -85.319352,
@@ -267,32 +319,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9824978",
-   "sequence": "2026-11-32519",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T14:05:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "400 BIRMINGHAM HWY",
-   "cross": "CUMMINGS RD/BUSINESS PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 35.008334,
-   "lon": -85.390573,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9824965",
@@ -480,8 +506,8 @@
    "id": "9824918",
    "sequence": "2026-11-32479",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:23:56Z",
    "created": "2026-11-23T13:32:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -498,58 +524,6 @@
    "priority": "PRI 3",
    "lat": 34.991305,
    "lon": -85.290167,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824911",
-   "sequence": "2026-11-32473",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:29:01Z",
-   "created": "2026-11-23T13:29:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1623 SHELBY CIR",
-   "cross": "WESTGATE RD/BROOK MANOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "1102",
-   "priority": "PRI 2",
-   "lat": 35.162879,
-   "lon": -85.208333,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824885",
-   "sequence": "2026-11-32461",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T13:59:23Z",
-   "created": "2026-11-23T13:16:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1618 COLONIAL SHORES DR",
-   "cross": "FAIRVIEW RD/COLONIAL WAY CIR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.133131,
-   "lon": -85.202434,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +584,8 @@
    "id": "9824870",
    "sequence": "2026-11-32450",
    "type": "Missing Endangered",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:19:56Z",
+   "status": "Queued",
+   "status_at": "2026-11-23T13:08:18Z",
    "created": "2026-11-23T13:07:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -659,63 +633,11 @@
    "notable": false
   },
   {
-   "id": "9824841",
-   "sequence": "2026-11-32428",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T13:33:06Z",
-   "created": "2026-11-23T12:46:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7710 E BRAINERD RD",
-   "cross": "RESERVE WAY/JENKINS RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.007895,
-   "lon": -85.157599,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824813",
-   "sequence": "2026-11-32409",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-23T12:39:04Z",
-   "created": "2026-11-23T12:26:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1225 COWART ST",
-   "cross": "MARKET ST/W 13TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.040354,
-   "lon": -85.308797,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824769",
    "sequence": "2026-11-32382",
    "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-23T12:51:19Z",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:04:52Z",
    "created": "2026-11-23T12:04:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
