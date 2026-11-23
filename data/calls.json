@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T00:05:36+00:00",
+ "updated": "2026-11-23T00:10:37+00:00",
  "counts": {
-  "year": 370555,
+  "year": 370563,
   "upstream_day": 0,
-  "day": 882,
+  "day": 892,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9824144",
+   "sequence": "2026-11-31909",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:10:05Z",
+   "created": "2026-11-23T00:10:05Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824145",
+   "sequence": "2026-11-31910",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:10:05Z",
+   "created": "2026-11-23T00:10:05Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824142",
+   "sequence": "2026-11-31908",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:10:05Z",
+   "created": "2026-11-23T00:09:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824140",
+   "sequence": "2026-11-31905",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:07:16Z",
+   "created": "2026-11-23T00:06:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3308 DODSON AVE",
+   "cross": "WISDOM ST/ALLIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.075822,
+   "lon": -85.247796,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824128",
    "sequence": "2026-11-31900",
    "type": "Disorder Weapon Involve",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T00:06:15Z",
    "created": "2026-11-23T00:00:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9824127",
    "sequence": "2026-11-31895",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:00:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:59:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +168,8 @@
    "id": "9824120",
    "sequence": "2026-11-31892",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T00:03:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T00:10:19Z",
    "created": "2026-11-22T23:52:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -132,32 +236,6 @@
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.051994,
-   "lon": -85.152296,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824117",
-   "sequence": "2026-11-31888",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-22T23:56:11Z",
-   "created": "2026-11-22T23:48:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
    "lat": 35.051994,
    "lon": -85.152296,
    "units": 1,
@@ -272,8 +350,8 @@
    "id": "9824105",
    "sequence": "2026-11-31881",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-22T23:38:37Z",
+   "status": "Enroute",
+   "status_at": "2026-11-23T00:07:11Z",
    "created": "2026-11-22T23:38:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -291,15 +369,15 @@
    "lat": 35.04967,
    "lon": -85.266113,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9824107",
    "sequence": "2026-11-31880",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-22T23:37:07Z",
    "created": "2026-11-22T23:36:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -317,7 +395,7 @@
    "lat": 34.992863,
    "lon": -85.305707,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
   },
   {
@@ -425,58 +503,6 @@
    "notable": false
   },
   {
-   "id": "9824051",
-   "sequence": "2026-11-31841",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-22T23:03:50Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "730 GERMANTOWN CIR",
-   "cross": "PIRTLE ST/S GERMANTOWN RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.007783,
-   "lon": -85.252705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824034",
-   "sequence": "2026-11-31827",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-22T22:57:03Z",
-   "created": "2026-11-22T22:52:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2124 GUNBARREL RD",
-   "cross": "LANDRESS DR/COMMONS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.034762,
-   "lon": -85.1523,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824030",
    "sequence": "2026-11-31826",
    "type": "EMS CALL",
@@ -500,58 +526,6 @@
    "lon": -85.1523,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824021",
-   "sequence": "2026-11-31813",
-   "type": "Police Assist Citizen",
-   "status": "Stacked",
-   "status_at": "2026-11-22T22:43:43Z",
-   "created": "2026-11-22T22:43:33Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "728 FRAWLEY RD",
-   "cross": "VILLAGE LAKE CIR/SCRUGGS RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.989214,
-   "lon": -85.190676,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9824007",
-   "sequence": "2026-11-31809",
-   "type": "Auto Broken Down Road",
-   "status": "Stacked",
-   "status_at": "2026-11-22T22:37:33Z",
-   "created": "2026-11-22T22:30:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BORISS DR / BISHOP DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 2",
-   "lat": 35.068392,
-   "lon": -85.167091,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
@@ -605,58 +579,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823982",
-   "sequence": "2026-11-31779",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-23T00:00:13Z",
-   "created": "2026-11-22T22:16:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1766 PINE NEEDLES TRL",
-   "cross": "No Cross Street/IGOU GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.013238,
-   "lon": -85.123625,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9823888",
-   "sequence": "2026-11-31705",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-22T20:54:23Z",
-   "created": "2026-11-22T20:51:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2302 WINDSOR ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 1",
-   "lat": 35.047413,
-   "lon": -85.261849,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9823351",
