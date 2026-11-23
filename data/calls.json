@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-23T23:00:41+00:00",
+ "updated": "2026-11-23T23:05:37+00:00",
  "counts": {
-  "year": 371629,
-  "upstream_day": 826,
-  "day": 1140,
+  "year": 371636,
+  "upstream_day": 833,
+  "day": 1149,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9826153",
+   "sequence": "2026-11-33347",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:04:37Z",
+   "created": "2026-11-23T23:04:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "W SHEPHERD RD / SHALLOWFORD RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.052952,
+   "lon": -85.180234,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826152",
+   "sequence": "2026-11-33348",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:04:50Z",
+   "created": "2026-11-23T23:04:21Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1523 SPRINGVALE RD",
+   "cross": "RINGGOLD RD/CLEMONS RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.989775,
+   "lon": -85.225925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826144",
+   "sequence": "2026-11-33343",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T23:00:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3334 BROWNDELL DR",
+   "cross": "MOUNTAIN VIEW DR/ISBILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.029733,
+   "lon": -85.366724,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826138",
    "sequence": "2026-11-33339",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:01:29Z",
    "created": "2026-11-23T22:56:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -67,21 +145,21 @@
    "status": "Queued",
    "status_at": "2026-11-23T22:56:32Z",
    "created": "2026-11-23T22:54:30Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1688 OOLTEWAH RINGGOLD RD",
-   "cross": "COBBLECREEK WAY/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
+   "address": "5958 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
    "priority": "PRI 4",
-   "lat": 34.998447,
-   "lon": -85.092873,
+   "lat": 35.090553,
+   "lon": -85.064316,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -113,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9826130",
-   "sequence": "2026-11-33333",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-23T22:52:11Z",
-   "created": "2026-11-23T22:52:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4417 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.084699,
-   "lon": -85.202247,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826128",
    "sequence": "2026-11-33334",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:02:46Z",
    "created": "2026-11-23T22:51:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9826096",
    "sequence": "2026-11-33310",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T22:36:41Z",
    "created": "2026-11-23T22:36:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -447,7 +499,7 @@
    "lat": 35.392459,
    "lon": -85.107415,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -532,8 +584,8 @@
    "id": "9826066",
    "sequence": "2026-11-33289",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T22:51:41Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T23:00:58Z",
    "created": "2026-11-23T22:21:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -659,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9825986",
-   "sequence": "2026-11-33238",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T22:33:02Z",
-   "created": "2026-11-23T21:35:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "603 SUNSET VALLEY DR",
-   "cross": "SEQUOYAH RD/STARRY WAY",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.238079,
-   "lon": -85.17548,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825918",
    "sequence": "2026-11-33184",
    "type": "EMS CALL",
@@ -766,8 +792,8 @@
    "id": "9825688",
    "sequence": "2026-11-33018",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-23T19:11:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:11:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -785,7 +811,7 @@
    "lat": 35.084696,
    "lon": -85.203333,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
