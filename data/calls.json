@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-23T15:30:40+00:00",
+ "updated": "2026-11-23T15:35:38+00:00",
  "counts": {
-  "year": 371115,
-  "upstream_day": 313,
-  "day": 454,
+  "year": 371128,
+  "upstream_day": 326,
+  "day": 461,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 42,
  "incidents": [
+  {
+   "id": "9825173",
+   "sequence": "2026-11-32660",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:34:22Z",
+   "created": "2026-11-23T15:34:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3700 RINGGOLD RD",
+   "cross": "BALES AVE/KINGWOOD DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 3",
+   "lat": 35.000634,
+   "lon": -85.258325,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825172",
+   "sequence": "2026-11-32659",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:34:22Z",
+   "created": "2026-11-23T15:34:22Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3700 RINGGOLD RD",
+   "cross": "BALES AVE/KINGWOOD DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.000634,
+   "lon": -85.258325,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825171",
+   "sequence": "2026-11-32658",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:34:22Z",
+   "created": "2026-11-23T15:34:13Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3700 RINGGOLD RD",
+   "cross": "BALES AVE/KINGWOOD DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 0",
+   "lat": 35.000634,
+   "lon": -85.258325,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825153",
+   "sequence": "2026-11-32655",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-23T15:30:45Z",
+   "created": "2026-11-23T15:30:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3103 DODSON AVE",
+   "cross": "WILDER ST/ELMENDORF ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.073527,
+   "lon": -85.249988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825158",
    "sequence": "2026-11-32653",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:30:14Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:35:32Z",
    "created": "2026-11-23T15:29:55Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -87,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9825152",
-   "sequence": "2026-11-32648",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T15:27:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5840 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 1",
-   "lat": 35.109283,
-   "lon": -85.212678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825151",
    "sequence": "2026-11-32647",
    "type": "EMS CALL",
@@ -132,6 +210,32 @@
    "city": "CHATTANOOGA",
    "zone": "A2",
    "priority": "PRI 3",
+   "lat": 35.109283,
+   "lon": -85.212678,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825152",
+   "sequence": "2026-11-32648",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T15:27:51Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5840 LAKE RESORT TER",
+   "cross": "LAKE RESORT DR/LAKESHORE LN",
+   "city": "CHATTANOOGA",
+   "zone": "1101",
+   "priority": "PRI 1",
    "lat": 35.109283,
    "lon": -85.212678,
    "units": 1,
@@ -191,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9825140",
-   "sequence": "2026-11-32644",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:28:50Z",
-   "created": "2026-11-23T15:23:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7630 AUSTIN DR",
-   "cross": "MIDDLE DR/BONNIE DR",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 1",
-   "lat": 35.071904,
-   "lon": -85.170089,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825139",
    "sequence": "2026-11-32643",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:30:49Z",
    "created": "2026-11-23T15:23:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +324,8 @@
    "id": "9825136",
    "sequence": "2026-11-32642",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:31:19Z",
    "created": "2026-11-23T15:22:42Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9825129",
    "sequence": "2026-11-32636",
    "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T15:31:33Z",
    "created": "2026-11-23T15:17:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +402,8 @@
    "id": "9825126",
    "sequence": "2026-11-32634",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-23T15:16:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T15:16:08Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -446,32 +524,6 @@
    "priority": "PRI 2",
    "lat": 35.05225,
    "lon": -85.304592,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825098",
-   "sequence": "2026-11-32613",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-23T15:09:07Z",
-   "created": "2026-11-23T15:02:26Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.009331,
-   "lon": -85.265439,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -784,32 +836,6 @@
    "priority": "PRI 4",
    "lat": 35.178799,
    "lon": -85.241741,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825005",
-   "sequence": "2026-11-32544",
-   "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T14:13:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "206 TREMONT ST",
-   "cross": "OLIVER ST/TAMPA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.062663,
-   "lon": -85.303696,
    "units": 1,
    "stacked": false,
    "notable": false
