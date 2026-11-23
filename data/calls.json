@@ -1,17 +1,43 @@
 {
- "updated": "2026-11-23T04:25:38+00:00",
+ "updated": "2026-11-23T04:30:38+00:00",
  "counts": {
-  "year": 370778,
+  "year": 370781,
   "upstream_day": 0,
-  "day": 1151,
+  "day": 1153,
   "day_basis": "midnight"
  },
  "raw_rows": 26,
  "incidents": [
   {
+   "id": "9824502",
+   "sequence": "2026-11-32171",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T04:27:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1700 E 49TH ST",
+   "cross": "COVINGTON ST/ENGLISH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.98661,
+   "lon": -85.289466,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9824500",
    "sequence": "2026-11-32169",
-   "type": "Apartment Fire",
+   "type": "Backup Fire Unit",
    "status": "On Scene",
    "status_at": "2026-11-23T04:24:02Z",
    "created": "2026-11-23T04:20:33Z",
@@ -27,7 +53,7 @@
    "cross": "ROBIN DR/STANDIFER GAP RD",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.051792,
    "lon": -85.152029,
    "units": 1,
@@ -38,8 +64,8 @@
    "id": "9824499",
    "sequence": "2026-11-32168",
    "type": "Apartment Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:25:39Z",
    "created": "2026-11-23T04:20:22Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9824484",
    "sequence": "2026-11-32157",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T04:26:54Z",
    "created": "2026-11-23T04:04:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +272,8 @@
    "id": "9824461",
    "sequence": "2026-11-32141",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T04:22:59Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T04:29:42Z",
    "created": "2026-11-23T03:48:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9824460",
-   "sequence": "2026-11-32138",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-23T03:52:25Z",
-   "created": "2026-11-23T03:46:51Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3600 FOUNTAIN AVE",
-   "cross": "S GERMANTOWN RD/MCHANN DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 1",
-   "lat": 35.006702,
-   "lon": -85.255708,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824443",
    "sequence": "2026-11-32128",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-23T04:22:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T04:27:24Z",
    "created": "2026-11-23T03:42:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
