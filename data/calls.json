@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-23T03:15:42+00:00",
+ "updated": "2026-11-23T03:20:36+00:00",
  "counts": {
-  "year": 370724,
+  "year": 370733,
   "upstream_day": 0,
-  "day": 1084,
+  "day": 1093,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9824423",
+   "sequence": "2026-11-32111",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T03:18:53Z",
+   "created": "2026-11-23T03:18:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824418",
+   "sequence": "2026-11-32107",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": "2026-11-23T03:18:47Z",
+   "created": "2026-11-23T03:17:39Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3117 DAYTON BLVD",
+   "cross": "LANCASTER AVE/W NEWBERRY ST",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 4",
+   "lat": 35.105913,
+   "lon": -85.298216,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824417",
+   "sequence": "2026-11-32108",
+   "type": "Alarm Distress",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T03:17:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2503 WESTSIDE DR",
+   "cross": "ELDER ST/RINGGOLD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.012321,
+   "lon": -85.272706,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824414",
+   "sequence": "2026-11-32104",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T03:15:47Z",
+   "created": "2026-11-23T03:15:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824415",
+   "sequence": "2026-11-32105",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T03:15:47Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824410",
+   "sequence": "2026-11-32103",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T03:14:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824409",
    "sequence": "2026-11-32102",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T03:17:40Z",
    "created": "2026-11-23T03:13:47Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -169,7 +325,7 @@
    "sequence": "2026-11-32094",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T03:17:48Z",
    "created": "2026-11-23T03:04:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -195,7 +351,7 @@
    "sequence": "2026-11-32091",
    "type": "Disorder Weapon Involve",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T03:15:43Z",
    "created": "2026-11-23T03:01:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -633,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9824329",
-   "sequence": "2026-11-32047",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-23T02:37:45Z",
-   "created": "2026-11-23T02:29:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "504 S WATKINS ST",
-   "cross": "CHAMBERLAIN AVE/BAILEY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 1",
-   "lat": 35.031464,
-   "lon": -85.268223,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824305",
    "sequence": "2026-11-32032",
    "type": "Property",
@@ -680,32 +810,6 @@
    "priority": "PRI 4",
    "lat": 35.029297,
    "lon": -85.268364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824295",
-   "sequence": "2026-11-32023",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T02:51:58Z",
-   "created": "2026-11-23T01:59:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9102 RIVER OAKS RD",
-   "cross": "MILL STREAM DR/VILLAGE WOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 03 HC B",
-   "priority": "PRI 1",
-   "lat": 35.11581,
-   "lon": -85.144482,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -862,6 +966,32 @@
    "priority": "PRI 4",
    "lat": 35.013819,
    "lon": -85.252073,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824159",
+   "sequence": "2026-11-31923",
+   "type": "Backup Other Agency",
+   "status": "Queued",
+   "status_at": "2026-11-23T03:20:13Z",
+   "created": "2026-11-23T00:24:41Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9846 W RIDGE TRAIL RD",
+   "cross": "LOVELL RD/GREEN POND RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 2",
+   "lat": 35.240508,
+   "lon": -85.17428,
    "units": 1,
    "stacked": false,
    "notable": false
