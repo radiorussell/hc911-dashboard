@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-23T22:05:40+00:00",
+ "updated": "2026-11-23T22:10:40+00:00",
  "counts": {
   "year": 371581,
   "upstream_day": 778,
-  "day": 1075,
+  "day": 1078,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 30,
  "incidents": [
   {
-   "id": "9826049",
-   "sequence": "2026-11-33274",
-   "type": "MVC No Injuries",
+   "id": "9826052",
+   "sequence": "2026-11-33276",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-23T22:05:32Z",
-   "created": "2026-11-23T22:04:44Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-23T22:06:42Z",
+   "created": "2026-11-23T22:06:42Z",
+   "jurisdiction": "Red Bank PD",
    "agencies": [
-    "Chattanooga PD"
+    "Red Bank PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2217 HAMILTON PLACE BLVD",
-   "cross": "COMMONS BLVD/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
+   "address": "3901 DAYTON BLVD",
+   "cross": "UNAKA ST/MORRISON SPRINGS RD",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
    "priority": "PRI 3",
-   "lat": 35.040321,
-   "lon": -85.155778,
+   "lat": 35.119695,
+   "lon": -85.291474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826053",
+   "sequence": "2026-11-33277",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:06:42Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3901 DAYTON BLVD",
+   "cross": "UNAKA ST/MORRISON SPRINGS RD",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.119695,
+   "lon": -85.291474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826051",
+   "sequence": "2026-11-33275",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T22:06:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3901 DAYTON BLVD",
+   "cross": "UNAKA ST/MORRISON SPRINGS RD",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.119695,
+   "lon": -85.291474,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9825963",
-   "sequence": "2026-11-33213",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-23T21:39:12Z",
-   "created": "2026-11-23T21:25:14Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1108 LONDON WOODS WAY",
-   "cross": "LONDON LN/LONDON TOWER PL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 34.987042,
-   "lon": -85.04521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825951",
    "sequence": "2026-11-33211",
    "type": "Deceptive Practice",
@@ -581,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9825895",
-   "sequence": "2026-11-33161",
-   "type": "Backup Fire Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:55:01Z",
-   "created": "2026-11-23T20:48:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9034 CAREER LN",
-   "cross": "HIGHWAY 58/MAHAN GAP RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 2",
-   "lat": 35.181425,
-   "lon": -85.061733,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9825868",
    "sequence": "2026-11-33143",
    "type": "Domestic Disorder",
@@ -628,32 +628,6 @@
    "priority": "PRI 2",
    "lat": 35.127388,
    "lon": -85.101713,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825862",
-   "sequence": "2026-11-33138",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-23T20:37:30Z",
-   "created": "2026-11-23T20:33:09Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3237 CASTLE AVE",
-   "cross": "GARCIA LN/DONALDSON RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.016032,
-   "lon": -85.257953,
    "units": 1,
    "stacked": false,
    "notable": false
