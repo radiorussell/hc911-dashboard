@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-23T13:40:43+00:00",
+ "updated": "2026-11-23T13:45:43+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 286,
+  "year": 371001,
+  "upstream_day": 199,
+  "day": 287,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 22,
  "incidents": [
   {
-   "id": "9824928",
-   "sequence": "2026-11-32485",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:39:12Z",
-   "created": "2026-11-23T13:39:00Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9824931",
+   "sequence": "2026-11-32486",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:43:25Z",
+   "created": "2026-11-23T13:40:15Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "3736 WAUCHULA ST",
-   "cross": "OSWEGO ST/SKIATOOK ST",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "address": "941 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
    "priority": "PRI 3",
-   "lat": 35.074322,
-   "lon": -85.229898,
+   "lat": 34.998857,
+   "lon": -85.218956,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -117,7 +117,7 @@
    "sequence": "2026-11-32474",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T13:44:25Z",
    "created": "2026-11-23T13:29:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9824910",
    "sequence": "2026-11-32472",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T13:42:29Z",
    "created": "2026-11-23T13:29:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9824887",
-   "sequence": "2026-11-32460",
-   "type": "Traffic Control",
-   "status": "Stacked",
-   "status_at": "2026-11-23T13:16:08Z",
-   "created": "2026-11-23T13:16:08Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1301 JAMES BLVD",
-   "cross": "LANCASTER DR/DANBURY COVE PL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 4",
-   "lat": 35.143773,
-   "lon": -85.332206,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
    "id": "9824885",
    "sequence": "2026-11-32461",
    "type": "EMS CALL",
@@ -321,89 +295,11 @@
    "notable": false
   },
   {
-   "id": "9824883",
-   "sequence": "2026-11-32457",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:15:09Z",
-   "created": "2026-11-23T13:15:09Z",
-   "jurisdiction": "Waldens Ridge Emergency Srv",
-   "agencies": [
-    "Waldens Ridge Emergency Srv"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3708 TAFT HWY",
-   "cross": "HOLLISTER RD/MOURNING DOVE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WALDEN FD HC B",
-   "priority": "PRI 2",
-   "lat": 35.175133,
-   "lon": -85.328779,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824880",
-   "sequence": "2026-11-32456",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:26:25Z",
-   "created": "2026-11-23T13:14:34Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3708 TAFT HWY",
-   "cross": "HOLLISTER RD/MOURNING DOVE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 08 HC B",
-   "priority": "PRI 1",
-   "lat": 35.175133,
-   "lon": -85.328779,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824879",
-   "sequence": "2026-11-32455",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:14:06Z",
-   "created": "2026-11-23T13:14:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4544 TRICIA DR",
-   "cross": "MARY HALL LN/JERSEY PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 1",
-   "lat": 35.083504,
-   "lon": -85.180301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824876",
    "sequence": "2026-11-32454",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T13:26:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T13:42:02Z",
    "created": "2026-11-23T13:13:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -475,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9824868",
-   "sequence": "2026-11-32449",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:06:51Z",
-   "created": "2026-11-23T13:06:51Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5483 LITTLE DEBBIE PKWY",
-   "cross": "INTEGRA HILLS LN/JAC CATE RD",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 4 CO C",
-   "priority": "PRI 2",
-   "lat": 35.08074,
-   "lon": -85.070095,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9824866",
