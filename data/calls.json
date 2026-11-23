@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-23T14:35:38+00:00",
+ "updated": "2026-11-23T14:40:43+00:00",
  "counts": {
   "year": 371057,
   "upstream_day": 255,
-  "day": 366,
+  "day": 369,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9825049",
+   "sequence": "2026-11-32568",
+   "type": "Auto Boost",
+   "status": "Queued",
+   "status_at": "2026-11-23T14:39:04Z",
+   "created": "2026-11-23T14:38:42Z",
+   "jurisdiction": "",
+   "agencies": [],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "910 E 8TH ST",
+   "cross": "PALMETTO ST/MAGNOLIA ST",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.042784,
+   "lon": -85.296246,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825044",
    "sequence": "2026-11-32564",
@@ -61,37 +85,11 @@
    "notable": false
   },
   {
-   "id": "9825041",
-   "sequence": "2026-11-32563",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:35:16Z",
-   "created": "2026-11-23T14:35:02Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1200 SPRING CREEK RD",
-   "cross": "SUNNYFIELD LN/PRATER RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 0",
-   "lat": 34.992835,
-   "lon": -85.21739,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825037",
    "sequence": "2026-11-32560",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:32:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T14:32:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +106,6 @@
    "priority": "PRI 3",
    "lat": 35.032972,
    "lon": -85.153183,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825028",
-   "sequence": "2026-11-32558",
-   "type": "MVC No Response",
-   "status": "Queued",
-   "status_at": "2026-11-23T14:30:23Z",
-   "created": "2026-11-23T14:29:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5207 HIGHWAY 153",
-   "cross": "HAMILL RD/NORTHGATE MALL DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 0",
-   "lat": 35.123659,
-   "lon": -85.240463,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -195,7 +167,7 @@
    "sequence": "2026-11-32554",
    "type": "Animal Call",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T14:36:28Z",
    "created": "2026-11-23T14:25:38Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -529,6 +501,32 @@
    "notable": true
   },
   {
+   "id": "9824978",
+   "sequence": "2026-11-32519",
+   "type": "Check For A Hazard",
+   "status": "On Scene",
+   "status_at": "2026-11-23T14:38:52Z",
+   "created": "2026-11-23T14:05:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 BIRMINGHAM HWY",
+   "cross": "CUMMINGS RD/BUSINESS PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 2",
+   "lat": 35.008334,
+   "lon": -85.390573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9824965",
    "sequence": "2026-11-32508",
    "type": "Property",
@@ -706,58 +704,6 @@
    "priority": "PRI 4",
    "lat": 35.04976,
    "lon": -85.228987,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824870",
-   "sequence": "2026-11-32450",
-   "type": "Missing Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:08:18Z",
-   "created": "2026-11-23T13:07:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1623 SHELBY CIR",
-   "cross": "WESTGATE RD/BROOK MANOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.162879,
-   "lon": -85.208333,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9824866",
-   "sequence": "2026-11-32447",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T14:01:44Z",
-   "created": "2026-11-23T13:06:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5483 LITTLE DEBBIE PKWY",
-   "cross": "INTEGRA HILLS LN/JAC CATE RD",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.08074,
-   "lon": -85.070095,
    "units": 1,
    "stacked": false,
    "notable": false
