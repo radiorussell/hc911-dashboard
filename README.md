@@ -14,6 +14,8 @@ those files from its own origin.
 | Active incidents | `https://hc911server.com/api/calls` (Hamilton County 9-1-1 feed) | 5 min (Action) + 60 s page poll |
 | Local news | Chattanooga Times Free Press RSS + Google News RSS queries for WDEF / Local 3 / NewsChannel 9 / Chattanoogan / Nooga | 5 min |
 | Scanner | Broadcastify feed 44571 — *Hamilton County Public Safety* (law dispatch), embedded player | live |
+| Congestion minimap (bottom right) | TDOT SmartWay Waze jams + active TDOT closures (read from `data/traffic.json`) | 5 min (Action) + 120 s page poll |
+| Traffic board (`traffic.html`) | TDOT SmartWay: incidents, construction, cameras, message signs, Waze; plus nearest camera to each active 911 call | 5 min (Action) + 60 s page poll |
 | Radar + weather (`weather.html`) | RainViewer radar loop, NWS active alerts, Open-Meteo conditions for 8 DMA cities | 5–10 min |
 
 ## Why the data is fetched by the Action and not the browser
@@ -31,15 +33,21 @@ not the status code.
 ## Layout
 
 ```
-index.html              dashboard shell (incidents, news, scanner)
+index.html              dashboard shell (incidents, news, scanner, congestion minimap)
+traffic.html            TDOT traffic board (map, events, cameras, signs, incident watch)
 weather.html            radar / alerts / conditions board
 assets/style.css        dark newsroom theme
 assets/app.js           fetch + render, filters, auto-refresh
 assets/weather.css      weather board styles
 assets/weather.js       Leaflet radar loop, NWS alerts, Open-Meteo
-scripts/fetch_data.py   hc911 + news -> data/*.json
+assets/traffic.css      traffic board styles
+assets/traffic.js       traffic map, events, camera grid, incident watch
+assets/minimap.css      congestion minimap styles
+assets/minimap.js       congestion minimap (Waze jams + TDOT closures)
+scripts/fetch_data.py   hc911 + news + TDOT traffic -> data/*.json
 data/calls.json         generated (do not edit)
 data/news.json          generated (do not edit)
+data/traffic.json       generated (do not edit)
 .github/workflows/refresh.yml   cron 5 min, commits data, deploys Pages
 ```
 

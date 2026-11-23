@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -385,6 +386,196 @@ def fetch_news() -> list[dict]:
     return items[:80]
 
 
+# --------------------------------------------------------------------------
+# TDOT SmartWay traffic (data/traffic.json) — powers traffic.html and the board's
+# congestion minimap. The SmartWay SPA ships its API base and a public static app
+# key in a runtime config, so read the config each run instead of hardcoding the
+# key: TDOT can rotate it and a stale constant would silently 401 every refresh.
+# Every endpoint returns the whole statewide snapshot (no bbox/region parameter),
+# so filtering to Hamilton County + a 35-mile box happens here.
+# --------------------------------------------------------------------------
+TDOT_CONFIG_URL = "https://smartway.tn.gov/config/config.prod.json"
+TDOT_API_BASE = "https://www.tdot.tn.gov/opendata/api/public/"
+TDOT_TRAFFIC_ENDPOINTS = [
+    "RoadwayIncidents",
+    "RoadwayOperations",
+    "RoadwaySpecialEvents",
+    "RoadwaySevereImpact",
+]
+TDOT_WAZE_URL = (
+    "https://spatial.tdot.tn.gov/ArcGIS/rest/services/WAZE/Waze_Smartway/MapServer/0/query"
+    "?where=1%3D1&geometry={bbox}&geometryType=esriGeometryEnvelope&inSR=4326"
+    "&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&outSR=4326&f=geojson"
+)
+TDOT_CENTER = (35.0456, -85.3097)          # downtown Chattanooga
+TDOT_RADIUS_MI = 35                        # keeps I-24/I-75 approaches in frame
+TDOT_BBOX = (-85.70, 34.78, -84.72, 35.42)  # W, S, E, N for signs + Waze
+TDOT_COUNTIES = {"Hamilton"}
+TDOT_TIMEOUT = 30
+
+
+def tdot_get(url: str, headers: dict | None = None):
+    """GET JSON from TDOT. Two attempts: this feed is reliable, but a refresh cycle
+    must never die over it — callers wrap the whole build in try/except anyway."""
+    last: Exception | None = None
+    for n in range(2):
+        try:
+            raw = http_get(url, {"User-Agent": UA, "Accept": "application/json", **(headers or {})},
+                           timeout=TDOT_TIMEOUT)
+            return json.loads(raw) if raw else None   # 204 (nothing active) yields b""
+        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+            last = exc
+            if n == 0:
+                _time.sleep(2)
+    raise last if last is not None else RuntimeError(f"no response from {url}")
+
+
+def tdot_to_utc(stamp):
+    """TDOT timestamps carry a real offset but 7 fractional digits; ArcGIS Waze
+    dates arrive as epoch milliseconds. Emit a UTC 'Z' stamp like everything else."""
+    if not stamp:
+        return None
+    if isinstance(stamp, (int, float)):
+        return (datetime.fromtimestamp(stamp / 1000, timezone.utc)
+                .isoformat(timespec="seconds").replace("+00:00", "Z"))
+    try:
+        return (datetime.fromisoformat(str(stamp)).astimezone(timezone.utc)
+                .isoformat(timespec="seconds").replace("+00:00", "Z"))
+    except ValueError:
+        return None
+
+
+def tdot_miles(lat: float, lng: float) -> float:
+    return math.hypot((lat - TDOT_CENTER[0]) * 69.0,
+                      (lng - TDOT_CENTER[1]) * 69.0 * math.cos(math.radians(TDOT_CENTER[0])))
+
+
+def _tdot_keep(ev: dict) -> bool:
+    for loc in ev.get("locations") or []:
+        if loc.get("countyName") in TDOT_COUNTIES:
+            return True
+        point = loc.get("midPoint") or (loc.get("coordinates") or [{}])[0]
+        if point.get("lat") is not None and tdot_miles(point["lat"], point["lng"]) <= TDOT_RADIUS_MI:
+            return True
+    return False
+
+
+def _tdot_event(ev: dict) -> dict:
+    locs = ev.get("locations") or []
+    mid = next((l.get("midPoint") for l in locs if l.get("midPoint")), None)
+    lines = [rl for l in locs for rl in (l.get("routeLine") or []) if len(rl) > 1]
+    return {
+        "id": ev.get("id"),
+        "kind": ev.get("eventTypeName"),
+        "subtype": ev.get("eventSubTypeDescription") or ev.get("eventTypeName"),
+        "status": ev.get("status"),
+        "desc": ev.get("description"),
+        "direction": ev.get("directionDescription"),
+        "impact": ev.get("impactDescription"),
+        "closure": bool(ev.get("hasClosure")),
+        "severe": bool(ev.get("isSevere")),
+        "thp": bool(ev.get("thpReported")),
+        "began": tdot_to_utc(ev.get("beginningDate")),
+        "revised": tdot_to_utc(ev.get("revisedDate")),
+        "county": locs[0].get("countyName") if locs else None,
+        "lat": mid.get("lat") if mid else None,
+        "lng": mid.get("lng") if mid else None,
+        "lines": [[[p["lat"], p["lng"]] for p in seg if p.get("lat") is not None] for seg in lines][:4],
+    }
+
+
+def fetch_traffic() -> dict:
+    """Hamilton County traffic snapshot: events, cameras, message signs, Waze jams."""
+    config = tdot_get(TDOT_CONFIG_URL) or {}
+    key = config.get("apiKey")
+    if not key:
+        raise RuntimeError("SmartWay config carried no apiKey")
+    headers = {"X-API-Key": key}
+
+    events: dict = {}
+    for endpoint in TDOT_TRAFFIC_ENDPOINTS:
+        try:
+            rows = tdot_get(TDOT_API_BASE + endpoint, headers) or []
+        except Exception as e:
+            print(f"warn: tdot {endpoint} unavailable ({e})", file=sys.stderr)
+            continue
+        for ev in rows:
+            if not _tdot_keep(ev):
+                continue
+            item = _tdot_event(ev)
+            prior = events.get(item["id"])
+            if prior is None or (item["severe"] and not prior["severe"]):
+                events[item["id"]] = item
+
+    cameras = []
+    for cam in tdot_get(TDOT_API_BASE + "RoadwayCameras", headers) or []:
+        lat, lng = cam.get("lat"), cam.get("lng")
+        if lat is None or tdot_miles(lat, lng) > TDOT_RADIUS_MI:
+            continue
+        cameras.append({
+            "id": cam.get("id"),
+            "title": cam.get("title"),
+            "route": cam.get("route"),
+            "mm": cam.get("mileMarker"),
+            "jur": cam.get("jurisdiction"),
+            "lat": lat,
+            "lng": lng,
+            "active": str(cam.get("active")).lower() == "true",
+            "thumb": cam.get("thumbnailUrl"),
+            "hls": cam.get("httpsVideoUrl") or cam.get("httpVideoUrl"),
+        })
+    cameras.sort(key=lambda c: (c["route"] or "", float(c["mm"] or 0)))
+
+    signs = []
+    for sign in tdot_get(TDOT_API_BASE + "RoadwayMessageSigns", headers) or []:
+        coords = (sign.get("location") or {}).get("coordinates") or []
+        if not coords:
+            continue
+        point = coords[0]
+        if not (TDOT_BBOX[1] <= point.get("lat", 0) <= TDOT_BBOX[3]
+                and TDOT_BBOX[0] <= point.get("lng", 0) <= TDOT_BBOX[2]):
+            continue
+        signs.append({"id": sign.get("id"), "title": sign.get("title"), "msg": sign.get("message"),
+                      "lat": point["lat"], "lng": point["lng"]})
+
+    waze = []
+    try:
+        payload = tdot_get(TDOT_WAZE_URL.format(bbox=",".join(str(v) for v in TDOT_BBOX))) or {}
+        for feature in payload.get("features", []):
+            geometry = feature.get("geometry") or {}
+            if geometry.get("type") != "Point":
+                continue
+            props = feature["properties"]
+            waze.append({
+                "type": props.get("TYPE"), "sub": props.get("SUBTYPE"),
+                "street": props.get("STREET"), "city": props.get("CITY"),
+                "rating": props.get("REPORT_RATING"),
+                "at": tdot_to_utc(props.get("PUBLISH_DATETIME")),
+                "lat": geometry["coordinates"][1], "lng": geometry["coordinates"][0],
+            })
+    except Exception as e:  # the Waze layer is a nice-to-have; never fail the run for it
+        print(f"warn: tdot waze layer unavailable ({e})", file=sys.stderr)
+
+    traffic_events = sorted(events.values(),
+                            key=lambda e: (not e["closure"], e["revised"] or ""), reverse=True)
+    return {
+        "source": "TDOT SmartWay",
+        "center": {"lat": TDOT_CENTER[0], "lng": TDOT_CENTER[1]},
+        "bbox": {"w": TDOT_BBOX[0], "s": TDOT_BBOX[1], "e": TDOT_BBOX[2], "n": TDOT_BBOX[3]},
+        "counts": {
+            "events": len(traffic_events),
+            "closures": sum(1 for e in traffic_events if e["closure"]),
+            "cameras": len(cameras),
+            "signs": len(signs),
+            "waze": len(waze),
+        },
+        "events": traffic_events,
+        "cameras": cameras,
+        "signs": signs,
+        "waze": waze,
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="data")
@@ -398,6 +589,18 @@ def main() -> int:
     day = day_counter(raw, args.out)
     counts.update({"day": day["day"], "day_basis": day["day_basis"]})
     news = fetch_news()
+    # Traffic is context, not the point of the board: a TDOT outage must not cost us
+    # the incidents or the news, so the write is skipped and the last good
+    # traffic.json keeps serving.
+    try:
+        traffic = fetch_traffic()
+        traffic["updated"] = now
+        with open(os.path.join(args.out, "traffic.json"), "w", encoding="utf-8") as f:
+            json.dump(traffic, f, ensure_ascii=False, separators=(",", ":"))
+        traffic_note = f"traffic={traffic['counts']}"
+    except Exception as e:
+        traffic_note = f"traffic=unavailable ({e})"
+        print(f"warn: {traffic_note}", file=sys.stderr)
 
     with open(os.path.join(args.out, "calls.json"), "w", encoding="utf-8") as f:
         json.dump(
@@ -414,7 +617,7 @@ def main() -> int:
     with open(os.path.join(args.out, "news.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": now, "items": news}, f, ensure_ascii=False, indent=1)
 
-    print(f"{now}  incidents={len(incidents)} (rows={meta['fetched']})  news={len(news)}")
+    print(f"{now}  incidents={len(incidents)} (rows={meta['fetched']})  news={len(news)}  {traffic_note}")
     return 0
 
 

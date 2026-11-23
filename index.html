@@ -11,6 +11,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/minimap.css">
 </head>
 <body>
 <header class="topbar">
@@ -25,6 +27,7 @@
     <div class="stat"><span id="count-day">—</span><label>today</label></div>
     <div class="stat"><span id="count-year">—</span><label>YTD</label></div>
     <div class="stat"><span id="stamp">loading</span><label>data</label></div>
+    <div class="stat"><a class="backlink" href="traffic.html">traffic ↗</a><label>roads</label></div>
     <div class="stat"><a class="backlink" href="weather.html">radar ↗</a><label>weather</label></div>
   </div>
 </header>
@@ -114,8 +117,22 @@
       <p>Smarter than the best, harder than the rest</p>
     </aside>
   </section>
+  <!-- TRAFFIC MINIMAP -->
+  <section class="panel" id="panel-traffic">
+    <header class="panel-head">
+      <h2>Congestion</h2>
+      <span class="hint" id="cong-note">loading</span>
+    </header>
+    <div id="minimap" aria-label="Chattanooga congestion minimap"></div>
+    <footer class="panel-foot">
+      <span class="cong-legend" id="cong-legend">Waze driver reports · TDOT events</span>
+      <a href="traffic.html">full traffic board ↗</a>
+    </footer>
+  </section>
 </main>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/minimap.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

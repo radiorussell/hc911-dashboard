@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traffic spike — Hamilton County Ops Board</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/traffic.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="dot live"></span>
+    <h1>Hamilton County Ops Board</h1>
+    <span class="sub">traffic spike · TDOT SmartWay</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><span id="t-events">—</span><label>events</label></div>
+    <div class="stat"><span id="t-closures">—</span><label>closures</label></div>
+    <div class="stat"><span id="t-cams">—</span><label>cameras</label></div>
+    <div class="stat"><span id="t-updated">loading</span><label>data</label></div>
+    <div class="stat"><a class="backlink" href="index.html">← board</a><label>back</label></div>
+    <div class="stat"><a class="backlink" href="https://smartway.tn.gov/traffic" target="_blank" rel="noopener">SmartWay ↗</a><label>source</label></div>
+  </div>
+</header>
+
+<main class="board">
+  <section class="panel wide" id="panel-map">
+    <header class="panel-head">
+      <h2>Traffic map</h2>
+      <div class="controls">
+        <div class="chips" id="layer-chips">
+          <button class="chip active" data-layer="events">Events</button>
+          <button class="chip active" data-layer="cameras">Cameras</button>
+          <button class="chip active" data-layer="waze">Waze</button>
+          <button class="chip active" data-layer="signs">Signs</button>
+          <button class="chip" id="basemap-toggle">basemap: on</button>
+        </div>
+      </div>
+    </header>
+    <div id="traffic-map" aria-label="TDOT traffic map"></div>
+    <footer class="panel-foot">
+      <span>Event + camera positions: TDOT SmartWay. Waze alerts via TDOT's Waze layer. Basemap © OpenStreetMap contributors.</span>
+    </footer>
+  </section>
+
+  <section class="panel" id="panel-events">
+    <header class="panel-head">
+      <h2>Roadway events</h2>
+      <div class="chips" id="county-chips">
+        <button class="chip active" data-scope="hamilton">Hamilton</button>
+        <button class="chip" data-scope="all">+35 mi</button>
+        <button class="chip" id="longterm-toggle">long-term</button>
+      </div>
+    </header>
+    <ol class="news-list" id="event-list"></ol>
+    <footer class="panel-foot"><span id="event-note">Construction, closures and incidents from TDOT.</span></footer>
+  </section>
+
+  <section class="panel" id="panel-waze">
+    <header class="panel-head"><h2>Waze driver reports</h2><span class="hint" id="waze-count"></span></header>
+    <ol class="news-list" id="waze-list"></ol>
+    <footer class="panel-foot"><span>Crowdsourced — unverified driver reports.</span></footer>
+  </section>
+
+  <section class="panel" id="panel-watch">
+    <header class="panel-head">
+      <h2>Incident watch</h2>
+      <div class="chips" id="watch-chips">
+        <button class="chip active" data-scope="traffic">Traffic calls</button>
+        <button class="chip" data-scope="all">All calls</button>
+      </div>
+    </header>
+    <div class="watch-list" id="watch-list"></div>
+    <footer class="panel-foot">
+      <span id="watch-note">Cameras nearest each active call, refreshed with the board.</span>
+      <a href="https://www.hamiltontn911.gov/active-incidents.php" target="_blank" rel="noopener">911 feed ↗</a>
+    </footer>
+  </section>
+
+  <section class="panel wide" id="panel-cams">
+    <header class="panel-head">
+      <h2>Traffic cameras</h2>
+      <span class="hint" id="cam-count"></span>
+    </header>
+    <div class="cam-grid" id="cam-grid"></div>
+    <footer class="panel-foot">
+      <span>Snapshots refresh every 60 s in place. Click for a larger view.</span>
+      <a href="https://smartway.tn.gov/traffic" target="_blank" rel="noopener">live video ↗</a>
+    </footer>
+  </section>
+
+  <section class="panel" id="panel-signs">
+    <header class="panel-head"><h2>Message signs</h2><span class="hint" id="sign-count"></span></header>
+    <ol class="news-list" id="sign-list"></ol>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox-inner">
+    <header><h3 id="lb-title"></h3><button class="chip" id="lb-close">close</button></header>
+    <img id="lb-img" alt="">
+    <p class="note" id="lb-meta"></p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/traffic.js"></script>
+</body>
+</html>

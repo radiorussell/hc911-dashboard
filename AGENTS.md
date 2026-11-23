@@ -11,9 +11,17 @@ GitHub Pages. There is **no server and no build step**. A GitHub Actions workflo
 the county 9-1-1 feed and local news every five minutes, commits the result as JSON to
 `data/`, and deploys the site. The browser only ever fetches same-origin JSON.
 
+## What else is on the site
+
+`traffic.html` is the traffic board: TDOT SmartWay events, the camera grid, message signs,
+Waze reports, and an "incident watch" that pulls the cameras nearest each active 911 call.
+The main board carries a small congestion-only minimap in its third column. Both read
+`data/traffic.json`, which `scripts/fetch_data.py` builds on the same five-minute cycle.
+
 ## Golden rules
 
-1. **Never hand-edit `data/calls.json`, `data/news.json`, or `data/counts.json`.** They are
+1. **Never hand-edit `data/calls.json`, `data/news.json`, `data/counts.json` or
+   `data/traffic.json`.** They are
    generated. The refresh Action commits over them every five minutes, so a manual edit is
    silently clobbered — and if it lands first, the next run rebases on top of it.
 2. **Every timestamp goes through `to_utc()`** in `scripts/fetch_data.py`. The hc911 API
@@ -81,6 +89,28 @@ under `assets/` and `data/` is copied wholesale and needs no change.
   — a successful push says nothing about a successful deploy.
 - **After editing `assets/*.js` or the HTML**, reload with a hard refresh; Pages caches
   aggressively and a stale `app.js` looks like a broken edit.
+
+## TDOT SmartWay (traffic) quirks
+
+- **The API key comes from `https://smartway.tn.gov/config/config.prod.json`**, never from a
+  constant — it is a public app key the SmartWay SPA itself ships, and TDOT rotates it. Header
+  `X-API-Key`; no key → 401.
+- **Every endpoint returns the whole statewide snapshot.** There is no county or bbox parameter;
+  `fetch_traffic()` filters to Hamilton County plus a 35-mile box. Statewide raw is ~1.4 MB,
+  the filtered file ~50 KB.
+- **The event feed is mostly construction, not news.** Most rows are work orders that sit in the
+  feed for a year (measured: 10 of 12 in the 35-mile box revised more than 48 h ago, one 416
+  days old). Anything labelled *active* must be age-gated on `revisedDate`/`beginningDate`;
+  the UI shows long-term work only behind a toggle.
+- **`HAS_CLOSURE` is not "closed now."** A striping job reads "all lanes blocked, right shoulder
+  open". Render the description, not a closure headline, unless you have read it.
+- **No speed or flow data exists publicly.** Esri's traffic service wants a token, and the
+  SmartWay folder only publishes events and Waze. Congestion on the minimap is Waze jams.
+- **Camera snapshots** are 320×240 PNGs from `tnsnapshots.com` (no Referer gate, no CORS needed
+  for `<img>`). Cameras the API calls `active` can still serve a "STREAM NOT AVAILABLE"
+  placeholder — don't read a stale grey frame as a live road.
+- **Traffic failures never fail the run.** `fetch_traffic()` is wrapped so a TDOT outage leaves
+  the previous `traffic.json` serving instead of killing the incident refresh.
 
 ## Domain quirks worth knowing before debugging
 

@@ -1,0 +1,39 @@
+/* Congestion minimap — main board panel. Sits in the third column under the scanner. */
+
+#minimap {
+  height: 216px;
+  background: #0d1117;
+  border-top: 1px solid var(--line);
+}
+#minimap .leaflet-tile-pane { filter: invert(1) hue-rotate(185deg) brightness(.7) contrast(1.05) saturate(.5); }
+#minimap .leaflet-container { background: #0d1117; font: inherit; }
+#minimap .leaflet-control-attribution {
+  background: rgba(11, 14, 19, .7) !important;
+  color: var(--muted) !important;
+  font-size: 9px !important;
+}
+#minimap .leaflet-control-attribution a { color: var(--accent) !important; }
+
+#panel-traffic .panel-foot { align-items: center; }
+.cong-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  font-size: 10.5px;
+  color: var(--muted);
+}
+.dot-key {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: 0;
+}
+.dot-key:first-child { margin-left: 0; }
+
+/* third column, right under the scanner, on the desktop board */
+@media (min-width: 1241px) {
+  #panel-traffic { grid-column: 3; }
+}
