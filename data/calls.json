@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T14:45:39+00:00",
+ "updated": "2026-11-23T14:50:37+00:00",
  "counts": {
   "year": 371063,
   "upstream_day": 261,
   "day": 366,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 25,
  "incidents": [
   {
    "id": "9825044",
@@ -101,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "address": "8005 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/STILL HOLLOW LOOP",
    "city": "CHATTANOOGA",
-   "zone": "C2",
+   "zone": "C6",
    "priority": "PRI 4",
-   "lat": 35.033851,
-   "lon": -85.243151,
+   "lat": 35.087197,
+   "lon": -85.134496,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -221,7 +221,7 @@
    "sequence": "2026-11-32551",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T14:47:55Z",
    "created": "2026-11-23T14:23:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +298,8 @@
    "id": "9825007",
    "sequence": "2026-11-32542",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T14:22:19Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T14:47:13Z",
    "created": "2026-11-23T14:13:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +506,8 @@
    "id": "9824965",
    "sequence": "2026-11-32508",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-23T13:58:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T13:58:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -552,32 +552,6 @@
    "lon": -85.29587,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9824957",
-   "sequence": "2026-11-32500",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T13:54:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3817 KIRKLAND AVE",
-   "cross": "W 38TH ST/HOOKER RD",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 35.005727,
-   "lon": -85.313342,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -633,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9824938",
-   "sequence": "2026-11-32490",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": "2026-11-23T14:13:07Z",
-   "created": "2026-11-23T13:46:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3908 FOREST HIGHLAND CIR",
-   "cross": "FOREST HIGHLAND DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.11298,
-   "lon": -85.268381,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9824769",
    "sequence": "2026-11-32382",
    "type": "Harrassing Threats",
@@ -680,32 +628,6 @@
    "priority": "PRI 3",
    "lat": 35.044333,
    "lon": -85.276338,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824765",
-   "sequence": "2026-11-32383",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-23T12:24:24Z",
-   "created": "2026-11-23T12:02:19Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "355 KELLYS FERRY PL",
-   "cross": "KELLYS FERRY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 1 D",
-   "priority": "PRI 2",
-   "lat": 35.029786,
-   "lon": -85.408225,
    "units": 1,
    "stacked": false,
    "notable": false
