@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-23T05:10:38+00:00",
+ "updated": "2026-11-23T05:15:38+00:00",
  "counts": {
   "year": 370805,
   "upstream_day": 3,
-  "day": 5,
+  "day": 12,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9824545",
+   "sequence": "2026-11-32211",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T05:14:42Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2011 HOLDEN FARM PL",
+   "cross": "SERENDIPITY CIR/SILENT CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 1",
+   "lat": 34.987756,
+   "lon": -85.097879,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824546",
+   "sequence": "2026-11-32209",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:14:20Z",
+   "created": "2026-11-23T05:14:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3535 MOUNTAIN CREEK RD",
+   "cross": "VALLEY BRIDGE RD/VALLEY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.125336,
+   "lon": -85.314819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824547",
+   "sequence": "2026-11-32210",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:14:20Z",
+   "created": "2026-11-23T05:14:20Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3535 MOUNTAIN CREEK RD",
+   "cross": "VALLEY BRIDGE RD/VALLEY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 1",
+   "lat": 35.125336,
+   "lon": -85.314819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824543",
+   "sequence": "2026-11-32208",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T05:13:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3535 MOUNTAIN CREEK RD",
+   "cross": "VALLEY BRIDGE RD/VALLEY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.125336,
+   "lon": -85.314819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824542",
+   "sequence": "2026-11-32206",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T05:11:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1444 MARKET ST",
+   "cross": "W 14TH ST/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 A",
+   "priority": "PRI 2",
+   "lat": 35.03685,
+   "lon": -85.306814,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824541",
+   "sequence": "2026-11-32205",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T05:10:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1444 MARKET ST",
+   "cross": "W 14TH ST/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.03685,
+   "lon": -85.306814,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824540",
    "sequence": "2026-11-32204",
@@ -64,8 +220,8 @@
    "id": "9824538",
    "sequence": "2026-11-32202",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:11:46Z",
    "created": "2026-11-23T05:05:33Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -115,7 +271,7 @@
   {
    "id": "9824531",
    "sequence": "2026-11-32198",
-   "type": "EMS CALL",
+   "type": "Backup EMS Unit",
    "status": "On Scene",
    "status_at": "2026-11-23T05:02:41Z",
    "created": "2026-11-23T04:59:35Z",
@@ -131,7 +287,7 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "B6A",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.022189,
    "lon": -85.269488,
    "units": 1,
@@ -186,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.022189,
    "lon": -85.269488,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824526",
-   "sequence": "2026-11-32193",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-23T04:57:06Z",
-   "created": "2026-11-23T04:57:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2514 AMNICOLA HWY",
-   "cross": "LATTA ST/APPLING ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.07273,
-   "lon": -85.268273,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +480,8 @@
    "id": "9824484",
    "sequence": "2026-11-32157",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T04:55:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T05:11:50Z",
    "created": "2026-11-23T04:04:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
