@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T16:10:45+00:00",
+ "updated": "2026-11-23T16:15:38+00:00",
  "counts": {
   "year": 371171,
   "upstream_day": 369,
-  "day": 531,
+  "day": 537,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9825294",
+   "sequence": "2026-11-32736",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:16:26Z",
+   "created": "2026-11-23T16:16:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DODDS AVE / VANCE AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 4",
+   "lat": 35.026899,
+   "lon": -85.266697,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825292",
+   "sequence": "2026-11-32735",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:15:44Z",
+   "created": "2026-11-23T16:15:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BROAD ST / W MAIN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 2",
+   "lat": 35.037592,
+   "lon": -85.311248,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825287",
+   "sequence": "2026-11-32732",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-23T16:13:38Z",
+   "created": "2026-11-23T16:13:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "404 TUNNEL BLVD",
+   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.033474,
+   "lon": -85.243255,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825285",
    "sequence": "2026-11-32730",
@@ -64,8 +142,8 @@
    "id": "9825280",
    "sequence": "2026-11-32729",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T16:11:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T16:09:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +186,6 @@
    "priority": "PRI 3",
    "lat": 35.005729,
    "lon": -85.096785,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825274",
-   "sequence": "2026-11-32725",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-23T16:08:48Z",
-   "created": "2026-11-23T16:07:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1180 - 1329 INTERSTATE 75 NB",
-   "cross": "EXIT 11 ON RAMP NB/INTERSTATE 75 SB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.088396,
-   "lon": -85.062778,
    "units": 1,
    "stacked": false,
    "notable": false
