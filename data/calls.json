@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-23T11:05:37+00:00",
+ "updated": "2026-11-23T11:10:37+00:00",
  "counts": {
-  "year": 370900,
-  "upstream_day": 98,
-  "day": 134,
+  "year": 370901,
+  "upstream_day": 99,
+  "day": 137,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9824702",
+   "sequence": "2026-11-32336",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T11:10:11Z",
+   "created": "2026-11-23T11:10:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2312 CENTER ST",
+   "cross": "SHALLOWFORD RD/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.045344,
+   "lon": -85.15882,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824693",
    "sequence": "2026-11-32333",
