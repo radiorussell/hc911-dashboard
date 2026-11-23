@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T23:15:38+00:00",
+ "updated": "2026-11-23T23:20:39+00:00",
  "counts": {
   "year": 371645,
   "upstream_day": 842,
-  "day": 1169,
+  "day": 1172,
   "day_basis": "midnight"
  },
- "raw_rows": 40,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9826182",
+   "sequence": "2026-11-33371",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T23:18:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1500 - 1548 SIGNAL MOUNTAIN BLVD",
+   "cross": "SUNSET DR/MUSHROOM WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.10837,
+   "lon": -85.34957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826181",
+   "sequence": "2026-11-33370",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:18:06Z",
+   "created": "2026-11-23T23:17:53Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7941 HIXSON PIKE",
+   "cross": "PORT DR/CRABTREE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 2",
+   "lat": 35.185999,
+   "lon": -85.168671,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826180",
+   "sequence": "2026-11-33369",
+   "type": "Child Abandoned",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:16:49Z",
+   "created": "2026-11-23T23:15:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1100 MOUNTAIN CREEK RD",
+   "cross": "N RUNYAN DR/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.110778,
+   "lon": -85.321604,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826167",
    "sequence": "2026-11-33368",
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9826174",
-   "sequence": "2026-11-33365",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-23T23:13:16Z",
-   "created": "2026-11-23T23:12:47Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E NEWBERRY ST / DAYTON BLVD",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 2",
-   "lat": 35.106757,
-   "lon": -85.297066,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826171",
    "sequence": "2026-11-33362",
    "type": "EMS CALL",
@@ -191,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9826170",
-   "sequence": "2026-11-33361",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T23:12:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1400 - 1499 DODDS AVE",
-   "cross": "E 14TH ST/E MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 1",
-   "lat": 35.022986,
-   "lon": -85.268992,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826169",
    "sequence": "2026-11-33360",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-23T23:12:21Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T23:11:52Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -298,8 +324,8 @@
    "id": "9826165",
    "sequence": "2026-11-33355",
    "type": "Odor Investigate",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:18:59Z",
    "created": "2026-11-23T23:10:24Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -377,7 +403,7 @@
    "sequence": "2026-11-33351",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-23T23:19:55Z",
    "created": "2026-11-23T23:06:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -555,37 +581,11 @@
    "notable": false
   },
   {
-   "id": "9826131",
-   "sequence": "2026-11-33335",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T22:52:21Z",
-   "created": "2026-11-23T22:52:21Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "406 DUNLAP AVE",
-   "cross": "CASTLE AVE/WESTONIA DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 35.016346,
-   "lon": -85.260924,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826128",
    "sequence": "2026-11-33334",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:02:46Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T23:17:00Z",
    "created": "2026-11-23T22:51:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -662,7 +662,7 @@
    "id": "9826114",
    "sequence": "2026-11-33320",
    "type": "Property",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-23T22:44:23Z",
    "created": "2026-11-23T22:43:57Z",
    "jurisdiction": "Chattanooga PD",
@@ -681,7 +681,7 @@
    "lat": 35.023038,
    "lon": -85.196661,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -740,8 +740,8 @@
    "id": "9826097",
    "sequence": "2026-11-33311",
    "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-23T22:37:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:36:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -759,15 +759,15 @@
    "lat": 35.082757,
    "lon": -85.078017,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9826099",
    "sequence": "2026-11-33312",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T23:08:01Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T23:17:50Z",
    "created": "2026-11-23T22:36:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -815,32 +815,6 @@
    "notable": false
   },
   {
-   "id": "9826066",
-   "sequence": "2026-11-33289",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T23:00:58Z",
-   "created": "2026-11-23T22:21:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "12129 BACK VALLEY RD",
-   "cross": "RATLEDGE RD/CROCKETT LN",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 02 SD B",
-   "priority": "PRI 1",
-   "lat": 35.312921,
-   "lon": -85.159401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826057",
    "sequence": "2026-11-33281",
    "type": "Shots Fired",
@@ -865,32 +839,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826040",
-   "sequence": "2026-11-33268",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T22:53:37Z",
-   "created": "2026-11-23T21:59:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2217 HAMILTON PLACE BLVD",
-   "cross": "COMMONS BLVD/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.040321,
-   "lon": -85.155778,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826019",
