@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T12:55:39+00:00",
+ "updated": "2026-11-23T13:00:42+00:00",
  "counts": {
-  "year": 370963,
-  "upstream_day": 161,
-  "day": 235,
+  "year": 370967,
+  "upstream_day": 165,
+  "day": 240,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
   {
-   "id": "9824850",
-   "sequence": "2026-11-32434",
+   "id": "9824860",
+   "sequence": "2026-11-32439",
    "type": "Auto Theft",
    "status": "Queued",
-   "status_at": "2026-11-23T12:55:22Z",
-   "created": "2026-11-23T12:55:08Z",
+   "status_at": "2026-11-23T12:59:46Z",
+   "created": "2026-11-23T12:59:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2300 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
+   "address": "5304 CENTRAL AVE",
+   "cross": "HALSEY ST/LEE AVE",
    "city": "CHATTANOOGA",
-   "zone": "B3",
+   "zone": "A12",
    "priority": "PRI 4",
-   "lat": 35.049766,
-   "lon": -85.260195,
+   "lat": 34.988637,
+   "lon": -85.319278,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824854",
+   "sequence": "2026-11-32437",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:57:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2565 LIFESTYLE WAY",
+   "cross": "ELAM LN/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.045261,
+   "lon": -85.151353,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9824849",
    "sequence": "2026-11-32433",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:55:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T12:53:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9824848",
    "sequence": "2026-11-32432",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T12:57:25Z",
    "created": "2026-11-23T12:52:14Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9824841",
    "sequence": "2026-11-32428",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T12:58:00Z",
    "created": "2026-11-23T12:46:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +428,8 @@
    "id": "9824744",
    "sequence": "2026-11-32364",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T12:17:32Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T12:56:09Z",
    "created": "2026-11-23T11:44:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
