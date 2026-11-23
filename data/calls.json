@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T00:10:37+00:00",
+ "updated": "2026-11-23T00:15:38+00:00",
  "counts": {
   "year": 370563,
   "upstream_day": 0,
-  "day": 892,
+  "day": 897,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9824152",
+   "sequence": "2026-11-31915",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:15:16Z",
+   "created": "2026-11-23T00:14:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6274 FELDSPAR LN",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 1",
+   "lat": 35.149849,
+   "lon": -85.201958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824149",
+   "sequence": "2026-11-31913",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-23T00:13:38Z",
+   "created": "2026-11-23T00:13:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4600 - 4729 ARDMORE DR",
+   "cross": "OLD LEE HWY/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.068195,
+   "lon": -85.107547,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824147",
+   "sequence": "2026-11-31911",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T00:10:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2210 MORRIS HILL RD",
+   "cross": "BRANDERMILL LN/RED TAIL LN",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 2",
+   "lat": 35.027327,
+   "lon": -85.123275,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824144",
    "sequence": "2026-11-31909",
@@ -64,8 +142,8 @@
    "id": "9824142",
    "sequence": "2026-11-31908",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:10:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,58 +160,6 @@
    "priority": "PRI 1",
    "lat": 34.992388,
    "lon": -85.235323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824140",
-   "sequence": "2026-11-31905",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:07:16Z",
-   "created": "2026-11-23T00:06:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3308 DODSON AVE",
-   "cross": "WISDOM ST/ALLIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.075822,
-   "lon": -85.247796,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824128",
-   "sequence": "2026-11-31900",
-   "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": "2026-11-23T00:06:15Z",
-   "created": "2026-11-23T00:00:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1800 BROAD ST",
-   "cross": "W 18TH ST/W 19TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.035075,
-   "lon": -85.31261,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 34.996382,
    "lon": -85.291175,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824121",
-   "sequence": "2026-11-31893",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-22T23:52:04Z",
-   "created": "2026-11-22T23:52:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4004 ROSSVILLE BLVD",
-   "cross": "E 40TH ST/E 41ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 3",
-   "lat": 34.997403,
-   "lon": -85.290898,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +324,8 @@
    "id": "9824108",
    "sequence": "2026-11-31882",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T00:02:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T00:11:13Z",
    "created": "2026-11-22T23:42:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +376,8 @@
    "id": "9824107",
    "sequence": "2026-11-31880",
    "type": "Assault PD Only",
-   "status": "Stacked",
-   "status_at": "2026-11-22T23:37:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-22T23:36:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -395,34 +395,8 @@
    "lat": 34.992863,
    "lon": -85.305707,
    "units": 1,
-   "stacked": true,
-   "notable": true
-  },
-  {
-   "id": "9824080",
-   "sequence": "2026-11-31861",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-22T23:28:49Z",
-   "created": "2026-11-22T23:19:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.081783,
-   "lon": -85.26321,
-   "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9824072",
@@ -480,8 +454,8 @@
    "id": "9824053",
    "sequence": "2026-11-31844",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-22T23:44:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T00:12:54Z",
    "created": "2026-11-22T23:06:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
