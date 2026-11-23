@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T05:55:37+00:00",
+ "updated": "2026-11-23T06:00:37+00:00",
  "counts": {
-  "year": 370827,
-  "upstream_day": 25,
-  "day": 39,
+  "year": 370831,
+  "upstream_day": 29,
+  "day": 41,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9824577",
+   "sequence": "2026-11-32240",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-23T05:59:17Z",
+   "created": "2026-11-23T05:58:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7011 POPULUS LOOP",
+   "cross": "MIN TOM DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.047215,
+   "lon": -85.147209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824576",
+   "sequence": "2026-11-32239",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T05:58:36Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "724 ASHBROOK DR",
+   "cross": "BROOKHILL DR/FOREST HILL DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.215552,
+   "lon": -85.189666,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824574",
    "sequence": "2026-11-32238",
@@ -38,8 +90,8 @@
    "id": "9824568",
    "sequence": "2026-11-32234",
    "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T05:59:53Z",
    "created": "2026-11-23T05:47:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
