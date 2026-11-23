@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T12:25:39+00:00",
+ "updated": "2026-11-23T12:30:38+00:00",
  "counts": {
-  "year": 370942,
-  "upstream_day": 140,
-  "day": 206,
+  "year": 370947,
+  "upstream_day": 145,
+  "day": 211,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9824814",
+   "sequence": "2026-11-32410",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-23T12:28:22Z",
+   "created": "2026-11-23T12:28:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2424 6TH AVE",
+   "cross": "5TH AVENUE CT/E 25TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 4",
+   "lat": 35.014778,
+   "lon": -85.279312,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824813",
+   "sequence": "2026-11-32409",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T12:26:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1225 COWART ST",
+   "cross": "MARKET ST/W 13TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 4",
+   "lat": 35.040354,
+   "lon": -85.308797,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824803",
    "sequence": "2026-11-32405",
@@ -26,36 +78,10 @@
    "address": "2524 GUNBARREL RD",
    "cross": "POPULUS LOOP/PINEWOOD DR",
    "city": "CHATTANOOGA",
-   "zone": "C9",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.046865,
    "lon": -85.145277,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824799",
-   "sequence": "2026-11-32404",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T12:20:46Z",
-   "created": "2026-11-23T12:20:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8005 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/STILL HOLLOW LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.087197,
-   "lon": -85.134496,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -212,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.063196,
    "lon": -85.06418,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824719",
-   "sequence": "2026-11-32351",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-23T11:33:52Z",
-   "created": "2026-11-23T11:24:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.052578,
-   "lon": -85.152879,
    "units": 1,
    "stacked": false,
    "notable": false
