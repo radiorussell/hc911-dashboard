@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-23T18:15:42+00:00",
+ "updated": "2026-11-23T18:20:38+00:00",
  "counts": {
   "year": 371317,
   "upstream_day": 514,
-  "day": 734,
+  "day": 741,
   "day_basis": "midnight"
  },
- "raw_rows": 48,
+ "raw_rows": 46,
  "incidents": [
+  {
+   "id": "9825568",
+   "sequence": "2026-11-32940",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T18:15:48Z",
+   "created": "2026-11-23T18:15:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4501 MONTVIEW DR",
+   "cross": "SEQUOIA DR/LAWS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1301 A",
+   "priority": "PRI 3",
+   "lat": 35.020917,
+   "lon": -85.230532,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825567",
+   "sequence": "2026-11-32939",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T18:15:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4501 MONTVIEW DR",
+   "cross": "SEQUOIA DR/LAWS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 2",
+   "lat": 35.020917,
+   "lon": -85.230532,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9825561",
    "sequence": "2026-11-32932",
@@ -38,8 +90,8 @@
    "id": "9825562",
    "sequence": "2026-11-32933",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:17:26Z",
    "created": "2026-11-23T18:13:09Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9825557",
    "sequence": "2026-11-32930",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:20:14Z",
    "created": "2026-11-23T18:11:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9825550",
    "sequence": "2026-11-32924",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:09:40Z",
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:20:21Z",
    "created": "2026-11-23T18:09:40Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9825546",
    "sequence": "2026-11-32922",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:17:14Z",
    "created": "2026-11-23T18:08:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9825538",
    "sequence": "2026-11-32917",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:18:23Z",
    "created": "2026-11-23T18:03:12Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9825521",
    "sequence": "2026-11-32902",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T18:19:32Z",
    "created": "2026-11-23T17:55:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +506,8 @@
    "id": "9825515",
    "sequence": "2026-11-32897",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T18:12:13Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T18:16:16Z",
    "created": "2026-11-23T17:52:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9825508",
-   "sequence": "2026-11-32891",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T17:48:48Z",
-   "created": "2026-11-23T17:48:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6653 PALMS CT",
-   "cross": "GREENWAY DR/N CONCORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.022766,
-   "lon": -85.173372,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825506",
    "sequence": "2026-11-32890",
    "type": "EMS CALL",
@@ -581,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9825504",
-   "sequence": "2026-11-32889",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T17:51:50Z",
-   "created": "2026-11-23T17:46:13Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7809 SAFARI DR",
-   "cross": "BROCK RD/MEGAN CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 1",
-   "lat": 35.050666,
-   "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825501",
    "sequence": "2026-11-32887",
    "type": "EMS CALL",
@@ -628,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.050666,
    "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825491",
-   "sequence": "2026-11-32884",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T17:54:59Z",
-   "created": "2026-11-23T17:44:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MANUFACTURERS RD / CHEROKEE BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.063556,
-   "lon": -85.310263,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +662,8 @@
    "id": "9825484",
    "sequence": "2026-11-32879",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:00:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:16:53Z",
    "created": "2026-11-23T17:42:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -732,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.089617,
    "lon": -85.258354,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825483",
-   "sequence": "2026-11-32875",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T17:55:04Z",
-   "created": "2026-11-23T17:41:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7998 SHALLOWFORD RD",
-   "cross": "JENKINS RD/RANCH HILLS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.033002,
-   "lon": -85.129956,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -844,8 +792,8 @@
    "id": "9825475",
    "sequence": "2026-11-32872",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T18:05:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T18:15:52Z",
    "created": "2026-11-23T17:40:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -907,13 +855,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1901 - 1949 NORTHPOINT BLVD",
-   "cross": "HIGHWAY 153/PRESCHOOL LN",
+   "address": "5400 HIGHWAY 153",
+   "cross": "EXIT HIXSON PIKE S OFF RAMP SB/NORTHPOINT BLVD",
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.13859,
-   "lon": -85.24677,
+   "lat": 35.136568,
+   "lon": -85.246356,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -1115,13 +1063,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIXSON PIKE / N ACCESS RD",
-   "cross": "",
+   "address": "4000 HIXSON PIKE",
+   "cross": "ASHLAND TER/FAIRFAX DR",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
    "priority": "PRI 3",
-   "lat": 35.114497,
-   "lon": -85.256843,
+   "lat": 35.113711,
+   "lon": -85.259164,
    "units": 1,
    "stacked": false,
    "notable": false
