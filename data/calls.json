@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-23T19:40:39+00:00",
+ "updated": "2026-11-23T19:45:38+00:00",
  "counts": {
-  "year": 371422,
-  "upstream_day": 619,
-  "day": 881,
+  "year": 371440,
+  "upstream_day": 637,
+  "day": 892,
   "day_basis": "midnight"
  },
  "raw_rows": 43,
  "incidents": [
+  {
+   "id": "9825776",
+   "sequence": "2026-11-33091",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:44:21Z",
+   "created": "2026-11-23T19:43:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3367 BROMLEY LN",
+   "cross": "S TULIP AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.018343,
+   "lon": -85.372705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825763",
+   "sequence": "2026-11-33087",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-23T19:41:29Z",
+   "created": "2026-11-23T19:41:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3410 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.081783,
+   "lon": -85.26321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825769",
+   "sequence": "2026-11-33082",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:45:15Z",
+   "created": "2026-11-23T19:40:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1637 DODSON AVE",
+   "cross": "CAMDEN ST/CAMDEN OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 1",
+   "lat": 35.054978,
+   "lon": -85.259833,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825770",
+   "sequence": "2026-11-33083",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:43:57Z",
+   "created": "2026-11-23T19:40:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1641 DODSON AVE",
+   "cross": "CAMDEN ST/CAMDEN OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "402",
+   "priority": "PRI 1",
+   "lat": 35.054958,
+   "lon": -85.259777,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9825766",
+   "sequence": "2026-11-33086",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T19:40:38Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3 GAYLORD ST",
+   "cross": "MARTIN RD/LAMAR AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 1",
+   "lat": 35.11295,
+   "lon": -85.301765,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9825768",
    "sequence": "2026-11-33080",
@@ -35,53 +165,27 @@
    "notable": false
   },
   {
-   "id": "9825762",
-   "sequence": "2026-11-33078",
-   "type": "AFA Commercial",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:38:59Z",
-   "created": "2026-11-23T19:38:59Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 35.009134,
-   "lon": -85.265454,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825752",
-   "sequence": "2026-11-33073",
-   "type": "AFA Apartment",
+   "id": "9825765",
+   "sequence": "2026-11-33081",
+   "type": "EMS CALL",
    "status": "On Scene",
-   "status_at": "2026-11-23T19:40:33Z",
-   "created": "2026-11-23T19:34:09Z",
-   "jurisdiction": "East Ridge FD",
+   "status_at": "2026-11-23T19:45:09Z",
+   "created": "2026-11-23T19:40:19Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "East Ridge FD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Fire",
+   "agency_type": "EMS",
    "agency_types": [
-    "Fire"
+    "EMS"
    ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
+   "address": "1637 DODSON AVE",
+   "cross": "CAMDEN ST/CAMDEN OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
    "priority": "PRI 1",
-   "lat": 35.009127,
-   "lon": -85.265449,
+   "lat": 35.054978,
+   "lon": -85.259833,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +350,8 @@
    "id": "9825740",
    "sequence": "2026-11-33062",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:43:53Z",
    "created": "2026-11-23T19:30:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +480,8 @@
    "id": "9825720",
    "sequence": "2026-11-33041",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T19:42:19Z",
    "created": "2026-11-23T19:22:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -428,8 +532,8 @@
    "id": "9825711",
    "sequence": "2026-11-33032",
    "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-23T19:20:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T19:20:02Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -447,15 +551,15 @@
    "lat": 35.251563,
    "lon": -85.159598,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9825699",
    "sequence": "2026-11-33029",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:30:57Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:41:41Z",
    "created": "2026-11-23T19:15:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -503,37 +607,11 @@
    "notable": false
   },
   {
-   "id": "9825692",
-   "sequence": "2026-11-33022",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T19:12:00Z",
-   "created": "2026-11-23T19:12:00Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1860 - 1888 HIGHWAY 27 NB",
-   "cross": "EXIT SEQUOYAH RD OFF RAMP NB/EXIT SEQUOYAH RD ON RAMP NB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.251668,
-   "lon": -85.17681,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825690",
    "sequence": "2026-11-33020",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T19:20:11Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T19:43:58Z",
    "created": "2026-11-23T19:11:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 34.992866,
    "lon": -85.212622,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825682",
-   "sequence": "2026-11-33014",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T19:07:02Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1016 GREENS LAKE RD",
-   "cross": "KINGWOOD DR/JOHN ROSS RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 34.997608,
-   "lon": -85.254283,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -815,37 +867,11 @@
    "notable": false
   },
   {
-   "id": "9825660",
-   "sequence": "2026-11-32998",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T18:55:46Z",
-   "created": "2026-11-23T18:55:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 2",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9825659",
    "sequence": "2026-11-32997",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T19:34:49Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T19:43:04Z",
    "created": "2026-11-23T18:55:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1070,32 +1096,6 @@
    "priority": "PRI 4",
    "lat": 35.076438,
    "lon": -85.307748,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825153",
-   "sequence": "2026-11-32655",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-23T19:06:11Z",
-   "created": "2026-11-23T15:30:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3103 DODSON AVE",
-   "cross": "WILDER ST/ELMENDORF ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.073527,
-   "lon": -85.249988,
    "units": 1,
    "stacked": false,
    "notable": false
