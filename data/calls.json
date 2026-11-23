@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T02:00:36+00:00",
+ "updated": "2026-11-23T02:05:38+00:00",
  "counts": {
   "year": 370657,
   "upstream_day": 0,
   "day": 1007,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
   {
    "id": "9824296",
@@ -90,8 +90,8 @@
    "id": "9824293",
    "sequence": "2026-11-32019",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:57:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T01:56:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9824276",
    "sequence": "2026-11-32009",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:49:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T01:49:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -241,58 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9824271",
-   "sequence": "2026-11-32004",
-   "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": "2026-11-23T01:56:25Z",
-   "created": "2026-11-23T01:46:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "16 FRAZIER AVE",
-   "cross": "WOODLAND AVE/FOREST AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 2",
-   "lat": 35.06244,
-   "lon": -85.30803,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824269",
-   "sequence": "2026-11-32003",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:58:25Z",
-   "created": "2026-11-23T01:45:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2501 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "201 B",
-   "priority": "PRI 3",
-   "lat": 35.026499,
-   "lon": -85.311682,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9824266",
@@ -558,8 +506,8 @@
    "id": "9824189",
    "sequence": "2026-11-31944",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T02:04:20Z",
    "created": "2026-11-23T00:40:24Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
