@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-23T01:50:40+00:00",
+ "updated": "2026-11-23T01:55:36+00:00",
  "counts": {
   "year": 370646,
   "upstream_day": 0,
-  "day": 991,
+  "day": 999,
   "day_basis": "midnight"
  },
  "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9824288",
+   "sequence": "2026-11-32017",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:55:05Z",
+   "created": "2026-11-23T01:55:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "622 - 999 BOY SCOUT RD",
+   "cross": "ECHO GLEN DR/SANDSWITCH RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.182165,
+   "lon": -85.244988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9824282",
+   "sequence": "2026-11-32012",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:51:17Z",
+   "created": "2026-11-23T01:51:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5512 MILLER DR",
+   "cross": "N TERRACE/EASTGATE LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 2",
+   "lat": 35.005547,
+   "lon": -85.217774,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9824279",
+   "sequence": "2026-11-32010",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-23T01:50:57Z",
+   "created": "2026-11-23T01:50:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7604 STANDIFER GAP RD",
+   "cross": "WALKER RD/JUSTICE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.049098,
+   "lon": -85.134758,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9824276",
    "sequence": "2026-11-32009",
@@ -89,9 +167,9 @@
   {
    "id": "9824269",
    "sequence": "2026-11-32003",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T01:45:25Z",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T01:45:25Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -105,38 +183,12 @@
    "cross": "W 25TH ST/W 26TH ST",
    "city": "CHATTANOOGA",
    "zone": "201 B",
-   "priority": "PRI 2",
+   "priority": "PRI 3",
    "lat": 35.026499,
    "lon": -85.311682,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824268",
-   "sequence": "2026-11-32002",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T01:45:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2501 MARKET ST",
-   "cross": "W 25TH ST/W 26TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.026499,
-   "lon": -85.311682,
-   "units": 1,
-   "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9824267",
@@ -272,8 +324,8 @@
    "id": "9824254",
    "sequence": "2026-11-31992",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T01:37:02Z",
    "created": "2026-11-23T01:36:59Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -291,7 +343,7 @@
    "lat": 35.062908,
    "lon": -85.027441,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -321,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9824253",
-   "sequence": "2026-11-31990",
-   "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-23T01:38:23Z",
-   "created": "2026-11-23T01:34:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LINDSAY ST / E 8TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 2",
-   "lat": 35.046622,
-   "lon": -85.306146,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824250",
    "sequence": "2026-11-31987",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T01:55:00Z",
    "created": "2026-11-23T01:32:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9824238",
-   "sequence": "2026-11-31977",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T01:32:06Z",
-   "created": "2026-11-23T01:24:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1200 - 1299 E MAIN ST",
-   "cross": "GULF ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.029628,
-   "lon": -85.289999,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9824236",
    "sequence": "2026-11-31975",
    "type": "MVC Injuries",
@@ -506,8 +506,8 @@
    "id": "9824189",
    "sequence": "2026-11-31944",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-23T00:40:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T00:40:24Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
