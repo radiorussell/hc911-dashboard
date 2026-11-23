@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-23T12:00:40+00:00",
+ "updated": "2026-11-23T12:05:38+00:00",
  "counts": {
   "year": 370933,
   "upstream_day": 131,
-  "day": 177,
+  "day": 183,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
   {
-   "id": "9824759",
-   "sequence": "2026-11-32376",
-   "type": "Unknown 911",
+   "id": "9824769",
+   "sequence": "2026-11-32382",
+   "type": "Harrassing Threats",
    "status": "Queued",
-   "status_at": "2026-11-23T11:56:58Z",
-   "created": "2026-11-23T11:56:50Z",
+   "status_at": "2026-11-23T12:04:52Z",
+   "created": "2026-11-23T12:04:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1803 AVALON AVE",
-   "cross": "CRESTWOOD DR/ALTAMONT RD",
+   "address": "500 N HIGHLAND PARK AVE",
+   "cross": "E 3RD ST/CLEVELAND AVE",
    "city": "CHATTANOOGA",
-   "zone": "A4 A",
+   "zone": "B4",
    "priority": "PRI 3",
-   "lat": 35.085817,
-   "lon": -85.29536,
+   "lat": 35.044333,
+   "lon": -85.276338,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -82,32 +82,6 @@
    "priority": "PRI 4",
    "lat": 35.234563,
    "lon": -85.17947,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824746",
-   "sequence": "2026-11-32365",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T11:45:09Z",
-   "created": "2026-11-23T11:45:09Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10923 DOLLY POND RD",
-   "cross": "WELDON LN/HINSHAW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.24715,
-   "lon": -85.035443,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +220,8 @@
    "id": "9824705",
    "sequence": "2026-11-32339",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T11:31:10Z",
+   "status": "Transporting",
+   "status_at": "2026-11-23T12:04:19Z",
    "created": "2026-11-23T11:16:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +264,6 @@
    "priority": "PRI 2",
    "lat": 35.033329,
    "lon": -85.242707,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9824686",
-   "sequence": "2026-11-32326",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T11:39:54Z",
-   "created": "2026-11-23T10:51:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1020 W 37TH ST",
-   "cross": "PIROLA ST/CHARGER DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.010228,
-   "lon": -85.321534,
    "units": 1,
    "stacked": false,
    "notable": false
