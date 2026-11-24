@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-24T00:05:39+00:00",
+ "updated": "2026-11-24T00:10:45+00:00",
  "counts": {
   "year": 371710,
   "upstream_day": 0,
-  "day": 1231,
+  "day": 1247,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9826280",
+   "sequence": "2026-11-33446",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:08:57Z",
+   "created": "2026-11-24T00:08:57Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 1",
+   "lat": 35.034841,
+   "lon": -85.159114,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826279",
+   "sequence": "2026-11-33445",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:08:57Z",
+   "created": "2026-11-24T00:08:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.034841,
+   "lon": -85.159114,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826278",
+   "sequence": "2026-11-33444",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:08:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.034841,
+   "lon": -85.159114,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826273",
+   "sequence": "2026-11-33439",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:06:18Z",
+   "created": "2026-11-24T00:06:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4020 CARL SWAFFORD DR",
+   "cross": "CUMMINGS RD/ASBURY OAK LN",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.020212,
+   "lon": -85.393018,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826274",
+   "sequence": "2026-11-33440",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:06:18Z",
+   "created": "2026-11-24T00:06:18Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4020 CARL SWAFFORD DR",
+   "cross": "CUMMINGS RD/ASBURY OAK LN",
+   "city": "CHATTANOOGA",
+   "zone": "302",
+   "priority": "PRI 1",
+   "lat": 35.020212,
+   "lon": -85.393018,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826269",
+   "sequence": "2026-11-33438",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:05:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4020 CARL SWAFFORD DR",
+   "cross": "CUMMINGS RD/ASBURY OAK LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.020212,
+   "lon": -85.393018,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826267",
+   "sequence": "2026-11-33437",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:04:47Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2240 HIGHWAY 27 NB",
+   "cross": "EXIT TSATI TER ON RAMP NB/EXIT DAYTON PIKE OFF RAMP NB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.298613,
+   "lon": -85.150712,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826260",
    "sequence": "2026-11-33430",
@@ -64,8 +246,8 @@
    "id": "9826258",
    "sequence": "2026-11-33428",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:09:31Z",
    "created": "2026-11-23T23:58:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,58 +555,6 @@
    "notable": false
   },
   {
-   "id": "9826209",
-   "sequence": "2026-11-33393",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:54:18Z",
-   "created": "2026-11-23T23:34:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18400 - 18459 INTERSTATE 24 EB",
-   "cross": "EXIT 184 OFF RAMP EB/EXIT 184 ON RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 2",
-   "lat": 35.008654,
-   "lon": -85.237704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826201",
-   "sequence": "2026-11-33385",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:41:23Z",
-   "created": "2026-11-23T23:30:27Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4671 UNIVERSITY DR",
-   "cross": "CENTRAL DR/COLCORD DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 3",
-   "lat": 35.041033,
-   "lon": -85.056469,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826183",
    "sequence": "2026-11-33372",
    "type": "EMS CALL",
@@ -529,58 +659,6 @@
    "notable": false
   },
   {
-   "id": "9826169",
-   "sequence": "2026-11-33360",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T23:11:52Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SIGNAL MOUNTAIN RD / BAYLOR SCHOOL RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "RED BANK 2",
-   "priority": "PRI 2",
-   "lat": 35.086269,
-   "lon": -85.327034,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826159",
-   "sequence": "2026-11-33356",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T23:07:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2600 4TH AVE",
-   "cross": "E 26TH ST/E 26TH STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 4",
-   "lat": 35.012762,
-   "lon": -85.282092,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826138",
    "sequence": "2026-11-33339",
    "type": "Disorder",
@@ -602,58 +680,6 @@
    "priority": "PRI 3",
    "lat": 35.044698,
    "lon": -85.267722,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826099",
-   "sequence": "2026-11-33312",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T23:17:50Z",
-   "created": "2026-11-23T22:36:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6698 PALMS CT",
-   "cross": "GREENWAY DR/N CONCORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.021295,
-   "lon": -85.174428,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826096",
-   "sequence": "2026-11-33310",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:47:09Z",
-   "created": "2026-11-23T22:36:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15449 DAYTON PIKE",
-   "cross": "CREAMERY WAY/COULTERVILLE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.392459,
-   "lon": -85.107415,
    "units": 1,
    "stacked": false,
    "notable": false
