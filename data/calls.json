@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T05:35:37+00:00",
+ "updated": "2026-11-24T05:40:38+00:00",
  "counts": {
   "year": 371953,
   "upstream_day": 12,
   "day": 24,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9826644",
@@ -64,8 +64,8 @@
    "id": "9826642",
    "sequence": "2026-11-33750",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T05:39:54Z",
    "created": "2026-11-24T05:33:01Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -238,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.002025,
    "lon": -85.269814,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826589",
-   "sequence": "2026-11-33713",
-   "type": "Sex Offense",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:39:55Z",
-   "created": "2026-11-24T04:27:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6638 SANDWOOD CIR",
-   "cross": "SPADEWOOD LN/PYTHIAN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.125797,
-   "lon": -85.131335,
    "units": 1,
    "stacked": false,
    "notable": false
