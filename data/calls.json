@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-24T16:50:38+00:00",
+ "updated": "2026-11-24T16:55:39+00:00",
  "counts": {
-  "year": 372365,
-  "upstream_day": 424,
-  "day": 582,
+  "year": 372377,
+  "upstream_day": 436,
+  "day": 594,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 32,
  "incidents": [
   {
-   "id": "9827415",
-   "sequence": "2026-11-34310",
+   "id": "9827430",
+   "sequence": "2026-11-34322",
    "type": "Repossessed Auto",
    "status": "Queued",
-   "status_at": "2026-11-24T16:50:22Z",
-   "created": "2026-11-24T16:50:22Z",
+   "status_at": "2026-11-24T16:55:21Z",
+   "created": "2026-11-24T16:55:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,169 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6698 PALMS CT",
-   "cross": "GREENWAY DR/N CONCORD RD",
+   "address": "1400 CHESTNUT ST",
+   "cross": "W 14TH ST/W MAIN ST",
    "city": "CHATTANOOGA",
-   "zone": "C8",
+   "zone": "A9",
    "priority": "PRI 0",
-   "lat": 35.021295,
-   "lon": -85.174428,
+   "lat": 35.039153,
+   "lon": -85.312784,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827429",
+   "sequence": "2026-11-34321",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:54:19Z",
+   "created": "2026-11-24T16:54:19Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827428",
+   "sequence": "2026-11-34320",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:54:19Z",
+   "created": "2026-11-24T16:54:19Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827425",
+   "sequence": "2026-11-34319",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:53:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827422",
+   "sequence": "2026-11-34315",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:52:48Z",
+   "created": "2026-11-24T16:52:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5798 HIXSON HOME PL",
+   "cross": "OLD HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1102",
+   "priority": "PRI 2",
+   "lat": 35.152001,
+   "lon": -85.226459,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827421",
+   "sequence": "2026-11-34314",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:52:47Z",
+   "created": "2026-11-24T16:52:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5798 HIXSON HOME PL",
+   "cross": "OLD HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.152001,
+   "lon": -85.226459,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827417",
+   "sequence": "2026-11-34313",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:51:38Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5798 HIXSON HOME PL",
+   "cross": "OLD HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.152001,
+   "lon": -85.226459,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +194,8 @@
    "id": "9827410",
    "sequence": "2026-11-34307",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:49:26Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T16:49:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +220,8 @@
    "id": "9827408",
    "sequence": "2026-11-34305",
    "type": "Child Locked in Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:53:47Z",
    "created": "2026-11-24T16:48:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -101,13 +257,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "979 ROBERTS MILL RD",
-   "cross": "ROCKY LEDGE DR/MOUNTAIN LAUREL TRL",
+   "address": "500 - 512 ROBERTS MILL RD",
+   "cross": "LEVI RD/FALLS VIEW DR",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 3 A",
    "priority": "PRI 3",
-   "lat": 35.206592,
-   "lon": -85.258184,
+   "lat": 35.198874,
+   "lon": -85.253711,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -115,7 +271,7 @@
   {
    "id": "9827405",
    "sequence": "2026-11-34304",
-   "type": "Child Locked in Vehicle",
+   "type": "Backup Fire Unit",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-24T16:46:26Z",
@@ -131,38 +287,12 @@
    "cross": "KENSINGTON DR/NORCROSS RD",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.114383,
    "lon": -85.261715,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827398",
-   "sequence": "2026-11-34300",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-24T16:44:49Z",
-   "created": "2026-11-24T16:44:49Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.060281,
-   "lon": -85.070921,
-   "units": 1,
-   "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9827392",
@@ -191,63 +321,11 @@
    "notable": false
   },
   {
-   "id": "9827381",
-   "sequence": "2026-11-34287",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:34:32Z",
-   "created": "2026-11-24T16:31:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1200 BAILEY AVE",
-   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.037309,
-   "lon": -85.286389,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827382",
-   "sequence": "2026-11-34288",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:39:33Z",
-   "created": "2026-11-24T16:31:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1200 BAILEY AVE",
-   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "202",
-   "priority": "PRI 1",
-   "lat": 35.037309,
-   "lon": -85.286389,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827380",
    "sequence": "2026-11-34286",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:44:52Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T16:53:07Z",
    "created": "2026-11-24T16:31:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +532,8 @@
    "id": "9827330",
    "sequence": "2026-11-34260",
    "type": "Abandoned Auto",
-   "status": "Stacked",
-   "status_at": "2026-11-24T16:20:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T16:19:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,7 +551,7 @@
    "lat": 35.033106,
    "lon": -85.278458,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -555,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9827301",
-   "sequence": "2026-11-34244",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T16:09:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2413 QUAIL NEST CIR",
-   "cross": "DOVE LN/GROUSE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.024803,
-   "lon": -85.096651,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827279",
    "sequence": "2026-11-34231",
    "type": "EMS CALL",
@@ -654,32 +706,6 @@
    "priority": "PRI 3",
    "lat": 35.243205,
    "lon": -85.151456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827252",
-   "sequence": "2026-11-34214",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:20:56Z",
-   "created": "2026-11-24T15:50:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3304 DODSON AVE",
-   "cross": "WISDOM ST/ALLIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.075539,
-   "lon": -85.248088,
    "units": 1,
    "stacked": false,
    "notable": false
