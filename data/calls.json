@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T11:20:39+00:00",
+ "updated": "2026-11-24T11:25:39+00:00",
  "counts": {
-  "year": 372037,
-  "upstream_day": 96,
-  "day": 138,
+  "year": 372045,
+  "upstream_day": 104,
+  "day": 139,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9826777",
+   "sequence": "2026-11-33867",
+   "type": "Narcotics Violation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T11:20:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826778",
    "sequence": "2026-11-33865",
@@ -38,8 +64,8 @@
    "id": "9826775",
    "sequence": "2026-11-33866",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:19:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T11:19:38Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -49,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "9314 SMITH CEMETERY CIR",
+   "address": "9312 SMITH CEMETERY CIR",
    "cross": "W RIDGE TRAIL RD/BIG DOG PL",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 4",
    "priority": "PRI 3",
-   "lat": 35.22282,
-   "lon": -85.165156,
+   "lat": 35.222855,
+   "lon": -85.164813,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +212,6 @@
    "priority": "PRI 2",
    "lat": 35.101868,
    "lon": -85.05341,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826762",
-   "sequence": "2026-11-33854",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:14:30Z",
-   "created": "2026-11-24T11:07:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 E 11TH ST",
-   "cross": "GEORGIA AVE/COLUMBIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.043922,
-   "lon": -85.309345,
    "units": 1,
    "stacked": false,
    "notable": false
