@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T09:00:43+00:00",
+ "updated": "2026-11-24T09:05:38+00:00",
  "counts": {
-  "year": 372002,
-  "upstream_day": 61,
+  "year": 372006,
+  "upstream_day": 65,
   "day": 84,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
   {
    "id": "9826706",
@@ -38,8 +38,8 @@
    "id": "9826707",
    "sequence": "2026-11-33812",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T09:00:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T09:00:06Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9826705",
    "sequence": "2026-11-33810",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T09:00:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T08:59:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -111,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826703",
-   "sequence": "2026-11-33808",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T08:55:01Z",
-   "created": "2026-11-24T08:51:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "511 BROAD ST",
-   "cross": "W 5TH ST/W 6TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.050473,
-   "lon": -85.310886,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826700",
@@ -194,8 +168,8 @@
    "id": "9826697",
    "sequence": "2026-11-33802",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T09:03:30Z",
    "created": "2026-11-24T08:33:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
