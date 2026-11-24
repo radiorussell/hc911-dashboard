@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T04:35:38+00:00",
+ "updated": "2026-11-24T04:40:38+00:00",
  "counts": {
   "year": 371930,
   "upstream_day": 0,
   "day": 1516,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 16,
  "incidents": [
   {
    "id": "9826598",
@@ -39,7 +39,7 @@
    "sequence": "2026-11-33714",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T04:38:58Z",
    "created": "2026-11-24T04:30:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9826589",
    "sequence": "2026-11-33713",
    "type": "Sex Offense",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:39:55Z",
    "created": "2026-11-24T04:27:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9826588",
-   "sequence": "2026-11-33707",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:25:01Z",
-   "created": "2026-11-24T04:25:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "413 SPRING ST",
-   "cross": "HARPER ST/DAVENPORT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 1",
-   "lat": 35.067898,
-   "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826587",
    "sequence": "2026-11-33709",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:37:51Z",
    "created": "2026-11-24T04:24:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +168,8 @@
    "id": "9826583",
    "sequence": "2026-11-33706",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:30:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T04:37:12Z",
    "created": "2026-11-24T04:24:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -231,13 +205,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2 - 8 EXIT 4A ON RAMP SB",
-   "cross": "HAMILTON PLACE BLVD/INTERSTATE 75 SB",
+   "address": "2000 HAMILTON PLACE BLVD",
+   "cross": "FRANKS RD/EXIT 4A OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C7",
    "priority": "PRI 3",
-   "lat": 35.035576,
-   "lon": -85.162055,
+   "lat": 35.032053,
+   "lon": -85.16626,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.205913,
    "lon": -85.196466,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826519",
-   "sequence": "2026-11-33645",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T04:12:55Z",
-   "created": "2026-11-24T03:12:42Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7790 SAWYER PIKE",
-   "cross": "SAWYER CEMETERY RD/ROBERTS MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 08 HC B",
-   "priority": "PRI 1",
-   "lat": 35.216154,
-   "lon": -85.272876,
    "units": 1,
    "stacked": false,
    "notable": false
