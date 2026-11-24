@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T08:30:38+00:00",
+ "updated": "2026-11-24T08:35:38+00:00",
  "counts": {
-  "year": 371997,
-  "upstream_day": 56,
-  "day": 72,
+  "year": 371999,
+  "upstream_day": 58,
+  "day": 75,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9826698",
+   "sequence": "2026-11-33803",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T08:33:52Z",
+   "created": "2026-11-24T08:33:52Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1810 JOHN ROSS RD",
+   "cross": "CLAYTON AVE EXT/S CREST RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 34.987277,
+   "lon": -85.272019,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826697",
+   "sequence": "2026-11-33802",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T08:33:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1810 JOHN ROSS RD",
+   "cross": "CLAYTON AVE EXT/S CREST RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.987277,
+   "lon": -85.272019,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826695",
    "sequence": "2026-11-33800",
