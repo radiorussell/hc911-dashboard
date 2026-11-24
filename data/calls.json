@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T15:15:38+00:00",
+ "updated": "2026-11-24T15:20:38+00:00",
  "counts": {
   "year": 372258,
   "upstream_day": 317,
-  "day": 431,
+  "day": 436,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9827189",
+   "sequence": "2026-11-34164",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:19:35Z",
+   "created": "2026-11-24T15:19:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "280 CROLL CT",
+   "cross": "W 33RD ST/CHANDLER PL",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 0",
+   "lat": 35.011526,
+   "lon": -85.310773,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827184",
+   "sequence": "2026-11-34163",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:19:19Z",
+   "created": "2026-11-24T15:18:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5758 TAGGART DR",
+   "cross": "FOREST RIDGE DR/MOODY SAWYER RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.158792,
+   "lon": -85.252629,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827179",
    "sequence": "2026-11-34159",
@@ -38,8 +90,8 @@
    "id": "9827175",
    "sequence": "2026-11-34158",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:20:29Z",
    "created": "2026-11-24T15:13:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -87,11 +139,37 @@
    "notable": false
   },
   {
+   "id": "9827177",
+   "sequence": "2026-11-34157",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:18:29Z",
+   "created": "2026-11-24T15:13:14Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1043 FLOYD DR",
+   "cross": "MCCALL RD/HOLIDAY DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.992866,
+   "lon": -85.212622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9827171",
    "sequence": "2026-11-34155",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:16:46Z",
    "created": "2026-11-24T15:11:36Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9827159",
    "sequence": "2026-11-34145",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:19:30Z",
    "created": "2026-11-24T15:07:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9827153",
    "sequence": "2026-11-34140",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:18:43Z",
    "created": "2026-11-24T15:04:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,63 +321,11 @@
    "notable": false
   },
   {
-   "id": "9827150",
-   "sequence": "2026-11-34135",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:03:48Z",
-   "created": "2026-11-24T15:03:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MILLER DR / SPRING CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.005845,
-   "lon": -85.219205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827151",
-   "sequence": "2026-11-34136",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:03:48Z",
-   "created": "2026-11-24T15:03:48Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "MILLER DR / SPRING CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 1",
-   "lat": 35.005845,
-   "lon": -85.219205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827147",
    "sequence": "2026-11-34134",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:09:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T15:18:58Z",
    "created": "2026-11-24T15:03:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9827070",
-   "sequence": "2026-11-34077",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:22:51Z",
-   "created": "2026-11-24T14:22:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "515 COUNCIL FIRE DR",
-   "cross": "EAGLE MERE RD/JULIAN RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 34.988801,
-   "lon": -85.162373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827067",
    "sequence": "2026-11-34076",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:41:48Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T15:17:50Z",
    "created": "2026-11-24T14:22:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 34.988801,
    "lon": -85.162373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827044",
-   "sequence": "2026-11-34061",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:17:37Z",
-   "created": "2026-11-24T14:09:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4862 BONNY OAKS DR",
-   "cross": "ELWOOD LN/JERSEY PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.07316,
-   "lon": -85.19165,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -576,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.057531,
    "lon": -85.230112,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826977",
-   "sequence": "2026-11-34020",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-24T13:44:54Z",
-   "created": "2026-11-24T13:37:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4924 JEFFERY LN",
-   "cross": "E 49TH ST/WOODLAND VIEW CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 1",
-   "lat": 34.989949,
-   "lon": -85.305673,
    "units": 1,
    "stacked": false,
    "notable": false
