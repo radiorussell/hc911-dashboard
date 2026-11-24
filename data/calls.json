@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-24T01:50:37+00:00",
+ "updated": "2026-11-24T01:55:44+00:00",
  "counts": {
-  "year": 371805,
+  "year": 371819,
   "upstream_day": 0,
-  "day": 1364,
+  "day": 1375,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9826437",
+   "sequence": "2026-11-33573",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:55:13Z",
+   "created": "2026-11-24T01:55:13Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7506 MOSES RD",
+   "cross": "GATES RD/KENZIE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.189866,
+   "lon": -85.21643,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826435",
+   "sequence": "2026-11-33574",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:55:16Z",
+   "created": "2026-11-24T01:54:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "430 ROBERTS ST",
+   "cross": "ROBERTS PL/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 2",
+   "lat": 35.042817,
+   "lon": -85.273395,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826432",
+   "sequence": "2026-11-33568",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:53:21Z",
+   "created": "2026-11-24T01:53:21Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8331 HARVEST OAK LN",
+   "cross": "BENT OAK RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.043407,
+   "lon": -85.10735,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826428",
+   "sequence": "2026-11-33569",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:53:25Z",
+   "created": "2026-11-24T01:52:27Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10642 HIGH POINT RD",
+   "cross": "No Cross Street/CAMP RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.014653,
+   "lon": -85.060127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826429",
+   "sequence": "2026-11-33566",
+   "type": "Alarm Holdup",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:52:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5958 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.090553,
+   "lon": -85.064316,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826427",
+   "sequence": "2026-11-33565",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:51:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826425",
+   "sequence": "2026-11-33564",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:50:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "430 ROBERTS ST",
+   "cross": "ROBERTS PL/CLEVELAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.042817,
+   "lon": -85.273395,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826422",
    "sequence": "2026-11-33563",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:49:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T01:48:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +205,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIXSON PIKE / CASSANDRA SMITH RD",
-   "cross": "",
+   "address": "6001 HIXSON PIKE",
+   "cross": "CASSANDRA SMITH RD/RIVOLI DR",
    "city": "CHATTANOOGA",
-   "zone": "A2",
+   "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.149127,
-   "lon": -85.205491,
+   "lat": 35.149962,
+   "lon": -85.204486,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +246,8 @@
    "id": "9826416",
    "sequence": "2026-11-33558",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:53:06Z",
    "created": "2026-11-24T01:45:03Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -116,8 +298,8 @@
    "id": "9826406",
    "sequence": "2026-11-33554",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:53:39Z",
    "created": "2026-11-24T01:41:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.041274,
    "lon": -85.167206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826409",
-   "sequence": "2026-11-33550",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:41:12Z",
-   "created": "2026-11-24T01:41:12Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8446 SNOW HILL RD",
-   "cross": "TWISTING CREEK LN/GREENWOOD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.1644,
-   "lon": -85.05923,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +376,8 @@
    "id": "9826405",
    "sequence": "2026-11-33553",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:52:42Z",
    "created": "2026-11-24T01:40:55Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -607,32 +763,6 @@
    "notable": false
   },
   {
-   "id": "9826312",
-   "sequence": "2026-11-33473",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T00:56:09Z",
-   "created": "2026-11-24T00:30:31Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1221 BIRMINGHAM HWY",
-   "cross": "WAUHATCHIE PIKE/HIGHWAY 11 N",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 1 F",
-   "priority": "PRI 3",
-   "lat": 34.986589,
-   "lon": -85.39286,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826294",
    "sequence": "2026-11-33457",
    "type": "Street Status",
@@ -740,8 +870,8 @@
    "id": "9826106",
    "sequence": "2026-11-33316",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:45:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:40:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
