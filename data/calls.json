@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T04:10:38+00:00",
+ "updated": "2026-11-24T04:15:37+00:00",
  "counts": {
-  "year": 371913,
+  "year": 371916,
   "upstream_day": 0,
   "day": 1497,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 14,
  "incidents": [
   {
    "id": "9826572",
@@ -64,8 +64,8 @@
    "id": "9826571",
    "sequence": "2026-11-33693",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:10:01Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:12:43Z",
    "created": "2026-11-24T04:09:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9826570",
    "sequence": "2026-11-33694",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:10:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T04:09:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -165,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9826550",
-   "sequence": "2026-11-33677",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:00:41Z",
-   "created": "2026-11-24T03:49:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3931 DAHLIA ST",
-   "cross": "CAMELLIA DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1504",
-   "priority": "PRI 3",
-   "lat": 35.059487,
-   "lon": -85.210986,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9826536",
    "sequence": "2026-11-33663",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T03:41:26Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T04:11:11Z",
    "created": "2026-11-24T03:32:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +194,8 @@
    "id": "9826519",
    "sequence": "2026-11-33645",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T03:56:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T04:12:55Z",
    "created": "2026-11-24T03:12:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.216154,
    "lon": -85.272876,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826408",
-   "sequence": "2026-11-33549",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T02:36:57Z",
-   "created": "2026-11-24T01:41:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8446 SNOW HILL RD",
-   "cross": "TWISTING CREEK LN/GREENWOOD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.1644,
-   "lon": -85.05923,
    "units": 1,
    "stacked": false,
    "notable": false
