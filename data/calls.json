@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T17:40:43+00:00",
+ "updated": "2026-11-24T17:45:39+00:00",
  "counts": {
-  "year": 372429,
-  "upstream_day": 488,
-  "day": 656,
+  "year": 372435,
+  "upstream_day": 494,
+  "day": 665,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827560",
+   "sequence": "2026-11-34392",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:43:19Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5512 JONQUIL LN",
+   "cross": "No Cross Street/GINKGO RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 3",
+   "lat": 35.06942,
+   "lon": -85.0464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827561",
+   "sequence": "2026-11-34393",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:43:19Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5512 JONQUIL LN",
+   "cross": "No Cross Street/GINKGO RD",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 3",
+   "lat": 35.06942,
+   "lon": -85.0464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827559",
+   "sequence": "2026-11-34391",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:42:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5512 JONQUIL LN",
+   "cross": "No Cross Street/GINKGO RD",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.06942,
+   "lon": -85.0464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827548",
+   "sequence": "2026-11-34389",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:40:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "570 - 708 HIGHWAY 153 NB",
+   "cross": "EXIT AMNICOLA HWY W ON RAMP NB/EXIT LAKE RESORT DR OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "A3 B",
+   "priority": "PRI 3",
+   "lat": 35.102219,
+   "lon": -85.229033,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827543",
    "sequence": "2026-11-34384",
@@ -64,8 +168,8 @@
    "id": "9827529",
    "sequence": "2026-11-34378",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:43:24Z",
    "created": "2026-11-24T17:31:04Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9827513",
    "sequence": "2026-11-34374",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:43:03Z",
    "created": "2026-11-24T17:26:07Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -168,26 +272,26 @@
    "id": "9827503",
    "sequence": "2026-11-34364",
    "type": "MVC No Injuries",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-24T17:23:48Z",
    "created": "2026-11-24T17:23:35Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "LEE HWY / MOUNTAIN VIEW RD",
-   "cross": "",
+   "address": "8935 LEE HWY",
+   "cross": "HUNTER RD/EXIT 11 E ON RAMP SB",
    "city": "CHATTANOOGA",
-   "zone": "EAST 8 A",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.087706,
-   "lon": -85.071057,
+   "lat": 35.087626,
+   "lon": -85.070053,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -399,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9827483",
-   "sequence": "2026-11-34350",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-24T17:15:24Z",
-   "created": "2026-11-24T17:15:24Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827480",
    "sequence": "2026-11-34351",
    "type": "Theft",
@@ -558,8 +636,8 @@
    "id": "9827439",
    "sequence": "2026-11-34328",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T17:23:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:44:55Z",
    "created": "2026-11-24T17:02:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -654,58 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.152001,
    "lon": -85.226459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827406",
-   "sequence": "2026-11-34306",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:58:54Z",
-   "created": "2026-11-24T16:47:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "898 ROBERTS MILL RD",
-   "cross": "ROCKY LEDGE DR/MOUNTAIN LAUREL TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 A",
-   "priority": "PRI 3",
-   "lat": 35.206379,
-   "lon": -85.258558,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827380",
-   "sequence": "2026-11-34286",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T17:05:06Z",
-   "created": "2026-11-24T16:31:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1200 BAILEY AVE",
-   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.037309,
-   "lon": -85.286389,
    "units": 1,
    "stacked": false,
    "notable": false
