@@ -1,20 +1,72 @@
 {
- "updated": "2026-11-24T21:35:37+00:00",
+ "updated": "2026-11-24T21:40:37+00:00",
  "counts": {
   "year": 372700,
   "upstream_day": 759,
-  "day": 1004,
+  "day": 1010,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 30,
  "incidents": [
   {
-   "id": "9828059",
-   "sequence": "2026-11-34732",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:35:31Z",
-   "created": "2026-11-24T21:35:25Z",
+   "id": "9828063",
+   "sequence": "2026-11-34737",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:40:08Z",
+   "created": "2026-11-24T21:36:09Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8107 STANDIFER GAP RD",
+   "cross": "BILL REED RD/AUTUMN CHASE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 1",
+   "lat": 35.042904,
+   "lon": -85.114331,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828062",
+   "sequence": "2026-11-34736",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:36:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8107 STANDIFER GAP RD",
+   "cross": "BILL REED RD/AUTUMN CHASE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.042904,
+   "lon": -85.114331,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828060",
+   "sequence": "2026-11-34734",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:35:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
     "Hamilton Co SO"
@@ -23,13 +75,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "8107 STANDIFER GAP RD",
-   "cross": "BILL REED RD/AUTUMN CHASE DR",
+   "address": "8255 STANDIFER GAP RD",
+   "cross": "BANKS RD/MCKEE VALLEY TRL",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 2 A",
-   "priority": "PRI 1",
-   "lat": 35.042904,
-   "lon": -85.114331,
+   "priority": "PRI 3",
+   "lat": 35.03524,
+   "lon": -85.107946,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828058",
+   "sequence": "2026-11-34733",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:35:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1212 POPLAR ST",
+   "cross": "POPLAR STREET CT/W 13TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 4",
+   "lat": 35.042008,
+   "lon": -85.315349,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828056",
+   "sequence": "2026-11-34738",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:32:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18151 - 18249 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.0189,
+   "lon": -85.267914,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -89,9 +193,9 @@
   {
    "id": "9828052",
    "sequence": "2026-11-34730",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:32:02Z",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T21:31:22Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -105,7 +209,7 @@
    "cross": "No Cross Street/HARVEST RUN DR",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 5",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.126138,
    "lon": -85.135396,
    "units": 1,
@@ -246,8 +350,8 @@
    "id": "9828033",
    "sequence": "2026-11-34713",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:36:38Z",
    "created": "2026-11-24T21:18:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.062053,
    "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828034",
-   "sequence": "2026-11-34712",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T21:18:18Z",
-   "created": "2026-11-24T21:18:18Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11400 HIGHWAY 58",
-   "cross": "GAMBLE RD/SPOTTED OWL LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 3",
-   "lat": 35.261594,
-   "lon": -84.993233,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9828002",
-   "sequence": "2026-11-34692",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:01:24Z",
-   "created": "2026-11-24T21:01:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2423 CONE FLOWER TRL",
-   "cross": "No Cross Street/MIN TOM DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.042125,
-   "lon": -85.140153,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828003",
-   "sequence": "2026-11-34693",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:01:24Z",
-   "created": "2026-11-24T21:01:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2423 CONE FLOWER TRL",
-   "cross": "No Cross Street/MIN TOM DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.042125,
-   "lon": -85.140153,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827999",
    "sequence": "2026-11-34691",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:11:59Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T21:35:50Z",
    "created": "2026-11-24T21:01:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -503,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9828000",
-   "sequence": "2026-11-34689",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:01:00Z",
-   "created": "2026-11-24T21:01:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1304 S LYERLY ST",
-   "cross": "E 13TH ST/E 14TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 3",
-   "lat": 35.025305,
-   "lon": -85.273453,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827995",
    "sequence": "2026-11-34688",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:06:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T21:37:40Z",
    "created": "2026-11-24T20:59:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +680,6 @@
    "priority": "PRI 2",
    "lat": 35.005624,
    "lon": -85.331097,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827853",
-   "sequence": "2026-11-34593",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-24T20:10:48Z",
-   "created": "2026-11-24T19:52:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "205 MANUFACTURERS RD",
-   "cross": "VELMA ST/HWY 27 NB @ MANUFACTURERS RD - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.063154,
-   "lon": -85.313005,
    "units": 1,
    "stacked": false,
    "notable": false
