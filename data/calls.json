@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T15:40:41+00:00",
+ "updated": "2026-11-24T15:45:40+00:00",
  "counts": {
-  "year": 372282,
-  "upstream_day": 341,
-  "day": 471,
+  "year": 372296,
+  "upstream_day": 355,
+  "day": 480,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9827241",
+   "sequence": "2026-11-34208",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:45:11Z",
+   "created": "2026-11-24T15:44:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4613 MAYWOOD LN",
+   "cross": "FAIRBLUFF LN/RIGHTON LN",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.079855,
+   "lon": -85.195542,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827246",
+   "sequence": "2026-11-34207",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:44:24Z",
+   "created": "2026-11-24T15:44:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7504 BORISS DR",
+   "cross": "PLANTATION DR/BISHOP DR",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 2",
+   "lat": 35.066304,
+   "lon": -85.167825,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827243",
+   "sequence": "2026-11-34205",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:44:14Z",
+   "created": "2026-11-24T15:43:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OAK ST / HOUSTON ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 1",
+   "lat": 35.047813,
+   "lon": -85.303654,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827242",
+   "sequence": "2026-11-34206",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:43:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7504 BORISS DR",
+   "cross": "PLANTATION DR/BISHOP DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.066304,
+   "lon": -85.167825,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827231",
    "sequence": "2026-11-34199",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:38:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T15:35:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9827224",
    "sequence": "2026-11-34191",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:43:20Z",
    "created": "2026-11-24T15:32:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.285989,
    "lon": -85.129263,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827221",
-   "sequence": "2026-11-34188",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:32:18Z",
-   "created": "2026-11-24T15:31:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6108 VANCE RD",
-   "cross": "VANCE CIR/AIRPARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.035731,
-   "lon": -85.189412,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -503,37 +581,11 @@
    "notable": false
   },
   {
-   "id": "9827156",
-   "sequence": "2026-11-34141",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:05:18Z",
-   "created": "2026-11-24T15:05:18Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7809 SAFARI DR",
-   "cross": "BROCK RD/MEGAN CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 2",
-   "lat": 35.050666,
-   "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827153",
    "sequence": "2026-11-34140",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:18:43Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T15:41:48Z",
    "created": "2026-11-24T15:04:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +602,6 @@
    "priority": "PRI 1",
    "lat": 35.050666,
    "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827147",
-   "sequence": "2026-11-34134",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T15:23:04Z",
-   "created": "2026-11-24T15:03:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "MILLER DR / SPRING CREEK RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.005845,
-   "lon": -85.219205,
    "units": 1,
    "stacked": false,
    "notable": false
