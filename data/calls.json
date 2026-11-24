@@ -1,20 +1,124 @@
 {
- "updated": "2026-11-24T12:35:38+00:00",
+ "updated": "2026-11-24T12:40:37+00:00",
  "counts": {
   "year": 372097,
   "upstream_day": 156,
-  "day": 205,
+  "day": 229,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 33,
  "incidents": [
   {
-   "id": "9826865",
-   "sequence": "2026-11-33932",
+   "id": "9826896",
+   "sequence": "2026-11-33955",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T12:24:19Z",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:39:48Z",
+   "created": "2026-11-24T12:39:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1720 ALBERT LN",
+   "cross": "CLOVER LN/BROADVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.122642,
+   "lon": -85.244381,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826894",
+   "sequence": "2026-11-33957",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:39:57Z",
+   "created": "2026-11-24T12:39:24Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WIMBERLY LN / RINGGOLD RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.998768,
+   "lon": -85.255335,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826893",
+   "sequence": "2026-11-33954",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:39:02Z",
+   "created": "2026-11-24T12:39:02Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1720 ALBERT LN",
+   "cross": "CLOVER LN/BROADVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "1903",
+   "priority": "PRI 3",
+   "lat": 35.122642,
+   "lon": -85.244381,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826892",
+   "sequence": "2026-11-33952",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:38:44Z",
+   "created": "2026-11-24T12:38:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "900 E 11TH ST",
+   "cross": "PARK AVE/FAIRVIEW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.03844,
+   "lon": -85.295866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826891",
+   "sequence": "2026-11-33953",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:39:02Z",
+   "created": "2026-11-24T12:38:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -23,13 +127,221 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "5756 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
+   "address": "1720 ALBERT LN",
+   "cross": "CLOVER LN/BROADVIEW DR",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 04 CH A",
    "priority": "PRI 1",
-   "lat": 35.157006,
-   "lon": -85.247732,
+   "lat": 35.122642,
+   "lon": -85.244381,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826888",
+   "sequence": "2026-11-33948",
+   "type": "MVC Delayed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:37:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "NORTHPOINT BLVD / HIXSON PIKE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.135647,
+   "lon": -85.239317,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826884",
+   "sequence": "2026-11-33945",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:36:31Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3525 CAMP RD",
+   "cross": "HIGH POINT RD/UNIVERSITY DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 3",
+   "lat": 35.017647,
+   "lon": -85.061407,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826885",
+   "sequence": "2026-11-33946",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:36:31Z",
+   "created": "2026-11-24T12:36:31Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3525 CAMP RD",
+   "cross": "HIGH POINT RD/UNIVERSITY DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 3 CO A",
+   "priority": "PRI 2",
+   "lat": 35.017647,
+   "lon": -85.061407,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826882",
+   "sequence": "2026-11-33941",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:36:27Z",
+   "created": "2026-11-24T12:36:27Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 1",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826883",
+   "sequence": "2026-11-33942",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:36:27Z",
+   "created": "2026-11-24T12:36:27Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 1",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826875",
+   "sequence": "2026-11-33944",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:36:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3525 CAMP RD",
+   "cross": "HIGH POINT RD/UNIVERSITY DR",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.017647,
+   "lon": -85.061407,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826879",
+   "sequence": "2026-11-33940",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:35:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826878",
+   "sequence": "2026-11-33943",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:35:40Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8226 DOUBLE EAGLE CT",
+   "cross": "SNOW HILL RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.143198,
+   "lon": -85.061677,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -53,6 +365,32 @@
    "cross": "CARMACK RD/GWYN RD",
    "city": "CHATTANOOGA",
    "zone": "2202",
+   "priority": "PRI 1",
+   "lat": 35.157006,
+   "lon": -85.247732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826865",
+   "sequence": "2026-11-33932",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:40:19Z",
+   "created": "2026-11-24T12:24:19Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5756 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
    "priority": "PRI 1",
    "lat": 35.157006,
    "lon": -85.247732,
@@ -108,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.084963,
    "lon": -85.133251,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826859",
-   "sequence": "2026-11-33927",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-24T12:17:04Z",
-   "created": "2026-11-24T12:17:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3000 E 34TH ST",
-   "cross": "13TH AVE/14TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
-   "lat": 35.000646,
-   "lon": -85.277341,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -399,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9826813",
-   "sequence": "2026-11-33892",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T12:01:23Z",
-   "created": "2026-11-24T11:48:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1110 JUDD RD",
-   "cross": "AMNICOLA HWY/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 1",
-   "lat": 35.08753,
-   "lon": -85.266154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826811",
    "sequence": "2026-11-33890",
    "type": "EMS CALL",
@@ -524,32 +810,6 @@
    "priority": "PRI 4",
    "lat": 35.063196,
    "lon": -85.06418,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826789",
-   "sequence": "2026-11-33874",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T12:18:43Z",
-   "created": "2026-11-24T11:37:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
