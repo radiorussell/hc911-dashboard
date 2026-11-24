@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T22:50:38+00:00",
+ "updated": "2026-11-24T22:55:37+00:00",
  "counts": {
-  "year": 372773,
-  "upstream_day": 831,
-  "day": 1116,
+  "year": 372783,
+  "upstream_day": 841,
+  "day": 1118,
   "day_basis": "midnight"
  },
- "raw_rows": 50,
+ "raw_rows": 46,
  "incidents": [
+  {
+   "id": "9828197",
+   "sequence": "2026-11-34846",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:50:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5764 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.152975,
+   "lon": -85.24562,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828195",
    "sequence": "2026-11-34844",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:54:22Z",
    "created": "2026-11-24T22:49:36Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9828191",
    "sequence": "2026-11-34842",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:55:20Z",
    "created": "2026-11-24T22:48:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9828190",
    "sequence": "2026-11-34841",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:53:00Z",
    "created": "2026-11-24T22:48:22Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -191,58 +217,6 @@
    "notable": false
   },
   {
-   "id": "9828183",
-   "sequence": "2026-11-34834",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T22:43:20Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "13902 MOUNT ANNIE CHURCH RD",
-   "cross": "MOUNT TABOR RD/MOORE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 3",
-   "lat": 35.332549,
-   "lon": -85.080413,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828180",
-   "sequence": "2026-11-34833",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T22:42:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "13902 MOUNT ANNIE CHURCH RD",
-   "cross": "MOUNT TABOR RD/MOORE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 2",
-   "lat": 35.332549,
-   "lon": -85.080413,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828178",
    "sequence": "2026-11-34828",
    "type": "EMS CALL",
@@ -298,8 +272,8 @@
    "id": "9828176",
    "sequence": "2026-11-34827",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:53:53Z",
    "created": "2026-11-24T22:40:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +376,8 @@
    "id": "9828171",
    "sequence": "2026-11-34822",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:52:14Z",
    "created": "2026-11-24T22:37:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -662,8 +636,8 @@
    "id": "9828156",
    "sequence": "2026-11-34809",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:51:58Z",
    "created": "2026-11-24T22:31:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -735,32 +709,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828150",
-   "sequence": "2026-11-34803",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:39:09Z",
-   "created": "2026-11-24T22:24:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7304 RIDGE OAK LN",
-   "cross": "GOLD POINT CIR S/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 1",
-   "lat": 35.162224,
-   "lon": -85.171812,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828145",
@@ -948,8 +896,8 @@
    "id": "9828113",
    "sequence": "2026-11-34775",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:35:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T22:51:31Z",
    "created": "2026-11-24T22:02:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1023,32 +971,6 @@
    "notable": false
   },
   {
-   "id": "9828085",
-   "sequence": "2026-11-34753",
-   "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:48:33Z",
-   "created": "2026-11-24T21:44:59Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9001 - 9099 HIXSON PIKE",
-   "cross": "DALTON LN/CHIP DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.204477,
-   "lon": -85.145726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828080",
    "sequence": "2026-11-34749",
    "type": "MVC Entrapment",
@@ -1098,32 +1020,6 @@
    "lon": -85.319777,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9828060",
-   "sequence": "2026-11-34734",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T21:49:56Z",
-   "created": "2026-11-24T21:35:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8249 STANDIFER GAP RD",
-   "cross": "CLIPPER DR/BANKS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.03636,
-   "lon": -85.107885,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
