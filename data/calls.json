@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T14:35:39+00:00",
+ "updated": "2026-11-24T14:40:42+00:00",
  "counts": {
   "year": 372217,
   "upstream_day": 276,
-  "day": 367,
+  "day": 371,
   "day_basis": "midnight"
  },
  "raw_rows": 25,
  "incidents": [
   {
+   "id": "9827101",
+   "sequence": "2026-11-34099",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:40:30Z",
+   "created": "2026-11-24T14:39:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3117 PARKER LN",
+   "cross": "No Cross Street/BROWNS FERRY RD",
+   "city": "CHATTANOOGA",
+   "zone": "2001",
+   "priority": "PRI 3",
+   "lat": 35.02585,
+   "lon": -85.362942,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827100",
+   "sequence": "2026-11-34098",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:38:59Z",
+   "created": "2026-11-24T14:38:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1410 - 1458 MARKET ST",
+   "cross": "CHOO CHOO AVE/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 2",
+   "lat": 35.037495,
+   "lon": -85.307397,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827099",
+   "sequence": "2026-11-34097",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:36:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "40 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.993932,
+   "lon": -85.317238,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827098",
+   "sequence": "2026-11-34096",
+   "type": "Alarm Holdup",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:36:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1810 MCCALLIE AVE",
+   "cross": "S HAWTHORNE ST/S ORCHARD KNOB AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.035809,
+   "lon": -85.275311,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9827094",
    "sequence": "2026-11-34095",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:35:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:34:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.055564,
    "lon": -85.13852,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827089",
-   "sequence": "2026-11-34090",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:30:58Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "205 ISLAND AVE",
-   "cross": "STIVERS AVE/STERLING AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 1",
-   "lat": 35.061719,
-   "lon": -85.298994,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9827035",
-   "sequence": "2026-11-34053",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:06:25Z",
-   "created": "2026-11-24T14:06:25Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 3",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827031",
    "sequence": "2026-11-34051",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:12:27Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T14:40:11Z",
    "created": "2026-11-24T14:06:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9827015",
-   "sequence": "2026-11-34043",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:59:22Z",
-   "created": "2026-11-24T13:59:22Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8627 BOXWOOD LN",
-   "cross": "MONTLAKE RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.228084,
-   "lon": -85.225083,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827014",
    "sequence": "2026-11-34042",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:16:56Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T14:37:10Z",
    "created": "2026-11-24T13:59:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +558,8 @@
    "id": "9826991",
    "sequence": "2026-11-34031",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T13:59:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T14:38:07Z",
    "created": "2026-11-24T13:47:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -576,32 +602,6 @@
    "priority": "PRI 1",
    "lat": 34.989949,
    "lon": -85.305673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826960",
-   "sequence": "2026-11-34006",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T14:23:00Z",
-   "created": "2026-11-24T13:22:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "173 INTEGRA VISTAS DR",
-   "cross": "CHAPEL HL/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.17818,
-   "lon": -85.242689,
    "units": 1,
    "stacked": false,
    "notable": false
