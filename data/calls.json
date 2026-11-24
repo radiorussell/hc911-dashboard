@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T08:35:38+00:00",
+ "updated": "2026-11-24T08:40:38+00:00",
  "counts": {
   "year": 371999,
   "upstream_day": 58,
-  "day": 75,
+  "day": 78,
   "day_basis": "midnight"
  },
  "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9826701",
+   "sequence": "2026-11-33806",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T08:38:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18120 - 18249 INTERSTATE 24 EB",
+   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 2",
+   "lat": 35.015374,
+   "lon": -85.27694,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826700",
+   "sequence": "2026-11-33805",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-24T08:38:34Z",
+   "created": "2026-11-24T08:38:06Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "215 THOMAS ST",
+   "cross": "SPRINGFIELD RD/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.228293,
+   "lon": -85.221657,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826698",
    "sequence": "2026-11-33803",
@@ -90,8 +142,8 @@
    "id": "9826694",
    "sequence": "2026-11-33799",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T08:38:43Z",
    "created": "2026-11-24T08:25:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.107025,
    "lon": -85.157883,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826688",
-   "sequence": "2026-11-33793",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T08:22:43Z",
-   "created": "2026-11-24T08:04:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "303 BELVOIR AVE",
-   "cross": "ALBEMARLE AVE/MAYFAIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.01421,
-   "lon": -85.24234,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.062172,
    "lon": -85.30649,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826673",
-   "sequence": "2026-11-33780",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T08:02:57Z",
-   "created": "2026-11-24T07:00:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1517 DALLAS LAKE RD",
-   "cross": "HALE RD/WOMACK AVE",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.211689,
-   "lon": -85.164863,
    "units": 1,
    "stacked": false,
    "notable": false
