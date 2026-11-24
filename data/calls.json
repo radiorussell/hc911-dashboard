@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-24T20:10:39+00:00",
+ "updated": "2026-11-24T20:15:39+00:00",
  "counts": {
-  "year": 372606,
-  "upstream_day": 665,
-  "day": 885,
+  "year": 372613,
+  "upstream_day": 672,
+  "day": 893,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 34,
  "incidents": [
   {
-   "id": "9827882",
-   "sequence": "2026-11-34613",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T20:10:22Z",
+   "id": "9827890",
+   "sequence": "2026-11-34620",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:14:40Z",
+   "created": "2026-11-24T20:14:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4101 HIGHWOOD DR",
+   "cross": "OAKMONT ST/MICHELIN LN",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.117624,
+   "lon": -85.253355,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827891",
+   "sequence": "2026-11-34621",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:14:40Z",
+   "created": "2026-11-24T20:14:40Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,24 +49,24 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "6300 - 6389 LEE HWY",
-   "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
+   "address": "4101 HIGHWOOD DR",
+   "cross": "OAKMONT ST/MICHELIN LN",
    "city": "CHATTANOOGA",
-   "zone": "801 B",
-   "priority": "PRI 1",
-   "lat": 35.031693,
-   "lon": -85.183427,
+   "zone": "1602 A",
+   "priority": "PRI 3",
+   "lat": 35.117624,
+   "lon": -85.253355,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
-   "id": "9827881",
-   "sequence": "2026-11-34612",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:10:22Z",
-   "created": "2026-11-24T20:10:22Z",
+   "id": "9827889",
+   "sequence": "2026-11-34619",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:14:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -49,13 +75,117 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "6300 - 6389 LEE HWY",
-   "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
+   "address": "4101 HIGHWOOD DR",
+   "cross": "OAKMONT ST/MICHELIN LN",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
+   "zone": "MEDIC 04 CH A",
    "priority": "PRI 1",
-   "lat": 35.031693,
-   "lon": -85.183427,
+   "lat": 35.117624,
+   "lon": -85.253355,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827887",
+   "sequence": "2026-11-34618",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:12:54Z",
+   "created": "2026-11-24T20:12:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2811 FAXON ST",
+   "cross": "E 28TH ST/BROWN ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.012967,
+   "lon": -85.289827,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827885",
+   "sequence": "2026-11-34615",
+   "type": "Brush Fire",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:11:25Z",
+   "created": "2026-11-24T20:11:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7112 DALEFIELD LN",
+   "cross": "EDGEFIELD DR/EDGEFIELD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.054752,
+   "lon": -85.152087,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827883",
+   "sequence": "2026-11-34616",
+   "type": "Shoplifter",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:11:27Z",
+   "created": "2026-11-24T20:11:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827879",
+   "sequence": "2026-11-34614",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:10:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7112 DALEFIELD LN",
+   "cross": "EDGEFIELD DR/EDGEFIELD DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 2",
+   "lat": 35.054752,
+   "lon": -85.152087,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -63,9 +193,9 @@
   {
    "id": "9827877",
    "sequence": "2026-11-34611",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:10:22Z",
+   "type": "MVC No Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:12:55Z",
    "created": "2026-11-24T20:09:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -79,12 +209,12 @@
    "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C4",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.031693,
    "lon": -85.183427,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9827873",
@@ -142,8 +272,8 @@
    "id": "9827863",
    "sequence": "2026-11-34602",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:12:27Z",
    "created": "2026-11-24T19:59:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -247,7 +377,7 @@
    "sequence": "2026-11-34593",
    "type": "MVC Delayed",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T20:10:48Z",
    "created": "2026-11-24T19:52:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -342,32 +472,6 @@
    "priority": "PRI 4",
    "lat": 35.034528,
    "lon": -85.158706,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827844",
-   "sequence": "2026-11-34585",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:50:39Z",
-   "created": "2026-11-24T19:47:17Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3932 DAYTON BLVD",
-   "cross": "MORRISON SPRINGS RD/BANK ST",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.119865,
-   "lon": -85.288945,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -659,37 +763,11 @@
    "notable": false
   },
   {
-   "id": "9827706",
-   "sequence": "2026-11-34500",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T19:47:12Z",
-   "created": "2026-11-24T18:52:03Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5798 HIXSON HOME PL",
-   "cross": "OLD HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.152001,
-   "lon": -85.226459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827702",
    "sequence": "2026-11-34498",
    "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:54:56Z",
+   "status": "Stacked",
+   "status_at": "2026-11-24T18:51:50Z",
    "created": "2026-11-24T18:51:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -707,7 +785,7 @@
    "lat": 35.024463,
    "lon": -85.195677,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -784,32 +862,6 @@
    "priority": "PRI 1",
    "lat": 35.115468,
    "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827598",
-   "sequence": "2026-11-34422",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T18:05:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SHALLOWFORD RD / WILCOX BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.042894,
-   "lon": -85.222378,
    "units": 1,
    "stacked": false,
    "notable": false
