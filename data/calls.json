@@ -1,35 +1,165 @@
 {
- "updated": "2026-11-24T19:50:38+00:00",
+ "updated": "2026-11-24T19:55:38+00:00",
  "counts": {
-  "year": 372583,
-  "upstream_day": 642,
-  "day": 859,
+  "year": 372596,
+  "upstream_day": 655,
+  "day": 870,
   "day_basis": "midnight"
  },
  "raw_rows": 32,
  "incidents": [
   {
-   "id": "9827845",
-   "sequence": "2026-11-34587",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:49:53Z",
-   "created": "2026-11-24T19:47:33Z",
-   "jurisdiction": "Collegedale PD",
+   "id": "9827858",
+   "sequence": "2026-11-34598",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": "2026-11-24T19:54:05Z",
+   "created": "2026-11-24T19:54:05Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Collegedale PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "9316 - 9498 APISON PIKE",
-   "cross": "SWINYAR DR/OOLTEWAH RINGGOLD RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.05953,
-   "lon": -85.06691,
+   "address": "9042 CAREER LN",
+   "cross": "HIGHWAY 58/MAHAN GAP RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 4",
+   "lat": 35.18032,
+   "lon": -85.060129,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827856",
+   "sequence": "2026-11-34596",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T19:53:30Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5808 OLD FORT LN",
+   "cross": "No Cross Street/FORT SUMTER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 4",
+   "lat": 35.110063,
+   "lon": -85.131277,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827853",
+   "sequence": "2026-11-34593",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:52:05Z",
+   "created": "2026-11-24T19:52:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "205 MANUFACTURERS RD",
+   "cross": "VELMA ST/HWY 27 NB @ MANUFACTURERS RD - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.063154,
+   "lon": -85.313005,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827852",
+   "sequence": "2026-11-34592",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:51:57Z",
+   "created": "2026-11-24T19:51:57Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "701 B",
+   "priority": "PRI 2",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827851",
+   "sequence": "2026-11-34591",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T19:51:06Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827849",
+   "sequence": "2026-11-34590",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:51:04Z",
+   "created": "2026-11-24T19:50:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.034528,
+   "lon": -85.158706,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +168,8 @@
    "id": "9827844",
    "sequence": "2026-11-34585",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:50:39Z",
    "created": "2026-11-24T19:47:17Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -113,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9827839",
-   "sequence": "2026-11-34580",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:50:14Z",
-   "created": "2026-11-24T19:45:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4634 SABLE DR",
-   "cross": "FALL CREEK RD/NORTHLAND LN",
-   "city": "CHATTANOOGA",
-   "zone": "603 A",
-   "priority": "PRI 1",
-   "lat": 35.088126,
-   "lon": -85.195038,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827829",
    "sequence": "2026-11-34578",
    "type": "MVC Delayed",
@@ -160,84 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.11993,
    "lon": -85.232293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827826",
-   "sequence": "2026-11-34573",
-   "type": "Elevator Emergency",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:46:34Z",
-   "created": "2026-11-24T19:40:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "540 MCCALLIE AVE",
-   "cross": "HOUSTON ST/DOUGLAS ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 UTC Q",
-   "priority": "PRI 3",
-   "lat": 35.046119,
-   "lon": -85.303254,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827820",
-   "sequence": "2026-11-34571",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T19:38:06Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "208 CALIFORNIA AVE",
-   "cross": "DEFUE ST/SIMS DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.095611,
-   "lon": -85.310589,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827814",
-   "sequence": "2026-11-34568",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:50:01Z",
-   "created": "2026-11-24T19:35:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8105 CICERO TRL",
-   "cross": "E FREEDOM CIR/MAPLEWOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.033446,
-   "lon": -85.098483,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 34.992823,
    "lon": -85.285678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827781",
-   "sequence": "2026-11-34546",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:28:18Z",
-   "created": "2026-11-24T19:18:52Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3504 MISSIONAIRE AVE",
-   "cross": "STRAUB RD/BOWEN RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.98513,
-   "lon": -85.270725,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +610,8 @@
    "id": "9827702",
    "sequence": "2026-11-34498",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:54:56Z",
    "created": "2026-11-24T18:51:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
