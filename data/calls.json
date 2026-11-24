@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T23:00:42+00:00",
+ "updated": "2026-11-24T23:05:37+00:00",
  "counts": {
-  "year": 372783,
-  "upstream_day": 841,
-  "day": 1124,
+  "year": 372796,
+  "upstream_day": 854,
+  "day": 1126,
   "day_basis": "midnight"
  },
  "raw_rows": 50,
  "incidents": [
+  {
+   "id": "9828207",
+   "sequence": "2026-11-34853",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-24T23:05:01Z",
+   "created": "2026-11-24T23:04:49Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8975 BALATA DR",
+   "cross": "No Cross Street/ANASTASIA AVE",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 3",
+   "lat": 35.108642,
+   "lon": -85.031647,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828208",
+   "sequence": "2026-11-34854",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T23:05:09Z",
+   "created": "2026-11-24T23:04:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "701 N GERMANTOWN RD",
+   "cross": "MENLO ST/TUNNEL BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.033506,
+   "lon": -85.241798,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828203",
    "sequence": "2026-11-34852",
@@ -64,8 +116,8 @@
    "id": "9828202",
    "sequence": "2026-11-34850",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T23:03:15Z",
    "created": "2026-11-24T22:57:46Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9828199",
    "sequence": "2026-11-34848",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T23:02:53Z",
    "created": "2026-11-24T22:57:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9828198",
    "sequence": "2026-11-34847",
    "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T23:05:23Z",
    "created": "2026-11-24T22:55:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9828184",
    "sequence": "2026-11-34835",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:45:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T22:45:33Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -737,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9828158",
-   "sequence": "2026-11-34811",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:40:28Z",
-   "created": "2026-11-24T22:32:14Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8430 SANDERS RD",
-   "cross": "WOODLAND DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 1",
-   "lat": 35.062045,
-   "lon": -85.094061,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828156",
    "sequence": "2026-11-34809",
    "type": "EMS CALL",
@@ -891,32 +917,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828129",
-   "sequence": "2026-11-34788",
-   "type": "Auto Broken Down Road",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:42:40Z",
-   "created": "2026-11-24T22:12:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "AMNICOLA HWY / WISDOM ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 2",
-   "lat": 35.081248,
-   "lon": -85.264189,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828128",
@@ -1104,8 +1104,8 @@
    "id": "9828073",
    "sequence": "2026-11-34746",
    "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-24T21:42:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T21:41:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1123,7 +1123,7 @@
    "lat": 35.033139,
    "lon": -85.319777,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
