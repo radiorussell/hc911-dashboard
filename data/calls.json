@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-24T13:00:44+00:00",
+ "updated": "2026-11-24T13:05:37+00:00",
  "counts": {
-  "year": 372119,
-  "upstream_day": 178,
-  "day": 244,
+  "year": 372128,
+  "upstream_day": 187,
+  "day": 248,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9826915",
-   "sequence": "2026-11-33972",
-   "type": "Unknown 911",
+   "id": "9826921",
+   "sequence": "2026-11-33976",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-24T12:58:26Z",
-   "created": "2026-11-24T12:58:19Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-24T13:02:39Z",
+   "created": "2026-11-24T13:02:39Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "4217 3RD AVE",
-   "cross": "SHORT ST/CROSS ST",
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
    "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.08183,
-   "lon": -85.20271,
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.036243,
+   "lon": -85.140298,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9826910",
-   "sequence": "2026-11-33968",
+   "id": "9826920",
+   "sequence": "2026-11-33975",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-24T12:49:17Z",
-   "created": "2026-11-24T12:49:17Z",
+   "status_at": "2026-11-24T13:02:38Z",
+   "created": "2026-11-24T13:02:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1810 IVY ST",
-   "cross": "N HAWTHORNE ST/N ORCHARD KNOB AVE",
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
    "city": "CHATTANOOGA",
-   "zone": "B4",
+   "zone": "C7",
    "priority": "PRI 3",
-   "lat": 35.038517,
-   "lon": -85.274235,
+   "lat": 35.036243,
+   "lon": -85.140298,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826918",
+   "sequence": "2026-11-33974",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T13:01:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.036243,
+   "lon": -85.140298,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +168,8 @@
    "id": "9826907",
    "sequence": "2026-11-33964",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:03:47Z",
    "created": "2026-11-24T12:49:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9826906",
    "sequence": "2026-11-33967",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:01:04Z",
    "created": "2026-11-24T12:48:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9826905",
    "sequence": "2026-11-33970",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:03:32Z",
    "created": "2026-11-24T12:48:15Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -238,110 +264,6 @@
    "priority": "PRI 2",
    "lat": 35.027307,
    "lon": -85.283588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826902",
-   "sequence": "2026-11-33961",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T12:57:46Z",
-   "created": "2026-11-24T12:47:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8168 TROUT LILY DR",
-   "cross": "TRANQUILITY DR/FOX GLOVE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 1",
-   "lat": 35.128177,
-   "lon": -85.053662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826903",
-   "sequence": "2026-11-33962",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:56:36Z",
-   "created": "2026-11-24T12:47:59Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8168 TROUT LILY DR",
-   "cross": "TRANQUILITY DR/FOX GLOVE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 1",
-   "lat": 35.128177,
-   "lon": -85.053662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826901",
-   "sequence": "2026-11-33960",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T12:47:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8168 TROUT LILY DR",
-   "cross": "TRANQUILITY DR/FOX GLOVE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.128177,
-   "lon": -85.053662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826896",
-   "sequence": "2026-11-33955",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:39:48Z",
-   "created": "2026-11-24T12:39:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1720 ALBERT LN",
-   "cross": "CLOVER LN/BROADVIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.122642,
-   "lon": -85.244381,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -636,8 +558,8 @@
    "id": "9826853",
    "sequence": "2026-11-33922",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T12:44:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T13:04:26Z",
    "created": "2026-11-24T12:14:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -767,7 +689,7 @@
    "sequence": "2026-11-33037",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T13:04:17Z",
    "created": "2026-11-23T19:21:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
