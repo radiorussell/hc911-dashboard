@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T07:15:39+00:00",
+ "updated": "2026-11-24T07:20:37+00:00",
  "counts": {
   "year": 371986,
   "upstream_day": 45,
-  "day": 59,
+  "day": 60,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9826681",
+   "sequence": "2026-11-33788",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T07:16:35Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2650 RHEA COUNTY HWY",
+   "cross": "DAYTON AVE/HIWASSEE HWY",
+   "city": "",
+   "zone": "",
+   "priority": "PRI 2",
+   "lat": 35.455102,
+   "lon": -85.052099,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826680",
    "sequence": "2026-11-33787",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T07:14:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T07:14:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -23,13 +49,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "HIGHWAY 58 / FERDINAND PIECH WAY",
-   "cross": "",
+   "address": "6800 - 8298 FERDINAND PIECH WAY",
+   "cross": "VOLKSWAGEN DR/CLARK RD",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 03 CH A",
    "priority": "PRI 1",
-   "lat": 35.108263,
-   "lon": -85.145157,
+   "lat": 35.107341,
+   "lon": -85.144792,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -127,13 +153,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "EASTER DR / TYNER LN",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
+   "address": "6800 - 8298 FERDINAND PIECH WAY",
+   "cross": "VOLKSWAGEN DR/CLARK RD",
+   "city": "CHATTANOOGA",
    "zone": "701 A",
    "priority": "PRI 2",
-   "lat": 35.112484,
-   "lon": -85.139946,
+   "lat": 35.107347,
+   "lon": -85.144781,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +220,8 @@
    "id": "9826666",
    "sequence": "2026-11-33773",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:15:42Z",
    "created": "2026-11-24T06:55:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
