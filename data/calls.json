@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T08:50:39+00:00",
+ "updated": "2026-11-24T08:55:45+00:00",
  "counts": {
-  "year": 372001,
-  "upstream_day": 60,
-  "day": 75,
+  "year": 372002,
+  "upstream_day": 61,
+  "day": 81,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9826704",
+   "sequence": "2026-11-33809",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T08:54:28Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8226 MILL RACE DR",
+   "cross": "MITCHELL MILL RD/WOODBRIDGE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 3",
+   "lat": 35.095139,
+   "lon": -85.07565,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826703",
+   "sequence": "2026-11-33808",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-24T08:55:01Z",
+   "created": "2026-11-24T08:51:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "511 BROAD ST",
+   "cross": "W 5TH ST/W 6TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.050473,
+   "lon": -85.310886,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826700",
+   "sequence": "2026-11-33805",
+   "type": "Auto Improperly Parked",
+   "status": "On Scene",
+   "status_at": "2026-11-24T08:53:57Z",
+   "created": "2026-11-24T08:38:06Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "215 THOMAS ST",
+   "cross": "SPRINGFIELD RD/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.228293,
+   "lon": -85.221657,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826698",
    "sequence": "2026-11-33803",
