@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T21:20:37+00:00",
+ "updated": "2026-11-24T21:25:45+00:00",
  "counts": {
-  "year": 372691,
-  "upstream_day": 750,
-  "day": 987,
+  "year": 372693,
+  "upstream_day": 752,
+  "day": 990,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9828040",
+   "sequence": "2026-11-34718",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:21:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4001 MONTVIEW DR",
+   "cross": "HEMPHILL AVE/PEACH BLOOM DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.024318,
+   "lon": -85.237156,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828036",
    "sequence": "2026-11-34714",
@@ -89,7 +115,7 @@
   {
    "id": "9828034",
    "sequence": "2026-11-34712",
-   "type": "Auto Broken Down",
+   "type": "MVC No Injuries",
    "status": "Enroute",
    "status_at": "2026-11-24T21:18:18Z",
    "created": "2026-11-24T21:18:18Z",
@@ -101,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "11200 HIGHWAY 58",
+   "address": "11400 HIGHWAY 58",
    "cross": "GAMBLE RD/SPOTTED OWL LN",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 7",
-   "priority": "PRI 4",
-   "lat": 35.255618,
-   "lon": -84.998379,
+   "priority": "PRI 3",
+   "lat": 35.261594,
+   "lon": -84.993233,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +168,8 @@
    "id": "9828017",
    "sequence": "2026-11-34706",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:20:54Z",
    "created": "2026-11-24T21:06:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.063196,
    "lon": -85.06418,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828009",
-   "sequence": "2026-11-34699",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:11:37Z",
-   "created": "2026-11-24T21:03:44Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7180 POTOMAC RIVER DR",
-   "cross": "JACKSON MILL DR/MANASSAS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 3",
-   "lat": 35.170311,
-   "lon": -85.180614,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9827952",
-   "sequence": "2026-11-34660",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T20:42:54Z",
-   "created": "2026-11-24T20:38:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6233 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.035445,
-   "lon": -85.186093,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827933",
    "sequence": "2026-11-34646",
    "type": "EMS Standby With FD",
@@ -526,32 +500,6 @@
    "lon": -85.238923,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827922",
-   "sequence": "2026-11-34648",
-   "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-24T20:30:58Z",
-   "created": "2026-11-24T20:26:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3467 WILCOX BLVD",
-   "cross": "TUNNEL BLVD/PARKWAY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 4",
-   "lat": 35.047213,
-   "lon": -85.236878,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
@@ -628,32 +576,6 @@
    "priority": "PRI 2",
    "lat": 35.005624,
    "lon": -85.331097,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827889",
-   "sequence": "2026-11-34619",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T21:03:35Z",
-   "created": "2026-11-24T20:14:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4101 HIGHWOOD DR",
-   "cross": "OAKMONT ST/MICHELIN LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.117624,
-   "lon": -85.253355,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -758,32 +680,6 @@
    "priority": "PRI 4",
    "lat": 35.11993,
    "lon": -85.232293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827754",
-   "sequence": "2026-11-34529",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T20:32:44Z",
-   "created": "2026-11-24T19:09:49Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10060 APISON PIKE",
-   "cross": "UNIVERSITY DR/TALLANT RD",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.054071,
-   "lon": -85.045732,
    "units": 1,
    "stacked": false,
    "notable": false
