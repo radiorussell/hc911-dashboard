@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T16:10:39+00:00",
+ "updated": "2026-11-24T16:15:39+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 516,
+  "year": 372319,
+  "upstream_day": 378,
+  "day": 526,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9827316",
+   "sequence": "2026-11-34254",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:15:54Z",
+   "created": "2026-11-24T16:15:54Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8479 SKYBROOK DR",
+   "cross": "No Cross Street/FROSTWOOD LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 2",
+   "lat": 35.150467,
+   "lon": -85.052724,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827315",
+   "sequence": "2026-11-34253",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:15:53Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8479 SKYBROOK DR",
+   "cross": "No Cross Street/FROSTWOOD LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 2",
+   "lat": 35.150467,
+   "lon": -85.052724,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827310",
+   "sequence": "2026-11-34251",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:13:38Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8479 SKYBROOK DR",
+   "cross": "No Cross Street/FROSTWOOD LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.150467,
+   "lon": -85.052724,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9827301",
    "sequence": "2026-11-34244",
@@ -143,7 +221,7 @@
    "sequence": "2026-11-34223",
    "type": "Backup EMS Unit",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T16:13:56Z",
    "created": "2026-11-24T15:56:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -581,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9827175",
-   "sequence": "2026-11-34158",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T15:50:41Z",
-   "created": "2026-11-24T15:13:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "237 WAUHATCHIE PIKE",
-   "cross": "CUMMINGS HWY/CUMMINGS RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.01401,
-   "lon": -85.370936,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827176",
    "sequence": "2026-11-34156",
    "type": "EMS CALL",
@@ -654,58 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.050666,
    "lon": -85.119658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827142",
-   "sequence": "2026-11-34132",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:08:08Z",
-   "created": "2026-11-24T15:01:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5821 LEE HWY",
-   "cross": "HONEST ST/CHICKAMAUGA RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.022243,
-   "lon": -85.19907,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827067",
-   "sequence": "2026-11-34076",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T15:47:59Z",
-   "created": "2026-11-24T14:22:07Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "515 COUNCIL FIRE DR",
-   "cross": "EAGLE MERE RD/JULIAN RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 34.988801,
-   "lon": -85.162373,
    "units": 1,
    "stacked": false,
    "notable": false
