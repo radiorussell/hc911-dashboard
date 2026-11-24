@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-24T09:40:40+00:00",
+ "updated": "2026-11-24T09:45:37+00:00",
  "counts": {
   "year": 372011,
   "upstream_day": 70,
-  "day": 84,
+  "day": 94,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 6,
  "incidents": [
   {
-   "id": "9826706",
-   "sequence": "2026-11-33811",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T09:06:24Z",
-   "created": "2026-11-24T09:00:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.017084,
-   "lon": -85.273331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826707",
-   "sequence": "2026-11-33812",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T09:08:24Z",
-   "created": "2026-11-24T09:00:06Z",
+   "id": "9826717",
+   "sequence": "2026-11-33822",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T09:43:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -49,13 +23,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
+   "address": "900 MOUNTAIN CREEK RD",
+   "cross": "RUSSELL AVE/GLENDALE DR",
    "city": "CHATTANOOGA",
-   "zone": "502 A",
+   "zone": "1701 A",
    "priority": "PRI 1",
-   "lat": 35.017084,
-   "lon": -85.273331,
+   "lat": 35.102678,
+   "lon": -85.325203,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +82,6 @@
    "priority": "PRI 4",
    "lat": 35.228293,
    "lon": -85.221657,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826694",
-   "sequence": "2026-11-33799",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T09:22:20Z",
-   "created": "2026-11-24T08:25:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "HICKORY VALLEY RD/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 03 HC B",
-   "priority": "PRI 1",
-   "lat": 35.107025,
-   "lon": -85.157883,
    "units": 1,
    "stacked": false,
    "notable": false
