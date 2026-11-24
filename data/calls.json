@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T03:25:38+00:00",
+ "updated": "2026-11-24T03:30:39+00:00",
  "counts": {
   "year": 371888,
   "upstream_day": 0,
-  "day": 1455,
+  "day": 1462,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9826535",
+   "sequence": "2026-11-33661",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T03:30:34Z",
+   "created": "2026-11-24T03:30:10Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4949 COLLEGE DR E",
+   "cross": "RAMONA TER/PLEASANT VIEW DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 3",
+   "lat": 35.047064,
+   "lon": -85.040787,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826532",
+   "sequence": "2026-11-33659",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T03:28:28Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9835 DAYTON PIKE",
+   "cross": "HOOD CIR/WESTBROOK AVE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.246844,
+   "lon": -85.187857,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826528",
+   "sequence": "2026-11-33657",
+   "type": "Non Threatening w/weapon",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T03:27:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1200 - 1299 CYPRESS STREET CT",
+   "cross": "No Cross Street/W 13TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 2",
+   "lat": 35.043102,
+   "lon": -85.317507,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826525",
    "sequence": "2026-11-33654",
@@ -39,7 +117,7 @@
    "sequence": "2026-11-33653",
    "type": "Shots Fired",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T03:28:51Z",
    "created": "2026-11-24T03:22:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -59,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826517",
-   "sequence": "2026-11-33649",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T03:13:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1524 OLD RINGGOLD RD",
-   "cross": "E MAIN ST/E 16TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.020225,
-   "lon": -85.26824,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826519",
