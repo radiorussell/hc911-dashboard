@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-24T12:20:43+00:00",
+ "updated": "2026-11-24T12:25:39+00:00",
  "counts": {
-  "year": 372082,
-  "upstream_day": 141,
-  "day": 200,
+  "year": 372092,
+  "upstream_day": 151,
+  "day": 207,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9826868",
+   "sequence": "2026-11-33935",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:25:14Z",
+   "created": "2026-11-24T12:25:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "316 CORPORATE PL",
+   "cross": "CUMMINGS RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.00947,
+   "lon": -85.37755,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826866",
+   "sequence": "2026-11-33933",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:24:19Z",
+   "created": "2026-11-24T12:24:19Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5756 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "2202",
+   "priority": "PRI 1",
+   "lat": 35.157006,
+   "lon": -85.247732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826865",
+   "sequence": "2026-11-33932",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:24:19Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5756 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.157006,
+   "lon": -85.247732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826864",
+   "sequence": "2026-11-33931",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:22:02Z",
+   "created": "2026-11-24T12:22:02Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7995 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 2",
+   "lat": 35.084963,
+   "lon": -85.133251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826863",
+   "sequence": "2026-11-33930",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:21:46Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7995 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.084963,
+   "lon": -85.133251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826861",
    "sequence": "2026-11-33928",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:24:01Z",
    "created": "2026-11-24T12:17:28Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -217,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9826839",
-   "sequence": "2026-11-33914",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-24T12:07:58Z",
-   "created": "2026-11-24T12:07:58Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15000 DAYTON PIKE",
-   "cross": "GOTHARD ST/WIDOW ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.38056,
-   "lon": -85.109595,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826836",
    "sequence": "2026-11-33912",
    "type": "Sex Offense",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:22:10Z",
    "created": "2026-11-24T12:07:24Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -350,8 +454,8 @@
    "id": "9826816",
    "sequence": "2026-11-33897",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:50:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T11:50:17Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -368,32 +472,6 @@
    "priority": "PRI 4",
    "lat": 34.990007,
    "lon": -85.236262,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826815",
-   "sequence": "2026-11-33894",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:54:42Z",
-   "created": "2026-11-24T11:49:41Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "941 SPRING CREEK RD",
-   "cross": "N MACK SMITH RD/PECK DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.998857,
-   "lon": -85.218956,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -428,8 +506,8 @@
    "id": "9826811",
    "sequence": "2026-11-33890",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:58:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T12:20:51Z",
    "created": "2026-11-24T11:47:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,63 +529,11 @@
    "notable": false
   },
   {
-   "id": "9826808",
-   "sequence": "2026-11-33887",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:45:23Z",
-   "created": "2026-11-24T11:45:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3467 IDLEWILD CIR",
-   "cross": "IDLEWILD DR/IDLEWILD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.021332,
-   "lon": -85.257091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826809",
-   "sequence": "2026-11-33888",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:45:23Z",
-   "created": "2026-11-24T11:45:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3467 IDLEWILD CIR",
-   "cross": "IDLEWILD DR/IDLEWILD DR",
-   "city": "CHATTANOOGA",
-   "zone": "1507",
-   "priority": "PRI 1",
-   "lat": 35.021332,
-   "lon": -85.257091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826804",
    "sequence": "2026-11-33886",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:58:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T12:21:17Z",
    "created": "2026-11-24T11:44:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -527,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826801",
-   "sequence": "2026-11-33880",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T12:03:23Z",
-   "created": "2026-11-24T11:43:03Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "870 - 899 E 3RD ST",
-   "cross": "COLLINS ST/PALMETTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049519,
-   "lon": -85.294452,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826800",
@@ -680,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826769",
-   "sequence": "2026-11-33860",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T12:03:54Z",
-   "created": "2026-11-24T11:16:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7834 ROSEMARY CIR",
-   "cross": "MURPHY RD/HANCOCK RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.083266,
-   "lon": -85.17379,
    "units": 1,
    "stacked": false,
    "notable": false
