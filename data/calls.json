@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-24T02:10:37+00:00",
+ "updated": "2026-11-24T02:15:38+00:00",
  "counts": {
-  "year": 371832,
+  "year": 371845,
   "upstream_day": 0,
-  "day": 1391,
+  "day": 1399,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9826461",
+   "sequence": "2026-11-33597",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:14:01Z",
+   "created": "2026-11-24T02:14:01Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6363 MILLHOUSE LN",
+   "cross": "GARFIELD RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 1",
+   "lat": 35.120771,
+   "lon": -85.112153,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826462",
+   "sequence": "2026-11-33598",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:14:01Z",
+   "created": "2026-11-24T02:14:01Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6363 MILLHOUSE LN",
+   "cross": "GARFIELD RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.120771,
+   "lon": -85.112153,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826460",
+   "sequence": "2026-11-33595",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:13:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "201 ROXBURY CIR",
+   "cross": "DAYTON BLVD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "2202",
+   "priority": "PRI 2",
+   "lat": 35.174497,
+   "lon": -85.254825,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826457",
+   "sequence": "2026-11-33594",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:12:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "201 ROXBURY CIR",
+   "cross": "DAYTON BLVD/DAYTON BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.174497,
+   "lon": -85.254825,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826456",
+   "sequence": "2026-11-33596",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:12:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6363 MILLHOUSE LN",
+   "cross": "GARFIELD RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.120771,
+   "lon": -85.112153,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826453",
    "sequence": "2026-11-33590",
    "type": "Burglary",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T02:12:15Z",
    "created": "2026-11-24T02:05:59Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -168,8 +298,8 @@
    "id": "9826445",
    "sequence": "2026-11-33583",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:14:06Z",
    "created": "2026-11-24T02:02:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -221,7 +351,7 @@
    "sequence": "2026-11-33573",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T02:15:27Z",
    "created": "2026-11-24T01:55:13Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9826425",
-   "sequence": "2026-11-33564",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-24T02:01:27Z",
-   "created": "2026-11-24T01:50:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "430 ROBERTS ST",
-   "cross": "ROBERTS PL/CLEVELAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.042817,
-   "lon": -85.273395,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826422",
    "sequence": "2026-11-33563",
    "type": "MVC No Injuries",
@@ -480,8 +584,8 @@
    "id": "9826408",
    "sequence": "2026-11-33549",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T01:49:11Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T02:12:28Z",
    "created": "2026-11-24T01:41:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -501,32 +605,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826405",
-   "sequence": "2026-11-33553",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-24T01:52:42Z",
-   "created": "2026-11-24T01:40:55Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9217 HARTLY PL",
-   "cross": "GREGORY DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 3",
-   "lat": 35.117,
-   "lon": -85.036735,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826396",
@@ -711,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9826354",
-   "sequence": "2026-11-33506",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T01:32:36Z",
-   "created": "2026-11-24T00:55:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7429 SHALLOWFORD RD",
-   "cross": "GUNBARREL RD/OGLETREE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.040038,
-   "lon": -85.147048,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826349",
    "sequence": "2026-11-33503",
    "type": "EMS CALL",
@@ -844,8 +896,8 @@
    "id": "9826106",
    "sequence": "2026-11-33316",
    "type": "MVC Delayed",
-   "status": "Stacked",
-   "status_at": "2026-11-24T01:45:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-23T22:40:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -863,7 +915,7 @@
    "lat": 35.087992,
    "lon": -85.065018,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
