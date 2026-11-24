@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T05:05:39+00:00",
+ "updated": "2026-11-24T05:10:37+00:00",
  "counts": {
   "year": 371939,
   "upstream_day": 0,
-  "day": 3,
+  "day": 4,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
   {
+   "id": "9826620",
+   "sequence": "2026-11-33732",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T05:06:46Z",
+   "created": "2026-11-24T05:06:39Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3400 LISA DR",
+   "cross": "No Cross Street/S SEMINOLE DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.002025,
+   "lon": -85.269814,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9826615",
    "sequence": "2026-11-33731",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-24T05:04:38Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T05:04:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.067898,
    "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826536",
-   "sequence": "2026-11-33663",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T04:27:37Z",
-   "created": "2026-11-24T03:32:34Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1444 BOWMAN RD",
-   "cross": "GANN RD/QUARLES LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.205913,
-   "lon": -85.196466,
    "units": 1,
    "stacked": false,
    "notable": false
