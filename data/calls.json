@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T17:35:39+00:00",
+ "updated": "2026-11-24T17:40:43+00:00",
  "counts": {
   "year": 372429,
   "upstream_day": 488,
-  "day": 653,
+  "day": 656,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9827543",
+   "sequence": "2026-11-34384",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:36:05Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6725 RINGGOLD RD",
+   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.990912,
+   "lon": -85.196997,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827539",
    "sequence": "2026-11-34381",
@@ -38,8 +64,8 @@
    "id": "9827529",
    "sequence": "2026-11-34378",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:31:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T17:31:04Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -111,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9827507",
-   "sequence": "2026-11-34366",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T17:24:30Z",
-   "created": "2026-11-24T17:24:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "440 INTERSTATE 75 NB",
-   "cross": "EXIT 4A OFF RAMP NB/EXIT INTERSTATE 75 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.029278,
-   "lon": -85.170417,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9827504",
@@ -477,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9827464",
-   "sequence": "2026-11-34343",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:08:36Z",
-   "created": "2026-11-24T17:08:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6401 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
-   "lat": 35.052227,
-   "lon": -85.174917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827459",
    "sequence": "2026-11-34341",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:17:38Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T17:36:34Z",
    "created": "2026-11-24T17:07:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -740,8 +714,8 @@
    "id": "9827370",
    "sequence": "2026-11-34282",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T17:09:53Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:39:08Z",
    "created": "2026-11-24T16:27:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
