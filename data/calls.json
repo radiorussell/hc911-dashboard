@@ -1,18 +1,70 @@
 {
- "updated": "2026-11-24T01:30:38+00:00",
+ "updated": "2026-11-24T01:35:37+00:00",
  "counts": {
-  "year": 371798,
+  "year": 371799,
   "upstream_day": 0,
-  "day": 1339,
+  "day": 1343,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9826397",
+   "sequence": "2026-11-33542",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:35:14Z",
+   "created": "2026-11-24T01:34:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 E BRAINERD RD",
+   "cross": "RESERVE WAY/JENKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.007536,
+   "lon": -85.156602,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826393",
+   "sequence": "2026-11-33539",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:30:40Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7000 GLEN COVE RD",
+   "cross": "FOREST VIEW LN/HUNTER VALLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.112514,
+   "lon": -85.106302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826392",
    "sequence": "2026-11-33538",
-   "type": "Harassment",
-   "status": "Queued",
+   "type": "Supplemental Reports",
+   "status": "Stacked",
    "status_at": "2026-11-24T01:29:48Z",
    "created": "2026-11-24T01:28:01Z",
    "jurisdiction": "Chattanooga PD",
@@ -23,15 +75,15 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "4616 SUNFLOWER LN",
+   "cross": "OAKHILL RD/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "C5",
    "priority": "PRI 4",
-   "lat": 35.081426,
-   "lon": -85.263454,
+   "lat": 35.087762,
+   "lon": -85.197825,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -116,8 +168,8 @@
    "id": "9826377",
    "sequence": "2026-11-33529",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:33:22Z",
    "created": "2026-11-24T01:16:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9826354",
    "sequence": "2026-11-33506",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T01:24:19Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T01:32:36Z",
    "created": "2026-11-24T00:55:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
