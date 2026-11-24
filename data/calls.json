@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T14:50:39+00:00",
+ "updated": "2026-11-24T14:55:44+00:00",
  "counts": {
-  "year": 372226,
-  "upstream_day": 285,
-  "day": 384,
+  "year": 372233,
+  "upstream_day": 292,
+  "day": 389,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9827125",
+   "sequence": "2026-11-34117",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:54:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "701 BROWNS FERRY RD",
+   "cross": "ANGELA LN/WATERFRONT DR",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.044533,
+   "lon": -85.356936,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827123",
+   "sequence": "2026-11-34116",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:53:06Z",
+   "created": "2026-11-24T14:53:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827122",
+   "sequence": "2026-11-34115",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:53:02Z",
+   "created": "2026-11-24T14:52:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827121",
+   "sequence": "2026-11-34114",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:52:08Z",
+   "created": "2026-11-24T14:52:08Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10962 APISON PIKE",
+   "cross": "SHORT CUT RD/SANDY TRL",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 3",
+   "lat": 35.033812,
+   "lon": -85.02575,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827120",
+   "sequence": "2026-11-34113",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:51:54Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10962 APISON PIKE",
+   "cross": "SHORT CUT RD/SANDY TRL",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-3 CO A",
+   "priority": "PRI 1",
+   "lat": 35.033812,
+   "lon": -85.02575,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827117",
    "sequence": "2026-11-34111",
@@ -64,8 +194,8 @@
    "id": "9827113",
    "sequence": "2026-11-34108",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:49:10Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:54:18Z",
    "created": "2026-11-24T14:47:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +295,6 @@
    "notable": true
   },
   {
-   "id": "9827100",
-   "sequence": "2026-11-34098",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:38:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1410 - 1458 MARKET ST",
-   "cross": "CHOO CHOO AVE/STATION ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.037495,
-   "lon": -85.307397,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827094",
    "sequence": "2026-11-34095",
    "type": "Well Being Check",
@@ -238,6 +342,32 @@
    "priority": "PRI 3",
    "lat": 35.114128,
    "lon": -85.087679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827080",
+   "sequence": "2026-11-34085",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:53:09Z",
+   "created": "2026-11-24T14:28:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.094368,
+   "lon": -85.331318,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -342,32 +472,6 @@
    "priority": "PRI 4",
    "lat": 35.044839,
    "lon": -85.3046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827034",
-   "sequence": "2026-11-34052",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:06:25Z",
-   "created": "2026-11-24T14:06:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.09006,
-   "lon": -85.066629,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +584,8 @@
    "id": "9826991",
    "sequence": "2026-11-34031",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T14:38:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T14:51:50Z",
    "created": "2026-11-24T13:47:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
