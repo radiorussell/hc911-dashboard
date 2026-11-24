@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-24T17:05:38+00:00",
+ "updated": "2026-11-24T17:10:40+00:00",
  "counts": {
   "year": 372389,
   "upstream_day": 448,
-  "day": 610,
+  "day": 615,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 32,
  "incidents": [
   {
-   "id": "9827450",
-   "sequence": "2026-11-34338",
-   "type": "Well Being Check",
+   "id": "9827464",
+   "sequence": "2026-11-34343",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-24T17:05:25Z",
-   "created": "2026-11-24T17:05:09Z",
+   "status_at": "2026-11-24T17:08:36Z",
+   "created": "2026-11-24T17:08:36Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6401 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.052227,
+   "lon": -85.174917,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827463",
+   "sequence": "2026-11-34342",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:08:36Z",
+   "created": "2026-11-24T17:08:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3824 MONTVIEW DR",
-   "cross": "SUNNYSIDE DR/CRESTWAY DR",
+   "address": "6401 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
    "city": "CHATTANOOGA",
-   "zone": "C2",
+   "zone": "C6",
    "priority": "PRI 3",
-   "lat": 35.02542,
-   "lon": -85.239331,
+   "lat": 35.052227,
+   "lon": -85.174917,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827459",
+   "sequence": "2026-11-34341",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:07:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6401 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.052227,
+   "lon": -85.174917,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +116,8 @@
    "id": "9827444",
    "sequence": "2026-11-34334",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:04:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T17:04:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -82,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.09833,
    "lon": -85.186037,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827446",
-   "sequence": "2026-11-34335",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:05:01Z",
-   "created": "2026-11-24T17:04:11Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "WAUHATCHIE PIKE / BIRMINGHAM HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "WEST 1 F",
-   "priority": "PRI 2",
-   "lat": 34.986666,
-   "lon": -85.391873,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -215,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827431",
-   "sequence": "2026-11-34323",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:02:17Z",
-   "created": "2026-11-24T16:55:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "601 INDUSTRIAL BLVD",
-   "cross": "DAYTON PIKE/BACK VALLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 1",
-   "lat": 35.347831,
-   "lon": -85.132355,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827430",
@@ -402,8 +402,8 @@
    "id": "9827417",
    "sequence": "2026-11-34313",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:08:40Z",
    "created": "2026-11-24T16:51:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -503,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9827376",
-   "sequence": "2026-11-34284",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:28:45Z",
-   "created": "2026-11-24T16:28:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2288 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.037485,
-   "lon": -85.149705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827374",
    "sequence": "2026-11-34283",
    "type": "EMS CALL",
@@ -558,8 +532,8 @@
    "id": "9827370",
    "sequence": "2026-11-34282",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:40:34Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T17:09:53Z",
    "created": "2026-11-24T16:27:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -815,37 +789,11 @@
    "notable": false
   },
   {
-   "id": "9827242",
-   "sequence": "2026-11-34206",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T16:33:36Z",
-   "created": "2026-11-24T15:43:50Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7504 BORISS DR",
-   "cross": "PLANTATION DR/BISHOP DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.066304,
-   "lon": -85.167825,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827219",
    "sequence": "2026-11-34186",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:31:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T15:31:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -862,32 +810,6 @@
    "priority": "PRI 4",
    "lat": 35.115281,
    "lon": -85.26244,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827213",
-   "sequence": "2026-11-34183",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-24T16:22:19Z",
-   "created": "2026-11-24T15:30:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3194 CRESTFIELD DR",
-   "cross": "GREENWOOD RD/SCHOOL DR",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.049977,
-   "lon": -85.242456,
    "units": 1,
    "stacked": false,
    "notable": false
