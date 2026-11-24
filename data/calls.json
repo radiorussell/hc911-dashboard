@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T07:25:37+00:00",
+ "updated": "2026-11-24T07:30:39+00:00",
  "counts": {
   "year": 371987,
   "upstream_day": 46,
-  "day": 60,
+  "day": 61,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9826682",
+   "sequence": "2026-11-33789",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T07:28:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2300 WILSON ST",
+   "cross": "DODSON AVE/ARLINGTON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 1",
+   "lat": 35.049038,
+   "lon": -85.261212,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826681",
    "sequence": "2026-11-33788",
@@ -30,32 +56,6 @@
    "priority": "PRI 2",
    "lat": 35.455102,
    "lon": -85.052099,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826680",
-   "sequence": "2026-11-33787",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T07:20:46Z",
-   "created": "2026-11-24T07:14:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6800 - 8298 FERDINAND PIECH WAY",
-   "cross": "VOLKSWAGEN DR/CLARK RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.107341,
-   "lon": -85.144792,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +220,8 @@
    "id": "9826659",
    "sequence": "2026-11-33768",
    "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:28:29Z",
    "created": "2026-11-24T06:45:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
