@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T12:50:37+00:00",
+ "updated": "2026-11-24T12:55:38+00:00",
  "counts": {
-  "year": 372108,
-  "upstream_day": 167,
+  "year": 372119,
+  "upstream_day": 178,
   "day": 242,
   "day_basis": "midnight"
  },
- "raw_rows": 40,
+ "raw_rows": 35,
  "incidents": [
   {
    "id": "9826910",
@@ -90,8 +90,8 @@
    "id": "9826909",
    "sequence": "2026-11-33966",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:52:05Z",
    "created": "2026-11-24T12:49:12Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9826905",
    "sequence": "2026-11-33970",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:49:46Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T12:48:15Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9826891",
    "sequence": "2026-11-33953",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:55:18Z",
    "created": "2026-11-24T12:38:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -503,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9826882",
-   "sequence": "2026-11-33941",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:36:27Z",
-   "created": "2026-11-24T12:36:27Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5901 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 1",
-   "lat": 35.08874,
-   "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826883",
    "sequence": "2026-11-33942",
    "type": "EMS CALL",
@@ -558,8 +532,8 @@
    "id": "9826875",
    "sequence": "2026-11-33944",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:51:44Z",
    "created": "2026-11-24T12:36:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -584,8 +558,8 @@
    "id": "9826879",
    "sequence": "2026-11-33940",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:51:00Z",
    "created": "2026-11-24T12:35:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -611,7 +585,7 @@
    "sequence": "2026-11-33943",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T12:52:14Z",
    "created": "2026-11-24T12:35:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -659,37 +633,11 @@
    "notable": false
   },
   {
-   "id": "9826865",
-   "sequence": "2026-11-33932",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:40:19Z",
-   "created": "2026-11-24T12:24:19Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5756 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.157006,
-   "lon": -85.247732,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826863",
    "sequence": "2026-11-33930",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T12:41:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T12:53:35Z",
    "created": "2026-11-24T12:21:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -867,32 +815,6 @@
    "notable": true
   },
   {
-   "id": "9826816",
-   "sequence": "2026-11-33897",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T11:50:17Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5320 SPRIGGS ST",
-   "cross": "MCBRIEN RD/FELTON ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.990007,
-   "lon": -85.236262,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826811",
    "sequence": "2026-11-33890",
    "type": "EMS CALL",
@@ -945,32 +867,6 @@
    "notable": false
   },
   {
-   "id": "9826800",
-   "sequence": "2026-11-33879",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T11:45:00Z",
-   "created": "2026-11-24T11:42:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "870 - 899 E 3RD ST",
-   "cross": "COLLINS ST/PALMETTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 1",
-   "lat": 35.049519,
-   "lon": -85.294452,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9826793",
    "sequence": "2026-11-33876",
    "type": "Traffic Control",
@@ -994,32 +890,6 @@
    "lon": -85.06418,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826777",
-   "sequence": "2026-11-33867",
-   "type": "Narcotics Violation",
-   "status": "Stacked",
-   "status_at": "2026-11-24T11:20:42Z",
-   "created": "2026-11-24T11:20:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
