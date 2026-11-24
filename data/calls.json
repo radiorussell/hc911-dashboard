@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-24T17:10:40+00:00",
+ "updated": "2026-11-24T17:15:39+00:00",
  "counts": {
-  "year": 372389,
-  "upstream_day": 448,
-  "day": 615,
+  "year": 372400,
+  "upstream_day": 459,
+  "day": 624,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9827481",
+   "sequence": "2026-11-34352",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:15:35Z",
+   "created": "2026-11-24T17:15:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LEE HWY / OOLTEWAH GEORGETOWN RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.082742,
+   "lon": -85.058535,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827483",
+   "sequence": "2026-11-34350",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-24T17:15:24Z",
+   "created": "2026-11-24T17:15:24Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827480",
+   "sequence": "2026-11-34351",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:15:34Z",
+   "created": "2026-11-24T17:15:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "926 MAGNOLIA ST",
+   "cross": "E MARTIN LUTHER KING BLVD/E 10TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 4",
+   "lat": 35.040277,
+   "lon": -85.296474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827482",
+   "sequence": "2026-11-34349",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:15:22Z",
+   "created": "2026-11-24T17:15:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT 5 OFF RAMP NB",
+   "cross": "INTERSTATE 75 NB/EXIT 5 ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 2",
+   "lat": 35.039322,
+   "lon": -85.159219,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827474",
+   "sequence": "2026-11-34346",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:12:46Z",
+   "created": "2026-11-24T17:12:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2111 W SHEPHERD RD",
+   "cross": "MEHARRY DR/ARLENA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.047472,
+   "lon": -85.186662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827472",
+   "sequence": "2026-11-34344",
+   "type": "Harrassing Threats",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:11:33Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5401 MARION AVE",
+   "cross": "ALTAMAHA ST/W END AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996178,
+   "lon": -85.230161,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827464",
    "sequence": "2026-11-34343",
@@ -90,8 +246,8 @@
    "id": "9827427",
    "sequence": "2026-11-34333",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:04:46Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T17:04:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +350,8 @@
    "id": "9827439",
    "sequence": "2026-11-34328",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:10:58Z",
    "created": "2026-11-24T17:02:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,27 +399,27 @@
    "notable": false
   },
   {
-   "id": "9827430",
-   "sequence": "2026-11-34322",
-   "type": "Repossessed Auto",
+   "id": "9827428",
+   "sequence": "2026-11-34320",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-24T16:55:21Z",
-   "created": "2026-11-24T16:55:21Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-24T16:54:19Z",
+   "created": "2026-11-24T16:54:19Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1400 CHESTNUT ST",
-   "cross": "W 14TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 0",
-   "lat": 35.039153,
-   "lon": -85.312784,
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.007914,
+   "lon": -85.260716,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -288,32 +444,6 @@
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
    "priority": "PRI 2",
-   "lat": 35.007914,
-   "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827428",
-   "sequence": "2026-11-34320",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:54:19Z",
-   "created": "2026-11-24T16:54:19Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "918 DONALDSON RD",
-   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
    "lat": 35.007914,
    "lon": -85.260716,
    "units": 1,
@@ -503,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9827374",
-   "sequence": "2026-11-34283",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:28:27Z",
-   "created": "2026-11-24T16:28:27Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2288 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.037485,
-   "lon": -85.149705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827370",
    "sequence": "2026-11-34282",
    "type": "EMS CALL",
@@ -610,8 +714,8 @@
    "id": "9827336",
    "sequence": "2026-11-34268",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:38:41Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T17:11:36Z",
    "created": "2026-11-24T16:21:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -810,32 +914,6 @@
    "priority": "PRI 4",
    "lat": 35.115281,
    "lon": -85.26244,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827022",
-   "sequence": "2026-11-34048",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:14:08Z",
-   "created": "2026-11-24T14:01:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2005 GARFIELD ST",
-   "cross": "ROANOKE AVE/N WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.041262,
-   "lon": -85.269722,
    "units": 1,
    "stacked": false,
    "notable": false
