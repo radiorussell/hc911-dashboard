@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-24T04:05:40+00:00",
+ "updated": "2026-11-24T04:10:38+00:00",
  "counts": {
   "year": 371913,
   "upstream_day": 0,
-  "day": 1488,
+  "day": 1497,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9826572",
+   "sequence": "2026-11-33695",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:10:28Z",
+   "created": "2026-11-24T04:10:28Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.225566,
+   "lon": -85.217768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826573",
+   "sequence": "2026-11-33696",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:10:28Z",
+   "created": "2026-11-24T04:10:28Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.225566,
+   "lon": -85.217768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826571",
+   "sequence": "2026-11-33693",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:10:01Z",
+   "created": "2026-11-24T04:09:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2 - 8 EXIT 4A ON RAMP SB",
+   "cross": "HAMILTON PLACE BLVD/INTERSTATE 75 SB",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.035576,
+   "lon": -85.162055,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826570",
+   "sequence": "2026-11-33694",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:10:28Z",
+   "created": "2026-11-24T04:09:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.225566,
+   "lon": -85.217768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826564",
+   "sequence": "2026-11-33689",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:09:32Z",
+   "created": "2026-11-24T04:06:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1005 MISSION AVE",
+   "cross": "GLENWOOD DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.045215,
+   "lon": -85.25663,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826558",
    "sequence": "2026-11-33681",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:09:39Z",
    "created": "2026-11-24T03:54:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -33,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826555",
-   "sequence": "2026-11-33687",
-   "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T03:53:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4900 EDINGBURG DR",
-   "cross": "E 49TH ST/WOODLAND VIEW CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 1",
-   "lat": 34.991143,
-   "lon": -85.303588,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826550",
@@ -85,58 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9826542",
-   "sequence": "2026-11-33669",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:03:12Z",
-   "created": "2026-11-24T03:36:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5125 HIGHWAY 58",
-   "cross": "LANTANA LN/THOR TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.097902,
-   "lon": -85.173448,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826538",
-   "sequence": "2026-11-33665",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T03:41:34Z",
-   "created": "2026-11-24T03:32:53Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1444 BOWMAN RD",
-   "cross": "GANN RD/QUARLES LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.205913,
-   "lon": -85.196466,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9826536",
