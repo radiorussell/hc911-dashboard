@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T01:00:37+00:00",
+ "updated": "2026-11-24T01:05:40+00:00",
  "counts": {
-  "year": 371769,
+  "year": 371777,
   "upstream_day": 0,
   "day": 1311,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 24,
  "incidents": [
   {
    "id": "9826360",
@@ -91,7 +91,7 @@
    "sequence": "2026-11-33506",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T01:01:32Z",
    "created": "2026-11-24T00:55:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9826349",
    "sequence": "2026-11-33503",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:04:43Z",
    "created": "2026-11-24T00:53:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,58 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.187704,
    "lon": -85.218075,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826346",
-   "sequence": "2026-11-33502",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-24T00:58:51Z",
-   "created": "2026-11-24T00:52:42Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9334 DAYTON PIKE",
-   "cross": "SPRINGFIELD RD/HARRISON LN",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.234297,
-   "lon": -85.199279,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826339",
-   "sequence": "2026-11-33498",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:59:54Z",
-   "created": "2026-11-24T00:47:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1335 HIXSON AVE",
-   "cross": "No Cross Street/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.130935,
-   "lon": -85.257,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9826331",
-   "sequence": "2026-11-33490",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:37:59Z",
-   "created": "2026-11-24T00:37:59Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8572 MULBERRY WAY",
-   "cross": "PRICKLY LOOP/PRICKLY LOOP",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.109005,
-   "lon": -85.062443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826330",
    "sequence": "2026-11-33489",
    "type": "EMS CALL",
@@ -342,58 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.109005,
    "lon": -85.062443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826327",
-   "sequence": "2026-11-33485",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:37:10Z",
-   "created": "2026-11-24T00:37:10Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.988101,
-   "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826328",
-   "sequence": "2026-11-33486",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:37:10Z",
-   "created": "2026-11-24T00:37:10Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -501,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826297",
-   "sequence": "2026-11-33460",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:36:09Z",
-   "created": "2026-11-24T00:21:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4710 SABRINA LN",
-   "cross": "No Cross Street/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.139047,
-   "lon": -85.25298,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826294",
@@ -688,8 +532,8 @@
    "id": "9826269",
    "sequence": "2026-11-33438",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T00:39:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T01:02:33Z",
    "created": "2026-11-24T00:05:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
