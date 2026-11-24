@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T16:35:39+00:00",
+ "updated": "2026-11-24T16:40:40+00:00",
  "counts": {
   "year": 372355,
   "upstream_day": 414,
-  "day": 560,
+  "day": 565,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827388",
+   "sequence": "2026-11-34293",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:38:21Z",
+   "created": "2026-11-24T16:38:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1804 WILLIAMS ST",
+   "cross": "W 18TH ST/W 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.034051,
+   "lon": -85.310528,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827382",
    "sequence": "2026-11-34288",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:39:33Z",
    "created": "2026-11-24T16:31:59Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9827370",
    "sequence": "2026-11-34282",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:40:34Z",
    "created": "2026-11-24T16:27:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,58 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.037485,
    "lon": -85.149705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827373",
-   "sequence": "2026-11-34281",
-   "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:27:30Z",
-   "created": "2026-11-24T16:27:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.036887,
-   "lon": -85.185028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827357",
-   "sequence": "2026-11-34273",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:24:08Z",
-   "created": "2026-11-24T16:24:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "803 BRYNWOOD DR",
-   "cross": "OAK TREE DR/BRYNWOOD TER",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.119464,
-   "lon": -85.272419,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +298,8 @@
    "id": "9827336",
    "sequence": "2026-11-34268",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:38:41Z",
    "created": "2026-11-24T16:21:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
