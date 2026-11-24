@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T17:30:40+00:00",
+ "updated": "2026-11-24T17:35:39+00:00",
  "counts": {
-  "year": 372411,
-  "upstream_day": 470,
-  "day": 646,
+  "year": 372429,
+  "upstream_day": 488,
+  "day": 653,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827539",
+   "sequence": "2026-11-34381",
+   "type": "Shoplifter",
+   "status": "Enroute",
+   "status_at": "2026-11-24T17:34:29Z",
+   "created": "2026-11-24T17:34:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.008709,
+   "lon": -85.205213,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827529",
+   "sequence": "2026-11-34378",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:31:17Z",
+   "created": "2026-11-24T17:31:04Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "726 ROBERTS MILL RD",
+   "cross": "JACKSON RD/SELCER RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 3",
+   "lat": 35.205039,
+   "lon": -85.255346,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827530",
+   "sequence": "2026-11-34377",
+   "type": "Noise Complaint",
+   "status": "Stacked",
+   "status_at": "2026-11-24T17:30:48Z",
+   "created": "2026-11-24T17:30:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 E 11TH ST",
+   "cross": "GEORGIA AVE/COLUMBIA ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.043857,
+   "lon": -85.308883,
+   "units": 1,
+   "stacked": true,
+   "notable": false
+  },
   {
    "id": "9827513",
    "sequence": "2026-11-34374",
@@ -165,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9827499",
-   "sequence": "2026-11-34363",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:30:14Z",
-   "created": "2026-11-24T17:22:20Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3246 YERBEY FAMILY CIR",
-   "cross": "PAT BOONE DR/PAT BOONE DR",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 1",
-   "lat": 35.130079,
-   "lon": -85.212798,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827497",
    "sequence": "2026-11-34360",
    "type": "EMS CALL",
@@ -243,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9827493",
-   "sequence": "2026-11-34358",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:21:05Z",
-   "created": "2026-11-24T17:20:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3204 AMNICOLA HWY",
-   "cross": "STUART ST/ELMENDORF CIR",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.079628,
-   "lon": -85.264581,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827491",
    "sequence": "2026-11-34356",
    "type": "MVC No Injuries",
@@ -298,8 +324,8 @@
    "id": "9827488",
    "sequence": "2026-11-34355",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:18:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T17:16:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +350,8 @@
    "id": "9827484",
    "sequence": "2026-11-34353",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:30:55Z",
    "created": "2026-11-24T17:15:48Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -607,37 +633,11 @@
    "notable": false
   },
   {
-   "id": "9827428",
-   "sequence": "2026-11-34320",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:54:19Z",
-   "created": "2026-11-24T16:54:19Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "918 DONALDSON RD",
-   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.007914,
-   "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827425",
    "sequence": "2026-11-34319",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T17:21:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:32:32Z",
    "created": "2026-11-24T16:53:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -685,32 +685,6 @@
    "notable": false
   },
   {
-   "id": "9827410",
-   "sequence": "2026-11-34307",
-   "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-24T16:49:26Z",
-   "created": "2026-11-24T16:49:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DERBY ST / CITICO AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.042884,
-   "lon": -85.261402,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
    "id": "9827406",
    "sequence": "2026-11-34306",
    "type": "MVC No Injuries",
@@ -725,13 +699,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "500 - 512 ROBERTS MILL RD",
-   "cross": "LEVI RD/FALLS VIEW DR",
+   "address": "898 ROBERTS MILL RD",
+   "cross": "ROCKY LEDGE DR/MOUNTAIN LAUREL TRL",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 3 A",
    "priority": "PRI 3",
-   "lat": 35.198874,
-   "lon": -85.253711,
+   "lat": 35.206379,
+   "lon": -85.258558,
    "units": 1,
    "stacked": false,
    "notable": false
