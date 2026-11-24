@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T21:25:45+00:00",
+ "updated": "2026-11-24T21:30:20+00:00",
  "counts": {
   "year": 372693,
   "upstream_day": 752,
-  "day": 990,
+  "day": 995,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9828043",
+   "sequence": "2026-11-34723",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:26:20Z",
+   "created": "2026-11-24T21:25:02Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1331 - 1559 INTERSTATE 75 SB",
+   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 A",
+   "priority": "PRI 3",
+   "lat": 35.114593,
+   "lon": -85.047503,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828040",
    "sequence": "2026-11-34718",
@@ -160,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.020021,
    "lon": -85.138868,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828017",
-   "sequence": "2026-11-34706",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:20:54Z",
-   "created": "2026-11-24T21:06:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "N MARKET ST / CHEROKEE BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.062637,
-   "lon": -85.308522,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -446,32 +446,6 @@
    "priority": "PRI 3",
    "lat": 34.998857,
    "lon": -85.095524,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827972",
-   "sequence": "2026-11-34674",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:08:59Z",
-   "created": "2026-11-24T20:52:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3812 LERCH ST",
-   "cross": "HILL TOP DR/BELVOIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 2",
-   "lat": 35.015299,
-   "lon": -85.244892,
    "units": 1,
    "stacked": false,
    "notable": false
