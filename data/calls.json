@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T22:55:37+00:00",
+ "updated": "2026-11-24T23:00:42+00:00",
  "counts": {
   "year": 372783,
   "upstream_day": 841,
-  "day": 1118,
+  "day": 1124,
   "day_basis": "midnight"
  },
- "raw_rows": 46,
+ "raw_rows": 50,
  "incidents": [
+  {
+   "id": "9828203",
+   "sequence": "2026-11-34852",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:58:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "427 SEVIER ST",
+   "cross": "TRAYLOR LN/TILLMAN LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 4",
+   "lat": 35.204103,
+   "lon": -85.201543,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828201",
+   "sequence": "2026-11-34849",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:57:46Z",
+   "created": "2026-11-24T22:57:46Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "628 SIGNAL MOUNTAIN BLVD",
+   "cross": "FAIRVIEW ST/OAK ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
+   "priority": "PRI 3",
+   "lat": 35.12235,
+   "lon": -85.350312,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828202",
+   "sequence": "2026-11-34850",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:57:46Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "628 SIGNAL MOUNTAIN BLVD",
+   "cross": "FAIRVIEW ST/OAK ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 3",
+   "lat": 35.12235,
+   "lon": -85.350312,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828199",
+   "sequence": "2026-11-34848",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:57:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "628 SIGNAL MOUNTAIN BLVD",
+   "cross": "FAIRVIEW ST/OAK ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.12235,
+   "lon": -85.350312,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828198",
+   "sequence": "2026-11-34847",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:55:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2421 4TH AVE",
+   "cross": "E 24TH STREET PL/E 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 2",
+   "lat": 35.014946,
+   "lon": -85.281685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828197",
    "sequence": "2026-11-34846",
@@ -168,8 +298,8 @@
    "id": "9828189",
    "sequence": "2026-11-34839",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:56:59Z",
    "created": "2026-11-24T22:47:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -558,8 +688,8 @@
    "id": "9828161",
    "sequence": "2026-11-34814",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:55:40Z",
    "created": "2026-11-24T22:33:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -714,8 +844,8 @@
    "id": "9828145",
    "sequence": "2026-11-34800",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:22:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T22:22:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -810,32 +940,6 @@
    "priority": "PRI 2",
    "lat": 35.082742,
    "lon": -85.058535,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828126",
-   "sequence": "2026-11-34785",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-24T22:34:08Z",
-   "created": "2026-11-24T22:10:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "408 GUILD DR",
-   "cross": "NICKLIN DR/BENHAM DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.013299,
-   "lon": -85.19512,
    "units": 1,
    "stacked": false,
    "notable": false
