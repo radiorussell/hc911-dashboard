@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T09:05:38+00:00",
+ "updated": "2026-11-24T09:10:39+00:00",
  "counts": {
   "year": 372006,
   "upstream_day": 65,
   "day": 84,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9826706",
    "sequence": "2026-11-33811",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T09:06:24Z",
    "created": "2026-11-24T09:00:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9826707",
    "sequence": "2026-11-33812",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T09:08:24Z",
    "created": "2026-11-24T09:00:06Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9826704",
    "sequence": "2026-11-33809",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T09:06:10Z",
    "created": "2026-11-24T08:54:28Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -191,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9826695",
-   "sequence": "2026-11-33800",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T08:26:55Z",
-   "created": "2026-11-24T08:26:55Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "HICKORY VALLEY RD/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 2",
-   "lat": 35.107025,
-   "lon": -85.157883,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826694",
    "sequence": "2026-11-33799",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T08:38:43Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T09:05:42Z",
    "created": "2026-11-24T08:25:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.107025,
    "lon": -85.157883,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826686",
-   "sequence": "2026-11-33792",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T08:14:03Z",
-   "created": "2026-11-24T08:00:09Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1810 JOHN ROSS RD",
-   "cross": "CLAYTON AVE EXT/S CREST RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 34.987277,
-   "lon": -85.272019,
    "units": 1,
    "stacked": false,
    "notable": false
