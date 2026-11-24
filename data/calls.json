@@ -1,13 +1,299 @@
 {
- "updated": "2026-11-24T12:45:37+00:00",
+ "updated": "2026-11-24T12:50:37+00:00",
  "counts": {
   "year": 372108,
   "upstream_day": 167,
-  "day": 229,
+  "day": 242,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9826910",
+   "sequence": "2026-11-33968",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:49:17Z",
+   "created": "2026-11-24T12:49:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1810 IVY ST",
+   "cross": "N HAWTHORNE ST/N ORCHARD KNOB AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.038517,
+   "lon": -85.274235,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826911",
+   "sequence": "2026-11-33969",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:49:17Z",
+   "created": "2026-11-24T12:49:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1810 IVY ST",
+   "cross": "N HAWTHORNE ST/N ORCHARD KNOB AVE",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.038517,
+   "lon": -85.274235,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826908",
+   "sequence": "2026-11-33965",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:49:12Z",
+   "created": "2026-11-24T12:49:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4116 VILLA GREEN CT",
+   "cross": "No Cross Street/REDLANDS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.075596,
+   "lon": -85.196994,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826909",
+   "sequence": "2026-11-33966",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:49:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4116 VILLA GREEN CT",
+   "cross": "No Cross Street/REDLANDS DR",
+   "city": "CHATTANOOGA",
+   "zone": "602",
+   "priority": "PRI 3",
+   "lat": 35.075596,
+   "lon": -85.196994,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826907",
+   "sequence": "2026-11-33964",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:49:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4116 VILLA GREEN CT",
+   "cross": "No Cross Street/REDLANDS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.075596,
+   "lon": -85.196994,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826906",
+   "sequence": "2026-11-33967",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:48:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1810 IVY ST",
+   "cross": "N HAWTHORNE ST/N ORCHARD KNOB AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.038517,
+   "lon": -85.274235,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826905",
+   "sequence": "2026-11-33970",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-24T12:49:46Z",
+   "created": "2026-11-24T12:48:15Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "609 N BROOK DR",
+   "cross": "No Cross Street/BROOKHILL DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.213402,
+   "lon": -85.193765,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826904",
+   "sequence": "2026-11-33963",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:48:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E MAIN ST / EVENINGSIDE DR",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.027307,
+   "lon": -85.283588,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826902",
+   "sequence": "2026-11-33961",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:47:59Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8168 TROUT LILY DR",
+   "cross": "TRANQUILITY DR/FOX GLOVE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 1",
+   "lat": 35.128177,
+   "lon": -85.053662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826903",
+   "sequence": "2026-11-33962",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:47:59Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8168 TROUT LILY DR",
+   "cross": "TRANQUILITY DR/FOX GLOVE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 1",
+   "lat": 35.128177,
+   "lon": -85.053662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826901",
+   "sequence": "2026-11-33960",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:47:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8168 TROUT LILY DR",
+   "cross": "TRANQUILITY DR/FOX GLOVE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.128177,
+   "lon": -85.053662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826896",
    "sequence": "2026-11-33955",
@@ -428,8 +714,8 @@
    "id": "9826857",
    "sequence": "2026-11-33925",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:26:47Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T12:48:12Z",
    "created": "2026-11-24T12:16:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 34.998357,
    "lon": -85.356176,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826856",
-   "sequence": "2026-11-33924",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:15:12Z",
-   "created": "2026-11-24T12:15:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5501 OLD HIXSON PIKE",
-   "cross": "LONGVIEW DR/HIXSON HOME PL",
-   "city": "CHATTANOOGA",
-   "zone": "1102",
-   "priority": "PRI 1",
-   "lat": 35.151576,
-   "lon": -85.224751,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -550,32 +810,6 @@
    "priority": "PRI 3",
    "lat": 35.068056,
    "lon": -85.034851,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826833",
-   "sequence": "2026-11-33909",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:15:38Z",
-   "created": "2026-11-24T12:05:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5756 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.157006,
-   "lon": -85.247732,
    "units": 1,
    "stacked": false,
    "notable": false
