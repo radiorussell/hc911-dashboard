@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T03:05:37+00:00",
+ "updated": "2026-11-24T03:10:40+00:00",
  "counts": {
   "year": 371881,
   "upstream_day": 0,
   "day": 1442,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9826514",
@@ -30,32 +30,6 @@
    "priority": "PRI 4",
    "lat": 35.094368,
    "lon": -85.331318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826509",
-   "sequence": "2026-11-33636",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:59:30Z",
-   "created": "2026-11-24T02:56:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "836 GILLESPIE RD",
-   "cross": "BELLE VISTA AVE/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 1",
-   "lat": 35.036925,
-   "lon": -85.238152,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9826501",
-   "sequence": "2026-11-33633",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T02:45:30Z",
-   "created": "2026-11-24T02:45:30Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9839 ROBINSON FARM RD",
-   "cross": "PASTURE DR/HIGH ST",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 4 CO D",
-   "priority": "PRI 2",
-   "lat": 35.062783,
-   "lon": -85.060384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826498",
    "sequence": "2026-11-33631",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:57:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T03:09:59Z",
    "created": "2026-11-24T02:45:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.046528,
    "lon": -85.320609,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826457",
-   "sequence": "2026-11-33594",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T02:47:54Z",
-   "created": "2026-11-24T02:12:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "201 ROXBURY CIR",
-   "cross": "DAYTON BLVD/DAYTON BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.174497,
-   "lon": -85.254825,
    "units": 1,
    "stacked": false,
    "notable": false
