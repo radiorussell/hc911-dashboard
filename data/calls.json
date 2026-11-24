@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T04:30:37+00:00",
+ "updated": "2026-11-24T04:35:38+00:00",
  "counts": {
-  "year": 371924,
+  "year": 371930,
   "upstream_day": 0,
-  "day": 1515,
+  "day": 1516,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9826598",
+   "sequence": "2026-11-33715",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:34:26Z",
+   "created": "2026-11-24T04:33:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1902 SHARP ST",
+   "cross": "N ORCHARD KNOB AVE/ROANOKE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.043971,
+   "lon": -85.270067,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826597",
    "sequence": "2026-11-33714",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:30:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T04:30:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9826592",
    "sequence": "2026-11-33710",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:31:22Z",
    "created": "2026-11-24T04:25:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9826593",
    "sequence": "2026-11-33711",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:34:02Z",
    "created": "2026-11-24T04:25:40Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -191,84 +217,6 @@
    "notable": false
   },
   {
-   "id": "9826579",
-   "sequence": "2026-11-33702",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:26:14Z",
-   "created": "2026-11-24T04:16:47Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "419 HOGUE ST",
-   "cross": "WALL ST/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.28629,
-   "lon": -85.169509,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826572",
-   "sequence": "2026-11-33695",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:10:28Z",
-   "created": "2026-11-24T04:10:28Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8783 DAYTON PIKE",
-   "cross": "MIMOSA DR/SHEARER ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.225566,
-   "lon": -85.217768,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826573",
-   "sequence": "2026-11-33696",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:10:28Z",
-   "created": "2026-11-24T04:10:28Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8783 DAYTON PIKE",
-   "cross": "MIMOSA DR/SHEARER ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 1",
-   "lat": 35.225566,
-   "lon": -85.217768,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826571",
    "sequence": "2026-11-33693",
    "type": "MVC No Injuries",
@@ -316,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.225566,
    "lon": -85.217768,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826558",
-   "sequence": "2026-11-33681",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T04:09:39Z",
-   "created": "2026-11-24T03:54:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2313 NORTHBRIER LN",
-   "cross": "No Cross Street/NORTHBRIER CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.062354,
-   "lon": -85.231925,
    "units": 1,
    "stacked": false,
    "notable": false
