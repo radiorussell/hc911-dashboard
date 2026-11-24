@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T01:10:38+00:00",
+ "updated": "2026-11-24T01:15:37+00:00",
  "counts": {
-  "year": 371777,
+  "year": 371783,
   "upstream_day": 0,
-  "day": 1321,
+  "day": 1325,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9826376",
+   "sequence": "2026-11-33524",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-24T01:13:11Z",
+   "created": "2026-11-24T01:13:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6000 HIGHWAY 153",
+   "cross": "STONE RIDGE DR/PINE MARR DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.167326,
+   "lon": -85.247342,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826375",
+   "sequence": "2026-11-33523",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:12:32Z",
+   "created": "2026-11-24T01:12:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 3",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826374",
+   "sequence": "2026-11-33522",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:12:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 2",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826370",
    "sequence": "2026-11-33520",
@@ -420,32 +498,6 @@
    "priority": "PRI 0",
    "lat": 35.015673,
    "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826279",
-   "sequence": "2026-11-33445",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:08:57Z",
-   "created": "2026-11-24T00:08:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.034841,
-   "lon": -85.159114,
    "units": 1,
    "stacked": false,
    "notable": false
