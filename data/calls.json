@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24T02:50:37+00:00",
+ "updated": "2026-11-24T02:55:36+00:00",
  "counts": {
-  "year": 371871,
+  "year": 371877,
   "upstream_day": 0,
   "day": 1435,
   "day_basis": "midnight"
@@ -38,8 +38,8 @@
    "id": "9826500",
    "sequence": "2026-11-33632",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:52:34Z",
    "created": "2026-11-24T02:45:30Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9826495",
    "sequence": "2026-11-33630",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:54:57Z",
    "created": "2026-11-24T02:43:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9826445",
    "sequence": "2026-11-33583",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T02:35:39Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T02:53:37Z",
    "created": "2026-11-24T02:02:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +298,8 @@
    "id": "9826436",
    "sequence": "2026-11-33575",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T02:32:06Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T02:53:54Z",
    "created": "2026-11-24T01:55:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9826392",
    "sequence": "2026-11-33538",
    "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T01:29:48Z",
    "created": "2026-11-24T01:28:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -421,7 +421,7 @@
    "lat": 35.087762,
    "lon": -85.197825,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
