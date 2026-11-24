@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-24T21:40:37+00:00",
+ "updated": "2026-11-24T21:45:38+00:00",
  "counts": {
-  "year": 372700,
-  "upstream_day": 759,
-  "day": 1010,
+  "year": 372714,
+  "upstream_day": 773,
+  "day": 1026,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9828085",
+   "sequence": "2026-11-34753",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:44:59Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9001 - 9099 HIXSON PIKE",
+   "cross": "DALTON LN/CHIP DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.204477,
+   "lon": -85.145726,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828084",
+   "sequence": "2026-11-34752",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:44:59Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9001 - 9099 HIXSON PIKE",
+   "cross": "DALTON LN/CHIP DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.204477,
+   "lon": -85.145726,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828086",
+   "sequence": "2026-11-34754",
+   "type": "MVC Entrapment",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:44:59Z",
+   "created": "2026-11-24T21:44:59Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9001 - 9099 HIXSON PIKE",
+   "cross": "DALTON LN/CHIP DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.204477,
+   "lon": -85.145726,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828083",
+   "sequence": "2026-11-34751",
+   "type": "MVC Entrapment",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:44:58Z",
+   "created": "2026-11-24T21:44:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9001 - 9099 HIXSON PIKE",
+   "cross": "DALTON LN/CHIP DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.204477,
+   "lon": -85.145726,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828080",
+   "sequence": "2026-11-34749",
+   "type": "MVC Entrapment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:43:29Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9001 - 9099 HIXSON PIKE",
+   "cross": "DALTON LN/CHIP DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 C",
+   "priority": "PRI 1",
+   "lat": 35.204477,
+   "lon": -85.145726,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828075",
+   "sequence": "2026-11-34744",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-24T21:41:19Z",
+   "created": "2026-11-24T21:41:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5428 HIGHWAY 153",
+   "cross": "HWY 153 SB @ HIXSON PK SB - OFF RAMP/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.137652,
+   "lon": -85.245876,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828073",
+   "sequence": "2026-11-34746",
+   "type": "Property",
+   "status": "Stacked",
+   "status_at": "2026-11-24T21:42:09Z",
+   "created": "2026-11-24T21:41:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT INTERSTATE 24 W OFF RAMP SB",
+   "cross": "INTERSTATE 24 WB/HIGHWAY 27 SB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.033139,
+   "lon": -85.319777,
+   "units": 1,
+   "stacked": true,
+   "notable": false
+  },
   {
    "id": "9828063",
    "sequence": "2026-11-34737",
@@ -23,13 +205,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "8107 STANDIFER GAP RD",
-   "cross": "BILL REED RD/AUTUMN CHASE DR",
+   "address": "8249 STANDIFER GAP RD",
+   "cross": "CLIPPER DR/BANKS RD",
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 5 F",
    "priority": "PRI 1",
-   "lat": 35.042904,
-   "lon": -85.114331,
+   "lat": 35.03636,
+   "lon": -85.107885,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -75,13 +257,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "8255 STANDIFER GAP RD",
-   "cross": "BANKS RD/MCKEE VALLEY TRL",
+   "address": "8249 STANDIFER GAP RD",
+   "cross": "CLIPPER DR/BANKS RD",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 2 A",
    "priority": "PRI 3",
-   "lat": 35.03524,
-   "lon": -85.107946,
+   "lat": 35.03636,
+   "lon": -85.107885,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +272,8 @@
    "id": "9828058",
    "sequence": "2026-11-34733",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:45:11Z",
    "created": "2026-11-24T21:35:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -195,7 +377,7 @@
    "sequence": "2026-11-34730",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T21:44:05Z",
    "created": "2026-11-24T21:31:22Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -220,8 +402,8 @@
    "id": "9828053",
    "sequence": "2026-11-34728",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:42:48Z",
    "created": "2026-11-24T21:31:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -555,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9827981",
-   "sequence": "2026-11-34678",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T21:14:39Z",
-   "created": "2026-11-24T20:53:29Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1735 OOLTEWAH RINGGOLD RD",
-   "cross": "COBBLECREEK WAY/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 34.998857,
-   "lon": -85.095524,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827933",
    "sequence": "2026-11-34646",
    "type": "EMS Standby With FD",
@@ -786,6 +942,32 @@
    "lon": -85.074881,
    "units": 1,
    "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9712535",
+   "sequence": "2026-10-01399",
+   "type": "MVC No Response",
+   "status": "Stacked",
+   "status_at": "2026-11-24T21:42:02Z",
+   "created": "2026-10-01T23:32:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5728 HIGHWAY 58",
+   "cross": "CHURCH RD/LAKEWOOD ACRES DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 0",
+   "lat": 35.109673,
+   "lon": -85.13543,
+   "units": 1,
+   "stacked": true,
    "notable": false
   }
  ]
