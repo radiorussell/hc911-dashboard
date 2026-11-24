@@ -1,13 +1,247 @@
 {
- "updated": "2026-11-24T16:20:39+00:00",
+ "updated": "2026-11-24T16:25:40+00:00",
  "counts": {
-  "year": 372319,
-  "upstream_day": 378,
-  "day": 532,
+  "year": 372333,
+  "upstream_day": 392,
+  "day": 549,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827357",
+   "sequence": "2026-11-34273",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:24:08Z",
+   "created": "2026-11-24T16:24:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "803 BRYNWOOD DR",
+   "cross": "OAK TREE DR/BRYNWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.119464,
+   "lon": -85.272419,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827358",
+   "sequence": "2026-11-34274",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:24:08Z",
+   "created": "2026-11-24T16:24:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "803 BRYNWOOD DR",
+   "cross": "OAK TREE DR/BRYNWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.119464,
+   "lon": -85.272419,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827351",
+   "sequence": "2026-11-34277",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:24:39Z",
+   "created": "2026-11-24T16:24:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3117 E 45TH ST",
+   "cross": "14TH AVE/15TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 4",
+   "lat": 34.988804,
+   "lon": -85.282855,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827350",
+   "sequence": "2026-11-34272",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:23:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "803 BRYNWOOD DR",
+   "cross": "OAK TREE DR/BRYNWOOD TER",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.119464,
+   "lon": -85.272419,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827347",
+   "sequence": "2026-11-34269",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:22:24Z",
+   "created": "2026-11-24T16:22:24Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.107254,
+   "lon": -85.157573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827348",
+   "sequence": "2026-11-34270",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:22:24Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 1",
+   "lat": 35.107254,
+   "lon": -85.157573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827345",
+   "sequence": "2026-11-34267",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:22:16Z",
+   "created": "2026-11-24T16:22:16Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6017 HUNTER RD",
+   "cross": "BARKLEY CREEK DR/HUNTER GLEN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.121119,
+   "lon": -85.100355,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827344",
+   "sequence": "2026-11-34266",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:22:15Z",
+   "created": "2026-11-24T16:22:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6017 HUNTER RD",
+   "cross": "BARKLEY CREEK DR/HUNTER GLEN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.121119,
+   "lon": -85.100355,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827336",
+   "sequence": "2026-11-34268",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:21:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.107254,
+   "lon": -85.157573,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827330",
    "sequence": "2026-11-34260",
@@ -104,10 +338,36 @@
    "address": "4818 HIGHWAY 58",
    "cross": "OAKWOOD DR/GOLD WING WAY",
    "city": "CHATTANOOGA",
-   "zone": "C5",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.090258,
    "lon": -85.184602,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827320",
+   "sequence": "2026-11-34265",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:16:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6017 HUNTER RD",
+   "cross": "BARKLEY CREEK DR/HUNTER GLEN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.121119,
+   "lon": -85.100355,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +402,8 @@
    "id": "9827310",
    "sequence": "2026-11-34251",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:22:45Z",
    "created": "2026-11-24T16:13:38Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -220,8 +480,8 @@
    "id": "9827279",
    "sequence": "2026-11-34231",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:25:34Z",
    "created": "2026-11-24T15:59:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.124511,
    "lon": -85.116661,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827272",
-   "sequence": "2026-11-34224",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:56:08Z",
-   "created": "2026-11-24T15:56:08Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1610 SEDGEFIELD DR",
-   "cross": "COBBLECREEK WAY/COBBLECREEK WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3-CATOOSA B",
-   "priority": "PRI 1",
-   "lat": 34.992566,
-   "lon": -85.097415,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +584,8 @@
    "id": "9827252",
    "sequence": "2026-11-34214",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:20:56Z",
    "created": "2026-11-24T15:50:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,37 +607,11 @@
    "notable": false
   },
   {
-   "id": "9827246",
-   "sequence": "2026-11-34207",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:44:24Z",
-   "created": "2026-11-24T15:44:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7504 BORISS DR",
-   "cross": "PLANTATION DR/BISHOP DR",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 2",
-   "lat": 35.066304,
-   "lon": -85.167825,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827242",
    "sequence": "2026-11-34206",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:52:31Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T16:21:58Z",
    "created": "2026-11-24T15:43:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.066304,
    "lon": -85.167825,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827243",
-   "sequence": "2026-11-34205",
-   "type": "MVC No Response",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:47:08Z",
-   "created": "2026-11-24T15:43:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "OAK ST / PALMETTO ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 0",
-   "lat": 35.04465,
-   "lon": -85.295303,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +662,8 @@
    "id": "9827224",
    "sequence": "2026-11-34191",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T15:51:59Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T16:23:04Z",
    "created": "2026-11-24T15:32:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +714,8 @@
    "id": "9827213",
    "sequence": "2026-11-34183",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:30:04Z",
+   "status": "Enroute",
+   "status_at": "2026-11-24T16:22:19Z",
    "created": "2026-11-24T15:30:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -576,6 +758,32 @@
    "priority": "PRI 1",
    "lat": 35.049199,
    "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827197",
+   "sequence": "2026-11-34173",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": "2026-11-24T15:40:19Z",
+   "created": "2026-11-24T15:24:55Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9875 HAVEN PORT LN",
+   "cross": "OOLTEWAH RINGGOLD RD/OOLTEWAH RINGGOLD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.004866,
+   "lon": -85.088808,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -680,32 +888,6 @@
    "priority": "PRI 3",
    "lat": 35.041262,
    "lon": -85.269722,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827019",
-   "sequence": "2026-11-34047",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:00:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "625 GEORGIA AVE",
-   "cross": "E 6TH ST/LOOKOUT ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.049301,
-   "lon": -85.306913,
    "units": 1,
    "stacked": false,
    "notable": false
