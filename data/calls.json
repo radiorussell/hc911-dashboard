@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T04:20:39+00:00",
+ "updated": "2026-11-24T04:25:37+00:00",
  "counts": {
-  "year": 371916,
+  "year": 371924,
   "upstream_day": 0,
-  "day": 1503,
+  "day": 1509,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9826588",
+   "sequence": "2026-11-33707",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:25:01Z",
+   "created": "2026-11-24T04:25:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "413 SPRING ST",
+   "cross": "HARPER ST/DAVENPORT ST",
+   "city": "CHATTANOOGA",
+   "zone": "1202 A",
+   "priority": "PRI 1",
+   "lat": 35.067898,
+   "lon": -85.314482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826586",
+   "sequence": "2026-11-33708",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:25:10Z",
+   "created": "2026-11-24T04:24:49Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "THRASHER PIKE / FRONTAGE RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.210873,
+   "lon": -85.21465,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826583",
+   "sequence": "2026-11-33706",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T04:24:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "413 SPRING ST",
+   "cross": "HARPER ST/DAVENPORT ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.067898,
+   "lon": -85.314482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826579",
    "sequence": "2026-11-33702",
@@ -116,8 +194,8 @@
    "id": "9826570",
    "sequence": "2026-11-33694",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T04:22:59Z",
    "created": "2026-11-24T04:09:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
