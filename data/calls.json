@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T22:00:37+00:00",
+ "updated": "2026-11-24T22:05:38+00:00",
  "counts": {
-  "year": 372725,
-  "upstream_day": 783,
-  "day": 1041,
+  "year": 372736,
+  "upstream_day": 794,
+  "day": 1050,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9828116",
+   "sequence": "2026-11-34778",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-24T22:05:19Z",
+   "created": "2026-11-24T22:05:19Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MORRISON SPRINGS RD / EXIT MORRISON SPRINGS RD ON RAMP SB",
+   "cross": "",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.122547,
+   "lon": -85.297572,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828114",
+   "sequence": "2026-11-34777",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:03:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "725 E 48TH ST",
+   "cross": "WILSON RD/JEFFERY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 1",
+   "lat": 34.992863,
+   "lon": -85.305707,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828115",
+   "sequence": "2026-11-34776",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:03:37Z",
+   "created": "2026-11-24T22:03:37Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "307 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.386777,
+   "lon": -85.116271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828113",
+   "sequence": "2026-11-34775",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:02:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "307 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.386777,
+   "lon": -85.116271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828105",
    "sequence": "2026-11-34769",
@@ -38,8 +142,8 @@
    "id": "9828103",
    "sequence": "2026-11-34767",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T21:55:14Z",
    "created": "2026-11-24T21:54:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,15 +161,15 @@
    "lat": 35.022798,
    "lon": -85.388324,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9828100",
    "sequence": "2026-11-34765",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:03:11Z",
    "created": "2026-11-24T21:53:53Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -117,7 +221,7 @@
    "sequence": "2026-11-34762",
    "type": "Assault PD Only",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T22:02:37Z",
    "created": "2026-11-24T21:50:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.049199,
    "lon": -85.275837,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828090",
-   "sequence": "2026-11-34757",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T21:47:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "626 LADD AVE",
-   "cross": "WAYNE AVE/WHITEHALL RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.070117,
-   "lon": -85.323319,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +454,8 @@
    "id": "9828073",
    "sequence": "2026-11-34746",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T21:42:09Z",
    "created": "2026-11-24T21:41:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -395,7 +473,7 @@
    "lat": 35.033139,
    "lon": -85.319777,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -836,32 +914,6 @@
    "priority": "PRI 2",
    "lat": 35.005624,
    "lon": -85.331097,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827851",
-   "sequence": "2026-11-34591",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T20:55:58Z",
-   "created": "2026-11-24T19:51:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
    "units": 1,
    "stacked": false,
    "notable": false
