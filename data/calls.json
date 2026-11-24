@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-24T22:40:37+00:00",
+ "updated": "2026-11-24T22:45:41+00:00",
  "counts": {
-  "year": 372758,
-  "upstream_day": 816,
-  "day": 1097,
+  "year": 372773,
+  "upstream_day": 831,
+  "day": 1106,
   "day_basis": "midnight"
  },
- "raw_rows": 43,
+ "raw_rows": 46,
  "incidents": [
+  {
+   "id": "9828183",
+   "sequence": "2026-11-34834",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:43:20Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "13902 MOUNT ANNIE CHURCH RD",
+   "cross": "MOUNT TABOR RD/MOORE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 3",
+   "lat": 35.332549,
+   "lon": -85.080413,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828180",
+   "sequence": "2026-11-34833",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:42:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "13902 MOUNT ANNIE CHURCH RD",
+   "cross": "MOUNT TABOR RD/MOORE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 2",
+   "lat": 35.332549,
+   "lon": -85.080413,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828178",
+   "sequence": "2026-11-34828",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:41:15Z",
+   "created": "2026-11-24T22:41:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "12438 NEE CEE DR",
+   "cross": "OTTAWA DR/PIMA TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 3",
+   "lat": 35.310423,
+   "lon": -85.127163,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828179",
+   "sequence": "2026-11-34829",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:41:15Z",
+   "created": "2026-11-24T22:41:15Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "12438 NEE CEE DR",
+   "cross": "OTTAWA DR/PIMA TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.310423,
+   "lon": -85.127163,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828176",
+   "sequence": "2026-11-34827",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:40:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "12438 NEE CEE DR",
+   "cross": "OTTAWA DR/PIMA TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.310423,
+   "lon": -85.127163,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828177",
+   "sequence": "2026-11-34826",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:40:38Z",
+   "created": "2026-11-24T22:40:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3354 ADKINS RD",
+   "cross": "LOOKOUT HIGH ST/ISBILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.036505,
+   "lon": -85.366794,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828175",
    "sequence": "2026-11-34825",
    "type": "Abandoned Auto",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:39:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T22:39:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +298,8 @@
    "id": "9828166",
    "sequence": "2026-11-34818",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:34:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T22:34:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -376,8 +532,8 @@
    "id": "9828153",
    "sequence": "2026-11-34808",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:42:24Z",
    "created": "2026-11-24T22:30:36Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -506,8 +662,8 @@
    "id": "9828129",
    "sequence": "2026-11-34788",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:42:40Z",
    "created": "2026-11-24T22:12:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -633,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9828121",
-   "sequence": "2026-11-34781",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T22:08:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2335 ROSSVILLE BLVD",
-   "cross": "POLK ST/CANNON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.023944,
-   "lon": -85.297912,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828115",
    "sequence": "2026-11-34776",
    "type": "EMS CALL",
@@ -706,58 +836,6 @@
    "priority": "PRI 1",
    "lat": 35.386777,
    "lon": -85.116271,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828105",
-   "sequence": "2026-11-34769",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T21:55:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7738 BASSWOOD DR",
-   "cross": "ARCHER RD/BASSWOOD LN",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.079579,
-   "lon": -85.16676,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828103",
-   "sequence": "2026-11-34767",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:24:53Z",
-   "created": "2026-11-24T21:54:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CUMMINGS HWY / W END AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.022798,
-   "lon": -85.388324,
    "units": 1,
    "stacked": false,
    "notable": false
