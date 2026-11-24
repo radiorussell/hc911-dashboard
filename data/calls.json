@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T00:20:38+00:00",
+ "updated": "2026-11-24T00:25:38+00:00",
  "counts": {
-  "year": 371722,
-  "upstream_day": 0,
-  "day": 1259,
+  "year": null,
+  "upstream_day": null,
+  "day": 1261,
   "day_basis": "midnight"
  },
  "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9826297",
+   "sequence": "2026-11-33460",
+   "type": "Missing Juv Not 21",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:21:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4710 SABRINA LN",
+   "cross": "No Cross Street/NORCROSS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.139047,
+   "lon": -85.25298,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9826294",
    "sequence": "2026-11-33457",
@@ -134,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.002395,
    "lon": -85.137009,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826283",
-   "sequence": "2026-11-33449",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T00:12:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2220 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.03764,
-   "lon": -85.151442,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -454,8 +454,8 @@
    "id": "9826238",
    "sequence": "2026-11-33412",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-23T23:48:15Z",
    "created": "2026-11-23T23:47:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,7 +473,7 @@
    "lat": 35.048005,
    "lon": -85.309458,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
