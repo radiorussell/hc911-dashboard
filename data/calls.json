@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T19:55:38+00:00",
+ "updated": "2026-11-24T20:00:40+00:00",
  "counts": {
   "year": 372596,
   "upstream_day": 655,
-  "day": 870,
+  "day": 874,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9827863",
+   "sequence": "2026-11-34602",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:59:59Z",
+   "created": "2026-11-24T19:59:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "30 N MARKET ST",
+   "cross": "RIVERSIDE DR/CHEROKEE BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.058415,
+   "lon": -85.309303,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827860",
+   "sequence": "2026-11-34600",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:55:56Z",
+   "created": "2026-11-24T19:55:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827858",
    "sequence": "2026-11-34598",
@@ -105,7 +157,7 @@
    "cross": "STANDIFER GAP RD/TYNER RD",
    "city": "CHATTANOOGA",
    "zone": "701 B",
-   "priority": "PRI 2",
+   "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
    "units": 1,
@@ -221,7 +273,7 @@
    "sequence": "2026-11-34581",
    "type": "Theft From a Vehicle",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T19:58:03Z",
    "created": "2026-11-24T19:45:08Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -295,58 +347,6 @@
    "notable": false
   },
   {
-   "id": "9827804",
-   "sequence": "2026-11-34560",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:49:04Z",
-   "created": "2026-11-24T19:28:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4300 - 4399 HOWELL RD",
-   "cross": "TALLEY RD/WOODMORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.03279,
-   "lon": -85.229719,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827802",
-   "sequence": "2026-11-34558",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:41:57Z",
-   "created": "2026-11-24T19:27:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DODDS AVE / ANDERSON AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 4",
-   "lat": 35.02609,
-   "lon": -85.267169,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827798",
    "sequence": "2026-11-34557",
    "type": "Check For A Hazard",
@@ -402,8 +402,8 @@
    "id": "9827776",
    "sequence": "2026-11-34545",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:43:05Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T19:55:37Z",
    "created": "2026-11-24T19:17:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +506,8 @@
    "id": "9827754",
    "sequence": "2026-11-34529",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:32:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T19:59:04Z",
    "created": "2026-11-24T19:09:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827727",
-   "sequence": "2026-11-34512",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:00:19Z",
-   "created": "2026-11-24T18:57:37Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5700 ROPER ST",
-   "cross": "No Cross Street/D ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.986357,
-   "lon": -85.224835,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -711,32 +685,6 @@
    "notable": false
   },
   {
-   "id": "9827689",
-   "sequence": "2026-11-34490",
-   "type": "Deceptive Practice",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:09:33Z",
-   "created": "2026-11-24T18:45:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3367 BROMLEY LN",
-   "cross": "S TULIP AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.018343,
-   "lon": -85.372705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827668",
    "sequence": "2026-11-34470",
    "type": "EMS CALL",
@@ -758,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.115468,
    "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827649",
-   "sequence": "2026-11-34450",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T18:18:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "621 E MARTIN LUTHER KING BLVD",
-   "cross": "UNIVERSITY ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.043119,
-   "lon": -85.300586,
    "units": 1,
    "stacked": false,
    "notable": false
