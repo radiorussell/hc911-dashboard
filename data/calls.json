@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T07:35:37+00:00",
+ "updated": "2026-11-24T07:40:39+00:00",
  "counts": {
   "year": 371988,
   "upstream_day": 47,
   "day": 61,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9826682",
    "sequence": "2026-11-33789",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:36:18Z",
    "created": "2026-11-24T07:28:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9826671",
-   "sequence": "2026-11-33778",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T06:59:25Z",
-   "created": "2026-11-24T06:59:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6800 - 8298 FERDINAND PIECH WAY",
-   "cross": "VOLKSWAGEN DR/CLARK RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 2",
-   "lat": 35.107347,
-   "lon": -85.144781,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826667",
    "sequence": "2026-11-33774",
    "type": "EMS CALL",
@@ -157,32 +131,6 @@
    "cross": "BLUE ASH DR/HUNTER RD",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.118141,
-   "lon": -85.097013,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826668",
-   "sequence": "2026-11-33775",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T07:21:00Z",
-   "created": "2026-11-24T06:56:03Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6904 BENWOOD DR",
-   "cross": "BLUE ASH DR/HUNTER RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
    "priority": "PRI 3",
    "lat": 35.118141,
    "lon": -85.097013,
@@ -220,8 +168,8 @@
    "id": "9826659",
    "sequence": "2026-11-33768",
    "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-24T07:28:29Z",
+   "status": "Queued",
+   "status_at": "2026-11-24T06:46:41Z",
    "created": "2026-11-24T06:45:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
