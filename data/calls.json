@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T20:00:40+00:00",
+ "updated": "2026-11-24T20:05:45+00:00",
  "counts": {
-  "year": 372596,
-  "upstream_day": 655,
-  "day": 874,
+  "year": 372606,
+  "upstream_day": 665,
+  "day": 878,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9827868",
+   "sequence": "2026-11-34605",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:05:31Z",
+   "created": "2026-11-24T20:05:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ROSSVILLE BLVD / E 23RD ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.024506,
+   "lon": -85.297975,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827869",
+   "sequence": "2026-11-34606",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:05:31Z",
+   "created": "2026-11-24T20:05:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SAWYER PIKE / ROBERTS MILL RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.218497,
+   "lon": -85.272963,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827867",
+   "sequence": "2026-11-34604",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:05:08Z",
+   "created": "2026-11-24T20:04:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827866",
+   "sequence": "2026-11-34603",
+   "type": "Auto Broken Down",
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:04:38Z",
+   "created": "2026-11-24T20:03:56Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "801 - 1365 ROBERTS MILL RD",
+   "cross": "ROCKY LEDGE DR/MOUNTAIN LAUREL TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 4",
+   "lat": 35.21379,
+   "lon": -85.26089,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827863",
    "sequence": "2026-11-34602",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:59:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:59:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9827853",
    "sequence": "2026-11-34593",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:52:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:52:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
