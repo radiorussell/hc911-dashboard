@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T21:10:39+00:00",
+ "updated": "2026-11-24T21:15:37+00:00",
  "counts": {
-  "year": 372671,
-  "upstream_day": 730,
+  "year": 372691,
+  "upstream_day": 750,
   "day": 979,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 33,
  "incidents": [
   {
    "id": "9828018",
    "sequence": "2026-11-34707",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:07:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T21:06:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9828009",
    "sequence": "2026-11-34699",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:11:37Z",
    "created": "2026-11-24T21:03:44Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9828006",
    "sequence": "2026-11-34695",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:11:26Z",
    "created": "2026-11-24T21:02:40Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -298,8 +298,8 @@
    "id": "9827999",
    "sequence": "2026-11-34691",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T21:11:59Z",
    "created": "2026-11-24T21:01:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,63 +399,11 @@
    "notable": false
   },
   {
-   "id": "9827988",
-   "sequence": "2026-11-34680",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T20:56:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3812 LERCH ST",
-   "cross": "HILL TOP DR/BELVOIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.015299,
-   "lon": -85.244892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827989",
-   "sequence": "2026-11-34681",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:56:04Z",
-   "created": "2026-11-24T20:56:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3812 LERCH ST",
-   "cross": "HILL TOP DR/BELVOIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1304 A",
-   "priority": "PRI 2",
-   "lat": 35.015299,
-   "lon": -85.244892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827981",
    "sequence": "2026-11-34678",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T21:14:39Z",
    "created": "2026-11-24T20:53:29Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -550,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.035445,
    "lon": -85.186093,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827944",
-   "sequence": "2026-11-34664",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T20:37:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "101 - 299 GEORGIA AVE",
-   "cross": "BARTON AVE/EXIT RIVERSIDE DR OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.057224,
-   "lon": -85.302579,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -737,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9827900",
-   "sequence": "2026-11-34629",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:05:21Z",
-   "created": "2026-11-24T20:21:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "375 WAUHATCHIE PIKE",
-   "cross": "CUMMINGS HWY/CUMMINGS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.007811,
-   "lon": -85.376709,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827889",
    "sequence": "2026-11-34619",
    "type": "EMS CALL",
@@ -784,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.117624,
    "lon": -85.253355,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827887",
-   "sequence": "2026-11-34618",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-24T20:47:33Z",
-   "created": "2026-11-24T20:12:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2811 FAXON ST",
-   "cross": "E 28TH ST/BROWN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 4",
-   "lat": 35.012967,
-   "lon": -85.289827,
    "units": 1,
    "stacked": false,
    "notable": false
