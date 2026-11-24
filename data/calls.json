@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-24T11:50:38+00:00",
+ "updated": "2026-11-24T11:55:39+00:00",
  "counts": {
-  "year": 372053,
-  "upstream_day": 112,
-  "day": 166,
+  "year": 372065,
+  "upstream_day": 124,
+  "day": 170,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9826821",
+   "sequence": "2026-11-33898",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-24T11:52:05Z",
+   "created": "2026-11-24T11:52:05Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "200 TURNER RD",
+   "cross": "WALDEN ST/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.262808,
+   "lon": -85.171632,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826816",
+   "sequence": "2026-11-33897",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-24T11:50:53Z",
+   "created": "2026-11-24T11:50:17Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5320 SPRIGGS ST",
+   "cross": "MCBRIEN RD/FELTON ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.990007,
+   "lon": -85.236262,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826815",
    "sequence": "2026-11-33894",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:49:57Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T11:54:42Z",
    "created": "2026-11-24T11:49:41Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9826812",
    "sequence": "2026-11-33891",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T11:53:25Z",
    "created": "2026-11-24T11:48:23Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -246,8 +298,8 @@
    "id": "9826802",
    "sequence": "2026-11-33881",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T11:53:06Z",
    "created": "2026-11-24T11:43:03Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9826789",
    "sequence": "2026-11-33874",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:49:45Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T11:55:38Z",
    "created": "2026-11-24T11:37:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -472,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826770",
-   "sequence": "2026-11-33861",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T11:26:58Z",
-   "created": "2026-11-24T11:16:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7834 ROSEMARY CIR",
-   "cross": "MURPHY RD/HANCOCK RD",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.083266,
-   "lon": -85.17379,
    "units": 1,
    "stacked": false,
    "notable": false
