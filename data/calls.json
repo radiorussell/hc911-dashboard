@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-24T15:30:39+00:00",
+ "updated": "2026-11-24T15:35:38+00:00",
  "counts": {
-  "year": 372270,
-  "upstream_day": 329,
-  "day": 455,
+  "year": 372282,
+  "upstream_day": 341,
+  "day": 465,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9827226",
+   "sequence": "2026-11-34192",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:33:43Z",
+   "created": "2026-11-24T15:33:43Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1115 OSAGE DR",
+   "cross": "PETERS RD/BAILEY FARMS RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.285989,
+   "lon": -85.129263,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827227",
+   "sequence": "2026-11-34193",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:33:43Z",
+   "created": "2026-11-24T15:33:43Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1115 OSAGE DR",
+   "cross": "PETERS RD/BAILEY FARMS RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.285989,
+   "lon": -85.129263,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827224",
+   "sequence": "2026-11-34191",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:32:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1115 OSAGE DR",
+   "cross": "PETERS RD/BAILEY FARMS RD",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 02 SD B",
+   "priority": "PRI 1",
+   "lat": 35.285989,
+   "lon": -85.129263,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827221",
+   "sequence": "2026-11-34188",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:32:18Z",
+   "created": "2026-11-24T15:31:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6108 VANCE RD",
+   "cross": "VANCE CIR/AIRPARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.035731,
+   "lon": -85.189412,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827219",
+   "sequence": "2026-11-34186",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:31:36Z",
+   "created": "2026-11-24T15:31:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3901 HIXSON PIKE",
+   "cross": "KENSINGTON DR/NORCROSS RD",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.115281,
+   "lon": -85.26244,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827218",
+   "sequence": "2026-11-34185",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:31:24Z",
+   "created": "2026-11-24T15:31:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2211 DAVENPORT ST",
+   "cross": "CHEEK ST/CRUTCHFIELD ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 4",
+   "lat": 35.062958,
+   "lon": -85.252611,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827213",
    "sequence": "2026-11-34183",
@@ -26,7 +182,7 @@
    "address": "3194 CRESTFIELD DR",
    "cross": "GREENWOOD RD/SCHOOL DR",
    "city": "CHATTANOOGA",
-   "zone": "C1",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.049977,
    "lon": -85.242456,
@@ -64,8 +220,8 @@
    "id": "9827210",
    "sequence": "2026-11-34180",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:32:02Z",
    "created": "2026-11-24T15:27:09Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -142,8 +298,8 @@
    "id": "9827201",
    "sequence": "2026-11-34174",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T15:35:31Z",
    "created": "2026-11-24T15:24:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +342,6 @@
    "priority": "PRI 4",
    "lat": 35.004866,
    "lon": -85.088808,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827194",
-   "sequence": "2026-11-34169",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T15:23:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "200 - 249 N KELLEY ST",
-   "cross": "VINE ST/IVY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.036062,
-   "lon": -85.269764,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 34.992866,
    "lon": -85.212622,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827162",
-   "sequence": "2026-11-34147",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:08:21Z",
-   "created": "2026-11-24T15:08:21Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6401 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 2",
-   "lat": 35.052227,
-   "lon": -85.174917,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -584,8 +688,8 @@
    "id": "9827022",
    "sequence": "2026-11-34048",
    "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-24T14:01:59Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:14:08Z",
    "created": "2026-11-24T14:01:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -603,15 +707,15 @@
    "lat": 35.041262,
    "lon": -85.269722,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9827019",
    "sequence": "2026-11-34047",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:30:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:00:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
