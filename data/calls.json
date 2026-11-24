@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T20:30:38+00:00",
+ "updated": "2026-11-24T20:35:39+00:00",
  "counts": {
-  "year": 372624,
-  "upstream_day": 683,
-  "day": 919,
+  "year": 372638,
+  "upstream_day": 697,
+  "day": 921,
   "day_basis": "midnight"
  },
  "raw_rows": 42,
  "incidents": [
   {
+   "id": "9827937",
+   "sequence": "2026-11-34649",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:31:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 2",
+   "lat": 35.112127,
+   "lon": -85.271359,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9827933",
    "sequence": "2026-11-34646",
    "type": "EMS Standby With FD",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:30:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T20:30:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,6 +82,32 @@
    "priority": "PRI 4",
    "lat": 35.132877,
    "lon": -85.238307,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827922",
+   "sequence": "2026-11-34648",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:30:58Z",
+   "created": "2026-11-24T20:26:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3467 WILCOX BLVD",
+   "cross": "TUNNEL BLVD/PARKWAY DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.047213,
+   "lon": -85.236878,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9827920",
    "sequence": "2026-11-34638",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:32:09Z",
    "created": "2026-11-24T20:26:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9827918",
    "sequence": "2026-11-34641",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:26:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T20:26:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9827911",
    "sequence": "2026-11-34635",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:32:00Z",
    "created": "2026-11-24T20:24:20Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -350,8 +402,8 @@
    "id": "9827897",
    "sequence": "2026-11-34626",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:32:24Z",
    "created": "2026-11-24T20:20:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -763,32 +815,6 @@
    "notable": false
   },
   {
-   "id": "9827840",
-   "sequence": "2026-11-34581",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:58:03Z",
-   "created": "2026-11-24T19:45:08Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5330 DUPONT ST",
-   "cross": "FELTON ST/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.990155,
-   "lon": -85.234874,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827829",
    "sequence": "2026-11-34578",
    "type": "MVC Delayed",
@@ -844,8 +870,8 @@
    "id": "9827790",
    "sequence": "2026-11-34555",
    "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T19:46:00Z",
+   "status": "Stacked",
+   "status_at": "2026-11-24T19:25:03Z",
    "created": "2026-11-24T19:23:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -863,7 +889,7 @@
    "lat": 34.992823,
    "lon": -85.285678,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -974,8 +1000,8 @@
    "id": "9827754",
    "sequence": "2026-11-34529",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T19:59:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T20:32:44Z",
    "created": "2026-11-24T19:09:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1018,32 +1044,6 @@
    "priority": "PRI 1",
    "lat": 35.053049,
    "lon": -85.241904,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827690",
-   "sequence": "2026-11-34486",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T19:24:01Z",
-   "created": "2026-11-24T18:45:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4343 COMET TRL",
-   "cross": "MILKY WAY/NORTHGATE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.124838,
-   "lon": -85.260308,
    "units": 1,
    "stacked": false,
    "notable": false
