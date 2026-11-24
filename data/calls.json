@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-24T04:15:37+00:00",
+ "updated": "2026-11-24T04:20:39+00:00",
  "counts": {
   "year": 371916,
   "upstream_day": 0,
-  "day": 1497,
+  "day": 1503,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
   {
-   "id": "9826572",
-   "sequence": "2026-11-33695",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T04:10:28Z",
-   "created": "2026-11-24T04:10:28Z",
+   "id": "9826579",
+   "sequence": "2026-11-33702",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T04:16:47Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
     "Soddy Daisy PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "8783 DAYTON PIKE",
-   "cross": "MIMOSA DR/SHEARER ST",
+   "address": "419 HOGUE ST",
+   "cross": "WALL ST/No Cross Street",
    "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
+   "zone": "SODDY DAISY 12",
    "priority": "PRI 3",
-   "lat": 35.225566,
-   "lon": -85.217768,
+   "lat": 35.28629,
+   "lon": -85.169509,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -54,6 +54,32 @@
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY FD 3",
    "priority": "PRI 1",
+   "lat": 35.225566,
+   "lon": -85.217768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826572",
+   "sequence": "2026-11-33695",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T04:10:28Z",
+   "created": "2026-11-24T04:10:28Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8783 DAYTON PIKE",
+   "cross": "MIMOSA DR/SHEARER ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
    "lat": 35.225566,
    "lon": -85.217768,
    "units": 1,
