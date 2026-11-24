@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T14:40:42+00:00",
+ "updated": "2026-11-24T14:45:40+00:00",
  "counts": {
-  "year": 372217,
-  "upstream_day": 276,
-  "day": 371,
+  "year": 372226,
+  "upstream_day": 285,
+  "day": 375,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9827109",
+   "sequence": "2026-11-34103",
+   "type": "Backup Other Agency",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:44:49Z",
+   "created": "2026-11-24T14:44:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "325 CYNDICA DR",
+   "cross": "BRENTLY ESTATES DR/BRENTLY WOODS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 2",
+   "lat": 35.000895,
+   "lon": -85.123658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827101",
    "sequence": "2026-11-34099",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:40:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:39:33Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9827100",
    "sequence": "2026-11-34098",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:38:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:38:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9827099",
    "sequence": "2026-11-34097",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:43:16Z",
    "created": "2026-11-24T14:36:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9827091",
-   "sequence": "2026-11-34093",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:32:21Z",
-   "created": "2026-11-24T14:32:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7450 TYNER RD",
-   "cross": "LEE HWY/WALKER RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.055564,
-   "lon": -85.13852,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827088",
    "sequence": "2026-11-34089",
    "type": "Harrassing Threats",
@@ -186,32 +186,6 @@
    "priority": "PRI 3",
    "lat": 35.114128,
    "lon": -85.087679,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827071",
-   "sequence": "2026-11-34080",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:33:01Z",
-   "created": "2026-11-24T14:24:06Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DAYTON PIKE / CAP ELSEA RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.427317,
-   "lon": -85.085708,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +220,8 @@
    "id": "9827067",
    "sequence": "2026-11-34076",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:41:48Z",
    "created": "2026-11-24T14:22:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,58 +264,6 @@
    "priority": "PRI 1",
    "lat": 34.992108,
    "lon": -85.201143,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827057",
-   "sequence": "2026-11-34066",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:15:13Z",
-   "created": "2026-11-24T14:15:13Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1231 SEQUOYAH RD",
-   "cross": "BARBEE RD/DALLAS HOLLOW RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.232874,
-   "lon": -85.151427,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827052",
-   "sequence": "2026-11-34065",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:24:50Z",
-   "created": "2026-11-24T14:14:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1231 SEQUOYAH RD",
-   "cross": "BARBEE RD/DALLAS HOLLOW RD",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.232874,
-   "lon": -85.151427,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -602,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 34.989949,
    "lon": -85.305673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826959",
-   "sequence": "2026-11-34005",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T13:56:54Z",
-   "created": "2026-11-24T13:22:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.152975,
-   "lon": -85.24562,
    "units": 1,
    "stacked": false,
    "notable": false
