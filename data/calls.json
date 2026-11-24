@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T02:55:36+00:00",
+ "updated": "2026-11-24T03:00:37+00:00",
  "counts": {
   "year": 371877,
   "upstream_day": 0,
-  "day": 1435,
+  "day": 1437,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9826509",
+   "sequence": "2026-11-33636",
+   "type": "AFA Residential",
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:59:30Z",
+   "created": "2026-11-24T02:56:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "836 GILLESPIE RD",
+   "cross": "BELLE VISTA AVE/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "1506",
+   "priority": "PRI 1",
+   "lat": 35.036925,
+   "lon": -85.238152,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826501",
    "sequence": "2026-11-33633",
@@ -64,8 +90,8 @@
    "id": "9826498",
    "sequence": "2026-11-33631",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:57:40Z",
    "created": "2026-11-24T02:45:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.062783,
    "lon": -85.060384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826499",
-   "sequence": "2026-11-33634",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:49:45Z",
-   "created": "2026-11-24T02:45:15Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "953 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 1",
-   "lat": 35.047388,
-   "lon": -85.320715,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -134,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.042121,
    "lon": -85.317436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826486",
-   "sequence": "2026-11-33620",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:38:53Z",
-   "created": "2026-11-24T02:34:30Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4150 RINGGOLD RD",
-   "cross": "CEMETERY RD/E RIDGE AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.996398,
-   "lon": -85.245409,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +220,8 @@
    "id": "9826456",
    "sequence": "2026-11-33596",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T02:44:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T02:59:35Z",
    "created": "2026-11-24T02:12:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.05263,
    "lon": -85.353592,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826432",
-   "sequence": "2026-11-33568",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T01:53:21Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8331 HARVEST OAK LN",
-   "cross": "BENT OAK RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.043407,
-   "lon": -85.10735,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9826295",
-   "sequence": "2026-11-33458",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826294",
    "sequence": "2026-11-33457",
    "type": "Street Status",
@@ -469,6 +391,32 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "506",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826295",
+   "sequence": "2026-11-33458",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
