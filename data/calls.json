@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T10:35:42+00:00",
+ "updated": "2026-11-24T10:40:37+00:00",
  "counts": {
   "year": 372024,
   "upstream_day": 83,
-  "day": 109,
+  "day": 118,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9826747",
+   "sequence": "2026-11-33845",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T10:40:17Z",
+   "created": "2026-11-24T10:40:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826748",
+   "sequence": "2026-11-33846",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T10:40:17Z",
+   "created": "2026-11-24T10:40:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826744",
+   "sequence": "2026-11-33844",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T10:40:17Z",
+   "created": "2026-11-24T10:39:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826742",
+   "sequence": "2026-11-33841",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T10:38:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "285 S CREST RD",
+   "cross": "E VIEW DR/OLD RINGGOLD RD",
+   "city": "CHATTANOOGA",
+   "zone": "502 B",
+   "priority": "PRI 1",
+   "lat": 35.0132,
+   "lon": -85.26845,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826741",
+   "sequence": "2026-11-33840",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T10:36:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2206 E 27TH STREET CT",
+   "cross": "4TH AVE/6TH AVENUE CT",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 2",
+   "lat": 35.012367,
+   "lon": -85.282384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826736",
    "sequence": "2026-11-33837",
@@ -38,8 +168,8 @@
    "id": "9826733",
    "sequence": "2026-11-33834",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T10:40:07Z",
    "created": "2026-11-24T10:26:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -75,37 +205,11 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "2206 E 24TH STREET CT",
-   "cross": "No Cross Street/5TH AVENUE CT",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 1",
-   "lat": 35.015156,
-   "lon": -85.280749,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826729",
-   "sequence": "2026-11-33832",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T10:21:34Z",
-   "created": "2026-11-24T10:21:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
    "address": "2206 E 27TH STREET CT",
    "cross": "4TH AVE/6TH AVENUE CT",
    "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
+   "zone": "902",
+   "priority": "PRI 1",
    "lat": 35.012367,
    "lon": -85.282384,
    "units": 1,
@@ -134,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.012367,
    "lon": -85.282384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826724",
-   "sequence": "2026-11-33828",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T10:03:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.081426,
-   "lon": -85.263454,
    "units": 1,
    "stacked": false,
    "notable": false
