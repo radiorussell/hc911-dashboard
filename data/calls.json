@@ -1,19 +1,227 @@
 {
- "updated": "2026-11-24T01:40:39+00:00",
+ "updated": "2026-11-24T01:45:37+00:00",
  "counts": {
-  "year": 371799,
+  "year": 371805,
   "upstream_day": 0,
-  "day": 1348,
+  "day": 1359,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9826416",
+   "sequence": "2026-11-33558",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:45:31Z",
+   "created": "2026-11-24T01:45:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6917 MAHLON DR",
+   "cross": "MARMONS DR/LYSTRA RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 2",
+   "lat": 35.119633,
+   "lon": -85.121092,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826414",
+   "sequence": "2026-11-33556",
+   "type": "",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:44:06Z",
+   "created": "2026-11-24T01:44:06Z",
+   "jurisdiction": "HC911",
+   "agencies": [
+    "HC911"
+   ],
+   "agency_type": "HC911",
+   "agency_types": [
+    "HC911"
+   ],
+   "address": "35°01'43.47\"N / 085°18'30.12\"W",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "HC911",
+   "priority": "",
+   "lat": 35.028742,
+   "lon": -85.308365,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826406",
+   "sequence": "2026-11-33554",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:41:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6860 LEE HWY",
+   "cross": "HICKORY VALLEY RD/CONNER LN",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 2",
+   "lat": 35.041274,
+   "lon": -85.167206,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826409",
+   "sequence": "2026-11-33550",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:41:12Z",
+   "created": "2026-11-24T01:41:12Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8446 SNOW HILL RD",
+   "cross": "TWISTING CREEK LN/GREENWOOD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.1644,
+   "lon": -85.05923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826410",
+   "sequence": "2026-11-33551",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:41:12Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8446 SNOW HILL RD",
+   "cross": "TWISTING CREEK LN/GREENWOOD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.1644,
+   "lon": -85.05923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826408",
+   "sequence": "2026-11-33549",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:41:06Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8446 SNOW HILL RD",
+   "cross": "TWISTING CREEK LN/GREENWOOD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.1644,
+   "lon": -85.05923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826405",
+   "sequence": "2026-11-33553",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:40:55Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9217 HARTLY PL",
+   "cross": "GREGORY DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 3",
+   "lat": 35.117,
+   "lon": -85.036735,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9826407",
+   "sequence": "2026-11-33552",
+   "type": "Alarm Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:40:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2425 E 17TH ST",
+   "cross": "S WATKINS ST/DODDS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.02086,
+   "lon": -85.273474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826396",
    "sequence": "2026-11-33547",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:36:20Z",
+   "status": "Enroute",
+   "status_at": "2026-11-24T01:44:28Z",
    "created": "2026-11-24T01:36:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +246,8 @@
    "id": "9826397",
    "sequence": "2026-11-33542",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:35:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T01:34:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -451,27 +659,27 @@
    "notable": false
   },
   {
-   "id": "9826300",
-   "sequence": "2026-11-33464",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T01:10:30Z",
-   "created": "2026-11-24T00:25:50Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "id": "9826294",
+   "sequence": "2026-11-33457",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Hamilton Co EMS"
+    "Chattanooga FD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Fire",
    "agency_types": [
-    "EMS"
+    "Fire"
    ],
-   "address": "5501 OLD HIXSON PIKE",
-   "cross": "LONGVIEW DR/HIXSON HOME PL",
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.151576,
-   "lon": -85.224751,
+   "zone": "506",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -495,32 +703,6 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826294",
-   "sequence": "2026-11-33457",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "506",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
@@ -576,6 +758,32 @@
    "priority": "PRI 1",
    "lat": 35.002381,
    "lon": -85.136636,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826106",
+   "sequence": "2026-11-33316",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:45:22Z",
+   "created": "2026-11-23T22:40:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6000 - 6199 MOUNTAIN VIEW RD",
+   "cross": "SNOW HILL RD/AMOS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.087992,
+   "lon": -85.065018,
    "units": 1,
    "stacked": false,
    "notable": false
