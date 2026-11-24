@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T08:25:37+00:00",
+ "updated": "2026-11-24T08:30:38+00:00",
  "counts": {
   "year": 371997,
   "upstream_day": 56,
-  "day": 65,
+  "day": 72,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9826695",
+   "sequence": "2026-11-33800",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T08:26:55Z",
+   "created": "2026-11-24T08:26:55Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "HICKORY VALLEY RD/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.107025,
+   "lon": -85.157883,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826694",
+   "sequence": "2026-11-33799",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T08:25:06Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "HICKORY VALLEY RD/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.107025,
+   "lon": -85.157883,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826688",
    "sequence": "2026-11-33793",
