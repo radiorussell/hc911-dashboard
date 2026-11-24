@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T10:30:39+00:00",
+ "updated": "2026-11-24T10:35:42+00:00",
  "counts": {
-  "year": 372018,
-  "upstream_day": 77,
-  "day": 106,
+  "year": 372024,
+  "upstream_day": 83,
+  "day": 109,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9826736",
+   "sequence": "2026-11-33837",
+   "type": "Disorder Weapon Involve",
+   "status": "On Scene",
+   "status_at": "2026-11-24T10:34:35Z",
+   "created": "2026-11-24T10:31:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "602 W 13TH STREET CT",
+   "cross": "POPLAR ST/CYPRESS STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 1",
+   "lat": 35.041802,
+   "lon": -85.316581,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826733",
    "sequence": "2026-11-33834",
@@ -75,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2206 E 24TH STREET CT",
-   "cross": "No Cross Street/5TH AVENUE CT",
+   "address": "2206 E 27TH STREET CT",
+   "cross": "4TH AVE/6TH AVENUE CT",
    "city": "CHATTANOOGA",
    "zone": "B8",
    "priority": "PRI 3",
-   "lat": 35.015156,
-   "lon": -85.280749,
+   "lat": 35.012367,
+   "lon": -85.282384,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +116,8 @@
    "id": "9826728",
    "sequence": "2026-11-33831",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T10:33:05Z",
    "created": "2026-11-24T10:20:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "2206 E 24TH STREET CT",
-   "cross": "No Cross Street/5TH AVENUE CT",
+   "address": "2206 E 27TH STREET CT",
+   "cross": "4TH AVE/6TH AVENUE CT",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.015156,
-   "lon": -85.280749,
+   "lat": 35.012367,
+   "lon": -85.282384,
    "units": 1,
    "stacked": false,
    "notable": false
