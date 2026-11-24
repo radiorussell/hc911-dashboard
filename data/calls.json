@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-24T03:50:39+00:00",
+ "updated": "2026-11-24T03:55:37+00:00",
  "counts": {
   "year": 371904,
   "upstream_day": 0,
-  "day": 1470,
+  "day": 1482,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9826558",
+   "sequence": "2026-11-33681",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T03:54:57Z",
+   "created": "2026-11-24T03:54:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2313 NORTHBRIER LN",
+   "cross": "No Cross Street/NORTHBRIER CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.062354,
+   "lon": -85.231925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826550",
+   "sequence": "2026-11-33677",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T03:49:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3931 DAHLIA ST",
+   "cross": "CAMELLIA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1504",
+   "priority": "PRI 3",
+   "lat": 35.059487,
+   "lon": -85.210986,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9826542",
    "sequence": "2026-11-33669",
    "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-24T03:37:47Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T03:36:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -31,7 +83,7 @@
    "lat": 35.097902,
    "lon": -85.173448,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -139,58 +191,6 @@
    "notable": false
   },
   {
-   "id": "9826534",
-   "sequence": "2026-11-33662",
-   "type": "Burglary Attempt",
-   "status": "On Scene",
-   "status_at": "2026-11-24T03:40:58Z",
-   "created": "2026-11-24T03:29:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7118 LISA GAYE LN",
-   "cross": "INDEPENDENCE LN/BUNKER HILL DR",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.019263,
-   "lon": -85.16861,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826528",
-   "sequence": "2026-11-33657",
-   "type": "Non Threatening w/weapon",
-   "status": "On Scene",
-   "status_at": "2026-11-24T03:32:16Z",
-   "created": "2026-11-24T03:27:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1200 - 1299 CYPRESS STREET CT",
-   "cross": "No Cross Street/W 13TH STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 2",
-   "lat": 35.043102,
-   "lon": -85.317507,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826519",
    "sequence": "2026-11-33645",
    "type": "EMS CALL",
@@ -240,32 +240,6 @@
    "lon": -85.272876,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826479",
-   "sequence": "2026-11-33612",
-   "type": "Domestic Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-24T02:30:08Z",
-   "created": "2026-11-24T02:29:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3906 JUNIPER ST",
-   "cross": "No Cross Street/CAMELLIA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.061184,
-   "lon": -85.212844,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
