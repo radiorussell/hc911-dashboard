@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T15:10:39+00:00",
+ "updated": "2026-11-24T15:15:38+00:00",
  "counts": {
-  "year": 372246,
-  "upstream_day": 305,
-  "day": 419,
+  "year": 372258,
+  "upstream_day": 317,
+  "day": 431,
   "day_basis": "midnight"
  },
  "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9827179",
+   "sequence": "2026-11-34159",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:13:54Z",
+   "created": "2026-11-24T15:13:54Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "237 WAUHATCHIE PIKE",
+   "cross": "CUMMINGS HWY/CUMMINGS RD",
+   "city": "CHATTANOOGA",
+   "zone": "2002",
+   "priority": "PRI 2",
+   "lat": 35.01401,
+   "lon": -85.370936,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827175",
+   "sequence": "2026-11-34158",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:13:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "237 WAUHATCHIE PIKE",
+   "cross": "CUMMINGS HWY/CUMMINGS RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.01401,
+   "lon": -85.370936,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827176",
+   "sequence": "2026-11-34156",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:13:14Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1043 FLOYD DR",
+   "cross": "MCCALL RD/HOLIDAY DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.992866,
+   "lon": -85.212622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827171",
+   "sequence": "2026-11-34155",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:11:36Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1043 FLOYD DR",
+   "cross": "MCCALL RD/HOLIDAY DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 1",
+   "lat": 34.992866,
+   "lon": -85.212622,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827161",
    "sequence": "2026-11-34146",
@@ -243,84 +347,6 @@
    "notable": false
   },
   {
-   "id": "9827129",
-   "sequence": "2026-11-34120",
-   "type": "Narcotics Violation",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:06:37Z",
-   "created": "2026-11-24T14:55:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "510 CENTRAL DR",
-   "cross": "WHIRLAWAY DR/CHARLES DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.021851,
-   "lon": -85.194085,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827118",
-   "sequence": "2026-11-34112",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:49:23Z",
-   "created": "2026-11-24T14:49:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "904",
-   "priority": "PRI 2",
-   "lat": 35.016146,
-   "lon": -85.293538,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827113",
-   "sequence": "2026-11-34108",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:54:18Z",
-   "created": "2026-11-24T14:47:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.016146,
-   "lon": -85.293538,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827110",
    "sequence": "2026-11-34106",
    "type": "Well Being Check",
@@ -342,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.110778,
    "lon": -85.321604,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827109",
-   "sequence": "2026-11-34103",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:08:44Z",
-   "created": "2026-11-24T14:44:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "325 CYNDICA DR",
-   "cross": "BRENTLY ESTATES DR/BRENTLY WOODS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 2",
-   "lat": 35.000895,
-   "lon": -85.123658,
    "units": 1,
    "stacked": false,
    "notable": false
