@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T13:40:44+00:00",
+ "updated": "2026-11-24T13:45:41+00:00",
  "counts": {
-  "year": 372156,
-  "upstream_day": 215,
-  "day": 295,
+  "year": 372162,
+  "upstream_day": 221,
+  "day": 298,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9826984",
+   "sequence": "2026-11-34026",
+   "type": "Stalking Incident",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T13:43:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4535 HIGHWAY 58",
+   "cross": "OAKHILL RD/ROCKY RIVER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 1",
+   "lat": 35.085699,
+   "lon": -85.194881,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826982",
+   "sequence": "2026-11-34025",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-24T13:42:22Z",
+   "created": "2026-11-24T13:42:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8142 - 8223 OLD LEE HWY",
+   "cross": "SCHOOL ST/WOODARD FAMILY PL",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.070324,
+   "lon": -85.099579,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826978",
    "sequence": "2026-11-34023",
@@ -38,8 +90,8 @@
    "id": "9826977",
    "sequence": "2026-11-34020",
    "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:44:54Z",
    "created": "2026-11-24T13:37:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -63,7 +115,7 @@
   {
    "id": "9826976",
    "sequence": "2026-11-34018",
-   "type": "Miscellaneous Complaint",
+   "type": "Unknown Trouble",
    "status": "Stacked",
    "status_at": "2026-11-24T13:36:10Z",
    "created": "2026-11-24T13:35:28Z",
@@ -79,37 +131,11 @@
    "cross": "CENTRAL AVE/No Cross Street",
    "city": "CHATTANOOGA",
    "zone": "A12",
-   "priority": "PRI 4",
+   "priority": "PRI 1",
    "lat": 34.994652,
    "lon": -85.318143,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9826975",
-   "sequence": "2026-11-34019",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T13:35:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6201 LEE HWY",
-   "cross": "AIRWAYS BLVD/LEE HWY",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.030317,
-   "lon": -85.18633,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -143,7 +169,7 @@
    "sequence": "2026-11-34017",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T13:43:52Z",
    "created": "2026-11-24T13:33:37Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -246,8 +272,8 @@
    "id": "9826959",
    "sequence": "2026-11-34005",
    "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-24T13:23:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T13:22:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -265,15 +291,15 @@
    "lat": 35.152975,
    "lon": -85.24562,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9826939",
    "sequence": "2026-11-33993",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T13:35:09Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T13:43:03Z",
    "created": "2026-11-24T13:12:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.254213,
    "lon": -85.179504,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826933",
-   "sequence": "2026-11-33989",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-24T13:10:03Z",
-   "created": "2026-11-24T13:10:03Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1301 JAMES BLVD",
-   "cross": "LANCASTER DR/DANBURY COVE PL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 4",
-   "lat": 35.143773,
-   "lon": -85.332206,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +480,8 @@
    "id": "9826918",
    "sequence": "2026-11-33974",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T13:36:01Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T13:43:42Z",
    "created": "2026-11-24T13:01:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,32 +602,6 @@
    "priority": "PRI 1",
    "lat": 35.017647,
    "lon": -85.061407,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826857",
-   "sequence": "2026-11-33925",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T13:07:10Z",
-   "created": "2026-11-24T12:16:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "238 W BROW RD",
-   "cross": "LAUREL LN/PROSPECT WAY",
-   "city": "LOOKOUT MOUNTAIN",
-   "zone": "MEDIC 10 LM U",
-   "priority": "PRI 1",
-   "lat": 34.998357,
-   "lon": -85.356176,
    "units": 1,
    "stacked": false,
    "notable": false
