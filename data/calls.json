@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-24T19:10:38+00:00",
+ "updated": "2026-11-24T19:15:39+00:00",
  "counts": {
-  "year": 372540,
-  "upstream_day": 599,
-  "day": 800,
+  "year": 372549,
+  "upstream_day": 608,
+  "day": 807,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9827764",
+   "sequence": "2026-11-34535",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-24T19:13:52Z",
+   "created": "2026-11-24T19:13:52Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827762",
+   "sequence": "2026-11-34534",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-24T19:13:20Z",
+   "created": "2026-11-24T19:13:20Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5100 OOLTEWAH RINGGOLD RD",
+   "cross": "APISON PIKE/DAVID SMITH LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.063196,
+   "lon": -85.06418,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827758",
+   "sequence": "2026-11-34532",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:11:27Z",
+   "created": "2026-11-24T19:11:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "409 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.093377,
+   "lon": -85.328199,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827756",
+   "sequence": "2026-11-34530",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-24T19:14:27Z",
+   "created": "2026-11-24T19:10:51Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10060 APISON PIKE",
+   "cross": "UNIVERSITY DR/TALLANT RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 3",
+   "lat": 35.054071,
+   "lon": -85.045732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827757",
+   "sequence": "2026-11-34531",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:10:51Z",
+   "created": "2026-11-24T19:10:51Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10060 APISON PIKE",
+   "cross": "UNIVERSITY DR/TALLANT RD",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 1",
+   "lat": 35.054071,
+   "lon": -85.045732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827754",
+   "sequence": "2026-11-34529",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T19:09:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "10060 APISON PIKE",
+   "cross": "UNIVERSITY DR/TALLANT RD",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.054071,
+   "lon": -85.045732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827749",
    "sequence": "2026-11-34528",
@@ -139,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9827728",
-   "sequence": "2026-11-34515",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:00:56Z",
-   "created": "2026-11-24T18:58:09Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "WATERBURY LN / E BRAINERD RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.000499,
-   "lon": -85.09663,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827727",
    "sequence": "2026-11-34512",
    "type": "Property",
@@ -243,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9827716",
-   "sequence": "2026-11-34513",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T18:55:57Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5305 BENNETT RD",
-   "cross": "WREN RD/STATE LINE RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.98689,
-   "lon": -85.23851,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827717",
    "sequence": "2026-11-34506",
    "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:10:59Z",
    "created": "2026-11-24T18:55:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -610,8 +714,8 @@
    "id": "9827649",
    "sequence": "2026-11-34450",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:18:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T18:18:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -862,32 +966,6 @@
    "priority": "PRI 3",
    "lat": 35.087626,
    "lon": -85.070053,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827480",
-   "sequence": "2026-11-34351",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-24T18:58:26Z",
-   "created": "2026-11-24T17:15:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "926 MAGNOLIA ST",
-   "cross": "E MARTIN LUTHER KING BLVD/E 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.040277,
-   "lon": -85.296474,
    "units": 1,
    "stacked": false,
    "notable": false
