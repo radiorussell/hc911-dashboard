@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-24T17:00:42+00:00",
+ "updated": "2026-11-24T17:05:38+00:00",
  "counts": {
-  "year": 372377,
-  "upstream_day": 436,
-  "day": 597,
+  "year": 372389,
+  "upstream_day": 448,
+  "day": 610,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9827450",
+   "sequence": "2026-11-34338",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:05:25Z",
+   "created": "2026-11-24T17:05:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3824 MONTVIEW DR",
+   "cross": "SUNNYSIDE DR/CRESTWAY DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.02542,
+   "lon": -85.239331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827427",
+   "sequence": "2026-11-34333",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:04:46Z",
+   "created": "2026-11-24T17:04:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3410 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.081783,
+   "lon": -85.26321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827444",
+   "sequence": "2026-11-34334",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:04:51Z",
+   "created": "2026-11-24T17:04:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4688 PRESERVE DR",
+   "cross": "No Cross Street/ZEPHYR LN",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.09833,
+   "lon": -85.186037,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827446",
+   "sequence": "2026-11-34335",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:05:01Z",
+   "created": "2026-11-24T17:04:11Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WAUHATCHIE PIKE / BIRMINGHAM HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "WEST 1 F",
+   "priority": "PRI 2",
+   "lat": 34.986666,
+   "lon": -85.391873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827441",
+   "sequence": "2026-11-34330",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:02:52Z",
+   "created": "2026-11-24T17:02:52Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1222 GROVE STREET CT",
+   "cross": "GROVE ST/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 2",
+   "lat": 35.043317,
+   "lon": -85.318182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827440",
+   "sequence": "2026-11-34329",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T17:02:51Z",
+   "created": "2026-11-24T17:02:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1222 GROVE STREET CT",
+   "cross": "GROVE ST/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.043317,
+   "lon": -85.318182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827439",
+   "sequence": "2026-11-34328",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:02:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1222 GROVE STREET CT",
+   "cross": "GROVE ST/GROVE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.043317,
+   "lon": -85.318182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827432",
    "sequence": "2026-11-34325",
@@ -35,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9827434",
-   "sequence": "2026-11-34324",
-   "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:56:55Z",
-   "created": "2026-11-24T16:56:55Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1667 OOLTEWAH RINGGOLD RD",
-   "cross": "COBBLECREEK WAY/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 34.997964,
-   "lon": -85.096726,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827431",
    "sequence": "2026-11-34323",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:02:17Z",
    "created": "2026-11-24T16:55:28Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -113,6 +269,32 @@
    "notable": false
   },
   {
+   "id": "9827429",
+   "sequence": "2026-11-34321",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:00:52Z",
+   "created": "2026-11-24T16:54:19Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9827428",
    "sequence": "2026-11-34320",
    "type": "EMS CALL",
@@ -132,32 +314,6 @@
    "city": "EAST RIDGE",
    "zone": "ERPD WEST",
    "priority": "PRI 3",
-   "lat": 35.007914,
-   "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827429",
-   "sequence": "2026-11-34321",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T16:54:19Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "918 DONALDSON RD",
-   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
    "lat": 35.007914,
    "lon": -85.260716,
    "units": 1,
@@ -324,8 +480,8 @@
    "id": "9827380",
    "sequence": "2026-11-34286",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T16:53:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:05:06Z",
    "created": "2026-11-24T16:31:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -732,32 +888,6 @@
    "priority": "PRI 4",
    "lat": 35.049977,
    "lon": -85.242456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827197",
-   "sequence": "2026-11-34173",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-24T15:40:19Z",
-   "created": "2026-11-24T15:24:55Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9875 HAVEN PORT LN",
-   "cross": "OOLTEWAH RINGGOLD RD/OOLTEWAH RINGGOLD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 35.004866,
-   "lon": -85.088808,
    "units": 1,
    "stacked": false,
    "notable": false
