@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-24T14:20:38+00:00",
+ "updated": "2026-11-24T14:25:37+00:00",
  "counts": {
-  "year": 372192,
-  "upstream_day": 251,
-  "day": 343,
+  "year": 372208,
+  "upstream_day": 267,
+  "day": 352,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9827071",
+   "sequence": "2026-11-34080",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:24:06Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DAYTON PIKE / CAP ELSEA RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.427317,
+   "lon": -85.085708,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827070",
+   "sequence": "2026-11-34077",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:22:51Z",
+   "created": "2026-11-24T14:22:51Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "515 COUNCIL FIRE DR",
+   "cross": "EAGLE MERE RD/JULIAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 34.988801,
+   "lon": -85.162373,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827067",
+   "sequence": "2026-11-34076",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:22:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "515 COUNCIL FIRE DR",
+   "cross": "EAGLE MERE RD/JULIAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 34.988801,
+   "lon": -85.162373,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827060",
    "sequence": "2026-11-34071",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:22:33Z",
    "created": "2026-11-24T14:15:36Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9827052",
    "sequence": "2026-11-34065",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:24:50Z",
    "created": "2026-11-24T14:14:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9827045",
    "sequence": "2026-11-34058",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:09:50Z",
+   "status": "Enroute",
+   "status_at": "2026-11-24T14:20:49Z",
    "created": "2026-11-24T14:09:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9827016",
-   "sequence": "2026-11-34044",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:15:36Z",
-   "created": "2026-11-24T13:59:22Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8627 BOXWOOD LN",
-   "cross": "MONTLAKE RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 2",
-   "lat": 35.228084,
-   "lon": -85.225083,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827014",
    "sequence": "2026-11-34042",
    "type": "EMS CALL",
@@ -454,8 +506,8 @@
    "id": "9826960",
    "sequence": "2026-11-34006",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T14:01:39Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T14:23:00Z",
    "created": "2026-11-24T13:22:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
