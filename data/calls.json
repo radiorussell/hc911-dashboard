@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T22:35:43+00:00",
+ "updated": "2026-11-24T22:40:37+00:00",
  "counts": {
   "year": 372758,
   "upstream_day": 816,
-  "day": 1092,
+  "day": 1097,
   "day_basis": "midnight"
  },
  "raw_rows": 43,
  "incidents": [
+  {
+   "id": "9828175",
+   "sequence": "2026-11-34825",
+   "type": "Abandoned Auto",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:39:54Z",
+   "created": "2026-11-24T22:39:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "50 BIRMINGHAM HWY",
+   "cross": "CUMMINGS HWY/MODERN INDUSTRIES PKWY",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.016171,
+   "lon": -85.38372,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828172",
+   "sequence": "2026-11-34823",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:37:39Z",
+   "created": "2026-11-24T22:37:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6415 LARAMIE CIR",
+   "cross": "NOAH REID RD/NOAH REID RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.05594,
+   "lon": -85.179109,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828173",
+   "sequence": "2026-11-34824",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:37:39Z",
+   "created": "2026-11-24T22:37:39Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6415 LARAMIE CIR",
+   "cross": "NOAH REID RD/NOAH REID RD",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.05594,
+   "lon": -85.179109,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828171",
+   "sequence": "2026-11-34822",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:37:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6415 LARAMIE CIR",
+   "cross": "NOAH REID RD/NOAH REID RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.05594,
+   "lon": -85.179109,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828168",
    "sequence": "2026-11-34820",
@@ -30,32 +134,6 @@
    "priority": "PRI 2",
    "lat": 35.04863,
    "lon": -85.145489,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828167",
-   "sequence": "2026-11-34819",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:34:17Z",
-   "created": "2026-11-24T22:34:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6220 LEE HWY",
-   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "802 C",
-   "priority": "PRI 1",
-   "lat": 35.030289,
-   "lon": -85.184651,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,11 +165,37 @@
    "notable": false
   },
   {
+   "id": "9828167",
+   "sequence": "2026-11-34819",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T22:34:17Z",
+   "created": "2026-11-24T22:34:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6220 LEE HWY",
+   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "802 C",
+   "priority": "PRI 1",
+   "lat": 35.030289,
+   "lon": -85.184651,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9828163",
    "sequence": "2026-11-34817",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:39:28Z",
    "created": "2026-11-24T22:34:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9828160",
-   "sequence": "2026-11-34813",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:33:02Z",
-   "created": "2026-11-24T22:32:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2318 LIFESTYLE WAY",
-   "cross": "SHALLOWFORD RD/ELAM LN",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.041623,
-   "lon": -85.150698,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828157",
    "sequence": "2026-11-34810",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T22:35:44Z",
    "created": "2026-11-24T22:32:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -246,8 +324,8 @@
    "id": "9828158",
    "sequence": "2026-11-34811",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:40:28Z",
    "created": "2026-11-24T22:32:14Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -350,8 +428,8 @@
    "id": "9828150",
    "sequence": "2026-11-34803",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T22:39:09Z",
    "created": "2026-11-24T22:24:54Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -371,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828146",
-   "sequence": "2026-11-34801",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T22:22:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2400 BROAD ST",
-   "cross": "EXIT 178A OFF RAMP EB/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 2",
-   "lat": 35.030337,
-   "lon": -85.315231,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828145",
@@ -714,8 +766,8 @@
    "id": "9828097",
    "sequence": "2026-11-34764",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T22:19:39Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T22:36:53Z",
    "created": "2026-11-24T21:53:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -781,32 +833,6 @@
    "cross": "DALTON LN/CHIP DR",
    "city": "HAMILTON COUNTY",
    "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.204477,
-   "lon": -85.145726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9828084",
-   "sequence": "2026-11-34752",
-   "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:46:05Z",
-   "created": "2026-11-24T21:44:59Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9001 - 9099 HIXSON PIKE",
-   "cross": "DALTON LN/CHIP DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
    "priority": "PRI 1",
    "lat": 35.204477,
    "lon": -85.145726,
@@ -888,32 +914,6 @@
    "priority": "PRI 3",
    "lat": 35.03636,
    "lon": -85.107885,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828052",
-   "sequence": "2026-11-34730",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-24T21:44:05Z",
-   "created": "2026-11-24T21:31:22Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7002 TREE LINE DR",
-   "cross": "No Cross Street/HARVEST RUN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 2",
-   "lat": 35.126138,
-   "lon": -85.135396,
    "units": 1,
    "stacked": false,
    "notable": false
