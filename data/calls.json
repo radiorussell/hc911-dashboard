@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T16:30:40+00:00",
+ "updated": "2026-11-24T16:35:39+00:00",
  "counts": {
-  "year": 372333,
-  "upstream_day": 392,
-  "day": 556,
+  "year": 372355,
+  "upstream_day": 414,
+  "day": 560,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9827382",
+   "sequence": "2026-11-34288",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:31:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1200 BAILEY AVE",
+   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "202",
+   "priority": "PRI 1",
+   "lat": 35.037309,
+   "lon": -85.286389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827381",
+   "sequence": "2026-11-34287",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:34:32Z",
+   "created": "2026-11-24T16:31:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1200 BAILEY AVE",
+   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.037309,
+   "lon": -85.286389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827380",
+   "sequence": "2026-11-34286",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:31:46Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1200 BAILEY AVE",
+   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.037309,
+   "lon": -85.286389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827376",
    "sequence": "2026-11-34284",
@@ -165,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9827351",
-   "sequence": "2026-11-34277",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:24:39Z",
-   "created": "2026-11-24T16:24:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3117 E 45TH ST",
-   "cross": "14TH AVE/15TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 4",
-   "lat": 34.988804,
-   "lon": -85.282855,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827350",
    "sequence": "2026-11-34272",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:35:31Z",
    "created": "2026-11-24T16:23:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9827347",
-   "sequence": "2026-11-34269",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:22:24Z",
-   "created": "2026-11-24T16:22:24Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.107254,
-   "lon": -85.157573,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827348",
    "sequence": "2026-11-34270",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:33:03Z",
    "created": "2026-11-24T16:22:24Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -295,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9827344",
-   "sequence": "2026-11-34266",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:22:15Z",
-   "created": "2026-11-24T16:22:15Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6017 HUNTER RD",
-   "cross": "BARKLEY CREEK DR/HUNTER GLEN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.121119,
-   "lon": -85.100355,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827336",
    "sequence": "2026-11-34268",
    "type": "EMS CALL",
@@ -350,8 +350,8 @@
    "id": "9827330",
    "sequence": "2026-11-34260",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T16:20:05Z",
    "created": "2026-11-24T16:19:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -369,7 +369,7 @@
    "lat": 35.033106,
    "lon": -85.278458,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -475,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827310",
-   "sequence": "2026-11-34251",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:22:45Z",
-   "created": "2026-11-24T16:13:38Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8479 SKYBROOK DR",
-   "cross": "No Cross Street/FROSTWOOD LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.150467,
-   "lon": -85.052724,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827301",
@@ -662,8 +636,8 @@
    "id": "9827242",
    "sequence": "2026-11-34206",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T16:21:58Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T16:33:36Z",
    "created": "2026-11-24T15:43:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
