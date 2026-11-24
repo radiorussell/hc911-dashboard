@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T12:15:38+00:00",
+ "updated": "2026-11-24T12:20:43+00:00",
  "counts": {
   "year": 372082,
   "upstream_day": 141,
-  "day": 196,
+  "day": 200,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9826861",
+   "sequence": "2026-11-33928",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:17:28Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1226 HIGHLAND DR",
+   "cross": "SUMMER ST/WESTWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1201",
+   "priority": "PRI 1",
+   "lat": 35.075543,
+   "lon": -85.29112,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826859",
+   "sequence": "2026-11-33927",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-24T12:17:04Z",
+   "created": "2026-11-24T12:17:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3000 E 34TH ST",
+   "cross": "13TH AVE/14TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 3",
+   "lat": 35.000646,
+   "lon": -85.277341,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826858",
+   "sequence": "2026-11-33926",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-24T12:16:41Z",
+   "created": "2026-11-24T12:16:03Z",
+   "jurisdiction": "Lookout Mountain FD",
+   "agencies": [
+    "Lookout Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "238 W BROW RD",
+   "cross": "LAUREL LN/PROSPECT WAY",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
+   "priority": "PRI 2",
+   "lat": 34.998357,
+   "lon": -85.356176,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826857",
+   "sequence": "2026-11-33925",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T12:16:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "238 W BROW RD",
+   "cross": "LAUREL LN/PROSPECT WAY",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "MEDIC 10 LM U",
+   "priority": "PRI 1",
+   "lat": 34.998357,
+   "lon": -85.356176,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826855",
    "sequence": "2026-11-33923",
@@ -64,8 +168,8 @@
    "id": "9826853",
    "sequence": "2026-11-33922",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:15:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T12:14:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.151576,
    "lon": -85.224751,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826852",
-   "sequence": "2026-11-33921",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:14:47Z",
-   "created": "2026-11-24T12:14:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1218 THOMAS LN",
-   "cross": "NORTHERN HILLS RD/SCHOOL DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.144662,
-   "lon": -85.24476,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -189,58 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826835",
-   "sequence": "2026-11-33911",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:14:11Z",
-   "created": "2026-11-24T12:06:42Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "100 - 198 RIVERSIDE DR",
-   "cross": "N MARKET ST/E AQUARIUM WAY",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.056355,
-   "lon": -85.307842,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9826834",
-   "sequence": "2026-11-33910",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:14:24Z",
-   "created": "2026-11-24T12:06:42Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "100 - 198 RIVERSIDE DR",
-   "cross": "N MARKET ST/E AQUARIUM WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056355,
-   "lon": -85.307842,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826833",
@@ -584,8 +610,8 @@
    "id": "9826789",
    "sequence": "2026-11-33874",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T11:55:38Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T12:18:43Z",
    "created": "2026-11-24T11:37:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
