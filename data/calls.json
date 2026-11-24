@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T16:55:39+00:00",
+ "updated": "2026-11-24T17:00:42+00:00",
  "counts": {
   "year": 372377,
   "upstream_day": 436,
-  "day": 594,
+  "day": 597,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9827432",
+   "sequence": "2026-11-34325",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:58:25Z",
+   "created": "2026-11-24T16:57:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1706 S KELLEY ST",
+   "cross": "E 17TH ST/E 18TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.022272,
+   "lon": -85.277156,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827434",
+   "sequence": "2026-11-34324",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:56:55Z",
+   "created": "2026-11-24T16:56:55Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1667 OOLTEWAH RINGGOLD RD",
+   "cross": "COBBLECREEK WAY/E BRAINERD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 34.997964,
+   "lon": -85.096726,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827431",
+   "sequence": "2026-11-34323",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:55:28Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "601 INDUSTRIAL BLVD",
+   "cross": "DAYTON PIKE/BACK VALLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 1",
+   "lat": 35.347831,
+   "lon": -85.132355,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9827430",
    "sequence": "2026-11-34322",
@@ -35,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9827429",
-   "sequence": "2026-11-34321",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:54:19Z",
-   "created": "2026-11-24T16:54:19Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "918 DONALDSON RD",
-   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 35.007914,
-   "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827428",
    "sequence": "2026-11-34320",
    "type": "EMS CALL",
@@ -80,6 +132,32 @@
    "city": "EAST RIDGE",
    "zone": "ERPD WEST",
    "priority": "PRI 3",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827429",
+   "sequence": "2026-11-34321",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:54:19Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
    "lat": 35.007914,
    "lon": -85.260716,
    "units": 1,
@@ -217,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9827408",
-   "sequence": "2026-11-34305",
-   "type": "Child Locked in Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:53:47Z",
-   "created": "2026-11-24T16:48:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3905 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 1",
-   "lat": 35.114383,
-   "lon": -85.261715,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827406",
    "sequence": "2026-11-34306",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:58:54Z",
    "created": "2026-11-24T16:47:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -264,58 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.198874,
    "lon": -85.253711,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827405",
-   "sequence": "2026-11-34304",
-   "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T16:46:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3905 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 2",
-   "lat": 35.114383,
-   "lon": -85.261715,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9827392",
-   "sequence": "2026-11-34297",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:48:36Z",
-   "created": "2026-11-24T16:42:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 1",
-   "lat": 35.047825,
-   "lon": -85.320645,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -428,8 +428,8 @@
    "id": "9827350",
    "sequence": "2026-11-34272",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T16:42:36Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:00:22Z",
    "created": "2026-11-24T16:23:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.119464,
    "lon": -85.272419,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827348",
-   "sequence": "2026-11-34270",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:33:03Z",
-   "created": "2026-11-24T16:22:24Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 1",
-   "lat": 35.107254,
-   "lon": -85.157573,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +506,8 @@
    "id": "9827330",
    "sequence": "2026-11-34260",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:55:49Z",
    "created": "2026-11-24T16:19:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -636,8 +610,8 @@
    "id": "9827279",
    "sequence": "2026-11-34231",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T16:40:42Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:00:18Z",
    "created": "2026-11-24T15:59:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +654,6 @@
    "priority": "PRI 3",
    "lat": 35.006806,
    "lon": -85.209878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827257",
-   "sequence": "2026-11-34216",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:03:46Z",
-   "created": "2026-11-24T15:52:22Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1216 GREEN POND RD",
-   "cross": "RATTISSEAU LN/ORVAL DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 3",
-   "lat": 35.243205,
-   "lon": -85.151456,
    "units": 1,
    "stacked": false,
    "notable": false
