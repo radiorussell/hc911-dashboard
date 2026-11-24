@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T10:25:40+00:00",
+ "updated": "2026-11-24T10:30:39+00:00",
  "counts": {
   "year": 372018,
   "upstream_day": 77,
-  "day": 105,
+  "day": 106,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9826733",
+   "sequence": "2026-11-33834",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T10:26:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3802 DODDS AVE",
+   "cross": "E 38TH ST/E 39TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 1",
+   "lat": 34.99785,
+   "lon": -85.282656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826730",
    "sequence": "2026-11-33833",
@@ -115,7 +141,7 @@
   {
    "id": "9826700",
    "sequence": "2026-11-33805",
-   "type": "Auto Improperly Parked",
+   "type": "Not Endangered",
    "status": "On Scene",
    "status_at": "2026-11-24T08:53:57Z",
    "created": "2026-11-24T08:38:06Z",
@@ -131,12 +157,12 @@
    "cross": "SPRINGFIELD RD/No Cross Street",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 13",
-   "priority": "PRI 4",
+   "priority": "PRI 2",
    "lat": 35.228293,
    "lon": -85.221657,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9825716",
