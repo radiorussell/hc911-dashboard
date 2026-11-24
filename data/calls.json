@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-24T01:25:43+00:00",
+ "updated": "2026-11-24T01:30:38+00:00",
  "counts": {
   "year": 371798,
   "upstream_day": 0,
-  "day": 1338,
+  "day": 1339,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9826390",
-   "sequence": "2026-11-33537",
-   "type": "EMS CALL",
+   "id": "9826392",
+   "sequence": "2026-11-33538",
+   "type": "Harassment",
    "status": "Queued",
-   "status_at": "2026-11-24T01:21:00Z",
-   "created": "2026-11-24T01:21:00Z",
-   "jurisdiction": "Chattanooga FD",
+   "status_at": "2026-11-24T01:29:48Z",
+   "created": "2026-11-24T01:28:01Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Chattanooga FD"
+    "Chattanooga PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
+   "address": "3404 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
    "city": "CHATTANOOGA",
-   "zone": "801 B",
-   "priority": "PRI 1",
-   "lat": 35.036887,
-   "lon": -85.185028,
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.081426,
+   "lon": -85.263454,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -37,9 +37,9 @@
   {
    "id": "9826389",
    "sequence": "2026-11-33536",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:20:59Z",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T01:20:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -54,32 +54,6 @@
    "city": "CHATTANOOGA",
    "zone": "C4",
    "priority": "PRI 3",
-   "lat": 35.036887,
-   "lon": -85.185028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826388",
-   "sequence": "2026-11-33535",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T01:20:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
    "lat": 35.036887,
    "lon": -85.185028,
    "units": 1,
@@ -347,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9826357",
-   "sequence": "2026-11-33507",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:57:03Z",
-   "created": "2026-11-24T00:57:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7429 SHALLOWFORD RD",
-   "cross": "GUNBARREL RD/OGLETREE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 2",
-   "lat": 35.040038,
-   "lon": -85.147048,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826354",
    "sequence": "2026-11-33506",
    "type": "EMS CALL",
@@ -454,8 +402,8 @@
    "id": "9826330",
    "sequence": "2026-11-33489",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T01:00:06Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T01:30:21Z",
    "created": "2026-11-24T00:37:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
