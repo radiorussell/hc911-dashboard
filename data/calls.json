@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T03:15:38+00:00",
+ "updated": "2026-11-24T03:20:37+00:00",
  "counts": {
   "year": 371883,
   "upstream_day": 0,
   "day": 1450,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9826517",
    "sequence": "2026-11-33649",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T03:14:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T03:13:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -446,32 +446,6 @@
    "priority": "PRI 0",
    "lat": 35.015673,
    "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826106",
-   "sequence": "2026-11-33316",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T22:40:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6000 - 6199 MOUNTAIN VIEW RD",
-   "cross": "SNOW HILL RD/AMOS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.087992,
-   "lon": -85.065018,
    "units": 1,
    "stacked": false,
    "notable": false
