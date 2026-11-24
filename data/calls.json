@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T21:50:43+00:00",
+ "updated": "2026-11-24T21:55:40+00:00",
  "counts": {
-  "year": 372714,
-  "upstream_day": 773,
-  "day": 1033,
+  "year": 372725,
+  "upstream_day": 783,
+  "day": 1039,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9828103",
+   "sequence": "2026-11-34767",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:55:14Z",
+   "created": "2026-11-24T21:54:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "CUMMINGS HWY / W END AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.022798,
+   "lon": -85.388324,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828099",
+   "sequence": "2026-11-34766",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": "2026-11-24T21:54:59Z",
+   "created": "2026-11-24T21:54:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 4",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828100",
+   "sequence": "2026-11-34765",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:53:53Z",
+   "created": "2026-11-24T21:53:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7729 COLEMERE DR",
+   "cross": "WIMBERLY DR/JOCELYN DR",
+   "city": "CHATTANOOGA",
+   "zone": "601 A",
+   "priority": "PRI 2",
+   "lat": 35.078476,
+   "lon": -85.176722,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828097",
+   "sequence": "2026-11-34764",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:53:34Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7729 COLEMERE DR",
+   "cross": "WIMBERLY DR/JOCELYN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.078476,
+   "lon": -85.176722,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828095",
+   "sequence": "2026-11-34762",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:50:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1827 FERNDALE CT",
+   "cross": "PETTY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.014351,
+   "lon": -85.128637,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828093",
    "sequence": "2026-11-34760",
@@ -64,8 +194,8 @@
    "id": "9828092",
    "sequence": "2026-11-34759",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:50:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T21:49:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -171,32 +301,6 @@
    "status": "On Scene",
    "status_at": "2026-11-24T21:46:05Z",
    "created": "2026-11-24T21:44:59Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9001 - 9099 HIXSON PIKE",
-   "cross": "DALTON LN/CHIP DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.204477,
-   "lon": -85.145726,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9828083",
-   "sequence": "2026-11-34751",
-   "type": "MVC Entrapment",
-   "status": "Queued",
-   "status_at": "2026-11-24T21:44:58Z",
-   "created": "2026-11-24T21:44:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -633,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9828018",
-   "sequence": "2026-11-34707",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T21:06:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "IGOU GAP RD / MARA DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.020021,
-   "lon": -85.138868,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828012",
    "sequence": "2026-11-34703",
    "type": "EMS CALL",
@@ -787,32 +865,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827913",
-   "sequence": "2026-11-34637",
-   "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": "2026-11-24T20:28:54Z",
-   "created": "2026-11-24T20:24:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1214 BELMEADE AVE",
-   "cross": "HOYT ST/THROUGH ST",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.043571,
-   "lon": -85.238923,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827910",
