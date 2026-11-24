@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T02:35:38+00:00",
+ "updated": "2026-11-24T02:40:36+00:00",
  "counts": {
   "year": 371861,
   "upstream_day": 0,
-  "day": 1422,
+  "day": 1423,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9826489",
+   "sequence": "2026-11-33622",
+   "type": "Fire Assist Citizen",
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:40:29Z",
+   "created": "2026-11-24T02:36:01Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.003813,
+   "lon": -85.241382,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9826488",
    "sequence": "2026-11-33621",
@@ -38,8 +64,8 @@
    "id": "9826486",
    "sequence": "2026-11-33620",
    "type": "Odor Investigation",
-   "status": "Queued",
-   "status_at": "2026-11-24T02:35:17Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:38:53Z",
    "created": "2026-11-24T02:34:30Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9826481",
    "sequence": "2026-11-33616",
    "type": "Not Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-24T02:32:17Z",
    "created": "2026-11-24T02:31:37Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9826482",
    "sequence": "2026-11-33614",
    "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:40:01Z",
    "created": "2026-11-24T02:30:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9826479",
    "sequence": "2026-11-33612",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:36:21Z",
    "created": "2026-11-24T02:29:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.007914,
    "lon": -85.260716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826467",
-   "sequence": "2026-11-33603",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:26:35Z",
-   "created": "2026-11-24T02:18:40Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "959 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 1",
-   "lat": 35.046528,
-   "lon": -85.320609,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +350,8 @@
    "id": "9826457",
    "sequence": "2026-11-33594",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:24:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T02:36:00Z",
    "created": "2026-11-24T02:12:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.120771,
    "lon": -85.112153,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826449",
-   "sequence": "2026-11-33589",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:24:16Z",
-   "created": "2026-11-24T02:04:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "314 MCBRIEN RD",
-   "cross": "LYNNLAND TER/N TERRACE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.005773,
-   "lon": -85.225202,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9826447",
-   "sequence": "2026-11-33585",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T02:02:52Z",
-   "created": "2026-11-24T02:02:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "802 LOWER CRAVENS TER",
-   "cross": "No Cross Street/CRAVENS TER",
-   "city": "HAMILTON COUNTY",
-   "zone": "2003 B",
-   "priority": "PRI 1",
-   "lat": 35.01428,
-   "lon": -85.336959,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826445",
    "sequence": "2026-11-33583",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:14:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T02:35:39Z",
    "created": "2026-11-24T02:02:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -636,8 +584,8 @@
    "id": "9826408",
    "sequence": "2026-11-33549",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T02:12:28Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T02:36:57Z",
    "created": "2026-11-24T01:41:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -711,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9826294",
-   "sequence": "2026-11-33457",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "506",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826295",
    "sequence": "2026-11-33458",
    "type": "Street Status",
@@ -755,6 +677,32 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826294",
+   "sequence": "2026-11-33457",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "506",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
