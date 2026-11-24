@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T07:10:36+00:00",
+ "updated": "2026-11-24T07:15:39+00:00",
  "counts": {
-  "year": 371977,
-  "upstream_day": 36,
-  "day": 57,
+  "year": 371986,
+  "upstream_day": 45,
+  "day": 59,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
   {
+   "id": "9826680",
+   "sequence": "2026-11-33787",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T07:14:39Z",
+   "created": "2026-11-24T07:14:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "HIGHWAY 58 / FERDINAND PIECH WAY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.108263,
+   "lon": -85.145157,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9826678",
    "sequence": "2026-11-33785",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-24T07:07:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T07:06:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9826675",
-   "sequence": "2026-11-33781",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T07:02:28Z",
-   "created": "2026-11-24T07:02:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1517 DALLAS LAKE RD",
-   "cross": "HALE RD/WOMACK AVE",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.211689,
-   "lon": -85.164863,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826676",
    "sequence": "2026-11-33782",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:15:06Z",
    "created": "2026-11-24T07:02:28Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9826673",
    "sequence": "2026-11-33780",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:11:03Z",
    "created": "2026-11-24T07:00:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
