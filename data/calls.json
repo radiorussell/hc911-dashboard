@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T13:45:41+00:00",
+ "updated": "2026-11-24T13:50:40+00:00",
  "counts": {
   "year": 372162,
   "upstream_day": 221,
-  "day": 298,
+  "day": 307,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
   {
+   "id": "9826996",
+   "sequence": "2026-11-34035",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-24T13:50:36Z",
+   "created": "2026-11-24T13:50:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2413 NIMITZ ST",
+   "cross": "SUMTER AVE/MCARTHUR AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.059418,
+   "lon": -85.229071,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826992",
+   "sequence": "2026-11-34032",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T13:48:14Z",
+   "created": "2026-11-24T13:48:14Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2235 NIMITZ ST",
+   "cross": "No Cross Street/E GLEN CT",
+   "city": "CHATTANOOGA",
+   "zone": "1503",
+   "priority": "PRI 2",
+   "lat": 35.057531,
+   "lon": -85.230112,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826991",
+   "sequence": "2026-11-34031",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T13:47:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2235 NIMITZ ST",
+   "cross": "No Cross Street/E GLEN CT",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.057531,
+   "lon": -85.230112,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826988",
+   "sequence": "2026-11-34030",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-24T13:47:55Z",
+   "created": "2026-11-24T13:47:00Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "950 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.998214,
+   "lon": -85.215721,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9826984",
    "sequence": "2026-11-34026",
    "type": "Stalking Incident",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:48:42Z",
    "created": "2026-11-24T13:43:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.085699,
    "lon": -85.194881,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826982",
-   "sequence": "2026-11-34025",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:42:22Z",
-   "created": "2026-11-24T13:42:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8142 - 8223 OLD LEE HWY",
-   "cross": "SCHOOL ST/WOODARD FAMILY PL",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.070324,
-   "lon": -85.099579,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +324,8 @@
    "id": "9826960",
    "sequence": "2026-11-34006",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:47:23Z",
    "created": "2026-11-24T13:22:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9826929",
-   "sequence": "2026-11-33985",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:07:16Z",
-   "created": "2026-11-24T13:07:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 2",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826927",
    "sequence": "2026-11-33983",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T13:21:18Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T13:46:00Z",
    "created": "2026-11-24T13:06:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -368,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826926",
-   "sequence": "2026-11-33981",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:06:41Z",
-   "created": "2026-11-24T13:06:41Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4630 SABLE DR",
-   "cross": "FALL CREEK RD/NORTHLAND LN",
-   "city": "CHATTANOOGA",
-   "zone": "603 A",
-   "priority": "PRI 1",
-   "lat": 35.088032,
-   "lon": -85.194798,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -446,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.088032,
    "lon": -85.194798,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826921",
-   "sequence": "2026-11-33976",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:02:39Z",
-   "created": "2026-11-24T13:02:39Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.036243,
-   "lon": -85.140298,
    "units": 1,
    "stacked": false,
    "notable": false
