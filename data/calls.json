@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T11:45:41+00:00",
+ "updated": "2026-11-24T11:50:38+00:00",
  "counts": {
   "year": 372053,
   "upstream_day": 112,
-  "day": 160,
+  "day": 166,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9826815",
+   "sequence": "2026-11-33894",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T11:49:57Z",
+   "created": "2026-11-24T11:49:41Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "941 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.998857,
+   "lon": -85.218956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826813",
+   "sequence": "2026-11-33892",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T11:48:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1110 JUDD RD",
+   "cross": "AMNICOLA HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 1",
+   "lat": 35.08753,
+   "lon": -85.266154,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826812",
+   "sequence": "2026-11-33891",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T11:48:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1110 JUDD RD",
+   "cross": "AMNICOLA HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1003",
+   "priority": "PRI 2",
+   "lat": 35.08753,
+   "lon": -85.266154,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826811",
+   "sequence": "2026-11-33890",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T11:47:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1110 JUDD RD",
+   "cross": "AMNICOLA HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.08753,
+   "lon": -85.266154,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826810",
+   "sequence": "2026-11-33889",
+   "type": "Traffic Control",
+   "status": "Enroute",
+   "status_at": "2026-11-24T11:47:32Z",
+   "created": "2026-11-24T11:47:32Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "618 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.234563,
+   "lon": -85.17947,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826808",
    "sequence": "2026-11-33887",
@@ -87,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9826805",
-   "sequence": "2026-11-33883",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:45:05Z",
-   "created": "2026-11-24T11:45:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "873 E 3RD ST",
-   "cross": "COLLINS ST/PALMETTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049472,
-   "lon": -85.294349,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9826804",
    "sequence": "2026-11-33886",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:45:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T11:44:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -137,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826803",
-   "sequence": "2026-11-33882",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T11:44:35Z",
-   "created": "2026-11-24T11:44:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "873 E 3RD ST",
-   "cross": "COLLINS ST/PALMETTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 1",
-   "lat": 35.049472,
-   "lon": -85.294349,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826802",
@@ -298,8 +376,8 @@
    "id": "9826789",
    "sequence": "2026-11-33874",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T11:49:45Z",
    "created": "2026-11-24T11:37:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +506,8 @@
    "id": "9826769",
    "sequence": "2026-11-33860",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Transporting",
+   "status_at": "2026-11-24T11:47:53Z",
    "created": "2026-11-24T11:16:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -553,32 +631,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9823351",
-   "sequence": "2026-11-31291",
-   "type": "ROAD CLOSURE",
-   "status": "Queued",
-   "status_at": "2026-11-22T13:45:04Z",
-   "created": "2026-11-22T13:45:04Z",
-   "jurisdiction": "HC911",
-   "agencies": [
-    "HC911"
-   ],
-   "agency_type": "HC911",
-   "agency_types": [
-    "HC911"
-   ],
-   "address": "3500 ST ELMO AVE",
-   "cross": "W 35TH ST/BROAD ST",
-   "city": "CHATTANOOGA",
-   "zone": "HC911",
-   "priority": "",
-   "lat": 35.015656,
-   "lon": -85.325945,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   }
  ]
 }
