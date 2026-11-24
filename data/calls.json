@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T14:45:40+00:00",
+ "updated": "2026-11-24T14:50:39+00:00",
  "counts": {
   "year": 372226,
   "upstream_day": 285,
-  "day": 375,
+  "day": 384,
   "day_basis": "midnight"
  },
  "raw_rows": 21,
  "incidents": [
   {
+   "id": "9827117",
+   "sequence": "2026-11-34111",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:49:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2717 ROSSVILLE BLVD",
+   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.016146,
+   "lon": -85.293538,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827118",
+   "sequence": "2026-11-34112",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:49:23Z",
+   "created": "2026-11-24T14:49:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2717 ROSSVILLE BLVD",
+   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "904",
+   "priority": "PRI 2",
+   "lat": 35.016146,
+   "lon": -85.293538,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827113",
+   "sequence": "2026-11-34108",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:49:10Z",
+   "created": "2026-11-24T14:47:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2717 ROSSVILLE BLVD",
+   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.016146,
+   "lon": -85.293538,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827110",
+   "sequence": "2026-11-34106",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:46:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1100 MOUNTAIN CREEK RD",
+   "cross": "N RUNYAN DR/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.110778,
+   "lon": -85.321604,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9827109",
    "sequence": "2026-11-34103",
    "type": "Backup Other Agency",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:44:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:44:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9827101",
    "sequence": "2026-11-34099",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:48:47Z",
    "created": "2026-11-24T14:39:33Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -82,58 +186,6 @@
    "priority": "PRI 2",
    "lat": 35.037495,
    "lon": -85.307397,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827099",
-   "sequence": "2026-11-34097",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:43:16Z",
-   "created": "2026-11-24T14:36:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "40 HAWKINS OAK LN",
-   "cross": "CENTRAL AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.993932,
-   "lon": -85.317238,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827098",
-   "sequence": "2026-11-34096",
-   "type": "Alarm Holdup",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:36:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1810 MCCALLIE AVE",
-   "cross": "S HAWTHORNE ST/S ORCHARD KNOB AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 1",
-   "lat": 35.035809,
-   "lon": -85.275311,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,58 +290,6 @@
    "priority": "PRI 1",
    "lat": 34.988801,
    "lon": -85.162373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827060",
-   "sequence": "2026-11-34071",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:22:33Z",
-   "created": "2026-11-24T14:15:36Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "631 CAMP JORDAN PKWY",
-   "cross": "CAMP JORDAN RD/BASS PRO DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.992108,
-   "lon": -85.201143,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827050",
-   "sequence": "2026-11-34064",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:13:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7736 VILLAGE WAY DR",
-   "cross": "No Cross Street/W VILLAGE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 4",
-   "lat": 35.196134,
-   "lon": -85.204035,
    "units": 1,
    "stacked": false,
    "notable": false
