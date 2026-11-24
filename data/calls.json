@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T16:25:40+00:00",
+ "updated": "2026-11-24T16:30:40+00:00",
  "counts": {
   "year": 372333,
   "upstream_day": 392,
-  "day": 549,
+  "day": 556,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9827376",
+   "sequence": "2026-11-34284",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:28:45Z",
+   "created": "2026-11-24T16:28:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2288 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.037485,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827374",
+   "sequence": "2026-11-34283",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:28:27Z",
+   "created": "2026-11-24T16:28:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2288 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 2",
+   "lat": 35.037485,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827370",
+   "sequence": "2026-11-34282",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T16:27:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2288 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.037485,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827373",
+   "sequence": "2026-11-34281",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:27:30Z",
+   "created": "2026-11-24T16:27:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827357",
    "sequence": "2026-11-34273",
@@ -246,8 +350,8 @@
    "id": "9827330",
    "sequence": "2026-11-34260",
    "type": "Abandoned Auto",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:20:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T16:19:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +402,8 @@
    "id": "9827324",
    "sequence": "2026-11-34258",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:27:33Z",
    "created": "2026-11-24T16:17:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -371,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827316",
-   "sequence": "2026-11-34254",
-   "type": "Residential Fire",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:15:54Z",
-   "created": "2026-11-24T16:15:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8479 SKYBROOK DR",
-   "cross": "No Cross Street/FROSTWOOD LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 2",
-   "lat": 35.150467,
-   "lon": -85.052724,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827310",
@@ -550,32 +628,6 @@
    "priority": "PRI 3",
    "lat": 35.243205,
    "lon": -85.151456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827255",
-   "sequence": "2026-11-34215",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:17:03Z",
-   "created": "2026-11-24T15:51:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9344 HOPI TRL",
-   "cross": "PAW PAW TRL/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 A",
-   "priority": "PRI 3",
-   "lat": 35.092846,
-   "lon": -85.041093,
    "units": 1,
    "stacked": false,
    "notable": false
