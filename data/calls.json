@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T20:05:45+00:00",
+ "updated": "2026-11-24T20:10:39+00:00",
  "counts": {
   "year": 372606,
   "upstream_day": 665,
-  "day": 878,
+  "day": 885,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9827882",
+   "sequence": "2026-11-34613",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:10:22Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6300 - 6389 LEE HWY",
+   "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "801 B",
+   "priority": "PRI 1",
+   "lat": 35.031693,
+   "lon": -85.183427,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827881",
+   "sequence": "2026-11-34612",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:10:22Z",
+   "created": "2026-11-24T20:10:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6300 - 6389 LEE HWY",
+   "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.031693,
+   "lon": -85.183427,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827877",
+   "sequence": "2026-11-34611",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:10:22Z",
+   "created": "2026-11-24T20:09:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6300 - 6389 LEE HWY",
+   "cross": "EXIT LEE HWY ON RAMP SB/EXIT LEE HWY ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 1",
+   "lat": 35.031693,
+   "lon": -85.183427,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827873",
+   "sequence": "2026-11-34608",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:06:57Z",
+   "created": "2026-11-24T20:06:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3097 S ORCHARD KNOB AVE",
+   "cross": "E 29TH ST/E 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.010075,
+   "lon": -85.289202,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827868",
    "sequence": "2026-11-34605",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:05:31Z",
+   "type": "MVC No Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:06:42Z",
    "created": "2026-11-24T20:05:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,91 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "ROSSVILLE BLVD / E 23RD ST",
+   "address": "ROSSVILLE BLVD / POLK ST",
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.024506,
-   "lon": -85.297975,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827869",
-   "sequence": "2026-11-34606",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:05:31Z",
-   "created": "2026-11-24T20:05:14Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SAWYER PIKE / ROBERTS MILL RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.218497,
-   "lon": -85.272963,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827867",
-   "sequence": "2026-11-34604",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:05:08Z",
-   "created": "2026-11-24T20:04:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
    "priority": "PRI 3",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827866",
-   "sequence": "2026-11-34603",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-24T20:04:38Z",
-   "created": "2026-11-24T20:03:56Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "801 - 1365 ROBERTS MILL RD",
-   "cross": "ROCKY LEDGE DR/MOUNTAIN LAUREL TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 A",
-   "priority": "PRI 4",
-   "lat": 35.21379,
-   "lon": -85.26089,
+   "lat": 35.023709,
+   "lon": -85.297245,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +298,8 @@
    "id": "9827851",
    "sequence": "2026-11-34591",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:07:28Z",
    "created": "2026-11-24T19:51:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +376,8 @@
    "id": "9827835",
    "sequence": "2026-11-34582",
    "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:46:20Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:10:19Z",
    "created": "2026-11-24T19:45:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -428,8 +454,8 @@
    "id": "9827807",
    "sequence": "2026-11-34563",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:32:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:31:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -446,32 +472,6 @@
    "priority": "PRI 4",
    "lat": 34.9931,
    "lon": -85.40076,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827798",
-   "sequence": "2026-11-34557",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:27:03Z",
-   "created": "2026-11-24T19:26:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "409 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 2",
-   "lat": 35.093377,
-   "lon": -85.328199,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -706,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.024463,
    "lon": -85.195677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827704",
-   "sequence": "2026-11-34495",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T19:49:48Z",
-   "created": "2026-11-24T18:50:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
