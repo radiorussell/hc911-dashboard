@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T02:05:37+00:00",
+ "updated": "2026-11-24T02:10:37+00:00",
  "counts": {
   "year": 371832,
   "upstream_day": 0,
-  "day": 1388,
+  "day": 1391,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9826453",
+   "sequence": "2026-11-33590",
+   "type": "Burglary",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:05:59Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8525 W CRABTREE RD",
+   "cross": "ELLEN RD/MIDDLE VALLEY RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.208292,
+   "lon": -85.186614,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826449",
+   "sequence": "2026-11-33589",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:05:49Z",
+   "created": "2026-11-24T02:04:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "312 MCBRIEN RD",
+   "cross": "LYNNLAND TER/N TERRACE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.006193,
+   "lon": -85.224274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826450",
    "sequence": "2026-11-33587",
@@ -38,8 +90,8 @@
    "id": "9826448",
    "sequence": "2026-11-33586",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:09:24Z",
    "created": "2026-11-24T02:03:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9826438",
    "sequence": "2026-11-33576",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:07:34Z",
    "created": "2026-11-24T01:55:59Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9826436",
    "sequence": "2026-11-33575",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:06:14Z",
    "created": "2026-11-24T01:55:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -247,7 +299,7 @@
    "sequence": "2026-11-33569",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T02:06:49Z",
    "created": "2026-11-24T01:52:27Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9826427",
    "sequence": "2026-11-33565",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:06:28Z",
    "created": "2026-11-24T01:51:22Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9826422",
    "sequence": "2026-11-33563",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:06:01Z",
    "created": "2026-11-24T01:48:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -342,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.149962,
    "lon": -85.204486,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826420",
-   "sequence": "2026-11-33561",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T02:02:09Z",
-   "created": "2026-11-24T01:47:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "ROSSVILLE BLVD / E 35TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.003889,
-   "lon": -85.292658,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -517,13 +543,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6601 RIVERGLEN LN",
-   "cross": "ROCKVIEW LN/CASSIE LN",
+   "address": "3000 E 34TH ST",
+   "cross": "13TH AVE/14TH AVE",
    "city": "CHATTANOOGA",
-   "zone": "A1",
+   "zone": "B8",
    "priority": "PRI 4",
-   "lat": 35.185304,
-   "lon": -85.250132,
+   "lat": 35.000646,
+   "lon": -85.277341,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -633,110 +659,6 @@
    "notable": false
   },
   {
-   "id": "9826383",
-   "sequence": "2026-11-33530",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:16:25Z",
-   "created": "2026-11-24T01:16:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8458 E BRAINERD RD",
-   "cross": "GIVENS RD/SHADY REST RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.001388,
-   "lon": -85.139239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826384",
-   "sequence": "2026-11-33531",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:16:25Z",
-   "created": "2026-11-24T01:16:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8458 E BRAINERD RD",
-   "cross": "GIVENS RD/SHADY REST RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.001388,
-   "lon": -85.139239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826377",
-   "sequence": "2026-11-33529",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T01:33:22Z",
-   "created": "2026-11-24T01:16:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8458 E BRAINERD RD",
-   "cross": "GIVENS RD/SHADY REST RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.001388,
-   "lon": -85.139239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826378",
-   "sequence": "2026-11-33525",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T01:48:19Z",
-   "created": "2026-11-24T01:15:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056521,
-   "lon": -85.132736,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826376",
    "sequence": "2026-11-33524",
    "type": "MVC No Injuries",
@@ -841,12 +763,12 @@
    "notable": false
   },
   {
-   "id": "9826330",
-   "sequence": "2026-11-33489",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T01:30:21Z",
-   "created": "2026-11-24T00:37:37Z",
+   "id": "9826295",
+   "sequence": "2026-11-33458",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -855,13 +777,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "8572 MULBERRY WAY",
-   "cross": "PRICKLY LOOP/PRICKLY LOOP",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.109005,
-   "lon": -85.062443,
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -885,32 +807,6 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "506",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826295",
-   "sequence": "2026-11-33458",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
