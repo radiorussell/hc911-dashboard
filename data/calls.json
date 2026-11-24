@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T18:20:38+00:00",
+ "updated": "2026-11-24T18:25:39+00:00",
  "counts": {
-  "year": 372463,
-  "upstream_day": 522,
-  "day": 726,
+  "year": 372486,
+  "upstream_day": 545,
+  "day": 730,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9827657",
+   "sequence": "2026-11-34458",
+   "type": "Theft From a Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T18:23:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1216 RADMOOR LN",
+   "cross": "No Cross Street/RADMOOR DR",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.009331,
+   "lon": -85.177336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827654",
+   "sequence": "2026-11-34456",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T18:22:12Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8588 BANNER ELK RD",
+   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
+   "city": "LAKESITE",
+   "zone": "DALLAS BAY FD 2 LAKESITE",
+   "priority": "PRI 3",
+   "lat": 35.200677,
+   "lon": -85.130588,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9827651",
    "sequence": "2026-11-34454",
@@ -38,8 +90,8 @@
    "id": "9827648",
    "sequence": "2026-11-34451",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:18:21Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T18:18:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9827642",
    "sequence": "2026-11-34449",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:17:46Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:23:19Z",
    "created": "2026-11-24T18:16:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9827641",
-   "sequence": "2026-11-34447",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:17:19Z",
-   "created": "2026-11-24T18:16:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "736 MARKET ST",
-   "cross": "W 7TH ST/E 8TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.047416,
-   "lon": -85.309079,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827630",
    "sequence": "2026-11-34440",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:13:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T18:12:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -870,8 +896,8 @@
    "id": "9827432",
    "sequence": "2026-11-34325",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-24T16:58:25Z",
+   "status": "Enroute",
+   "status_at": "2026-11-24T18:20:46Z",
    "created": "2026-11-24T16:57:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
