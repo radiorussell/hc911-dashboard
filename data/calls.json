@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T19:05:38+00:00",
+ "updated": "2026-11-24T19:10:38+00:00",
  "counts": {
   "year": 372540,
   "upstream_day": 599,
-  "day": 796,
+  "day": 800,
   "day_basis": "midnight"
  },
- "raw_rows": 42,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827749",
+   "sequence": "2026-11-34528",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T19:06:49Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4600 CLONTS RD",
+   "cross": "MCGHEE RD/APISON PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.011463,
+   "lon": -85.008874,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827739",
    "sequence": "2026-11-34519",
@@ -56,32 +82,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827737",
-   "sequence": "2026-11-34521",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:00:32Z",
-   "created": "2026-11-24T19:00:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.152975,
-   "lon": -85.24562,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +324,8 @@
    "id": "9827706",
    "sequence": "2026-11-34500",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:10:18Z",
    "created": "2026-11-24T18:52:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9827704",
    "sequence": "2026-11-34495",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:09:21Z",
    "created": "2026-11-24T18:50:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.101687,
    "lon": -85.321286,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827699",
-   "sequence": "2026-11-34493",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:58:22Z",
-   "created": "2026-11-24T18:49:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1712 CAMBRIDGE DR",
-   "cross": "CAROUSEL RD/KENDALE DR",
-   "city": "CHATTANOOGA",
-   "zone": "1502",
-   "priority": "PRI 2",
-   "lat": 35.053049,
-   "lon": -85.241904,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +454,8 @@
    "id": "9827690",
    "sequence": "2026-11-34486",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:52:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T19:08:49Z",
    "created": "2026-11-24T18:45:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +480,8 @@
    "id": "9827689",
    "sequence": "2026-11-34490",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:46:34Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:09:33Z",
    "created": "2026-11-24T18:45:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -524,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.018343,
    "lon": -85.372705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827684",
-   "sequence": "2026-11-34484",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:50:03Z",
-   "created": "2026-11-24T18:41:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17125 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 34.985901,
-   "lon": -85.406365,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -607,89 +555,11 @@
    "notable": false
   },
   {
-   "id": "9827671",
-   "sequence": "2026-11-34473",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:50:05Z",
-   "created": "2026-11-24T18:33:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8588 BANNER ELK RD",
-   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
-   "city": "LAKESITE",
-   "zone": "MEDIC 12 LK E",
-   "priority": "PRI 1",
-   "lat": 35.200677,
-   "lon": -85.130588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827672",
-   "sequence": "2026-11-34474",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:33:16Z",
-   "created": "2026-11-24T18:33:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8588 BANNER ELK RD",
-   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 3",
-   "lat": 35.200677,
-   "lon": -85.130588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827669",
-   "sequence": "2026-11-34471",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:32:47Z",
-   "created": "2026-11-24T18:32:47Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1148 MOUNTAIN CREEK RD",
-   "cross": "WELLSTONE DR/SOUTHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 2",
-   "lat": 35.115468,
-   "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827668",
    "sequence": "2026-11-34470",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:43:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T19:09:48Z",
    "created": "2026-11-24T18:32:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -758,58 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.043119,
    "lon": -85.300586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827644",
-   "sequence": "2026-11-34452",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:34:31Z",
-   "created": "2026-11-24T18:17:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6214 BONNY OAKS DR",
-   "cross": "CECELIA DR/LAGUANA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.073593,
-   "lon": -85.178101,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827620",
-   "sequence": "2026-11-34433",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T18:49:07Z",
-   "created": "2026-11-24T18:12:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "640 MORRISON SPRINGS RD",
-   "cross": "TOM WEATHERS DR/PRICELESS VW",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 RB C",
-   "priority": "PRI 1",
-   "lat": 35.122821,
-   "lon": -85.305046,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -1018,32 +836,6 @@
    "priority": "PRI 1",
    "lat": 35.06942,
    "lon": -85.0464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827548",
-   "sequence": "2026-11-34389",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:56:16Z",
-   "created": "2026-11-24T17:40:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "750 HIGHWAY 153 NB",
-   "cross": "EXIT LAKE RESORT DR ON RAMP NB/DUPONT PKWY NB",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.115539,
-   "lon": -85.231567,
    "units": 1,
    "stacked": false,
    "notable": false
