@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T03:00:37+00:00",
+ "updated": "2026-11-24T03:05:37+00:00",
  "counts": {
-  "year": 371877,
+  "year": 371881,
   "upstream_day": 0,
-  "day": 1437,
+  "day": 1442,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9826514",
+   "sequence": "2026-11-33641",
+   "type": "Civil Matter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T03:02:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826509",
    "sequence": "2026-11-33636",
@@ -35,32 +61,6 @@
    "notable": false
   },
   {
-   "id": "9826501",
-   "sequence": "2026-11-33633",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T02:45:30Z",
-   "created": "2026-11-24T02:45:30Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9839 ROBINSON FARM RD",
-   "cross": "PASTURE DR/HIGH ST",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 4 CO D",
-   "priority": "PRI 2",
-   "lat": 35.062783,
-   "lon": -85.060384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826500",
    "sequence": "2026-11-33632",
    "type": "EMS CALL",
@@ -80,6 +80,32 @@
    "city": "COLLEGEDALE",
    "zone": "COLLEGEDALE WEST",
    "priority": "PRI 3",
+   "lat": 35.062783,
+   "lon": -85.060384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826501",
+   "sequence": "2026-11-33633",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:45:30Z",
+   "created": "2026-11-24T02:45:30Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9839 ROBINSON FARM RD",
+   "cross": "PASTURE DR/HIGH ST",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 4 CO D",
+   "priority": "PRI 2",
    "lat": 35.062783,
    "lon": -85.060384,
    "units": 1,
@@ -142,8 +168,8 @@
    "id": "9826479",
    "sequence": "2026-11-33612",
    "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-24T02:36:21Z",
+   "status": "Stacked",
+   "status_at": "2026-11-24T02:30:08Z",
    "created": "2026-11-24T02:29:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -161,15 +187,15 @@
    "lat": 35.061184,
    "lon": -85.212844,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9826465",
    "sequence": "2026-11-33601",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T02:48:37Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T03:04:52Z",
    "created": "2026-11-24T02:18:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
