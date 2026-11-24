@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T00:40:37+00:00",
+ "updated": "2026-11-24T00:45:40+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 1293,
+  "day": 1298,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9826337",
+   "sequence": "2026-11-33497",
+   "type": "MVC No Response",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:45:13Z",
+   "created": "2026-11-24T00:44:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5150 - 5298 HIGHWAY 153",
+   "cross": "HAMILL RD/NORTHGATE MALL DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 0",
+   "lat": 35.124725,
+   "lon": -85.240557,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826336",
+   "sequence": "2026-11-33495",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:43:39Z",
+   "created": "2026-11-24T00:42:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826334",
+   "sequence": "2026-11-33494",
+   "type": "Supplemental Reports",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:41:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1914 GUNBARREL RD",
+   "cross": "IGOU GAP RD/JARNIGAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.027876,
+   "lon": -85.155856,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826333",
    "sequence": "2026-11-33492",
@@ -168,8 +246,8 @@
    "id": "9826322",
    "sequence": "2026-11-33484",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:43:19Z",
    "created": "2026-11-24T00:36:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9826317",
-   "sequence": "2026-11-33476",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:33:57Z",
-   "created": "2026-11-24T00:33:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3903 HIXSON PIKE",
-   "cross": "KENSINGTON DR/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.113785,
-   "lon": -85.261847,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826314",
    "sequence": "2026-11-33480",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:34:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T00:33:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9826316",
    "sequence": "2026-11-33477",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:45:29Z",
    "created": "2026-11-24T00:33:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9826313",
    "sequence": "2026-11-33474",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:43:29Z",
    "created": "2026-11-24T00:32:11Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -529,32 +581,6 @@
    "notable": true
   },
   {
-   "id": "9826294",
-   "sequence": "2026-11-33457",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "506",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826295",
    "sequence": "2026-11-33458",
    "type": "Street Status",
@@ -573,6 +599,32 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826294",
+   "sequence": "2026-11-33457",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "506",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
@@ -602,32 +654,6 @@
    "priority": "PRI 0",
    "lat": 35.015673,
    "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826284",
-   "sequence": "2026-11-33450",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:32:13Z",
-   "created": "2026-11-24T00:13:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1104 SHADY REST RD",
-   "cross": "E BRAINERD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.002395,
-   "lon": -85.137009,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -737,32 +763,6 @@
    "notable": false
   },
   {
-   "id": "9826267",
-   "sequence": "2026-11-33437",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-24T00:17:36Z",
-   "created": "2026-11-24T00:04:47Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2240 HIGHWAY 27 NB",
-   "cross": "EXIT TSATI TER ON RAMP NB/EXIT DAYTON PIKE OFF RAMP NB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.298613,
-   "lon": -85.150712,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826249",
    "sequence": "2026-11-33421",
    "type": "EMS CALL",
@@ -836,58 +836,6 @@
    "priority": "PRI 1",
    "lat": 35.005974,
    "lon": -85.224458,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826181",
-   "sequence": "2026-11-33370",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-23T23:31:25Z",
-   "created": "2026-11-23T23:17:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7941 HIXSON PIKE",
-   "cross": "PORT DR/CRABTREE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 2",
-   "lat": 35.185999,
-   "lon": -85.168671,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826171",
-   "sequence": "2026-11-33362",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-23T23:55:18Z",
-   "created": "2026-11-23T23:12:10Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
