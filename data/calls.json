@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-24T21:30:20+00:00",
+ "updated": "2026-11-24T21:35:37+00:00",
  "counts": {
-  "year": 372693,
-  "upstream_day": 752,
-  "day": 995,
+  "year": 372700,
+  "upstream_day": 759,
+  "day": 1004,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 31,
  "incidents": [
   {
-   "id": "9828043",
-   "sequence": "2026-11-34723",
-   "type": "Well Being Check",
+   "id": "9828059",
+   "sequence": "2026-11-34732",
+   "type": "MVC Unknown Injuries",
    "status": "Queued",
-   "status_at": "2026-11-24T21:26:20Z",
-   "created": "2026-11-24T21:25:02Z",
+   "status_at": "2026-11-24T21:35:31Z",
+   "created": "2026-11-24T21:35:25Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
     "Hamilton Co SO"
@@ -23,13 +23,143 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1331 - 1559 INTERSTATE 75 SB",
-   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
+   "address": "8107 STANDIFER GAP RD",
+   "cross": "BILL REED RD/AUTUMN CHASE DR",
    "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 A",
+   "zone": "EAST 2 A",
+   "priority": "PRI 1",
+   "lat": 35.042904,
+   "lon": -85.114331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828055",
+   "sequence": "2026-11-34731",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:32:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "S SEMINOLE DR / S CREST RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 2",
+   "lat": 34.987514,
+   "lon": -85.273682,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828054",
+   "sequence": "2026-11-34729",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:31:32Z",
+   "created": "2026-11-24T21:31:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7683 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.038905,
+   "lon": -85.138958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828052",
+   "sequence": "2026-11-34730",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:32:02Z",
+   "created": "2026-11-24T21:31:22Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7002 TREE LINE DR",
+   "cross": "No Cross Street/HARVEST RUN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
    "priority": "PRI 3",
-   "lat": 35.114593,
-   "lon": -85.047503,
+   "lat": 35.126138,
+   "lon": -85.135396,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828053",
+   "sequence": "2026-11-34728",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T21:31:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7683 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.038905,
+   "lon": -85.138958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828043",
+   "sequence": "2026-11-34723",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T21:26:20Z",
+   "created": "2026-11-24T21:25:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5591 HIGHWAY 153",
+   "cross": "O HENRY DR/WINDING LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.148567,
+   "lon": -85.249213,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +402,8 @@
    "id": "9828007",
    "sequence": "2026-11-34698",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T21:15:45Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T21:30:15Z",
    "created": "2026-11-24T21:03:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
