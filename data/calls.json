@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T03:40:38+00:00",
+ "updated": "2026-11-24T03:45:38+00:00",
  "counts": {
-  "year": 371894,
+  "year": 371904,
   "upstream_day": 0,
   "day": 1470,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9826542",
    "sequence": "2026-11-33669",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T03:37:47Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T03:36:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9826537",
    "sequence": "2026-11-33664",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:43:28Z",
    "created": "2026-11-24T03:32:53Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9826538",
    "sequence": "2026-11-33665",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:41:34Z",
    "created": "2026-11-24T03:32:53Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9826536",
    "sequence": "2026-11-33663",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:41:26Z",
    "created": "2026-11-24T03:32:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9826534",
    "sequence": "2026-11-33662",
    "type": "Burglary Attempt",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:40:58Z",
    "created": "2026-11-24T03:29:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.019263,
    "lon": -85.16861,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826532",
-   "sequence": "2026-11-33659",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T03:28:28Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9835 DAYTON PIKE",
-   "cross": "HOOD CIR/WESTBROOK AVE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.246844,
-   "lon": -85.187857,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -215,58 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826525",
-   "sequence": "2026-11-33654",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T03:23:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5958 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.090553,
-   "lon": -85.064316,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826526",
-   "sequence": "2026-11-33653",
-   "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": "2026-11-24T03:28:51Z",
-   "created": "2026-11-24T03:22:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2520 OLIVE ST",
-   "cross": "N CHAMBERLAIN AVE/PEARL ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.054492,
-   "lon": -85.253191,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826519",
@@ -314,32 +236,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "WALDEN FD HC B",
    "priority": "PRI 1",
-   "lat": 35.216154,
-   "lon": -85.272876,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826516",
-   "sequence": "2026-11-33643",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T03:11:46Z",
-   "created": "2026-11-24T03:11:42Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7790 SAWYER PIKE",
-   "cross": "SAWYER CEMETERY RD/ROBERTS MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
-   "priority": "PRI 3",
    "lat": 35.216154,
    "lon": -85.272876,
    "units": 1,
@@ -396,84 +292,6 @@
    "lon": -85.212844,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9826465",
-   "sequence": "2026-11-33601",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T03:04:52Z",
-   "created": "2026-11-24T02:18:03Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "959 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.046528,
-   "lon": -85.320609,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826445",
-   "sequence": "2026-11-33583",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T02:53:37Z",
-   "created": "2026-11-24T02:02:10Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "802 LOWER CRAVENS TER",
-   "cross": "No Cross Street/CRAVENS TER",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.01428,
-   "lon": -85.336959,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826414",
-   "sequence": "2026-11-33556",
-   "type": "",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:44:06Z",
-   "created": "2026-11-24T01:44:06Z",
-   "jurisdiction": "HC911",
-   "agencies": [
-    "HC911"
-   ],
-   "agency_type": "HC911",
-   "agency_types": [
-    "HC911"
-   ],
-   "address": "35°01'43.47\"N / 085°18'30.12\"W",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "HC911",
-   "priority": "",
-   "lat": 35.028742,
-   "lon": -85.308365,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
