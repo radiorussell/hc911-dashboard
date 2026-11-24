@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T14:00:39+00:00",
+ "updated": "2026-11-24T14:05:39+00:00",
  "counts": {
-  "year": 372170,
-  "upstream_day": 229,
-  "day": 316,
+  "year": 372177,
+  "upstream_day": 236,
+  "day": 320,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9827022",
+   "sequence": "2026-11-34048",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:01:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2005 GARFIELD ST",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.041262,
+   "lon": -85.269722,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827019",
+   "sequence": "2026-11-34047",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T14:00:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "625 GEORGIA AVE",
+   "cross": "E 6TH ST/LOOKOUT ST",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.049301,
+   "lon": -85.306913,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827015",
    "sequence": "2026-11-34043",
@@ -295,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9826961",
-   "sequence": "2026-11-34007",
-   "type": "EMS CALL",
-   "status": "Stacked",
-   "status_at": "2026-11-24T13:23:55Z",
-   "created": "2026-11-24T13:23:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "173 INTEGRA VISTAS DR",
-   "cross": "CHAPEL HL/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.17818,
-   "lon": -85.242689,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
    "id": "9826962",
    "sequence": "2026-11-34008",
    "type": "EMS CALL",
@@ -350,8 +376,8 @@
    "id": "9826960",
    "sequence": "2026-11-34006",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T13:47:23Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T14:01:39Z",
    "created": "2026-11-24T13:22:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,58 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.135647,
    "lon": -85.239317,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826875",
-   "sequence": "2026-11-33944",
-   "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T13:09:58Z",
-   "created": "2026-11-24T12:36:07Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3525 CAMP RD",
-   "cross": "HIGH POINT RD/UNIVERSITY DR",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.017647,
-   "lon": -85.061407,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825716",
-   "sequence": "2026-11-33037",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-24T13:04:17Z",
-   "created": "2026-11-23T19:21:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2511 CEDARTON CT",
-   "cross": "PINEWOOD DR/PINEWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.045288,
-   "lon": -85.132457,
    "units": 1,
    "stacked": false,
    "notable": false
