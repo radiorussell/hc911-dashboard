@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T12:40:37+00:00",
+ "updated": "2026-11-24T12:45:37+00:00",
  "counts": {
-  "year": 372097,
-  "upstream_day": 156,
+  "year": 372108,
+  "upstream_day": 167,
   "day": 229,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 31,
  "incidents": [
   {
    "id": "9826896",
@@ -38,8 +38,8 @@
    "id": "9826894",
    "sequence": "2026-11-33957",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:39:57Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:45:12Z",
    "created": "2026-11-24T12:39:24Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9826892",
    "sequence": "2026-11-33952",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:38:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T12:38:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9826891",
    "sequence": "2026-11-33953",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:39:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T12:38:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9826888",
    "sequence": "2026-11-33948",
    "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-24T12:37:24Z",
    "created": "2026-11-24T12:37:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -156,7 +156,7 @@
    "address": "NORTHPOINT BLVD / HIXSON PIKE",
    "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "A2",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.135647,
    "lon": -85.239317,
@@ -168,8 +168,8 @@
    "id": "9826884",
    "sequence": "2026-11-33945",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T12:44:53Z",
    "created": "2026-11-24T12:36:31Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -399,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9826864",
-   "sequence": "2026-11-33931",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T12:22:02Z",
-   "created": "2026-11-24T12:22:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7995 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 2",
-   "lat": 35.084963,
-   "lon": -85.133251,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826863",
    "sequence": "2026-11-33930",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:31:46Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T12:41:54Z",
    "created": "2026-11-24T12:21:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.084963,
    "lon": -85.133251,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826858",
-   "sequence": "2026-11-33926",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T12:16:41Z",
-   "created": "2026-11-24T12:16:03Z",
-   "jurisdiction": "Lookout Mountain FD",
-   "agencies": [
-    "Lookout Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "238 W BROW RD",
-   "cross": "LAUREL LN/PROSPECT WAY",
-   "city": "LOOKOUT MOUNTAIN",
-   "zone": "LOOKOUT MOUNTAIN FD",
-   "priority": "PRI 2",
-   "lat": 34.998357,
-   "lon": -85.356176,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +480,8 @@
    "id": "9826853",
    "sequence": "2026-11-33922",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T12:27:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T12:44:15Z",
    "created": "2026-11-24T12:14:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
