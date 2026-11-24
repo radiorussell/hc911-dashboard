@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T05:15:38+00:00",
+ "updated": "2026-11-24T05:20:37+00:00",
  "counts": {
   "year": 371946,
   "upstream_day": 5,
-  "day": 13,
+  "day": 15,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9826635",
+   "sequence": "2026-11-33743",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T05:17:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2420 HICKORY VALLEY RD",
+   "cross": "HICKORY CREEK RD/ROBIN DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.050662,
+   "lon": -85.163455,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826632",
    "sequence": "2026-11-33740",
@@ -64,8 +90,8 @@
    "id": "9826629",
    "sequence": "2026-11-33739",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T05:15:13Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T05:14:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.002025,
    "lon": -85.269814,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826615",
-   "sequence": "2026-11-33731",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-24T05:10:55Z",
-   "created": "2026-11-24T05:04:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "591 - 699 INTERSTATE 75 SB",
-   "cross": "EXIT 5 OFF RAMP SB/EXIT 7 ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.046568,
-   "lon": -85.151595,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9826583",
-   "sequence": "2026-11-33706",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T04:48:30Z",
-   "created": "2026-11-24T04:24:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "413 SPRING ST",
-   "cross": "HARPER ST/DAVENPORT ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.067898,
-   "lon": -85.314482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826294",
    "sequence": "2026-11-33457",
    "type": "Street Status",
@@ -236,58 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "506",
    "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826295",
-   "sequence": "2026-11-33458",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826292",
-   "sequence": "2026-11-33456",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:19:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 0",
    "lat": 35.015673,
    "lon": -85.277391,
    "units": 1,
