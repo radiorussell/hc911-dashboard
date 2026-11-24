@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-24T13:50:40+00:00",
+ "updated": "2026-11-24T13:55:39+00:00",
  "counts": {
-  "year": 372162,
-  "upstream_day": 221,
+  "year": 372170,
+  "upstream_day": 229,
   "day": 307,
   "day_basis": "midnight"
  },
@@ -90,8 +90,8 @@
    "id": "9826988",
    "sequence": "2026-11-34030",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-24T13:47:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T13:47:00Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9826978",
    "sequence": "2026-11-34023",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:54:02Z",
    "created": "2026-11-24T13:38:37Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9826976",
    "sequence": "2026-11-34018",
    "type": "Unknown Trouble",
-   "status": "Stacked",
-   "status_at": "2026-11-24T13:36:10Z",
+   "status": "On Scene",
+   "status_at": "2026-11-24T13:52:04Z",
    "created": "2026-11-24T13:35:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -213,7 +213,7 @@
    "lat": 34.994652,
    "lon": -85.318143,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -402,8 +402,8 @@
    "id": "9826927",
    "sequence": "2026-11-33983",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T13:46:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T13:54:58Z",
    "created": "2026-11-24T13:06:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +454,8 @@
    "id": "9826922",
    "sequence": "2026-11-33979",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T13:40:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T13:52:44Z",
    "created": "2026-11-24T13:06:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
