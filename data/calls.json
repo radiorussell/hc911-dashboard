@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-24T20:50:45+00:00",
+ "updated": "2026-11-24T20:55:38+00:00",
  "counts": {
-  "year": 372649,
-  "upstream_day": 708,
-  "day": 942,
+  "year": 372659,
+  "upstream_day": 718,
+  "day": 950,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9827981",
+   "sequence": "2026-11-34678",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:53:29Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1735 OOLTEWAH RINGGOLD RD",
+   "cross": "COBBLECREEK WAY/E BRAINERD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 34.998857,
+   "lon": -85.095524,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827980",
+   "sequence": "2026-11-34677",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:53:11Z",
+   "created": "2026-11-24T20:53:11Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DALLAS HOLLOW RD / GREEN POND RD",
+   "cross": "",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.24011,
+   "lon": -85.152805,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827973",
+   "sequence": "2026-11-34676",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:53:10Z",
+   "created": "2026-11-24T20:52:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HANCOCK RD / WINNIESPAN RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.085525,
+   "lon": -85.174046,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827972",
+   "sequence": "2026-11-34674",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:52:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3812 LERCH ST",
+   "cross": "HILL TOP DR/BELVOIR AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 2",
+   "lat": 35.015299,
+   "lon": -85.244892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827964",
    "sequence": "2026-11-34670",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:52:38Z",
    "created": "2026-11-24T20:44:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9827950",
    "sequence": "2026-11-34659",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:50:48Z",
    "created": "2026-11-24T20:37:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -165,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9827946",
-   "sequence": "2026-11-34655",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-24T20:48:12Z",
-   "created": "2026-11-24T20:36:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6658 ROLLING RIVER RD",
-   "cross": "FOREST BREEZE DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.17503,
-   "lon": -85.104583,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827933",
    "sequence": "2026-11-34646",
    "type": "EMS Standby With FD",
@@ -220,8 +298,8 @@
    "id": "9827922",
    "sequence": "2026-11-34648",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:53:02Z",
    "created": "2026-11-24T20:26:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +324,8 @@
    "id": "9827920",
    "sequence": "2026-11-34638",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T20:46:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T20:54:59Z",
    "created": "2026-11-24T20:26:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
