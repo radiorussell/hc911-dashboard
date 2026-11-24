@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T08:00:37+00:00",
+ "updated": "2026-11-24T08:05:37+00:00",
  "counts": {
   "year": 371990,
   "upstream_day": 49,
-  "day": 57,
+  "day": 65,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9826688",
+   "sequence": "2026-11-33793",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T08:04:47Z",
+   "created": "2026-11-24T08:04:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "303 BELVOIR AVE",
+   "cross": "ALBEMARLE AVE/MAYFAIR AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.01421,
+   "lon": -85.24234,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826686",
+   "sequence": "2026-11-33792",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T08:00:46Z",
+   "created": "2026-11-24T08:00:09Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1810 JOHN ROSS RD",
+   "cross": "CLAYTON AVE EXT/S CREST RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.987277,
+   "lon": -85.272019,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826678",
    "sequence": "2026-11-33785",
@@ -38,8 +90,8 @@
    "id": "9826673",
    "sequence": "2026-11-33780",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T07:30:43Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T08:02:57Z",
    "created": "2026-11-24T07:00:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
