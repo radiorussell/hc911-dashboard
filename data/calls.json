@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-24T20:25:46+00:00",
+ "updated": "2026-11-24T20:30:38+00:00",
  "counts": {
   "year": 372624,
   "upstream_day": 683,
-  "day": 909,
+  "day": 919,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 42,
  "incidents": [
+  {
+   "id": "9827933",
+   "sequence": "2026-11-34646",
+   "type": "EMS Standby With FD",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:30:20Z",
+   "created": "2026-11-24T20:30:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1214 BELMEADE AVE",
+   "cross": "HOYT ST/THROUGH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.043571,
+   "lon": -85.238923,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827928",
+   "sequence": "2026-11-34647",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:30:28Z",
+   "created": "2026-11-24T20:28:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "248 NORTHGATE MALL DR",
+   "cross": "NORTHGATE PARK LN/EXECUTIVE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.132877,
+   "lon": -85.238307,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827923",
+   "sequence": "2026-11-34639",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:26:34Z",
+   "created": "2026-11-24T20:26:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1301 MCCALLIE AVE",
+   "cross": "N HOLTZCLAW AVE/S GREENWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.039229,
+   "lon": -85.282072,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827924",
+   "sequence": "2026-11-34640",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:26:34Z",
+   "created": "2026-11-24T20:26:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1301 MCCALLIE AVE",
+   "cross": "N HOLTZCLAW AVE/S GREENWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.039229,
+   "lon": -85.282072,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827920",
+   "sequence": "2026-11-34638",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T20:26:14Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1301 MCCALLIE AVE",
+   "cross": "N HOLTZCLAW AVE/S GREENWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.039229,
+   "lon": -85.282072,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827918",
+   "sequence": "2026-11-34641",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T20:26:35Z",
+   "created": "2026-11-24T20:26:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1607 N CHAMBERLAIN AVE",
+   "cross": "CAMDEN ST/HIWASSEE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.053319,
+   "lon": -85.255848,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827913",
    "sequence": "2026-11-34637",
    "type": "Residential Fire",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T20:28:54Z",
    "created": "2026-11-24T20:24:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +194,8 @@
    "id": "9827911",
    "sequence": "2026-11-34635",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:24:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T20:24:20Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +220,8 @@
    "id": "9827910",
    "sequence": "2026-11-34636",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:28:22Z",
    "created": "2026-11-24T20:24:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +298,8 @@
    "id": "9827904",
    "sequence": "2026-11-34633",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:29:31Z",
    "created": "2026-11-24T20:22:31Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +324,8 @@
    "id": "9827900",
    "sequence": "2026-11-34629",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:22:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T20:21:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9827891",
-   "sequence": "2026-11-34621",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T20:21:20Z",
-   "created": "2026-11-24T20:14:40Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4101 HIGHWOOD DR",
-   "cross": "OAKMONT ST/MICHELIN LN",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 3",
-   "lat": 35.117624,
-   "lon": -85.253355,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827889",
    "sequence": "2026-11-34619",
    "type": "EMS CALL",
@@ -347,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9827885",
-   "sequence": "2026-11-34615",
-   "type": "Brush Fire",
-   "status": "Queued",
-   "status_at": "2026-11-24T20:11:25Z",
-   "created": "2026-11-24T20:11:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7112 DALEFIELD LN",
-   "cross": "EDGEFIELD DR/EDGEFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.054752,
-   "lon": -85.152087,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9827883",
    "sequence": "2026-11-34616",
    "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T20:25:59Z",
    "created": "2026-11-24T20:11:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -397,32 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827879",
-   "sequence": "2026-11-34614",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-24T20:22:56Z",
-   "created": "2026-11-24T20:10:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7112 DALEFIELD LN",
-   "cross": "EDGEFIELD DR/EDGEFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 2",
-   "lat": 35.054752,
-   "lon": -85.152087,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827877",
