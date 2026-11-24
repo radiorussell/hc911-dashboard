@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-24T18:40:38+00:00",
+ "updated": "2026-11-24T18:45:39+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 749,
+  "day": 760,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9827691",
+   "sequence": "2026-11-34487",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:45:24Z",
+   "created": "2026-11-24T18:45:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4343 COMET TRL",
+   "cross": "MILKY WAY/NORTHGATE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.124838,
+   "lon": -85.260308,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827692",
+   "sequence": "2026-11-34488",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:45:24Z",
+   "created": "2026-11-24T18:45:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4343 COMET TRL",
+   "cross": "MILKY WAY/NORTHGATE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "1903",
+   "priority": "PRI 1",
+   "lat": 35.124838,
+   "lon": -85.260308,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827690",
+   "sequence": "2026-11-34486",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:45:23Z",
+   "created": "2026-11-24T18:45:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4343 COMET TRL",
+   "cross": "MILKY WAY/NORTHGATE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.124838,
+   "lon": -85.260308,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827688",
+   "sequence": "2026-11-34485",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:43:07Z",
+   "created": "2026-11-24T18:42:32Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6969 BULLOCK WAY",
+   "cross": "No Cross Street/MANASSAS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.172356,
+   "lon": -85.183126,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827684",
+   "sequence": "2026-11-34484",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:42:08Z",
+   "created": "2026-11-24T18:41:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17125 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 34.985901,
+   "lon": -85.406365,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827678",
+   "sequence": "2026-11-34481",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:40:28Z",
+   "created": "2026-11-24T18:40:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827675",
    "sequence": "2026-11-34477",
@@ -56,32 +212,6 @@
    "priority": "PRI 0",
    "lat": 35.007352,
    "lon": -85.313847,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827673",
-   "sequence": "2026-11-34475",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-24T18:35:47Z",
-   "created": "2026-11-24T18:35:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17390 INTERSTATE 24 WB",
-   "cross": "EXIT 174 ON RAMP WB/EXIT 174 OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.0177,
-   "lon": -85.384506,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +298,8 @@
    "id": "9827668",
    "sequence": "2026-11-34470",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:43:33Z",
    "created": "2026-11-24T18:32:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9827661",
-   "sequence": "2026-11-34462",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:26:44Z",
-   "created": "2026-11-24T18:26:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5510 HIGHWAY 153",
-   "cross": "GADD RD/BEREAN LN",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
-   "lat": 35.143721,
-   "lon": -85.247823,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827659",
    "sequence": "2026-11-34461",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:36:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T18:44:55Z",
    "created": "2026-11-24T18:25:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -688,8 +792,8 @@
    "id": "9827565",
    "sequence": "2026-11-34396",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T18:25:49Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T18:43:56Z",
    "created": "2026-11-24T17:47:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -740,8 +844,8 @@
    "id": "9827559",
    "sequence": "2026-11-34391",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T18:13:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T18:42:52Z",
    "created": "2026-11-24T17:42:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
