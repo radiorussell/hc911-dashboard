@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T11:10:43+00:00",
+ "updated": "2026-11-24T11:15:39+00:00",
  "counts": {
-  "year": 372035,
-  "upstream_day": 94,
-  "day": 126,
+  "year": 372037,
+  "upstream_day": 96,
+  "day": 129,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
   {
+   "id": "9826765",
+   "sequence": "2026-11-33857",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T11:11:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1300 INTERSTATE 75 SB",
+   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.101868,
+   "lon": -85.05341,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9826762",
    "sequence": "2026-11-33854",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T11:14:30Z",
    "created": "2026-11-24T11:07:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9826747",
-   "sequence": "2026-11-33845",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T10:40:17Z",
-   "created": "2026-11-24T10:40:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826748",
    "sequence": "2026-11-33846",
    "type": "EMS CALL",
@@ -168,8 +168,8 @@
    "id": "9826744",
    "sequence": "2026-11-33844",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T10:51:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T11:14:34Z",
    "created": "2026-11-24T10:39:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
