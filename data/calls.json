@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T07:20:37+00:00",
+ "updated": "2026-11-24T07:25:37+00:00",
  "counts": {
-  "year": 371986,
-  "upstream_day": 45,
+  "year": 371987,
+  "upstream_day": 46,
   "day": 60,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9826681",
@@ -38,8 +38,8 @@
    "id": "9826680",
    "sequence": "2026-11-33787",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:20:46Z",
    "created": "2026-11-24T07:14:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +82,6 @@
    "priority": "PRI 4",
    "lat": 35.062172,
    "lon": -85.30649,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826676",
-   "sequence": "2026-11-33782",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T07:15:06Z",
-   "created": "2026-11-24T07:02:28Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1517 DALLAS LAKE RD",
-   "cross": "HALE RD/WOMACK AVE",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.211689,
-   "lon": -85.164863,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +168,8 @@
    "id": "9826668",
    "sequence": "2026-11-33775",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T07:21:00Z",
    "created": "2026-11-24T06:56:03Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
