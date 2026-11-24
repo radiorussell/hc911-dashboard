@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T03:35:45+00:00",
+ "updated": "2026-11-24T03:40:38+00:00",
  "counts": {
   "year": 371894,
   "upstream_day": 0,
-  "day": 1466,
+  "day": 1470,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9826542",
+   "sequence": "2026-11-33669",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-24T03:37:47Z",
+   "created": "2026-11-24T03:36:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5125 HIGHWAY 58",
+   "cross": "LANTANA LN/THOR TRL",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.097902,
+   "lon": -85.173448,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826537",
    "sequence": "2026-11-33664",
@@ -91,7 +117,7 @@
    "sequence": "2026-11-33661",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T03:39:29Z",
    "created": "2026-11-24T03:30:10Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9826534",
    "sequence": "2026-11-33662",
    "type": "Burglary Attempt",
-   "status": "Queued",
-   "status_at": "2026-11-24T03:30:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T03:29:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -246,8 +272,8 @@
    "id": "9826519",
    "sequence": "2026-11-33645",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:37:15Z",
    "created": "2026-11-24T03:12:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +298,8 @@
    "id": "9826520",
    "sequence": "2026-11-33646",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T03:37:41Z",
    "created": "2026-11-24T03:12:42Z",
    "jurisdiction": "Waldens Ridge Emergency Srv",
    "agencies": [
