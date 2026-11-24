@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T17:25:39+00:00",
+ "updated": "2026-11-24T17:30:40+00:00",
  "counts": {
   "year": 372411,
   "upstream_day": 470,
-  "day": 637,
+  "day": 646,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9827513",
+   "sequence": "2026-11-34374",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T17:26:07Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1923 LAKE PENINSULA DR",
+   "cross": "SAND DUNES DR/SEA HAVEN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 3",
+   "lat": 35.146873,
+   "lon": -85.175357,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9827507",
+   "sequence": "2026-11-34366",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-24T17:24:30Z",
+   "created": "2026-11-24T17:24:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "440 INTERSTATE 75 NB",
+   "cross": "EXIT 4A OFF RAMP NB/EXIT INTERSTATE 75 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.029278,
+   "lon": -85.170417,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827504",
    "sequence": "2026-11-34365",
@@ -116,8 +168,8 @@
    "id": "9827499",
    "sequence": "2026-11-34363",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:30:14Z",
    "created": "2026-11-24T17:22:20Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9827497",
    "sequence": "2026-11-34360",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:26:26Z",
    "created": "2026-11-24T17:21:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9827491",
    "sequence": "2026-11-34356",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:28:37Z",
    "created": "2026-11-24T17:18:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,37 +425,11 @@
    "notable": false
   },
   {
-   "id": "9827474",
-   "sequence": "2026-11-34346",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:12:46Z",
-   "created": "2026-11-24T17:12:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2111 W SHEPHERD RD",
-   "cross": "MEHARRY DR/ARLENA CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.047472,
-   "lon": -85.186662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827472",
    "sequence": "2026-11-34344",
    "type": "Harrassing Threats",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T17:27:39Z",
    "created": "2026-11-24T17:11:33Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -444,32 +470,6 @@
    "city": "CHATTANOOGA",
    "zone": "801 A",
    "priority": "PRI 1",
-   "lat": 35.052227,
-   "lon": -85.174917,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827463",
-   "sequence": "2026-11-34342",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:08:36Z",
-   "created": "2026-11-24T17:08:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6401 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
    "lat": 35.052227,
    "lon": -85.174917,
    "units": 1,
@@ -532,8 +532,8 @@
    "id": "9827444",
    "sequence": "2026-11-34334",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T17:26:46Z",
    "created": "2026-11-24T17:04:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -792,8 +792,8 @@
    "id": "9827336",
    "sequence": "2026-11-34268",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T17:11:36Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T17:28:48Z",
    "created": "2026-11-24T16:21:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -888,32 +888,6 @@
    "priority": "PRI 4",
    "lat": 35.090258,
    "lon": -85.184602,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827320",
-   "sequence": "2026-11-34265",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T16:41:57Z",
-   "created": "2026-11-24T16:16:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6017 HUNTER RD",
-   "cross": "BARKLEY CREEK DR/HUNTER GLEN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.121119,
-   "lon": -85.100355,
    "units": 1,
    "stacked": false,
    "notable": false
