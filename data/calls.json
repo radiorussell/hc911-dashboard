@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T18:00:38+00:00",
+ "updated": "2026-11-24T18:05:38+00:00",
  "counts": {
-  "year": 372446,
-  "upstream_day": 505,
-  "day": 684,
+  "year": 372455,
+  "upstream_day": 514,
+  "day": 685,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9827590",
+   "sequence": "2026-11-34413",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:02:26Z",
+   "created": "2026-11-24T18:02:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2720 ROSSVILLE BLVD",
+   "cross": "E 27TH ST/E 28TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.015131,
+   "lon": -85.292776,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827586",
    "sequence": "2026-11-34412",
@@ -38,8 +64,8 @@
    "id": "9827583",
    "sequence": "2026-11-34411",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:04:35Z",
    "created": "2026-11-24T17:56:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9827581",
    "sequence": "2026-11-34409",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:00:44Z",
    "created": "2026-11-24T17:53:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -186,110 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.205039,
    "lon": -85.255346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827566",
-   "sequence": "2026-11-34397",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T17:47:09Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "726 ROBERTS MILL RD",
-   "cross": "JACKSON RD/SELCER RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 3",
-   "priority": "PRI 2",
-   "lat": 35.205039,
-   "lon": -85.255346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827564",
-   "sequence": "2026-11-34398",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T17:47:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1010 N HICKORY ST",
-   "cross": "PORTLAND ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.051365,
-   "lon": -85.269681,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827560",
-   "sequence": "2026-11-34392",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:51:04Z",
-   "created": "2026-11-24T17:43:19Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5512 JONQUIL LN",
-   "cross": "No Cross Street/GINKGO RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 3",
-   "lat": 35.06942,
-   "lon": -85.0464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827561",
-   "sequence": "2026-11-34393",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:52:53Z",
-   "created": "2026-11-24T17:43:19Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5512 JONQUIL LN",
-   "cross": "No Cross Street/GINKGO RD",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 3",
-   "lat": 35.06942,
-   "lon": -85.0464,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -454,8 +376,8 @@
    "id": "9827503",
    "sequence": "2026-11-34364",
    "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-24T17:23:48Z",
+   "status": "Enroute",
+   "status_at": "2026-11-24T18:02:00Z",
    "created": "2026-11-24T17:23:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,7 +395,7 @@
    "lat": 35.087626,
    "lon": -85.070053,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -555,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9827488",
-   "sequence": "2026-11-34355",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T17:16:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8288 CHULA CREEK RD",
-   "cross": "SIR JOHN CT/JENKINS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.014607,
-   "lon": -85.145491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827484",
    "sequence": "2026-11-34353",
    "type": "Disorder",
@@ -602,32 +498,6 @@
    "priority": "PRI 3",
    "lat": 35.187182,
    "lon": -85.18309,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827481",
-   "sequence": "2026-11-34352",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:49:00Z",
-   "created": "2026-11-24T17:15:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LEE HWY / OOLTEWAH GEORGETOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.082742,
-   "lon": -85.058535,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -836,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.107254,
    "lon": -85.157573,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827332",
-   "sequence": "2026-11-34259",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T16:18:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3933 ST ELMO AVE",
-   "cross": "TENNESSEE AVE/W 40TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.00924,
-   "lon": -85.328285,
    "units": 1,
    "stacked": false,
    "notable": false
