@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T06:55:38+00:00",
+ "updated": "2026-11-24T07:00:38+00:00",
  "counts": {
   "year": 371973,
   "upstream_day": 32,
-  "day": 40,
+  "day": 50,
   "day_basis": "midnight"
  },
- "raw_rows": 4,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9826670",
+   "sequence": "2026-11-33777",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T06:59:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "EASTER DR / TYNER LN",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.112484,
+   "lon": -85.139946,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826671",
+   "sequence": "2026-11-33778",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T06:59:25Z",
+   "created": "2026-11-24T06:59:25Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "EASTER DR / TYNER LN",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "701 A",
+   "priority": "PRI 2",
+   "lat": 35.112484,
+   "lon": -85.139946,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826667",
+   "sequence": "2026-11-33774",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T06:56:03Z",
+   "created": "2026-11-24T06:56:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6904 BENWOOD DR",
+   "cross": "BLUE ASH DR/HUNTER RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.118141,
+   "lon": -85.097013,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826668",
+   "sequence": "2026-11-33775",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T06:56:03Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6904 BENWOOD DR",
+   "cross": "BLUE ASH DR/HUNTER RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 3",
+   "lat": 35.118141,
+   "lon": -85.097013,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826666",
+   "sequence": "2026-11-33773",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T06:55:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6904 BENWOOD DR",
+   "cross": "BLUE ASH DR/HUNTER RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.118141,
+   "lon": -85.097013,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826659",
    "sequence": "2026-11-33768",
