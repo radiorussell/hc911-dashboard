@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-24T23:05:37+00:00",
+ "updated": "2026-11-24T23:10:39+00:00",
  "counts": {
   "year": 372796,
   "upstream_day": 854,
-  "day": 1126,
+  "day": 1130,
   "day_basis": "midnight"
  },
- "raw_rows": 50,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9828212",
+   "sequence": "2026-11-34858",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T23:07:17Z",
+   "created": "2026-11-24T23:07:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1148 MOUNTAIN CREEK RD",
+   "cross": "WELLSTONE DR/SOUTHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 2",
+   "lat": 35.115468,
+   "lon": -85.31894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828211",
+   "sequence": "2026-11-34855",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-24T23:06:31Z",
+   "created": "2026-11-24T23:06:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1118 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.04333,
+   "lon": -85.242612,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828210",
+   "sequence": "2026-11-34857",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T23:06:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1148 MOUNTAIN CREEK RD",
+   "cross": "WELLSTONE DR/SOUTHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.115468,
+   "lon": -85.31894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828207",
    "sequence": "2026-11-34853",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:05:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T23:04:49Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9828208",
    "sequence": "2026-11-34854",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:05:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T23:04:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9828195",
-   "sequence": "2026-11-34844",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:54:22Z",
-   "created": "2026-11-24T22:49:36Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "HIGHWAY 58 / RAMSEYTOWN RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.159782,
-   "lon": -85.095208,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828194",
    "sequence": "2026-11-34843",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T23:05:54Z",
    "created": "2026-11-24T22:49:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9828184",
    "sequence": "2026-11-34835",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T23:09:01Z",
    "created": "2026-11-24T22:45:33Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -581,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9828168",
-   "sequence": "2026-11-34820",
-   "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:35:24Z",
-   "created": "2026-11-24T22:34:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "PINEWOOD DR / GUNBARREL RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.04863,
-   "lon": -85.145489,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828166",
    "sequence": "2026-11-34818",
    "type": "EMS CALL",
@@ -633,37 +659,11 @@
    "notable": false
   },
   {
-   "id": "9828167",
-   "sequence": "2026-11-34819",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:34:17Z",
-   "created": "2026-11-24T22:34:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6220 LEE HWY",
-   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "802 C",
-   "priority": "PRI 1",
-   "lat": 35.030289,
-   "lon": -85.184651,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828163",
    "sequence": "2026-11-34817",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:39:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T23:05:57Z",
    "created": "2026-11-24T22:34:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.030289,
    "lon": -85.184651,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828164",
-   "sequence": "2026-11-34815",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:49:33Z",
-   "created": "2026-11-24T22:34:05Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2413 CEDAR CREEK DR",
-   "cross": "POTOMAC DR/POTOMAC DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 2",
-   "lat": 35.023842,
-   "lon": -85.107858,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -870,8 +844,8 @@
    "id": "9828145",
    "sequence": "2026-11-34800",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T22:22:34Z",
    "created": "2026-11-24T22:22:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -889,7 +863,7 @@
    "lat": 35.059801,
    "lon": -85.230417,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -917,32 +891,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828128",
-   "sequence": "2026-11-34787",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T22:12:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LEE HWY / OOLTEWAH GEORGETOWN RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.082742,
-   "lon": -85.058535,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828123",
@@ -1099,32 +1047,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828073",
-   "sequence": "2026-11-34746",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T21:41:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT INTERSTATE 24 W OFF RAMP SB",
-   "cross": "INTERSTATE 24 WB/HIGHWAY 27 SB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.033139,
-   "lon": -85.319777,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828053",
