@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T08:55:45+00:00",
+ "updated": "2026-11-24T09:00:43+00:00",
  "counts": {
   "year": 372002,
   "upstream_day": 61,
-  "day": 81,
+  "day": 84,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9826706",
+   "sequence": "2026-11-33811",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T09:00:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826707",
+   "sequence": "2026-11-33812",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T09:00:06Z",
+   "created": "2026-11-24T09:00:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826705",
+   "sequence": "2026-11-33810",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T09:00:06Z",
+   "created": "2026-11-24T08:59:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826704",
    "sequence": "2026-11-33809",
