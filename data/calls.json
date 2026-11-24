@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-24T14:25:37+00:00",
+ "updated": "2026-11-24T14:30:40+00:00",
  "counts": {
   "year": 372208,
   "upstream_day": 267,
-  "day": 352,
+  "day": 361,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9827088",
+   "sequence": "2026-11-34089",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:30:17Z",
+   "created": "2026-11-24T14:30:17Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8152 FATHERSON CIR",
+   "cross": "VERONICA DR/BUCKSLAND DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.114128,
+   "lon": -85.087679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827080",
+   "sequence": "2026-11-34085",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-24T14:28:24Z",
+   "created": "2026-11-24T14:28:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827071",
    "sequence": "2026-11-34080",
@@ -131,32 +183,6 @@
    "cross": "BARBEE RD/DALLAS HOLLOW RD",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.232874,
-   "lon": -85.151427,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827058",
-   "sequence": "2026-11-34067",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:15:13Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1231 SEQUOYAH RD",
-   "cross": "BARBEE RD/DALLAS HOLLOW RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
    "priority": "PRI 3",
    "lat": 35.232874,
    "lon": -85.151427,
@@ -425,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9826992",
-   "sequence": "2026-11-34032",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:20:05Z",
-   "created": "2026-11-24T13:48:14Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2235 NIMITZ ST",
-   "cross": "No Cross Street/E GLEN CT",
-   "city": "CHATTANOOGA",
-   "zone": "1503",
-   "priority": "PRI 2",
-   "lat": 35.057531,
-   "lon": -85.230112,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826991",
    "sequence": "2026-11-34031",
    "type": "EMS CALL",
@@ -550,32 +550,6 @@
    "priority": "PRI 3",
    "lat": 35.152975,
    "lon": -85.24562,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826927",
-   "sequence": "2026-11-33983",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T13:54:58Z",
-   "created": "2026-11-24T13:06:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
    "units": 1,
    "stacked": false,
    "notable": false
