@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-24T05:20:37+00:00",
+ "updated": "2026-11-24T05:25:38+00:00",
  "counts": {
-  "year": 371946,
-  "upstream_day": 5,
-  "day": 15,
+  "year": 371952,
+  "upstream_day": 11,
+  "day": 16,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9826636",
+   "sequence": "2026-11-33744",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T05:20:39Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5465 HIGHWAY 58",
+   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 3",
+   "lat": 35.107019,
+   "lon": -85.157878,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9826635",
    "sequence": "2026-11-33743",
@@ -90,8 +116,8 @@
    "id": "9826629",
    "sequence": "2026-11-33739",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T05:24:46Z",
    "created": "2026-11-24T05:14:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
