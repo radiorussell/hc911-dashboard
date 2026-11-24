@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-24T14:55:44+00:00",
+ "updated": "2026-11-24T15:00:46+00:00",
  "counts": {
   "year": 372233,
   "upstream_day": 292,
-  "day": 389,
+  "day": 392,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 16,
  "incidents": [
   {
-   "id": "9827125",
-   "sequence": "2026-11-34117",
-   "type": "Assault PD Only",
+   "id": "9827129",
+   "sequence": "2026-11-34120",
+   "type": "Narcotics Violation",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-24T14:54:20Z",
+   "created": "2026-11-24T14:55:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,117 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "701 BROWNS FERRY RD",
-   "cross": "ANGELA LN/WATERFRONT DR",
+   "address": "510 CENTRAL DR",
+   "cross": "WHIRLAWAY DR/CHARLES DR",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
+   "zone": "C4",
    "priority": "PRI 3",
-   "lat": 35.044533,
-   "lon": -85.356936,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9827123",
-   "sequence": "2026-11-34116",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:53:06Z",
-   "created": "2026-11-24T14:53:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827122",
-   "sequence": "2026-11-34115",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:53:02Z",
-   "created": "2026-11-24T14:52:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827121",
-   "sequence": "2026-11-34114",
-   "type": "AFA Commercial",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:52:08Z",
-   "created": "2026-11-24T14:52:08Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10962 APISON PIKE",
-   "cross": "SHORT CUT RD/SANDY TRL",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 3",
-   "lat": 35.033812,
-   "lon": -85.02575,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827120",
-   "sequence": "2026-11-34113",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:51:54Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10962 APISON PIKE",
-   "cross": "SHORT CUT RD/SANDY TRL",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-3 CO A",
-   "priority": "PRI 1",
-   "lat": 35.033812,
-   "lon": -85.02575,
+   "lat": 35.021851,
+   "lon": -85.194085,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +38,8 @@
    "id": "9827117",
    "sequence": "2026-11-34111",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T14:57:52Z",
    "created": "2026-11-24T14:49:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,89 +165,11 @@
    "notable": false
   },
   {
-   "id": "9827101",
-   "sequence": "2026-11-34099",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:48:47Z",
-   "created": "2026-11-24T14:39:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3117 PARKER LN",
-   "cross": "No Cross Street/BROWNS FERRY RD",
-   "city": "CHATTANOOGA",
-   "zone": "2001",
-   "priority": "PRI 3",
-   "lat": 35.02585,
-   "lon": -85.362942,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9827094",
-   "sequence": "2026-11-34095",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:34:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5873 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.111338,
-   "lon": -85.213761,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827088",
-   "sequence": "2026-11-34089",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:30:17Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8152 FATHERSON CIR",
-   "cross": "VERONICA DR/BUCKSLAND DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.114128,
-   "lon": -85.087679,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827080",
    "sequence": "2026-11-34085",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-24T14:53:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T14:28:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -451,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9827045",
-   "sequence": "2026-11-34058",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-24T14:20:49Z",
-   "created": "2026-11-24T14:09:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "311 E MARTIN LUTHER KING BLVD",
-   "cross": "HOUSTON ST/KING ST",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.044839,
-   "lon": -85.3046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827031",
    "sequence": "2026-11-34051",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T14:40:11Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T14:59:40Z",
    "created": "2026-11-24T14:06:00Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -558,8 +350,8 @@
    "id": "9827014",
    "sequence": "2026-11-34042",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T14:37:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T14:56:03Z",
    "created": "2026-11-24T13:59:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 34.989949,
    "lon": -85.305673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826888",
-   "sequence": "2026-11-33948",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T12:37:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "NORTHPOINT BLVD / HIXSON PIKE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.135647,
-   "lon": -85.239317,
    "units": 1,
    "stacked": false,
    "notable": false
