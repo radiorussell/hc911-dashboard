@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-24T15:00:46+00:00",
+ "updated": "2026-11-24T15:05:38+00:00",
  "counts": {
-  "year": 372233,
-  "upstream_day": 292,
-  "day": 392,
+  "year": 372246,
+  "upstream_day": 305,
+  "day": 413,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9827156",
+   "sequence": "2026-11-34141",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:05:18Z",
+   "created": "2026-11-24T15:05:18Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7809 SAFARI DR",
+   "cross": "BROCK RD/MEGAN CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 2",
+   "lat": 35.050666,
+   "lon": -85.119658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827155",
+   "sequence": "2026-11-34139",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:04:47Z",
+   "created": "2026-11-24T15:04:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6241 PERIMETER DR",
+   "cross": "LEE HWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 0",
+   "lat": 35.029578,
+   "lon": -85.181639,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827153",
+   "sequence": "2026-11-34140",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:05:18Z",
+   "created": "2026-11-24T15:04:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7809 SAFARI DR",
+   "cross": "BROCK RD/MEGAN CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.050666,
+   "lon": -85.119658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827151",
+   "sequence": "2026-11-34136",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:03:48Z",
+   "created": "2026-11-24T15:03:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "MILLER DR / SPRING CREEK RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 1",
+   "lat": 35.005845,
+   "lon": -85.219205,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827150",
+   "sequence": "2026-11-34135",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:03:48Z",
+   "created": "2026-11-24T15:03:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MILLER DR / SPRING CREEK RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.005845,
+   "lon": -85.219205,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827147",
+   "sequence": "2026-11-34134",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:03:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "MILLER DR / SPRING CREEK RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.005845,
+   "lon": -85.219205,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827142",
+   "sequence": "2026-11-34132",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:01:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5821 LEE HWY",
+   "cross": "HONEST ST/CHICKAMAUGA RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.022243,
+   "lon": -85.19907,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827129",
    "sequence": "2026-11-34120",
@@ -30,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.021851,
    "lon": -85.194085,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827117",
-   "sequence": "2026-11-34111",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T14:57:52Z",
-   "created": "2026-11-24T14:49:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.016146,
-   "lon": -85.293538,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.000895,
    "lon": -85.123658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827080",
-   "sequence": "2026-11-34085",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T14:28:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.094368,
-   "lon": -85.331318,
    "units": 1,
    "stacked": false,
    "notable": false
