@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-23T23:55:38+00:00",
+ "updated": "2026-11-24T00:00:39+00:00",
  "counts": {
   "year": 371698,
   "upstream_day": 895,
-  "day": 1224,
+  "day": 1234,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9826264",
+   "sequence": "2026-11-33433",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:00:20Z",
+   "created": "2026-11-24T00:00:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4610 ADAMS RD",
+   "cross": "HAMILL RD/ADAMS CT",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.127862,
+   "lon": -85.228022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826260",
+   "sequence": "2026-11-33430",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:58:55Z",
+   "created": "2026-11-23T23:58:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4610 ADAMS RD",
+   "cross": "HAMILL RD/ADAMS CT",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 1",
+   "lat": 35.127862,
+   "lon": -85.228022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826259",
+   "sequence": "2026-11-33429",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T23:58:42Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4610 ADAMS RD",
+   "cross": "HAMILL RD/ADAMS CT",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 3",
+   "lat": 35.127862,
+   "lon": -85.228022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826258",
+   "sequence": "2026-11-33428",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T23:58:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4610 ADAMS RD",
+   "cross": "HAMILL RD/ADAMS CT",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.127862,
+   "lon": -85.228022,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826256",
+   "sequence": "2026-11-33427",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:57:03Z",
+   "created": "2026-11-23T23:56:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18150 - 18248 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.02108,
+   "lon": -85.26121,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826254",
+   "sequence": "2026-11-33426",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-23T23:55:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826251",
    "sequence": "2026-11-33422",
@@ -38,8 +194,8 @@
    "id": "9826252",
    "sequence": "2026-11-33423",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:59:02Z",
    "created": "2026-11-23T23:52:58Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +324,8 @@
    "id": "9826228",
    "sequence": "2026-11-33411",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-23T23:58:34Z",
    "created": "2026-11-23T23:47:29Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -269,27 +425,27 @@
    "notable": false
   },
   {
-   "id": "9826227",
-   "sequence": "2026-11-33404",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T23:41:57Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9826226",
+   "sequence": "2026-11-33403",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-23T23:41:37Z",
+   "created": "2026-11-23T23:41:37Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "590 - 689 INTERSTATE 75 NB",
-   "cross": "EXIT 5 ON RAMP NB/EXIT 7 OFF RAMP NB",
+   "address": "2321 CRUTCHFIELD ST",
+   "cross": "DAVENPORT ST/WHEELER AVE",
    "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.045707,
-   "lon": -85.152285,
+   "zone": "406",
+   "priority": "PRI 2",
+   "lat": 35.06347,
+   "lon": -85.251868,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -314,32 +470,6 @@
    "city": "CHATTANOOGA",
    "zone": "B2",
    "priority": "PRI 3",
-   "lat": 35.06347,
-   "lon": -85.251868,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826226",
-   "sequence": "2026-11-33403",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T23:41:37Z",
-   "created": "2026-11-23T23:41:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2321 CRUTCHFIELD ST",
-   "cross": "DAVENPORT ST/WHEELER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "406",
-   "priority": "PRI 2",
    "lat": 35.06347,
    "lon": -85.251868,
    "units": 1,
@@ -451,63 +581,11 @@
    "notable": false
   },
   {
-   "id": "9826200",
-   "sequence": "2026-11-33383",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T23:29:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5310 - 5410 CASSANDRA SMITH RD",
-   "cross": "COACH DR/AMBER FOREST TRL",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.13748,
-   "lon": -85.209562,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826198",
-   "sequence": "2026-11-33381",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-23T23:29:20Z",
-   "created": "2026-11-23T23:29:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4014 CHANDLER AVE",
-   "cross": "W 40TH ST/W 41ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.005296,
-   "lon": -85.315625,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826183",
    "sequence": "2026-11-33372",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-23T23:51:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-23T23:59:36Z",
    "created": "2026-11-23T23:21:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -711,84 +789,6 @@
    "notable": false
   },
   {
-   "id": "9826113",
-   "sequence": "2026-11-33325",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:09:33Z",
-   "created": "2026-11-23T22:44:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1020 N MOORE RD",
-   "cross": "MIDLAND PIKE/BELLE VISTA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.027863,
-   "lon": -85.21911,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9826114",
-   "sequence": "2026-11-33320",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:47:12Z",
-   "created": "2026-11-23T22:43:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5912 LEE HWY",
-   "cross": "WHIRLAWAY DR/CHARLES DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.023038,
-   "lon": -85.196661,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826109",
-   "sequence": "2026-11-33319",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-23T23:47:15Z",
-   "created": "2026-11-23T22:42:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "800 - 859 INTERSTATE 75 NB",
-   "cross": "EXIT 7B ON RAMP NB/EXIT 9 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.065961,
-   "lon": -85.12503,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826099",
    "sequence": "2026-11-33312",
    "type": "EMS CALL",
@@ -888,32 +888,6 @@
    "priority": "PRI 4",
    "lat": 35.035115,
    "lon": -85.263841,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9825469",
-   "sequence": "2026-11-32865",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-23T17:36:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3912 MEADOW LN",
-   "cross": "HARRISON PIKE/GRACE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.081627,
-   "lon": -85.235148,
    "units": 1,
    "stacked": false,
    "notable": false
