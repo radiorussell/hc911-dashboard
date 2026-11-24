@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-24T08:40:38+00:00",
+ "updated": "2026-11-24T08:45:37+00:00",
  "counts": {
-  "year": 371999,
-  "upstream_day": 58,
+  "year": 372001,
+  "upstream_day": 60,
   "day": 78,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9826701",
    "sequence": "2026-11-33806",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T08:45:34Z",
    "created": "2026-11-24T08:38:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +30,6 @@
    "priority": "PRI 2",
    "lat": 35.015374,
    "lon": -85.27694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826700",
-   "sequence": "2026-11-33805",
-   "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-24T08:38:34Z",
-   "created": "2026-11-24T08:38:06Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "215 THOMAS ST",
-   "cross": "SPRINGFIELD RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 4",
-   "lat": 35.228293,
-   "lon": -85.221657,
    "units": 1,
    "stacked": false,
    "notable": false
