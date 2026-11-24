@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T19:30:38+00:00",
+ "updated": "2026-11-24T19:35:41+00:00",
  "counts": {
-  "year": 372561,
-  "upstream_day": 620,
-  "day": 832,
+  "year": 372572,
+  "upstream_day": 631,
+  "day": 835,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9827807",
+   "sequence": "2026-11-34563",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-24T19:32:34Z",
+   "created": "2026-11-24T19:31:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17101 - 17379 INTERSTATE 24 WB",
+   "cross": "EXIT 169 OFF RAMP WB/EXIT 174 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 34.9931,
+   "lon": -85.40076,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827804",
    "sequence": "2026-11-34560",
    "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:30:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:28:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9827802",
    "sequence": "2026-11-34558",
    "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:27:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:27:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,84 +243,6 @@
    "notable": false
   },
   {
-   "id": "9827771",
-   "sequence": "2026-11-34539",
-   "type": "Traffic Control",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:16:41Z",
-   "created": "2026-11-24T19:16:41Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "618 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.234563,
-   "lon": -85.17947,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827766",
-   "sequence": "2026-11-34548",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:20:17Z",
-   "created": "2026-11-24T19:15:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1641 JULIAN RIDGE RD",
-   "cross": "No Cross Street/POINT SOUTH LN",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.007097,
-   "lon": -85.123727,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9827764",
-   "sequence": "2026-11-34535",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:13:52Z",
-   "created": "2026-11-24T19:13:52Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.060281,
-   "lon": -85.070921,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827762",
    "sequence": "2026-11-34534",
    "type": "Traffic Control",
@@ -347,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9827756",
-   "sequence": "2026-11-34530",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:14:27Z",
-   "created": "2026-11-24T19:10:51Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10060 APISON PIKE",
-   "cross": "UNIVERSITY DR/TALLANT RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 3",
-   "lat": 35.054071,
-   "lon": -85.045732,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827757",
    "sequence": "2026-11-34531",
    "type": "EMS CALL",
@@ -402,8 +324,8 @@
    "id": "9827754",
    "sequence": "2026-11-34529",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T19:32:16Z",
    "created": "2026-11-24T19:09:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +402,8 @@
    "id": "9827680",
    "sequence": "2026-11-34518",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T19:27:11Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T19:33:56Z",
    "created": "2026-11-24T18:59:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,32 +446,6 @@
    "priority": "PRI 4",
    "lat": 34.986357,
    "lon": -85.224835,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827719",
-   "sequence": "2026-11-34507",
-   "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-24T19:02:22Z",
-   "created": "2026-11-24T18:56:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2922 ROSSVILLE BLVD",
-   "cross": "E 29TH ST/E 30TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 4",
-   "lat": 35.01066,
-   "lon": -85.293548,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +506,8 @@
    "id": "9827702",
    "sequence": "2026-11-34498",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:51:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T18:51:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -628,32 +524,6 @@
    "priority": "PRI 4",
    "lat": 35.024463,
    "lon": -85.195677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827705",
-   "sequence": "2026-11-34496",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T18:51:28Z",
-   "created": "2026-11-24T18:51:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "1701 A",
-   "priority": "PRI 2",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
