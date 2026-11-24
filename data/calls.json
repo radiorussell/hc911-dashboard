@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T22:25:38+00:00",
+ "updated": "2026-11-24T22:30:39+00:00",
  "counts": {
   "year": 372753,
   "upstream_day": 811,
-  "day": 1075,
+  "day": 1076,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9828151",
+   "sequence": "2026-11-34804",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T22:25:20Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14402 DAYTON PIKE",
+   "cross": "SALE CREEK LN/REAVLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.365894,
+   "lon": -85.117715,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828150",
    "sequence": "2026-11-34803",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-24T22:25:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T22:24:54Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -399,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9828095",
-   "sequence": "2026-11-34762",
-   "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": "2026-11-24T22:02:37Z",
-   "created": "2026-11-24T21:50:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1827 FERNDALE CT",
-   "cross": "PETTY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.014351,
-   "lon": -85.128637,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828092",
    "sequence": "2026-11-34759",
    "type": "EMS CALL",
@@ -633,37 +633,11 @@
    "notable": false
   },
   {
-   "id": "9828043",
-   "sequence": "2026-11-34723",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T21:25:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5591 HIGHWAY 153",
-   "cross": "O HENRY DR/WINDING LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.148567,
-   "lon": -85.249213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828033",
    "sequence": "2026-11-34713",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T21:58:26Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T22:28:15Z",
    "created": "2026-11-24T21:18:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
