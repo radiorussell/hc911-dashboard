@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-24T01:05:40+00:00",
+ "updated": "2026-11-24T01:10:38+00:00",
  "counts": {
   "year": 371777,
   "upstream_day": 0,
-  "day": 1311,
+  "day": 1321,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9826370",
+   "sequence": "2026-11-33520",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:09:01Z",
+   "created": "2026-11-24T01:08:42Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "632 MORRISON SPRINGS RD",
+   "cross": "TOM WEATHERS DR/PRICELESS VW",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.123407,
+   "lon": -85.302088,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826360",
    "sequence": "2026-11-33510",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:06:55Z",
    "created": "2026-11-24T00:58:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9826352",
    "sequence": "2026-11-33504",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:09:59Z",
    "created": "2026-11-24T00:54:32Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9826337",
-   "sequence": "2026-11-33497",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:51:46Z",
-   "created": "2026-11-24T00:44:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5500 HIGHWAY 153",
-   "cross": "GADD RD/BEREAN LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.142395,
-   "lon": -85.248272,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826334",
    "sequence": "2026-11-33494",
    "type": "Supplemental Reports",
@@ -212,32 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.027876,
    "lon": -85.155856,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826333",
-   "sequence": "2026-11-33492",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T00:40:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8901 - 8935 LEE HWY",
-   "cross": "HUNTER RD/EXIT 11 E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.087022,
-   "lon": -85.070115,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +324,8 @@
    "id": "9826300",
    "sequence": "2026-11-33464",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T00:51:24Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T01:10:30Z",
    "created": "2026-11-24T00:25:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9826280",
-   "sequence": "2026-11-33446",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:08:57Z",
-   "created": "2026-11-24T00:08:57Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.034841,
-   "lon": -85.159114,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826279",
    "sequence": "2026-11-33445",
    "type": "EMS CALL",
@@ -496,32 +444,6 @@
    "city": "CHATTANOOGA",
    "zone": "C7",
    "priority": "PRI 3",
-   "lat": 35.034841,
-   "lon": -85.159114,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826278",
-   "sequence": "2026-11-33444",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:16:05Z",
-   "created": "2026-11-24T00:08:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
    "lat": 35.034841,
    "lon": -85.159114,
    "units": 1,
