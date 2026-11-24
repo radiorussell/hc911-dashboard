@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T18:35:38+00:00",
+ "updated": "2026-11-24T18:40:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 746,
+  "day": 749,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9827675",
+   "sequence": "2026-11-34477",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T18:36:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7995 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.084963,
+   "lon": -85.133251,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827674",
+   "sequence": "2026-11-34476",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:36:15Z",
+   "created": "2026-11-24T18:36:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "280 WATER ST",
+   "cross": "HIGHLAND AVE/CHANDLER PL",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 0",
+   "lat": 35.007352,
+   "lon": -85.313847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827673",
+   "sequence": "2026-11-34475",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-24T18:35:47Z",
+   "created": "2026-11-24T18:35:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17390 INTERSTATE 24 WB",
+   "cross": "EXIT 174 ON RAMP WB/EXIT 174 OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.0177,
+   "lon": -85.384506,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827671",
    "sequence": "2026-11-34473",
@@ -142,8 +220,8 @@
    "id": "9827662",
    "sequence": "2026-11-34465",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:39:12Z",
    "created": "2026-11-24T18:27:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9827659",
    "sequence": "2026-11-34461",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:36:03Z",
    "created": "2026-11-24T18:25:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9827658",
    "sequence": "2026-11-34460",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T18:39:58Z",
    "created": "2026-11-24T18:25:13Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -555,37 +633,11 @@
    "notable": false
   },
   {
-   "id": "9827586",
-   "sequence": "2026-11-34412",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T17:57:03Z",
-   "created": "2026-11-24T17:57:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "23 LAWN ST",
-   "cross": "N MARKET ST/SPEARS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 3",
-   "lat": 35.075556,
-   "lon": -85.308844,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827583",
    "sequence": "2026-11-34411",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:04:35Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T18:37:06Z",
    "created": "2026-11-24T17:56:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -818,8 +870,8 @@
    "id": "9827270",
    "sequence": "2026-11-34227",
    "type": "Harrassing Threats",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:56:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T15:56:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
