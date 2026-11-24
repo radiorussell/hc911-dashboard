@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-24T18:05:38+00:00",
+ "updated": "2026-11-24T18:10:38+00:00",
  "counts": {
   "year": 372455,
   "upstream_day": 514,
-  "day": 685,
+  "day": 697,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9827606",
+   "sequence": "2026-11-34425",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:09:46Z",
+   "created": "2026-11-24T18:09:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6651 LEE HWY",
+   "cross": "CIRCLE DR/BALLARD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.039473,
+   "lon": -85.172028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827604",
+   "sequence": "2026-11-34423",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:08:44Z",
+   "created": "2026-11-24T18:08:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2 - 98 E 20TH ST",
+   "cross": "W 20TH ST/MITCHELL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.03129,
+   "lon": -85.30857,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827600",
+   "sequence": "2026-11-34420",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T18:06:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827598",
+   "sequence": "2026-11-34422",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-24T18:08:11Z",
+   "created": "2026-11-24T18:05:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SHALLOWFORD RD / WILCOX BLVD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.042894,
+   "lon": -85.222378,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827590",
    "sequence": "2026-11-34413",
@@ -26,7 +130,7 @@
    "address": "2720 ROSSVILLE BLVD",
    "cross": "E 27TH ST/E 28TH ST",
    "city": "CHATTANOOGA",
-   "zone": "B7A",
+   "zone": "",
    "priority": "PRI 4",
    "lat": 35.015131,
    "lon": -85.292776,
@@ -168,8 +272,8 @@
    "id": "9827573",
    "sequence": "2026-11-34402",
    "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-24T17:49:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T17:49:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -179,15 +283,15 @@
    "agency_types": [
     "Law"
    ],
-   "address": "17100 INTERSTATE 24 WB",
+   "address": "17320 INTERSTATE 24 WB",
    "cross": "EXIT 169 OFF RAMP WB/EXIT 174 ON RAMP WB",
    "city": "CHATTANOOGA",
-   "zone": "",
+   "zone": "A13 A",
    "priority": "PRI 3",
-   "lat": 34.983159,
-   "lon": -85.409346,
+   "lat": 35.009794,
+   "lon": -85.39166,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -257,13 +361,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "711 - 739 HIGHWAY 153 SB",
-   "cross": "EXIT N ACCESS RD ON RAMP SB/EXIT N ACCESS RD OFF RAMP SB",
+   "address": "750 HIGHWAY 153 NB",
+   "cross": "EXIT LAKE RESORT DR ON RAMP NB/DUPONT PKWY NB",
    "city": "CHATTANOOGA",
-   "zone": "A3 B",
+   "zone": "A2",
    "priority": "PRI 3",
-   "lat": 35.112454,
-   "lon": -85.229716,
+   "lat": 35.115539,
+   "lon": -85.231567,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -319,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9827513",
-   "sequence": "2026-11-34374",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:43:03Z",
-   "created": "2026-11-24T17:26:07Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1923 LAKE PENINSULA DR",
-   "cross": "SAND DUNES DR/SEA HAVEN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 3",
-   "lat": 35.146873,
-   "lon": -85.175357,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827504",
@@ -446,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 34.996799,
    "lon": -85.283084,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827491",
-   "sequence": "2026-11-34356",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T17:28:37Z",
-   "created": "2026-11-24T17:18:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "480 - 529 INTERSTATE 75 NB",
-   "cross": "EXIT INTERSTATE 75 OFF RAMP NB/EXIT 5 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.033193,
-   "lon": -85.165729,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -581,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9827439",
-   "sequence": "2026-11-34328",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T17:44:55Z",
-   "created": "2026-11-24T17:02:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827432",
    "sequence": "2026-11-34325",
    "type": "Miscellaneous Complaint",
@@ -680,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.037485,
    "lon": -85.149705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827336",
-   "sequence": "2026-11-34268",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T17:28:48Z",
-   "created": "2026-11-24T16:21:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5465 HIGHWAY 58",
-   "cross": "CLAUDE RAMSEY PKWY/JEWELL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 03 HC B",
-   "priority": "PRI 1",
-   "lat": 35.107254,
-   "lon": -85.157573,
    "units": 1,
    "stacked": false,
    "notable": false
