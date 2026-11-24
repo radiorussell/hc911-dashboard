@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-24T02:00:37+00:00",
+ "updated": "2026-11-24T02:05:37+00:00",
  "counts": {
-  "year": 371819,
+  "year": 371832,
   "upstream_day": 0,
-  "day": 1377,
+  "day": 1388,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9826450",
+   "sequence": "2026-11-33587",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:04:11Z",
+   "created": "2026-11-24T02:04:11Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7511 SHALLOWFORD RD",
+   "cross": "PEMBROOK LN/ASHFORD VILLA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 3",
+   "lat": 35.039359,
+   "lon": -85.142711,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826448",
+   "sequence": "2026-11-33586",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:03:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7511 SHALLOWFORD RD",
+   "cross": "PEMBROOK LN/ASHFORD VILLA CIR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 2",
+   "lat": 35.039359,
+   "lon": -85.142711,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826447",
+   "sequence": "2026-11-33585",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:02:52Z",
+   "created": "2026-11-24T02:02:52Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "802 LOWER CRAVENS TER",
+   "cross": "No Cross Street/CRAVENS TER",
+   "city": "HAMILTON COUNTY",
+   "zone": "2003 B",
+   "priority": "PRI 1",
+   "lat": 35.01428,
+   "lon": -85.336959,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826446",
+   "sequence": "2026-11-33584",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T02:02:52Z",
+   "created": "2026-11-24T02:02:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "802 LOWER CRAVENS TER",
+   "cross": "No Cross Street/CRAVENS TER",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 1 I",
+   "priority": "PRI 3",
+   "lat": 35.01428,
+   "lon": -85.336959,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826445",
+   "sequence": "2026-11-33583",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T02:02:10Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "802 LOWER CRAVENS TER",
+   "cross": "No Cross Street/CRAVENS TER",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.01428,
+   "lon": -85.336959,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826438",
    "sequence": "2026-11-33576",
@@ -82,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.05263,
    "lon": -85.353592,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826435",
-   "sequence": "2026-11-33574",
-   "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-24T01:55:16Z",
-   "created": "2026-11-24T01:54:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "430 ROBERTS ST",
-   "cross": "ROBERTS PL/CLEVELAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 2",
-   "lat": 35.042817,
-   "lon": -85.273395,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -195,7 +299,7 @@
    "sequence": "2026-11-33564",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T02:01:27Z",
    "created": "2026-11-24T01:50:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -247,7 +351,7 @@
    "sequence": "2026-11-33561",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-24T02:02:09Z",
    "created": "2026-11-24T01:47:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -454,8 +558,8 @@
    "id": "9826393",
    "sequence": "2026-11-33539",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T02:00:59Z",
    "created": "2026-11-24T01:30:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -841,36 +945,10 @@
    "notable": false
   },
   {
-   "id": "9826249",
-   "sequence": "2026-11-33421",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T00:49:16Z",
-   "created": "2026-11-23T23:52:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1147 MAPLE TREE LN",
-   "cross": "E BRAINERD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.002381,
-   "lon": -85.136636,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826106",
    "sequence": "2026-11-33316",
    "type": "MVC Delayed",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-24T01:45:22Z",
    "created": "2026-11-23T22:40:48Z",
    "jurisdiction": "Chattanooga PD",
@@ -889,7 +967,7 @@
    "lat": 35.087992,
    "lon": -85.065018,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
