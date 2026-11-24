@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-24T01:20:37+00:00",
+ "updated": "2026-11-24T01:25:43+00:00",
  "counts": {
-  "year": 371783,
+  "year": 371798,
   "upstream_day": 0,
-  "day": 1332,
+  "day": 1338,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9826390",
+   "sequence": "2026-11-33537",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:21:00Z",
+   "created": "2026-11-24T01:21:00Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "801 B",
+   "priority": "PRI 1",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826389",
+   "sequence": "2026-11-33536",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T01:20:59Z",
+   "created": "2026-11-24T01:20:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826388",
+   "sequence": "2026-11-33535",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T01:20:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826383",
    "sequence": "2026-11-33530",
@@ -142,8 +220,8 @@
    "id": "9826378",
    "sequence": "2026-11-33525",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:23:35Z",
    "created": "2026-11-24T01:15:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9826374",
    "sequence": "2026-11-33522",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T01:24:47Z",
    "created": "2026-11-24T01:12:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +376,8 @@
    "id": "9826354",
    "sequence": "2026-11-33506",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T01:01:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T01:24:19Z",
    "created": "2026-11-24T00:55:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9826352",
-   "sequence": "2026-11-33504",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T01:09:59Z",
-   "created": "2026-11-24T00:54:32Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7453 GATES RD",
-   "cross": "BROWN BEAR TRL/SKYE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.187704,
-   "lon": -85.218075,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826349",
    "sequence": "2026-11-33503",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T01:04:43Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T01:21:51Z",
    "created": "2026-11-24T00:53:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
