@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T09:10:39+00:00",
+ "updated": "2026-11-24T09:15:38+00:00",
  "counts": {
-  "year": 372006,
-  "upstream_day": 65,
+  "year": 372009,
+  "upstream_day": 68,
   "day": 84,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9826706",
@@ -64,8 +64,8 @@
    "id": "9826705",
    "sequence": "2026-11-33810",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T09:11:03Z",
    "created": "2026-11-24T08:59:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -85,32 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9826704",
-   "sequence": "2026-11-33809",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-24T09:06:10Z",
-   "created": "2026-11-24T08:54:28Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8226 MILL RACE DR",
-   "cross": "MITCHELL MILL RD/WOODBRIDGE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 3",
-   "lat": 35.095139,
-   "lon": -85.07565,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9826700",
@@ -158,32 +132,6 @@
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
    "priority": "PRI 2",
-   "lat": 34.987277,
-   "lon": -85.272019,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826697",
-   "sequence": "2026-11-33802",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T09:03:30Z",
-   "created": "2026-11-24T08:33:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1810 JOHN ROSS RD",
-   "cross": "CLAYTON AVE EXT/S CREST RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
    "lat": 34.987277,
    "lon": -85.272019,
    "units": 1,
