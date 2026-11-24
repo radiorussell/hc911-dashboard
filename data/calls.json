@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-24T00:45:40+00:00",
+ "updated": "2026-11-24T00:50:38+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 1298,
+  "day": 1301,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9826341",
+   "sequence": "2026-11-33500",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T00:48:58Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2400 - 2498 BROAD ST",
+   "cross": "EXIT 178A OFF RAMP EB/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "103 C",
+   "priority": "PRI 1",
+   "lat": 35.030191,
+   "lon": -85.315307,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826339",
+   "sequence": "2026-11-33498",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:47:40Z",
+   "created": "2026-11-24T00:47:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1335 HIXSON AVE",
+   "cross": "No Cross Street/NORCROSS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.130935,
+   "lon": -85.257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9826337",
    "sequence": "2026-11-33497",
-   "type": "MVC No Response",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:45:13Z",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T00:44:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +79,7 @@
    "cross": "HAMILL RD/NORTHGATE MALL DR",
    "city": "CHATTANOOGA",
    "zone": "A2",
-   "priority": "PRI 0",
+   "priority": "PRI 3",
    "lat": 35.124725,
    "lon": -85.240557,
    "units": 1,
@@ -38,8 +90,8 @@
    "id": "9826336",
    "sequence": "2026-11-33495",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:43:39Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T00:42:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,7 +142,7 @@
    "id": "9826333",
    "sequence": "2026-11-33492",
    "type": "MVC No Injuries",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-24T00:40:34Z",
    "created": "2026-11-24T00:40:20Z",
    "jurisdiction": "Chattanooga PD",
@@ -109,7 +161,7 @@
    "lat": 35.087022,
    "lon": -85.070115,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -142,8 +194,8 @@
    "id": "9826330",
    "sequence": "2026-11-33489",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:50:34Z",
    "created": "2026-11-24T00:37:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,63 +321,11 @@
    "notable": false
   },
   {
-   "id": "9826318",
-   "sequence": "2026-11-33478",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-24T00:39:37Z",
-   "created": "2026-11-24T00:34:05Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4840 DAYTON BLVD",
-   "cross": "APPIAN WAY/FREUDENBURG LN",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 1",
-   "lat": 35.138826,
-   "lon": -85.27806,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826319",
-   "sequence": "2026-11-33479",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:36:42Z",
-   "created": "2026-11-24T00:34:05Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4840 DAYTON BLVD",
-   "cross": "APPIAN WAY/FREUDENBURG LN",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 2",
-   "priority": "PRI 3",
-   "lat": 35.138826,
-   "lon": -85.27806,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826314",
    "sequence": "2026-11-33480",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T00:49:22Z",
    "created": "2026-11-24T00:33:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +350,8 @@
    "id": "9826316",
    "sequence": "2026-11-33477",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:45:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-24T00:50:30Z",
    "created": "2026-11-24T00:33:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 34.986589,
    "lon": -85.39286,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826304",
-   "sequence": "2026-11-33469",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-24T00:30:58Z",
-   "created": "2026-11-24T00:27:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3151 BROAD ST",
-   "cross": "W 31ST ST/W 32ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 1",
-   "lat": 35.019269,
-   "lon": -85.321684,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -581,32 +555,6 @@
    "notable": true
   },
   {
-   "id": "9826295",
-   "sequence": "2026-11-33458",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-24T00:20:24Z",
-   "created": "2026-11-24T00:20:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 3",
-   "lat": 35.015673,
-   "lon": -85.277391,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9826294",
    "sequence": "2026-11-33457",
    "type": "Street Status",
@@ -625,6 +573,32 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "506",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9826295",
+   "sequence": "2026-11-33458",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-24T00:20:24Z",
+   "created": "2026-11-24T00:20:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 3",
    "lat": 35.015673,
    "lon": -85.277391,
@@ -766,8 +740,8 @@
    "id": "9826249",
    "sequence": "2026-11-33421",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T00:26:50Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T00:49:16Z",
    "created": "2026-11-23T23:52:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -786,32 +760,6 @@
    "lon": -85.136636,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9826238",
-   "sequence": "2026-11-33412",
-   "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-23T23:48:15Z",
-   "created": "2026-11-23T23:47:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "728 MARKET ST",
-   "cross": "W 7TH ST/E 8TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.048005,
-   "lon": -85.309458,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
