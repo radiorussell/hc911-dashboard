@@ -1,13 +1,247 @@
 {
- "updated": "2026-11-24T15:55:40+00:00",
+ "updated": "2026-11-24T16:00:41+00:00",
  "counts": {
   "year": 372303,
   "upstream_day": 362,
-  "day": 488,
+  "day": 506,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9827286",
+   "sequence": "2026-11-34234",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-24T16:01:29Z",
+   "created": "2026-11-24T16:01:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.094361,
+   "lon": -85.331314,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827281",
+   "sequence": "2026-11-34232",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:59:40Z",
+   "created": "2026-11-24T15:59:40Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7009 BARTER DR",
+   "cross": "YIELDING RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.124511,
+   "lon": -85.116661,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827279",
+   "sequence": "2026-11-34231",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:59:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7009 BARTER DR",
+   "cross": "YIELDING RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.124511,
+   "lon": -85.116661,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827276",
+   "sequence": "2026-11-34229",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:56:55Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6217 OOLTEWAH GEORGETOWN RD",
+   "cross": "AMOS RD/BRETT LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 A",
+   "priority": "PRI 2",
+   "lat": 35.090709,
+   "lon": -85.054525,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827272",
+   "sequence": "2026-11-34224",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:56:08Z",
+   "created": "2026-11-24T15:56:08Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1610 SEDGEFIELD DR",
+   "cross": "COBBLECREEK WAY/COBBLECREEK WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3-CATOOSA B",
+   "priority": "PRI 1",
+   "lat": 34.992566,
+   "lon": -85.097415,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827271",
+   "sequence": "2026-11-34223",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:56:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1610 SEDGEFIELD DR",
+   "cross": "COBBLECREEK WAY/COBBLECREEK WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 2",
+   "lat": 34.992566,
+   "lon": -85.097415,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827270",
+   "sequence": "2026-11-34227",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-24T15:56:54Z",
+   "created": "2026-11-24T15:56:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "711 EASTGATE LOOP",
+   "cross": "CORNELISON RD/MARLIN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.006806,
+   "lon": -85.209878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827268",
+   "sequence": "2026-11-34228",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:56:00Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6217 OOLTEWAH GEORGETOWN RD",
+   "cross": "AMOS RD/BRETT LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.090709,
+   "lon": -85.054525,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9827264",
+   "sequence": "2026-11-34222",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-24T15:54:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1610 SEDGEFIELD DR",
+   "cross": "COBBLECREEK WAY/COBBLECREEK WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 07 HC B",
+   "priority": "PRI 1",
+   "lat": 34.992566,
+   "lon": -85.097415,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9827257",
    "sequence": "2026-11-34216",
@@ -38,8 +272,8 @@
    "id": "9827255",
    "sequence": "2026-11-34215",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-24T15:51:48Z",
    "created": "2026-11-24T15:51:08Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -57,7 +291,7 @@
    "lat": 35.092846,
    "lon": -85.041093,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -90,8 +324,8 @@
    "id": "9827252",
    "sequence": "2026-11-34214",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:51:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T15:50:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +350,8 @@
    "id": "9827254",
    "sequence": "2026-11-34212",
    "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-24T16:00:15Z",
    "created": "2026-11-24T15:50:41Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -373,58 +607,6 @@
    "notable": false
   },
   {
-   "id": "9827212",
-   "sequence": "2026-11-34182",
-   "type": "Animal Call",
-   "status": "On Scene",
-   "status_at": "2026-11-24T15:50:11Z",
-   "created": "2026-11-24T15:29:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "EQUESTRIAN DR / CLIFT MILL RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 4",
-   "lat": 35.294847,
-   "lon": -85.118214,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827203",
-   "sequence": "2026-11-34175",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T15:25:26Z",
-   "created": "2026-11-24T15:25:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "804 N HOLTZCLAW AVE",
-   "cross": "CITICO AVE/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.049199,
-   "lon": -85.275837,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827204",
    "sequence": "2026-11-34176",
    "type": "EMS CALL",
@@ -454,8 +636,8 @@
    "id": "9827201",
    "sequence": "2026-11-34174",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T15:55:34Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T16:00:50Z",
    "created": "2026-11-24T15:24:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -584,8 +766,8 @@
    "id": "9827153",
    "sequence": "2026-11-34140",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T15:41:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-24T15:59:51Z",
    "created": "2026-11-24T15:04:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
