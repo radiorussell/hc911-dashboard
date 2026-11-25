@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T10:10:38+00:00",
+ "updated": "2026-11-25T10:15:39+00:00",
  "counts": {
-  "year": 373161,
-  "upstream_day": 111,
-  "day": 167,
+  "year": 373163,
+  "upstream_day": 113,
+  "day": 173,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9828899",
+   "sequence": "2026-11-35361",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T10:11:22Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8276 CARLITOS LN",
+   "cross": "No Cross Street/BALLEW LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.216658,
+   "lon": -85.175683,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828881",
    "sequence": "2026-11-35355",
@@ -30,32 +56,6 @@
    "priority": "PRI 1",
    "lat": 35.036037,
    "lon": -85.304745,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828880",
-   "sequence": "2026-11-35354",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:01:14Z",
-   "created": "2026-11-25T09:51:37Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9026 WELLTHOR CIR",
-   "cross": "FARRAH LN/NELSON RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 2",
-   "lat": 35.209067,
-   "lon": -85.145007,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9828873",
    "sequence": "2026-11-35347",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T09:52:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T10:12:40Z",
    "created": "2026-11-25T09:37:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
