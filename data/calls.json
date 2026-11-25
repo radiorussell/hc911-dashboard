@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T13:50:37+00:00",
+ "updated": "2026-11-25T13:55:37+00:00",
  "counts": {
   "year": 373259,
   "upstream_day": 208,
-  "day": 321,
+  "day": 326,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9829094",
+   "sequence": "2026-11-35514",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:53:27Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9806 DALLAS HOLLOW RD",
+   "cross": "OLD DALLAS HOLLOW RD/GREEN POND RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 1",
+   "priority": "PRI 1",
+   "lat": 35.238762,
+   "lon": -85.150394,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829090",
+   "sequence": "2026-11-35512",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:51:08Z",
+   "created": "2026-11-25T13:51:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7230 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 2",
+   "lat": 35.051373,
+   "lon": -85.150741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829089",
+   "sequence": "2026-11-35511",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:51:07Z",
+   "created": "2026-11-25T13:51:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7230 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.051373,
+   "lon": -85.150741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829086",
+   "sequence": "2026-11-35510",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:50:27Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7230 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.051373,
+   "lon": -85.150741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829085",
    "sequence": "2026-11-35509",
@@ -157,32 +261,6 @@
    "cross": "BONNY OAKS DR/PRESERVATION DR",
    "city": "CHATTANOOGA",
    "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.074826,
-   "lon": -85.189258,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829072",
-   "sequence": "2026-11-35495",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T13:43:53Z",
-   "created": "2026-11-25T13:38:54Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4410 JERSEY PIKE",
-   "cross": "BONNY OAKS DR/PRESERVATION DR",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
    "priority": "PRI 3",
    "lat": 35.074826,
    "lon": -85.189258,
