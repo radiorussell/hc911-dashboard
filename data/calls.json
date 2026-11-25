@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T10:40:44+00:00",
+ "updated": "2026-11-25T10:45:38+00:00",
  "counts": {
-  "year": 373168,
-  "upstream_day": 118,
-  "day": 186,
+  "year": 373174,
+  "upstream_day": 124,
+  "day": 189,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9828917",
+   "sequence": "2026-11-35377",
+   "type": "Wires Down",
+   "status": "Queued",
+   "status_at": "2026-11-25T10:42:02Z",
+   "created": "2026-11-25T10:42:02Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10311 ARNAT DR",
+   "cross": "MOWBRAY PIKE/BONNELIA CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 8",
+   "priority": "PRI 2",
+   "lat": 35.277896,
+   "lon": -85.220685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828916",
+   "sequence": "2026-11-35376",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T10:41:12Z",
+   "jurisdiction": "Mowbray VFD",
+   "agencies": [
+    "Mowbray VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10311 ARNAT DR",
+   "cross": "MOWBRAY PIKE/BONNELIA CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MOWBRAY MOUNTAIN FD",
+   "priority": "PRI 2",
+   "lat": 35.277896,
+   "lon": -85.220685,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828912",
    "sequence": "2026-11-35374",
@@ -61,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9828907",
-   "sequence": "2026-11-35369",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:39:43Z",
-   "created": "2026-11-25T10:31:58Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 1",
-   "lat": 35.047825,
-   "lon": -85.320645,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828904",
    "sequence": "2026-11-35366",
    "type": "Spill",
@@ -105,32 +131,6 @@
    "cross": "BROOMSEDGE TRL/WELLSTONE DR",
    "city": "CHATTANOOGA",
    "zone": "1702",
-   "priority": "PRI 2",
-   "lat": 35.111397,
-   "lon": -85.323043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828905",
-   "sequence": "2026-11-35367",
-   "type": "Spill",
-   "status": "Queued",
-   "status_at": "2026-11-25T10:29:11Z",
-   "created": "2026-11-25T10:29:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1106 - 1130 MOUNTAIN CREEK RD",
-   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
    "priority": "PRI 2",
    "lat": 35.111397,
    "lon": -85.323043,
