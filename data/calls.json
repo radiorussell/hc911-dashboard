@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T23:45:38+00:00",
+ "updated": "2026-11-25T23:50:37+00:00",
  "counts": {
-  "year": 373927,
-  "upstream_day": 874,
-  "day": 1209,
+  "year": 373937,
+  "upstream_day": 884,
+  "day": 1214,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9830386",
+   "sequence": "2026-11-36402",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:49:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SPRING CREEK RD / BRAINERD RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.009912,
+   "lon": -85.220209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830388",
+   "sequence": "2026-11-36401",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:49:03Z",
+   "created": "2026-11-25T23:49:03Z",
+   "jurisdiction": "Lookout Mountain FD",
+   "agencies": [
+    "Lookout Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "107 FLORENCE ST",
+   "cross": "N BRAGG AVE/KYLE AVE",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
+   "priority": "PRI 1",
+   "lat": 35.002818,
+   "lon": -85.345742,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830383",
+   "sequence": "2026-11-36398",
+   "type": "AFA Apartment",
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:48:49Z",
+   "created": "2026-11-25T23:45:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2105 UNION AVE",
+   "cross": "S WILLOW ST/S KELLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.03155,
+   "lon": -85.27307,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830381",
+   "sequence": "2026-11-36399",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:44:44Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "107 FLORENCE ST",
+   "cross": "N BRAGG AVE/KYLE AVE",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "MEDIC 10 LM U",
+   "priority": "PRI 1",
+   "lat": 35.002818,
+   "lon": -85.345742,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830382",
    "sequence": "2026-11-36397",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:44:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:44:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +298,8 @@
    "id": "9830357",
    "sequence": "2026-11-36382",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:45:54Z",
    "created": "2026-11-25T23:30:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9830340",
-   "sequence": "2026-11-36369",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:23:44Z",
-   "created": "2026-11-25T23:16:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5501 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.010327,
-   "lon": -85.220476,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830327",
    "sequence": "2026-11-36364",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:46:31Z",
    "created": "2026-11-25T23:12:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -446,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.016601,
    "lon": -85.293947,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830267",
-   "sequence": "2026-11-36327",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T23:13:16Z",
-   "created": "2026-11-25T22:43:07Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "804 N HOLTZCLAW AVE",
-   "cross": "CITICO AVE/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.049199,
-   "lon": -85.275837,
    "units": 1,
    "stacked": false,
    "notable": false
