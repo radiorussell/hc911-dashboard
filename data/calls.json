@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-25T09:30:39+00:00",
+ "updated": "2026-11-25T09:35:39+00:00",
  "counts": {
-  "year": 373149,
-  "upstream_day": 99,
-  "day": 155,
+  "year": 373152,
+  "upstream_day": 102,
+  "day": 156,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9828869",
+   "sequence": "2026-11-35344",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T09:33:33Z",
+   "created": "2026-11-25T09:33:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4910 ANGELA DR",
+   "cross": "E 49TH ST/WOODLAND VIEW CIR",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.990344,
+   "lon": -85.304667,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828867",
    "sequence": "2026-11-35343",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T09:32:12Z",
    "created": "2026-11-25T09:26:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
