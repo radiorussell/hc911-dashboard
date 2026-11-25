@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T13:30:38+00:00",
+ "updated": "2026-11-25T13:35:39+00:00",
  "counts": {
   "year": 373233,
   "upstream_day": 182,
-  "day": 290,
+  "day": 295,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9829052",
+   "sequence": "2026-11-35482",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:31:33Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8975 BALATA DR",
+   "cross": "No Cross Street/ANASTASIA AVE",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 3",
+   "lat": 35.108642,
+   "lon": -85.031647,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829049",
+   "sequence": "2026-11-35481",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:31:27Z",
+   "created": "2026-11-25T13:31:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2301 RODEO DR",
+   "cross": "SHALLOWFORD RD/CORRAL TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.03127,
+   "lon": -85.125058,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829050",
+   "sequence": "2026-11-35483",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:31:02Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1680 JED LN",
+   "cross": "No Cross Street/MIDDLE VALLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.188282,
+   "lon": -85.191669,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829051",
+   "sequence": "2026-11-35480",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:30:59Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SEQUOYAH ACCESS RD / HIXSON PIKE",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 D",
+   "priority": "PRI 4",
+   "lat": 35.227713,
+   "lon": -85.111863,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829045",
    "sequence": "2026-11-35478",
@@ -64,8 +168,8 @@
    "id": "9829036",
    "sequence": "2026-11-35472",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:32:51Z",
    "created": "2026-11-25T13:24:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -80,32 +184,6 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 11 CH",
    "priority": "PRI 1",
-   "lat": 35.033902,
-   "lon": -85.233036,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829033",
-   "sequence": "2026-11-35471",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T13:24:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "727 MCGOWAN AVE",
-   "cross": "BELLE VISTA AVE/WILSONIA AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
    "lat": 35.033902,
    "lon": -85.233036,
    "units": 1,
@@ -184,32 +262,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 4 HC F",
    "priority": "PRI 2",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829023",
-   "sequence": "2026-11-35463",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:19:45Z",
-   "created": "2026-11-25T13:19:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
    "lat": 35.09006,
    "lon": -85.066629,
    "units": 1,
@@ -351,7 +403,7 @@
    "sequence": "2026-11-35452",
    "type": "Auto Broken Down Road",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T13:31:50Z",
    "created": "2026-11-25T13:07:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9828985",
    "sequence": "2026-11-35431",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T13:15:09Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T13:33:29Z",
    "created": "2026-11-25T12:44:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
