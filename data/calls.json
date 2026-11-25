@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T06:40:38+00:00",
+ "updated": "2026-11-25T06:45:37+00:00",
  "counts": {
-  "year": 373092,
-  "upstream_day": 42,
-  "day": 70,
+  "year": 373093,
+  "upstream_day": 43,
+  "day": 75,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9828760",
+   "sequence": "2026-11-35263",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T06:44:44Z",
+   "created": "2026-11-25T06:44:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1646 DOGWOOD DR",
+   "cross": "WILCOX BLVD/JEANAGA TRL",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.047294,
+   "lon": -85.232146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828752",
    "sequence": "2026-11-35258",
@@ -30,58 +56,6 @@
    "priority": "PRI 1",
    "lat": 35.052307,
    "lon": -85.309628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828745",
-   "sequence": "2026-11-35252",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T06:34:56Z",
-   "created": "2026-11-25T06:23:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "705 MOORE ST",
-   "cross": "MIDLAND PIKE/WILSONIA AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.0299,
-   "lon": -85.229358,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828746",
-   "sequence": "2026-11-35253",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T06:31:37Z",
-   "created": "2026-11-25T06:23:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "705 MOORE ST",
-   "cross": "MIDLAND PIKE/WILSONIA AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 2",
-   "lat": 35.0299,
-   "lon": -85.229358,
    "units": 1,
    "stacked": false,
    "notable": false
