@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T11:40:38+00:00",
+ "updated": "2026-11-25T11:45:38+00:00",
  "counts": {
-  "year": 373192,
-  "upstream_day": 142,
-  "day": 211,
+  "year": null,
+  "upstream_day": null,
+  "day": 215,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9828944",
+   "sequence": "2026-11-35403",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:44:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1330 HIGHLAND WAY",
+   "cross": "EASY LN/NORCROSS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.120523,
+   "lon": -85.260663,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828940",
    "sequence": "2026-11-35399",
@@ -64,8 +90,8 @@
    "id": "9828926",
    "sequence": "2026-11-35386",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T11:23:34Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T11:42:58Z",
    "created": "2026-11-25T11:10:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,58 +186,6 @@
    "priority": "PRI 2",
    "lat": 35.277896,
    "lon": -85.220685,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828904",
-   "sequence": "2026-11-35366",
-   "type": "Spill",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:36:06Z",
-   "created": "2026-11-25T10:29:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1106 - 1130 MOUNTAIN CREEK RD",
-   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 2",
-   "lat": 35.111397,
-   "lon": -85.323043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828903",
-   "sequence": "2026-11-35365",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:56:57Z",
-   "created": "2026-11-25T10:25:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1106 - 1130 MOUNTAIN CREEK RD",
-   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 2",
-   "lat": 35.111397,
-   "lon": -85.323043,
    "units": 1,
    "stacked": false,
    "notable": false
