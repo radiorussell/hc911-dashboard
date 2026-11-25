@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T14:51:12+00:00",
+ "updated": "2026-11-25T14:55:38+00:00",
  "counts": {
   "year": 373329,
   "upstream_day": 278,
-  "day": 405,
+  "day": 419,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9829219",
+   "sequence": "2026-11-35607",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:54:54Z",
+   "created": "2026-11-25T14:54:54Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2813 HIDDEN TRAIL LN",
+   "cross": "No Cross Street/ST LAWRENCE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.039308,
+   "lon": -85.101829,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829213",
+   "sequence": "2026-11-35604",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:54:33Z",
+   "created": "2026-11-25T14:54:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "460 HIGHWAY 153 NB",
+   "cross": "EXIT HIGHWAY 58 N OFF RAMP NB/EXIT HIGHWAY 58 S OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.081943,
+   "lon": -85.20591,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829214",
+   "sequence": "2026-11-35605",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:54:35Z",
+   "created": "2026-11-25T14:54:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 HIGHWAY 153 NB",
+   "cross": "EXIT BONNY OAKS DR OFF RAMP NB/EXIT BONNY OAKS DR ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.075315,
+   "lon": -85.199142,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829209",
+   "sequence": "2026-11-35598",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:52:27Z",
+   "created": "2026-11-25T14:52:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "321 BROWNS FERRY RD",
+   "cross": "PATTEN CHAPEL RD/ADKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.031488,
+   "lon": -85.363416,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829189",
    "sequence": "2026-11-35593",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:46:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T14:46:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9829188",
    "sequence": "2026-11-35591",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T14:54:34Z",
    "created": "2026-11-25T14:43:33Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
