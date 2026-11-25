@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T04:15:39+00:00",
+ "updated": "2026-11-25T04:20:39+00:00",
  "counts": {
   "year": 373015,
   "upstream_day": 0,
   "day": 1425,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9828616",
    "sequence": "2026-11-35152",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T04:15:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T04:15:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9828617",
    "sequence": "2026-11-35153",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T04:15:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T04:15:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9828570",
    "sequence": "2026-11-35116",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T03:45:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T04:16:59Z",
    "created": "2026-11-25T03:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -241,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828524",
-   "sequence": "2026-11-35086",
-   "type": "MVC Entrapment",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T03:44:54Z",
-   "created": "2026-11-25T02:42:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1238 THRASHER PIKE",
-   "cross": "BOOKER DR/HARPER RD",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.205976,
-   "lon": -85.213822,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828512",
