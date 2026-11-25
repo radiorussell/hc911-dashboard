@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-25T18:40:42+00:00",
+ "updated": "2026-11-25T18:45:37+00:00",
  "counts": {
   "year": 373614,
   "upstream_day": 561,
-  "day": 778,
+  "day": 779,
   "day_basis": "midnight"
  },
- "raw_rows": 43,
+ "raw_rows": 38,
  "incidents": [
   {
    "id": "9829742",
    "sequence": "2026-11-35966",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "Enroute",
    "status_at": "2026-11-25T18:39:42Z",
    "created": "2026-11-25T18:39:42Z",
@@ -27,9 +27,35 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "C6",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.05368,
    "lon": -85.18627,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829739",
+   "sequence": "2026-11-35967",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T18:39:27Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "120 INTERSTATE 75 SB",
+   "cross": "EXIT 185A OFF RAMP EB/EXIT 2 OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.997013,
+   "lon": -85.208819,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.115767,
    "lon": -85.048361,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829722",
-   "sequence": "2026-11-35958",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T18:27:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4900 EDINGBURG DR",
-   "cross": "E 49TH ST/WOODLAND VIEW CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.991143,
-   "lon": -85.303588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,63 +321,11 @@
    "notable": false
   },
   {
-   "id": "9829686",
-   "sequence": "2026-11-35931",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-25T18:18:16Z",
-   "created": "2026-11-25T18:14:03Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3657 RINGGOLD RD",
-   "cross": "S GERMANTOWN RD/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 2",
-   "lat": 35.002176,
-   "lon": -85.257862,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829687",
-   "sequence": "2026-11-35932",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T18:18:25Z",
-   "created": "2026-11-25T18:14:03Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3657 RINGGOLD RD",
-   "cross": "S GERMANTOWN RD/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 35.002176,
-   "lon": -85.257862,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829683",
    "sequence": "2026-11-35930",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T18:21:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T18:41:12Z",
    "created": "2026-11-25T18:13:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,63 +399,11 @@
    "notable": false
   },
   {
-   "id": "9829673",
-   "sequence": "2026-11-35920",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:09:30Z",
-   "created": "2026-11-25T18:09:30Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1023 HOLLAND JOHNSON RD",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.214826,
-   "lon": -85.22616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829674",
-   "sequence": "2026-11-35921",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:09:30Z",
-   "created": "2026-11-25T18:09:30Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1023 HOLLAND JOHNSON RD",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 2",
-   "lat": 35.214826,
-   "lon": -85.22616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829672",
    "sequence": "2026-11-35919",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T18:24:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T18:40:44Z",
    "created": "2026-11-25T18:09:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -740,8 +636,8 @@
    "id": "9829578",
    "sequence": "2026-11-35863",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T18:17:32Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T18:44:32Z",
    "created": "2026-11-25T17:34:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -829,13 +725,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIGHWAY 153 / BOY SCOUT RD",
-   "cross": "",
+   "address": "6800 HIGHWAY 153",
+   "cross": "DAYTON BLVD/BOY SCOUT RD",
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 1",
-   "lat": 35.18257,
-   "lon": -85.246692,
+   "lat": 35.180851,
+   "lon": -85.247045,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -994,32 +890,6 @@
    "lon": -85.235547,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9829490",
-   "sequence": "2026-11-35796",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T17:51:32Z",
-   "created": "2026-11-25T16:58:21Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8052 STANDIFER GAP RD",
-   "cross": "BROCK RD/BILL REED RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 07 HC B",
-   "priority": "PRI 1",
-   "lat": 35.042739,
-   "lon": -85.115619,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
