@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T02:30:38+00:00",
+ "updated": "2026-11-25T02:35:38+00:00",
  "counts": {
-  "year": 372951,
+  "year": 372962,
   "upstream_day": 0,
-  "day": 1345,
+  "day": 1349,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9828509",
+   "sequence": "2026-11-35076",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T02:32:28Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9835 DAYTON PIKE",
+   "cross": "HOOD CIR/WESTBROOK AVE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.246844,
+   "lon": -85.187857,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828508",
+   "sequence": "2026-11-35077",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-25T02:33:26Z",
+   "created": "2026-11-25T02:32:28Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "915 S SEMINOLE DR",
+   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.009331,
+   "lon": -85.265439,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828500",
    "sequence": "2026-11-35073",
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9828490",
-   "sequence": "2026-11-35064",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:18:24Z",
-   "created": "2026-11-25T02:18:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2700 PARKWOOD AVE",
-   "cross": "DE SALES AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 1",
-   "lat": 35.039157,
-   "lon": -85.257754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828491",
    "sequence": "2026-11-35065",
    "type": "EMS CALL",
@@ -220,8 +246,8 @@
    "id": "9828489",
    "sequence": "2026-11-35063",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:20:27Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T02:34:15Z",
    "created": "2026-11-25T02:17:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.039157,
    "lon": -85.257754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828488",
-   "sequence": "2026-11-35061",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:14:31Z",
-   "created": "2026-11-25T02:12:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "400 RIVER ST",
-   "cross": "TREMONT ST/TAMPA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.060656,
-   "lon": -85.305108,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +376,8 @@
    "id": "9828470",
    "sequence": "2026-11-35049",
    "type": "Not Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:31:38Z",
    "created": "2026-11-25T02:01:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -550,58 +550,6 @@
    "priority": "PRI 4",
    "lat": 35.073813,
    "lon": -85.239234,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828433",
-   "sequence": "2026-11-35023",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T02:16:11Z",
-   "created": "2026-11-25T01:32:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "11229 HIXSON PIKE",
-   "cross": "MARINA CIR/CAPTAINS COVE DR",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.270329,
-   "lon": -85.13383,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828421",
-   "sequence": "2026-11-35014",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T02:06:11Z",
-   "created": "2026-11-25T01:23:50Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7641 LEE HWY",
-   "cross": "HAMILTON PARK DR/YERBEY DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.060567,
-   "lon": -85.135205,
    "units": 1,
    "stacked": false,
    "notable": false
