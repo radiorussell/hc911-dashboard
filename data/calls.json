@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T20:45:42+00:00",
+ "updated": "2026-11-25T20:50:38+00:00",
  "counts": {
-  "year": 373738,
-  "upstream_day": 685,
-  "day": 950,
+  "year": 373747,
+  "upstream_day": 694,
+  "day": 953,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9830026",
+   "sequence": "2026-11-36141",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:49:58Z",
+   "created": "2026-11-25T20:49:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830025",
+   "sequence": "2026-11-36140",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:47:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1400 - 1598 GUNBARREL RD",
+   "cross": "E BRAINERD RD/APPLEGATE LN",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.015443,
+   "lon": -85.163567,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830023",
    "sequence": "2026-11-36138",
@@ -64,8 +116,8 @@
    "id": "9830018",
    "sequence": "2026-11-36136",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:42:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:41:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -143,7 +195,7 @@
    "sequence": "2026-11-36131",
    "type": "Backup Fire Unit",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T20:49:42Z",
    "created": "2026-11-25T20:38:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9830002",
-   "sequence": "2026-11-36129",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T20:36:53Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4013 WOODMONT DR",
-   "cross": "HIBBLER CIR/DELLWAY CIR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.000448,
-   "lon": -85.24939,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830001",
    "sequence": "2026-11-36127",
    "type": "Fire Assist Citizen",
@@ -241,32 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829989",
-   "sequence": "2026-11-36122",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-25T20:41:15Z",
-   "created": "2026-11-25T20:30:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4510 HIGHWAY 58",
-   "cross": "INNWOOD LN/OAKHILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.083886,
-   "lon": -85.197621,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829988",
@@ -659,32 +659,6 @@
    "notable": true
   },
   {
-   "id": "9829910",
-   "sequence": "2026-11-36078",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:29:52Z",
-   "created": "2026-11-25T19:54:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6933 LEE HWY",
-   "cross": "ROBINSON DR/PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.044,
-   "lon": -85.166683,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829879",
    "sequence": "2026-11-36053",
    "type": "EMS CALL",
@@ -763,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9829804",
-   "sequence": "2026-11-36009",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T19:41:36Z",
-   "created": "2026-11-25T19:04:34Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4289 BONNY OAKS DR",
-   "cross": "CHICKAMAUGA AVE/BENTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.081919,
-   "lon": -85.210501,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829795",
    "sequence": "2026-11-36002",
    "type": "Deceptive Practice",
@@ -810,32 +758,6 @@
    "priority": "PRI 4",
    "lat": 34.990805,
    "lon": -85.199594,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829759",
-   "sequence": "2026-11-35978",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T19:51:49Z",
-   "created": "2026-11-25T18:46:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7268 JARNIGAN RD",
-   "cross": "BELLA VISTA DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.02912,
-   "lon": -85.159372,
    "units": 1,
    "stacked": false,
    "notable": false
