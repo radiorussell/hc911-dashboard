@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-25T15:00:38+00:00",
+ "updated": "2026-11-25T15:05:39+00:00",
  "counts": {
   "year": 373342,
   "upstream_day": 291,
-  "day": 424,
+  "day": 422,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 19,
  "incidents": [
-  {
-   "id": "9829225",
-   "sequence": "2026-11-35612",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:00:35Z",
-   "created": "2026-11-25T15:00:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "310 - 349 HIGHWAY 153 SB",
-   "cross": "EXIT JERSEY PIKE ON RAMP SB/EXIT JERSEY PIKE OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.062621,
-   "lon": -85.194108,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9829221",
    "sequence": "2026-11-35610",
@@ -64,8 +38,8 @@
    "id": "9829219",
    "sequence": "2026-11-35607",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:01:36Z",
    "created": "2026-11-25T14:54:54Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -89,7 +63,7 @@
   {
    "id": "9829189",
    "sequence": "2026-11-35593",
-   "type": "MVC No Injuries",
+   "type": "MVC No Response",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-25T14:46:04Z",
@@ -105,7 +79,7 @@
    "cross": "ELEMENTARY WAY/MAIN ST",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 3",
+   "priority": "PRI 0",
    "lat": 35.083212,
    "lon": -85.059847,
    "units": 1,
@@ -168,8 +142,8 @@
    "id": "9829186",
    "sequence": "2026-11-35589",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:02:23Z",
    "created": "2026-11-25T14:43:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +220,8 @@
    "id": "9829176",
    "sequence": "2026-11-35580",
    "type": "Burglary",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:40:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T14:40:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9829130",
-   "sequence": "2026-11-35543",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-25T14:17:06Z",
-   "created": "2026-11-25T14:10:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2607 E 16TH ST",
-   "cross": "DODDS AVE/OLD RINGGOLD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.02053,
-   "lon": -85.26955,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829111",
    "sequence": "2026-11-35531",
    "type": "EMS CALL",
@@ -454,8 +402,8 @@
    "id": "9829104",
    "sequence": "2026-11-35525",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T14:35:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T15:00:37Z",
    "created": "2026-11-25T13:57:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
