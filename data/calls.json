@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T01:55:38+00:00",
+ "updated": "2026-11-25T02:00:43+00:00",
  "counts": {
   "year": 372936,
   "upstream_day": 0,
-  "day": 1315,
+  "day": 1318,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9828468",
+   "sequence": "2026-11-35045",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:56:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2627 HIXSON PIKE",
+   "cross": "ALTAMONT RD/RIVER HILLS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.090882,
+   "lon": -85.286944,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828466",
+   "sequence": "2026-11-35046",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:55:55Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5304 RINGGOLD RD",
+   "cross": "MCBRIEN RD/REBECCA DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.995118,
+   "lon": -85.235174,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828461",
    "sequence": "2026-11-35042",
@@ -27,58 +79,6 @@
    "cross": "SPRING CREEK RD/EASTGATE LOOP",
    "city": "CHATTANOOGA",
    "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828462",
-   "sequence": "2026-11-35043",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:49:45Z",
-   "created": "2026-11-25T01:46:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "1302 A",
-   "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828460",
-   "sequence": "2026-11-35041",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:53:12Z",
-   "created": "2026-11-25T01:45:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
    "priority": "PRI 1",
    "lat": 35.010725,
    "lon": -85.219474,
@@ -168,8 +168,8 @@
    "id": "9828455",
    "sequence": "2026-11-35037",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:56:26Z",
    "created": "2026-11-25T01:43:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +220,8 @@
    "id": "9828451",
    "sequence": "2026-11-35035",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:59:13Z",
    "created": "2026-11-25T01:41:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.019262,
    "lon": -85.236239,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828450",
-   "sequence": "2026-11-35034",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:54:42Z",
-   "created": "2026-11-25T01:41:37Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4861 APPOLOOSA WAY",
-   "cross": "WILD HORSE CT/THOROUGHBRED DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.055836,
-   "lon": -85.108105,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -298,8 +272,8 @@
    "id": "9828444",
    "sequence": "2026-11-35031",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:56:26Z",
    "created": "2026-11-25T01:38:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.073813,
    "lon": -85.239234,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828436",
-   "sequence": "2026-11-35025",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T01:33:45Z",
-   "created": "2026-11-25T01:33:45Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "11229 HIXSON PIKE",
-   "cross": "MARINA CIR/CAPTAINS COVE DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.270329,
-   "lon": -85.13383,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -418,32 +366,6 @@
    "city": "SIGNAL MOUNTAIN",
    "zone": "SIGNAL MOUNTAIN 1",
    "priority": "PRI 3",
-   "lat": 35.123898,
-   "lon": -85.364769,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828418",
-   "sequence": "2026-11-35010",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:28:18Z",
-   "created": "2026-11-25T01:18:26Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "437 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
    "lat": 35.123898,
    "lon": -85.364769,
    "units": 1,
@@ -659,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9828366",
-   "sequence": "2026-11-34968",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:03:20Z",
-   "created": "2026-11-25T00:53:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1010 GADD RD",
-   "cross": "NORCROSS RD/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.141079,
-   "lon": -85.249995,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828322",
    "sequence": "2026-11-34935",
    "type": "Auto Theft",
@@ -735,32 +631,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828279",
-   "sequence": "2026-11-34906",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T00:00:21Z",
-   "created": "2026-11-24T23:52:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6100 - 6799 HIGHWAY 153",
-   "cross": "HILLOCKS FARM RD/DAYTON BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.17078,
-   "lon": -85.247559,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828261",
