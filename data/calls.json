@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T21:20:37+00:00",
+ "updated": "2026-11-25T21:25:36+00:00",
  "counts": {
   "year": 373777,
   "upstream_day": 724,
-  "day": 995,
+  "day": 1003,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9830094",
+   "sequence": "2026-11-36190",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:24:28Z",
+   "created": "2026-11-25T21:24:06Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4145 RINGGOLD RD",
+   "cross": "CEMETERY RD/E RIDGE AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.99899,
+   "lon": -85.244029,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830091",
+   "sequence": "2026-11-36191",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:25:21Z",
+   "created": "2026-11-25T21:24:01Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10210 HAMBY RD",
+   "cross": "SEQUOYAH ACCESS RD/HARRIS FARM LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 4",
+   "lat": 35.23117,
+   "lon": -85.131182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830087",
+   "sequence": "2026-11-36188",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:23:18Z",
+   "created": "2026-11-25T21:22:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2211 BENNETT AVE",
+   "cross": "S KELLEY ST/S LYERLY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.027857,
+   "lon": -85.272866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830082",
+   "sequence": "2026-11-36186",
+   "type": "Assault PD Only",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:21:51Z",
+   "created": "2026-11-25T21:21:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4074 BLUE WATER CIR",
+   "cross": "MORRISON SPRINGS RD/MORRISON SPRINGS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.125324,
+   "lon": -85.303257,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9830078",
    "sequence": "2026-11-36182",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:20:36Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T21:23:11Z",
    "created": "2026-11-25T21:20:36Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9830079",
    "sequence": "2026-11-36183",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:20:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:20:36Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -61,27 +165,27 @@
    "notable": false
   },
   {
-   "id": "9830077",
-   "sequence": "2026-11-36181",
-   "type": "EMS CALL",
+   "id": "9830072",
+   "sequence": "2026-11-36185",
+   "type": "Harassment",
    "status": "Queued",
-   "status_at": "2026-11-25T21:20:36Z",
-   "created": "2026-11-25T21:20:29Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "status_at": "2026-11-25T21:20:52Z",
+   "created": "2026-11-25T21:20:18Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "Chattanooga PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
-   "address": "RINGGOLD RD / S SEMINOLE DR",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 35.008244,
-   "lon": -85.265475,
+   "address": "6925 LEE HWY",
+   "cross": "ROBINSON DR/PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.04384,
+   "lon": -85.164693,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +194,8 @@
    "id": "9830074",
    "sequence": "2026-11-36180",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:20:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:18:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9830066",
    "sequence": "2026-11-36173",
    "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T21:25:11Z",
    "created": "2026-11-25T21:15:35Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -194,8 +298,8 @@
    "id": "9830059",
    "sequence": "2026-11-36169",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:12:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:12:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.007317,
    "lon": -85.214854,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830058",
-   "sequence": "2026-11-36171",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:14:12Z",
-   "created": "2026-11-25T21:11:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5801 - 5829 BURNT MILL RD",
-   "cross": "LEE AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.986532,
-   "lon": -85.32703,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9830053",
-   "sequence": "2026-11-36165",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:11:31Z",
-   "created": "2026-11-25T21:06:39Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "175 DUCKTOWN ST",
-   "cross": "CAPE VW/MCGILL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 1",
-   "lat": 35.286425,
-   "lon": -85.157506,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830054",
    "sequence": "2026-11-36164",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:06:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:06:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9830049",
-   "sequence": "2026-11-36162",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:13:10Z",
-   "created": "2026-11-25T21:04:04Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1673 JED LN",
-   "cross": "No Cross Street/MIDDLE VALLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.188802,
-   "lon": -85.191594,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830046",
    "sequence": "2026-11-36156",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T21:23:00Z",
    "created": "2026-11-25T21:02:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -377,7 +403,7 @@
    "sequence": "2026-11-36154",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T21:25:08Z",
    "created": "2026-11-25T21:01:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -454,8 +480,8 @@
    "id": "9830028",
    "sequence": "2026-11-36149",
    "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T21:21:41Z",
    "created": "2026-11-25T20:54:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -506,8 +532,8 @@
    "id": "9830029",
    "sequence": "2026-11-36142",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T21:22:38Z",
    "created": "2026-11-25T20:52:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -550,58 +576,6 @@
    "priority": "PRI 4",
    "lat": 35.068318,
    "lon": -85.141215,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830023",
-   "sequence": "2026-11-36138",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:44:45Z",
-   "created": "2026-11-25T20:44:45Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3704 WHITEHEAD AVE",
-   "cross": "No Cross Street/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.99702,
-   "lon": -85.260601,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830022",
-   "sequence": "2026-11-36137",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:57:01Z",
-   "created": "2026-11-25T20:44:14Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3704 WHITEHEAD AVE",
-   "cross": "No Cross Street/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.99702,
-   "lon": -85.260601,
    "units": 1,
    "stacked": false,
    "notable": false
