@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T23:25:36+00:00",
+ "updated": "2026-11-25T23:30:40+00:00",
  "counts": {
-  "year": 373915,
-  "upstream_day": 862,
-  "day": 1182,
+  "year": 373925,
+  "upstream_day": 872,
+  "day": 1192,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9830354",
+   "sequence": "2026-11-36380",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:29:38Z",
+   "created": "2026-11-25T23:29:34Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MAHAN GAP RD / HIGHWAY 58",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.185739,
+   "lon": -85.059556,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830353",
+   "sequence": "2026-11-36378",
+   "type": "Aggressive Animal",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:28:49Z",
+   "created": "2026-11-25T23:27:41Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8446 DUNNHILL LN",
+   "cross": "CHARLEE LN/CHARBELL ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 2",
+   "lat": 35.20115,
+   "lon": -85.196603,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830352",
+   "sequence": "2026-11-36376",
+   "type": "Civil Matter",
+   "status": "Stacked",
+   "status_at": "2026-11-25T23:26:30Z",
+   "created": "2026-11-25T23:25:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3410 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.081783,
+   "lon": -85.26321,
+   "units": 1,
+   "stacked": true,
+   "notable": false
+  },
   {
    "id": "9830339",
    "sequence": "2026-11-36370",
@@ -96,32 +174,6 @@
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "APISON PIKE / OLD LEE HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-1 CH",
-   "priority": "PRI 1",
-   "lat": 35.069716,
-   "lon": -85.100607,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830332",
-   "sequence": "2026-11-36362",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:20:38Z",
-   "created": "2026-11-25T23:14:20Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
@@ -238,58 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.013479,
    "lon": -85.326053,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830320",
-   "sequence": "2026-11-36356",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:10:25Z",
-   "created": "2026-11-25T23:03:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3906 CAMELLIA DR",
-   "cross": "No Cross Street/JUNIPER ST",
-   "city": "CHATTANOOGA",
-   "zone": "1504",
-   "priority": "PRI 1",
-   "lat": 35.060588,
-   "lon": -85.213993,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830313",
-   "sequence": "2026-11-36355",
-   "type": "AFA Residential",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:59:52Z",
-   "created": "2026-11-25T22:59:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3906 CAMELLIA DR",
-   "cross": "No Cross Street/JUNIPER ST",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.060588,
-   "lon": -85.213993,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +425,6 @@
    "notable": true
   },
   {
-   "id": "9830266",
-   "sequence": "2026-11-36333",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T23:12:59Z",
-   "created": "2026-11-25T22:43:16Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "633 CAMP JORDAN PKWY",
-   "cross": "CAMP JORDAN RD/BASS PRO DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.991819,
-   "lon": -85.201221,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830267",
    "sequence": "2026-11-36327",
    "type": "EMS CALL",
@@ -506,8 +480,8 @@
    "id": "9830256",
    "sequence": "2026-11-36319",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T23:11:59Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T23:28:26Z",
    "created": "2026-11-25T22:39:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -737,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9830169",
-   "sequence": "2026-11-36251",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T22:45:12Z",
-   "created": "2026-11-25T21:54:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "LEE HWY / TYNER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056774,
-   "lon": -85.140775,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830153",
    "sequence": "2026-11-36236",
    "type": "EMS CALL",
@@ -813,58 +761,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830096",
-   "sequence": "2026-11-36198",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T22:28:16Z",
-   "created": "2026-11-25T21:25:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10009 OOLTEWAH GEORGETOWN RD",
-   "cross": "DAVIS FARM LN/LOWER POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.208807,
-   "lon": -85.009564,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830065",
-   "sequence": "2026-11-36172",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T21:15:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "910 MISSISSIPPI AVE",
-   "cross": "WARREN ST/THOMAS ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.069864,
-   "lon": -85.295791,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830041",
