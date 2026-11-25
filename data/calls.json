@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-25T11:20:39+00:00",
+ "updated": "2026-11-25T11:25:38+00:00",
  "counts": {
-  "year": 373180,
-  "upstream_day": 130,
-  "day": 200,
+  "year": null,
+  "upstream_day": null,
+  "day": 205,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 13,
  "incidents": [
   {
-   "id": "9828927",
-   "sequence": "2026-11-35387",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T11:10:58Z",
-   "created": "2026-11-25T11:10:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.992388,
-   "lon": -85.235323,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828928",
-   "sequence": "2026-11-35388",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T11:10:58Z",
-   "created": "2026-11-25T11:10:58Z",
+   "id": "9828934",
+   "sequence": "2026-11-35393",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:21:17Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
     "East Ridge FD"
@@ -49,23 +23,23 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
+   "address": "720 S SWEETBRIAR AVE",
+   "cross": "SWEET ST/SWEETBRIAR CIR",
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 34.992388,
-   "lon": -85.235323,
+   "priority": "PRI 3",
+   "lat": 35.003813,
+   "lon": -85.241382,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9828926",
    "sequence": "2026-11-35386",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T11:18:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T11:23:34Z",
    "created": "2026-11-25T11:10:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.04528,
    "lon": -85.187363,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828921",
-   "sequence": "2026-11-35381",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T11:06:40Z",
-   "created": "2026-11-25T11:04:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7469 VOLKSWAGEN DR",
-   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.077075,
-   "lon": -85.130623,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +134,6 @@
    "priority": "PRI 2",
    "lat": 35.277896,
    "lon": -85.220685,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828912",
-   "sequence": "2026-11-35374",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:47:13Z",
-   "created": "2026-11-25T10:36:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4732 - 4749 AMNICOLA HWY",
-   "cross": "EXIT AMNICOLA HWY E ON RAMP NB/EXIT AMNICOLA HWY W ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.090284,
-   "lon": -85.218488,
    "units": 1,
    "stacked": false,
    "notable": false
