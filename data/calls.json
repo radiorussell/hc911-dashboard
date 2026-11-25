@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T04:30:39+00:00",
+ "updated": "2026-11-25T04:35:37+00:00",
  "counts": {
-  "year": 373022,
+  "year": 373023,
   "upstream_day": 0,
-  "day": 1430,
+  "day": 1433,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9828627",
+   "sequence": "2026-11-35161",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-25T04:34:35Z",
+   "created": "2026-11-25T04:34:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2727 ROSSVILLE BLVD",
+   "cross": "E 27TH ST/E 28TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.015639,
+   "lon": -85.293809,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828626",
+   "sequence": "2026-11-35159",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T04:31:16Z",
+   "created": "2026-11-25T04:30:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4009 WEBB RD",
+   "cross": "KINGS RD/HARBOR HILLS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.095911,
+   "lon": -85.188693,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828625",
    "sequence": "2026-11-35158",
@@ -30,6 +82,32 @@
    "priority": "PRI 4",
    "lat": 35.200029,
    "lon": -85.20494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828624",
+   "sequence": "2026-11-35160",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-25T04:31:32Z",
+   "created": "2026-11-25T04:26:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "751 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.099619,
+   "lon": -85.323878,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9828613",
-   "sequence": "2026-11-35150",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:28:07Z",
-   "created": "2026-11-25T04:12:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17120 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 34.985489,
-   "lon": -85.406868,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828604",
    "sequence": "2026-11-35144",
    "type": "Well Being Check",
@@ -108,58 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.046035,
    "lon": -85.155388,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828591",
-   "sequence": "2026-11-35134",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:08:28Z",
-   "created": "2026-11-25T03:44:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6324 HIXSON PIKE",
-   "cross": "VALLEYBROOK RD/BROOKAIRE RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.153574,
-   "lon": -85.196024,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828570",
-   "sequence": "2026-11-35116",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T04:16:59Z",
-   "created": "2026-11-25T03:17:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "204 E BROW RD",
-   "cross": "S SCENIC HWY/E SUNSET RD",
-   "city": "LOOKOUT MOUNTAIN",
-   "zone": "MEDIC 10 LM U",
-   "priority": "PRI 1",
-   "lat": 34.995169,
-   "lon": -85.344436,
    "units": 1,
    "stacked": false,
    "notable": false
