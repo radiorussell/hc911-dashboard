@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T23:23:11+00:00",
+ "updated": "2026-11-25T23:25:36+00:00",
  "counts": {
   "year": 373915,
   "upstream_day": 862,
   "day": 1182,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 36,
  "incidents": [
   {
    "id": "9830339",
@@ -38,8 +38,8 @@
    "id": "9830340",
    "sequence": "2026-11-36369",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:23:44Z",
    "created": "2026-11-25T23:16:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9830326",
    "sequence": "2026-11-36360",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:10:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:09:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -195,7 +195,7 @@
    "sequence": "2026-11-36357",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T23:24:59Z",
    "created": "2026-11-25T23:06:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -316,32 +316,6 @@
    "priority": "PRI 4",
    "lat": 35.0339,
    "lon": -85.151935,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830310",
-   "sequence": "2026-11-36353",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:18:01Z",
-   "created": "2026-11-25T22:57:32Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "202 DOLORES DR",
-   "cross": "CLARA DR/HEADLYN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.181259,
-   "lon": -85.174913,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +662,8 @@
    "id": "9830209",
    "sequence": "2026-11-36284",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T23:01:01Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T23:24:40Z",
    "created": "2026-11-25T22:12:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -813,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830138",
-   "sequence": "2026-11-36226",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:53:25Z",
-   "created": "2026-11-25T21:46:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LEE HWY / TYNER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.056774,
-   "lon": -85.140775,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830116",
