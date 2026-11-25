@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T14:45:40+00:00",
+ "updated": "2026-11-25T14:50:37+00:00",
  "counts": {
-  "year": 373319,
-  "upstream_day": 268,
-  "day": 403,
+  "year": 373329,
+  "upstream_day": 278,
+  "day": 405,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9829189",
+   "sequence": "2026-11-35593",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:46:31Z",
+   "created": "2026-11-25T14:46:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9237 LEE HWY",
+   "cross": "ELEMENTARY WAY/MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.083212,
+   "lon": -85.059847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829188",
    "sequence": "2026-11-35591",
@@ -117,7 +143,7 @@
    "sequence": "2026-11-35582",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:48:12Z",
    "created": "2026-11-25T14:41:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -189,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829169",
-   "sequence": "2026-11-35574",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:43:18Z",
-   "created": "2026-11-25T14:34:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1703 RUBIO ST",
-   "cross": "SHOLAR AVE/SHERIDAN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "402",
-   "priority": "PRI 3",
-   "lat": 35.054911,
-   "lon": -85.26906,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829166",
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9829155",
-   "sequence": "2026-11-35561",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:32:37Z",
-   "created": "2026-11-25T14:25:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2917 12TH AVE",
-   "cross": "E 30TH ST/E 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.006623,
-   "lon": -85.277384,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9829153",
    "sequence": "2026-11-35559",
    "type": "EMS CALL",
@@ -347,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9829154",
-   "sequence": "2026-11-35560",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:32:26Z",
-   "created": "2026-11-25T14:25:18Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1908 STONEY CREEK DR",
-   "cross": "SHINNECOCK TRL/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.024573,
-   "lon": -85.142313,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829152",
    "sequence": "2026-11-35558",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T14:48:32Z",
    "created": "2026-11-25T14:25:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -555,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9829098",
-   "sequence": "2026-11-35520",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T14:23:32Z",
-   "created": "2026-11-25T13:55:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "500 W MARTIN LUTHER KING BLVD",
-   "cross": "GATEWAY AVE/BOYNTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.047866,
-   "lon": -85.319039,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829086",
-   "sequence": "2026-11-35510",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T14:26:46Z",
-   "created": "2026-11-25T13:50:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7230 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.051373,
-   "lon": -85.150741,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829085",
    "sequence": "2026-11-35509",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:45:52Z",
    "created": "2026-11-25T13:49:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -628,32 +524,6 @@
    "priority": "PRI 4",
    "lat": 35.019763,
    "lon": -85.237667,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829069",
-   "sequence": "2026-11-35493",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T14:14:55Z",
-   "created": "2026-11-25T13:38:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4410 JERSEY PIKE",
-   "cross": "BONNY OAKS DR/PRESERVATION DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.074826,
-   "lon": -85.189258,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +558,8 @@
    "id": "9829008",
    "sequence": "2026-11-35453",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-25T13:08:37Z",
    "created": "2026-11-25T13:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -707,7 +577,7 @@
    "lat": 35.037454,
    "lon": -85.197073,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   }
  ]
