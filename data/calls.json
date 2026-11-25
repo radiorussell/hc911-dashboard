@@ -1,45 +1,97 @@
 {
- "updated": "2026-11-25T10:25:39+00:00",
+ "updated": "2026-11-25T10:30:40+00:00",
  "counts": {
   "year": 373167,
   "upstream_day": 117,
-  "day": 173,
+  "day": 179,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9828899",
-   "sequence": "2026-11-35361",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:23:29Z",
-   "created": "2026-11-25T10:11:22Z",
-   "jurisdiction": "Dallas Bay VFD",
+   "id": "9828904",
+   "sequence": "2026-11-35366",
+   "type": "Spill",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T10:29:11Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Dallas Bay VFD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "8276 CARLITOS LN",
-   "cross": "No Cross Street/BALLEW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.216658,
-   "lon": -85.175683,
+   "address": "1106 - 1130 MOUNTAIN CREEK RD",
+   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 2",
+   "lat": 35.111397,
+   "lon": -85.323043,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9828905",
+   "sequence": "2026-11-35367",
+   "type": "Spill",
+   "status": "Queued",
+   "status_at": "2026-11-25T10:29:11Z",
+   "created": "2026-11-25T10:29:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1106 - 1130 MOUNTAIN CREEK RD",
+   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.111397,
+   "lon": -85.323043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828903",
+   "sequence": "2026-11-35365",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T10:25:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1106 - 1130 MOUNTAIN CREEK RD",
+   "cross": "BROOMSEDGE TRL/WELLSTONE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.111397,
+   "lon": -85.323043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9828878",
    "sequence": "2026-11-35353",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T10:15:41Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T10:30:35Z",
    "created": "2026-11-25T09:50:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9828873",
    "sequence": "2026-11-35347",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T10:12:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T10:29:58Z",
    "created": "2026-11-25T09:37:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
