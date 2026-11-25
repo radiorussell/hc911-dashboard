@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-25T02:50:38+00:00",
+ "updated": "2026-11-25T02:55:39+00:00",
  "counts": {
-  "year": 372968,
+  "year": 372979,
   "upstream_day": 0,
-  "day": 1371,
+  "day": 1376,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9828553",
+   "sequence": "2026-11-35102",
+   "type": "Backup Other Agency",
+   "status": "Queued",
+   "status_at": "2026-11-25T02:53:57Z",
+   "created": "2026-11-25T02:53:57Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9329 SOMERSET DR",
+   "cross": "BERWICK LN/DONNEBROOK CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 2",
+   "lat": 35.031506,
+   "lon": -85.094474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828550",
+   "sequence": "2026-11-35104",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T02:54:11Z",
+   "created": "2026-11-25T02:53:43Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "14517 OLD DAYTON PIKE",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 3",
+   "lat": 35.369183,
+   "lon": -85.11725,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828547",
    "sequence": "2026-11-35099",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:50:38Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T02:50:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9828545",
    "sequence": "2026-11-35097",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:48:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T02:48:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9828525",
    "sequence": "2026-11-35087",
    "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:51:26Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9828508",
    "sequence": "2026-11-35077",
    "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:52:21Z",
    "created": "2026-11-25T02:32:28Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -238,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.009331,
    "lon": -85.265439,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828500",
-   "sequence": "2026-11-35073",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:36:48Z",
-   "created": "2026-11-25T02:26:44Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8588 BANNER ELK RD",
-   "cross": "DURBAN POINT DR/CHIMNEY LAKE CIR",
-   "city": "LAKESITE",
-   "zone": "DALLAS BAY FD 2 LAKESITE",
-   "priority": "PRI 2",
-   "lat": 35.200677,
-   "lon": -85.130588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9828493",
-   "sequence": "2026-11-35067",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:19:37Z",
-   "created": "2026-11-25T02:19:37Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5326 ROSE ST",
-   "cross": "MCBRIEN RD/PRIGMORE RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.988602,
-   "lon": -85.237672,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828492",
    "sequence": "2026-11-35066",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:29:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T02:52:25Z",
    "created": "2026-11-25T02:19:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +402,8 @@
    "id": "9828484",
    "sequence": "2026-11-35058",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T02:44:27Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T02:52:15Z",
    "created": "2026-11-25T02:10:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -576,32 +576,6 @@
    "priority": "PRI 3",
    "lat": 35.033474,
    "lon": -85.243255,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828261",
-   "sequence": "2026-11-34886",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T23:42:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "910 MISSISSIPPI AVE",
-   "cross": "WARREN ST/THOMAS ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.069864,
-   "lon": -85.295791,
    "units": 1,
    "stacked": false,
    "notable": false
