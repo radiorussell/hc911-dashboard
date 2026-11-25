@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-25T23:30:40+00:00",
+ "updated": "2026-11-25T23:35:42+00:00",
  "counts": {
   "year": 373925,
   "upstream_day": 872,
-  "day": 1192,
+  "day": 1198,
   "day_basis": "midnight"
  },
  "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9830365",
+   "sequence": "2026-11-36386",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:33:49Z",
+   "created": "2026-11-25T23:33:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "420 - 479 INTERSTATE 75 SB",
+   "cross": "EXIT 3 OFF RAMP SB/EXIT 4 OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.027338,
+   "lon": -85.172526,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830364",
+   "sequence": "2026-11-36385",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:32:50Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "401 GLENWAY AVE",
+   "cross": "No Cross Street/IVORY AVE",
+   "city": "WALDEN",
+   "zone": "WEST 2 WALDEN",
+   "priority": "PRI 3",
+   "lat": 35.17044,
+   "lon": -85.299692,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830363",
+   "sequence": "2026-11-36384",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:32:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "600 NORTHGATE MALL DR",
+   "cross": "MEADOW LN/TRINITY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.130217,
+   "lon": -85.242066,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830358",
+   "sequence": "2026-11-36381",
+   "type": "Shoplifter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:31:04Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.08082,
+   "lon": -85.06329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830357",
+   "sequence": "2026-11-36382",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:30:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6407 BROOKMEAD CIR",
+   "cross": "BROOKAIRE RD/LEASIDE LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.15726,
+   "lon": -85.19887,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830354",
    "sequence": "2026-11-36380",
@@ -64,8 +194,8 @@
    "id": "9830352",
    "sequence": "2026-11-36376",
    "type": "Civil Matter",
-   "status": "Stacked",
-   "status_at": "2026-11-25T23:26:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:25:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -83,34 +213,8 @@
    "lat": 35.081783,
    "lon": -85.26321,
    "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9830339",
-   "sequence": "2026-11-36370",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:19:43Z",
-   "created": "2026-11-25T23:17:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CAMDEN ST / DODSON AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.054306,
-   "lon": -85.25989,
-   "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9830340",
@@ -137,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830337",
-   "sequence": "2026-11-36367",
-   "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": "2026-11-25T23:17:37Z",
-   "created": "2026-11-25T23:15:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "APISON PIKE / OLD LEE HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.069716,
-   "lon": -85.100607,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830334",
@@ -220,8 +298,8 @@
    "id": "9830326",
    "sequence": "2026-11-36360",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:33:49Z",
    "created": "2026-11-25T23:09:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.342804,
    "lon": -85.190448,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830322",
-   "sequence": "2026-11-36358",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:06:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3550 BROAD ST",
-   "cross": "TENNESSEE AVE/ST ELMO AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.013479,
-   "lon": -85.326053,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +584,8 @@
    "id": "9830240",
    "sequence": "2026-11-36308",
    "type": "Not Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:32:07Z",
    "created": "2026-11-25T22:30:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -584,8 +636,8 @@
    "id": "9830237",
    "sequence": "2026-11-36304",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:40:51Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T23:34:18Z",
    "created": "2026-11-25T22:26:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,58 +732,6 @@
    "priority": "PRI 3",
    "lat": 35.002071,
    "lon": -85.155804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830177",
-   "sequence": "2026-11-36258",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T21:56:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2115 PETERSON DR",
-   "cross": "MERLIN DR/GALAHAD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.029587,
-   "lon": -85.141798,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830153",
-   "sequence": "2026-11-36236",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T23:08:37Z",
-   "created": "2026-11-25T21:50:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5669 HICKORY ST",
-   "cross": "SCARLET OAK LN/OCOEE ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.072617,
-   "lon": -85.056808,
    "units": 1,
    "stacked": false,
    "notable": false
