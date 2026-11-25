@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T03:30:38+00:00",
+ "updated": "2026-11-25T03:35:37+00:00",
  "counts": {
-  "year": 372995,
+  "year": 373001,
   "upstream_day": 0,
-  "day": 1394,
+  "day": 1401,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9828586",
+   "sequence": "2026-11-35129",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:35:25Z",
+   "created": "2026-11-25T03:35:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1134 GARFIELD ST",
+   "cross": "O NEAL ST/SCRUGGS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.046752,
+   "lon": -85.285838,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828585",
+   "sequence": "2026-11-35128",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": "2026-11-25T03:32:28Z",
+   "created": "2026-11-25T03:32:28Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14828 DAYTON PIKE",
+   "cross": "SALE CREEK LN/REAVLEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 4",
+   "lat": 35.376096,
+   "lon": -85.11158,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828582",
+   "sequence": "2026-11-35125",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T03:30:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4608 HIGHWAY 58",
+   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.084843,
+   "lon": -85.193451,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828575",
    "sequence": "2026-11-35121",
@@ -87,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9828573",
-   "sequence": "2026-11-35119",
-   "type": "Alarm Distress",
-   "status": "On Scene",
-   "status_at": "2026-11-25T03:28:55Z",
-   "created": "2026-11-25T03:18:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7550 TRANQUILITY DR",
-   "cross": "ALLIE DAN CT/REFUGE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 2",
-   "lat": 35.120189,
-   "lon": -85.054592,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828572",
    "sequence": "2026-11-35118",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:32:59Z",
    "created": "2026-11-25T03:17:55Z",
    "jurisdiction": "Lookout Mountain FD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9828570",
    "sequence": "2026-11-35116",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:35:03Z",
    "created": "2026-11-25T03:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9828561",
    "sequence": "2026-11-35112",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:34:49Z",
    "created": "2026-11-25T03:11:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -423,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828470",
-   "sequence": "2026-11-35049",
-   "type": "Not Endangered",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:31:38Z",
-   "created": "2026-11-25T02:01:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1537 MOUNTAIN VIEW CT",
-   "cross": "ST ELMO AVE/ST ELMO AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 2",
-   "lat": 35.017273,
-   "lon": -85.326743,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828452",
