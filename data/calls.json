@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T11:45:38+00:00",
+ "updated": "2026-11-25T11:50:40+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 215,
+  "year": 373195,
+  "upstream_day": 145,
+  "day": 219,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9828948",
+   "sequence": "2026-11-35407",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:49:36Z",
+   "created": "2026-11-25T11:49:36Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 3",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828947",
+   "sequence": "2026-11-35406",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:49:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 2",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828945",
+   "sequence": "2026-11-35404",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:47:41Z",
+   "created": "2026-11-25T11:46:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "180 HIGHWAY 153 NB",
+   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.04528,
+   "lon": -85.187363,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828944",
    "sequence": "2026-11-35403",
@@ -157,32 +235,6 @@
    "cross": "MOWBRAY PIKE/BONNELIA CIR",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 8",
-   "priority": "PRI 2",
-   "lat": 35.277896,
-   "lon": -85.220685,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828916",
-   "sequence": "2026-11-35376",
-   "type": "Wires Down",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:54:23Z",
-   "created": "2026-11-25T10:41:12Z",
-   "jurisdiction": "Mowbray VFD",
-   "agencies": [
-    "Mowbray VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10311 ARNAT DR",
-   "cross": "MOWBRAY PIKE/BONNELIA CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MOWBRAY MOUNTAIN FD",
    "priority": "PRI 2",
    "lat": 35.277896,
    "lon": -85.220685,
