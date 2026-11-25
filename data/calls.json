@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-25T22:05:42+00:00",
+ "updated": "2026-11-25T22:10:38+00:00",
  "counts": {
-  "year": 373824,
-  "upstream_day": 771,
-  "day": 1081,
+  "year": 373847,
+  "upstream_day": 794,
+  "day": 1088,
   "day_basis": "midnight"
  },
- "raw_rows": 43,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9830202",
+   "sequence": "2026-11-36274",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:07:36Z",
+   "created": "2026-11-25T22:07:36Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "100 MOCCASIN BEND RD",
+   "cross": "No Cross Street/HAMM RD",
+   "city": "CHATTANOOGA",
+   "zone": "1204 A",
+   "priority": "PRI 1",
+   "lat": 35.025706,
+   "lon": -85.335431,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830201",
+   "sequence": "2026-11-36273",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:07:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "100 MOCCASIN BEND RD",
+   "cross": "No Cross Street/HAMM RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.025706,
+   "lon": -85.335431,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830200",
+   "sequence": "2026-11-36275",
+   "type": "Interpreter Call",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:07:52Z",
+   "created": "2026-11-25T22:07:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 0",
+   "lat": 35.036222,
+   "lon": -85.158528,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830198",
+   "sequence": "2026-11-36276",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:07:58Z",
+   "created": "2026-11-25T22:06:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830199",
+   "sequence": "2026-11-36272",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:07:36Z",
+   "created": "2026-11-25T22:06:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "100 MOCCASIN BEND RD",
+   "cross": "No Cross Street/HAMM RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.025706,
+   "lon": -85.335431,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9830194",
    "sequence": "2026-11-36269",
@@ -35,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9830191",
-   "sequence": "2026-11-36265",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:59:19Z",
-   "created": "2026-11-25T21:59:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830192",
-   "sequence": "2026-11-36266",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:59:19Z",
-   "created": "2026-11-25T21:59:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830189",
    "sequence": "2026-11-36263",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:08:24Z",
    "created": "2026-11-25T21:59:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9830174",
-   "sequence": "2026-11-36256",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:55:58Z",
-   "created": "2026-11-25T21:55:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4121 ST ELMO AVE",
-   "cross": "W 41ST ST/W 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.005005,
-   "lon": -85.329305,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830172",
    "sequence": "2026-11-36255",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:05:55Z",
    "created": "2026-11-25T21:55:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -241,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830170",
-   "sequence": "2026-11-36252",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:01:33Z",
-   "created": "2026-11-25T21:54:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "LEE HWY / TYNER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.056774,
-   "lon": -85.140775,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830169",
@@ -295,37 +321,37 @@
    "notable": true
   },
   {
-   "id": "9830166",
-   "sequence": "2026-11-36249",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-25T22:04:03Z",
-   "created": "2026-11-25T21:53:20Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9830170",
+   "sequence": "2026-11-36252",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:01:33Z",
+   "created": "2026-11-25T21:54:02Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "DODDS AVE / E 23RD ST",
+   "address": "LEE HWY / TYNER RD",
    "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.015714,
-   "lon": -85.273579,
+   "zone": "802 A",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9830163",
    "sequence": "2026-11-36245",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:07:00Z",
    "created": "2026-11-25T21:52:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9830157",
-   "sequence": "2026-11-36238",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T21:50:16Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5669 HICKORY ST",
-   "cross": "SCARLET OAK LN/OCOEE ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC I",
-   "priority": "PRI 1",
-   "lat": 35.072617,
-   "lon": -85.056808,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830156",
    "sequence": "2026-11-36237",
    "type": "EMS CALL",
@@ -454,8 +454,8 @@
    "id": "9830153",
    "sequence": "2026-11-36236",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:05:48Z",
    "created": "2026-11-25T21:50:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,32 +529,6 @@
    "notable": true
   },
   {
-   "id": "9830143",
-   "sequence": "2026-11-36230",
-   "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:47:55Z",
-   "created": "2026-11-25T21:47:42Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5509 PEARL ST",
-   "cross": "WALNUT ST/ANN ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 1",
-   "lat": 35.071074,
-   "lon": -85.062513,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830138",
    "sequence": "2026-11-36226",
    "type": "MVC Injuries",
@@ -581,32 +555,6 @@
    "notable": true
   },
   {
-   "id": "9830131",
-   "sequence": "2026-11-36222",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:03:48Z",
-   "created": "2026-11-25T21:43:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1117 E 3RD ST",
-   "cross": "CENTRAL AVE/O NEAL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.046753,
-   "lon": -85.286955,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830124",
    "sequence": "2026-11-36215",
    "type": "EMS CALL",
@@ -626,32 +574,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "EAST 4",
    "priority": "PRI 3",
-   "lat": 35.160467,
-   "lon": -85.082872,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830125",
-   "sequence": "2026-11-36216",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:45:01Z",
-   "created": "2026-11-25T21:37:52Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7426 EMANON RD",
-   "cross": "HIGHWAY 58/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
    "lat": 35.160467,
    "lon": -85.082872,
    "units": 1,
@@ -815,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9830082",
-   "sequence": "2026-11-36186",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:42:46Z",
-   "created": "2026-11-25T21:21:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4074 BLUE WATER CIR",
-   "cross": "MORRISON SPRINGS RD/MORRISON SPRINGS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.125324,
-   "lon": -85.303257,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830072",
    "sequence": "2026-11-36185",
    "type": "Harassment",
@@ -1000,8 +896,8 @@
    "id": "9830029",
    "sequence": "2026-11-36142",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T21:44:26Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T22:10:35Z",
    "created": "2026-11-25T20:52:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
