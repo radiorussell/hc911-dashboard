@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-25T14:10:43+00:00",
+ "updated": "2026-11-25T14:15:45+00:00",
  "counts": {
-  "year": 373288,
-  "upstream_day": 237,
-  "day": 352,
+  "year": null,
+  "upstream_day": null,
+  "day": 362,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9829134",
+   "sequence": "2026-11-35550",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:12:58Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8504 DAYTON PIKE",
+   "cross": "SUMMERS DR/MONTLAKE RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.219606,
+   "lon": -85.22389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829125",
+   "sequence": "2026-11-35547",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:10:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "181 ACORN OAKS CIR",
+   "cross": "FROSTY PINE TRL/PINEVILLE RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 2",
+   "lat": 35.081518,
+   "lon": -85.326336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829130",
+   "sequence": "2026-11-35543",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:10:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2607 E 16TH ST",
+   "cross": "DODDS AVE/OLD RINGGOLD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.02053,
+   "lon": -85.26955,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829131",
+   "sequence": "2026-11-35544",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:10:51Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2607 E 16TH ST",
+   "cross": "DODDS AVE/OLD RINGGOLD RD",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.02053,
+   "lon": -85.26955,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829126",
+   "sequence": "2026-11-35542",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:10:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2609 E 16TH ST",
+   "cross": "DODDS AVE/OLD RINGGOLD RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.020538,
+   "lon": -85.269913,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829123",
    "sequence": "2026-11-35540",
@@ -39,7 +169,7 @@
    "sequence": "2026-11-35535",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:11:20Z",
    "created": "2026-11-25T14:03:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +324,8 @@
    "id": "9829104",
    "sequence": "2026-11-35525",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T14:13:43Z",
    "created": "2026-11-25T13:57:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +350,8 @@
    "id": "9829098",
    "sequence": "2026-11-35520",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:04:22Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T14:12:08Z",
    "created": "2026-11-25T13:55:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,63 +373,11 @@
    "notable": false
   },
   {
-   "id": "9829090",
-   "sequence": "2026-11-35512",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:51:08Z",
-   "created": "2026-11-25T13:51:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7230 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 2",
-   "lat": 35.051373,
-   "lon": -85.150741,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829089",
-   "sequence": "2026-11-35511",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:51:07Z",
-   "created": "2026-11-25T13:51:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7230 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.051373,
-   "lon": -85.150741,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829086",
    "sequence": "2026-11-35510",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:01:12Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T14:11:54Z",
    "created": "2026-11-25T13:50:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +454,8 @@
    "id": "9829069",
    "sequence": "2026-11-35493",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T13:59:29Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T14:14:55Z",
    "created": "2026-11-25T13:38:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,6 +602,32 @@
    "priority": "PRI 4",
    "lat": 35.005719,
    "lon": -85.276558,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828765",
+   "sequence": "2026-11-35268",
+   "type": "Domestic Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-25T06:56:33Z",
+   "created": "2026-11-25T06:51:14Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "514 LULLWATER RD",
+   "cross": "STRAWBERRY LN/HEDGEWOOD DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 2",
+   "lat": 35.093325,
+   "lon": -85.319134,
    "units": 1,
    "stacked": false,
    "notable": false
