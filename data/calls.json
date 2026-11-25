@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T23:50:37+00:00",
+ "updated": "2026-11-25T23:55:38+00:00",
  "counts": {
   "year": 373937,
   "upstream_day": 884,
-  "day": 1214,
+  "day": 1218,
   "day_basis": "midnight"
  },
  "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9830393",
+   "sequence": "2026-11-36405",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:52:28Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6919 WAKE ROBIN DR",
+   "cross": "FRAWLEY RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 2",
+   "lat": 34.994901,
+   "lon": -85.18695,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830391",
+   "sequence": "2026-11-36406",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:52:36Z",
+   "created": "2026-11-25T23:51:13Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8400 HERON CIR",
+   "cross": "GULL LN/HERON DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 4",
+   "lat": 35.162216,
+   "lon": -85.054974,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830390",
+   "sequence": "2026-11-36404",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:50:48Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "955 RIDGEWAY AVE",
+   "cross": "KEY ST/LAUREL ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 1",
+   "lat": 35.126047,
+   "lon": -85.336896,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830386",
    "sequence": "2026-11-36402",
@@ -38,8 +116,8 @@
    "id": "9830388",
    "sequence": "2026-11-36401",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:49:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:49:03Z",
    "jurisdiction": "Lookout Mountain FD",
    "agencies": [
@@ -56,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.002818,
    "lon": -85.345742,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830383",
-   "sequence": "2026-11-36398",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:48:49Z",
-   "created": "2026-11-25T23:45:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2105 UNION AVE",
-   "cross": "S WILLOW ST/S KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.03155,
-   "lon": -85.27307,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -141,7 +193,7 @@
   {
    "id": "9830375",
    "sequence": "2026-11-36396",
-   "type": "Miscellaneous Complaint",
+   "type": "Property",
    "status": "Queued",
    "status_at": "2026-11-25T23:44:25Z",
    "created": "2026-11-25T23:43:34Z",
@@ -194,8 +246,8 @@
    "id": "9830371",
    "sequence": "2026-11-36390",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:51:49Z",
    "created": "2026-11-25T23:39:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -295,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9830357",
-   "sequence": "2026-11-36382",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:45:54Z",
-   "created": "2026-11-25T23:30:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6407 BROOKMEAD CIR",
-   "cross": "BROOKAIRE RD/LEASIDE LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.15726,
-   "lon": -85.19887,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830354",
    "sequence": "2026-11-36380",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:29:38Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:29:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -439,13 +465,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "13300 - 15099 HIGHWAY 111 NB",
+   "address": "15000 HIGHWAY 111 NB",
    "cross": "EXIT JONES GAP RD ON RAMP NB/HIGHWAY 111 SB",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 8",
    "priority": "PRI 3",
-   "lat": 35.342804,
-   "lon": -85.190448,
+   "lat": 35.344497,
+   "lon": -85.2293,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -663,7 +689,7 @@
    "sequence": "2026-11-36303",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T23:55:13Z",
    "created": "2026-11-25T22:25:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -706,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.069536,
    "lon": -85.172815,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830198",
-   "sequence": "2026-11-36276",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:21:00Z",
-   "created": "2026-11-25T22:06:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "999 CHARLOTTE AVE",
-   "cross": "DAVIDSON RD/DUDLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.002071,
-   "lon": -85.155804,
    "units": 1,
    "stacked": false,
    "notable": false
