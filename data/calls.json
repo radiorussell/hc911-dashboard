@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T07:15:44+00:00",
+ "updated": "2026-11-25T07:20:37+00:00",
  "counts": {
   "year": 373104,
   "upstream_day": 54,
-  "day": 92,
+  "day": 95,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9828791",
+   "sequence": "2026-11-35282",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T07:17:07Z",
+   "created": "2026-11-25T07:17:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1920 CHESTNUT ST",
+   "cross": "W 19TH ST/W 20TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.034378,
+   "lon": -85.314716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828792",
+   "sequence": "2026-11-35283",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T07:17:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1920 CHESTNUT ST",
+   "cross": "W 19TH ST/W 20TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "103 B",
+   "priority": "PRI 3",
+   "lat": 35.034378,
+   "lon": -85.314716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828790",
+   "sequence": "2026-11-35281",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T07:16:45Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1920 CHESTNUT ST",
+   "cross": "W 19TH ST/W 20TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.034378,
+   "lon": -85.314716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828788",
    "sequence": "2026-11-35279",
@@ -264,58 +342,6 @@
    "priority": "PRI 1",
    "lat": 34.989371,
    "lon": -85.104755,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828760",
-   "sequence": "2026-11-35263",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-25T07:06:22Z",
-   "created": "2026-11-25T06:44:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1646 DOGWOOD DR",
-   "cross": "WILCOX BLVD/JEANAGA TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.047294,
-   "lon": -85.232146,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828727",
-   "sequence": "2026-11-35236",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T06:05:49Z",
-   "created": "2026-11-25T06:01:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "TENNESSEE AVE / SENECA AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.000005,
-   "lon": -85.327677,
    "units": 1,
    "stacked": false,
    "notable": false
