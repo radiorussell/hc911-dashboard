@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T14:15:45+00:00",
+ "updated": "2026-11-25T14:20:38+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 362,
+  "year": 373299,
+  "upstream_day": 248,
+  "day": 363,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9829140",
+   "sequence": "2026-11-35551",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:19:01Z",
+   "created": "2026-11-25T14:18:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3209 CLIO AVE",
+   "cross": "E 32ND ST/E 34TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.006943,
+   "lon": -85.292473,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829134",
    "sequence": "2026-11-35550",
@@ -65,7 +91,7 @@
    "sequence": "2026-11-35543",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:17:06Z",
    "created": "2026-11-25T14:10:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -79,32 +105,6 @@
    "cross": "DODDS AVE/OLD RINGGOLD RD",
    "city": "CHATTANOOGA",
    "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.02053,
-   "lon": -85.26955,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829131",
-   "sequence": "2026-11-35544",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T14:10:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2607 E 16TH ST",
-   "cross": "DODDS AVE/OLD RINGGOLD RD",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
    "priority": "PRI 1",
    "lat": 35.02053,
    "lon": -85.26955,
@@ -145,21 +145,21 @@
    "status": "Queued",
    "status_at": "2026-11-25T14:08:07Z",
    "created": "2026-11-25T14:07:34Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "8535 HIXSON PIKE",
-   "cross": "MCCONNELL SCHOOL LN/CAMP COLUMBUS RD",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
+   "address": "1642 GUNSTON HALL RD",
+   "cross": "No Cross Street/CAPTAINS WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
    "priority": "PRI 4",
-   "lat": 35.200692,
-   "lon": -85.15943,
+   "lat": 35.167605,
+   "lon": -85.192293,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +220,8 @@
    "id": "9829111",
    "sequence": "2026-11-35531",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T14:18:38Z",
    "created": "2026-11-25T14:00:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.025978,
    "lon": -85.314322,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829105",
-   "sequence": "2026-11-35523",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:57:16Z",
-   "created": "2026-11-25T13:57:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "500 W MARTIN LUTHER KING BLVD",
-   "cross": "GATEWAY AVE/BOYNTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.047866,
-   "lon": -85.319039,
    "units": 1,
    "stacked": false,
    "notable": false
