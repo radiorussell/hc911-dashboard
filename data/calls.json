@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T18:50:37+00:00",
+ "updated": "2026-11-25T18:55:38+00:00",
  "counts": {
   "year": 373619,
   "upstream_day": 566,
-  "day": 792,
+  "day": 800,
   "day_basis": "midnight"
  },
- "raw_rows": 42,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9829777",
+   "sequence": "2026-11-35988",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-25T18:54:04Z",
+   "created": "2026-11-25T18:54:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5952 BRAINERD RD",
+   "cross": "GREENWAY VIEW DR/JUBILEE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.01548,
+   "lon": -85.206074,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829773",
+   "sequence": "2026-11-35987",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T18:53:38Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5952 BRAINERD RD",
+   "cross": "GREENWAY VIEW DR/JUBILEE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 2",
+   "lat": 35.01548,
+   "lon": -85.206074,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829768",
+   "sequence": "2026-11-35983",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-25T18:52:07Z",
+   "created": "2026-11-25T18:52:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 HIGHWAY 27 SB",
+   "cross": "EXIT MANUFACTURERS RD OFF RAMP SB/EXIT DAYTON BLVD ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.071925,
+   "lon": -85.321236,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829762",
    "sequence": "2026-11-35980",
@@ -64,8 +142,8 @@
    "id": "9829759",
    "sequence": "2026-11-35978",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T18:51:11Z",
    "created": "2026-11-25T18:46:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.02912,
    "lon": -85.159372,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829757",
-   "sequence": "2026-11-35976",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:45:41Z",
-   "created": "2026-11-25T18:45:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.040477,
-   "lon": -85.299892,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -131,32 +183,6 @@
    "cross": "BALDWIN ST/PEEPLES ST",
    "city": "CHATTANOOGA",
    "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829746",
-   "sequence": "2026-11-35975",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T18:43:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
@@ -212,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.007242,
    "lon": -85.20401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829729",
-   "sequence": "2026-11-35963",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-25T18:33:51Z",
-   "created": "2026-11-25T18:32:25Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7115 MOUNTAIN VIEW RD",
-   "cross": "RANCHO DR/OOLTEWAH GEORGETOWN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.115767,
-   "lon": -85.048361,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -316,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.129504,
    "lon": -85.234989,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829716",
-   "sequence": "2026-11-35956",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": "2026-11-25T18:40:06Z",
-   "created": "2026-11-25T18:25:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4582 RUBY RED DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.067823,
-   "lon": -85.102938,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +454,8 @@
    "id": "9829683",
    "sequence": "2026-11-35930",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T18:41:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T18:51:42Z",
    "created": "2026-11-25T18:13:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -585,7 +559,7 @@
    "sequence": "2026-11-35917",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T18:50:40Z",
    "created": "2026-11-25T18:07:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -763,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9829570",
-   "sequence": "2026-11-35858",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T18:31:48Z",
-   "created": "2026-11-25T17:32:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6711 WHITE OAK VALLEY CIR",
-   "cross": "DEERING GREEN LN/PHOEBE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.099058,
-   "lon": -85.021498,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829563",
    "sequence": "2026-11-35851",
    "type": "MVC Injuries",
@@ -943,32 +891,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829499",
-   "sequence": "2026-11-35805",
-   "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": "2026-11-25T17:31:12Z",
-   "created": "2026-11-25T17:03:31Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5531 MISTY VALLEY DR",
-   "cross": "GREY CLIFFE DR/GREY MOUNTAIN DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 1",
-   "lat": 35.068683,
-   "lon": -85.031767,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829497",
