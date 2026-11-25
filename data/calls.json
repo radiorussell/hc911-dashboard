@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T06:15:43+00:00",
+ "updated": "2026-11-25T06:20:38+00:00",
  "counts": {
   "year": 373080,
   "upstream_day": 30,
-  "day": 54,
+  "day": 61,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9828742",
+   "sequence": "2026-11-35249",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-25T06:20:09Z",
+   "created": "2026-11-25T06:20:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6121 LEE HWY",
+   "cross": "VAN NESS RD/VANCE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.029911,
+   "lon": -85.187659,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828738",
+   "sequence": "2026-11-35245",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T06:16:07Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6111 HARRISON OOLTEWAH RD",
+   "cross": "TAYLOR RD/GARFIELD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 2",
+   "lat": 35.11652,
+   "lon": -85.117974,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828736",
+   "sequence": "2026-11-35244",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T06:15:47Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6111 HARRISON OOLTEWAH RD",
+   "cross": "TAYLOR RD/GARFIELD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 1",
+   "lat": 35.11652,
+   "lon": -85.117974,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828735",
    "sequence": "2026-11-35242",
@@ -38,8 +116,8 @@
    "id": "9828732",
    "sequence": "2026-11-35241",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T06:17:29Z",
    "created": "2026-11-25T06:08:31Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
