@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T03:40:37+00:00",
+ "updated": "2026-11-25T03:45:36+00:00",
  "counts": {
-  "year": 373001,
+  "year": 373004,
   "upstream_day": 0,
-  "day": 1400,
+  "day": 1406,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9828591",
+   "sequence": "2026-11-35134",
+   "type": "Backup Other Agency",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:44:44Z",
+   "created": "2026-11-25T03:44:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6324 HIXSON PIKE",
+   "cross": "VALLEYBROOK RD/BROOKAIRE RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.153574,
+   "lon": -85.196024,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828585",
    "sequence": "2026-11-35128",
@@ -38,8 +64,8 @@
    "id": "9828582",
    "sequence": "2026-11-35125",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:41:17Z",
    "created": "2026-11-25T03:30:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9828570",
    "sequence": "2026-11-35116",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T03:35:03Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T03:45:10Z",
    "created": "2026-11-25T03:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9828553",
-   "sequence": "2026-11-35102",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": "2026-11-25T02:57:57Z",
-   "created": "2026-11-25T02:53:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "702 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.040393,
-   "lon": -85.300716,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828545",
    "sequence": "2026-11-35097",
    "type": "MVC No Injuries",
@@ -273,7 +273,7 @@
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
    "status": "At Hospital",
-   "status_at": "2026-11-25T03:25:41Z",
+   "status_at": "2026-11-25T03:44:54Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -440,12 +440,12 @@
     "Law"
    ],
    "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
    "city": "CHATTANOOGA",
-   "zone": "",
+   "zone": "C7",
    "priority": "PRI 4",
-   "lat": 35.034528,
-   "lon": -85.158706,
+   "lat": 35.033372,
+   "lon": -85.159309,
    "units": 1,
    "stacked": false,
    "notable": false
