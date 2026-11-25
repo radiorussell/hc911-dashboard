@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T15:15:37+00:00",
+ "updated": "2026-11-25T15:20:43+00:00",
  "counts": {
-  "year": 373347,
-  "upstream_day": 296,
-  "day": 446,
+  "year": 373352,
+  "upstream_day": 301,
+  "day": 457,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9829265",
+   "sequence": "2026-11-35644",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:16:05Z",
+   "created": "2026-11-25T15:16:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1635 GUNBARREL RD",
+   "cross": "ZIEGLER RD/CRANE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.020817,
+   "lon": -85.161133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829266",
+   "sequence": "2026-11-35645",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:16:05Z",
+   "created": "2026-11-25T15:16:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1635 GUNBARREL RD",
+   "cross": "ZIEGLER RD/CRANE RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.020817,
+   "lon": -85.161133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829263",
+   "sequence": "2026-11-35641",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:16:02Z",
+   "created": "2026-11-25T15:16:02Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4335 SPRIGGS ST",
+   "cross": "VESTER LN/MCBRIEN RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.990649,
+   "lon": -85.238376,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829264",
+   "sequence": "2026-11-35642",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:16:02Z",
+   "created": "2026-11-25T15:16:02Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4335 SPRIGGS ST",
+   "cross": "VESTER LN/MCBRIEN RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 34.990649,
+   "lon": -85.238376,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829260",
+   "sequence": "2026-11-35640",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:19:30Z",
+   "created": "2026-11-25T15:15:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4335 SPRIGGS ST",
+   "cross": "VESTER LN/MCBRIEN RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.990649,
+   "lon": -85.238376,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829261",
+   "sequence": "2026-11-35643",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:15:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1635 GUNBARREL RD",
+   "cross": "ZIEGLER RD/CRANE RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.020817,
+   "lon": -85.161133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829252",
    "sequence": "2026-11-35634",
@@ -116,8 +272,8 @@
    "id": "9829243",
    "sequence": "2026-11-35628",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:20:31Z",
    "created": "2026-11-25T15:09:50Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -238,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.04796,
    "lon": -85.243049,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829188",
-   "sequence": "2026-11-35591",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:54:34Z",
-   "created": "2026-11-25T14:43:33Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7609 MIDDLE VALLEY RD",
-   "cross": "GANN RD/WYNDSOR DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 3",
-   "lat": 35.185983,
-   "lon": -85.19494,
    "units": 1,
    "stacked": false,
    "notable": false
