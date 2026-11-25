@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T05:20:37+00:00",
+ "updated": "2026-11-25T05:25:39+00:00",
  "counts": {
-  "year": 373052,
-  "upstream_day": 2,
+  "year": 373061,
+  "upstream_day": 11,
   "day": 18,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9828682",
    "sequence": "2026-11-35206",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T05:22:23Z",
    "created": "2026-11-25T05:14:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9828673",
    "sequence": "2026-11-35204",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T05:23:47Z",
    "created": "2026-11-25T05:13:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -111,58 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828667",
-   "sequence": "2026-11-35197",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:12:30Z",
-   "created": "2026-11-25T05:08:13Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4299 HIGHWAY 58",
-   "cross": "EXIT HIGHWAY 58 S OFF RAMP NB/EXIT HIGHWAY 58 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "606",
-   "priority": "PRI 1",
-   "lat": 35.082847,
-   "lon": -85.205477,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9828666",
-   "sequence": "2026-11-35196",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T05:08:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4299 HIGHWAY 58",
-   "cross": "EXIT HIGHWAY 58 S OFF RAMP NB/EXIT HIGHWAY 58 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.082847,
-   "lon": -85.205477,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828664",
@@ -402,8 +350,8 @@
    "id": "9828633",
    "sequence": "2026-11-35166",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:48:07Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T05:23:41Z",
    "created": "2026-11-25T04:36:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +446,6 @@
    "priority": "PRI 0",
    "lat": 34.995812,
    "lon": -85.306206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828624",
-   "sequence": "2026-11-35160",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:56:07Z",
-   "created": "2026-11-25T04:26:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "751 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.099619,
-   "lon": -85.323878,
    "units": 1,
    "stacked": false,
    "notable": false
