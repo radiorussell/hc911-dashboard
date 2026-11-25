@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-25T10:35:39+00:00",
+ "updated": "2026-11-25T10:40:44+00:00",
  "counts": {
   "year": 373168,
   "upstream_day": 118,
-  "day": 182,
+  "day": 186,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9828912",
+   "sequence": "2026-11-35374",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T10:36:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4732 - 4749 AMNICOLA HWY",
+   "cross": "EXIT AMNICOLA HWY E ON RAMP NB/EXIT AMNICOLA HWY W ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.090284,
+   "lon": -85.218488,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828910",
    "sequence": "2026-11-35370",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T10:39:58Z",
    "created": "2026-11-25T10:33:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9828907",
    "sequence": "2026-11-35369",
    "type": "AFA Apartment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T10:39:43Z",
    "created": "2026-11-25T10:31:58Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9828904",
    "sequence": "2026-11-35366",
    "type": "Spill",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T10:36:06Z",
    "created": "2026-11-25T10:29:11Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
