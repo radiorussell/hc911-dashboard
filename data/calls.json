@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T16:35:39+00:00",
+ "updated": "2026-11-25T16:40:37+00:00",
  "counts": {
-  "year": 373450,
-  "upstream_day": 399,
-  "day": 563,
+  "year": 373457,
+  "upstream_day": 406,
+  "day": 570,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9829427",
+   "sequence": "2026-11-35756",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:38:42Z",
+   "created": "2026-11-25T16:38:42Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9334 DAYTON PIKE",
+   "cross": "SPRINGFIELD RD/HARRISON LN",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.234297,
+   "lon": -85.199279,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829428",
+   "sequence": "2026-11-35757",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:38:42Z",
+   "created": "2026-11-25T16:38:42Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9334 DAYTON PIKE",
+   "cross": "SPRINGFIELD RD/HARRISON LN",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.234297,
+   "lon": -85.199279,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829424",
+   "sequence": "2026-11-35758",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:38:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1834 AUBURNDALE AVE",
+   "cross": "ASHTON ST/WHITE OAK RD",
+   "city": "CHATTANOOGA",
+   "zone": "1201",
+   "priority": "PRI 1",
+   "lat": 35.087142,
+   "lon": -85.297973,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829426",
+   "sequence": "2026-11-35755",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:38:20Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9334 DAYTON PIKE",
+   "cross": "SPRINGFIELD RD/HARRISON LN",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.234297,
+   "lon": -85.199279,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829415",
    "sequence": "2026-11-35750",
@@ -87,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9829410",
-   "sequence": "2026-11-35746",
-   "type": "Assault Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T16:22:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DODSON AVE / RAMSEY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.042623,
-   "lon": -85.265065,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9829405",
    "sequence": "2026-11-35742",
    "type": "Disorder",
@@ -165,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9829395",
-   "sequence": "2026-11-35739",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:11:10Z",
-   "created": "2026-11-25T16:11:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "979 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.047957,
-   "lon": -85.289321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829391",
    "sequence": "2026-11-35737",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T16:19:42Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T16:40:30Z",
    "created": "2026-11-25T16:10:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 34.989934,
    "lon": -85.189191,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829310",
-   "sequence": "2026-11-35677",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T15:36:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4104 QUARRY VW",
-   "cross": "READS LAKE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.13662,
-   "lon": -85.305451,
    "units": 1,
    "stacked": false,
    "notable": false
