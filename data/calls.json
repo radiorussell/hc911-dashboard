@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T19:30:37+00:00",
+ "updated": "2026-11-25T19:35:42+00:00",
  "counts": {
   "year": 373666,
   "upstream_day": 613,
-  "day": 853,
+  "day": 864,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 42,
  "incidents": [
+  {
+   "id": "9829874",
+   "sequence": "2026-11-36051",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:33:03Z",
+   "created": "2026-11-25T19:33:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3810 BRAINERD RD",
+   "cross": "ORIOLE DR/TALLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.021878,
+   "lon": -85.243221,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829875",
+   "sequence": "2026-11-36052",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:33:03Z",
+   "created": "2026-11-25T19:33:03Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3810 BRAINERD RD",
+   "cross": "ORIOLE DR/TALLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "1304 A",
+   "priority": "PRI 3",
+   "lat": 35.021878,
+   "lon": -85.243221,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829871",
+   "sequence": "2026-11-36050",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:32:33Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3810 BRAINERD RD",
+   "cross": "ORIOLE DR/TALLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.021878,
+   "lon": -85.243221,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829859",
+   "sequence": "2026-11-36048",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:31:09Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5324 KELLYS PT",
+   "cross": "No Cross Street/FLAGSTONE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.099053,
+   "lon": -85.091152,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829867",
+   "sequence": "2026-11-36047",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:31:29Z",
+   "created": "2026-11-25T19:31:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1400 WOODWARD AVE",
+   "cross": "E 14TH ST/E MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 4",
+   "lat": 35.022087,
+   "lon": -85.266717,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829865",
+   "sequence": "2026-11-36045",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:30:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1213 SHERIDAN AVE",
+   "cross": "PORTLAND ST/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.052837,
+   "lon": -85.26802,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829848",
    "sequence": "2026-11-36041",
@@ -30,6 +186,32 @@
    "priority": "PRI 3",
    "lat": 35.009454,
    "lon": -85.27164,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829850",
+   "sequence": "2026-11-36038",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:22:50Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6987 BULLOCK WAY",
+   "cross": "No Cross Street/MANASSAS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 4",
+   "lat": 35.172724,
+   "lon": -85.182476,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,58 +347,6 @@
    "notable": false
   },
   {
-   "id": "9829837",
-   "sequence": "2026-11-36029",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:19:08Z",
-   "created": "2026-11-25T19:19:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6811 GREENWAY DR",
-   "cross": "HICKORY VALLEY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.02532,
-   "lon": -85.17626,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829838",
-   "sequence": "2026-11-36030",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:24:14Z",
-   "created": "2026-11-25T19:19:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6811 GREENWAY DR",
-   "cross": "HICKORY VALLEY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "802 C",
-   "priority": "PRI 1",
-   "lat": 35.02532,
-   "lon": -85.17626,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829835",
    "sequence": "2026-11-36026",
    "type": "EMS CALL",
@@ -298,8 +428,8 @@
    "id": "9829831",
    "sequence": "2026-11-36037",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:22:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:18:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +454,8 @@
    "id": "9829833",
    "sequence": "2026-11-36025",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:33:58Z",
    "created": "2026-11-25T19:18:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -451,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9829816",
-   "sequence": "2026-11-36015",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:09:38Z",
-   "created": "2026-11-25T19:08:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829804",
    "sequence": "2026-11-36009",
    "type": "EMS CALL",
@@ -506,8 +610,8 @@
    "id": "9829803",
    "sequence": "2026-11-36005",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T19:21:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T19:33:15Z",
    "created": "2026-11-25T19:04:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -732,32 +836,6 @@
    "priority": "PRI 1",
    "lat": 35.129504,
    "lon": -85.234989,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829703",
-   "sequence": "2026-11-35944",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:04:07Z",
-   "created": "2026-11-25T18:17:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17380 - 17419 INTERSTATE 24 WB",
-   "cross": "EXIT 174 ON RAMP WB/EXIT 174 OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.016388,
-   "lon": -85.385895,
    "units": 1,
    "stacked": false,
    "notable": false
