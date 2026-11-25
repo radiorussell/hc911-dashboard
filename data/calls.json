@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T12:05:37+00:00",
+ "updated": "2026-11-25T12:10:38+00:00",
  "counts": {
-  "year": 373197,
-  "upstream_day": 147,
-  "day": 225,
+  "year": 373202,
+  "upstream_day": 152,
+  "day": 229,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9828965",
+   "sequence": "2026-11-35417",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-25T12:10:00Z",
+   "created": "2026-11-25T12:10:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4430 HIGHWAY 58",
+   "cross": "MURRAY HILLS DR/SHELBORNE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.084025,
+   "lon": -85.200395,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828963",
+   "sequence": "2026-11-35416",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T12:09:45Z",
+   "created": "2026-11-25T12:09:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3035 DEE DR",
+   "cross": "JUDY ANN DR/EMMA KATE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.056021,
+   "lon": -85.244331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828955",
    "sequence": "2026-11-35413",
@@ -189,6 +241,32 @@
    "units": 1,
    "stacked": false,
    "notable": true
+  },
+  {
+   "id": "9828922",
+   "sequence": "2026-11-35382",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-25T12:06:12Z",
+   "created": "2026-11-25T11:07:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6217 VANCE RD",
+   "cross": "AIRPARK DR/AIRWAYS BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.033175,
+   "lon": -85.18553,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9828765",
