@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-25T00:50:37+00:00",
+ "updated": "2026-11-25T00:55:37+00:00",
  "counts": {
-  "year": 372875,
+  "year": 372880,
   "upstream_day": 0,
-  "day": 1236,
+  "day": 1244,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9828371",
+   "sequence": "2026-11-34972",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-25T00:55:15Z",
+   "created": "2026-11-25T00:55:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1335 ASLINGER RD",
+   "cross": "HOWARD FARM LN/ANDY THOMAS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 2",
+   "lat": 35.415344,
+   "lon": -85.058831,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828370",
+   "sequence": "2026-11-34971",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-25T00:54:46Z",
+   "created": "2026-11-25T00:54:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1421 WALDEN FOREST RD",
+   "cross": "No Cross Street/FAIRMOUNT PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.176491,
+   "lon": -85.319518,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828368",
+   "sequence": "2026-11-34970",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T00:53:07Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1335 ASLINGER RD",
+   "cross": "HOWARD FARM LN/ANDY THOMAS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 1",
+   "lat": 35.415344,
+   "lon": -85.058831,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828366",
+   "sequence": "2026-11-34968",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T00:53:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1015 GADD RD",
+   "cross": "NORCROSS RD/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.141597,
+   "lon": -85.249998,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828365",
+   "sequence": "2026-11-34967",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T00:52:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E BRAINERD RD / GUNBARREL RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.015208,
+   "lon": -85.163695,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828359",
    "sequence": "2026-11-34964",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-25T00:46:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:46:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.029213,
    "lon": -85.311209,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828354",
-   "sequence": "2026-11-34959",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-25T00:49:48Z",
-   "created": "2026-11-25T00:42:52Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1820 HIGHWAY 27 SB",
-   "cross": "EXIT HARRISON LN OFF RAMP SB/EXIT SEQUOYAH RD ON RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 2",
-   "lat": 35.244605,
-   "lon": -85.181938,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +194,8 @@
    "id": "9828343",
    "sequence": "2026-11-34950",
    "type": "Auto Broken Down",
-   "status": "Stacked",
-   "status_at": "2026-11-25T00:37:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:37:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.001392,
    "lon": -85.292162,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9828342",
-   "sequence": "2026-11-34951",
-   "type": "Open Door or Window",
-   "status": "On Scene",
-   "status_at": "2026-11-25T00:42:10Z",
-   "created": "2026-11-25T00:36:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2005 E 25TH ST",
-   "cross": "S ORCHARD KNOB AVE/4TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 1",
-   "lat": 35.015112,
-   "lon": -85.283154,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +246,8 @@
    "id": "9828332",
    "sequence": "2026-11-34942",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:50:45Z",
    "created": "2026-11-25T00:28:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9828322",
    "sequence": "2026-11-34935",
    "type": "Auto Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-25T00:24:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:24:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -213,33 +291,7 @@
    "lat": 35.007118,
    "lon": -85.287352,
    "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9828318",
-   "sequence": "2026-11-34931",
-   "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-25T00:19:46Z",
-   "created": "2026-11-25T00:19:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.016445,
-   "lon": -85.293607,
-   "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -264,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 34.990005,
    "lon": -85.312856,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828312",
-   "sequence": "2026-11-34926",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T00:35:31Z",
-   "created": "2026-11-25T00:13:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "220 INTERSTATE 75 SB",
-   "cross": "EXIT 2 OFF RAMP SB/EXIT 3 ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.009621,
-   "lon": -85.195327,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -454,8 +480,8 @@
    "id": "9828254",
    "sequence": "2026-11-34883",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T00:17:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T00:51:28Z",
    "created": "2026-11-24T23:40:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
