@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T10:55:39+00:00",
+ "updated": "2026-11-25T11:00:40+00:00",
  "counts": {
   "year": 373176,
   "upstream_day": 126,
   "day": 189,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9828917",
@@ -142,8 +142,8 @@
    "id": "9828903",
    "sequence": "2026-11-35365",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T10:56:57Z",
    "created": "2026-11-25T10:25:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.111397,
    "lon": -85.323043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828833",
-   "sequence": "2026-11-35315",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-25T08:43:23Z",
-   "created": "2026-11-25T08:36:23Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "941 SPRING CREEK RD",
-   "cross": "N MACK SMITH RD/PECK DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 2",
-   "lat": 34.998857,
-   "lon": -85.218956,
    "units": 1,
    "stacked": false,
    "notable": false
