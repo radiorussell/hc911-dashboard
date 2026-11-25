@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T19:35:42+00:00",
+ "updated": "2026-11-25T19:40:43+00:00",
  "counts": {
-  "year": 373666,
-  "upstream_day": 613,
-  "day": 864,
+  "year": 373680,
+  "upstream_day": 627,
+  "day": 867,
   "day_basis": "midnight"
  },
- "raw_rows": 42,
+ "raw_rows": 45,
  "incidents": [
+  {
+   "id": "9829882",
+   "sequence": "2026-11-36055",
+   "type": "Theft From a Vehicle",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:36:00Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4757 SONGBIRD TRL",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.011883,
+   "lon": -84.989556,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829881",
+   "sequence": "2026-11-36054",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:35:57Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4811 MADONNA AVE",
+   "cross": "NOTRE DAME AVE/S MOORE RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.004134,
+   "lon": -85.233862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829879",
+   "sequence": "2026-11-36053",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:36:47Z",
+   "created": "2026-11-25T19:35:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4811 MADONNA AVE",
+   "cross": "NOTRE DAME AVE/S MOORE RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.004134,
+   "lon": -85.233862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829874",
    "sequence": "2026-11-36051",
@@ -116,8 +194,8 @@
    "id": "9829867",
    "sequence": "2026-11-36047",
    "type": "Burglary",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:31:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:31:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9829850",
    "sequence": "2026-11-36038",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:37:39Z",
    "created": "2026-11-25T19:22:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -321,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9829839",
-   "sequence": "2026-11-36031",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:30:11Z",
-   "created": "2026-11-25T19:21:38Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9136 - 9249 DALLAS HOLLOW RD",
-   "cross": "W RIDGE TRAIL RD/SHORT LEAF LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 1",
-   "lat": 35.218918,
-   "lon": -85.154944,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829835",
    "sequence": "2026-11-36026",
    "type": "EMS CALL",
@@ -402,8 +454,8 @@
    "id": "9829834",
    "sequence": "2026-11-36028",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:26:19Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T19:36:49Z",
    "created": "2026-11-25T19:18:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -714,8 +766,8 @@
    "id": "9829790",
    "sequence": "2026-11-35999",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T19:26:24Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T19:35:46Z",
    "created": "2026-11-25T18:59:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -992,6 +1044,32 @@
    "priority": "PRI 4",
    "lat": 35.135704,
    "lon": -85.239775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829478",
+   "sequence": "2026-11-35792",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:39:23Z",
+   "created": "2026-11-25T16:55:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "804 RIVERFRONT PKWY",
+   "cross": "MOLLY LN/FULTON ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.050602,
+   "lon": -85.320651,
    "units": 1,
    "stacked": false,
    "notable": false
