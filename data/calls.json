@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T13:10:38+00:00",
+ "updated": "2026-11-25T13:15:41+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
   "day": 266,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 9,
  "incidents": [
   {
    "id": "9829009",
@@ -38,8 +38,8 @@
    "id": "9829008",
    "sequence": "2026-11-35453",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:08:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T13:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9829000",
-   "sequence": "2026-11-35445",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-25T13:10:12Z",
-   "created": "2026-11-25T13:01:33Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "500 HIGHWAY 27 NB",
-   "cross": "EXIT SIGNAL MOUNTAIN RD ON RAMP NB/EXIT MORRISON SPRINGS RD OFF RAMP NB",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 2",
-   "lat": 35.099978,
-   "lon": -85.317126,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828990",
    "sequence": "2026-11-35435",
    "type": "Theft From a Vehicle",
@@ -194,8 +168,8 @@
    "id": "9828985",
    "sequence": "2026-11-35431",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T12:55:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T13:15:09Z",
    "created": "2026-11-25T12:44:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.005719,
    "lon": -85.276558,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828922",
-   "sequence": "2026-11-35382",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T11:07:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6217 VANCE RD",
-   "cross": "AIRPARK DR/AIRWAYS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.033175,
-   "lon": -85.18553,
    "units": 1,
    "stacked": false,
    "notable": false
