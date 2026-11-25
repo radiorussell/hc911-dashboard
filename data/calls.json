@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T11:10:44+00:00",
+ "updated": "2026-11-25T11:15:41+00:00",
  "counts": {
-  "year": 373177,
-  "upstream_day": 127,
-  "day": 197,
+  "year": 373180,
+  "upstream_day": 130,
+  "day": 200,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9828927",
+   "sequence": "2026-11-35387",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:10:58Z",
+   "created": "2026-11-25T11:10:58Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828928",
+   "sequence": "2026-11-35388",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:10:58Z",
+   "created": "2026-11-25T11:10:58Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828926",
+   "sequence": "2026-11-35386",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:10:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.992388,
+   "lon": -85.235323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828923",
    "sequence": "2026-11-35385",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T11:10:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T11:09:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9828922",
-   "sequence": "2026-11-35382",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T11:07:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6217 VANCE RD",
-   "cross": "AIRPARK DR/AIRWAYS BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.033175,
-   "lon": -85.18553,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828921",
    "sequence": "2026-11-35381",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-25T11:06:40Z",
    "created": "2026-11-25T11:04:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
