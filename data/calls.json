@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T09:20:37+00:00",
+ "updated": "2026-11-25T09:25:38+00:00",
  "counts": {
-  "year": 373145,
-  "upstream_day": 95,
-  "day": 145,
+  "year": 373149,
+  "upstream_day": 99,
+  "day": 154,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9828865",
+   "sequence": "2026-11-35342",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-25T09:24:21Z",
+   "created": "2026-11-25T09:21:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828857",
    "sequence": "2026-11-35333",
@@ -33,32 +59,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828852",
-   "sequence": "2026-11-35328",
-   "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-25T08:52:41Z",
-   "created": "2026-11-25T08:52:41Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8276 CARLITOS LN",
-   "cross": "No Cross Street/BALLEW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 2",
-   "lat": 35.216658,
-   "lon": -85.175683,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828835",
