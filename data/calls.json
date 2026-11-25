@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-25T14:35:37+00:00",
+ "updated": "2026-11-25T14:40:42+00:00",
  "counts": {
-  "year": 373309,
-  "upstream_day": 258,
-  "day": 386,
+  "year": 373319,
+  "upstream_day": 268,
+  "day": 392,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9829176",
+   "sequence": "2026-11-35580",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:40:14Z",
+   "created": "2026-11-25T14:40:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1905 RIDGEWOOD DR",
+   "cross": "S CREST MANOR LN/SUNSET TER",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.016104,
+   "lon": -85.268017,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829172",
+   "sequence": "2026-11-35576",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:37:50Z",
+   "created": "2026-11-25T14:37:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5 HIGHWAY 27 SB",
+   "cross": "EXIT BROAD ST OFF RAMP SB/EXIT INTERSTATE 24 W OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.03263,
+   "lon": -85.318892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829169",
    "sequence": "2026-11-35574",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:34:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T14:34:23Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9829166",
    "sequence": "2026-11-35572",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:32:51Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T14:39:54Z",
    "created": "2026-11-25T14:32:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.03518,
    "lon": -85.278625,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829165",
-   "sequence": "2026-11-35571",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T14:32:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6062 ARBURY WAY",
-   "cross": "BRADMORE LN/KINGSHEDGE CT",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
-   "priority": "PRI 1",
-   "lat": 35.083323,
-   "lon": -85.055957,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -137,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829158",
-   "sequence": "2026-11-35564",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:30:38Z",
-   "created": "2026-11-25T14:25:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2917 12TH AVE",
-   "cross": "E 30TH ST/E 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "901",
-   "priority": "PRI 1",
-   "lat": 35.006623,
-   "lon": -85.277384,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829155",
@@ -425,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9829114",
-   "sequence": "2026-11-35532",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:01:11Z",
-   "created": "2026-11-25T14:01:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2342 RIVENDELL LN",
-   "cross": "SHALLOWFORD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.040369,
-   "lon": -85.142823,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829111",
    "sequence": "2026-11-35531",
    "type": "EMS CALL",
@@ -477,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9829108",
-   "sequence": "2026-11-35526",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:58:08Z",
-   "created": "2026-11-25T13:58:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2016 MARINA COVE DR",
-   "cross": "SUMMERBREEZE LN/WINDY OAKS LN",
-   "city": "CHATTANOOGA",
-   "zone": "1101",
-   "priority": "PRI 2",
-   "lat": 35.141653,
-   "lon": -85.183403,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829104",
    "sequence": "2026-11-35525",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T14:13:43Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T14:35:55Z",
    "created": "2026-11-25T13:57:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.037454,
    "lon": -85.197073,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827598",
-   "sequence": "2026-11-34422",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-25T13:17:36Z",
-   "created": "2026-11-24T18:05:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SHALLOWFORD RD / WILCOX BLVD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "",
-   "priority": "PRI 4",
-   "lat": 35.042894,
-   "lon": -85.222378,
    "units": 1,
    "stacked": false,
    "notable": false
