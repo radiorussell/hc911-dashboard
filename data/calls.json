@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T21:35:43+00:00",
+ "updated": "2026-11-25T21:40:36+00:00",
  "counts": {
-  "year": 373787,
-  "upstream_day": 734,
-  "day": 1022,
+  "year": 373804,
+  "upstream_day": 751,
+  "day": 1031,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9830124",
+   "sequence": "2026-11-36215",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T21:37:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7426 EMANON RD",
+   "cross": "HIGHWAY 58/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.160467,
+   "lon": -85.082872,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830125",
+   "sequence": "2026-11-36216",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T21:37:52Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7426 EMANON RD",
+   "cross": "HIGHWAY 58/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 2",
+   "lat": 35.160467,
+   "lon": -85.082872,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830122",
+   "sequence": "2026-11-36214",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T21:37:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7426 EMANON RD",
+   "cross": "HIGHWAY 58/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.160467,
+   "lon": -85.082872,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830119",
+   "sequence": "2026-11-36219",
+   "type": "Interpreter Call",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:38:21Z",
+   "created": "2026-11-25T21:36:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 0",
+   "lat": 35.035671,
+   "lon": -85.159414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830116",
    "sequence": "2026-11-36210",
@@ -30,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.072881,
    "lon": -85.06291,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830107",
-   "sequence": "2026-11-36206",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:32:28Z",
-   "created": "2026-11-25T21:32:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "200 HIGHWAY 27 NB",
-   "cross": "EXIT W 4TH ST OFF RAMP SB/EXIT MANUFACTURERS RD ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 2",
-   "lat": 35.057527,
-   "lon": -85.316119,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -134,58 +212,6 @@
    "priority": "PRI 2",
    "lat": 35.208807,
    "lon": -85.009564,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830100",
-   "sequence": "2026-11-36193",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:26:19Z",
-   "created": "2026-11-25T21:26:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "29 JOHNSON ST",
-   "cross": "ROSSVILLE AVE/PASSENGER ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.036037,
-   "lon": -85.304745,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830098",
-   "sequence": "2026-11-36194",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:31:51Z",
-   "created": "2026-11-25T21:26:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,32 +321,6 @@
    "notable": true
   },
   {
-   "id": "9830078",
-   "sequence": "2026-11-36182",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-25T21:23:11Z",
-   "created": "2026-11-25T21:20:36Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "RINGGOLD RD / S SEMINOLE DR",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.008244,
-   "lon": -85.265475,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830072",
    "sequence": "2026-11-36185",
    "type": "Harassment",
@@ -342,32 +342,6 @@
    "priority": "PRI 4",
    "lat": 35.04384,
    "lon": -85.164693,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830066",
-   "sequence": "2026-11-36173",
-   "type": "MVC Delayed",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:25:11Z",
-   "created": "2026-11-25T21:15:35Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8634 HIGHWAY 58",
-   "cross": "BRAMLETT RD/GOLDEN POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.169585,
-   "lon": -85.075715,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -517,13 +491,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "CLEVELAND AVE / N HOLTZCLAW AVE",
+   "address": "N HOLTZCLAW AVE / CITICO AVE",
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "B4",
    "priority": "PRI 3",
-   "lat": 35.046228,
-   "lon": -85.278582,
+   "lat": 35.048782,
+   "lon": -85.277172,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -685,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9829949",
-   "sequence": "2026-11-36100",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:33:57Z",
-   "created": "2026-11-25T20:13:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6700 HIGHWAY 153",
-   "cross": "HILLOCKS FARM RD/DAYTON BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.179436,
-   "lon": -85.247079,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829648",
    "sequence": "2026-11-35902",
    "type": "ROAD CLOSURE",
@@ -758,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 34.989934,
    "lon": -85.189191,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828256",
-   "sequence": "2026-11-34881",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-25T18:17:05Z",
-   "created": "2026-11-24T23:41:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIXSON PIKE / DARTMOUTH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.069935,
-   "lon": -85.289259,
    "units": 1,
    "stacked": false,
    "notable": false
