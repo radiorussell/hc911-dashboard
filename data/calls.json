@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T22:20:38+00:00",
+ "updated": "2026-11-25T22:25:38+00:00",
  "counts": {
   "year": 373854,
   "upstream_day": 801,
-  "day": 1111,
+  "day": 1113,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9830235",
+   "sequence": "2026-11-36301",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:23:32Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1900 - 2058 HIGHWAY 27 SB",
+   "cross": "EXIT SEQUOYAH RD OFF RAMP SB/EXIT TSATI TER ON RAMP SB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.255271,
+   "lon": -85.174178,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830229",
    "sequence": "2026-11-36299",
@@ -15,21 +41,21 @@
    "status": "Queued",
    "status_at": "2026-11-25T22:18:37Z",
    "created": "2026-11-25T22:18:17Z",
-   "jurisdiction": "East Ridge PD",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "10 INTERSTATE 75 NB",
-   "cross": "EXIT 1 OFF RAMP NB/EXIT 1A ON RAMP NB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
+   "address": "421 - 479 INTERSTATE 75 SB",
+   "cross": "EXIT 3 OFF RAMP SB/EXIT 4 OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
    "priority": "PRI 3",
-   "lat": 34.986814,
-   "lon": -85.201835,
+   "lat": 35.027947,
+   "lon": -85.171998,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +90,8 @@
    "id": "9830218",
    "sequence": "2026-11-36288",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:22:50Z",
    "created": "2026-11-25T22:13:48Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9830219",
    "sequence": "2026-11-36289",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:22:01Z",
    "created": "2026-11-25T22:13:48Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -455,7 +481,7 @@
    "sequence": "2026-11-36251",
    "type": "MVC Injuries",
    "status": "Transporting",
-   "status_at": "2026-11-25T22:20:06Z",
+   "status_at": "2026-11-25T22:21:03Z",
    "created": "2026-11-25T21:54:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -469,32 +495,6 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056774,
-   "lon": -85.140775,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830170",
-   "sequence": "2026-11-36252",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:01:33Z",
-   "created": "2026-11-25T21:54:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "LEE HWY / TYNER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
    "priority": "PRI 1",
    "lat": 35.056774,
    "lon": -85.140775,
@@ -555,63 +555,11 @@
    "notable": false
   },
   {
-   "id": "9830160",
-   "sequence": "2026-11-36241",
-   "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:51:25Z",
-   "created": "2026-11-25T21:51:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.036887,
-   "lon": -85.185028,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830156",
-   "sequence": "2026-11-36237",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:50:16Z",
-   "created": "2026-11-25T21:50:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5672 HICKORY ST",
-   "cross": "SCARLET OAK LN/OCOEE ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 3",
-   "lat": 35.072416,
-   "lon": -85.05626,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830153",
    "sequence": "2026-11-36236",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:05:48Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T22:24:25Z",
    "created": "2026-11-25T21:50:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -810,32 +758,6 @@
    "priority": "PRI 1",
    "lat": 35.208807,
    "lon": -85.009564,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830072",
-   "sequence": "2026-11-36185",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T21:20:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6925 LEE HWY",
-   "cross": "ROBINSON DR/PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.04384,
-   "lon": -85.164693,
    "units": 1,
    "stacked": false,
    "notable": false
