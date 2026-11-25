@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T10:50:37+00:00",
+ "updated": "2026-11-25T10:55:39+00:00",
  "counts": {
-  "year": 373174,
-  "upstream_day": 124,
+  "year": 373176,
+  "upstream_day": 126,
   "day": 189,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9828917",
@@ -38,8 +38,8 @@
    "id": "9828916",
    "sequence": "2026-11-35376",
    "type": "Wires Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T10:54:23Z",
    "created": "2026-11-25T10:41:12Z",
    "jurisdiction": "Mowbray VFD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.111397,
    "lon": -85.323043,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828873",
-   "sequence": "2026-11-35347",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T10:29:58Z",
-   "created": "2026-11-25T09:37:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
