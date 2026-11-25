@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T04:55:37+00:00",
+ "updated": "2026-11-25T05:00:38+00:00",
  "counts": {
   "year": 373039,
   "upstream_day": 0,
-  "day": 1455,
+  "day": 0,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9828656",
+   "sequence": "2026-11-35188",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-25T04:56:36Z",
+   "created": "2026-11-25T04:56:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "GADD RD / HIGHWAY 153",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 0",
+   "lat": 35.141814,
+   "lon": -85.24873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828655",
+   "sequence": "2026-11-35187",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-25T04:56:36Z",
+   "created": "2026-11-25T04:56:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "GADD RD / HIGHWAY 153",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 3",
+   "lat": 35.141814,
+   "lon": -85.24873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828654",
+   "sequence": "2026-11-35186",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-25T04:56:35Z",
+   "created": "2026-11-25T04:56:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "GADD RD / HIGHWAY 153",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1902",
+   "priority": "PRI 3",
+   "lat": 35.141814,
+   "lon": -85.24873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828653",
+   "sequence": "2026-11-35185",
+   "type": "Theft From a Vehicle",
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:59:38Z",
+   "created": "2026-11-25T04:55:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6121 LEE HWY",
+   "cross": "VAN NESS RD/VANCE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.029911,
+   "lon": -85.187659,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828652",
    "sequence": "2026-11-35183",
@@ -64,8 +168,8 @@
    "id": "9828647",
    "sequence": "2026-11-35180",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:57:04Z",
    "created": "2026-11-25T04:48:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9828646",
    "sequence": "2026-11-35179",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:57:49Z",
    "created": "2026-11-25T04:47:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9828644",
    "sequence": "2026-11-35177",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:55:40Z",
    "created": "2026-11-25T04:44:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -347,6 +451,32 @@
    "notable": false
   },
   {
+   "id": "9828627",
+   "sequence": "2026-11-35161",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-25T04:34:35Z",
+   "created": "2026-11-25T04:34:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2727 ROSSVILLE BLVD",
+   "cross": "E 27TH ST/E 28TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.015639,
+   "lon": -85.293809,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9828626",
    "sequence": "2026-11-35159",
    "type": "Well Being Check",
@@ -402,8 +532,8 @@
    "id": "9828624",
    "sequence": "2026-11-35160",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:56:07Z",
    "created": "2026-11-25T04:26:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
