@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-25T02:45:37+00:00",
+ "updated": "2026-11-25T02:50:38+00:00",
  "counts": {
   "year": 372968,
   "upstream_day": 0,
-  "day": 1359,
+  "day": 1371,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9828547",
+   "sequence": "2026-11-35099",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T02:50:38Z",
+   "created": "2026-11-25T02:50:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3405 MEADOW FALLS LN",
+   "cross": "ISBILL RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 2",
+   "lat": 35.036007,
+   "lon": -85.372546,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828545",
+   "sequence": "2026-11-35097",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T02:48:53Z",
+   "created": "2026-11-25T02:48:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "350 - 378 INTERSTATE 75 NB",
+   "cross": "EXIT 3B OFF RAMP NB/EXIT 4 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.01837,
+   "lon": -85.177925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828541",
+   "sequence": "2026-11-35095",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": "2026-11-25T02:47:15Z",
+   "created": "2026-11-25T02:47:15Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1012 ASLINGER RD",
+   "cross": "PROVIDENCE RD/HOWARD FARM LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 4",
+   "lat": 35.41108,
+   "lon": -85.064828,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828537",
+   "sequence": "2026-11-35094",
+   "type": "Backup Fire Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T02:46:28Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WILHOIT RD / RED CLAY RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 2",
+   "lat": 34.995743,
+   "lon": -84.995631,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828536",
+   "sequence": "2026-11-35093",
+   "type": "Unknown Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T02:45:38Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "WILHOIT RD / RED CLAY RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 3 HC C",
+   "priority": "PRI 2",
+   "lat": 34.995743,
+   "lon": -84.995631,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828524",
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:48:27Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9828512",
    "sequence": "2026-11-35085",
    "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:47:31Z",
    "created": "2026-11-25T02:42:04Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -85,84 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828519",
-   "sequence": "2026-11-35083",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:41:14Z",
-   "created": "2026-11-25T02:40:54Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1238 THRASHER PIKE",
-   "cross": "BOOKER DR/HARPER RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 1",
-   "lat": 35.205976,
-   "lon": -85.213822,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828515",
-   "sequence": "2026-11-35082",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-25T02:40:05Z",
-   "created": "2026-11-25T02:37:28Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "SPRINGFIELD RD / MONTLAKE RD",
-   "cross": "",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 4",
-   "lat": 35.226504,
-   "lon": -85.224215,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828509",
-   "sequence": "2026-11-35076",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T02:32:28Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9835 DAYTON PIKE",
-   "cross": "HOOD CIR/WESTBROOK AVE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.246844,
-   "lon": -85.187857,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828508",
@@ -220,8 +272,8 @@
    "id": "9828497",
    "sequence": "2026-11-35072",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T02:48:03Z",
    "created": "2026-11-25T02:25:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
