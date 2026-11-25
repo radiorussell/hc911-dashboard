@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T18:25:39+00:00",
+ "updated": "2026-11-25T18:30:37+00:00",
  "counts": {
-  "year": 373584,
-  "upstream_day": 531,
-  "day": 768,
+  "year": 373603,
+  "upstream_day": 550,
+  "day": 770,
   "day_basis": "midnight"
  },
- "raw_rows": 50,
+ "raw_rows": 45,
  "incidents": [
   {
-   "id": "9829718",
-   "sequence": "2026-11-35954",
-   "type": "EMS CALL",
+   "id": "9829722",
+   "sequence": "2026-11-35958",
+   "type": "Deceptive Practice",
    "status": "Queued",
-   "status_at": "2026-11-25T18:25:09Z",
-   "created": "2026-11-25T18:25:09Z",
+   "status_at": "2026-11-25T18:27:21Z",
+   "created": "2026-11-25T18:27:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2760 NORTHPOINT BLVD",
-   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "address": "4900 EDINGBURG DR",
+   "cross": "E 49TH ST/WOODLAND VIEW CIR",
    "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.129504,
-   "lon": -85.234989,
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 34.991143,
+   "lon": -85.303588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +64,8 @@
    "id": "9829716",
    "sequence": "2026-11-35956",
    "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:25:26Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T18:25:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9829710",
    "sequence": "2026-11-35952",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:24:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T18:23:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.11167,
    "lon": -85.270879,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829706",
-   "sequence": "2026-11-35945",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T18:19:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "304 CHICKASAW RD",
-   "cross": "SEQUOIA DR/SHAWNEE TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 1",
-   "lat": 35.022606,
-   "lon": -85.230761,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9829700",
-   "sequence": "2026-11-35938",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:17:22Z",
-   "created": "2026-11-25T18:17:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "708 EMORY DR",
-   "cross": "MUNRO RD/MAULDETH RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.111521,
-   "lon": -85.275804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829696",
    "sequence": "2026-11-35935",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T18:29:08Z",
    "created": "2026-11-25T18:16:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +246,8 @@
    "id": "9829693",
    "sequence": "2026-11-35936",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T18:28:47Z",
    "created": "2026-11-25T18:16:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -481,7 +429,7 @@
    "sequence": "2026-11-35925",
    "type": "Theft From a Vehicle",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T18:26:41Z",
    "created": "2026-11-25T18:11:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -607,37 +555,11 @@
    "notable": false
   },
   {
-   "id": "9829667",
-   "sequence": "2026-11-35915",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T18:13:14Z",
-   "created": "2026-11-25T18:06:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5171 HIGHWAY 153",
-   "cross": "HAMILL RD/NORTHGATE MALL DR",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.12364,
-   "lon": -85.239862,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829660",
    "sequence": "2026-11-35911",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T18:16:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T18:27:10Z",
    "created": "2026-11-25T18:02:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -682,32 +604,6 @@
    "lon": -85.231484,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9829652",
-   "sequence": "2026-11-35905",
-   "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:58:48Z",
-   "created": "2026-11-25T17:58:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2070 HAMILL RD",
-   "cross": "OLD GODSEY LN/BRADINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 4",
-   "lat": 35.123222,
-   "lon": -85.236731,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -1000,8 +896,8 @@
    "id": "9829537",
    "sequence": "2026-11-35834",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T18:01:02Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T18:26:08Z",
    "created": "2026-11-25T17:22:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1044,32 +940,6 @@
    "priority": "PRI 1",
    "lat": 35.003766,
    "lon": -85.228349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829519",
-   "sequence": "2026-11-35817",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T17:54:13Z",
-   "created": "2026-11-25T17:14:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4320 BENNETT RD",
-   "cross": "MYRTLE AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988065,
-   "lon": -85.245341,
    "units": 1,
    "stacked": false,
    "notable": false
