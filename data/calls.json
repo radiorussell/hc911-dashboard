@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T15:10:38+00:00",
+ "updated": "2026-11-25T15:15:37+00:00",
  "counts": {
   "year": 373347,
   "upstream_day": 296,
-  "day": 442,
+  "day": 446,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9829252",
+   "sequence": "2026-11-35634",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:12:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2455 5TH AVENUE CT",
+   "cross": "E 24TH STREET CT/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 4",
+   "lat": 35.014639,
+   "lon": -85.28087,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829246",
    "sequence": "2026-11-35630",
@@ -38,8 +64,8 @@
    "id": "9829241",
    "sequence": "2026-11-35629",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:10:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T15:09:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9829243",
    "sequence": "2026-11-35628",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:09:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T15:09:50Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9829235",
    "sequence": "2026-11-35625",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:09:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T15:09:26Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -160,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.04656,
    "lon": -85.319527,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829237",
-   "sequence": "2026-11-35624",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:09:29Z",
-   "created": "2026-11-25T15:09:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.034727,
-   "lon": -85.26761,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,58 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.04796,
    "lon": -85.243049,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829219",
-   "sequence": "2026-11-35607",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-25T15:01:36Z",
-   "created": "2026-11-25T14:54:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2813 HIDDEN TRAIL LN",
-   "cross": "No Cross Street/ST LAWRENCE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 4",
-   "lat": 35.039308,
-   "lon": -85.101829,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829189",
-   "sequence": "2026-11-35593",
-   "type": "MVC No Response",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T14:46:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9237 LEE HWY",
-   "cross": "ELEMENTARY WAY/MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 0",
-   "lat": 35.083212,
-   "lon": -85.059847,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -524,32 +472,6 @@
    "priority": "PRI 2",
    "lat": 35.081518,
    "lon": -85.326336,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829111",
-   "sequence": "2026-11-35531",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T14:42:44Z",
-   "created": "2026-11-25T14:00:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2342 RIVENDELL LN",
-   "cross": "SHALLOWFORD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.040369,
-   "lon": -85.142823,
    "units": 1,
    "stacked": false,
    "notable": false
