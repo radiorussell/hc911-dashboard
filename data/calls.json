@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T05:00:38+00:00",
+ "updated": "2026-11-25T05:05:37+00:00",
  "counts": {
-  "year": 373039,
+  "year": 373049,
   "upstream_day": 0,
-  "day": 0,
+  "day": 4,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9828662",
+   "sequence": "2026-11-35192",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T05:02:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2609 13TH AVE",
+   "cross": "E 26TH ST/E 28TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 3",
+   "lat": 35.009449,
+   "lon": -85.27456,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828659",
+   "sequence": "2026-11-35191",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:01:49Z",
+   "created": "2026-11-25T05:01:49Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "500 CAMP JORDAN PKWY",
+   "cross": "CAMP JORDAN RD/BASS PRO DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.993942,
+   "lon": -85.202195,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828656",
    "sequence": "2026-11-35188",
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9828647",
-   "sequence": "2026-11-35180",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:57:04Z",
-   "created": "2026-11-25T04:48:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1223 E 8TH ST",
-   "cross": "CENTRAL AVE/O NEAL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.04079,
-   "lon": -85.290162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828646",
    "sequence": "2026-11-35179",
    "type": "Unknown Trouble",
@@ -235,32 +261,6 @@
    "cross": "LEE HWY/COURAGE WAY",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.051734,
-   "lon": -85.149046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828645",
-   "sequence": "2026-11-35178",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:50:12Z",
-   "created": "2026-11-25T04:44:09Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
    "priority": "PRI 3",
    "lat": 35.051734,
    "lon": -85.149046,
@@ -446,58 +446,6 @@
    "priority": "PRI 0",
    "lat": 34.995812,
    "lon": -85.306206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828627",
-   "sequence": "2026-11-35161",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T04:34:35Z",
-   "created": "2026-11-25T04:34:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2727 ROSSVILLE BLVD",
-   "cross": "E 27TH ST/E 28TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.015639,
-   "lon": -85.293809,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828626",
-   "sequence": "2026-11-35159",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:52:36Z",
-   "created": "2026-11-25T04:30:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4009 WEBB RD",
-   "cross": "KINGS RD/HARBOR HILLS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.095911,
-   "lon": -85.188693,
    "units": 1,
    "stacked": false,
    "notable": false
