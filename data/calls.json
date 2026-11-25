@@ -1,35 +1,139 @@
 {
- "updated": "2026-11-25T05:10:38+00:00",
+ "updated": "2026-11-25T05:15:40+00:00",
  "counts": {
-  "year": 373049,
-  "upstream_day": 0,
-  "day": 10,
+  "year": 373052,
+  "upstream_day": 2,
+  "day": 18,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
   {
-   "id": "9828668",
-   "sequence": "2026-11-35198",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T05:09:36Z",
-   "jurisdiction": "Soddy Daisy FD",
+   "id": "9828682",
+   "sequence": "2026-11-35206",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:15:07Z",
+   "created": "2026-11-25T05:14:58Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy FD"
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3425 ALTON PARK BLVD",
+   "cross": "W 33RD ST/W 35TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.012193,
+   "lon": -85.316388,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828683",
+   "sequence": "2026-11-35205",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:14:52Z",
+   "created": "2026-11-25T05:14:52Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "11920 DAYTON PIKE",
-   "cross": "OLD DAYTON PIKE/STONEGATE WAY",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
+   "address": "22 W ONTARIO AVE",
+   "cross": "DEFUE ST/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.09408,
+   "lon": -85.309,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828680",
+   "sequence": "2026-11-35202",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:14:12Z",
+   "created": "2026-11-25T05:14:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4912 N MOORE LN",
+   "cross": "N MOORE RD/HICKS RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 0",
+   "lat": 35.024587,
+   "lon": -85.219345,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828674",
+   "sequence": "2026-11-35201",
+   "type": "Missing Juv Not 21",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:14:10Z",
+   "created": "2026-11-25T05:13:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8132 GRAHAM RD",
+   "cross": "JENKINS RD/STERLING OAKS LN",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
    "priority": "PRI 1",
-   "lat": 35.30056,
-   "lon": -85.146193,
+   "lat": 35.014262,
+   "lon": -85.140251,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828673",
+   "sequence": "2026-11-35204",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T05:13:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "22 W ONTARIO AVE",
+   "cross": "DEFUE ST/No Cross Street",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.09408,
+   "lon": -85.309,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +142,8 @@
    "id": "9828667",
    "sequence": "2026-11-35197",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T05:12:30Z",
    "created": "2026-11-25T05:08:13Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9828664",
    "sequence": "2026-11-35195",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T05:12:40Z",
    "created": "2026-11-25T05:07:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -283,13 +387,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "GADD RD / HIGHWAY 153",
-   "cross": "",
+   "address": "1015 GADD RD",
+   "cross": "NORCROSS RD/HIGHWAY 153",
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 2",
-   "lat": 35.141814,
-   "lon": -85.24873,
+   "lat": 35.141597,
+   "lon": -85.249998,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,37 +425,11 @@
    "notable": false
   },
   {
-   "id": "9828644",
-   "sequence": "2026-11-35177",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:55:40Z",
-   "created": "2026-11-25T04:44:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.051734,
-   "lon": -85.149046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828642",
    "sequence": "2026-11-35176",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T05:07:03Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T05:11:49Z",
    "created": "2026-11-25T04:43:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -368,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.051734,
    "lon": -85.149046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828636",
-   "sequence": "2026-11-35170",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": "2026-11-25T04:47:38Z",
-   "created": "2026-11-25T04:38:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3323 HIGH WATER TRL",
-   "cross": "BROWNS FERRY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 35.047112,
-   "lon": -85.353369,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -553,32 +605,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828512",
-   "sequence": "2026-11-35085",
-   "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:47:31Z",
-   "created": "2026-11-25T02:42:04Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1238 THRASHER PIKE",
-   "cross": "BOOKER DR/HARPER RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 1",
-   "lat": 35.205976,
-   "lon": -85.213822,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9827849",
