@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T00:45:42+00:00",
+ "updated": "2026-11-25T00:50:37+00:00",
  "counts": {
   "year": 372875,
   "upstream_day": 0,
-  "day": 1233,
+  "day": 1236,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9828356",
-   "sequence": "2026-11-34961",
-   "type": "Repossessed Auto",
+   "id": "9828359",
+   "sequence": "2026-11-34964",
+   "type": "Auto Broken Down",
    "status": "Queued",
-   "status_at": "2026-11-25T00:43:43Z",
-   "created": "2026-11-25T00:43:43Z",
+   "status_at": "2026-11-25T00:46:56Z",
+   "created": "2026-11-25T00:46:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6925 SHALLOWFORD RD",
-   "cross": "PARK DR/CENTER ST",
+   "address": "17900 INTERSTATE 24 EB",
+   "cross": "EXIT INTERSTATE 24 E OFF RAMP SB/EXIT 179 N ON RAMP EB",
    "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 0",
-   "lat": 35.044604,
-   "lon": -85.160235,
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.029213,
+   "lon": -85.311209,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9828354",
    "sequence": "2026-11-34959",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:49:48Z",
    "created": "2026-11-25T00:42:52Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -90,7 +90,7 @@
    "id": "9828343",
    "sequence": "2026-11-34950",
    "type": "Auto Broken Down",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-25T00:37:08Z",
    "created": "2026-11-25T00:37:02Z",
    "jurisdiction": "Chattanooga PD",
@@ -109,7 +109,7 @@
    "lat": 35.001392,
    "lon": -85.292162,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -472,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.208648,
    "lon": -85.271853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828171",
-   "sequence": "2026-11-34822",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T23:33:34Z",
-   "created": "2026-11-24T22:37:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6415 LARAMIE CIR",
-   "cross": "NOAH REID RD/NOAH REID RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 1",
-   "lat": 35.05594,
-   "lon": -85.179109,
    "units": 1,
    "stacked": false,
    "notable": false
