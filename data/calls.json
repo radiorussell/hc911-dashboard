@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T06:50:37+00:00",
+ "updated": "2026-11-25T06:55:39+00:00",
  "counts": {
-  "year": 373093,
-  "upstream_day": 43,
-  "day": 77,
+  "year": 373097,
+  "upstream_day": 47,
+  "day": 80,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9828765",
+   "sequence": "2026-11-35268",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T06:51:14Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "514 LULLWATER RD",
+   "cross": "STRAWBERRY LN/HEDGEWOOD DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 2",
+   "lat": 35.093325,
+   "lon": -85.319134,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828762",
    "sequence": "2026-11-35265",
@@ -264,32 +290,6 @@
    "priority": "PRI 2",
    "lat": 35.141597,
    "lon": -85.249998,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828633",
-   "sequence": "2026-11-35166",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T05:47:44Z",
-   "created": "2026-11-25T04:36:59Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4602 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.067436,
-   "lon": -85.107474,
    "units": 1,
    "stacked": false,
    "notable": false
