@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T08:35:37+00:00",
+ "updated": "2026-11-25T08:40:39+00:00",
  "counts": {
   "year": 373132,
   "upstream_day": 82,
-  "day": 118,
+  "day": 130,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9828837",
+   "sequence": "2026-11-35317",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T08:39:54Z",
+   "created": "2026-11-25T08:39:54Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 2",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828838",
+   "sequence": "2026-11-35318",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T08:39:54Z",
+   "created": "2026-11-25T08:39:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828835",
+   "sequence": "2026-11-35316",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T08:39:54Z",
+   "created": "2026-11-25T08:38:06Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828833",
+   "sequence": "2026-11-35315",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T08:36:23Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "941 SPRING CREEK RD",
+   "cross": "N MACK SMITH RD/PECK DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 2",
+   "lat": 34.998857,
+   "lon": -85.218956,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828823",
    "sequence": "2026-11-35306",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T08:32:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T08:37:21Z",
    "created": "2026-11-25T08:05:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
