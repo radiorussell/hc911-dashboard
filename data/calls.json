@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T19:00:38+00:00",
+ "updated": "2026-11-25T19:05:37+00:00",
  "counts": {
   "year": 373632,
   "upstream_day": 579,
-  "day": 812,
+  "day": 820,
   "day_basis": "midnight"
  },
  "raw_rows": 41,
  "incidents": [
+  {
+   "id": "9829807",
+   "sequence": "2026-11-36006",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:05:14Z",
+   "created": "2026-11-25T19:05:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "657 FULLER GLEN CIR",
+   "cross": "FULLER RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 34.996423,
+   "lon": -85.123464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829808",
+   "sequence": "2026-11-36007",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:05:14Z",
+   "created": "2026-11-25T19:05:14Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "657 FULLER GLEN CIR",
+   "cross": "FULLER RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3 HC",
+   "priority": "PRI 1",
+   "lat": 34.996423,
+   "lon": -85.123464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829806",
+   "sequence": "2026-11-36008",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:05:36Z",
+   "created": "2026-11-25T19:05:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1635 E 25TH ST",
+   "cross": "WATAUGA ST/S HICKORY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 3",
+   "lat": 35.018038,
+   "lon": -85.290203,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829803",
+   "sequence": "2026-11-36005",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:05:14Z",
+   "created": "2026-11-25T19:04:19Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "657 FULLER GLEN CIR",
+   "cross": "FULLER RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 07 HC B",
+   "priority": "PRI 1",
+   "lat": 34.996423,
+   "lon": -85.123464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829795",
+   "sequence": "2026-11-36002",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:01:47Z",
+   "created": "2026-11-25T19:01:47Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1417 ST THOMAS ST",
+   "cross": "No Cross Street/WRIGHT ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.990805,
+   "lon": -85.199594,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829796",
+   "sequence": "2026-11-36003",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:01:47Z",
+   "created": "2026-11-25T19:01:47Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8425 REFUGE LN",
+   "cross": "TRANQUILITY DR/BLANCHE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 4",
+   "lat": 35.121233,
+   "lon": -85.05436,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829792",
    "sequence": "2026-11-36000",
@@ -38,8 +194,8 @@
    "id": "9829791",
    "sequence": "2026-11-35998",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:59:27Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T19:03:49Z",
    "created": "2026-11-25T18:59:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -111,84 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829787",
-   "sequence": "2026-11-35994",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:57:38Z",
-   "created": "2026-11-25T18:57:38Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.992268,
-   "lon": -85.235267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829788",
-   "sequence": "2026-11-35995",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:57:38Z",
-   "created": "2026-11-25T18:57:38Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.992268,
-   "lon": -85.235267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829783",
-   "sequence": "2026-11-35993",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T18:56:45Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.992268,
-   "lon": -85.235267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829777",
@@ -347,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9829739",
-   "sequence": "2026-11-35967",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:00:31Z",
-   "created": "2026-11-25T18:39:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "160 INTERSTATE 75 SB",
-   "cross": "EXIT 2 OFF RAMP SB/EXIT 3 ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.007242,
-   "lon": -85.20401,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829727",
    "sequence": "2026-11-35961",
    "type": "EMS CALL",
@@ -480,8 +532,8 @@
    "id": "9829703",
    "sequence": "2026-11-35944",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:04:07Z",
    "created": "2026-11-25T18:17:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -633,32 +685,6 @@
    "notable": false
   },
   {
-   "id": "9829660",
-   "sequence": "2026-11-35911",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T18:27:10Z",
-   "created": "2026-11-25T18:02:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4850 BRAINERD RD",
-   "cross": "N LARCHMONT AVE/CLUB DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.012748,
-   "lon": -85.228911,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829648",
    "sequence": "2026-11-35902",
    "type": "ROAD CLOSURE",
@@ -709,32 +735,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829590",
-   "sequence": "2026-11-35868",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T18:37:02Z",
-   "created": "2026-11-25T17:37:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18310 - 18399 INTERSTATE 24 WB",
-   "cross": "EXIT 183 ON RAMP WB/EXIT 183A OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.014509,
-   "lon": -85.252055,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829586",
