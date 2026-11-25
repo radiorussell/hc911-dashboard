@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T11:05:45+00:00",
+ "updated": "2026-11-25T11:10:44+00:00",
  "counts": {
   "year": 373177,
   "upstream_day": 127,
-  "day": 189,
+  "day": 197,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9828923",
+   "sequence": "2026-11-35385",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:10:06Z",
+   "created": "2026-11-25T11:09:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "180 HIGHWAY 153 NB",
+   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.04528,
+   "lon": -85.187363,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828922",
+   "sequence": "2026-11-35382",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:07:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6217 VANCE RD",
+   "cross": "AIRPARK DR/AIRWAYS BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.033175,
+   "lon": -85.18553,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828921",
+   "sequence": "2026-11-35381",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:04:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7469 VOLKSWAGEN DR",
+   "cross": "DISCOVERY DR/FERDINAND PIECH WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.077075,
+   "lon": -85.130623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828917",
    "sequence": "2026-11-35377",
@@ -82,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.090284,
    "lon": -85.218488,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828910",
-   "sequence": "2026-11-35370",
-   "type": "Theft From a Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-25T10:39:58Z",
-   "created": "2026-11-25T10:33:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5000 NEW COUNTRY DR",
-   "cross": "No Cross Street/HAMILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.120459,
-   "lon": -85.240922,
    "units": 1,
    "stacked": false,
    "notable": false
