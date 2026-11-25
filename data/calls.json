@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T06:25:37+00:00",
+ "updated": "2026-11-25T06:30:37+00:00",
  "counts": {
   "year": 373086,
   "upstream_day": 36,
   "day": 65,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9828745",
@@ -243,63 +243,11 @@
    "notable": false
   },
   {
-   "id": "9828725",
-   "sequence": "2026-11-35234",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:57:22Z",
-   "created": "2026-11-25T05:57:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "505 SHALLOWFORD RD",
-   "cross": "ROCKWAY DR/HAYMORE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.038134,
-   "lon": -85.24414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828726",
-   "sequence": "2026-11-35235",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:57:22Z",
-   "created": "2026-11-25T05:57:22Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "505 SHALLOWFORD RD",
-   "cross": "ROCKWAY DR/HAYMORE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1501",
-   "priority": "PRI 1",
-   "lat": 35.038134,
-   "lon": -85.24414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828723",
    "sequence": "2026-11-35233",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Transporting",
+   "status_at": "2026-11-25T06:28:58Z",
    "created": "2026-11-25T05:56:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
