@@ -1,17 +1,43 @@
 {
- "updated": "2026-11-25T23:00:38+00:00",
+ "updated": "2026-11-25T23:05:38+00:00",
  "counts": {
   "year": 373901,
   "upstream_day": 848,
-  "day": 1167,
+  "day": 1168,
   "day_basis": "midnight"
  },
- "raw_rows": 51,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9830320",
+   "sequence": "2026-11-36356",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:03:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3906 CAMELLIA DR",
+   "cross": "No Cross Street/JUNIPER ST",
+   "city": "CHATTANOOGA",
+   "zone": "1504",
+   "priority": "PRI 1",
+   "lat": 35.060588,
+   "lon": -85.213993,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830313",
    "sequence": "2026-11-36355",
-   "type": "Well Being Check",
+   "type": "AFA Residential",
    "status": "Queued",
    "status_at": "2026-11-25T22:59:52Z",
    "created": "2026-11-25T22:59:49Z",
@@ -64,8 +90,8 @@
    "id": "9830310",
    "sequence": "2026-11-36353",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:58:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:57:32Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -246,8 +272,8 @@
    "id": "9830294",
    "sequence": "2026-11-36340",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:03:54Z",
    "created": "2026-11-25T22:46:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -267,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830292",
-   "sequence": "2026-11-36339",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:48:34Z",
-   "created": "2026-11-25T22:46:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2201 E 23RD ST",
-   "cross": "4TH AVE/S LYERLY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.01807,
-   "lon": -85.279117,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830275",
@@ -376,8 +376,8 @@
    "id": "9830266",
    "sequence": "2026-11-36333",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:44:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:43:16Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -428,8 +428,8 @@
    "id": "9830262",
    "sequence": "2026-11-36325",
    "type": "Animal Call",
-   "status": "Stacked",
-   "status_at": "2026-11-25T22:42:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:41:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -447,7 +447,7 @@
    "lat": 35.002654,
    "lon": -85.332787,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -737,32 +737,6 @@
    "notable": false
   },
   {
-   "id": "9830216",
-   "sequence": "2026-11-36285",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:13:45Z",
-   "created": "2026-11-25T22:13:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7602 NOAH REID RD",
-   "cross": "MIDDLE DR/MILDRED LN",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 1",
-   "lat": 35.069536,
-   "lon": -85.172815,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830212",
    "sequence": "2026-11-36286",
    "type": "MVC Injuries",
@@ -792,8 +766,8 @@
    "id": "9830209",
    "sequence": "2026-11-36284",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:35:52Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T23:01:01Z",
    "created": "2026-11-25T22:12:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -815,37 +789,11 @@
    "notable": false
   },
   {
-   "id": "9830201",
-   "sequence": "2026-11-36273",
-   "type": "Assault EMS Needed",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T22:41:24Z",
-   "created": "2026-11-25T22:07:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "100 MOCCASIN BEND RD",
-   "cross": "No Cross Street/HAMM RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.025706,
-   "lon": -85.335431,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830200",
    "sequence": "2026-11-36275",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:07:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:07:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -890,32 +838,6 @@
    "lon": -85.155804,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9830189",
-   "sequence": "2026-11-36263",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T22:37:19Z",
-   "created": "2026-11-25T21:59:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -969,32 +891,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830162",
-   "sequence": "2026-11-36246",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T21:58:15Z",
-   "created": "2026-11-25T21:52:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9050 - 9199 LEE HWY",
-   "cross": "WEIR WAY/ARTESIAN CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.084977,
-   "lon": -85.064729,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830153",
