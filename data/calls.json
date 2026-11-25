@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T05:30:38+00:00",
+ "updated": "2026-11-25T05:35:36+00:00",
  "counts": {
-  "year": 373061,
-  "upstream_day": 11,
-  "day": 27,
+  "year": 373065,
+  "upstream_day": 15,
+  "day": 33,
   "day_basis": "midnight"
  },
  "raw_rows": 20,
  "incidents": [
   {
+   "id": "9828706",
+   "sequence": "2026-11-35221",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:35:23Z",
+   "created": "2026-11-25T05:35:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4829 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.013535,
+   "lon": -85.22846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828700",
+   "sequence": "2026-11-35217",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:33:35Z",
+   "created": "2026-11-25T05:33:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4829 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "1301 A",
+   "priority": "PRI 3",
+   "lat": 35.013535,
+   "lon": -85.22846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828697",
+   "sequence": "2026-11-35216",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T05:32:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4829 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.013535,
+   "lon": -85.22846,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9828694",
    "sequence": "2026-11-35215",
    "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:29:58Z",
+   "status": "On Scene",
+   "status_at": "2026-11-25T05:34:53Z",
    "created": "2026-11-25T05:29:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.007592,
    "lon": -85.290254,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828692",
-   "sequence": "2026-11-35211",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:26:06Z",
-   "created": "2026-11-25T05:25:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2500 - 2598 MAPLE ST",
-   "cross": "WALNUT ST/PINE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 1",
-   "lat": 35.09053,
-   "lon": -85.2342,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -82,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.090255,
    "lon": -85.23447,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828682",
-   "sequence": "2026-11-35206",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:22:23Z",
-   "created": "2026-11-25T05:14:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3425 ALTON PARK BLVD",
-   "cross": "W 33RD ST/W 35TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.012193,
-   "lon": -85.316388,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.141814,
    "lon": -85.24873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828653",
-   "sequence": "2026-11-35185",
-   "type": "Theft From a Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:59:38Z",
-   "created": "2026-11-25T04:55:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6121 LEE HWY",
-   "cross": "VAN NESS RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.029911,
-   "lon": -85.187659,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -506,8 +506,8 @@
    "id": "9827849",
    "sequence": "2026-11-34590",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-24T19:51:04Z",
    "created": "2026-11-24T19:50:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
