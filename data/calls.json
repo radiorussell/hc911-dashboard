@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T06:55:39+00:00",
+ "updated": "2026-11-25T07:00:39+00:00",
  "counts": {
   "year": 373097,
   "upstream_day": 47,
   "day": 80,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9828765",
    "sequence": "2026-11-35268",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T06:56:33Z",
    "created": "2026-11-25T06:51:14Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -137,58 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828723",
-   "sequence": "2026-11-35233",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T06:35:18Z",
-   "created": "2026-11-25T05:56:54Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "505 SHALLOWFORD RD",
-   "cross": "ROCKWAY DR/HAYMORE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.038134,
-   "lon": -85.24414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828664",
-   "sequence": "2026-11-35195",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:12:40Z",
-   "created": "2026-11-25T05:07:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4299 HIGHWAY 58",
-   "cross": "EXIT HIGHWAY 58 S OFF RAMP NB/EXIT HIGHWAY 58 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.082847,
-   "lon": -85.205477,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828656",
