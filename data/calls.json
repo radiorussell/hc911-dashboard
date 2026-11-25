@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T20:05:42+00:00",
+ "updated": "2026-11-25T20:10:41+00:00",
  "counts": {
-  "year": 373699,
-  "upstream_day": 646,
-  "day": 896,
+  "year": 373709,
+  "upstream_day": 656,
+  "day": 902,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9829944",
+   "sequence": "2026-11-36090",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:09:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1 - 9 EXIT 180B N ON RAMP EB",
+   "cross": "ROSSVILLE BLVD/INTERSTATE 24 EB",
+   "city": "CHATTANOOGA",
+   "zone": "905",
+   "priority": "PRI 1",
+   "lat": 35.017201,
+   "lon": -85.293222,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829943",
+   "sequence": "2026-11-36089",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:09:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1 - 9 EXIT 180B N ON RAMP EB",
+   "cross": "ROSSVILLE BLVD/INTERSTATE 24 EB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.017201,
+   "lon": -85.293222,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829942",
+   "sequence": "2026-11-36088",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:08:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT 180B N ON RAMP EB",
+   "cross": "ROSSVILLE BLVD/INTERSTATE 24 EB",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 1",
+   "lat": 35.017201,
+   "lon": -85.293222,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9829924",
    "sequence": "2026-11-36084",
@@ -37,9 +115,9 @@
   {
    "id": "9829922",
    "sequence": "2026-11-36083",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "Auto Broken Down Road",
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:07:13Z",
    "created": "2026-11-25T20:02:07Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -53,7 +131,7 @@
    "cross": "CHESTERTON WAY/EDGMON RD",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 3 A",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.077029,
    "lon": -85.044665,
    "units": 1,
@@ -298,8 +376,8 @@
    "id": "9829879",
    "sequence": "2026-11-36053",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:36:47Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T20:08:33Z",
    "created": "2026-11-25T19:35:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +584,8 @@
    "id": "9829819",
    "sequence": "2026-11-36019",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T19:50:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T20:10:17Z",
    "created": "2026-11-25T19:09:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -709,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829532",
-   "sequence": "2026-11-35832",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:30:56Z",
-   "created": "2026-11-25T17:21:06Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MCBRIEN RD / ANDERSON AVE",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 1",
-   "lat": 35.003766,
-   "lon": -85.228349,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829478",
