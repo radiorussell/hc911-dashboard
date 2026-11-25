@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-25T22:35:37+00:00",
+ "updated": "2026-11-25T22:40:38+00:00",
  "counts": {
-  "year": 373870,
-  "upstream_day": 817,
-  "day": 1124,
+  "year": 373876,
+  "upstream_day": 823,
+  "day": 1133,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 45,
  "incidents": [
+  {
+   "id": "9830258",
+   "sequence": "2026-11-36321",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:39:52Z",
+   "created": "2026-11-25T22:39:52Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1414 CONTINENTAL DR",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1201",
+   "priority": "PRI 1",
+   "lat": 35.086058,
+   "lon": -85.286162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830257",
+   "sequence": "2026-11-36320",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:39:52Z",
+   "created": "2026-11-25T22:39:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1414 CONTINENTAL DR",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 1",
+   "lat": 35.086058,
+   "lon": -85.286162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830256",
+   "sequence": "2026-11-36319",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:39:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1414 CONTINENTAL DR",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.086058,
+   "lon": -85.286162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830254",
+   "sequence": "2026-11-36318",
+   "type": "Vehicle Fire",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:38:43Z",
+   "created": "2026-11-25T22:38:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "800 - 869 INTERSTATE 75 SB",
+   "cross": "EXIT 7 OFF RAMP SB/EXIT 9 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.065181,
+   "lon": -85.126139,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830253",
+   "sequence": "2026-11-36317",
+   "type": "Vehicle Fire",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:38:43Z",
+   "created": "2026-11-25T22:38:22Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "800 INTERSTATE 75 NB",
+   "cross": "EXIT 7B ON RAMP NB/EXIT 9 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "702",
+   "priority": "PRI 1",
+   "lat": 35.065961,
+   "lon": -85.12503,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830251",
+   "sequence": "2026-11-36315",
+   "type": "Vehicle Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:37:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "760 INTERSTATE 75 NB",
+   "cross": "EXIT 7 OFF RAMP NB/EXIT 7B ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.061482,
+   "lon": -85.128783,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830250",
+   "sequence": "2026-11-36314",
+   "type": "Vehicle Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:36:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "760 INTERSTATE 75 NB",
+   "cross": "EXIT 7 OFF RAMP NB/EXIT 7B ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "702",
+   "priority": "PRI 1",
+   "lat": 35.061482,
+   "lon": -85.128783,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9830248",
    "sequence": "2026-11-36312",
@@ -350,8 +532,8 @@
    "id": "9830209",
    "sequence": "2026-11-36284",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:35:52Z",
    "created": "2026-11-25T22:12:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +558,8 @@
    "id": "9830205",
    "sequence": "2026-11-36279",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:11:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:10:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -453,8 +635,8 @@
   {
    "id": "9830198",
    "sequence": "2026-11-36276",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
+   "type": "Well Being Check",
+   "status": "Stacked",
    "status_at": "2026-11-25T22:07:58Z",
    "created": "2026-11-25T22:06:49Z",
    "jurisdiction": "Chattanooga PD",
@@ -473,7 +655,7 @@
    "lat": 35.002071,
    "lon": -85.155804,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -506,8 +688,8 @@
    "id": "9830189",
    "sequence": "2026-11-36263",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T22:20:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T22:37:19Z",
    "created": "2026-11-25T21:59:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
