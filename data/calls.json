@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T23:40:36+00:00",
+ "updated": "2026-11-25T23:45:38+00:00",
  "counts": {
   "year": 373927,
   "upstream_day": 874,
-  "day": 1202,
+  "day": 1209,
   "day_basis": "midnight"
  },
  "raw_rows": 30,
  "incidents": [
   {
+   "id": "9830382",
+   "sequence": "2026-11-36397",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:44:53Z",
+   "created": "2026-11-25T23:44:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9148 BOMBORA LN",
+   "cross": "HULL CIR/HELM LN",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.104691,
+   "lon": -85.163026,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830375",
+   "sequence": "2026-11-36396",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:44:25Z",
+   "created": "2026-11-25T23:43:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7951 E BRAINERD RD",
+   "cross": "MACKEY AVE/STANLEY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.005776,
+   "lon": -85.152789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830378",
+   "sequence": "2026-11-36395",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:44:07Z",
+   "created": "2026-11-25T23:43:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6056 ARLENA CIR",
+   "cross": "W SHEPHERD RD/W SHEPHERD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.049458,
+   "lon": -85.18293,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830371",
    "sequence": "2026-11-36390",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:39:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:39:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7100 - 7199 TYNER CROSSING DR",
+   "address": "7100 TYNER CROSSING DR",
    "cross": "TYNER RD/No Cross Street",
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.061127,
-   "lon": -85.152554,
+   "lat": 35.061256,
+   "lon": -85.152262,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +142,8 @@
    "id": "9830363",
    "sequence": "2026-11-36384",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:40:54Z",
    "created": "2026-11-25T23:32:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9830358",
    "sequence": "2026-11-36381",
    "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:40:49Z",
    "created": "2026-11-25T23:31:04Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -165,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9830353",
-   "sequence": "2026-11-36378",
-   "type": "Aggressive Animal",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:28:49Z",
-   "created": "2026-11-25T23:27:41Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8446 DUNNHILL LN",
-   "cross": "CHARLEE LN/CHARBELL ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 2",
-   "lat": 35.20115,
-   "lon": -85.196603,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830352",
    "sequence": "2026-11-36376",
    "type": "Civil Matter",
@@ -246,8 +298,8 @@
    "id": "9830327",
    "sequence": "2026-11-36364",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:14:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:12:23Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -399,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9830294",
-   "sequence": "2026-11-36340",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:03:54Z",
-   "created": "2026-11-25T22:46:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3550 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.015591,
-   "lon": -85.376588,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830267",
    "sequence": "2026-11-36327",
    "type": "EMS CALL",
@@ -555,32 +581,6 @@
    "notable": true
   },
   {
-   "id": "9830239",
-   "sequence": "2026-11-36306",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:26:43Z",
-   "created": "2026-11-25T22:26:43Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "14500 BACK VALLEY RD",
-   "cross": "FULLER LN/REAVLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 1",
-   "lat": 35.371216,
-   "lon": -85.122488,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830237",
    "sequence": "2026-11-36304",
    "type": "EMS CALL",
@@ -610,8 +610,8 @@
    "id": "9830236",
    "sequence": "2026-11-36303",
    "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-25T22:26:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:25:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -629,7 +629,7 @@
    "lat": 35.043922,
    "lon": -85.309345,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
