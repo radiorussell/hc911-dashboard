@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T17:00:38+00:00",
+ "updated": "2026-11-25T17:05:44+00:00",
  "counts": {
   "year": 373472,
   "upstream_day": 421,
-  "day": 610,
+  "day": 617,
   "day_basis": "midnight"
  },
  "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9829499",
+   "sequence": "2026-11-35805",
+   "type": "Missing Juv Not 21",
+   "status": "Queued",
+   "status_at": "2026-11-25T17:04:08Z",
+   "created": "2026-11-25T17:03:31Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5531 MISTY VALLEY DR",
+   "cross": "GREY CLIFFE DR/GREY MOUNTAIN DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 1",
+   "lat": 35.068683,
+   "lon": -85.031767,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829497",
+   "sequence": "2026-11-35803",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T17:02:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5229 HIXSON PIKE",
+   "cross": "AUSTIN RD/WILBANKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.13896,
+   "lon": -85.235547,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829496",
+   "sequence": "2026-11-35801",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T17:02:27Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11641 GREENE ST",
+   "cross": "HAIR ST/GUTH RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 2",
+   "lat": 35.297501,
+   "lon": -85.156459,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829494",
+   "sequence": "2026-11-35800",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T17:01:42Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11641 GREENE ST",
+   "cross": "HAIR ST/GUTH RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.297501,
+   "lon": -85.156459,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9829492",
    "sequence": "2026-11-35798",
@@ -38,8 +142,8 @@
    "id": "9829491",
    "sequence": "2026-11-35797",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:59:01Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T16:59:01Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -220,8 +324,8 @@
    "id": "9829478",
    "sequence": "2026-11-35792",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:56:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T16:55:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,35 +373,9 @@
    "notable": false
   },
   {
-   "id": "9829475",
-   "sequence": "2026-11-35783",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T16:53:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4408 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.083313,
-   "lon": -85.203109,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829472",
    "sequence": "2026-11-35780",
-   "type": "MVC Delayed",
+   "type": "Property",
    "status": "On Scene",
    "status_at": "2026-11-25T16:58:11Z",
    "created": "2026-11-25T16:53:48Z",
@@ -347,37 +425,11 @@
    "notable": false
   },
   {
-   "id": "9829467",
-   "sequence": "2026-11-35779",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T16:52:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S SCENIC HWY / CRAVENS TER",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "WEST 1 I",
-   "priority": "PRI 2",
-   "lat": 35.014399,
-   "lon": -85.337415,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829465",
    "sequence": "2026-11-35777",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:01:19Z",
    "created": "2026-11-25T16:52:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9829460",
    "sequence": "2026-11-35772",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:50:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T16:50:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -659,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9829391",
-   "sequence": "2026-11-35737",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T16:40:30Z",
-   "created": "2026-11-25T16:10:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "979 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.047957,
-   "lon": -85.289321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829376",
    "sequence": "2026-11-35728",
    "type": "Police Assist Citizen",
@@ -761,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829347",
-   "sequence": "2026-11-35701",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T16:14:57Z",
-   "created": "2026-11-25T15:59:08Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "620 GIBSON POND RD",
-   "cross": "SHADOW VALLEY CIR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.015615,
-   "lon": -85.094873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829338",
