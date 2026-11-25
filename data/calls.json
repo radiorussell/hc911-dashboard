@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T00:55:37+00:00",
+ "updated": "2026-11-25T01:00:39+00:00",
  "counts": {
   "year": 372880,
   "upstream_day": 0,
-  "day": 1244,
+  "day": 1252,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9828379",
+   "sequence": "2026-11-34980",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:00:27Z",
+   "created": "2026-11-25T01:00:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5428 HIGHWAY 153",
+   "cross": "HWY 153 SB @ HIXSON PK SB - OFF RAMP/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.137652,
+   "lon": -85.245876,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828377",
+   "sequence": "2026-11-34977",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T00:57:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1010 GADD RD",
+   "cross": "NORCROSS RD/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "1903",
+   "priority": "PRI 1",
+   "lat": 35.141079,
+   "lon": -85.249995,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828376",
+   "sequence": "2026-11-34976",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T00:57:43Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1010 GADD RD",
+   "cross": "NORCROSS RD/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.141079,
+   "lon": -85.249995,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828371",
    "sequence": "2026-11-34972",
    "type": "Residential Fire",
-   "status": "Queued",
-   "status_at": "2026-11-25T00:55:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:55:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9828370",
    "sequence": "2026-11-34971",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-25T00:54:46Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:54:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -61,11 +139,37 @@
    "notable": false
   },
   {
+   "id": "9828369",
+   "sequence": "2026-11-34969",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": "2026-11-25T00:53:52Z",
+   "created": "2026-11-25T00:53:52Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4920 PINE CIR",
+   "cross": "No Cross Street/APISON PIKE",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.062711,
+   "lon": -85.074881,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9828368",
    "sequence": "2026-11-34970",
    "type": "Residential Fire",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T01:00:13Z",
    "created": "2026-11-25T00:53:07Z",
    "jurisdiction": "Sale Creek VFD",
    "agencies": [
@@ -89,7 +193,7 @@
   {
    "id": "9828366",
    "sequence": "2026-11-34968",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC Injuries",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-25T00:53:01Z",
@@ -101,16 +205,16 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1015 GADD RD",
+   "address": "1010 GADD RD",
    "cross": "NORCROSS RD/HIGHWAY 153",
    "city": "CHATTANOOGA",
-   "zone": "A1",
+   "zone": "A3 A",
    "priority": "PRI 1",
-   "lat": 35.141597,
-   "lon": -85.249998,
+   "lat": 35.141079,
+   "lon": -85.249995,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9828365",
@@ -168,8 +272,8 @@
    "id": "9828349",
    "sequence": "2026-11-34955",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:56:46Z",
    "created": "2026-11-25T00:40:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9828262",
-   "sequence": "2026-11-34888",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T00:22:33Z",
-   "created": "2026-11-24T23:44:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2115 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.034314,
-   "lon": -85.154576,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828261",
    "sequence": "2026-11-34886",
    "type": "Harassment",
@@ -602,32 +680,6 @@
    "priority": "PRI 4",
    "lat": 35.11993,
    "lon": -85.232293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9827564",
-   "sequence": "2026-11-34398",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-24T18:01:31Z",
-   "created": "2026-11-24T17:47:01Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4920 PINE CIR",
-   "cross": "No Cross Street/APISON PIKE",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.062711,
-   "lon": -85.074881,
    "units": 1,
    "stacked": false,
    "notable": false
