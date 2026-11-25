@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T01:50:39+00:00",
+ "updated": "2026-11-25T01:55:38+00:00",
  "counts": {
-  "year": 372923,
+  "year": 372936,
   "upstream_day": 0,
   "day": 1315,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 32,
  "incidents": [
   {
    "id": "9828461",
    "sequence": "2026-11-35042",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T01:51:43Z",
    "created": "2026-11-25T01:46:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9828460",
    "sequence": "2026-11-35041",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:53:12Z",
    "created": "2026-11-25T01:45:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9828454",
    "sequence": "2026-11-35040",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:51:10Z",
    "created": "2026-11-25T01:44:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -101,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2710 CITICO AVE",
+   "address": "2709 CITICO AVE",
    "cross": "DWIGHT AVE/LATIMORE ST",
    "city": "CHATTANOOGA",
-   "zone": "B4",
+   "zone": "B3",
    "priority": "PRI 3",
-   "lat": 35.040907,
-   "lon": -85.256658,
+   "lat": 35.041788,
+   "lon": -85.256397,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9828458",
    "sequence": "2026-11-35039",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T01:44:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T01:44:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9828457",
    "sequence": "2026-11-35038",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:52:37Z",
    "created": "2026-11-25T01:44:15Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -246,8 +246,8 @@
    "id": "9828450",
    "sequence": "2026-11-35034",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:54:42Z",
    "created": "2026-11-25T01:41:37Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9828435",
-   "sequence": "2026-11-35024",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T01:33:45Z",
-   "created": "2026-11-25T01:33:45Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11229 HIXSON PIKE",
-   "cross": "MARINA CIR/CAPTAINS COVE DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.270329,
-   "lon": -85.13383,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828433",
    "sequence": "2026-11-35023",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Transporting",
+   "status_at": "2026-11-25T01:54:38Z",
    "created": "2026-11-25T01:32:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
