@@ -1,13 +1,221 @@
 {
- "updated": "2026-11-25T01:40:40+00:00",
+ "updated": "2026-11-25T01:45:39+00:00",
  "counts": {
-  "year": 372918,
+  "year": 372923,
   "upstream_day": 0,
-  "day": 1303,
+  "day": 1311,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9828458",
+   "sequence": "2026-11-35039",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:44:16Z",
+   "created": "2026-11-25T01:44:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4909 MAYWATER RD",
+   "cross": "No Cross Street/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.068065,
+   "lon": -85.113563,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828457",
+   "sequence": "2026-11-35038",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:44:15Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4909 MAYWATER RD",
+   "cross": "No Cross Street/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 2",
+   "lat": 35.068065,
+   "lon": -85.113563,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828455",
+   "sequence": "2026-11-35037",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:43:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4909 MAYWATER RD",
+   "cross": "No Cross Street/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.068065,
+   "lon": -85.113563,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828453",
+   "sequence": "2026-11-35036",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:42:50Z",
+   "created": "2026-11-25T01:42:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2709 CITICO AVE",
+   "cross": "DWIGHT AVE/LATIMORE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.04241,
+   "lon": -85.25686,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828452",
+   "sequence": "2026-11-35033",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": "2026-11-25T01:42:08Z",
+   "created": "2026-11-25T01:42:08Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9329 SOMERSET DR",
+   "cross": "BERWICK LN/DONNEBROOK CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 2",
+   "lat": 35.031506,
+   "lon": -85.094474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828451",
+   "sequence": "2026-11-35035",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:42:35Z",
+   "created": "2026-11-25T01:41:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "119 HOLLYBERRY LN",
+   "cross": "N TUXEDO AVE/CHERRYTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.019262,
+   "lon": -85.236239,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828450",
+   "sequence": "2026-11-35034",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:41:37Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4861 APPOLOOSA WAY",
+   "cross": "WILD HORSE CT/THOROUGHBRED DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.055836,
+   "lon": -85.108105,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828448",
+   "sequence": "2026-11-35032",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:39:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "404 TUNNEL BLVD",
+   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.033474,
+   "lon": -85.243255,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828444",
    "sequence": "2026-11-35031",
@@ -272,8 +480,8 @@
    "id": "9828412",
    "sequence": "2026-11-35007",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T01:18:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T01:17:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +532,8 @@
    "id": "9828399",
    "sequence": "2026-11-34994",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T01:34:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T01:45:01Z",
    "created": "2026-11-25T01:11:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +610,8 @@
    "id": "9828379",
    "sequence": "2026-11-34980",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T01:00:27Z",
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:43:07Z",
    "created": "2026-11-25T01:00:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -558,8 +766,8 @@
    "id": "9828322",
    "sequence": "2026-11-34935",
    "type": "Auto Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:10:20Z",
+   "status": "Stacked",
+   "status_at": "2026-11-25T00:24:04Z",
    "created": "2026-11-25T00:24:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -577,7 +785,7 @@
    "lat": 35.007118,
    "lon": -85.287352,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
