@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T14:40:42+00:00",
+ "updated": "2026-11-25T14:45:40+00:00",
  "counts": {
   "year": 373319,
   "upstream_day": 268,
-  "day": 392,
+  "day": 403,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9829188",
+   "sequence": "2026-11-35591",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:43:33Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7609 MIDDLE VALLEY RD",
+   "cross": "GANN RD/WYNDSOR DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 3",
+   "lat": 35.185983,
+   "lon": -85.19494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829187",
+   "sequence": "2026-11-35590",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:43:32Z",
+   "created": "2026-11-25T14:43:32Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7609 MIDDLE VALLEY RD",
+   "cross": "GANN RD/WYNDSOR DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.185983,
+   "lon": -85.19494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829186",
+   "sequence": "2026-11-35589",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:43:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7609 MIDDLE VALLEY RD",
+   "cross": "GANN RD/WYNDSOR DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.185983,
+   "lon": -85.19494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829181",
+   "sequence": "2026-11-35584",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T14:41:45Z",
+   "created": "2026-11-25T14:41:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3526 KETTERING CT",
+   "cross": "No Cross Street/WILSHIRE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 3",
+   "lat": 35.114625,
+   "lon": -85.316957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829179",
+   "sequence": "2026-11-35582",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:41:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3600 HIXSON PIKE",
+   "cross": "INTERMONT RD/MANCHESTER DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.106069,
+   "lon": -85.271275,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829178",
+   "sequence": "2026-11-35583",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T14:41:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3526 KETTERING CT",
+   "cross": "No Cross Street/WILSHIRE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 2",
+   "lat": 35.114625,
+   "lon": -85.316957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829176",
    "sequence": "2026-11-35580",
@@ -35,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9829172",
-   "sequence": "2026-11-35576",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-25T14:37:50Z",
-   "created": "2026-11-25T14:37:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5 HIGHWAY 27 SB",
-   "cross": "EXIT BROAD ST OFF RAMP SB/EXIT INTERSTATE 24 W OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.03263,
-   "lon": -85.318892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829169",
    "sequence": "2026-11-35574",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T14:43:18Z",
    "created": "2026-11-25T14:34:23Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -143,7 +273,7 @@
    "sequence": "2026-11-35567",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:41:37Z",
    "created": "2026-11-25T14:28:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9829148",
-   "sequence": "2026-11-35565",
-   "type": "MVC No Response",
-   "status": "Enroute",
-   "status_at": "2026-11-25T14:31:19Z",
-   "created": "2026-11-25T14:24:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2 - 8 EXIT 183A ON RAMP EB",
-   "cross": "S TERRACE/INTERSTATE 24 EB",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 0",
-   "lat": 35.00915,
-   "lon": -85.23972,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829147",
    "sequence": "2026-11-35556",
    "type": "MVC Injuries",
@@ -325,7 +429,7 @@
    "sequence": "2026-11-35551",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T14:44:33Z",
    "created": "2026-11-25T14:18:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9829118",
-   "sequence": "2026-11-35535",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-25T14:11:20Z",
-   "created": "2026-11-25T14:03:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1212 POPLAR ST",
-   "cross": "POPLAR STREET CT/W 13TH STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 4",
-   "lat": 35.042035,
-   "lon": -85.31626,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829111",
    "sequence": "2026-11-35531",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T14:35:26Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T14:42:44Z",
    "created": "2026-11-25T14:00:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +610,8 @@
    "id": "9829085",
    "sequence": "2026-11-35509",
    "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-25T13:49:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T13:49:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -551,7 +629,7 @@
    "lat": 35.019763,
    "lon": -85.237667,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
