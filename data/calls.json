@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T05:55:42+00:00",
+ "updated": "2026-11-25T06:00:38+00:00",
  "counts": {
   "year": 373073,
   "upstream_day": 23,
-  "day": 28,
+  "day": 47,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9828725",
+   "sequence": "2026-11-35234",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:57:22Z",
+   "created": "2026-11-25T05:57:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "505 SHALLOWFORD RD",
+   "cross": "ROCKWAY DR/HAYMORE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.038134,
+   "lon": -85.24414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828726",
+   "sequence": "2026-11-35235",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:57:22Z",
+   "created": "2026-11-25T05:57:22Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "505 SHALLOWFORD RD",
+   "cross": "ROCKWAY DR/HAYMORE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1501",
+   "priority": "PRI 1",
+   "lat": 35.038134,
+   "lon": -85.24414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828723",
+   "sequence": "2026-11-35233",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T05:56:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "505 SHALLOWFORD RD",
+   "cross": "ROCKWAY DR/HAYMORE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.038134,
+   "lon": -85.24414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828697",
    "sequence": "2026-11-35216",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T05:54:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T05:59:25Z",
    "created": "2026-11-25T05:32:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -59,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828674",
-   "sequence": "2026-11-35201",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:38:51Z",
-   "created": "2026-11-25T05:13:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8132 GRAHAM RD",
-   "cross": "JENKINS RD/STERLING OAKS LN",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 1",
-   "lat": 35.014262,
-   "lon": -85.140251,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828673",
