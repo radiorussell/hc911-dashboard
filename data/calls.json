@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T03:25:38+00:00",
+ "updated": "2026-11-25T03:30:38+00:00",
  "counts": {
   "year": 372995,
   "upstream_day": 0,
   "day": 1394,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9828575",
@@ -64,8 +64,8 @@
    "id": "9828574",
    "sequence": "2026-11-35120",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:30:38Z",
    "created": "2026-11-25T03:21:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9828573",
    "sequence": "2026-11-35119",
    "type": "Alarm Distress",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:28:55Z",
    "created": "2026-11-25T03:18:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -191,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9828562",
-   "sequence": "2026-11-35111",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T03:10:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5446 HANCOCK TER",
-   "cross": "HANCOCK RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.083521,
-   "lon": -85.171677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828553",
    "sequence": "2026-11-35102",
    "type": "Backup Other Agency",
@@ -298,8 +272,8 @@
    "id": "9828524",
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
-   "status": "Transporting",
-   "status_at": "2026-11-25T03:16:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T03:25:41Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
