@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T07:40:37+00:00",
+ "updated": "2026-11-25T07:45:37+00:00",
  "counts": {
-  "year": 373112,
-  "upstream_day": 62,
-  "day": 106,
+  "year": 373120,
+  "upstream_day": 70,
+  "day": 111,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9828815",
+   "sequence": "2026-11-35299",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T07:41:44Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6062 ARBURY WAY",
+   "cross": "BRADMORE LN/KINGSHEDGE CT",
+   "city": "CHATTANOOGA",
+   "zone": "TRI-COMM FD 23-4 CH",
+   "priority": "PRI 1",
+   "lat": 35.083323,
+   "lon": -85.055957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828813",
+   "sequence": "2026-11-35298",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T07:40:48Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6062 ARBURY WAY",
+   "cross": "BRADMORE LN/KINGSHEDGE CT",
+   "city": "CHATTANOOGA",
+   "zone": "TRI-COMM FD 23-4 CH",
+   "priority": "PRI 1",
+   "lat": 35.083323,
+   "lon": -85.055957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828808",
    "sequence": "2026-11-35294",
@@ -116,8 +168,8 @@
    "id": "9828800",
    "sequence": "2026-11-35292",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T07:43:58Z",
    "created": "2026-11-25T07:32:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9828799",
    "sequence": "2026-11-35288",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T07:44:32Z",
    "created": "2026-11-25T07:31:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828791",
-   "sequence": "2026-11-35282",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T07:17:07Z",
-   "created": "2026-11-25T07:17:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1920 CHESTNUT ST",
-   "cross": "W 19TH ST/W 20TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.034378,
-   "lon": -85.314716,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.044323,
    "lon": -85.241551,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828772",
-   "sequence": "2026-11-35272",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T07:11:25Z",
-   "created": "2026-11-25T07:03:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4601 HIGHLAND AVE",
-   "cross": "W 46TH ST/W 47TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 1",
-   "lat": 35.000113,
-   "lon": -85.317847,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -420,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.141814,
    "lon": -85.24873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828651",
-   "sequence": "2026-11-35182",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": "2026-11-25T04:54:34Z",
-   "created": "2026-11-25T04:52:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1015 GADD RD",
-   "cross": "NORCROSS RD/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.141597,
-   "lon": -85.249998,
    "units": 1,
    "stacked": false,
    "notable": false
