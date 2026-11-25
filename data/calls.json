@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-25T12:15:37+00:00",
+ "updated": "2026-11-25T12:20:40+00:00",
  "counts": {
-  "year": 373202,
-  "upstream_day": 152,
-  "day": 232,
+  "year": 373203,
+  "upstream_day": 153,
+  "day": 234,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9828970",
+   "sequence": "2026-11-35422",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-25T12:20:40Z",
+   "created": "2026-11-25T12:20:08Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "603 MARLBORO AVE",
+   "cross": "WORSHAM AVE/LOUISE AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 35.00652,
+   "lon": -85.239438,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828968",
    "sequence": "2026-11-35419",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T12:15:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9828969",
    "sequence": "2026-11-35420",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T12:15:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -85,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828954",
-   "sequence": "2026-11-35412",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T12:10:39Z",
-   "created": "2026-11-25T11:54:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "180 HIGHWAY 153 NB",
-   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.04528,
-   "lon": -85.187363,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828948",
@@ -165,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9828945",
-   "sequence": "2026-11-35404",
-   "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T11:47:41Z",
-   "created": "2026-11-25T11:46:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "180 HIGHWAY 153 NB",
-   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.04528,
-   "lon": -85.187363,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828923",
    "sequence": "2026-11-35385",
    "type": "MVC Injuries",
@@ -220,8 +194,8 @@
    "id": "9828922",
    "sequence": "2026-11-35382",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-25T12:06:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T11:07:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
