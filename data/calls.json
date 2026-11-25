@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T13:40:37+00:00",
+ "updated": "2026-11-25T13:45:37+00:00",
  "counts": {
   "year": 373245,
   "upstream_day": 194,
-  "day": 307,
+  "day": 319,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9829083",
+   "sequence": "2026-11-35507",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:45:24Z",
+   "created": "2026-11-25T13:44:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7010 MCCUTCHEON RD",
+   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.046416,
+   "lon": -85.15728,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829080",
+   "sequence": "2026-11-35503",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:43:31Z",
+   "created": "2026-11-25T13:43:31Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829079",
+   "sequence": "2026-11-35502",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:43:31Z",
+   "created": "2026-11-25T13:43:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829076",
+   "sequence": "2026-11-35501",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T13:42:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829071",
    "sequence": "2026-11-35494",
@@ -38,8 +142,8 @@
    "id": "9829072",
    "sequence": "2026-11-35495",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:43:53Z",
    "created": "2026-11-25T13:38:54Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9829067",
    "sequence": "2026-11-35490",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:42:33Z",
    "created": "2026-11-25T13:37:04Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -347,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9829037",
-   "sequence": "2026-11-35473",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:25:31Z",
-   "created": "2026-11-25T13:25:31Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "727 MCGOWAN AVE",
-   "cross": "BELLE VISTA AVE/WILSONIA AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 2",
-   "lat": 35.033902,
-   "lon": -85.233036,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829036",
    "sequence": "2026-11-35472",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T13:32:51Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T13:43:26Z",
    "created": "2026-11-25T13:24:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +506,8 @@
    "id": "9829025",
    "sequence": "2026-11-35465",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T13:26:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T13:43:18Z",
    "created": "2026-11-25T13:19:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,37 +555,11 @@
    "notable": false
   },
   {
-   "id": "9829022",
-   "sequence": "2026-11-35467",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T13:19:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5229 WOODLAND VIEW CIR",
-   "cross": "EDINGBURG DR/HOOKER RD",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.989821,
-   "lon": -85.302866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829021",
    "sequence": "2026-11-35462",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T13:29:55Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T13:44:19Z",
    "created": "2026-11-25T13:19:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,32 +654,6 @@
    "priority": "PRI 4",
    "lat": 35.037454,
    "lon": -85.197073,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829006",
-   "sequence": "2026-11-35452",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-25T13:31:50Z",
-   "created": "2026-11-25T13:07:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MISSISSIPPI AVE / TREMONT ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 2",
-   "lat": 35.070735,
-   "lon": -85.295828,
    "units": 1,
    "stacked": false,
    "notable": false
