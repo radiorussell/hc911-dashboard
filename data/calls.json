@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T03:50:39+00:00",
+ "updated": "2026-11-25T03:55:44+00:00",
  "counts": {
-  "year": 373004,
+  "year": 373011,
   "upstream_day": 0,
-  "day": 1406,
+  "day": 1416,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9828604",
+   "sequence": "2026-11-35144",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:54:36Z",
+   "created": "2026-11-25T03:54:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2361 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.046035,
+   "lon": -85.155388,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828603",
+   "sequence": "2026-11-35143",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:53:56Z",
+   "created": "2026-11-25T03:53:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5305 MOUNTAIN CREEK RD",
+   "cross": "STONEBROOK DR/BROWN CHAPEL LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.157778,
+   "lon": -85.289803,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828591",
    "sequence": "2026-11-35134",
@@ -295,32 +347,6 @@
    "notable": true
   },
   {
-   "id": "9828508",
-   "sequence": "2026-11-35077",
-   "type": "Harrassing Threats",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:52:21Z",
-   "created": "2026-11-25T02:32:28Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.009331,
-   "lon": -85.265439,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828492",
    "sequence": "2026-11-35066",
    "type": "EMS CALL",
@@ -376,8 +402,8 @@
    "id": "9827849",
    "sequence": "2026-11-34590",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:51:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:50:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
