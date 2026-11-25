@@ -1,35 +1,165 @@
 {
- "updated": "2026-11-25T19:05:37+00:00",
+ "updated": "2026-11-25T19:10:39+00:00",
  "counts": {
-  "year": 373632,
-  "upstream_day": 579,
-  "day": 820,
+  "year": 373642,
+  "upstream_day": 589,
+  "day": 832,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 45,
  "incidents": [
   {
-   "id": "9829807",
-   "sequence": "2026-11-36006",
+   "id": "9829825",
+   "sequence": "2026-11-36020",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-25T19:05:14Z",
-   "created": "2026-11-25T19:05:14Z",
-   "jurisdiction": "Hamilton Co SO",
+   "status_at": "2026-11-25T19:10:34Z",
+   "created": "2026-11-25T19:10:34Z",
+   "jurisdiction": "East Ridge FD",
    "agencies": [
-    "Hamilton Co SO"
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829824",
+   "sequence": "2026-11-36018",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:10:11Z",
+   "created": "2026-11-25T19:10:11Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7188 DANA MICHELLE LN",
+   "cross": "No Cross Street/DOLLY POND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 5",
+   "priority": "PRI 2",
+   "lat": 35.261215,
+   "lon": -85.022888,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829819",
+   "sequence": "2026-11-36019",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:10:34Z",
+   "created": "2026-11-25T19:09:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829817",
+   "sequence": "2026-11-36017",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:10:11Z",
+   "created": "2026-11-25T19:09:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7188 DANA MICHELLE LN",
+   "cross": "No Cross Street/DOLLY POND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.261215,
+   "lon": -85.022888,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829816",
+   "sequence": "2026-11-36015",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:09:38Z",
+   "created": "2026-11-25T19:08:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "657 FULLER GLEN CIR",
-   "cross": "FULLER RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
    "priority": "PRI 3",
-   "lat": 34.996423,
-   "lon": -85.123464,
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829811",
+   "sequence": "2026-11-36010",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:06:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4289 BONNY OAKS DR",
+   "cross": "CHICKAMAUGA AVE/BENTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "603 B",
+   "priority": "PRI 2",
+   "lat": 35.081919,
+   "lon": -85.210501,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +168,8 @@
    "id": "9829808",
    "sequence": "2026-11-36007",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:05:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:05:14Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -54,6 +184,32 @@
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 5-3 HC",
    "priority": "PRI 1",
+   "lat": 34.996423,
+   "lon": -85.123464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829807",
+   "sequence": "2026-11-36006",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:05:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "657 FULLER GLEN CIR",
+   "cross": "FULLER RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
    "lat": 34.996423,
    "lon": -85.123464,
    "units": 1,
@@ -87,11 +243,37 @@
    "notable": false
   },
   {
+   "id": "9829804",
+   "sequence": "2026-11-36009",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:04:34Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4289 BONNY OAKS DR",
+   "cross": "CHICKAMAUGA AVE/BENTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.081919,
+   "lon": -85.210501,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9829803",
    "sequence": "2026-11-36005",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:05:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:04:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -141,9 +323,9 @@
   {
    "id": "9829796",
    "sequence": "2026-11-36003",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-25T19:01:47Z",
+   "type": "Supplemental Reports",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:01:47Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -246,8 +428,8 @@
    "id": "9829789",
    "sequence": "2026-11-35996",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:07:27Z",
    "created": "2026-11-25T18:57:56Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -316,32 +498,6 @@
    "priority": "PRI 2",
    "lat": 35.01548,
    "lon": -85.206074,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829768",
-   "sequence": "2026-11-35983",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:52:07Z",
-   "created": "2026-11-25T18:52:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "300 HIGHWAY 27 SB",
-   "cross": "EXIT MANUFACTURERS RD OFF RAMP SB/EXIT DAYTON BLVD ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.071925,
-   "lon": -85.321236,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,32 +654,6 @@
    "priority": "PRI 1",
    "lat": 35.129504,
    "lon": -85.234989,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829710",
-   "sequence": "2026-11-35952",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-25T18:38:03Z",
-   "created": "2026-11-25T18:23:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.11167,
-   "lon": -85.270879,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -862,32 +992,6 @@
    "priority": "PRI 3",
    "lat": 34.987551,
    "lon": -85.404355,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829537",
-   "sequence": "2026-11-35834",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T18:26:08Z",
-   "created": "2026-11-25T17:22:56Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5798 HIXSON HOME PL",
-   "cross": "OLD HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.152001,
-   "lon": -85.226459,
    "units": 1,
    "stacked": false,
    "notable": false
