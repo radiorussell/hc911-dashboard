@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-25T03:10:41+00:00",
+ "updated": "2026-11-25T03:15:38+00:00",
  "counts": {
-  "year": 372986,
+  "year": 372987,
   "upstream_day": 0,
-  "day": 1380,
+  "day": 1384,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9828561",
+   "sequence": "2026-11-35112",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T03:11:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3007 E 50TH ST",
+   "cross": "13TH AVE/14TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 2",
+   "lat": 34.985611,
+   "lon": -85.285687,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828562",
+   "sequence": "2026-11-35111",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T03:10:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5446 HANCOCK TER",
+   "cross": "HANCOCK RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.083521,
+   "lon": -85.171677,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828558",
    "sequence": "2026-11-35108",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-25T03:08:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T03:08:12Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -23,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2090 HIGHWAY 27 NB",
-   "cross": "EXIT TSATI TER OFF RAMP NB/EXIT TSATI TER ON RAMP NB",
+   "address": "2140 HIGHWAY 27 NB",
+   "cross": "EXIT TSATI TER ON RAMP NB/EXIT DAYTON PIKE OFF RAMP NB",
    "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
+   "zone": "SODDY DAISY 12",
    "priority": "PRI 2",
-   "lat": 35.27663,
-   "lon": -85.155596,
+   "lat": 35.28384,
+   "lon": -85.152583,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,32 +217,6 @@
    "notable": true
   },
   {
-   "id": "9828536",
-   "sequence": "2026-11-35093",
-   "type": "Unknown Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:56:22Z",
-   "created": "2026-11-25T02:45:38Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "WILHOIT RD / RED CLAY RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 3 HC C",
-   "priority": "PRI 2",
-   "lat": 34.995743,
-   "lon": -84.995631,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828524",
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
@@ -209,32 +235,6 @@
    "cross": "BOOKER DR/HARPER RD",
    "city": "SODDY DAISY",
    "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.205976,
-   "lon": -85.213822,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9828525",
-   "sequence": "2026-11-35087",
-   "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:51:26Z",
-   "created": "2026-11-25T02:42:36Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1238 THRASHER PIKE",
-   "cross": "BOOKER DR/HARPER RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
    "priority": "PRI 1",
    "lat": 35.205976,
    "lon": -85.213822,
@@ -298,8 +298,8 @@
    "id": "9828497",
    "sequence": "2026-11-35072",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T02:56:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T03:14:48Z",
    "created": "2026-11-25T02:25:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -368,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.039157,
    "lon": -85.257754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828484",
-   "sequence": "2026-11-35058",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T02:52:15Z",
-   "created": "2026-11-25T02:10:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.233251,
-   "lon": -85.174425,
    "units": 1,
    "stacked": false,
    "notable": false
