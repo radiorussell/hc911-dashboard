@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T20:40:37+00:00",
+ "updated": "2026-11-25T20:45:42+00:00",
  "counts": {
   "year": 373738,
   "upstream_day": 685,
-  "day": 946,
+  "day": 950,
   "day_basis": "midnight"
  },
  "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9830023",
+   "sequence": "2026-11-36138",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:44:45Z",
+   "created": "2026-11-25T20:44:45Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3704 WHITEHEAD AVE",
+   "cross": "No Cross Street/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 34.99702,
+   "lon": -85.260601,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830022",
+   "sequence": "2026-11-36137",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:44:14Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3704 WHITEHEAD AVE",
+   "cross": "No Cross Street/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.99702,
+   "lon": -85.260601,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830018",
+   "sequence": "2026-11-36136",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:42:40Z",
+   "created": "2026-11-25T20:41:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4703 ROBINWOOD DR",
+   "cross": "RIGHTON LN/BRENTWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.077589,
+   "lon": -85.193901,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830011",
    "sequence": "2026-11-36133",
@@ -64,8 +142,8 @@
    "id": "9830010",
    "sequence": "2026-11-36131",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:38:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:38:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830006",
-   "sequence": "2026-11-36130",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:38:20Z",
-   "created": "2026-11-25T20:38:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3905 ROSALIND LN",
-   "cross": "No Cross Street/YORKTOWN RD",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.093129,
-   "lon": -85.193681,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -195,7 +247,7 @@
    "sequence": "2026-11-36122",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T20:41:15Z",
    "created": "2026-11-25T20:30:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -543,13 +595,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6800 - 6998 HIGHWAY 153",
-   "cross": "DAYTON BLVD/BOY SCOUT RD",
+   "address": "6700 HIGHWAY 153",
+   "cross": "HILLOCKS FARM RD/DAYTON BLVD",
    "city": "CHATTANOOGA",
    "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.180891,
-   "lon": -85.247036,
+   "lat": 35.179436,
+   "lon": -85.247079,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -584,8 +636,8 @@
    "id": "9829943",
    "sequence": "2026-11-36089",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-25T20:33:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T20:41:07Z",
    "created": "2026-11-25T20:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -605,32 +657,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829919",
-   "sequence": "2026-11-36082",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T19:59:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1209 GROVE ST",
-   "cross": "W 12TH ST/W 12TH STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 4",
-   "lat": 35.044846,
-   "lon": -85.317692,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829910",
@@ -685,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9829841",
-   "sequence": "2026-11-36033",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T19:51:09Z",
-   "created": "2026-11-25T19:21:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1500 MCCALLIE AVE",
-   "cross": "N HIGHLAND PARK AVE/S HOLLY ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.037664,
-   "lon": -85.280201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829831",
    "sequence": "2026-11-36037",
    "type": "MVC Delayed",
@@ -740,8 +740,8 @@
    "id": "9829817",
    "sequence": "2026-11-36017",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T19:59:20Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T20:41:45Z",
    "created": "2026-11-25T19:09:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
