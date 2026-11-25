@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T00:10:37+00:00",
+ "updated": "2026-11-25T00:15:39+00:00",
  "counts": {
-  "year": 372846,
+  "year": 372856,
   "upstream_day": 0,
-  "day": 1192,
+  "day": 1198,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 28,
  "incidents": [
   {
-   "id": "9828301",
-   "sequence": "2026-11-34920",
-   "type": "Disorder",
+   "id": "9828312",
+   "sequence": "2026-11-34926",
+   "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": "2026-11-25T00:10:09Z",
-   "created": "2026-11-25T00:04:57Z",
+   "status_at": null,
+   "created": "2026-11-25T00:13:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6240 AIRPARK DR",
-   "cross": "VANCE RD/No Cross Street",
+   "address": "220 INTERSTATE 75 SB",
+   "cross": "EXIT 2 OFF RAMP SB/EXIT 3 ON RAMP SB",
    "city": "CHATTANOOGA",
    "zone": "C4",
    "priority": "PRI 3",
-   "lat": 35.036887,
-   "lon": -85.185028,
+   "lat": 35.009621,
+   "lon": -85.195327,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +64,8 @@
    "id": "9828293",
    "sequence": "2026-11-34916",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:14:01Z",
    "created": "2026-11-25T00:03:14Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -220,8 +220,8 @@
    "id": "9828278",
    "sequence": "2026-11-34909",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:12:10Z",
    "created": "2026-11-24T23:53:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -347,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9828274",
-   "sequence": "2026-11-34899",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-25T00:02:00Z",
-   "created": "2026-11-24T23:50:13Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4496 W RD",
-   "cross": "SEAGLE DR/E BROW RD",
-   "city": "WALDEN",
-   "zone": "WEST 2 WALDEN",
-   "priority": "PRI 2",
-   "lat": 35.144283,
-   "lon": -85.315663,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828269",
    "sequence": "2026-11-34898",
    "type": "MVC No Injuries",
@@ -394,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.004129,
    "lon": -85.218901,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828270",
-   "sequence": "2026-11-34895",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T23:53:07Z",
-   "created": "2026-11-24T23:48:25Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4300 FOUNDERS WAY",
-   "cross": "ENTERPRISE PARK DR/HERITAGE PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 2",
-   "lat": 35.071585,
-   "lon": -85.186666,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -529,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9828258",
-   "sequence": "2026-11-34884",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T00:08:43Z",
-   "created": "2026-11-24T23:41:45Z",
-   "jurisdiction": "Waldens Ridge Emergency Srv",
-   "agencies": [
-    "Waldens Ridge Emergency Srv"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7409 HARRIS HAVEN DR",
-   "cross": "SAWYER CEMETERY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WALDEN FD HC B",
-   "priority": "PRI 2",
-   "lat": 35.208648,
-   "lon": -85.271853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828259",
    "sequence": "2026-11-34885",
    "type": "EMS CALL",
@@ -602,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.208648,
    "lon": -85.271853,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828252",
-   "sequence": "2026-11-34879",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T00:07:48Z",
-   "created": "2026-11-24T23:36:19Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1160 TOWNE HILLS DR",
-   "cross": "WINDING LN/TOWNE HILLS LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.148062,
-   "lon": -85.246932,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -685,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9828176",
-   "sequence": "2026-11-34827",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-24T23:46:11Z",
-   "created": "2026-11-24T22:40:40Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "12438 NEE CEE DR",
-   "cross": "OTTAWA DR/PIMA TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.310423,
-   "lon": -85.127163,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828171",
    "sequence": "2026-11-34822",
    "type": "EMS CALL",
@@ -758,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.030289,
    "lon": -85.184651,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828153",
-   "sequence": "2026-11-34808",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-24T22:42:24Z",
-   "created": "2026-11-24T22:30:36Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11636 HIXSON PIKE",
-   "cross": "DOGWOOD TER/CHESTNUTVIEW DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.283418,
-   "lon": -85.147064,
    "units": 1,
    "stacked": false,
    "notable": false
