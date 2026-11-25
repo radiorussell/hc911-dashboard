@@ -1,17 +1,43 @@
 {
- "updated": "2026-11-25T04:25:38+00:00",
+ "updated": "2026-11-25T04:30:39+00:00",
  "counts": {
   "year": 373022,
   "upstream_day": 0,
-  "day": 1424,
+  "day": 1430,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9828625",
+   "sequence": "2026-11-35158",
+   "type": "Auto Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T04:27:51Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1320 THRASHER PIKE",
+   "cross": "RICHLAND DR/JOHN BYRON WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.200029,
+   "lon": -85.20494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828616",
    "sequence": "2026-11-35152",
-   "type": "EMS CALL",
+   "type": "Police Assist Citizen",
    "status": "On Scene",
    "status_at": "2026-11-25T04:21:53Z",
    "created": "2026-11-25T04:15:15Z",
@@ -27,7 +53,7 @@
    "cross": "JERSEY PIKE/MINK PLACE DR",
    "city": "CHATTANOOGA",
    "zone": "C5",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.087533,
    "lon": -85.181754,
    "units": 1,
@@ -38,8 +64,8 @@
    "id": "9828613",
    "sequence": "2026-11-35150",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:28:07Z",
    "created": "2026-11-25T04:12:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -82,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.046035,
    "lon": -85.155388,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828603",
-   "sequence": "2026-11-35143",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T04:08:26Z",
-   "created": "2026-11-25T03:53:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5305 MOUNTAIN CREEK RD",
-   "cross": "STONEBROOK DR/BROWN CHAPEL LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.157778,
-   "lon": -85.289803,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -217,32 +217,6 @@
    "notable": true
   },
   {
-   "id": "9828452",
-   "sequence": "2026-11-35033",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": "2026-11-25T01:42:08Z",
-   "created": "2026-11-25T01:42:08Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9329 SOMERSET DR",
-   "cross": "BERWICK LN/DONNEBROOK CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 2",
-   "lat": 35.031506,
-   "lon": -85.094474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9827849",
    "sequence": "2026-11-34590",
    "type": "Theft From a Vehicle",
@@ -272,8 +246,8 @@
    "id": "9827829",
    "sequence": "2026-11-34578",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T19:43:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T19:42:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
