@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T23:35:42+00:00",
+ "updated": "2026-11-25T23:40:36+00:00",
  "counts": {
-  "year": 373925,
-  "upstream_day": 872,
-  "day": 1198,
+  "year": 373927,
+  "upstream_day": 874,
+  "day": 1202,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
   {
-   "id": "9830365",
-   "sequence": "2026-11-36386",
-   "type": "Disorder",
+   "id": "9830371",
+   "sequence": "2026-11-36390",
+   "type": "MVC No Injuries",
    "status": "Queued",
-   "status_at": "2026-11-25T23:33:49Z",
-   "created": "2026-11-25T23:33:43Z",
+   "status_at": "2026-11-25T23:39:16Z",
+   "created": "2026-11-25T23:39:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "420 - 479 INTERSTATE 75 SB",
-   "cross": "EXIT 3 OFF RAMP SB/EXIT 4 OFF RAMP SB",
+   "address": "7100 - 7199 TYNER CROSSING DR",
+   "cross": "TYNER RD/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "C6",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 35.027338,
-   "lon": -85.172526,
+   "lat": 35.061127,
+   "lon": -85.152554,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9830334",
-   "sequence": "2026-11-36363",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:18:04Z",
-   "created": "2026-11-25T23:14:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "APISON PIKE / OLD LEE HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-1 CH",
-   "priority": "PRI 1",
-   "lat": 35.069716,
-   "lon": -85.100607,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830327",
    "sequence": "2026-11-36364",
    "type": "Domestic Disorder",
@@ -347,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9830312",
-   "sequence": "2026-11-36354",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:23:06Z",
-   "created": "2026-11-25T22:58:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2020 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.0339,
-   "lon": -85.151935,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830306",
    "sequence": "2026-11-36351",
    "type": "MVC No Injuries",
@@ -428,8 +376,8 @@
    "id": "9830303",
    "sequence": "2026-11-36347",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T23:21:15Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T23:35:49Z",
    "created": "2026-11-25T22:51:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
