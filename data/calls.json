@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T22:00:37+00:00",
+ "updated": "2026-11-25T22:05:42+00:00",
  "counts": {
   "year": 373824,
   "upstream_day": 771,
   "day": 1081,
   "day_basis": "midnight"
  },
- "raw_rows": 47,
+ "raw_rows": 43,
  "incidents": [
   {
    "id": "9830194",
    "sequence": "2026-11-36269",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:00:24Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T22:04:16Z",
    "created": "2026-11-25T22:00:17Z",
    "jurisdiction": "Signal Mountain PD",
    "agencies": [
@@ -54,32 +54,6 @@
    "city": "CHATTANOOGA",
    "zone": "A6",
    "priority": "PRI 3",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830190",
-   "sequence": "2026-11-36264",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:59:19Z",
-   "created": "2026-11-25T21:59:19Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
    "lat": 35.043317,
    "lon": -85.318182,
    "units": 1,
@@ -142,8 +116,8 @@
    "id": "9830179",
    "sequence": "2026-11-36260",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:02:51Z",
    "created": "2026-11-25T21:56:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -272,8 +246,8 @@
    "id": "9830170",
    "sequence": "2026-11-36252",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:01:33Z",
    "created": "2026-11-25T21:54:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -298,8 +272,8 @@
    "id": "9830169",
    "sequence": "2026-11-36251",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:04:32Z",
    "created": "2026-11-25T21:54:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +295,11 @@
    "notable": true
   },
   {
-   "id": "9830167",
-   "sequence": "2026-11-36250",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-25T21:58:12Z",
-   "created": "2026-11-25T21:53:39Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1588 ESTERBROOK CT",
-   "cross": "ESTERBROOK DR/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.994221,
-   "lon": -85.240621,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830166",
    "sequence": "2026-11-36249",
    "type": "Auto Broken Down Road",
-   "status": "Stacked",
-   "status_at": "2026-11-25T21:53:35Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T22:04:03Z",
    "created": "2026-11-25T21:53:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -369,7 +317,7 @@
    "lat": 35.015714,
    "lon": -85.273579,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -387,13 +335,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "40 - 93 HIGHWAY 27 SB",
+   "address": "70 HIGHWAY 27 SB",
    "cross": "EXIT W MAIN ST ON RAMP SB/EXIT W M L KING BLVD E ON RAMP SB",
    "city": "CHATTANOOGA",
-   "zone": "A10",
+   "zone": "A6",
    "priority": "PRI 3",
-   "lat": 35.037212,
-   "lon": -85.319681,
+   "lat": 35.040435,
+   "lon": -85.31643,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -529,30 +477,30 @@
    "notable": false
   },
   {
-   "id": "9830154",
-   "sequence": "2026-11-36240",
-   "type": "AFA Commercial",
+   "id": "9830151",
+   "sequence": "2026-11-36233",
+   "type": "MVC Injuries",
    "status": "On Scene",
-   "status_at": "2026-11-25T22:00:17Z",
-   "created": "2026-11-25T21:50:08Z",
-   "jurisdiction": "Chattanooga FD",
+   "status_at": "2026-11-25T22:05:04Z",
+   "created": "2026-11-25T21:49:55Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga FD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Fire",
+   "agency_type": "EMS",
    "agency_types": [
-    "Fire"
+    "EMS"
    ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
+   "address": "CHURCH ST / MAIN ST",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 CO B",
    "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
+   "lat": 35.072881,
+   "lon": -85.06291,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9830152",
@@ -573,32 +521,6 @@
    "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 4 CO C",
-   "priority": "PRI 1",
-   "lat": 35.072881,
-   "lon": -85.06291,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830151",
-   "sequence": "2026-11-36233",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T21:49:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "CHURCH ST / MAIN ST",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 CO B",
    "priority": "PRI 1",
    "lat": 35.072881,
    "lon": -85.06291,
@@ -662,8 +584,8 @@
    "id": "9830131",
    "sequence": "2026-11-36222",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:03:48Z",
    "created": "2026-11-25T21:43:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -867,37 +789,11 @@
    "notable": false
   },
   {
-   "id": "9830103",
-   "sequence": "2026-11-36199",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:26:42Z",
-   "created": "2026-11-25T21:26:42Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10009 OOLTEWAH GEORGETOWN RD",
-   "cross": "DAVIS FARM LN/LOWER POND LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
-   "lat": 35.208807,
-   "lon": -85.009564,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830096",
    "sequence": "2026-11-36198",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:42:34Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T22:02:53Z",
    "created": "2026-11-25T21:25:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
