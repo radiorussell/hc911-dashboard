@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T20:55:36+00:00",
+ "updated": "2026-11-25T21:00:42+00:00",
  "counts": {
-  "year": 373747,
-  "upstream_day": 694,
-  "day": 961,
+  "year": 373756,
+  "upstream_day": 703,
+  "day": 965,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9830039",
+   "sequence": "2026-11-36152",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:59:40Z",
+   "created": "2026-11-25T20:59:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 WORKMAN RD",
+   "cross": "FAGAN ST/WILSON RD",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 34.996444,
+   "lon": -85.309655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830037",
+   "sequence": "2026-11-36153",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:59:59Z",
+   "created": "2026-11-25T20:58:27Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10180 DAYTON PIKE",
+   "cross": "SEQUOYAH RD/WALDEN ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.254657,
+   "lon": -85.181498,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830028",
    "sequence": "2026-11-36149",
@@ -38,8 +90,8 @@
    "id": "9830034",
    "sequence": "2026-11-36146",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:58:49Z",
    "created": "2026-11-25T20:54:12Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9830032",
    "sequence": "2026-11-36147",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T21:00:41Z",
    "created": "2026-11-25T20:53:49Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -246,8 +298,8 @@
    "id": "9830022",
    "sequence": "2026-11-36137",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:57:01Z",
    "created": "2026-11-25T20:44:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +402,8 @@
    "id": "9830007",
    "sequence": "2026-11-36132",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:58:40Z",
    "created": "2026-11-25T20:38:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -371,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830001",
-   "sequence": "2026-11-36127",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:37:47Z",
-   "created": "2026-11-25T20:36:29Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3905 ROSALIND LN",
-   "cross": "No Cross Street/YORKTOWN RD",
-   "city": "CHATTANOOGA",
-   "zone": "603 A",
-   "priority": "PRI 3",
-   "lat": 35.093129,
-   "lon": -85.193681,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829988",
@@ -472,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.021518,
    "lon": -85.36594,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829977",
-   "sequence": "2026-11-36113",
-   "type": "Burglary",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:36:12Z",
-   "created": "2026-11-25T20:24:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2007 PEARL ST",
-   "cross": "MCRAE ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 4",
-   "lat": 35.057424,
-   "lon": -85.250526,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -584,8 +584,8 @@
    "id": "9829941",
    "sequence": "2026-11-36101",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:16:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:15:44Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -628,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.127007,
    "lon": -85.244889,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829952",
-   "sequence": "2026-11-36099",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:36:43Z",
-   "created": "2026-11-25T20:14:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3310 - 3499 BROAD ST",
-   "cross": "HOLMES ST/CHARGER DR",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.016981,
-   "lon": -85.322575,
    "units": 1,
    "stacked": false,
    "notable": false
