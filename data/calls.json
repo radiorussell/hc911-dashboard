@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-25T03:05:39+00:00",
+ "updated": "2026-11-25T03:10:41+00:00",
  "counts": {
   "year": 372986,
   "upstream_day": 0,
-  "day": 1377,
+  "day": 1380,
   "day_basis": "midnight"
  },
  "raw_rows": 19,
  "incidents": [
   {
-   "id": "9828555",
-   "sequence": "2026-11-35105",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-25T02:57:14Z",
-   "created": "2026-11-25T02:57:14Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9828558",
+   "sequence": "2026-11-35108",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:08:41Z",
+   "created": "2026-11-25T03:08:12Z",
+   "jurisdiction": "Soddy Daisy PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Soddy Daisy PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1016 ASLINGER RD",
-   "cross": "PROVIDENCE RD/HOWARD FARM LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.40897,
-   "lon": -85.063594,
+   "address": "2090 HIGHWAY 27 NB",
+   "cross": "EXIT TSATI TER OFF RAMP NB/EXIT TSATI TER ON RAMP NB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 2",
+   "lat": 35.27663,
+   "lon": -85.155596,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -127,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "306 INTERSTATE 75 NB",
-   "cross": "EXIT 185B OFF RAMP EB/EXIT 3A OFF RAMP NB",
+   "address": "360 INTERSTATE 75 NB",
+   "cross": "EXIT 3B OFF RAMP NB/EXIT 4 OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.012883,
-   "lon": -85.183707,
+   "lat": 35.018984,
+   "lon": -85.177499,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +194,8 @@
    "id": "9828524",
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:48:27Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T03:09:03Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +324,8 @@
    "id": "9828492",
    "sequence": "2026-11-35066",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T02:52:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T03:09:01Z",
    "created": "2026-11-25T02:19:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
