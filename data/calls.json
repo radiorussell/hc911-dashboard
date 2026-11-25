@@ -1,117 +1,13 @@
 {
- "updated": "2026-11-25T23:20:36+00:00",
+ "updated": "2026-11-25T23:23:11+00:00",
  "counts": {
   "year": 373915,
   "upstream_day": 862,
-  "day": 1186,
+  "day": 1182,
   "day_basis": "midnight"
  },
- "raw_rows": 44,
+ "raw_rows": 38,
  "incidents": [
-  {
-   "id": "9830344",
-   "sequence": "2026-11-36374",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:19:33Z",
-   "created": "2026-11-25T23:18:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.034727,
-   "lon": -85.26761,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830343",
-   "sequence": "2026-11-36372",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:17:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "CAMDEN ST / DODSON AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "407",
-   "priority": "PRI 1",
-   "lat": 35.054306,
-   "lon": -85.25989,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830342",
-   "sequence": "2026-11-36371",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:17:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "CAMDEN ST / DODSON AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.054306,
-   "lon": -85.25989,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830341",
-   "sequence": "2026-11-36373",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:18:26Z",
-   "created": "2026-11-25T23:17:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 CAMDEN ST",
-   "cross": "BRADT ST/DODSON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.055039,
-   "lon": -85.261924,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9830339",
    "sequence": "2026-11-36370",
@@ -193,7 +89,7 @@
   {
    "id": "9830334",
    "sequence": "2026-11-36363",
-   "type": "Residential Fire",
+   "type": "Vehicle Fire",
    "status": "On Scene",
    "status_at": "2026-11-25T23:18:04Z",
    "created": "2026-11-25T23:14:30Z",
@@ -220,8 +116,8 @@
    "id": "9830332",
    "sequence": "2026-11-36362",
    "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:20:38Z",
    "created": "2026-11-25T23:14:20Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -245,7 +141,7 @@
   {
    "id": "9830327",
    "sequence": "2026-11-36364",
-   "type": "Not Endangered",
+   "type": "Domestic Disorder",
    "status": "Queued",
    "status_at": "2026-11-25T23:14:30Z",
    "created": "2026-11-25T23:12:23Z",
@@ -266,7 +162,7 @@
    "lon": -85.148435,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9830326",
@@ -402,8 +298,8 @@
    "id": "9830312",
    "sequence": "2026-11-36354",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:23:06Z",
    "created": "2026-11-25T22:58:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -503,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9830304",
-   "sequence": "2026-11-36348",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:54:14Z",
-   "created": "2026-11-25T22:51:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.016601,
-   "lon": -85.293947,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830303",
    "sequence": "2026-11-36347",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:16:20Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T23:21:15Z",
    "created": "2026-11-25T22:51:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -688,8 +558,8 @@
    "id": "9830245",
    "sequence": "2026-11-36311",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T22:59:46Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T23:21:03Z",
    "created": "2026-11-25T22:33:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -844,8 +714,8 @@
    "id": "9830198",
    "sequence": "2026-11-36276",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:21:00Z",
    "created": "2026-11-25T22:06:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1070,32 +940,6 @@
    "priority": "PRI 3",
    "lat": 35.048782,
    "lon": -85.277172,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830029",
-   "sequence": "2026-11-36142",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T22:10:35Z",
-   "created": "2026-11-25T20:52:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5901 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.08874,
-   "lon": -85.065878,
    "units": 1,
    "stacked": false,
    "notable": false
