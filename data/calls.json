@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-25T20:20:37+00:00",
+ "updated": "2026-11-25T20:25:36+00:00",
  "counts": {
   "year": 373713,
   "upstream_day": 660,
-  "day": 920,
+  "day": 926,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9829977",
+   "sequence": "2026-11-36113",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:25:04Z",
+   "created": "2026-11-25T20:24:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2007 PEARL ST",
+   "cross": "MCRAE ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 4",
+   "lat": 35.057424,
+   "lon": -85.250526,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829976",
+   "sequence": "2026-11-36114",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:24:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4310 KEMP DR",
+   "cross": "TALLEY RD/HARGRAVES AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1301 A",
+   "priority": "PRI 3",
+   "lat": 35.027803,
+   "lon": -85.232954,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9829969",
    "sequence": "2026-11-36107",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:23:32Z",
    "created": "2026-11-25T20:17:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9829966",
    "sequence": "2026-11-36108",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:18:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:17:46Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9829962",
    "sequence": "2026-11-36105",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:17:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:16:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9829945",
    "sequence": "2026-11-36093",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:23:46Z",
    "created": "2026-11-25T20:10:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +376,8 @@
    "id": "9829943",
    "sequence": "2026-11-36089",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:21:52Z",
    "created": "2026-11-25T20:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9829924",
    "sequence": "2026-11-36084",
    "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:23:18Z",
    "created": "2026-11-25T20:03:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -503,32 +555,6 @@
    "notable": true
   },
   {
-   "id": "9829894",
-   "sequence": "2026-11-36065",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-25T19:55:22Z",
-   "created": "2026-11-25T19:47:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2300 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.049197,
-   "lon": -85.260491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829889",
    "sequence": "2026-11-36061",
    "type": "Deceptive Practice",
@@ -558,8 +584,8 @@
    "id": "9829879",
    "sequence": "2026-11-36053",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T20:08:33Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T20:21:47Z",
    "created": "2026-11-25T19:35:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -604,32 +630,6 @@
    "lon": -85.31081,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9829871",
-   "sequence": "2026-11-36050",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T20:04:53Z",
-   "created": "2026-11-25T19:32:33Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3810 BRAINERD RD",
-   "cross": "ORIOLE DR/TALLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.021878,
-   "lon": -85.243221,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
@@ -680,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.037664,
    "lon": -85.280201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829834",
-   "sequence": "2026-11-36028",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T20:04:36Z",
-   "created": "2026-11-25T19:18:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6811 GREENWAY DR",
-   "cross": "HICKORY VALLEY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.02532,
-   "lon": -85.17626,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -867,32 +841,6 @@
    "notable": false
   },
   {
-   "id": "9829791",
-   "sequence": "2026-11-35998",
-   "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-25T19:03:49Z",
-   "created": "2026-11-25T18:59:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "400 N MARKET ST",
-   "cross": "W MANNING ST/BUSH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.065196,
-   "lon": -85.308341,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829759",
    "sequence": "2026-11-35978",
    "type": "EMS CALL",
@@ -974,8 +922,8 @@
    "id": "9829478",
    "sequence": "2026-11-35792",
    "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-25T19:39:23Z",
+   "status": "Enroute",
+   "status_at": "2026-11-25T17:06:44Z",
    "created": "2026-11-25T16:55:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -993,7 +941,7 @@
    "lat": 35.050602,
    "lon": -85.320651,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
