@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T19:15:40+00:00",
+ "updated": "2026-11-25T19:20:37+00:00",
  "counts": {
-  "year": 373642,
-  "upstream_day": 589,
-  "day": 832,
+  "year": 373657,
+  "upstream_day": 604,
+  "day": 842,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9829837",
+   "sequence": "2026-11-36029",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:19:08Z",
+   "created": "2026-11-25T19:19:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6811 GREENWAY DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 1",
+   "lat": 35.02532,
+   "lon": -85.17626,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829838",
+   "sequence": "2026-11-36030",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:19:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6811 GREENWAY DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "802 C",
+   "priority": "PRI 1",
+   "lat": 35.02532,
+   "lon": -85.17626,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829835",
+   "sequence": "2026-11-36026",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T19:18:55Z",
+   "created": "2026-11-25T19:18:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.111976,
+   "lon": -85.271356,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829836",
+   "sequence": "2026-11-36027",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:18:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 3",
+   "lat": 35.111976,
+   "lon": -85.271356,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829834",
+   "sequence": "2026-11-36028",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:18:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6811 GREENWAY DR",
+   "cross": "HICKORY VALLEY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.02532,
+   "lon": -85.17626,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829833",
+   "sequence": "2026-11-36025",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T19:18:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.111976,
+   "lon": -85.271356,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829825",
    "sequence": "2026-11-36020",
@@ -191,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9829807",
-   "sequence": "2026-11-36006",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:14:57Z",
-   "created": "2026-11-25T19:05:14Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "657 FULLER GLEN CIR",
-   "cross": "FULLER RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 34.996423,
-   "lon": -85.123464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829804",
    "sequence": "2026-11-36009",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T19:19:32Z",
    "created": "2026-11-25T19:04:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,63 +529,11 @@
    "notable": false
   },
   {
-   "id": "9829762",
-   "sequence": "2026-11-35980",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:47:25Z",
-   "created": "2026-11-25T18:47:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7268 JARNIGAN RD",
-   "cross": "BELLA VISTA DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.02912,
-   "lon": -85.159372,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829761",
-   "sequence": "2026-11-35979",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:47:14Z",
-   "created": "2026-11-25T18:47:14Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7268 JARNIGAN RD",
-   "cross": "BELLA VISTA DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.02912,
-   "lon": -85.159372,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829759",
    "sequence": "2026-11-35978",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T18:51:11Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T19:16:10Z",
    "created": "2026-11-25T18:46:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,7 +558,7 @@
    "id": "9829751",
    "sequence": "2026-11-35970",
    "type": "Auto Broken Down",
-   "status": "Queued",
+   "status": "Enroute",
    "status_at": "2026-11-25T18:45:06Z",
    "created": "2026-11-25T18:45:06Z",
    "jurisdiction": "Chattanooga PD",
@@ -558,8 +636,8 @@
    "id": "9829715",
    "sequence": "2026-11-35953",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T18:56:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T19:20:07Z",
    "created": "2026-11-25T18:24:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -787,32 +865,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829542",
-   "sequence": "2026-11-35840",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T17:24:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17140 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 34.987551,
-   "lon": -85.404355,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829532",
