@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-25T20:25:36+00:00",
+ "updated": "2026-11-25T20:30:38+00:00",
  "counts": {
-  "year": 373713,
-  "upstream_day": 660,
-  "day": 926,
+  "year": 373730,
+  "upstream_day": 677,
+  "day": 934,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 41,
  "incidents": [
+  {
+   "id": "9829989",
+   "sequence": "2026-11-36122",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:30:18Z",
+   "created": "2026-11-25T20:30:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4510 HIGHWAY 58",
+   "cross": "INNWOOD LN/OAKHILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.083886,
+   "lon": -85.197621,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829988",
+   "sequence": "2026-11-36121",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:29:49Z",
+   "created": "2026-11-25T20:29:49Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6933 LEE HWY",
+   "cross": "ROBINSON DR/PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 3",
+   "lat": 35.044,
+   "lon": -85.166683,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829987",
+   "sequence": "2026-11-36120",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:29:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6933 LEE HWY",
+   "cross": "ROBINSON DR/PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.044,
+   "lon": -85.166683,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829984",
+   "sequence": "2026-11-36118",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-25T20:27:33Z",
+   "created": "2026-11-25T20:27:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4516 OAKLAND AVE",
+   "cross": "W 45TH ST/W 46TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.001328,
+   "lon": -85.318993,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829980",
+   "sequence": "2026-11-36115",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T20:25:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "115 BROWNS FERRY RD",
+   "cross": "KELLYS FERRY RD/PARKER LN",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.021518,
+   "lon": -85.36594,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829978",
+   "sequence": "2026-11-36116",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": "2026-11-25T20:27:55Z",
+   "created": "2026-11-25T20:25:17Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1998 DAYTON BLVD",
+   "cross": "MERRIMAN AVE/E MIDVALE AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 2",
+   "lat": 35.08868,
+   "lon": -85.312429,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829977",
    "sequence": "2026-11-36113",
    "type": "Burglary",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:25:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:24:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -63,7 +219,7 @@
   {
    "id": "9829969",
    "sequence": "2026-11-36107",
-   "type": "MVC Unknown Injuries",
+   "type": "Auto Broken Down",
    "status": "On Scene",
    "status_at": "2026-11-25T20:23:32Z",
    "created": "2026-11-25T20:17:57Z",
@@ -75,13 +231,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "HIXSON PIKE / ALTAMONT RD",
-   "cross": "",
+   "address": "2028 HIXSON PIKE",
+   "cross": "CONTINENTAL DR/ALTAMONT RD",
    "city": "CHATTANOOGA",
    "zone": "A4 A",
-   "priority": "PRI 1",
-   "lat": 35.088148,
-   "lon": -85.288618,
+   "priority": "PRI 4",
+   "lat": 35.086957,
+   "lon": -85.290082,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -347,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9829944",
-   "sequence": "2026-11-36090",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:15:01Z",
-   "created": "2026-11-25T20:09:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1 - 9 EXIT 180B N ON RAMP EB",
-   "cross": "ROSSVILLE BLVD/INTERSTATE 24 EB",
-   "city": "CHATTANOOGA",
-   "zone": "905",
-   "priority": "PRI 1",
-   "lat": 35.017201,
-   "lon": -85.293222,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9829943",
    "sequence": "2026-11-36089",
    "type": "MVC Injuries",
@@ -480,8 +610,8 @@
    "id": "9829910",
    "sequence": "2026-11-36078",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:29:52Z",
    "created": "2026-11-25T19:54:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -555,32 +685,6 @@
    "notable": true
   },
   {
-   "id": "9829889",
-   "sequence": "2026-11-36061",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T19:44:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "25 S GERMANTOWN RD",
-   "cross": "N GERMANTOWN RD/CHATEAU LN",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.022934,
-   "lon": -85.248304,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829879",
    "sequence": "2026-11-36053",
    "type": "EMS CALL",
@@ -610,8 +714,8 @@
    "id": "9829830",
    "sequence": "2026-11-36057",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-25T19:42:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T19:33:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -629,7 +733,7 @@
    "lat": 35.046926,
    "lon": -85.31081,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -706,32 +810,6 @@
    "priority": "PRI 4",
    "lat": 35.020724,
    "lon": -85.363187,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829833",
-   "sequence": "2026-11-36025",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T20:01:33Z",
-   "created": "2026-11-25T19:18:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.111976,
-   "lon": -85.271356,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -917,32 +995,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829478",
-   "sequence": "2026-11-35792",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-25T17:06:44Z",
-   "created": "2026-11-25T16:55:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "804 RIVERFRONT PKWY",
-   "cross": "MOLLY LN/FULTON ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.050602,
-   "lon": -85.320651,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829396",
