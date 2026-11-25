@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-25T17:40:39+00:00",
+ "updated": "2026-11-25T17:45:38+00:00",
  "counts": {
   "year": 373534,
   "upstream_day": 482,
-  "day": 688,
+  "day": 702,
   "day_basis": "midnight"
  },
  "raw_rows": 49,
  "incidents": [
   {
-   "id": "9829600",
-   "sequence": "2026-11-35876",
-   "type": "Unknown 911",
+   "id": "9829620",
+   "sequence": "2026-11-35888",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-25T17:39:03Z",
-   "created": "2026-11-25T17:39:00Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "status_at": "2026-11-25T17:45:26Z",
+   "created": "2026-11-25T17:45:26Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "9218 DAYTON PIKE",
-   "cross": "HATLIN DR/MEADOWVIEW LN",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
+   "address": "400 BIRMINGHAM HWY",
+   "cross": "CUMMINGS RD/BUSINESS PARK DR",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
    "priority": "PRI 3",
-   "lat": 35.232106,
-   "lon": -85.202599,
+   "lat": 35.008334,
+   "lon": -85.390573,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9829593",
-   "sequence": "2026-11-35872",
-   "type": "MVC Injuries",
+   "id": "9829621",
+   "sequence": "2026-11-35889",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-25T17:38:07Z",
-   "created": "2026-11-25T17:38:07Z",
+   "status_at": "2026-11-25T17:45:26Z",
+   "created": "2026-11-25T17:45:26Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -49,24 +49,50 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "18311 - 18399 INTERSTATE 24 WB",
-   "cross": "EXIT 183 ON RAMP WB/EXIT 183A OFF RAMP WB",
+   "address": "400 BIRMINGHAM HWY",
+   "cross": "CUMMINGS RD/BUSINESS PARK DR",
    "city": "CHATTANOOGA",
-   "zone": "1306 D",
+   "zone": "2002",
    "priority": "PRI 1",
-   "lat": 35.01047,
-   "lon": -85.24203,
+   "lat": 35.008334,
+   "lon": -85.390573,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
-   "id": "9829592",
-   "sequence": "2026-11-35871",
-   "type": "MVC Injuries",
+   "id": "9829614",
+   "sequence": "2026-11-35890",
+   "type": "Miscellaneous Complaint",
    "status": "Queued",
-   "status_at": "2026-11-25T17:38:07Z",
-   "created": "2026-11-25T17:38:07Z",
+   "status_at": "2026-11-25T17:45:37Z",
+   "created": "2026-11-25T17:45:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "801 HOOKER RD",
+   "cross": "WILSON RD/EDINGBURG DR",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 34.992128,
+   "lon": -85.301797,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829617",
+   "sequence": "2026-11-35887",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T17:45:25Z",
+   "created": "2026-11-25T17:45:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -75,23 +101,49 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "18311 - 18399 INTERSTATE 24 WB",
-   "cross": "EXIT 183 ON RAMP WB/EXIT 183A OFF RAMP WB",
+   "address": "400 BIRMINGHAM HWY",
+   "cross": "CUMMINGS RD/BUSINESS PARK DR",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
+   "zone": "MEDIC 10 CH A",
    "priority": "PRI 1",
-   "lat": 35.01047,
-   "lon": -85.24203,
+   "lat": 35.008334,
+   "lon": -85.390573,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9829615",
+   "sequence": "2026-11-35885",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T17:44:31Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9200 BILL REED RD",
+   "cross": "AUBURN HILLS DR/OWENS GATE PASS",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 1",
+   "lat": 35.045259,
+   "lon": -85.089318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9829591",
    "sequence": "2026-11-35869",
    "type": "MVC Entrapment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:41:06Z",
    "created": "2026-11-25T17:37:57Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -143,7 +195,7 @@
    "sequence": "2026-11-35867",
    "type": "MVC Entrapment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T17:43:15Z",
    "created": "2026-11-25T17:37:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -163,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829579",
-   "sequence": "2026-11-35866",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:35:39Z",
-   "created": "2026-11-25T17:35:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5813 LEE HWY",
-   "cross": "HONEST ST/CHICKAMAUGA RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.022066,
-   "lon": -85.199867,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829582",
@@ -298,8 +324,8 @@
    "id": "9829572",
    "sequence": "2026-11-35860",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:44:00Z",
    "created": "2026-11-25T17:32:45Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -480,8 +506,8 @@
    "id": "9829553",
    "sequence": "2026-11-35843",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T17:37:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T17:42:45Z",
    "created": "2026-11-25T17:26:43Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -763,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9829523",
-   "sequence": "2026-11-35818",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:14:38Z",
-   "created": "2026-11-25T17:14:38Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4320 BENNETT RD",
-   "cross": "MYRTLE AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 34.988065,
-   "lon": -85.245341,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829519",
    "sequence": "2026-11-35817",
    "type": "EMS CALL",
@@ -1049,32 +1049,6 @@
    "notable": true
   },
   {
-   "id": "9829481",
-   "sequence": "2026-11-35788",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:06:37Z",
-   "created": "2026-11-25T16:55:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "930 DOUGLAS ST",
-   "cross": "E MARTIN LUTHER KING BLVD/E 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 1",
-   "lat": 35.04287,
-   "lon": -85.303092,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829478",
    "sequence": "2026-11-35792",
    "type": "Well Being Check",
@@ -1148,6 +1122,32 @@
    "priority": "PRI 4",
    "lat": 35.06349,
    "lon": -85.303033,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829445",
+   "sequence": "2026-11-35767",
+   "type": "Well Being Check",
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:01:04Z",
+   "created": "2026-11-25T16:44:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1713 LITTLE RIDGE RD",
+   "cross": "BIG RIDGE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.134606,
+   "lon": -85.194498,
    "units": 1,
    "stacked": false,
    "notable": false
