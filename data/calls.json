@@ -1,38 +1,64 @@
 {
- "updated": "2026-11-25T08:05:39+00:00",
+ "updated": "2026-11-25T08:10:38+00:00",
  "counts": {
   "year": 373127,
   "upstream_day": 77,
-  "day": 114,
+  "day": 119,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
   {
-   "id": "9828818",
-   "sequence": "2026-11-35302",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-25T07:55:13Z",
-   "created": "2026-11-25T07:52:36Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9828824",
+   "sequence": "2026-11-35307",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T08:06:25Z",
+   "created": "2026-11-25T08:06:25Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "7324 SHALLOWFORD RD",
-   "cross": "LIFESTYLE WAY/GUNBARREL RD",
+   "address": "2412 MCCALLIE AVE",
+   "cross": "DERBY ST/MCCALLIE AVE @ DODDS WB ON RAMP",
    "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.039739,
-   "lon": -85.151941,
+   "zone": "502 A",
+   "priority": "PRI 2",
+   "lat": 35.032526,
+   "lon": -85.26639,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9828823",
+   "sequence": "2026-11-35306",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-25T08:10:09Z",
+   "created": "2026-11-25T08:05:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2412 MCCALLIE AVE",
+   "cross": "DERBY ST/MCCALLIE AVE @ DODDS WB ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.032526,
+   "lon": -85.26639,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9828813",
