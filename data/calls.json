@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T00:00:38+00:00",
+ "updated": "2026-11-25T00:05:37+00:00",
  "counts": {
-  "year": 372832,
-  "upstream_day": 890,
-  "day": 1186,
+  "year": 372846,
+  "upstream_day": 0,
+  "day": 1192,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9828301",
+   "sequence": "2026-11-34920",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T00:05:10Z",
+   "created": "2026-11-25T00:04:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6240 AIRPARK DR",
+   "cross": "VANCE RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.036887,
+   "lon": -85.185028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828297",
+   "sequence": "2026-11-34917",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T00:03:50Z",
+   "created": "2026-11-25T00:03:50Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828293",
+   "sequence": "2026-11-34916",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T00:03:50Z",
+   "created": "2026-11-25T00:03:14Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 3",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828290",
+   "sequence": "2026-11-34915",
+   "type": "Property",
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:05:06Z",
+   "created": "2026-11-24T23:58:52Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1525 SPRINGVALE RD",
+   "cross": "RINGGOLD RD/CLEMONS RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.989612,
+   "lon": -85.226001,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828289",
    "sequence": "2026-11-34914",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:58:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T23:58:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9828288",
    "sequence": "2026-11-34913",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-24T23:58:19Z",
    "created": "2026-11-24T23:58:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +376,8 @@
    "id": "9828274",
    "sequence": "2026-11-34899",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:02:00Z",
    "created": "2026-11-24T23:50:13Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -350,8 +454,8 @@
    "id": "9828267",
    "sequence": "2026-11-34894",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:03:06Z",
    "created": "2026-11-24T23:47:43Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +506,8 @@
    "id": "9828262",
    "sequence": "2026-11-34888",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T23:49:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T00:04:35Z",
    "created": "2026-11-24T23:44:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -558,8 +662,8 @@
    "id": "9828254",
    "sequence": "2026-11-34883",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:02:02Z",
    "created": "2026-11-24T23:40:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -610,8 +714,8 @@
    "id": "9828252",
    "sequence": "2026-11-34879",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-24T23:55:41Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T00:01:33Z",
    "created": "2026-11-24T23:36:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
