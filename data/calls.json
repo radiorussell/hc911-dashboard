@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T16:45:39+00:00",
+ "updated": "2026-11-25T16:50:37+00:00",
  "counts": {
-  "year": 373457,
-  "upstream_day": 406,
-  "day": 578,
+  "year": 373458,
+  "upstream_day": 407,
+  "day": 584,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9829460",
+   "sequence": "2026-11-35772",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:50:37Z",
+   "created": "2026-11-25T16:50:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "35°01'33.14\"N / 085°09'30.47\"W",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.025872,
+   "lon": -85.158463,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829454",
+   "sequence": "2026-11-35769",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:49:18Z",
+   "created": "2026-11-25T16:49:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1205 N CHAMBERLAIN AVE",
+   "cross": "JUDSON LN/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 0",
+   "lat": 35.048438,
+   "lon": -85.258585,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829450",
+   "sequence": "2026-11-35768",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:46:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7425 ZIEGLER RD",
+   "cross": "GUNBARREL RD/HENEGAR CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 2",
+   "lat": 35.01968,
+   "lon": -85.158656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829446",
    "sequence": "2026-11-35765",
@@ -87,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9829443",
-   "sequence": "2026-11-35763",
-   "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T16:43:43Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7507 CLYDE RD",
-   "cross": "JOINER RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.01578,
-   "lon": -85.159246,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9829442",
    "sequence": "2026-11-35762",
    "type": "EMS CALL",
@@ -137,6 +189,32 @@
    "units": 1,
    "stacked": false,
    "notable": false
+  },
+  {
+   "id": "9829443",
+   "sequence": "2026-11-35763",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:43:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7507 CLYDE RD",
+   "cross": "JOINER RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.01578,
+   "lon": -85.159246,
+   "units": 1,
+   "stacked": false,
+   "notable": true
   },
   {
    "id": "9829440",
@@ -195,7 +273,7 @@
    "sequence": "2026-11-35757",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T16:49:16Z",
    "created": "2026-11-25T16:38:42Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -498,32 +576,6 @@
    "priority": "PRI 3",
    "lat": 34.990807,
    "lon": -85.251764,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829320",
-   "sequence": "2026-11-35688",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-25T16:22:59Z",
-   "created": "2026-11-25T15:48:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8261 CHULA CREEK RD",
-   "cross": "No Cross Street/SIR JOHN CT",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.015461,
-   "lon": -85.147037,
    "units": 1,
    "stacked": false,
    "notable": false
