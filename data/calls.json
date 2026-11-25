@@ -1,71 +1,19 @@
 {
- "updated": "2026-11-25T05:50:37+00:00",
+ "updated": "2026-11-25T05:55:42+00:00",
  "counts": {
-  "year": 373071,
-  "upstream_day": 21,
-  "day": 33,
+  "year": 373073,
+  "upstream_day": 23,
+  "day": 28,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 15,
  "incidents": [
-  {
-   "id": "9828706",
-   "sequence": "2026-11-35221",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:35:23Z",
-   "created": "2026-11-25T05:35:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4829 BRAINERD RD",
-   "cross": "N LARCHMONT AVE/CLUB DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.013535,
-   "lon": -85.22846,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828700",
-   "sequence": "2026-11-35217",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:33:35Z",
-   "created": "2026-11-25T05:33:35Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4829 BRAINERD RD",
-   "cross": "N LARCHMONT AVE/CLUB DR",
-   "city": "CHATTANOOGA",
-   "zone": "1301 A",
-   "priority": "PRI 3",
-   "lat": 35.013535,
-   "lon": -85.22846,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9828697",
    "sequence": "2026-11-35216",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:40:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T05:54:48Z",
    "created": "2026-11-25T05:32:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +30,6 @@
    "priority": "PRI 1",
    "lat": 35.013535,
    "lon": -85.22846,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828694",
-   "sequence": "2026-11-35215",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-25T05:34:53Z",
-   "created": "2026-11-25T05:29:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3203 S ORCHARD KNOB AVE",
-   "cross": "E 32ND ST/E 33RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 1",
-   "lat": 35.007592,
-   "lon": -85.290254,
    "units": 1,
    "stacked": false,
    "notable": false
