@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T12:10:38+00:00",
+ "updated": "2026-11-25T12:15:37+00:00",
  "counts": {
   "year": 373202,
   "upstream_day": 152,
-  "day": 229,
+  "day": 232,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 11,
  "incidents": [
   {
-   "id": "9828965",
-   "sequence": "2026-11-35417",
-   "type": "Check For A Hazard",
+   "id": "9828968",
+   "sequence": "2026-11-35419",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-25T12:10:00Z",
-   "created": "2026-11-25T12:10:00Z",
+   "status_at": "2026-11-25T12:15:02Z",
+   "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,50 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4430 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.084025,
-   "lon": -85.200395,
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9828963",
-   "sequence": "2026-11-35416",
-   "type": "Disorder",
+   "id": "9828969",
+   "sequence": "2026-11-35420",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-25T12:09:45Z",
-   "created": "2026-11-25T12:09:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3035 DEE DR",
-   "cross": "JUDY ANN DR/EMMA KATE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.056021,
-   "lon": -85.244331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828955",
-   "sequence": "2026-11-35413",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T12:00:53Z",
-   "created": "2026-11-25T11:54:04Z",
+   "status_at": "2026-11-25T12:15:02Z",
+   "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -75,23 +49,49 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "180 HIGHWAY 153 NB",
-   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "804",
-   "priority": "PRI 1",
-   "lat": 35.04528,
-   "lon": -85.187363,
+   "zone": "701 A",
+   "priority": "PRI 2",
+   "lat": 35.068318,
+   "lon": -85.141215,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
+  },
+  {
+   "id": "9828967",
+   "sequence": "2026-11-35418",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T12:14:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   },
   {
    "id": "9828954",
    "sequence": "2026-11-35412",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T12:10:39Z",
    "created": "2026-11-25T11:54:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9828947",
    "sequence": "2026-11-35406",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T12:11:41Z",
    "created": "2026-11-25T11:49:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -189,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828940",
-   "sequence": "2026-11-35399",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T11:39:13Z",
-   "created": "2026-11-25T11:33:08Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3343 GLEASON DR",
-   "cross": "DARRYL LN/GLEASON CIR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 35.011788,
-   "lon": -85.255072,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828923",
