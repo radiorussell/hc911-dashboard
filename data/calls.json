@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-25T12:20:40+00:00",
+ "updated": "2026-11-25T12:25:39+00:00",
  "counts": {
   "year": 373203,
   "upstream_day": 153,
-  "day": 234,
+  "day": 232,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
-  {
-   "id": "9828970",
-   "sequence": "2026-11-35422",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-25T12:20:40Z",
-   "created": "2026-11-25T12:20:08Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "603 MARLBORO AVE",
-   "cross": "WORSHAM AVE/LOUISE AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 35.00652,
-   "lon": -85.239438,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9828968",
    "sequence": "2026-11-35419",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T12:23:50Z",
    "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +38,8 @@
    "id": "9828969",
    "sequence": "2026-11-35420",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T12:23:29Z",
    "created": "2026-11-25T12:15:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +64,8 @@
    "id": "9828967",
    "sequence": "2026-11-35418",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T12:24:06Z",
    "created": "2026-11-25T12:14:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +168,8 @@
    "id": "9828922",
    "sequence": "2026-11-35382",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-25T12:06:12Z",
    "created": "2026-11-25T11:07:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -213,7 +187,7 @@
    "lat": 35.033175,
    "lon": -85.18553,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
