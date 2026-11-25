@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-25T15:20:43+00:00",
+ "updated": "2026-11-25T15:25:38+00:00",
  "counts": {
   "year": 373352,
   "upstream_day": 301,
-  "day": 457,
+  "day": 465,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9829281",
+   "sequence": "2026-11-35653",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:24:34Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3920 RINGGOLD RD",
+   "cross": "KINGWOOD DR/WELDON DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 34.997549,
+   "lon": -85.253574,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829279",
+   "sequence": "2026-11-35652",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:22:58Z",
+   "created": "2026-11-25T15:22:58Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 2",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829278",
+   "sequence": "2026-11-35651",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:22:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829269",
+   "sequence": "2026-11-35648",
+   "type": "Well Being Check",
+   "status": "Stacked",
+   "status_at": "2026-11-25T15:20:55Z",
+   "created": "2026-11-25T15:19:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4417 OAKWOOD DR",
+   "cross": "TRICIA DR/JERSEY PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.08964,
+   "lon": -85.183617,
+   "units": 1,
+   "stacked": true,
+   "notable": false
+  },
   {
    "id": "9829265",
    "sequence": "2026-11-35644",
@@ -61,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9829263",
-   "sequence": "2026-11-35641",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:16:02Z",
-   "created": "2026-11-25T15:16:02Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4335 SPRIGGS ST",
-   "cross": "VESTER LN/MCBRIEN RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.990649,
-   "lon": -85.238376,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829264",
    "sequence": "2026-11-35642",
    "type": "EMS CALL",
@@ -106,6 +184,32 @@
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1",
    "priority": "PRI 2",
+   "lat": 34.990649,
+   "lon": -85.238376,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829263",
+   "sequence": "2026-11-35641",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:16:02Z",
+   "created": "2026-11-25T15:16:02Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4335 SPRIGGS ST",
+   "cross": "VESTER LN/MCBRIEN RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
    "lat": 34.990649,
    "lon": -85.238376,
    "units": 1,
@@ -142,8 +246,8 @@
    "id": "9829261",
    "sequence": "2026-11-35643",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:24:04Z",
    "created": "2026-11-25T15:15:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9829242",
-   "sequence": "2026-11-35627",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T15:09:50Z",
-   "created": "2026-11-25T15:09:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "959 GATEWAY AVE",
-   "cross": "W MARTIN LUTHER KING BLVD/BOYNTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.04656,
-   "lon": -85.319527,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829243",
    "sequence": "2026-11-35628",
    "type": "EMS CALL",
@@ -298,8 +376,8 @@
    "id": "9829235",
    "sequence": "2026-11-35625",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:24:13Z",
    "created": "2026-11-25T15:09:26Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -350,8 +428,8 @@
    "id": "9829234",
    "sequence": "2026-11-35620",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:25:18Z",
    "created": "2026-11-25T15:08:17Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -399,11 +477,37 @@
    "notable": false
   },
   {
+   "id": "9829189",
+   "sequence": "2026-11-35593",
+   "type": "MVC No Response",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:24:56Z",
+   "created": "2026-11-25T14:46:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9237 LEE HWY",
+   "cross": "ELEMENTARY WAY/MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 0",
+   "lat": 35.083212,
+   "lon": -85.059847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9829186",
    "sequence": "2026-11-35589",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T15:02:23Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T15:24:47Z",
    "created": "2026-11-25T14:43:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
