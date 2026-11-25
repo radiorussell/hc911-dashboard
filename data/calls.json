@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T00:05:37+00:00",
+ "updated": "2026-11-25T00:10:37+00:00",
  "counts": {
   "year": 372846,
   "upstream_day": 0,
   "day": 1192,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 34,
  "incidents": [
   {
    "id": "9828301",
    "sequence": "2026-11-34920",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T00:05:10Z",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-25T00:10:09Z",
    "created": "2026-11-25T00:04:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9828293",
    "sequence": "2026-11-34916",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-25T00:03:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T00:03:14Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9828289",
    "sequence": "2026-11-34914",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:08:20Z",
    "created": "2026-11-24T23:58:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -132,32 +132,6 @@
    "city": "CHATTANOOGA",
    "zone": "1401",
    "priority": "PRI 3",
-   "lat": 34.990005,
-   "lon": -85.312856,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828288",
-   "sequence": "2026-11-34913",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:58:19Z",
-   "created": "2026-11-24T23:58:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "529 E 52ND ST",
-   "cross": "FAGAN ST/TANNER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 2",
    "lat": 34.990005,
    "lon": -85.312856,
    "units": 1,
@@ -220,8 +194,8 @@
    "id": "9828283",
    "sequence": "2026-11-34907",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:08:03Z",
    "created": "2026-11-24T23:53:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +246,8 @@
    "id": "9828281",
    "sequence": "2026-11-34911",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:54:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-24T23:52:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +324,8 @@
    "id": "9828277",
    "sequence": "2026-11-34903",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:06:46Z",
    "created": "2026-11-24T23:51:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9828266",
-   "sequence": "2026-11-34892",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-24T23:45:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "244 W 37TH ST",
-   "cross": "KIRKLAND AVE/HIGHLAND AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 4",
-   "lat": 35.007603,
-   "lon": -85.312586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828262",
    "sequence": "2026-11-34888",
    "type": "EMS CALL",
@@ -584,8 +532,8 @@
    "id": "9828258",
    "sequence": "2026-11-34884",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T00:08:43Z",
    "created": "2026-11-24T23:41:45Z",
    "jurisdiction": "Waldens Ridge Emergency Srv",
    "agencies": [
@@ -633,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9828257",
-   "sequence": "2026-11-34882",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-24T23:52:51Z",
-   "created": "2026-11-24T23:41:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "624 N GERMANTOWN RD",
-   "cross": "TERRELL ST/MENLO ST",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.033078,
-   "lon": -85.24138,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828254",
    "sequence": "2026-11-34883",
    "type": "EMS CALL",
@@ -685,37 +607,11 @@
    "notable": false
   },
   {
-   "id": "9828253",
-   "sequence": "2026-11-34880",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-24T23:37:16Z",
-   "created": "2026-11-24T23:37:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1160 TOWNE HILLS DR",
-   "cross": "WINDING LN/TOWNE HILLS LN",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
-   "lat": 35.148062,
-   "lon": -85.246932,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828252",
    "sequence": "2026-11-34879",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T00:01:33Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T00:07:48Z",
    "created": "2026-11-24T23:36:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -766,8 +662,8 @@
    "id": "9828210",
    "sequence": "2026-11-34857",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-24T23:38:50Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T00:05:57Z",
    "created": "2026-11-24T23:06:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
