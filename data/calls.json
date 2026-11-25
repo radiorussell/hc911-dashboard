@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T03:00:39+00:00",
+ "updated": "2026-11-25T03:05:39+00:00",
  "counts": {
-  "year": 372979,
+  "year": 372986,
   "upstream_day": 0,
   "day": 1377,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9828555",
@@ -64,8 +64,8 @@
    "id": "9828550",
    "sequence": "2026-11-35104",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:05:21Z",
    "created": "2026-11-25T02:53:43Z",
    "jurisdiction": "Sale Creek VFD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9828547",
    "sequence": "2026-11-35099",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:02:41Z",
    "created": "2026-11-25T02:50:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9828545",
    "sequence": "2026-11-35097",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T03:05:00Z",
    "created": "2026-11-25T02:48:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -127,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "350 - 378 INTERSTATE 75 NB",
-   "cross": "EXIT 3B OFF RAMP NB/EXIT 4 OFF RAMP NB",
+   "address": "306 INTERSTATE 75 NB",
+   "cross": "EXIT 185B OFF RAMP EB/EXIT 3A OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.01837,
-   "lon": -85.177925,
+   "lat": 35.012883,
+   "lon": -85.183707,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -423,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9828466",
-   "sequence": "2026-11-35046",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:06:03Z",
-   "created": "2026-11-25T01:55:55Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5304 RINGGOLD RD",
-   "cross": "MCBRIEN RD/REBECCA DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.995118,
-   "lon": -85.235174,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9828452",
