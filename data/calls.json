@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T07:20:37+00:00",
+ "updated": "2026-11-25T07:25:37+00:00",
  "counts": {
-  "year": 373104,
-  "upstream_day": 54,
+  "year": 373111,
+  "upstream_day": 61,
   "day": 95,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9828791",
@@ -113,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9828789",
-   "sequence": "2026-11-35280",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T07:14:49Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1209 ROCKWAY DR",
-   "cross": "DYER ST/THROUGH ST",
-   "city": "CHATTANOOGA",
-   "zone": "1501",
-   "priority": "PRI 3",
-   "lat": 35.044323,
-   "lon": -85.241551,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828787",
    "sequence": "2026-11-35278",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T07:23:37Z",
    "created": "2026-11-25T07:13:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.044323,
    "lon": -85.241551,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828773",
-   "sequence": "2026-11-35274",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-25T07:12:56Z",
-   "created": "2026-11-25T07:06:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3167 ELMENDORF CIR",
-   "cross": "AMNICOLA HWY/WISDOM ST",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.080362,
-   "lon": -85.26376,
    "units": 1,
    "stacked": false,
    "notable": false
