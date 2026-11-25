@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T03:15:38+00:00",
+ "updated": "2026-11-25T03:20:38+00:00",
  "counts": {
   "year": 372987,
   "upstream_day": 0,
-  "day": 1384,
+  "day": 1391,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9828573",
+   "sequence": "2026-11-35119",
+   "type": "Alarm Distress",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T03:18:34Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7550 TRANQUILITY DR",
+   "cross": "ALLIE DAN CT/REFUGE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 2",
+   "lat": 35.120189,
+   "lon": -85.054592,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828572",
+   "sequence": "2026-11-35118",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T03:17:55Z",
+   "created": "2026-11-25T03:17:55Z",
+   "jurisdiction": "Lookout Mountain FD",
+   "agencies": [
+    "Lookout Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "204 E BROW RD",
+   "cross": "S SCENIC HWY/E SUNSET RD",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
+   "priority": "PRI 2",
+   "lat": 34.995169,
+   "lon": -85.344436,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828570",
+   "sequence": "2026-11-35116",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T03:17:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "204 E BROW RD",
+   "cross": "S SCENIC HWY/E SUNSET RD",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "MEDIC 10 LM U",
+   "priority": "PRI 1",
+   "lat": 34.995169,
+   "lon": -85.344436,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828561",
    "sequence": "2026-11-35112",
@@ -113,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9828550",
-   "sequence": "2026-11-35104",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-25T03:05:21Z",
-   "created": "2026-11-25T02:53:43Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "14517 OLD DAYTON PIKE",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 3",
-   "lat": 35.369183,
-   "lon": -85.11725,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828547",
    "sequence": "2026-11-35099",
    "type": "Domestic Disorder",
@@ -191,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9828537",
-   "sequence": "2026-11-35094",
-   "type": "Backup Fire Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-25T02:58:53Z",
-   "created": "2026-11-25T02:46:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "WILHOIT RD / RED CLAY RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 2",
-   "lat": 34.995743,
-   "lon": -84.995631,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9828524",
    "sequence": "2026-11-35086",
    "type": "MVC Entrapment",
    "status": "Transporting",
-   "status_at": "2026-11-25T03:09:03Z",
+   "status_at": "2026-11-25T03:16:45Z",
    "created": "2026-11-25T02:42:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
