@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T04:20:39+00:00",
+ "updated": "2026-11-25T04:25:38+00:00",
  "counts": {
-  "year": 373015,
+  "year": 373022,
   "upstream_day": 0,
-  "day": 1425,
+  "day": 1424,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9828616",
    "sequence": "2026-11-35152",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T04:21:53Z",
    "created": "2026-11-25T04:15:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,58 +27,6 @@
    "cross": "JERSEY PIKE/MINK PLACE DR",
    "city": "CHATTANOOGA",
    "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.087533,
-   "lon": -85.181754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828617",
-   "sequence": "2026-11-35153",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T04:15:15Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4506 OAKWOOD DR",
-   "cross": "JERSEY PIKE/MINK PLACE DR",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 1",
-   "lat": 35.087533,
-   "lon": -85.181754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828615",
-   "sequence": "2026-11-35151",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T04:15:11Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4506 OAKWOOD DR",
-   "cross": "JERSEY PIKE/MINK PLACE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
    "priority": "PRI 1",
    "lat": 35.087533,
    "lon": -85.181754,
