@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T16:10:46+00:00",
+ "updated": "2026-11-25T16:15:41+00:00",
  "counts": {
   "year": 373420,
   "upstream_day": 369,
-  "day": 546,
+  "day": 552,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 39,
  "incidents": [
+  {
+   "id": "9829396",
+   "sequence": "2026-11-35740",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:11:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6320 HIXSON PIKE",
+   "cross": "VALLEYBROOK RD/BROOKAIRE RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.153815,
+   "lon": -85.196872,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829395",
+   "sequence": "2026-11-35739",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:11:10Z",
+   "created": "2026-11-25T16:11:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "979 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.047957,
+   "lon": -85.289321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829391",
+   "sequence": "2026-11-35737",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:10:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "979 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.047957,
+   "lon": -85.289321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829384",
    "sequence": "2026-11-35734",
@@ -64,8 +142,8 @@
    "id": "9829378",
    "sequence": "2026-11-35727",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:12:25Z",
    "created": "2026-11-25T16:04:58Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -82,58 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.120757,
    "lon": -85.341334,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829377",
-   "sequence": "2026-11-35726",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:04:57Z",
-   "created": "2026-11-25T16:04:57Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "827 CHEROKEE LN",
-   "cross": "ADAMS ST/LADDER TRL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 2 A",
-   "priority": "PRI 3",
-   "lat": 35.120757,
-   "lon": -85.341334,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829374",
-   "sequence": "2026-11-35730",
-   "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:06:12Z",
-   "created": "2026-11-25T16:04:52Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "900 - 999 SHOAL CREEK RD",
-   "cross": "SIGNAL MOUNTAIN BLVD/PALISADES DR",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 2 A",
-   "priority": "PRI 2",
-   "lat": 35.117102,
-   "lon": -85.354202,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +194,8 @@
    "id": "9829373",
    "sequence": "2026-11-35725",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:13:30Z",
    "created": "2026-11-25T16:04:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +428,8 @@
    "id": "9829350",
    "sequence": "2026-11-35708",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:14:58Z",
    "created": "2026-11-25T15:59:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -454,8 +480,8 @@
    "id": "9829349",
    "sequence": "2026-11-35703",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:11:46Z",
    "created": "2026-11-25T15:59:32Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -480,8 +506,8 @@
    "id": "9829347",
    "sequence": "2026-11-35701",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:14:57Z",
    "created": "2026-11-25T15:59:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
