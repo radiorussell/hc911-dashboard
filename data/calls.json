@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-25T20:30:38+00:00",
+ "updated": "2026-11-25T20:35:37+00:00",
  "counts": {
   "year": 373730,
   "upstream_day": 677,
   "day": 934,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 36,
  "incidents": [
   {
    "id": "9829989",
    "sequence": "2026-11-36122",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:30:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T20:30:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9829978",
-   "sequence": "2026-11-36116",
-   "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": "2026-11-25T20:27:55Z",
-   "created": "2026-11-25T20:25:17Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1998 DAYTON BLVD",
-   "cross": "MERRIMAN AVE/E MIDVALE AVE",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 2",
-   "lat": 35.08868,
-   "lon": -85.312429,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829977",
    "sequence": "2026-11-36113",
    "type": "Burglary",
@@ -194,8 +168,8 @@
    "id": "9829976",
    "sequence": "2026-11-36114",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:33:03Z",
    "created": "2026-11-25T20:24:33Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -246,8 +220,8 @@
    "id": "9829966",
    "sequence": "2026-11-36108",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:32:13Z",
    "created": "2026-11-25T20:17:46Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -402,8 +376,8 @@
    "id": "9829949",
    "sequence": "2026-11-36100",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T20:33:57Z",
    "created": "2026-11-25T20:13:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -420,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.180891,
    "lon": -85.247036,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829946",
-   "sequence": "2026-11-36094",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T20:11:28Z",
-   "created": "2026-11-25T20:11:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2618 FOREST RD",
-   "cross": "PINE ST/FOREST ACRES LN",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.090627,
-   "lon": -85.231484,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,8 +428,8 @@
    "id": "9829945",
    "sequence": "2026-11-36093",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:23:46Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T20:34:24Z",
    "created": "2026-11-25T20:10:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +454,8 @@
    "id": "9829943",
    "sequence": "2026-11-36089",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:21:52Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T20:33:45Z",
    "created": "2026-11-25T20:09:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -553,32 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829924",
-   "sequence": "2026-11-36084",
-   "type": "Supplemental Reports",
-   "status": "On Scene",
-   "status_at": "2026-11-25T20:23:18Z",
-   "created": "2026-11-25T20:03:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4900 EDINGBURG DR",
-   "cross": "E 49TH ST/WOODLAND VIEW CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.991143,
-   "lon": -85.303588,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829919",
@@ -631,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829914",
-   "sequence": "2026-11-36072",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T19:57:42Z",
-   "created": "2026-11-25T19:53:28Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1100 - 1199 S MOORE RD",
-   "cross": "NEWPORT DR/FIKE DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 1",
-   "lat": 34.999203,
-   "lon": -85.235657,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829901",
@@ -810,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.020724,
    "lon": -85.363187,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829819",
-   "sequence": "2026-11-36019",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T20:10:17Z",
-   "created": "2026-11-25T19:09:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
