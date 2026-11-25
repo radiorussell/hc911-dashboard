@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-25T06:45:37+00:00",
+ "updated": "2026-11-25T06:50:37+00:00",
  "counts": {
   "year": 373093,
   "upstream_day": 43,
-  "day": 75,
+  "day": 77,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
   {
+   "id": "9828762",
+   "sequence": "2026-11-35265",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T06:46:03Z",
+   "created": "2026-11-25T06:46:03Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9822 CATTAILS MEADOW LN",
+   "cross": "CATTAILS DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3-CATOOSA B",
+   "priority": "PRI 2",
+   "lat": 34.989371,
+   "lon": -85.104755,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828761",
+   "sequence": "2026-11-35264",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T06:44:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9822 CATTAILS MEADOW LN",
+   "cross": "CATTAILS DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 07 HC B",
+   "priority": "PRI 1",
+   "lat": 34.989371,
+   "lon": -85.104755,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9828760",
    "sequence": "2026-11-35263",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-25T06:44:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T06:44:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,58 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.047294,
    "lon": -85.232146,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828752",
-   "sequence": "2026-11-35258",
-   "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-25T06:35:58Z",
-   "created": "2026-11-25T06:33:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MARKET ST / W 4TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 1",
-   "lat": 35.052307,
-   "lon": -85.309628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828742",
-   "sequence": "2026-11-35249",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": "2026-11-25T06:22:30Z",
-   "created": "2026-11-25T06:20:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6121 LEE HWY",
-   "cross": "VAN NESS RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.029911,
-   "lon": -85.187659,
    "units": 1,
    "stacked": false,
    "notable": false
