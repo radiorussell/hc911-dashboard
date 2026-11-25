@@ -1,19 +1,253 @@
 {
- "updated": "2026-11-25T22:40:38+00:00",
+ "updated": "2026-11-25T22:45:41+00:00",
  "counts": {
   "year": 373876,
   "upstream_day": 823,
-  "day": 1133,
+  "day": 1147,
   "day_basis": "midnight"
  },
- "raw_rows": 45,
+ "raw_rows": 51,
  "incidents": [
+  {
+   "id": "9830280",
+   "sequence": "2026-11-36335",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:44:54Z",
+   "created": "2026-11-25T22:44:54Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "633 CAMP JORDAN PKWY",
+   "cross": "CAMP JORDAN RD/BASS PRO DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.991819,
+   "lon": -85.201221,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830279",
+   "sequence": "2026-11-36334",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:44:54Z",
+   "created": "2026-11-25T22:44:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "633 CAMP JORDAN PKWY",
+   "cross": "CAMP JORDAN RD/BASS PRO DR",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.991819,
+   "lon": -85.201221,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830275",
+   "sequence": "2026-11-36329",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:44:03Z",
+   "created": "2026-11-25T22:44:03Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "804 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "401",
+   "priority": "PRI 1",
+   "lat": 35.049199,
+   "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830274",
+   "sequence": "2026-11-36328",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:44:03Z",
+   "created": "2026-11-25T22:44:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "804 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.049199,
+   "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830268",
+   "sequence": "2026-11-36326",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:43:53Z",
+   "created": "2026-11-25T22:43:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4026 SHALLOWFORD RD",
+   "cross": "AGAWELA DR/N MOORE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.043089,
+   "lon": -85.219116,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830266",
+   "sequence": "2026-11-36333",
+   "type": "MVC No Response",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:44:54Z",
+   "created": "2026-11-25T22:43:16Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "633 CAMP JORDAN PKWY",
+   "cross": "CAMP JORDAN RD/BASS PRO DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 0",
+   "lat": 34.991819,
+   "lon": -85.201221,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830267",
+   "sequence": "2026-11-36327",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:43:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "804 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.049199,
+   "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830263",
+   "sequence": "2026-11-36323",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T22:41:55Z",
+   "created": "2026-11-25T22:41:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1414 CONTINENTAL DR",
+   "cross": "HIXSON PIKE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 2",
+   "lat": 35.086046,
+   "lon": -85.286322,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830262",
+   "sequence": "2026-11-36325",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T22:41:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "500 - 598 OCHS HWY",
+   "cross": "GUILD TRL/SANDERS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 35.002654,
+   "lon": -85.332787,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830258",
    "sequence": "2026-11-36321",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:39:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:39:52Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +272,8 @@
    "id": "9830257",
    "sequence": "2026-11-36320",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:39:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:39:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,58 +321,6 @@
    "notable": false
   },
   {
-   "id": "9830254",
-   "sequence": "2026-11-36318",
-   "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:38:43Z",
-   "created": "2026-11-25T22:38:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "800 - 869 INTERSTATE 75 SB",
-   "cross": "EXIT 7 OFF RAMP SB/EXIT 9 E ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.065181,
-   "lon": -85.126139,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830253",
-   "sequence": "2026-11-36317",
-   "type": "Vehicle Fire",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:38:43Z",
-   "created": "2026-11-25T22:38:22Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "800 INTERSTATE 75 NB",
-   "cross": "EXIT 7B ON RAMP NB/EXIT 9 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "702",
-   "priority": "PRI 1",
-   "lat": 35.065961,
-   "lon": -85.12503,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830251",
    "sequence": "2026-11-36315",
    "type": "Vehicle Fire",
@@ -168,8 +350,8 @@
    "id": "9830250",
    "sequence": "2026-11-36314",
    "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:45:02Z",
    "created": "2026-11-25T22:36:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -220,8 +402,8 @@
    "id": "9830245",
    "sequence": "2026-11-36311",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:43:30Z",
    "created": "2026-11-25T22:33:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +428,8 @@
    "id": "9830240",
    "sequence": "2026-11-36308",
    "type": "Not Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:33:11Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:30:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -324,8 +506,8 @@
    "id": "9830237",
    "sequence": "2026-11-36304",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:40:51Z",
    "created": "2026-11-25T22:26:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -425,32 +607,6 @@
    "notable": false
   },
   {
-   "id": "9830217",
-   "sequence": "2026-11-36287",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:33:05Z",
-   "created": "2026-11-25T22:13:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "940 - 1129 INTERSTATE 75 NB",
-   "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 05 CH A",
-   "priority": "PRI 1",
-   "lat": 35.07565,
-   "lon": -85.105653,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830218",
    "sequence": "2026-11-36288",
    "type": "MVC Injuries",
@@ -469,6 +625,32 @@
    "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "",
+   "priority": "PRI 1",
+   "lat": 35.07565,
+   "lon": -85.105653,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830217",
+   "sequence": "2026-11-36287",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:33:05Z",
+   "created": "2026-11-25T22:13:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "940 - 1129 INTERSTATE 75 NB",
+   "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 05 CH A",
    "priority": "PRI 1",
    "lat": 35.07565,
    "lon": -85.105653,
@@ -584,8 +766,8 @@
    "id": "9830201",
    "sequence": "2026-11-36273",
    "type": "Assault EMS Needed",
-   "status": "Transporting",
-   "status_at": "2026-11-25T22:26:46Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T22:41:24Z",
    "created": "2026-11-25T22:07:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -659,32 +841,6 @@
    "notable": false
   },
   {
-   "id": "9830199",
-   "sequence": "2026-11-36272",
-   "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T22:06:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 MOCCASIN BEND RD",
-   "cross": "No Cross Street/HAMM RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.025706,
-   "lon": -85.335431,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830189",
    "sequence": "2026-11-36263",
    "type": "EMS CALL",
@@ -740,8 +896,8 @@
    "id": "9830169",
    "sequence": "2026-11-36251",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-25T22:21:03Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T22:45:12Z",
    "created": "2026-11-25T21:54:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -1000,8 +1156,8 @@
    "id": "9830065",
    "sequence": "2026-11-36172",
    "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-25T21:15:20Z",
    "created": "2026-11-25T21:15:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1019,7 +1175,7 @@
    "lat": 35.069864,
    "lon": -85.295791,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
