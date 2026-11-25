@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T15:30:38+00:00",
+ "updated": "2026-11-25T15:35:40+00:00",
  "counts": {
   "year": 373372,
   "upstream_day": 321,
-  "day": 477,
+  "day": 485,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9829306",
+   "sequence": "2026-11-35673",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:34:59Z",
+   "created": "2026-11-25T15:34:39Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8900 - 8935 LEE HWY",
+   "cross": "HUNTER RD/EXIT 11 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.087706,
+   "lon": -85.071057,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829303",
+   "sequence": "2026-11-35670",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:34:05Z",
+   "created": "2026-11-25T15:34:05Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4320 BENNETT RD",
+   "cross": "MYRTLE AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.988065,
+   "lon": -85.245341,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829304",
+   "sequence": "2026-11-35671",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T15:34:05Z",
+   "created": "2026-11-25T15:34:05Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4320 BENNETT RD",
+   "cross": "MYRTLE AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 1",
+   "lat": 34.988065,
+   "lon": -85.245341,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829302",
+   "sequence": "2026-11-35669",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:32:38Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4320 BENNETT RD",
+   "cross": "MYRTLE AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.988065,
+   "lon": -85.245341,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829301",
+   "sequence": "2026-11-35668",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:32:38Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1906 PAYNE RD",
+   "cross": "No Cross Street/JESSE CONNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 3",
+   "lat": 35.034059,
+   "lon": -85.169699,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829300",
+   "sequence": "2026-11-35667",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T15:32:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3550 CUMMINGS HWY",
+   "cross": "HEMLOCK CIR/STARVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.015591,
+   "lon": -85.376588,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829297",
    "sequence": "2026-11-35663",
@@ -64,8 +220,8 @@
    "id": "9829296",
    "sequence": "2026-11-35665",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:35:05Z",
    "created": "2026-11-25T15:29:16Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +272,8 @@
    "id": "9829288",
    "sequence": "2026-11-35658",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:32:09Z",
    "created": "2026-11-25T15:26:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +376,8 @@
    "id": "9829278",
    "sequence": "2026-11-35651",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T15:31:40Z",
    "created": "2026-11-25T15:22:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -628,32 +784,6 @@
    "priority": "PRI 1",
    "lat": 35.185983,
    "lon": -85.19494,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829176",
-   "sequence": "2026-11-35580",
-   "type": "Burglary",
-   "status": "Enroute",
-   "status_at": "2026-11-25T15:09:11Z",
-   "created": "2026-11-25T14:40:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1905 RIDGEWOOD DR",
-   "cross": "S CREST MANOR LN/SUNSET TER",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.016104,
-   "lon": -85.268017,
    "units": 1,
    "stacked": false,
    "notable": false
