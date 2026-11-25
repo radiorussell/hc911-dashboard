@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-25T17:05:44+00:00",
+ "updated": "2026-11-25T17:10:37+00:00",
  "counts": {
-  "year": 373472,
-  "upstream_day": 421,
-  "day": 617,
+  "year": 373495,
+  "upstream_day": 443,
+  "day": 623,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9829507",
+   "sequence": "2026-11-35811",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T17:09:13Z",
+   "created": "2026-11-25T17:09:13Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2201 E 28TH ST",
+   "cross": "4TH AVE/5TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "902",
+   "priority": "PRI 2",
+   "lat": 35.011472,
+   "lon": -85.282926,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829506",
+   "sequence": "2026-11-35810",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T17:08:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2201 E 28TH ST",
+   "cross": "4TH AVE/5TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.011472,
+   "lon": -85.282926,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829505",
+   "sequence": "2026-11-35808",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": "2026-11-25T17:09:33Z",
+   "created": "2026-11-25T17:06:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5109 HIXSON PIKE",
+   "cross": "NORTHGATE PARK LN/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.135704,
+   "lon": -85.239775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829499",
    "sequence": "2026-11-35805",
    "type": "Missing Juv Not 21",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:04:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T17:03:31Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9829497",
    "sequence": "2026-11-35803",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-25T17:03:25Z",
    "created": "2026-11-25T17:02:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,15 +135,15 @@
    "lat": 35.13896,
    "lon": -85.235547,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9829496",
    "sequence": "2026-11-35801",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:09:26Z",
    "created": "2026-11-25T17:02:27Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9829494",
    "sequence": "2026-11-35800",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:09:30Z",
    "created": "2026-11-25T17:01:42Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -111,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829492",
-   "sequence": "2026-11-35798",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:59:44Z",
-   "created": "2026-11-25T16:59:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8052 STANDIFER GAP RD",
-   "cross": "BROCK RD/BILL REED RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.042739,
-   "lon": -85.115619,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829491",
@@ -168,8 +220,8 @@
    "id": "9829490",
    "sequence": "2026-11-35796",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:07:44Z",
    "created": "2026-11-25T16:58:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9829485",
    "sequence": "2026-11-35789",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:06:17Z",
    "created": "2026-11-25T16:56:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9829481",
    "sequence": "2026-11-35788",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T17:06:37Z",
    "created": "2026-11-25T16:55:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -325,7 +377,7 @@
    "sequence": "2026-11-35792",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T17:06:44Z",
    "created": "2026-11-25T16:55:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -399,58 +451,6 @@
    "notable": false
   },
   {
-   "id": "9829468",
-   "sequence": "2026-11-35778",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:53:03Z",
-   "created": "2026-11-25T16:53:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3608 PARKWAY DR",
-   "cross": "FAIRVIEW DR/RIDGECREST DR",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 2",
-   "lat": 35.076492,
-   "lon": -85.236154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829465",
-   "sequence": "2026-11-35777",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:01:19Z",
-   "created": "2026-11-25T16:52:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3608 PARKWAY DR",
-   "cross": "FAIRVIEW DR/RIDGECREST DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.076492,
-   "lon": -85.236154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829464",
    "sequence": "2026-11-35776",
    "type": "Theft",
@@ -468,7 +468,7 @@
    "address": "3702 GRACE AVE",
    "cross": "DODSON AVE/MEADOW LN",
    "city": "CHATTANOOGA",
-   "zone": "",
+   "zone": "B1 A",
    "priority": "PRI 4",
    "lat": 35.081408,
    "lon": -85.243203,
@@ -481,7 +481,7 @@
    "sequence": "2026-11-35772",
    "type": "Unknown 911",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T17:10:31Z",
    "created": "2026-11-25T16:50:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -688,8 +688,8 @@
    "id": "9829396",
    "sequence": "2026-11-35740",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T16:30:10Z",
+   "status": "Stacked",
+   "status_at": "2026-11-25T16:12:31Z",
    "created": "2026-11-25T16:11:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -707,7 +707,7 @@
    "lat": 35.153815,
    "lon": -85.196872,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -787,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829338",
-   "sequence": "2026-11-35698",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T15:53:11Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4108 BENNETT RD",
-   "cross": "GREENS LAKE RD/PIONEER RIDGE TRL",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.990807,
-   "lon": -85.251764,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829311",
@@ -949,7 +923,7 @@
    "sequence": "2026-11-35507",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T17:09:34Z",
    "created": "2026-11-25T13:44:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -988,7 +962,7 @@
    "address": "2415 ELAM LN",
    "cross": "LIFESTYLE WAY/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "",
+   "zone": "C9",
    "priority": "PRI 4",
    "lat": 35.046039,
    "lon": -85.149673,
