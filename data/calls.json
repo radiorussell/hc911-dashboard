@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-25T11:25:38+00:00",
+ "updated": "2026-11-25T11:30:40+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 205,
+  "year": 373187,
+  "upstream_day": 137,
+  "day": 210,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9828939",
+   "sequence": "2026-11-35398",
+   "type": "Interpreter Call",
+   "status": "Queued",
+   "status_at": "2026-11-25T11:30:28Z",
+   "created": "2026-11-25T11:30:23Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3343 GLEASON DR",
+   "cross": "DARRYL LN/GLEASON CIR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 0",
+   "lat": 35.011788,
+   "lon": -85.255072,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828934",
    "sequence": "2026-11-35393",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T11:27:24Z",
    "created": "2026-11-25T11:21:17Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
