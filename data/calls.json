@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T23:10:37+00:00",
+ "updated": "2026-11-25T23:15:37+00:00",
  "counts": {
   "year": 373908,
   "upstream_day": 855,
-  "day": 1172,
+  "day": 1176,
   "day_basis": "midnight"
  },
- "raw_rows": 45,
+ "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9830334",
+   "sequence": "2026-11-36363",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:14:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "APISON PIKE / OLD LEE HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "TRI-COMM FD 23-1 CH",
+   "priority": "PRI 1",
+   "lat": 35.069716,
+   "lon": -85.100607,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830332",
+   "sequence": "2026-11-36362",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:14:20Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "APISON PIKE / OLD LEE HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "TRI-COMM FD 23-1 CH",
+   "priority": "PRI 1",
+   "lat": 35.069716,
+   "lon": -85.100607,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830327",
+   "sequence": "2026-11-36364",
+   "type": "Not Endangered",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:14:30Z",
+   "created": "2026-11-25T23:12:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5584 JEWELL RD",
+   "cross": "COLT LN/BARN RD",
+   "city": "CHATTANOOGA",
+   "zone": "EAST 5",
+   "priority": "PRI 2",
+   "lat": 35.109687,
+   "lon": -85.148435,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9830326",
    "sequence": "2026-11-36360",
@@ -193,7 +271,7 @@
   {
    "id": "9830306",
    "sequence": "2026-11-36351",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-25T23:08:12Z",
    "created": "2026-11-25T22:52:41Z",
@@ -209,7 +287,7 @@
    "cross": "EXIT 3A OFF RAMP NB/EXIT 3B OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C8",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.013861,
    "lon": -85.182017,
    "units": 1,
@@ -220,8 +298,8 @@
    "id": "9830307",
    "sequence": "2026-11-36350",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:11:05Z",
    "created": "2026-11-25T22:52:27Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -321,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9830302",
-   "sequence": "2026-11-36346",
-   "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": "2026-11-25T22:57:22Z",
-   "created": "2026-11-25T22:50:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.152975,
-   "lon": -85.24562,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830294",
    "sequence": "2026-11-36340",
    "type": "Assault PD Only",
@@ -376,8 +428,8 @@
    "id": "9830268",
    "sequence": "2026-11-36326",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:14:30Z",
    "created": "2026-11-25T22:43:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -403,7 +455,7 @@
    "sequence": "2026-11-36333",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T23:12:59Z",
    "created": "2026-11-25T22:43:16Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -428,8 +480,8 @@
    "id": "9830267",
    "sequence": "2026-11-36327",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T23:07:06Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T23:13:16Z",
    "created": "2026-11-25T22:43:07Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9830258",
-   "sequence": "2026-11-36321",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:46:29Z",
-   "created": "2026-11-25T22:39:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1414 CONTINENTAL DR",
-   "cross": "HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1201",
-   "priority": "PRI 1",
-   "lat": 35.086058,
-   "lon": -85.286162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830256",
    "sequence": "2026-11-36319",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:49:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T23:11:59Z",
    "created": "2026-11-25T22:39:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -527,58 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830251",
-   "sequence": "2026-11-36315",
-   "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": "2026-11-25T22:46:57Z",
-   "created": "2026-11-25T22:37:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "760 INTERSTATE 75 NB",
-   "cross": "EXIT 7 OFF RAMP NB/EXIT 7B ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.061482,
-   "lon": -85.128783,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830250",
-   "sequence": "2026-11-36314",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:45:02Z",
-   "created": "2026-11-25T22:36:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "760 INTERSTATE 75 NB",
-   "cross": "EXIT 7 OFF RAMP NB/EXIT 7B ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "702",
-   "priority": "PRI 1",
-   "lat": 35.061482,
-   "lon": -85.128783,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830245",
@@ -711,58 +685,6 @@
    "notable": false
   },
   {
-   "id": "9830229",
-   "sequence": "2026-11-36299",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:00:26Z",
-   "created": "2026-11-25T22:18:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "421 - 479 INTERSTATE 75 SB",
-   "cross": "EXIT 3 OFF RAMP SB/EXIT 4 OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.027947,
-   "lon": -85.171998,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830212",
-   "sequence": "2026-11-36286",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:25:47Z",
-   "created": "2026-11-25T22:13:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "941 - 1129 INTERSTATE 75 NB",
-   "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.083841,
-   "lon": -85.074266,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830209",
    "sequence": "2026-11-36284",
    "type": "EMS CALL",
@@ -789,37 +711,11 @@
    "notable": false
   },
   {
-   "id": "9830200",
-   "sequence": "2026-11-36275",
-   "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T22:07:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.036222,
-   "lon": -85.158528,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830198",
    "sequence": "2026-11-36276",
    "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-25T22:07:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:06:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -837,7 +733,7 @@
    "lat": 35.002071,
    "lon": -85.155804,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -1026,8 +922,8 @@
    "id": "9830065",
    "sequence": "2026-11-36172",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-25T21:15:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:15:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1044,32 +940,6 @@
    "priority": "PRI 4",
    "lat": 35.069864,
    "lon": -85.295791,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9830059",
-   "sequence": "2026-11-36169",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:12:27Z",
-   "created": "2026-11-25T21:12:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5600 BRAINERD RD",
-   "cross": "EASTGATE LOOP/BELAIRE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.007317,
-   "lon": -85.214854,
    "units": 1,
    "stacked": false,
    "notable": false
