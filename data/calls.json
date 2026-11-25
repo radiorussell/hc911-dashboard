@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-25T16:40:37+00:00",
+ "updated": "2026-11-25T16:45:39+00:00",
  "counts": {
   "year": 373457,
   "upstream_day": 406,
-  "day": 570,
+  "day": 578,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9829446",
+   "sequence": "2026-11-35765",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:44:13Z",
+   "created": "2026-11-25T16:44:13Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3202 EASTON AVE",
+   "cross": "TIKTIN DR/LUPTON DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.105783,
+   "lon": -85.293906,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829447",
+   "sequence": "2026-11-35766",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:44:13Z",
+   "created": "2026-11-25T16:44:13Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3202 EASTON AVE",
+   "cross": "TIKTIN DR/LUPTON DR",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 2",
+   "lat": 35.105783,
+   "lon": -85.293906,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829444",
+   "sequence": "2026-11-35764",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:43:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3202 EASTON AVE",
+   "cross": "TIKTIN DR/LUPTON DR",
+   "city": "RED BANK",
+   "zone": "MEDIC 06 RB C",
+   "priority": "PRI 1",
+   "lat": 35.105783,
+   "lon": -85.293906,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829443",
+   "sequence": "2026-11-35763",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T16:43:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7507 CLYDE RD",
+   "cross": "JOINER RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.01578,
+   "lon": -85.159246,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9829442",
+   "sequence": "2026-11-35762",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:43:43Z",
+   "created": "2026-11-25T16:43:43Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7507 CLYDE RD",
+   "cross": "JOINER RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 2",
+   "lat": 35.01578,
+   "lon": -85.159246,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829440",
+   "sequence": "2026-11-35761",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:43:43Z",
+   "created": "2026-11-25T16:43:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7507 CLYDE RD",
+   "cross": "JOINER RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.01578,
+   "lon": -85.159246,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9829427",
    "sequence": "2026-11-35756",
@@ -38,8 +194,8 @@
    "id": "9829428",
    "sequence": "2026-11-35757",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:38:42Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T16:38:42Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -64,8 +220,8 @@
    "id": "9829424",
    "sequence": "2026-11-35758",
    "type": "Smoke Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:44:44Z",
    "created": "2026-11-25T16:38:34Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +246,8 @@
    "id": "9829426",
    "sequence": "2026-11-35755",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T16:42:45Z",
    "created": "2026-11-25T16:38:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -113,63 +269,11 @@
    "notable": false
   },
   {
-   "id": "9829415",
-   "sequence": "2026-11-35750",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:26:12Z",
-   "created": "2026-11-25T16:26:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7425 ZIEGLER RD",
-   "cross": "GUNBARREL RD/HENEGAR CIR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.01968,
-   "lon": -85.158656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829416",
-   "sequence": "2026-11-35751",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T16:26:12Z",
-   "created": "2026-11-25T16:26:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7425 ZIEGLER RD",
-   "cross": "GUNBARREL RD/HENEGAR CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.01968,
-   "lon": -85.158656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829413",
    "sequence": "2026-11-35749",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T16:29:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T16:42:14Z",
    "created": "2026-11-25T16:25:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,58 +373,6 @@
    "notable": false
   },
   {
-   "id": "9829384",
-   "sequence": "2026-11-35734",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-25T16:22:01Z",
-   "created": "2026-11-25T16:07:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "W 4TH ST / MARKET ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.052307,
-   "lon": -85.309628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829379",
-   "sequence": "2026-11-35729",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-25T16:15:59Z",
-   "created": "2026-11-25T16:05:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 E 11TH ST",
-   "cross": "GEORGIA AVE/COLUMBIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.043885,
-   "lon": -85.308959,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829376",
    "sequence": "2026-11-35728",
    "type": "Police Assist Citizen",
@@ -350,8 +402,8 @@
    "id": "9829373",
    "sequence": "2026-11-35725",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T16:13:30Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T16:44:31Z",
    "created": "2026-11-25T16:04:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -555,58 +607,6 @@
    "notable": false
   },
   {
-   "id": "9829288",
-   "sequence": "2026-11-35658",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T16:03:15Z",
-   "created": "2026-11-25T15:26:59Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8276 CARLITOS LN",
-   "cross": "No Cross Street/BALLEW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.216658,
-   "lon": -85.175683,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829260",
-   "sequence": "2026-11-35640",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T15:51:53Z",
-   "created": "2026-11-25T15:15:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4335 SPRIGGS ST",
-   "cross": "VESTER LN/MCBRIEN RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.990649,
-   "lon": -85.238376,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829189",
    "sequence": "2026-11-35593",
    "type": "MVC No Injuries",
@@ -683,6 +683,32 @@
    "units": 1,
    "stacked": false,
    "notable": true
+  },
+  {
+   "id": "9829083",
+   "sequence": "2026-11-35507",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-25T16:42:21Z",
+   "created": "2026-11-25T13:44:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7010 MCCUTCHEON RD",
+   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.046416,
+   "lon": -85.15728,
+   "units": 1,
+   "stacked": false,
+   "notable": false
   }
  ]
 }
