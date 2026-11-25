@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T13:45:37+00:00",
+ "updated": "2026-11-25T13:50:37+00:00",
  "counts": {
-  "year": 373245,
-  "upstream_day": 194,
-  "day": 319,
+  "year": 373259,
+  "upstream_day": 208,
+  "day": 321,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9829085",
+   "sequence": "2026-11-35509",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-25T13:49:19Z",
+   "created": "2026-11-25T13:49:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2808 4TH AVE",
+   "cross": "E 28TH ST/E 29TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "",
+   "priority": "PRI 4",
+   "lat": 35.010636,
+   "lon": -85.283293,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9829083",
    "sequence": "2026-11-35507",
@@ -90,8 +116,8 @@
    "id": "9829076",
    "sequence": "2026-11-35501",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:50:21Z",
    "created": "2026-11-25T13:42:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9829069",
    "sequence": "2026-11-35493",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:49:34Z",
    "created": "2026-11-25T13:38:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -247,7 +273,7 @@
    "sequence": "2026-11-35487",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T13:46:59Z",
    "created": "2026-11-25T13:36:32Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -272,8 +298,8 @@
    "id": "9829062",
    "sequence": "2026-11-35488",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:46:33Z",
    "created": "2026-11-25T13:36:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9829063",
-   "sequence": "2026-11-35491",
-   "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T13:36:26Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6018 WELWORTH AVE",
-   "cross": "YALE ST/SEWANEE DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 34.994867,
-   "lon": -85.220005,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9829052",
    "sequence": "2026-11-35482",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:45:43Z",
    "created": "2026-11-25T13:31:33Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -347,37 +347,11 @@
    "notable": true
   },
   {
-   "id": "9829049",
-   "sequence": "2026-11-35481",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T13:31:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2301 RODEO DR",
-   "cross": "SHALLOWFORD RD/CORRAL TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 35.03127,
-   "lon": -85.125058,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829050",
    "sequence": "2026-11-35483",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T13:50:14Z",
    "created": "2026-11-25T13:31:02Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -477,37 +451,11 @@
    "notable": false
   },
   {
-   "id": "9829028",
-   "sequence": "2026-11-35466",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:20:26Z",
-   "created": "2026-11-25T13:20:26Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.988101,
-   "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829025",
    "sequence": "2026-11-35465",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T13:43:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-25T13:50:25Z",
    "created": "2026-11-25T13:19:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829024",
-   "sequence": "2026-11-35464",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T13:19:46Z",
-   "created": "2026-11-25T13:19:46Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.09006,
-   "lon": -85.066629,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -576,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.09006,
    "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829018",
-   "sequence": "2026-11-35461",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": "2026-11-25T13:23:49Z",
-   "created": "2026-11-25T13:18:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4217 3RD AVE",
-   "cross": "SHORT ST/CROSS ST",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.081866,
-   "lon": -85.202683,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -715,7 +611,7 @@
    "sequence": "2026-11-35428",
    "type": "Theft From a Vehicle",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T13:46:59Z",
    "created": "2026-11-25T12:42:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
