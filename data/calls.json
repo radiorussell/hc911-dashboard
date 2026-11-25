@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T07:05:43+00:00",
+ "updated": "2026-11-25T07:10:39+00:00",
  "counts": {
   "year": 373098,
   "upstream_day": 48,
-  "day": 84,
+  "day": 86,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9828773",
+   "sequence": "2026-11-35274",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-25T07:08:10Z",
+   "created": "2026-11-25T07:06:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3167 ELMENDORF CIR",
+   "cross": "AMNICOLA HWY/WISDOM ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.080362,
+   "lon": -85.26376,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828772",
    "sequence": "2026-11-35272",
@@ -169,7 +195,7 @@
    "sequence": "2026-11-35263",
    "type": "Unknown 911",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-25T07:06:22Z",
    "created": "2026-11-25T06:44:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
