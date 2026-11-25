@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-25T18:00:38+00:00",
+ "updated": "2026-11-25T18:05:38+00:00",
  "counts": {
   "year": 373564,
   "upstream_day": 512,
-  "day": 719,
+  "day": 725,
   "day_basis": "midnight"
  },
  "raw_rows": 41,
  "incidents": [
   {
+   "id": "9829662",
+   "sequence": "2026-11-35912",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T18:03:23Z",
+   "created": "2026-11-25T18:03:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4850 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.012748,
+   "lon": -85.228911,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829663",
+   "sequence": "2026-11-35913",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T18:03:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4850 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "1301 A",
+   "priority": "PRI 3",
+   "lat": 35.012748,
+   "lon": -85.228911,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829660",
+   "sequence": "2026-11-35911",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T18:02:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4850 BRAINERD RD",
+   "cross": "N LARCHMONT AVE/CLUB DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.012748,
+   "lon": -85.228911,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9829655",
+   "sequence": "2026-11-35909",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T18:00:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7000 LEE HWY",
+   "cross": "SHALLOWFORD RD/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.044865,
+   "lon": -85.16167,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9829654",
    "sequence": "2026-11-35907",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T18:00:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T17:59:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +217,6 @@
    "notable": true
   },
   {
-   "id": "9829627",
-   "sequence": "2026-11-35892",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T17:59:18Z",
-   "created": "2026-11-25T17:48:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7029 LEE HWY",
-   "cross": "SHALLOWFORD RD/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.046272,
-   "lon": -85.160693,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829626",
    "sequence": "2026-11-35893",
    "type": "Auto Broken Down Road",
@@ -194,8 +272,8 @@
    "id": "9829617",
    "sequence": "2026-11-35887",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T18:01:47Z",
    "created": "2026-11-25T17:45:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9829572",
-   "sequence": "2026-11-35860",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:44:00Z",
-   "created": "2026-11-25T17:32:45Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6711 WHITE OAK VALLEY CIR",
-   "cross": "DEERING GREEN LN/PHOEBE LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 1",
-   "lat": 35.099058,
-   "lon": -85.021498,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829570",
    "sequence": "2026-11-35858",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:50:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T18:03:18Z",
    "created": "2026-11-25T17:32:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +532,8 @@
    "id": "9829563",
    "sequence": "2026-11-35851",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:47:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T18:02:54Z",
    "created": "2026-11-25T17:28:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -527,32 +579,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9829553",
-   "sequence": "2026-11-35843",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T17:42:45Z",
-   "created": "2026-11-25T17:26:43Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "307 E 8TH ST",
-   "cross": "LINDSAY ST/HOUSTON ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.046639,
-   "lon": -85.305603,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9829545",
@@ -607,37 +633,11 @@
    "notable": false
   },
   {
-   "id": "9829540",
-   "sequence": "2026-11-35835",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:23:36Z",
-   "created": "2026-11-25T17:23:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5798 HIXSON HOME PL",
-   "cross": "OLD HIXSON PIKE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1102",
-   "priority": "PRI 2",
-   "lat": 35.152001,
-   "lon": -85.226459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829537",
    "sequence": "2026-11-35834",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:38:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T18:01:02Z",
    "created": "2026-11-25T17:22:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -919,32 +919,6 @@
    "notable": false
   },
   {
-   "id": "9829445",
-   "sequence": "2026-11-35767",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-25T17:01:04Z",
-   "created": "2026-11-25T16:44:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1713 LITTLE RIDGE RD",
-   "cross": "BIG RIDGE RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.134606,
-   "lon": -85.194498,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9829396",
    "sequence": "2026-11-35740",
    "type": "MVC No Injuries",
@@ -1044,6 +1018,32 @@
    "priority": "PRI 4",
    "lat": 34.989821,
    "lon": -85.302866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828256",
+   "sequence": "2026-11-34881",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-25T18:04:55Z",
+   "created": "2026-11-24T23:41:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIXSON PIKE / DARTMOUTH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 4",
+   "lat": 35.069935,
+   "lon": -85.289259,
    "units": 1,
    "stacked": false,
    "notable": false
