@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T05:25:39+00:00",
+ "updated": "2026-11-25T05:30:38+00:00",
  "counts": {
   "year": 373061,
   "upstream_day": 11,
-  "day": 18,
+  "day": 27,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9828694",
+   "sequence": "2026-11-35215",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:29:58Z",
+   "created": "2026-11-25T05:29:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3203 S ORCHARD KNOB AVE",
+   "cross": "E 32ND ST/E 33RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 1",
+   "lat": 35.007592,
+   "lon": -85.290254,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828692",
+   "sequence": "2026-11-35211",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T05:26:06Z",
+   "created": "2026-11-25T05:25:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2500 - 2598 MAPLE ST",
+   "cross": "WALNUT ST/PINE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 1",
+   "lat": 35.09053,
+   "lon": -85.2342,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828690",
+   "sequence": "2026-11-35212",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T05:25:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2514 MAPLE ST",
+   "cross": "WALNUT ST/PINE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.090255,
+   "lon": -85.23447,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828682",
    "sequence": "2026-11-35206",
@@ -30,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.012193,
    "lon": -85.316388,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828683",
-   "sequence": "2026-11-35205",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-25T05:14:52Z",
-   "created": "2026-11-25T05:14:52Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "22 W ONTARIO AVE",
-   "cross": "DEFUE ST/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 2",
-   "lat": 35.09408,
-   "lon": -85.309,
    "units": 1,
    "stacked": false,
    "notable": false
