@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-25T01:35:42+00:00",
+ "updated": "2026-11-25T01:40:40+00:00",
  "counts": {
   "year": 372918,
   "upstream_day": 0,
-  "day": 1297,
+  "day": 1303,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9828444",
+   "sequence": "2026-11-35031",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:39:21Z",
+   "created": "2026-11-25T01:38:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3401 CAMPBELL ST",
+   "cross": "GROVE ST/BIRCHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.073813,
+   "lon": -85.239234,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828436",
    "sequence": "2026-11-35025",
@@ -269,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9828403",
-   "sequence": "2026-11-35002",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T01:14:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7310 STANDIFER GAP RD",
-   "cross": "LEE HWY/COURAGE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.051313,
-   "lon": -85.147882,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9828402",
    "sequence": "2026-11-34997",
    "type": "Police Assist Citizen",
@@ -316,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.015638,
    "lon": -85.286087,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828401",
-   "sequence": "2026-11-34996",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-25T01:19:37Z",
-   "created": "2026-11-25T01:12:18Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7205 TAILGATE LOOP",
-   "cross": "No Cross Street/PROVIDENCE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.135648,
-   "lon": -85.058021,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -527,32 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828368",
-   "sequence": "2026-11-34970",
-   "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": "2026-11-25T01:00:13Z",
-   "created": "2026-11-25T00:53:07Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1335 ASLINGER RD",
-   "cross": "HOWARD FARM LN/ANDY THOMAS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 1",
-   "lat": 35.415344,
-   "lon": -85.058831,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828366",
