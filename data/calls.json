@@ -1,116 +1,38 @@
 {
- "updated": "2026-11-25T22:15:37+00:00",
+ "updated": "2026-11-25T22:20:38+00:00",
  "counts": {
-  "year": 373847,
-  "upstream_day": 794,
-  "day": 1105,
+  "year": 373854,
+  "upstream_day": 801,
+  "day": 1111,
   "day_basis": "midnight"
  },
- "raw_rows": 46,
+ "raw_rows": 39,
  "incidents": [
   {
-   "id": "9830221",
-   "sequence": "2026-11-36292",
-   "type": "MVC Injuries",
+   "id": "9830229",
+   "sequence": "2026-11-36299",
+   "type": "MVC No Injuries",
    "status": "Queued",
-   "status_at": "2026-11-25T22:14:17Z",
-   "created": "2026-11-25T22:14:17Z",
-   "jurisdiction": "Tri-Community FD",
+   "status_at": "2026-11-25T22:18:37Z",
+   "created": "2026-11-25T22:18:17Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1130 - 1179 INTERSTATE 75 NB",
-   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
-   "priority": "PRI 1",
-   "lat": 35.084195,
-   "lon": -85.073266,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830222",
-   "sequence": "2026-11-36293",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:14:17Z",
-   "created": "2026-11-25T22:14:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1130 - 1179 INTERSTATE 75 NB",
-   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
-   "priority": "PRI 1",
-   "lat": 35.084195,
-   "lon": -85.073266,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830220",
-   "sequence": "2026-11-36291",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:14:17Z",
-   "created": "2026-11-25T22:14:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1130 - 1179 INTERSTATE 75 NB",
-   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 05 CH A",
-   "priority": "PRI 1",
-   "lat": 35.084195,
-   "lon": -85.073266,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830211",
-   "sequence": "2026-11-36290",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:14:17Z",
-   "created": "2026-11-25T22:13:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1130 - 1179 INTERSTATE 75 NB",
-   "cross": "EXIT 11 OFF RAMP NB/EXIT 11 ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.084195,
-   "lon": -85.073266,
+   "address": "10 INTERSTATE 75 NB",
+   "cross": "EXIT 1 OFF RAMP NB/EXIT 1A ON RAMP NB",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.986814,
+   "lon": -85.201835,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9830217",
@@ -145,9 +67,9 @@
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-25T22:13:48Z",
-   "jurisdiction": "Tri-Community FD",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Tri-Community FD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
@@ -156,7 +78,7 @@
    "address": "940 - 1129 INTERSTATE 75 NB",
    "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
    "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
+   "zone": "",
    "priority": "PRI 1",
    "lat": 35.07565,
    "lon": -85.105653,
@@ -220,8 +142,8 @@
    "id": "9830212",
    "sequence": "2026-11-36286",
    "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T22:13:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T22:13:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +220,8 @@
    "id": "9830201",
    "sequence": "2026-11-36273",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T22:18:38Z",
    "created": "2026-11-25T22:07:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +350,8 @@
    "id": "9830189",
    "sequence": "2026-11-36263",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:08:24Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T22:20:31Z",
    "created": "2026-11-25T21:59:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -444,32 +366,6 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 1",
-   "lat": 35.043317,
-   "lon": -85.318182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830179",
-   "sequence": "2026-11-36260",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:02:51Z",
-   "created": "2026-11-25T21:56:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1222 GROVE STREET CT",
-   "cross": "GROVE ST/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 2",
    "lat": 35.043317,
    "lon": -85.318182,
    "units": 1,
@@ -555,6 +451,32 @@
    "notable": false
   },
   {
+   "id": "9830169",
+   "sequence": "2026-11-36251",
+   "type": "MVC Injuries",
+   "status": "Transporting",
+   "status_at": "2026-11-25T22:20:06Z",
+   "created": "2026-11-25T21:54:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "LEE HWY / TYNER RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9830170",
    "sequence": "2026-11-36252",
    "type": "MVC Injuries",
@@ -573,32 +495,6 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.056774,
-   "lon": -85.140775,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830169",
-   "sequence": "2026-11-36251",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T22:04:32Z",
-   "created": "2026-11-25T21:54:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "LEE HWY / TYNER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
    "lat": 35.056774,
    "lon": -85.140775,
@@ -737,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9830152",
-   "sequence": "2026-11-36234",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:57:40Z",
-   "created": "2026-11-25T21:49:55Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "CHURCH ST / MAIN ST",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 CO C",
-   "priority": "PRI 1",
-   "lat": 35.072881,
-   "lon": -85.06291,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830151",
    "sequence": "2026-11-36233",
    "type": "MVC Injuries",
@@ -813,32 +683,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830124",
-   "sequence": "2026-11-36215",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:43:30Z",
-   "created": "2026-11-25T21:37:52Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7426 EMANON RD",
-   "cross": "HIGHWAY 58/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.160467,
-   "lon": -85.082872,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830122",
@@ -1000,8 +844,8 @@
    "id": "9830065",
    "sequence": "2026-11-36172",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-25T21:15:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:15:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -1019,7 +863,7 @@
    "lat": 35.069864,
    "lon": -85.295791,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -1122,32 +966,6 @@
    "priority": "PRI 1",
    "lat": 35.08874,
    "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830007",
-   "sequence": "2026-11-36132",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T21:42:00Z",
-   "created": "2026-11-25T20:38:38Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
    "units": 1,
    "stacked": false,
    "notable": false
