@@ -1,19 +1,305 @@
 {
- "updated": "2026-11-25T21:45:36+00:00",
+ "updated": "2026-11-25T21:50:36+00:00",
  "counts": {
-  "year": 373804,
-  "upstream_day": 751,
-  "day": 1035,
+  "year": 373816,
+  "upstream_day": 763,
+  "day": 1052,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9830157",
+   "sequence": "2026-11-36238",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:50:16Z",
+   "created": "2026-11-25T21:50:16Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5600 - 5699 HICKORY ST",
+   "cross": "SCARLET OAK LN/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC I",
+   "priority": "PRI 1",
+   "lat": 35.071263,
+   "lon": -85.057229,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830156",
+   "sequence": "2026-11-36237",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:50:16Z",
+   "created": "2026-11-25T21:50:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5600 - 5699 HICKORY ST",
+   "cross": "SCARLET OAK LN/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 D",
+   "priority": "PRI 3",
+   "lat": 35.071263,
+   "lon": -85.057229,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830153",
+   "sequence": "2026-11-36236",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:50:16Z",
+   "created": "2026-11-25T21:50:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5600 - 5699 HICKORY ST",
+   "cross": "SCARLET OAK LN/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.071263,
+   "lon": -85.057229,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830154",
+   "sequence": "2026-11-36240",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:50:34Z",
+   "created": "2026-11-25T21:50:08Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830151",
+   "sequence": "2026-11-36233",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T21:49:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "CHURCH ST / MAIN ST",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.072881,
+   "lon": -85.06291,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830152",
+   "sequence": "2026-11-36234",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:49:55Z",
+   "created": "2026-11-25T21:49:55Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "CHURCH ST / MAIN ST",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 CO C",
+   "priority": "PRI 1",
+   "lat": 35.072881,
+   "lon": -85.06291,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830145",
+   "sequence": "2026-11-36231",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:48:17Z",
+   "created": "2026-11-25T21:47:46Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3704 WHITEHEAD AVE",
+   "cross": "No Cross Street/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.99702,
+   "lon": -85.260601,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830143",
+   "sequence": "2026-11-36230",
+   "type": "Shots Fired",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:47:55Z",
+   "created": "2026-11-25T21:47:42Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5509 PEARL ST",
+   "cross": "WALNUT ST/ANN ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 D",
+   "priority": "PRI 1",
+   "lat": 35.071074,
+   "lon": -85.062513,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830141",
+   "sequence": "2026-11-36229",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:47:44Z",
+   "created": "2026-11-25T21:47:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TYNER RD / LEE HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830139",
+   "sequence": "2026-11-36227",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-25T21:47:10Z",
+   "created": "2026-11-25T21:46:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TYNER RD / LEE HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830138",
+   "sequence": "2026-11-36226",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T21:46:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LEE HWY / TYNER RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.056774,
+   "lon": -85.140775,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830132",
    "sequence": "2026-11-36223",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:44:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:44:33Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -167,7 +453,7 @@
   {
    "id": "9830116",
    "sequence": "2026-11-36210",
-   "type": "MVC No Injuries",
+   "type": "MVC Injuries",
    "status": "Enroute",
    "status_at": "2026-11-25T21:33:23Z",
    "created": "2026-11-25T21:33:23Z",
@@ -183,12 +469,12 @@
    "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 3 E",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.072881,
    "lon": -85.06291,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9830104",
@@ -298,8 +584,8 @@
    "id": "9830094",
    "sequence": "2026-11-36190",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:24:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T21:24:06Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -376,7 +662,7 @@
    "id": "9830065",
    "sequence": "2026-11-36172",
    "type": "Supplemental Reports",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-25T21:15:20Z",
    "created": "2026-11-25T21:15:01Z",
    "jurisdiction": "Chattanooga PD",
@@ -395,7 +681,7 @@
    "lat": 35.069864,
    "lon": -85.295791,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -420,32 +706,6 @@
    "priority": "PRI 3",
    "lat": 35.007317,
    "lon": -85.214854,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830056",
-   "sequence": "2026-11-36167",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:14:31Z",
-   "created": "2026-11-25T21:07:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5697 OLD HIXSON PIKE",
-   "cross": "HIXSON HOME PL/MIDDLE VALLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.15232,
-   "lon": -85.219774,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +870,8 @@
    "id": "9829980",
    "sequence": "2026-11-36115",
    "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-25T21:30:02Z",
+   "status": "Stacked",
+   "status_at": "2026-11-25T20:25:45Z",
    "created": "2026-11-25T20:25:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -629,33 +889,7 @@
    "lat": 35.021518,
    "lon": -85.36594,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9829958",
-   "sequence": "2026-11-36102",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T21:09:12Z",
-   "created": "2026-11-25T20:15:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1664 GREENDALE WAY",
-   "cross": "CLOVERDALE DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.127007,
-   "lon": -85.244889,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
