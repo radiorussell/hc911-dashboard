@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-25T11:50:40+00:00",
+ "updated": "2026-11-25T11:55:43+00:00",
  "counts": {
-  "year": 373195,
-  "upstream_day": 145,
-  "day": 219,
+  "year": 373197,
+  "upstream_day": 147,
+  "day": 225,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9828955",
+   "sequence": "2026-11-35413",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:54:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "180 HIGHWAY 153 NB",
+   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "804",
+   "priority": "PRI 1",
+   "lat": 35.04528,
+   "lon": -85.187363,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9828954",
+   "sequence": "2026-11-35412",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T11:54:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "180 HIGHWAY 153 NB",
+   "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.04528,
+   "lon": -85.187363,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9828948",
    "sequence": "2026-11-35407",
@@ -82,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.04528,
    "lon": -85.187363,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828944",
-   "sequence": "2026-11-35403",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T11:44:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1330 HIGHLAND WAY",
-   "cross": "EASY LN/NORCROSS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.120523,
-   "lon": -85.260663,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -193,7 +219,7 @@
   {
    "id": "9828923",
    "sequence": "2026-11-35385",
-   "type": "MVC No Injuries",
+   "type": "MVC Injuries",
    "status": "On Scene",
    "status_at": "2026-11-25T11:16:40Z",
    "created": "2026-11-25T11:09:41Z",
@@ -209,12 +235,12 @@
    "cross": "EXIT SHEPHERD RD ON RAMP NB/EXIT SHALLOWFORD RD OFF RAMP NB",
    "city": "CHATTANOOGA",
    "zone": "C6",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.04528,
    "lon": -85.187363,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9828917",
