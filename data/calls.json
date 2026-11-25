@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-25T01:30:39+00:00",
+ "updated": "2026-11-25T01:35:42+00:00",
  "counts": {
-  "year": 372909,
+  "year": 372918,
   "upstream_day": 0,
-  "day": 1288,
+  "day": 1297,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9828436",
+   "sequence": "2026-11-35025",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:33:45Z",
+   "created": "2026-11-25T01:33:45Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11229 HIXSON PIKE",
+   "cross": "MARINA CIR/CAPTAINS COVE DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 1",
+   "lat": 35.270329,
+   "lon": -85.13383,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828435",
+   "sequence": "2026-11-35024",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T01:33:45Z",
+   "created": "2026-11-25T01:33:45Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11229 HIXSON PIKE",
+   "cross": "MARINA CIR/CAPTAINS COVE DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.270329,
+   "lon": -85.13383,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9828433",
+   "sequence": "2026-11-35023",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T01:32:32Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "11229 HIXSON PIKE",
+   "cross": "MARINA CIR/CAPTAINS COVE DR",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.270329,
+   "lon": -85.13383,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9828421",
    "sequence": "2026-11-35014",
@@ -272,8 +350,8 @@
    "id": "9828399",
    "sequence": "2026-11-34994",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:17:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-25T01:34:04Z",
    "created": "2026-11-25T01:11:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -293,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9828394",
-   "sequence": "2026-11-34991",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T01:18:11Z",
-   "created": "2026-11-25T01:04:47Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7126 - 7626 HIGHWAY 60",
-   "cross": "ANDERSON LN/B AND K RANCH RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 4",
-   "priority": "PRI 1",
-   "lat": 35.32172,
-   "lon": -84.96693,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9828386",
@@ -428,8 +480,8 @@
    "id": "9828370",
    "sequence": "2026-11-34971",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T01:35:08Z",
    "created": "2026-11-25T00:54:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -576,32 +628,6 @@
    "priority": "PRI 4",
    "lat": 35.007118,
    "lon": -85.287352,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9828316",
-   "sequence": "2026-11-34929",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T01:01:03Z",
-   "created": "2026-11-25T00:16:11Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "529 E 52ND ST",
-   "cross": "FAGAN ST/TANNER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.990005,
-   "lon": -85.312856,
    "units": 1,
    "stacked": false,
    "notable": false
