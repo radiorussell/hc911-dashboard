@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-26T09:45:37+00:00",
+ "updated": "2026-11-26T09:50:44+00:00",
  "counts": {
-  "year": 374255,
-  "upstream_day": 118,
-  "day": 167,
+  "year": 374256,
+  "upstream_day": 119,
+  "day": 173,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831041",
+   "sequence": "2026-11-36833",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T09:49:06Z",
+   "created": "2026-11-26T09:49:06Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1900 HIDDEN HARBOR RD",
+   "cross": "LAKE MEADOWS DR/HARBOR MASTER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.153825,
+   "lon": -85.180267,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831042",
+   "sequence": "2026-11-36834",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T09:49:06Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1900 HIDDEN HARBOR RD",
+   "cross": "LAKE MEADOWS DR/HARBOR MASTER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.153825,
+   "lon": -85.180267,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831040",
+   "sequence": "2026-11-36832",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T09:48:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1900 HIDDEN HARBOR RD",
+   "cross": "LAKE MEADOWS DR/HARBOR MASTER DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 12 HC C",
+   "priority": "PRI 1",
+   "lat": 35.153825,
+   "lon": -85.180267,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831039",
+   "sequence": "2026-11-36831",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T09:46:56Z",
+   "created": "2026-11-26T09:46:56Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2200 DAVENPORT ST",
+   "cross": "CHEEK ST/CRUTCHFIELD ST",
+   "city": "CHATTANOOGA",
+   "zone": "406",
+   "priority": "PRI 2",
+   "lat": 35.062415,
+   "lon": -85.25241,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831038",
+   "sequence": "2026-11-36835",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-26T09:50:08Z",
+   "created": "2026-11-26T09:46:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5208 HIGHWAY 153",
+   "cross": "HAMILL RD/NORTHGATE MALL DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.124128,
+   "lon": -85.239266,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831037",
+   "sequence": "2026-11-36830",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T09:46:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2200 DAVENPORT ST",
+   "cross": "CHEEK ST/CRUTCHFIELD ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.062415,
+   "lon": -85.25241,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831036",
    "sequence": "2026-11-36829",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T09:49:39Z",
    "created": "2026-11-26T09:41:01Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
