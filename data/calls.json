@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T15:18:18+00:00",
+ "updated": "2026-11-26T15:20:37+00:00",
  "counts": {
   "year": 374417,
   "upstream_day": 280,
   "day": 382,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
   {
    "id": "9831374",
@@ -59,32 +59,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831369",
-   "sequence": "2026-11-37040",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:09:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5425 HIGHWAY 153",
-   "cross": "HWY 153 SB @ HIXSON PK SB - OFF RAMP/NORTHPOINT BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.138164,
-   "lon": -85.24936,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831367",
@@ -220,8 +194,8 @@
    "id": "9831357",
    "sequence": "2026-11-37029",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:19:40Z",
    "created": "2026-11-26T15:01:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
