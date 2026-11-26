@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T21:45:37+00:00",
+ "updated": "2026-11-26T21:50:37+00:00",
  "counts": {
-  "year": 374672,
-  "upstream_day": 535,
-  "day": 726,
+  "year": 374678,
+  "upstream_day": 541,
+  "day": 731,
   "day_basis": "midnight"
  },
  "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9831866",
+   "sequence": "2026-11-37393",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T21:48:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3010 ORTON ST",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 2",
+   "lat": 35.073339,
+   "lon": -85.251902,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831865",
+   "sequence": "2026-11-37391",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T21:46:00Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "604 BACON TRL",
+   "cross": "NORTHVIEW AVE/WILEY AVE",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.010344,
+   "lon": -85.245453,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831862",
    "sequence": "2026-11-37388",
@@ -169,7 +221,7 @@
    "sequence": "2026-11-37372",
    "type": "Auto Broken Down",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T21:47:01Z",
    "created": "2026-11-26T21:25:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9831826",
-   "sequence": "2026-11-37359",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:15:31Z",
-   "created": "2026-11-26T21:09:49Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6601 - 6617 RINGGOLD RD",
-   "cross": "SLATER RD/EXIT 1 ON RAMP SB",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.989789,
-   "lon": -85.205088,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831820",
    "sequence": "2026-11-37355",
    "type": "MVC Injuries",
@@ -298,8 +324,8 @@
    "id": "9831817",
    "sequence": "2026-11-37349",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T21:35:41Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T21:47:42Z",
    "created": "2026-11-26T21:06:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.017546,
    "lon": -85.111912,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831775",
-   "sequence": "2026-11-37321",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T21:16:17Z",
-   "created": "2026-11-26T20:39:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4518 HIXSON PIKE",
-   "cross": "HAMILL RD/BAGWELL AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.119806,
-   "lon": -85.24658,
    "units": 1,
    "stacked": false,
    "notable": false
