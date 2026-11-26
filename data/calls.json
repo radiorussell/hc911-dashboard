@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-26T16:50:38+00:00",
+ "updated": "2026-11-26T16:55:39+00:00",
  "counts": {
   "year": 374464,
   "upstream_day": 327,
-  "day": 452,
+  "day": 455,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 20,
  "incidents": [
   {
-   "id": "9831485",
-   "sequence": "2026-11-37114",
-   "type": "MVC Unknown Injuries",
+   "id": "9831491",
+   "sequence": "2026-11-37117",
+   "type": "AFA Commercial",
    "status": "Queued",
-   "status_at": "2026-11-26T16:49:18Z",
-   "created": "2026-11-26T16:48:53Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-26T16:55:10Z",
+   "created": "2026-11-26T16:55:10Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5921 PINEHURST AVE",
+   "cross": "No Cross Street/WATTS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 1",
+   "lat": 35.029451,
+   "lon": -85.200457,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831490",
+   "sequence": "2026-11-37116",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:52:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1 - 9 EXIT SIGNAL MOUNTAIN RD OFF RAMP NB",
-   "cross": "HIGHWAY 27 NB/SIGNAL MOUNTAIN RD",
-   "city": "RED BANK",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.08108,
-   "lon": -85.32231,
+   "address": "BIRCHWOOD PIKE / HARRISON BAY RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 2",
+   "lat": 35.206076,
+   "lon": -85.068629,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9831486",
    "sequence": "2026-11-37113",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:54:40Z",
    "created": "2026-11-26T16:48:34Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -139,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9831447",
-   "sequence": "2026-11-37093",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:18:31Z",
-   "created": "2026-11-26T16:18:31Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5901 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.08874,
-   "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831443",
-   "sequence": "2026-11-37095",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:46:19Z",
-   "created": "2026-11-26T16:17:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2200 CORRAL RD",
-   "cross": "WALKER RD/GRAY FRYAR RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
-   "priority": "PRI 2",
-   "lat": 35.200798,
-   "lon": -85.31945,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831442",
    "sequence": "2026-11-37092",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:29:48Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T16:51:21Z",
    "created": "2026-11-26T16:17:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.08874,
    "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831438",
-   "sequence": "2026-11-37086",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:13:40Z",
-   "created": "2026-11-26T16:13:40Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11057 MATTHEW RD",
-   "cross": "ROSE RD/OLD DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.279828,
-   "lon": -85.167978,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +220,8 @@
    "id": "9831436",
    "sequence": "2026-11-37085",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:33:28Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T16:53:00Z",
    "created": "2026-11-26T16:13:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.054857,
    "lon": -85.152487,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831374",
-   "sequence": "2026-11-37044",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:21:37Z",
-   "created": "2026-11-26T15:14:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6220 SHALLOWFORD RD",
-   "cross": "STANDIFER GAP RD/TETON TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.052097,
-   "lon": -85.179702,
    "units": 1,
    "stacked": false,
    "notable": false
