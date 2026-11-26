@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T04:00:42+00:00",
+ "updated": "2026-11-26T04:05:38+00:00",
  "counts": {
-  "year": 374108,
+  "year": 374114,
   "upstream_day": 0,
-  "day": 1442,
+  "day": 1447,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9830755",
+   "sequence": "2026-11-36635",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:04:10Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6224 CLARK RD",
+   "cross": "HARRISON LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 1",
+   "lat": 35.127142,
+   "lon": -85.140211,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830754",
+   "sequence": "2026-11-36634",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:03:25Z",
+   "created": "2026-11-26T04:03:25Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "402 FRAWLEY RD",
+   "cross": "CAMP JORDAN RD/CEDAR GLEN CIR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.997303,
+   "lon": -85.186586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830750",
+   "sequence": "2026-11-36633",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:01:46Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "402 FRAWLEY RD",
+   "cross": "CAMP JORDAN RD/CEDAR GLEN CIR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.997303,
+   "lon": -85.186586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830744",
    "sequence": "2026-11-36630",
@@ -33,58 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830743",
-   "sequence": "2026-11-36629",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T03:57:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "310 GLENWOOD DR",
-   "cross": "E 5TH ST/E 4TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.035637,
-   "lon": -85.261348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830741",
-   "sequence": "2026-11-36627",
-   "type": "Vehicle Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:55:38Z",
-   "created": "2026-11-26T03:52:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BONNY OAKS DR / S ACCESS RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.080888,
-   "lon": -85.213908,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830734",
