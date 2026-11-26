@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T22:20:36+00:00",
+ "updated": "2026-11-26T22:25:41+00:00",
  "counts": {
   "year": 374690,
   "upstream_day": 553,
-  "day": 742,
+  "day": 748,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9831888",
+   "sequence": "2026-11-37410",
+   "type": "Missing Endangered",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:20:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2001 SHARP ST",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 1",
+   "lat": 35.043839,
+   "lon": -85.268775,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831882",
    "sequence": "2026-11-37404",
@@ -116,8 +142,8 @@
    "id": "9831859",
    "sequence": "2026-11-37386",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T22:15:13Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T22:22:31Z",
    "created": "2026-11-26T21:39:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.022397,
    "lon": -85.173573,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831850",
-   "sequence": "2026-11-37385",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T21:34:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "949 W ELMWOOD DR",
-   "cross": "WAYNE AVE/MCROY DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.070985,
-   "lon": -85.325028,
    "units": 1,
    "stacked": false,
    "notable": false
