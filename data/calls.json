@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T04:55:37+00:00",
+ "updated": "2026-11-26T05:00:36+00:00",
  "counts": {
-  "year": 374131,
+  "year": 374133,
   "upstream_day": 0,
-  "day": 1472,
+  "day": 0,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9830793",
+   "sequence": "2026-11-36662",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:59:00Z",
+   "created": "2026-11-26T04:58:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LEE HWY / SHALLOWFORD RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.044878,
+   "lon": -85.16246,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830792",
+   "sequence": "2026-11-36661",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:56:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1106 DUNCAN AVE",
+   "cross": "NATIONAL AVE/SPRUCE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 2",
+   "lat": 35.038463,
+   "lon": -85.285096,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830791",
    "sequence": "2026-11-36660",
@@ -30,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.051106,
    "lon": -85.310095,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830790",
-   "sequence": "2026-11-36659",
-   "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-26T04:52:44Z",
-   "created": "2026-11-26T04:52:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3710 MODERN INDUSTRIES PKWY",
-   "cross": "No Cross Street/BIRMINGHAM HWY",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.015493,
-   "lon": -85.385015,
    "units": 1,
    "stacked": false,
    "notable": false
