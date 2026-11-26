@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T08:45:38+00:00",
+ "updated": "2026-11-26T08:50:37+00:00",
  "counts": {
-  "year": 374234,
-  "upstream_day": 97,
-  "day": 138,
+  "year": 374238,
+  "upstream_day": 101,
+  "day": 144,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9830986",
-   "sequence": "2026-11-36800",
-   "type": "Open Door or Window",
-   "status": "On Scene",
-   "status_at": "2026-11-26T08:41:57Z",
-   "created": "2026-11-26T08:36:05Z",
+   "id": "9830992",
+   "sequence": "2026-11-36805",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:48:50Z",
+   "created": "2026-11-26T08:48:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
     "Hamilton Co SO"
@@ -23,13 +23,91 @@
    "agency_types": [
     "Law"
    ],
-   "address": "9584 PRISCILLA DR",
-   "cross": "ELIZABETH CREST RD/MELWOOD LN",
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
    "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830993",
+   "sequence": "2026-11-36806",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:48:50Z",
+   "created": "2026-11-26T08:48:50Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830991",
+   "sequence": "2026-11-36804",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:48:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
    "priority": "PRI 1",
-   "lat": 34.994608,
-   "lon": -85.107416,
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830990",
+   "sequence": "2026-11-36803",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:48:36Z",
+   "created": "2026-11-26T08:45:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "110 JORDAN DR",
+   "cross": "SHALLOWFORD RD/LEE PKWY W",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.046981,
+   "lon": -85.1629,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +116,8 @@
    "id": "9830985",
    "sequence": "2026-11-36799",
    "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T08:43:52Z",
+   "status": "Stacked",
+   "status_at": "2026-11-26T08:36:39Z",
    "created": "2026-11-26T08:34:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,7 +135,7 @@
    "lat": 35.009083,
    "lon": -85.217982,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -116,8 +194,8 @@
    "id": "9830967",
    "sequence": "2026-11-36785",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T08:36:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T08:48:44Z",
    "created": "2026-11-26T08:10:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.04656,
    "lon": -85.319527,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830963",
-   "sequence": "2026-11-36781",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T08:18:24Z",
-   "created": "2026-11-26T08:04:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "567 KESTREL LN",
-   "cross": "DRY BRANCH CT/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 35.009556,
-   "lon": -85.402655,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +246,8 @@
    "id": "9830936",
    "sequence": "2026-11-36766",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T08:24:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T08:48:27Z",
    "created": "2026-11-26T07:35:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
