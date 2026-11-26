@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T19:35:38+00:00",
+ "updated": "2026-11-26T19:40:37+00:00",
  "counts": {
-  "year": 374557,
-  "upstream_day": 420,
-  "day": 590,
+  "year": 374573,
+  "upstream_day": 436,
+  "day": 592,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831687",
+   "sequence": "2026-11-37254",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:38:23Z",
+   "created": "2026-11-26T19:37:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3635 FAITH RD",
+   "cross": "YOUNGSTOWN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.073938,
+   "lon": -85.219529,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831685",
+   "sequence": "2026-11-37253",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:36:59Z",
+   "created": "2026-11-26T19:36:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "802 CENTRAL AVE",
+   "cross": "E 8TH ST/FLYNN ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040808,
+   "lon": -85.291314,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831681",
    "sequence": "2026-11-37252",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:37:18Z",
    "created": "2026-11-26T19:33:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9831667",
    "sequence": "2026-11-37244",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:27:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T19:27:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -186,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.016381,
    "lon": -85.164707,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831668",
-   "sequence": "2026-11-37245",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": "2026-11-26T19:35:04Z",
-   "created": "2026-11-26T19:26:55Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3628 FOUNTAIN AVE",
-   "cross": "S GERMANTOWN RD/MCHANN DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.005567,
-   "lon": -85.252339,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.164549,
    "lon": -85.232082,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831665",
-   "sequence": "2026-11-37240",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:31:43Z",
-   "created": "2026-11-26T19:25:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BELLVIEW AVE / PARKSIDE LN",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.08136,
-   "lon": -85.197675,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -321,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9831661",
-   "sequence": "2026-11-37236",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T19:22:20Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8561 SYNTEX LN",
-   "cross": "STILLWATER CIR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC E",
-   "priority": "PRI 3",
-   "lat": 35.076288,
-   "lon": -85.085806,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831660",
    "sequence": "2026-11-37235",
    "type": "EMS CALL",
@@ -373,11 +347,37 @@
    "notable": false
   },
   {
+   "id": "9831661",
+   "sequence": "2026-11-37236",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:37:38Z",
+   "created": "2026-11-26T19:22:20Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8561 SYNTEX LN",
+   "cross": "STILLWATER CIR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC E",
+   "priority": "PRI 3",
+   "lat": 35.076288,
+   "lon": -85.085806,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831659",
    "sequence": "2026-11-37234",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:36:41Z",
    "created": "2026-11-26T19:21:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -417,32 +417,6 @@
    "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.014911,
-   "lon": -85.271346,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831654",
-   "sequence": "2026-11-37229",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:27:40Z",
-   "created": "2026-11-26T19:20:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "18160 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "505",
    "priority": "PRI 1",
    "lat": 35.014911,
    "lon": -85.271346,
@@ -555,11 +529,37 @@
    "notable": false
   },
   {
+   "id": "9831619",
+   "sequence": "2026-11-37209",
+   "type": "Shoplifter",
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:05:31Z",
+   "created": "2026-11-26T18:52:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3103 DODSON AVE",
+   "cross": "WILDER ST/ELMENDORF ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.073527,
+   "lon": -85.249988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831613",
    "sequence": "2026-11-37205",
    "type": "Theft",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T19:37:34Z",
    "created": "2026-11-26T18:44:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -602,32 +602,6 @@
    "priority": "PRI 4",
    "lat": 35.081783,
    "lon": -85.26321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831592",
-   "sequence": "2026-11-37191",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T18:25:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "312 MCBRIEN RD",
-   "cross": "LYNNLAND TER/N TERRACE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.005801,
-   "lon": -85.223461,
    "units": 1,
    "stacked": false,
    "notable": false
