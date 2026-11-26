@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T00:45:36+00:00",
+ "updated": "2026-11-26T00:50:37+00:00",
  "counts": {
-  "year": 373984,
+  "year": 373992,
   "upstream_day": 0,
-  "day": 1275,
+  "day": 1279,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9830484",
+   "sequence": "2026-11-36467",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:48:27Z",
+   "created": "2026-11-26T00:48:02Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "422 CEDAR GLEN CIR",
+   "cross": "CEDAR WOOD CT/FRAWLEY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.999559,
+   "lon": -85.190977,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830481",
    "sequence": "2026-11-36463",
@@ -38,8 +64,8 @@
    "id": "9830479",
    "sequence": "2026-11-36461",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:47:47Z",
    "created": "2026-11-26T00:43:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9830480",
    "sequence": "2026-11-36462",
    "type": "Brush Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:49:36Z",
    "created": "2026-11-26T00:43:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -134,84 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.143721,
    "lon": -85.247823,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830469",
-   "sequence": "2026-11-36455",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:42:27Z",
-   "created": "2026-11-26T00:33:24Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8603 BROKEN ROCK TRL",
-   "cross": "MONTLAKE RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 3",
-   "lat": 35.225975,
-   "lon": -85.222063,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830470",
-   "sequence": "2026-11-36453",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T00:33:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.017084,
-   "lon": -85.273331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830471",
-   "sequence": "2026-11-36454",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:39:37Z",
-   "created": "2026-11-26T00:33:17Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.017084,
-   "lon": -85.273331,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,58 +269,6 @@
    "notable": false
   },
   {
-   "id": "9830453",
-   "sequence": "2026-11-36444",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:27:58Z",
-   "created": "2026-11-26T00:24:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "102 SEQUOIA DR",
-   "cross": "KENWOOD AVE/OLD MISSION RD",
-   "city": "CHATTANOOGA",
-   "zone": "1301 A",
-   "priority": "PRI 1",
-   "lat": 35.017251,
-   "lon": -85.232506,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830441",
-   "sequence": "2026-11-36435",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:31:23Z",
-   "created": "2026-11-26T00:20:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "ASHLAND TER / CHUMLEY LN",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.116566,
-   "lon": -85.270991,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830442",
    "sequence": "2026-11-36436",
    "type": "MVC Injuries",
@@ -391,6 +287,32 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.116566,
+   "lon": -85.270991,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830441",
+   "sequence": "2026-11-36435",
+   "type": "MVC Injuries",
+   "status": "Transporting",
+   "status_at": "2026-11-26T00:48:46Z",
+   "created": "2026-11-26T00:20:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "ASHLAND TER / CHUMLEY LN",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
    "priority": "PRI 1",
    "lat": 35.116566,
    "lon": -85.270991,
@@ -477,63 +399,11 @@
    "notable": false
   },
   {
-   "id": "9830423",
-   "sequence": "2026-11-36425",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:05:23Z",
-   "created": "2026-11-26T00:05:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830422",
-   "sequence": "2026-11-36424",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:05:22Z",
-   "created": "2026-11-26T00:05:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830420",
    "sequence": "2026-11-36423",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:17:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T00:46:43Z",
    "created": "2026-11-26T00:04:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
