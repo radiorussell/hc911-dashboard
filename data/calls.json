@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T20:50:37+00:00",
+ "updated": "2026-11-26T20:55:38+00:00",
  "counts": {
   "year": 374630,
   "upstream_day": 493,
-  "day": 666,
+  "day": 674,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831796",
+   "sequence": "2026-11-37336",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": "2026-11-26T20:53:00Z",
+   "created": "2026-11-26T20:53:00Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2400 FOX RUN DR",
+   "cross": "REYNARD TRL/PINTAIL LN",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 B",
+   "priority": "PRI 2",
+   "lat": 35.163347,
+   "lon": -85.326875,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831792",
+   "sequence": "2026-11-37335",
+   "type": "Narcotics Violation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T20:51:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "900 MOUNTAIN CREEK RD",
+   "cross": "RUSSELL AVE/GLENDALE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.102678,
+   "lon": -85.325203,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831790",
+   "sequence": "2026-11-37333",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T20:50:32Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "RINGGOLD RD / S MOORE RD",
+   "cross": "",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.995809,
+   "lon": -85.237451,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831782",
    "sequence": "2026-11-37327",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:54:54Z",
    "created": "2026-11-26T20:43:12Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9831783",
    "sequence": "2026-11-37328",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:54:56Z",
    "created": "2026-11-26T20:43:12Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -399,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9831721",
-   "sequence": "2026-11-37279",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T20:37:00Z",
-   "created": "2026-11-26T19:55:08Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18240 INTERSTATE 24 EB",
-   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.020996,
-   "lon": -85.261193,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831713",
    "sequence": "2026-11-37274",
    "type": "EMS CALL",
@@ -524,32 +576,6 @@
    "priority": "PRI 1",
    "lat": 34.999922,
    "lon": -85.286526,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831690",
-   "sequence": "2026-11-37256",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:53:29Z",
-   "created": "2026-11-26T19:40:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18240 INTERSTATE 24 EB",
-   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.020996,
-   "lon": -85.261193,
    "units": 1,
    "stacked": false,
    "notable": true
