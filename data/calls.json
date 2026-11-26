@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T16:30:42+00:00",
+ "updated": "2026-11-26T16:35:37+00:00",
  "counts": {
   "year": 374455,
   "upstream_day": 318,
   "day": 436,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
   {
    "id": "9831451",
@@ -101,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "CORRAL RD / GRAY FRYAR RD",
-   "cross": "",
+   "address": "2200 CORRAL RD",
+   "cross": "WALKER RD/GRAY FRYAR RD",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 2 A",
    "priority": "PRI 2",
-   "lat": 35.199614,
-   "lon": -85.333211,
+   "lat": 35.200798,
+   "lon": -85.31945,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +194,8 @@
    "id": "9831436",
    "sequence": "2026-11-37085",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:33:28Z",
    "created": "2026-11-26T16:13:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9831420",
-   "sequence": "2026-11-37070",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:28:06Z",
-   "created": "2026-11-26T15:58:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2008 E 13TH ST",
-   "cross": "S BEECH ST/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.02678,
-   "lon": -85.277377,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831413",
    "sequence": "2026-11-37066",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:52:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:52:04Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
