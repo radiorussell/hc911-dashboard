@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T17:55:37+00:00",
+ "updated": "2026-11-26T18:00:38+00:00",
  "counts": {
   "year": 374504,
   "upstream_day": 367,
-  "day": 502,
+  "day": 507,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9831555",
+   "sequence": "2026-11-37169",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T17:58:47Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5300 - 5314 RINGGOLD RD",
+   "cross": "MCBRIEN RD/REBECCA DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.99533,
+   "lon": -85.23508,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831552",
+   "sequence": "2026-11-37168",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:58:33Z",
+   "created": "2026-11-26T17:57:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "500 HIGHWAY 153 NB",
+   "cross": "EXIT HIGHWAY 58 ON RAMP NB/EXIT AMNICOLA HWY OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.08616,
+   "lon": -85.211607,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831550",
    "sequence": "2026-11-37164",
@@ -38,8 +90,8 @@
    "id": "9831549",
    "sequence": "2026-11-37163",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T18:00:33Z",
    "created": "2026-11-26T17:50:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.140205,
    "lon": -85.069154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831546",
-   "sequence": "2026-11-37160",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:40:29Z",
-   "created": "2026-11-26T17:37:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1669 DODSON AVE",
-   "cross": "CAMDEN OAKS DR/OCOEE ST",
-   "city": "CHATTANOOGA",
-   "zone": "402",
-   "priority": "PRI 1",
-   "lat": 35.055204,
-   "lon": -85.259639,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +194,8 @@
    "id": "9831541",
    "sequence": "2026-11-37155",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:46:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:00:32Z",
    "created": "2026-11-26T17:34:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +324,8 @@
    "id": "9831524",
    "sequence": "2026-11-37143",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:27:49Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T17:59:51Z",
    "created": "2026-11-26T17:17:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9831521",
-   "sequence": "2026-11-37141",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:15:36Z",
-   "created": "2026-11-26T17:15:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4535 JOACK LN",
-   "cross": "No Cross Street/VANESSA DR",
-   "city": "CHATTANOOGA",
-   "zone": "1903",
-   "priority": "PRI 1",
-   "lat": 35.133993,
-   "lon": -85.258213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831519",
    "sequence": "2026-11-37139",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:23:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T17:57:30Z",
    "created": "2026-11-26T17:15:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +376,8 @@
    "id": "9831510",
    "sequence": "2026-11-37134",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T17:38:05Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T18:00:31Z",
    "created": "2026-11-26T17:11:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831494",
-   "sequence": "2026-11-37120",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T17:41:37Z",
-   "created": "2026-11-26T17:00:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6732 WILLOW TRACE DR",
-   "cross": "No Cross Street/WILLOW BROOK DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.049554,
-   "lon": -85.166155,
    "units": 1,
    "stacked": false,
    "notable": false
