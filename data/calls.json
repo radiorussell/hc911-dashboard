@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T13:45:39+00:00",
+ "updated": "2026-11-26T13:50:38+00:00",
  "counts": {
-  "year": 374351,
-  "upstream_day": 214,
-  "day": 304,
+  "year": 374361,
+  "upstream_day": 224,
+  "day": 310,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9831252",
+   "sequence": "2026-11-36971",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:49:50Z",
+   "created": "2026-11-26T13:49:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1101 ARLINGTON AVE",
+   "cross": "WINDSOR ST/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.04763,
+   "lon": -85.2614,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831251",
+   "sequence": "2026-11-36972",
+   "type": "AFA Commercial",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:50:05Z",
+   "created": "2026-11-26T13:49:18Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2107 STUART ST",
+   "cross": "CURTIS ST/DODSON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "404",
+   "priority": "PRI 1",
+   "lat": 35.072407,
+   "lon": -85.251008,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831250",
+   "sequence": "2026-11-36969",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:45:58Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9106 DAYTON PIKE",
+   "cross": "NALE RD/FRIENDSHIP LN",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 2",
+   "lat": 35.230522,
+   "lon": -85.208185,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831249",
+   "sequence": "2026-11-36968",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:45:18Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "521 SHADOW PKWY",
+   "cross": "PICTURE RIDGE DR/MOUNTAIN SHADOWS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 3",
+   "lat": 35.012258,
+   "lon": -85.104066,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831245",
    "sequence": "2026-11-36966",
@@ -38,8 +142,8 @@
    "id": "9831244",
    "sequence": "2026-11-36965",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:48:22Z",
    "created": "2026-11-26T13:38:55Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9831236",
    "sequence": "2026-11-36960",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:47:51Z",
    "created": "2026-11-26T13:32:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +272,8 @@
    "id": "9831232",
    "sequence": "2026-11-36956",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:49:42Z",
    "created": "2026-11-26T13:29:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +402,8 @@
    "id": "9831212",
    "sequence": "2026-11-36941",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T13:33:11Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T13:47:01Z",
    "created": "2026-11-26T13:12:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +428,8 @@
    "id": "9831204",
    "sequence": "2026-11-36933",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:49:17Z",
    "created": "2026-11-26T13:02:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
