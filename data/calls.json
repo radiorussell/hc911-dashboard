@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T10:05:38+00:00",
+ "updated": "2026-11-26T10:10:37+00:00",
  "counts": {
-  "year": 374259,
-  "upstream_day": 122,
-  "day": 173,
+  "year": 374265,
+  "upstream_day": 128,
+  "day": 180,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9831050",
+   "sequence": "2026-11-36841",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T10:10:23Z",
+   "created": "2026-11-26T10:10:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 2",
+   "lat": 35.129676,
+   "lon": -85.234866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831051",
+   "sequence": "2026-11-36842",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T10:10:23Z",
+   "created": "2026-11-26T10:10:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 3",
+   "lat": 35.129676,
+   "lon": -85.234866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831048",
+   "sequence": "2026-11-36840",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T10:10:23Z",
+   "created": "2026-11-26T10:09:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.129676,
+   "lon": -85.234866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831041",
    "sequence": "2026-11-36833",
@@ -64,8 +142,8 @@
    "id": "9831040",
    "sequence": "2026-11-36832",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:07:26Z",
    "created": "2026-11-26T09:48:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +194,8 @@
    "id": "9831037",
    "sequence": "2026-11-36830",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T10:02:52Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T10:08:33Z",
    "created": "2026-11-26T09:46:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.062415,
    "lon": -85.25241,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831036",
-   "sequence": "2026-11-36829",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-26T09:49:39Z",
-   "created": "2026-11-26T09:41:01Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "UNIVERSITY DR / CAMP RD",
-   "cross": "",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE SOUTH",
-   "priority": "PRI 2",
-   "lat": 35.025561,
-   "lon": -85.06053,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -212,58 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.05787,
    "lon": -85.22724,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831011",
-   "sequence": "2026-11-36821",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T09:39:16Z",
-   "created": "2026-11-26T09:12:56Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7249 E BRAINERD RD",
-   "cross": "PANORAMA DR/KENMOOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.017217,
-   "lon": -85.165867,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830994",
-   "sequence": "2026-11-36807",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-26T08:49:03Z",
-   "created": "2026-11-26T08:49:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5515 WOODLAWN DR",
-   "cross": "SPRING CREEK RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 2",
-   "lat": 35.009083,
-   "lon": -85.217982,
    "units": 1,
    "stacked": false,
    "notable": false
