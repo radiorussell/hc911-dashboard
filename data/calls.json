@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T00:05:41+00:00",
+ "updated": "2026-11-26T00:10:37+00:00",
  "counts": {
-  "year": 373942,
-  "upstream_day": 889,
-  "day": 1237,
+  "year": 373956,
+  "upstream_day": 0,
+  "day": 1242,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9830430",
+   "sequence": "2026-11-36430",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:10:14Z",
+   "created": "2026-11-26T00:08:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "511 CARRIAGE PARC DR",
+   "cross": "GUNBARREL RD/JOINER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.010426,
+   "lon": -85.164767,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830428",
+   "sequence": "2026-11-36429",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T00:07:30Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1100 RIDGEWAY AVE",
+   "cross": "ROLLING WAY/BARRINGTON RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.13139,
+   "lon": -85.334056,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830423",
    "sequence": "2026-11-36425",
@@ -64,8 +116,8 @@
    "id": "9830420",
    "sequence": "2026-11-36423",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:05:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T00:04:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -143,7 +195,7 @@
    "sequence": "2026-11-36418",
    "type": "Auto Broken Down Road",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T00:09:31Z",
    "created": "2026-11-26T00:00:32Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9830411",
    "sequence": "2026-11-36416",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:08:04Z",
    "created": "2026-11-25T23:59:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9830402",
    "sequence": "2026-11-36411",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:06:42Z",
    "created": "2026-11-25T23:55:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -325,7 +377,7 @@
    "sequence": "2026-11-36405",
    "type": "Backup Other Agency",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T00:10:24Z",
    "created": "2026-11-25T23:52:28Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -506,8 +558,8 @@
    "id": "9830378",
    "sequence": "2026-11-36395",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-25T23:44:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:43:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -524,32 +576,6 @@
    "priority": "PRI 3",
    "lat": 35.049458,
    "lon": -85.18293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830371",
-   "sequence": "2026-11-36390",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:51:49Z",
-   "created": "2026-11-25T23:39:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7100 TYNER CROSSING DR",
-   "cross": "TYNER RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.061256,
-   "lon": -85.152262,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -576,32 +602,6 @@
    "priority": "PRI 4",
    "lat": 35.08082,
    "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830354",
-   "sequence": "2026-11-36380",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:29:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MAHAN GAP RD / HIGHWAY 58",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.185739,
-   "lon": -85.059556,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -685,58 +685,6 @@
    "notable": false
   },
   {
-   "id": "9830323",
-   "sequence": "2026-11-36357",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-25T23:24:59Z",
-   "created": "2026-11-25T23:06:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15000 HIGHWAY 111 NB",
-   "cross": "EXIT JONES GAP RD ON RAMP NB/HIGHWAY 111 SB",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 8",
-   "priority": "PRI 3",
-   "lat": 35.344497,
-   "lon": -85.2293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830306",
-   "sequence": "2026-11-36351",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:08:12Z",
-   "created": "2026-11-25T22:52:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "320 INTERSTATE 75 NB",
-   "cross": "EXIT 3A OFF RAMP NB/EXIT 3B OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.013861,
-   "lon": -85.182017,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830256",
    "sequence": "2026-11-36319",
    "type": "EMS CALL",
@@ -758,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.086058,
    "lon": -85.286162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830245",
-   "sequence": "2026-11-36311",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T23:21:03Z",
-   "created": "2026-11-25T22:33:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6802 LEE HWY",
-   "cross": "HICKORY VALLEY RD/CONNER LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.040619,
-   "lon": -85.168462,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -818,8 +740,8 @@
    "id": "9830237",
    "sequence": "2026-11-36304",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-25T23:34:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T00:06:22Z",
    "created": "2026-11-25T22:26:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
