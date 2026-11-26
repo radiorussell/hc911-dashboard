@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T04:20:37+00:00",
+ "updated": "2026-11-26T04:25:37+00:00",
  "counts": {
   "year": 374114,
   "upstream_day": 0,
-  "day": 1456,
+  "day": 1457,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
   {
    "id": "9830771",
@@ -30,6 +30,32 @@
    "priority": "PRI 2",
    "lat": 35.085083,
    "lon": -85.171399,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830770",
+   "sequence": "2026-11-36645",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:19:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 N HICKORY ST",
+   "cross": "PORTLAND ST/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 4",
+   "lat": 35.050867,
+   "lon": -85.270431,
    "units": 1,
    "stacked": false,
    "notable": false
