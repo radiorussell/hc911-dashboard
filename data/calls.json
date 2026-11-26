@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T02:40:36+00:00",
+ "updated": "2026-11-26T02:45:42+00:00",
  "counts": {
   "year": 374064,
   "upstream_day": 0,
-  "day": 1384,
+  "day": 1391,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9830653",
+   "sequence": "2026-11-36579",
+   "type": "Smoke Investigation",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:45:34Z",
+   "created": "2026-11-26T02:45:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3707 6TH AVE",
+   "cross": "E 37TH ST/E 39TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "902",
+   "priority": "PRI 1",
+   "lat": 34.999471,
+   "lon": -85.287013,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830655",
+   "sequence": "2026-11-36576",
+   "type": "Wires Down",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:45:04Z",
+   "created": "2026-11-26T02:45:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 23RD ST / S KELLEY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.017928,
+   "lon": -85.279677,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830649",
+   "sequence": "2026-11-36575",
+   "type": "Wires Down",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:45:04Z",
+   "created": "2026-11-26T02:44:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "E 23RD ST / S KELLEY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 2",
+   "lat": 35.017928,
+   "lon": -85.279677,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830644",
    "sequence": "2026-11-36572",
@@ -35,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9830643",
-   "sequence": "2026-11-36570",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:39:06Z",
-   "created": "2026-11-26T02:38:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "200 CHESTNUT ST",
-   "cross": "W AQUARIUM WAY/W 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.054412,
-   "lon": -85.311568,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830639",
    "sequence": "2026-11-36567",
    "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:41:32Z",
    "created": "2026-11-26T02:36:07Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9830638",
    "sequence": "2026-11-36566",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:35:18Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:44:39Z",
    "created": "2026-11-26T02:35:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9830636",
    "sequence": "2026-11-36564",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:41:59Z",
    "created": "2026-11-26T02:33:44Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9830631",
    "sequence": "2026-11-36557",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:42:28Z",
    "created": "2026-11-26T02:30:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9830628",
    "sequence": "2026-11-36556",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:42:33Z",
    "created": "2026-11-26T02:27:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,63 +269,11 @@
    "notable": false
   },
   {
-   "id": "9830604",
-   "sequence": "2026-11-36550",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:32:58Z",
-   "created": "2026-11-26T02:19:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.094368,
-   "lon": -85.331318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830594",
-   "sequence": "2026-11-36543",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:13:04Z",
-   "created": "2026-11-26T02:13:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2700 PARKWOOD AVE",
-   "cross": "DE SALES AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 2",
-   "lat": 35.039157,
-   "lon": -85.257754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830585",
    "sequence": "2026-11-36542",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T02:40:19Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T02:43:45Z",
    "created": "2026-11-26T02:11:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +350,8 @@
    "id": "9830557",
    "sequence": "2026-11-36517",
    "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-26T01:51:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T01:51:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -369,7 +369,7 @@
    "lat": 35.020239,
    "lon": -85.275756,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
