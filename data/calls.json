@@ -1,87 +1,87 @@
 {
- "updated": "2026-11-26T07:10:37+00:00",
+ "updated": "2026-11-26T07:15:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 76,
+  "day": 86,
   "day_basis": "midnight"
  },
  "raw_rows": 17,
  "incidents": [
   {
-   "id": "9830898",
-   "sequence": "2026-11-36738",
-   "type": "Unknown Trouble",
+   "id": "9830906",
+   "sequence": "2026-11-36746",
+   "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": "2026-11-26T07:09:18Z",
-   "created": "2026-11-26T07:01:07Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": null,
+   "created": "2026-11-26T07:13:43Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "1323 STRATTON PLACE DR",
-   "cross": "No Cross Street/STRATMAN CIR",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
    "priority": "PRI 1",
-   "lat": 35.009246,
-   "lon": -85.161707,
+   "lat": 35.060281,
+   "lon": -85.070921,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9830897",
-   "sequence": "2026-11-36737",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-26T07:03:00Z",
-   "created": "2026-11-26T06:54:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "29 WERT ST",
-   "cross": "HAMILTON AVE/SPEARS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.077309,
-   "lon": -85.308821,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830894",
-   "sequence": "2026-11-36734",
+   "id": "9830907",
+   "sequence": "2026-11-36747",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-26T06:50:28Z",
-   "created": "2026-11-26T06:50:28Z",
-   "jurisdiction": "Red Bank FD",
+   "status_at": "2026-11-26T07:13:43Z",
+   "created": "2026-11-26T07:13:43Z",
+   "jurisdiction": "Tri-Community FD",
    "agencies": [
-    "Red Bank FD"
+    "Tri-Community FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "4914 HUNTER TRL",
-   "cross": "MARLOW DR/PARAGON DR",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 2",
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 4 CO C",
+   "priority": "PRI 1",
+   "lat": 35.08082,
+   "lon": -85.06329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830908",
+   "sequence": "2026-11-36748",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:13:43Z",
+   "created": "2026-11-26T07:13:43Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
    "priority": "PRI 3",
-   "lat": 35.137582,
-   "lon": -85.27119,
+   "lat": 35.08082,
+   "lon": -85.06329,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +168,8 @@
    "id": "9830875",
    "sequence": "2026-11-36718",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T07:10:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T07:12:33Z",
    "created": "2026-11-26T06:37:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
