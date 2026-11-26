@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-26T11:20:37+00:00",
+ "updated": "2026-11-26T11:25:38+00:00",
  "counts": {
   "year": 374290,
   "upstream_day": 153,
-  "day": 209,
+  "day": 208,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
-  {
-   "id": "9831090",
-   "sequence": "2026-11-36871",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:17:05Z",
-   "created": "2026-11-26T11:16:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.034727,
-   "lon": -85.26761,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9831089",
    "sequence": "2026-11-36869",
    "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:24:30Z",
    "created": "2026-11-26T11:12:50Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -49,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "411 BROUGHTON ST",
+   "address": "408 BROUGHTON ST",
    "cross": "NAVAJO DR/FRAWLEY ST",
    "city": "EAST RIDGE",
    "zone": "ERPD WEST",
    "priority": "PRI 2",
-   "lat": 35.016831,
-   "lon": -85.252259,
+   "lat": 35.01674,
+   "lon": -85.251771,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -179,13 +153,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "411 BROUGHTON ST",
+   "address": "408 BROUGHTON ST",
    "cross": "NAVAJO DR/FRAWLEY ST",
    "city": "EAST RIDGE",
    "zone": "EAST RIDGE FD 1T",
    "priority": "PRI 1",
-   "lat": 35.016831,
-   "lon": -85.252259,
+   "lat": 35.01674,
+   "lon": -85.251771,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -241,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831072",
-   "sequence": "2026-11-36859",
-   "type": "Shooting/Person Shot",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T11:02:53Z",
-   "created": "2026-11-26T10:36:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2308 WHEELER AVE",
-   "cross": "CRUTCHFIELD ST/LATTA ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.063707,
-   "lon": -85.250959,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831069",
