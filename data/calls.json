@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T02:50:37+00:00",
+ "updated": "2026-11-26T02:55:37+00:00",
  "counts": {
   "year": 374073,
   "upstream_day": 0,
-  "day": 1396,
+  "day": 1400,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
   {
+   "id": "9830670",
+   "sequence": "2026-11-36588",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:55:29Z",
+   "created": "2026-11-26T02:54:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3802 DODDS AVE",
+   "cross": "E 38TH ST/E 39TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 4",
+   "lat": 34.99785,
+   "lon": -85.282656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830665",
+   "sequence": "2026-11-36587",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:55:06Z",
+   "created": "2026-11-26T02:54:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7641 LEE HWY",
+   "cross": "HAMILTON PARK DR/YERBEY DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.060567,
+   "lon": -85.135205,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830667",
+   "sequence": "2026-11-36585",
+   "type": "Elevator Emergency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T02:52:28Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 3",
+   "lat": 35.048361,
+   "lon": -85.290587,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830663",
    "sequence": "2026-11-36584",
    "type": "Residential Fire",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:50:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T02:50:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -59,58 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830655",
-   "sequence": "2026-11-36576",
-   "type": "Wires Down",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:45:04Z",
-   "created": "2026-11-26T02:45:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 23RD ST / S KELLEY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.017928,
-   "lon": -85.279677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830649",
-   "sequence": "2026-11-36575",
-   "type": "Wires Down",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:50:22Z",
-   "created": "2026-11-26T02:44:43Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "E 23RD ST / S KELLEY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 2",
-   "lat": 35.017928,
-   "lon": -85.279677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830644",
@@ -160,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.08082,
    "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830636",
-   "sequence": "2026-11-36564",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:41:59Z",
-   "created": "2026-11-26T02:33:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7200 DISCOVERY DR",
-   "cross": "VOLKSWAGEN DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "701 A",
-   "priority": "PRI 1",
-   "lat": 35.068788,
-   "lon": -85.141079,
    "units": 1,
    "stacked": false,
    "notable": false
