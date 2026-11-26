@@ -1,18 +1,96 @@
 {
- "updated": "2026-11-26T21:25:37+00:00",
+ "updated": "2026-11-26T21:30:43+00:00",
  "counts": {
-  "year": 374655,
-  "upstream_day": 518,
-  "day": 710,
+  "year": 374661,
+  "upstream_day": 524,
+  "day": 714,
   "day_basis": "midnight"
  },
  "raw_rows": 26,
  "incidents": [
   {
+   "id": "9831845",
+   "sequence": "2026-11-37376",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:30:24Z",
+   "created": "2026-11-26T21:30:24Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8102 ROY LN",
+   "cross": "SNOW HILL RD/PROVIDENCE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 2",
+   "lat": 35.145553,
+   "lon": -85.062469,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831844",
+   "sequence": "2026-11-37375",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:30:24Z",
+   "created": "2026-11-26T21:29:44Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8102 ROY LN",
+   "cross": "SNOW HILL RD/PROVIDENCE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.145553,
+   "lon": -85.062469,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831843",
+   "sequence": "2026-11-37374",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:28:04Z",
+   "created": "2026-11-26T21:27:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2305 E 35TH ST",
+   "cross": "5TH AVE/6TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 3",
+   "lat": 35.002961,
+   "lon": -85.285734,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831841",
    "sequence": "2026-11-37372",
    "type": "Auto Broken Down",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-26T21:25:22Z",
    "created": "2026-11-26T21:25:06Z",
    "jurisdiction": "Chattanooga PD",
@@ -31,15 +109,15 @@
    "lat": 35.074148,
    "lon": -85.238098,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9831840",
    "sequence": "2026-11-37371",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:27:49Z",
    "created": "2026-11-26T21:24:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +295,6 @@
    "notable": true
   },
   {
-   "id": "9831825",
-   "sequence": "2026-11-37358",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:23:51Z",
-   "created": "2026-11-26T21:09:49Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6601 - 6617 RINGGOLD RD",
-   "cross": "SLATER RD/EXIT 1 ON RAMP SB",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.989789,
-   "lon": -85.205088,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831820",
    "sequence": "2026-11-37355",
    "type": "MVC Injuries",
@@ -365,32 +417,6 @@
    "cross": "AMIN DR/MCCUTCHEON RD",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.046076,
-   "lon": -85.155522,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831811",
-   "sequence": "2026-11-37345",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:13:28Z",
-   "created": "2026-11-26T21:04:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2361 SHALLOWFORD VILLAGE DR",
-   "cross": "AMIN DR/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
    "lat": 35.046076,
    "lon": -85.155522,
@@ -605,32 +631,6 @@
    "units": 1,
    "stacked": true,
    "notable": false
-  },
-  {
-   "id": "9831709",
-   "sequence": "2026-11-37270",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:59:31Z",
-   "created": "2026-11-26T19:51:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 3RD ST / CENTRAL AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 1",
-   "lat": 35.0469,
-   "lon": -85.288189,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830410",
