@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T14:50:41+00:00",
+ "updated": "2026-11-26T14:55:37+00:00",
  "counts": {
   "year": 374393,
   "upstream_day": 256,
-  "day": 357,
+  "day": 360,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9831345",
+   "sequence": "2026-11-37022",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:52:29Z",
+   "created": "2026-11-26T14:52:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6537 JOYFUL DR",
+   "cross": "No Cross Street/DARLINGTON WAY",
+   "city": "CHATTANOOGA",
+   "zone": "1102",
+   "priority": "PRI 2",
+   "lat": 35.165603,
+   "lon": -85.197454,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831342",
+   "sequence": "2026-11-37021",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T14:51:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6537 JOYFUL DR",
+   "cross": "No Cross Street/DARLINGTON WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 12 CH A",
+   "priority": "PRI 1",
+   "lat": 35.165603,
+   "lon": -85.197454,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831339",
    "sequence": "2026-11-37019",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:54:17Z",
    "created": "2026-11-26T14:45:44Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -30,6 +82,32 @@
    "priority": "PRI 2",
    "lat": 35.312903,
    "lon": -85.130658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831328",
+   "sequence": "2026-11-37015",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-26T14:39:54Z",
+   "created": "2026-11-26T14:39:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DERBY ST / E 3RD ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.038535,
+   "lon": -85.265009,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +194,8 @@
    "id": "9831317",
    "sequence": "2026-11-37007",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:51:02Z",
    "created": "2026-11-26T14:37:48Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -188,32 +266,6 @@
    "lon": -85.268443,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831296",
-   "sequence": "2026-11-36995",
-   "type": "Miscellaneous Complaint",
-   "status": "Stacked",
-   "status_at": "2026-11-26T14:20:54Z",
-   "created": "2026-11-26T14:20:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3550 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.015591,
-   "lon": -85.376588,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
@@ -370,32 +422,6 @@
    "lon": -85.249215,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831238",
-   "sequence": "2026-11-36963",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-26T13:52:26Z",
-   "created": "2026-11-26T13:33:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17730 INTERSTATE 24 EB",
-   "cross": "EXIT 175 ON RAMP EB/EXIT 178A OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.018775,
-   "lon": -85.333744,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
