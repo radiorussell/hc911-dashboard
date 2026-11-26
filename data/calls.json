@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T19:30:41+00:00",
+ "updated": "2026-11-26T19:35:38+00:00",
  "counts": {
   "year": 374557,
   "upstream_day": 420,
-  "day": 588,
+  "day": 590,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9831681",
+   "sequence": "2026-11-37252",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:33:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "802 CENTRAL AVE",
+   "cross": "E 8TH ST/FLYNN ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 1",
+   "lat": 35.040808,
+   "lon": -85.291314,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831676",
    "sequence": "2026-11-37249",
@@ -64,8 +90,8 @@
    "id": "9831675",
    "sequence": "2026-11-37248",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:30:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T19:29:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -169,7 +195,7 @@
    "sequence": "2026-11-37245",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T19:35:04Z",
    "created": "2026-11-26T19:26:55Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -195,7 +221,7 @@
    "sequence": "2026-11-37241",
    "type": "MVC Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T19:34:31Z",
    "created": "2026-11-26T19:26:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9831665",
    "sequence": "2026-11-37240",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:31:43Z",
    "created": "2026-11-26T19:25:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -273,7 +299,7 @@
    "sequence": "2026-11-37237",
    "type": "Check For A Hazard",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T19:33:14Z",
    "created": "2026-11-26T19:23:15Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -376,8 +402,8 @@
    "id": "9831655",
    "sequence": "2026-11-37230",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:31:10Z",
    "created": "2026-11-26T19:20:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
