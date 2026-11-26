@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T10:45:39+00:00",
+ "updated": "2026-11-26T10:50:38+00:00",
  "counts": {
-  "year": 374281,
-  "upstream_day": 144,
-  "day": 198,
+  "year": 374284,
+  "upstream_day": 147,
+  "day": 199,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9831077",
+   "sequence": "2026-11-36861",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-26T10:45:47Z",
+   "created": "2026-11-26T10:42:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5730 LEE HWY",
+   "cross": "BRAINERD RD/AIKEN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.019169,
+   "lon": -85.202312,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831072",
    "sequence": "2026-11-36859",
@@ -113,32 +139,6 @@
    "notable": true
   },
   {
-   "id": "9831066",
-   "sequence": "2026-11-36856",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:36:45Z",
-   "created": "2026-11-26T10:25:07Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2647 CHURCHILL DOWNS CIR",
-   "cross": "DERBY DOWNS DR/DERBY DOWNS DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 3",
-   "lat": 35.057376,
-   "lon": -85.16159,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831062",
    "sequence": "2026-11-36852",
    "type": "Shots Fired",
@@ -191,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9831051",
-   "sequence": "2026-11-36842",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T10:10:23Z",
-   "created": "2026-11-26T10:10:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2760 NORTHPOINT BLVD",
-   "cross": "EXECUTIVE DR/ELEVATED VW",
-   "city": "CHATTANOOGA",
-   "zone": "1901",
-   "priority": "PRI 3",
-   "lat": 35.129676,
-   "lon": -85.234866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831049",
    "sequence": "2026-11-36843",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T10:35:05Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T10:49:48Z",
    "created": "2026-11-26T10:09:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
