@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-26T03:30:44+00:00",
+ "updated": "2026-11-26T03:35:42+00:00",
  "counts": {
   "year": 374100,
   "upstream_day": 0,
-  "day": 1428,
+  "day": 1431,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 18,
  "incidents": [
   {
-   "id": "9830721",
-   "sequence": "2026-11-36616",
-   "type": "Auto Broken Down",
+   "id": "9830726",
+   "sequence": "2026-11-36619",
+   "type": "Domestic Disorder",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-26T03:25:06Z",
-   "jurisdiction": "Chattanooga PD",
+   "created": "2026-11-26T03:33:38Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1408 PALISADES RD",
-   "cross": "SIGNAL MOUNTAIN BLVD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.106241,
-   "lon": -85.348403,
+   "address": "9315 CHARBAR CIR",
+   "cross": "SANDPIPER LN/RAINTREE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 2",
+   "lat": 35.003739,
+   "lon": -85.1071,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9830711",
    "sequence": "2026-11-36611",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T03:35:24Z",
    "created": "2026-11-26T03:21:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9830673",
-   "sequence": "2026-11-36589",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:00:21Z",
-   "created": "2026-11-26T02:55:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6121 LEE HWY",
-   "cross": "VAN NESS RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.029911,
-   "lon": -85.187659,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830665",
    "sequence": "2026-11-36587",
    "type": "Property",
@@ -420,32 +394,6 @@
    "priority": "PRI 2",
    "lat": 35.091281,
    "lon": -85.19819,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830585",
-   "sequence": "2026-11-36542",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T02:43:45Z",
-   "created": "2026-11-26T02:11:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2700 PARKWOOD AVE",
-   "cross": "DE SALES AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.039157,
-   "lon": -85.257754,
    "units": 1,
    "stacked": false,
    "notable": false
