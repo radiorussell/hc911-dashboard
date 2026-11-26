@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-26T22:35:36+00:00",
+ "updated": "2026-11-26T22:40:37+00:00",
  "counts": {
-  "year": 374693,
-  "upstream_day": 556,
-  "day": 763,
+  "year": 374699,
+  "upstream_day": 562,
+  "day": 770,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9831917",
+   "sequence": "2026-11-37430",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:39:27Z",
+   "created": "2026-11-26T22:39:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831918",
+   "sequence": "2026-11-37431",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:39:27Z",
+   "created": "2026-11-26T22:39:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831914",
+   "sequence": "2026-11-37432",
+   "type": "Missing Endangered",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:40:31Z",
+   "created": "2026-11-26T22:39:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1755 GUNBARREL RD",
+   "cross": "ZIEGLER RD/CRANE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 1",
+   "lat": 35.022566,
+   "lon": -85.160474,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831916",
+   "sequence": "2026-11-37428",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:39:04Z",
+   "created": "2026-11-26T22:38:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1397 TIMBER LN",
+   "cross": "ASPEN LODGE WAY/ASPEN LODGE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.00998,
+   "lon": -85.15767,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831915",
+   "sequence": "2026-11-37429",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:38:46Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831911",
+   "sequence": "2026-11-37427",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:36:41Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1901 - 2059 HIGHWAY 27 SB",
+   "cross": "EXIT SEQUOYAH RD OFF RAMP SB/EXIT TSATI TER ON RAMP SB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.260282,
+   "lon": -85.168429,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831910",
    "sequence": "2026-11-37425",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:34:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:34:08Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -168,8 +324,8 @@
    "id": "9831901",
    "sequence": "2026-11-37419",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:40:15Z",
    "created": "2026-11-26T22:30:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +376,8 @@
    "id": "9831897",
    "sequence": "2026-11-37416",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:39:42Z",
    "created": "2026-11-26T22:29:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -267,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831882",
-   "sequence": "2026-11-37404",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:15:53Z",
-   "created": "2026-11-26T22:11:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 E 11TH ST",
-   "cross": "GEORGIA AVE/COLUMBIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.043922,
-   "lon": -85.309345,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831878",
