@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-26T13:05:37+00:00",
+ "updated": "2026-11-26T13:10:37+00:00",
  "counts": {
-  "year": 374330,
-  "upstream_day": 193,
-  "day": 271,
+  "year": 374334,
+  "upstream_day": 197,
+  "day": 277,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831209",
+   "sequence": "2026-11-36938",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:06:29Z",
+   "created": "2026-11-26T13:06:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5208 HIGHWAY 153",
+   "cross": "HAMILL RD/NORTHGATE MALL DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.124128,
+   "lon": -85.239266,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831210",
+   "sequence": "2026-11-36939",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:06:29Z",
+   "created": "2026-11-26T13:06:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "152 HIGHWAY 153 SB",
+   "cross": "EXIT SHEPHERD RD ON RAMP SB/EXIT SHEPHERD RD OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "804",
+   "priority": "PRI 1",
+   "lat": 35.040498,
+   "lon": -85.185717,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831207",
+   "sequence": "2026-11-36935",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:05:45Z",
+   "created": "2026-11-26T13:05:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 E 11TH ST",
+   "cross": "FOSTER ST/DOUGLAS ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.041876,
+   "lon": -85.304757,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831208",
+   "sequence": "2026-11-36936",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:05:45Z",
+   "created": "2026-11-26T13:05:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "400 E 11TH ST",
+   "cross": "FOSTER ST/DOUGLAS ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.041876,
+   "lon": -85.304757,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831206",
+   "sequence": "2026-11-36937",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:04:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5208 HIGHWAY 153",
+   "cross": "HAMILL RD/NORTHGATE MALL DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.124734,
+   "lon": -85.240563,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831205",
+   "sequence": "2026-11-36934",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:09:51Z",
+   "created": "2026-11-26T13:04:19Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "400 E 11TH ST",
+   "cross": "FOSTER ST/DOUGLAS ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.041876,
+   "lon": -85.304757,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831204",
    "sequence": "2026-11-36933",
@@ -134,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.07298,
    "lon": -85.249725,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831162",
-   "sequence": "2026-11-36911",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T12:40:16Z",
-   "created": "2026-11-26T12:24:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040477,
-   "lon": -85.299892,
    "units": 1,
    "stacked": false,
    "notable": false
