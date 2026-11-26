@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T18:00:38+00:00",
+ "updated": "2026-11-26T18:05:36+00:00",
  "counts": {
   "year": 374504,
   "upstream_day": 367,
-  "day": 507,
+  "day": 509,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
   {
+   "id": "9831557",
+   "sequence": "2026-11-37171",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:00:55Z",
+   "created": "2026-11-26T18:00:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4025 DAY LILY TRL",
+   "cross": "No Cross Street/TIGER LILY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 3",
+   "lat": 35.12902,
+   "lon": -85.306858,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831556",
+   "sequence": "2026-11-37170",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T18:00:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4025 DAY LILY TRL",
+   "cross": "No Cross Street/TIGER LILY TRL",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 2",
+   "lat": 35.12902,
+   "lon": -85.306858,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831555",
    "sequence": "2026-11-37169",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T18:03:48Z",
    "created": "2026-11-26T17:58:47Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831543",
-   "sequence": "2026-11-37157",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:34:53Z",
-   "created": "2026-11-26T17:34:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2618 FOREST RD",
-   "cross": "PINE ST/FOREST ACRES LN",
-   "city": "CHATTANOOGA",
-   "zone": "603 B",
-   "priority": "PRI 2",
-   "lat": 35.090627,
-   "lon": -85.231484,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831541",
    "sequence": "2026-11-37155",
    "type": "EMS CALL",
@@ -290,32 +316,6 @@
    "priority": "PRI 4",
    "lat": 35.054656,
    "lon": -85.146128,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831525",
-   "sequence": "2026-11-37144",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:18:37Z",
-   "created": "2026-11-26T17:18:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "22 ORIOLE DR",
-   "cross": "PROVENCE ST/AIM WAY",
-   "city": "CHATTANOOGA",
-   "zone": "1304 A",
-   "priority": "PRI 2",
-   "lat": 35.021815,
-   "lon": -85.244844,
    "units": 1,
    "stacked": false,
    "notable": false
