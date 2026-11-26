@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T14:25:36+00:00",
+ "updated": "2026-11-26T14:30:39+00:00",
  "counts": {
-  "year": 374377,
-  "upstream_day": 240,
-  "day": 333,
+  "year": 374381,
+  "upstream_day": 244,
+  "day": 339,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9831302",
+   "sequence": "2026-11-36999",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:27:42Z",
+   "created": "2026-11-26T14:27:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052323,
+   "lon": -85.150974,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831298",
+   "sequence": "2026-11-37001",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:27:59Z",
+   "created": "2026-11-26T14:21:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1832 OLD RINGGOLD RD",
+   "cross": "ELDER ST/RIDGEWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.015261,
+   "lon": -85.268443,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831296",
    "sequence": "2026-11-36995",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:20:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T14:20:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,36 +87,10 @@
    "notable": false
   },
   {
-   "id": "9831288",
-   "sequence": "2026-11-36990",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T14:12:01Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2306 BARBARA LN",
-   "cross": "GENEVA 2 TRL/GENEVA TRL",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 4",
-   "lat": 35.212151,
-   "lon": -85.128616,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831284",
    "sequence": "2026-11-36988",
    "type": "Assault Delayed",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-26T14:11:28Z",
    "created": "2026-11-26T14:10:59Z",
    "jurisdiction": "Chattanooga PD",
@@ -83,34 +109,8 @@
    "lat": 35.052181,
    "lon": -85.151941,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
-  },
-  {
-   "id": "9831283",
-   "sequence": "2026-11-36986",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-26T14:14:55Z",
-   "created": "2026-11-26T14:08:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "809 BURNSIDE PL",
-   "cross": "No Cross Street/MYRTLE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.028857,
-   "lon": -85.299577,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831282",
@@ -186,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.055393,
    "lon": -85.073061,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831241",
-   "sequence": "2026-11-36962",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": "2026-11-26T13:39:28Z",
-   "created": "2026-11-26T13:33:59Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1417 ST THOMAS ST",
-   "cross": "No Cross Street/WRIGHT ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 4",
-   "lat": 34.990805,
-   "lon": -85.199594,
    "units": 1,
    "stacked": false,
    "notable": false
