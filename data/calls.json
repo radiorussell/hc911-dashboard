@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T01:40:37+00:00",
+ "updated": "2026-11-26T01:45:39+00:00",
  "counts": {
   "year": 374016,
   "upstream_day": 0,
-  "day": 1318,
+  "day": 1320,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9830542",
+   "sequence": "2026-11-36508",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:44:47Z",
+   "created": "2026-11-26T01:44:47Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1512 S HOLTZCLAW AVE",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "504",
+   "priority": "PRI 2",
+   "lat": 35.02808,
+   "lon": -85.288364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830541",
+   "sequence": "2026-11-36507",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:44:14Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1512 S HOLTZCLAW AVE",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.02808,
+   "lon": -85.288364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830534",
    "sequence": "2026-11-36506",
@@ -143,7 +195,7 @@
    "sequence": "2026-11-36489",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T01:41:36Z",
    "created": "2026-11-26T01:17:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.120763,
    "lon": -85.275658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830512",
-   "sequence": "2026-11-36487",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:28:04Z",
-   "created": "2026-11-26T01:15:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3429 WILLOW LAKE CIR",
-   "cross": "BROWNS FERRY RD/BROWNS FERRY RD",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 2",
-   "lat": 35.036202,
-   "lon": -85.362336,
    "units": 1,
    "stacked": false,
    "notable": false
