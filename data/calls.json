@@ -1,19 +1,279 @@
 {
- "updated": "2026-11-26T23:20:38+00:00",
+ "updated": "2026-11-26T23:25:37+00:00",
  "counts": {
   "year": 374740,
   "upstream_day": 603,
-  "day": 815,
+  "day": 825,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9831996",
+   "sequence": "2026-11-37486",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:25:02Z",
+   "created": "2026-11-26T23:25:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "208 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.99587,
+   "lon": -85.318148,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831997",
+   "sequence": "2026-11-37487",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:25:02Z",
+   "created": "2026-11-26T23:25:02Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "208 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 1",
+   "lat": 34.99587,
+   "lon": -85.318148,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831994",
+   "sequence": "2026-11-37484",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:24:26Z",
+   "created": "2026-11-26T23:24:26Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8249 STANDIFER GAP RD",
+   "cross": "CLIPPER DR/BANKS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 2",
+   "lat": 35.03636,
+   "lon": -85.107885,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831990",
+   "sequence": "2026-11-37485",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:25:02Z",
+   "created": "2026-11-26T23:24:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "208 HAWKINS OAK LN",
+   "cross": "CENTRAL AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 34.99587,
+   "lon": -85.318148,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831993",
+   "sequence": "2026-11-37483",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:23:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8249 STANDIFER GAP RD",
+   "cross": "CLIPPER DR/BANKS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.03636,
+   "lon": -85.107885,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831992",
+   "sequence": "2026-11-37482",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:23:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "411 S LYERLY ST",
+   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 3",
+   "lat": 35.032246,
+   "lon": -85.269841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831991",
+   "sequence": "2026-11-37481",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:23:45Z",
+   "created": "2026-11-26T23:23:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "411 S LYERLY ST",
+   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.032246,
+   "lon": -85.269841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831989",
+   "sequence": "2026-11-37480",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:23:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "411 S LYERLY ST",
+   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.032246,
+   "lon": -85.269841,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831988",
+   "sequence": "2026-11-37479",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:22:07Z",
+   "created": "2026-11-26T23:22:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "622 NARROWS WAY",
+   "cross": "ELY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 2",
+   "lat": 35.118602,
+   "lon": -85.276632,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831986",
+   "sequence": "2026-11-37478",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:21:33Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "622 NARROWS WAY",
+   "cross": "ELY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.118602,
+   "lon": -85.276632,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831983",
    "sequence": "2026-11-37477",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:19:06Z",
+   "type": "Unknown Trouble",
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:24:46Z",
    "created": "2026-11-26T23:18:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +283,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "E 23RD ST / S ORCHARD KNOB AVE",
-   "cross": "",
+   "address": "2000 E 23RD ST",
+   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
    "city": "CHATTANOOGA",
    "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.019431,
-   "lon": -85.283734,
+   "priority": "PRI 1",
+   "lat": 35.01856,
+   "lon": -85.28253,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +298,8 @@
    "id": "9831980",
    "sequence": "2026-11-37475",
    "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:18:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T23:17:38Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -168,8 +428,8 @@
    "id": "9831970",
    "sequence": "2026-11-37467",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:23:02Z",
    "created": "2026-11-26T23:13:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -526,32 +786,6 @@
    "lon": -85.243255,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831903",
-   "sequence": "2026-11-37420",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:31:11Z",
-   "created": "2026-11-26T22:31:11Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.062053,
-   "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
