@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T20:30:42+00:00",
+ "updated": "2026-11-26T20:35:37+00:00",
  "counts": {
   "year": 374615,
   "upstream_day": 478,
-  "day": 655,
+  "day": 657,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 32,
  "incidents": [
+  {
+   "id": "9831772",
+   "sequence": "2026-11-37319",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T20:32:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5321 HUNTER RD",
+   "cross": "WINDHAVEN RD/HUNTER WOODS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.087684,
+   "lon": -85.079628,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831768",
    "sequence": "2026-11-37317",
@@ -64,8 +90,8 @@
    "id": "9831765",
    "sequence": "2026-11-37314",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T20:28:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T20:28:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,58 +165,6 @@
    "notable": false
   },
   {
-   "id": "9831762",
-   "sequence": "2026-11-37310",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T20:29:06Z",
-   "created": "2026-11-26T20:24:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "728 MARKET ST",
-   "cross": "W 7TH ST/E 8TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 1",
-   "lat": 35.047585,
-   "lon": -85.309318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831763",
-   "sequence": "2026-11-37311",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T20:29:31Z",
-   "created": "2026-11-26T20:24:41Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "728 MARKET ST",
-   "cross": "W 7TH ST/E 8TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.047585,
-   "lon": -85.309318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831761",
    "sequence": "2026-11-37308",
    "type": "EMS CALL",
@@ -246,8 +220,8 @@
    "id": "9831758",
    "sequence": "2026-11-37307",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:33:24Z",
    "created": "2026-11-26T20:23:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +272,8 @@
    "id": "9831751",
    "sequence": "2026-11-37300",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:30:50Z",
    "created": "2026-11-26T20:18:13Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -324,8 +298,8 @@
    "id": "9831749",
    "sequence": "2026-11-37297",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:34:15Z",
    "created": "2026-11-26T20:13:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -335,13 +309,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3819 BRAINERD RD",
-   "cross": "ORIOLE DR/TALLEY RD",
+   "address": "3116 BRAINERD RD",
+   "cross": "MCCALLIE AVE/S SEMINOLE DR",
    "city": "CHATTANOOGA",
    "zone": "C2",
    "priority": "PRI 3",
-   "lat": 35.022363,
-   "lon": -85.241807,
+   "lat": 35.027459,
+   "lon": -85.255036,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -633,58 +607,6 @@
    "notable": true
   },
   {
-   "id": "9831699",
-   "sequence": "2026-11-37263",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T20:05:27Z",
-   "created": "2026-11-26T19:48:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "301 MANUFACTURERS RD",
-   "cross": "VELMA ST/MIDDLE RIVER  RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.063383,
-   "lon": -85.314145,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831698",
-   "sequence": "2026-11-37262",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-26T19:56:38Z",
-   "created": "2026-11-26T19:48:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4040 MOUNTAIN CREEK RD",
-   "cross": "MORRISON SPRINGS RD/READS LAKE RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.128226,
-   "lon": -85.307986,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831690",
    "sequence": "2026-11-37256",
    "type": "MVC Injuries",
@@ -813,32 +735,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831645",
-   "sequence": "2026-11-37223",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:22:04Z",
-   "created": "2026-11-26T19:15:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18160 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.014911,
-   "lon": -85.271346,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831585",
