@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T23:00:38+00:00",
+ "updated": "2026-11-26T23:05:43+00:00",
  "counts": {
   "year": 374731,
   "upstream_day": 594,
   "day": 800,
   "day_basis": "midnight"
  },
- "raw_rows": 39,
+ "raw_rows": 36,
  "incidents": [
   {
    "id": "9831962",
    "sequence": "2026-11-37462",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:59:37Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:58:24Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9831961",
    "sequence": "2026-11-37461",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:58:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:56:46Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9831939",
    "sequence": "2026-11-37445",
    "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:01:04Z",
    "created": "2026-11-26T22:47:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -209,32 +209,6 @@
    "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.007811,
-   "lon": -85.234957,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831940",
-   "sequence": "2026-11-37446",
-   "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:56:50Z",
-   "created": "2026-11-26T22:47:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "18420 - 18459 INTERSTATE 24 WB",
-   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "1306 D",
    "priority": "PRI 1",
    "lat": 35.007811,
    "lon": -85.234957,
@@ -402,8 +376,8 @@
    "id": "9831923",
    "sequence": "2026-11-37447",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:05:12Z",
    "created": "2026-11-26T22:46:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -503,63 +477,11 @@
    "notable": false
   },
   {
-   "id": "9831917",
-   "sequence": "2026-11-37430",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:39:27Z",
-   "created": "2026-11-26T22:39:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831918",
-   "sequence": "2026-11-37431",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:39:27Z",
-   "created": "2026-11-26T22:39:27Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831914",
    "sequence": "2026-11-37432",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:02:42Z",
    "created": "2026-11-26T22:39:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -610,8 +532,8 @@
    "id": "9831915",
    "sequence": "2026-11-37429",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:43:27Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T23:03:41Z",
    "created": "2026-11-26T22:38:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -948,8 +870,8 @@
    "id": "9831801",
    "sequence": "2026-11-37341",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:51:24Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:14:18Z",
    "created": "2026-11-26T20:58:58Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
