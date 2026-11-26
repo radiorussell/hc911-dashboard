@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T06:50:38+00:00",
+ "updated": "2026-11-26T06:55:36+00:00",
  "counts": {
   "year": 374180,
   "upstream_day": 43,
-  "day": 72,
+  "day": 75,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9830897",
+   "sequence": "2026-11-36737",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T06:55:06Z",
+   "created": "2026-11-26T06:54:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "29 WERT ST",
+   "cross": "HAMILTON AVE/SPEARS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.077309,
+   "lon": -85.308821,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830893",
    "sequence": "2026-11-36733",
@@ -64,8 +90,8 @@
    "id": "9830892",
    "sequence": "2026-11-36732",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T06:50:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T06:50:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9830888",
    "sequence": "2026-11-36729",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-26T06:44:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T06:44:40Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -165,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9830886",
-   "sequence": "2026-11-36725",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:48:01Z",
-   "created": "2026-11-26T06:41:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "928 MARKET ST",
-   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 2",
-   "lat": 35.045384,
-   "lon": -85.308894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830883",
    "sequence": "2026-11-36728",
    "type": "Missing Juv Not 21",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:55:07Z",
    "created": "2026-11-26T06:41:43Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9830876",
-   "sequence": "2026-11-36719",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T06:37:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2012 GARFIELD ST",
-   "cross": "ROANOKE AVE/N WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 2",
-   "lat": 35.040636,
-   "lon": -85.2693,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830877",
    "sequence": "2026-11-36720",
    "type": "EMS CALL",
@@ -350,8 +324,8 @@
    "id": "9830875",
    "sequence": "2026-11-36718",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:51:14Z",
    "created": "2026-11-26T06:37:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +454,8 @@
    "id": "9830861",
    "sequence": "2026-11-36705",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:24:27Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T06:54:04Z",
    "created": "2026-11-26T06:16:32Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.009454,
    "lon": -85.27164,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830860",
-   "sequence": "2026-11-36704",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:19:17Z",
-   "created": "2026-11-26T06:15:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2491 - 2549 WESTSIDE DR",
-   "cross": "ELDER ST/RINGGOLD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.009662,
-   "lon": -85.271624,
    "units": 1,
    "stacked": false,
    "notable": true
