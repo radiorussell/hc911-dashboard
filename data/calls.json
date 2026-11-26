@@ -1,13 +1,247 @@
 {
- "updated": "2026-11-25T23:55:38+00:00",
+ "updated": "2026-11-26T00:00:37+00:00",
  "counts": {
-  "year": 373937,
-  "upstream_day": 884,
-  "day": 1218,
+  "year": 373942,
+  "upstream_day": 889,
+  "day": 1233,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 38,
  "incidents": [
+  {
+   "id": "9830416",
+   "sequence": "2026-11-36421",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:00:34Z",
+   "created": "2026-11-26T00:00:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.036982,
+   "lon": -85.136652,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830415",
+   "sequence": "2026-11-36420",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:00:33Z",
+   "created": "2026-11-26T00:00:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.036982,
+   "lon": -85.136652,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830414",
+   "sequence": "2026-11-36418",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:00:32Z",
+   "created": "2026-11-26T00:00:32Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1303 SUNNYFIELD LN",
+   "cross": "SPRING CREEK RD/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 2",
+   "lat": 34.992552,
+   "lon": -85.217749,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830411",
+   "sequence": "2026-11-36416",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:59:56Z",
+   "created": "2026-11-25T23:59:56Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830412",
+   "sequence": "2026-11-36417",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:59:56Z",
+   "created": "2026-11-25T23:59:56Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 2",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830410",
+   "sequence": "2026-11-36415",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-25T23:59:43Z",
+   "created": "2026-11-25T23:59:43Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4910 SWINYAR DR",
+   "cross": "FOUR CORNERS PL/MESSINGER LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 1",
+   "lat": 35.060281,
+   "lon": -85.070921,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830409",
+   "sequence": "2026-11-36419",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:00:33Z",
+   "created": "2026-11-25T23:59:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.036982,
+   "lon": -85.136652,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830404",
+   "sequence": "2026-11-36412",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-25T23:56:07Z",
+   "created": "2026-11-25T23:56:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "701 B",
+   "priority": "PRI 2",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830402",
+   "sequence": "2026-11-36411",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-25T23:55:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830393",
    "sequence": "2026-11-36405",
@@ -61,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9830390",
-   "sequence": "2026-11-36404",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:50:48Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "955 RIDGEWAY AVE",
-   "cross": "KEY ST/LAUREL ST",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 1",
-   "lat": 35.126047,
-   "lon": -85.336896,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830386",
    "sequence": "2026-11-36402",
    "type": "MVC No Injuries",
@@ -116,8 +324,8 @@
    "id": "9830388",
    "sequence": "2026-11-36401",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:56:14Z",
    "created": "2026-11-25T23:49:03Z",
    "jurisdiction": "Lookout Mountain FD",
    "agencies": [
@@ -168,8 +376,8 @@
    "id": "9830382",
    "sequence": "2026-11-36397",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-25T23:58:43Z",
    "created": "2026-11-25T23:44:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +472,6 @@
    "priority": "PRI 3",
    "lat": 35.061256,
    "lon": -85.152262,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830364",
-   "sequence": "2026-11-36385",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:32:50Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "401 GLENWAY AVE",
-   "cross": "No Cross Street/IVORY AVE",
-   "city": "WALDEN",
-   "zone": "WEST 2 WALDEN",
-   "priority": "PRI 3",
-   "lat": 35.17044,
-   "lon": -85.299692,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -524,32 +706,6 @@
    "priority": "PRI 2",
    "lat": 35.118942,
    "lon": -85.094357,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830303",
-   "sequence": "2026-11-36347",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-25T23:35:49Z",
-   "created": "2026-11-25T22:51:14Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2717 ROSSVILLE BLVD",
-   "cross": "EXIT 180B OFF RAMP EB/E 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.016601,
-   "lon": -85.293947,
    "units": 1,
    "stacked": false,
    "notable": false
