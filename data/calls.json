@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T12:15:36+00:00",
+ "updated": "2026-11-26T12:20:37+00:00",
  "counts": {
-  "year": 374309,
-  "upstream_day": 172,
-  "day": 242,
+  "year": 374310,
+  "upstream_day": 173,
+  "day": 245,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
   {
-   "id": "9831153",
-   "sequence": "2026-11-36904",
+   "id": "9831157",
+   "sequence": "2026-11-36907",
    "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-26T12:15:28Z",
-   "created": "2026-11-26T12:15:00Z",
+   "status_at": "2026-11-26T12:20:20Z",
+   "created": "2026-11-26T12:20:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "400 CHESTNUT ST",
+   "cross": "W 4TH ST/W 5TH ST",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "A7",
    "priority": "PRI 3",
-   "lat": 35.08143,
-   "lon": -85.26367,
+   "lat": 35.051813,
+   "lon": -85.311457,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831156",
+   "sequence": "2026-11-36906",
+   "type": "Wires Down",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:16:23Z",
+   "created": "2026-11-26T12:16:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "619 O NEAL ST",
+   "cross": "ENGEL DR/OAK ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 2",
+   "lat": 35.042514,
+   "lon": -85.289182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831155",
+   "sequence": "2026-11-36905",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T12:16:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "619 O NEAL ST",
+   "cross": "ENGEL DR/OAK ST",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 2",
+   "lat": 35.042514,
+   "lon": -85.289182,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +116,8 @@
    "id": "9831147",
    "sequence": "2026-11-36899",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-26T12:10:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T12:09:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9831122",
    "sequence": "2026-11-36890",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T12:01:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T12:19:03Z",
    "created": "2026-11-26T11:47:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -141,7 +193,7 @@
   {
    "id": "9831112",
    "sequence": "2026-11-36883",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-26T11:46:58Z",
    "created": "2026-11-26T11:37:01Z",
@@ -157,7 +209,7 @@
    "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "B6A",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.014952,
    "lon": -85.274964,
    "units": 1,
