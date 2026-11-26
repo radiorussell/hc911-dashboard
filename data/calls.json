@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T20:05:40+00:00",
+ "updated": "2026-11-26T20:10:38+00:00",
  "counts": {
-  "year": 374584,
-  "upstream_day": 447,
-  "day": 624,
+  "year": 374602,
+  "upstream_day": 465,
+  "day": 631,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9831741",
+   "sequence": "2026-11-37292",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T20:10:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2800 MCCALLIE AVE",
+   "cross": "EXIT BAILEY AVE RAMP/EXIT GLENWOOD DR OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 1",
+   "lat": 35.031395,
+   "lon": -85.261209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831742",
+   "sequence": "2026-11-37293",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T20:10:05Z",
+   "created": "2026-11-26T20:10:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2800 MCCALLIE AVE",
+   "cross": "EXIT BAILEY AVE RAMP/EXIT GLENWOOD DR OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.031395,
+   "lon": -85.261209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831740",
+   "sequence": "2026-11-37291",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T20:08:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2800 MCCALLIE AVE",
+   "cross": "EXIT BAILEY AVE RAMP/EXIT GLENWOOD DR OFF RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.031395,
+   "lon": -85.261209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831731",
    "sequence": "2026-11-37286",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T20:02:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T20:02:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9831728",
    "sequence": "2026-11-37284",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:06:29Z",
    "created": "2026-11-26T19:58:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.016658,
    "lon": -85.226225,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831725",
-   "sequence": "2026-11-37282",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T19:57:22Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "802 CENTRAL AVE",
-   "cross": "E 8TH ST/FLYNN ST",
-   "city": "CHATTANOOGA",
-   "zone": "203",
-   "priority": "PRI 1",
-   "lat": 35.040808,
-   "lon": -85.291314,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9831722",
    "sequence": "2026-11-37280",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:55:13Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T19:55:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -477,37 +529,11 @@
    "notable": false
   },
   {
-   "id": "9831677",
-   "sequence": "2026-11-37250",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:30:23Z",
-   "created": "2026-11-26T19:30:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2441 LEANN CIR",
-   "cross": "SUMTER AVE/SUMTER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1503",
-   "priority": "PRI 2",
-   "lat": 35.056795,
-   "lon": -85.227561,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831675",
    "sequence": "2026-11-37248",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:43:23Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T20:09:08Z",
    "created": "2026-11-26T19:29:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
