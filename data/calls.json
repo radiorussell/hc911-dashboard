@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T09:30:37+00:00",
+ "updated": "2026-11-26T09:35:44+00:00",
  "counts": {
   "year": 374254,
   "upstream_day": 117,
   "day": 165,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9831030",
@@ -39,7 +39,7 @@
    "sequence": "2026-11-36823",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T09:33:39Z",
    "created": "2026-11-26T09:13:38Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -49,39 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2130 - 2239 HIGHWAY 27 SB",
+   "address": "2200 HIGHWAY 27 SB",
    "cross": "EXIT TSATI TER OFF RAMP SB/EXIT HIGHWAY 27 OFF RAMP SB",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 12",
    "priority": "PRI 3",
-   "lat": 35.284502,
-   "lon": -85.152597,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831015",
-   "sequence": "2026-11-36822",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T09:13:29Z",
-   "created": "2026-11-26T09:13:29Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7249 E BRAINERD RD",
-   "cross": "PANORAMA DR/KENMOOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.017217,
-   "lon": -85.165867,
+   "lat": 35.292045,
+   "lon": -85.15167,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +90,8 @@
    "id": "9831011",
    "sequence": "2026-11-36821",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T09:23:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T09:30:57Z",
    "created": "2026-11-26T09:12:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,58 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.017217,
    "lon": -85.165867,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831012",
-   "sequence": "2026-11-36819",
-   "type": "Gas Leak",
-   "status": "On Scene",
-   "status_at": "2026-11-26T09:20:13Z",
-   "created": "2026-11-26T09:12:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3710 SUMTER AVE",
-   "cross": "LEANN CIR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1503",
-   "priority": "PRI 2",
-   "lat": 35.05787,
-   "lon": -85.22724,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831007",
-   "sequence": "2026-11-36815",
-   "type": "Gas Leak",
-   "status": "Queued",
-   "status_at": "2026-11-26T09:10:04Z",
-   "created": "2026-11-26T09:09:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3710 SUMTER AVE",
-   "cross": "LEANN CIR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.05787,
-   "lon": -85.22724,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -267,58 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830936",
-   "sequence": "2026-11-36766",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T08:48:27Z",
-   "created": "2026-11-26T07:35:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1020 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.108153,
-   "lon": -85.317953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830863",
-   "sequence": "2026-11-36707",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:28:59Z",
-   "created": "2026-11-26T06:18:11Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "817 S VALLEY WOOD CIR",
-   "cross": "N VALLEY WOOD CIR/VALLEYWOOD DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 2",
-   "lat": 35.183639,
-   "lon": -85.201405,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830817",
