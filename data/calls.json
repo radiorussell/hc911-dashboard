@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T07:05:38+00:00",
+ "updated": "2026-11-26T07:10:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
   "day": 76,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 17,
  "incidents": [
   {
    "id": "9830898",
    "sequence": "2026-11-36738",
    "type": "Unknown Trouble",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T07:09:18Z",
    "created": "2026-11-26T07:01:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -61,32 +61,6 @@
    "notable": false
   },
   {
-   "id": "9830893",
-   "sequence": "2026-11-36733",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T06:50:28Z",
-   "created": "2026-11-26T06:50:28Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4914 HUNTER TRL",
-   "cross": "MARLOW DR/PARAGON DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.137582,
-   "lon": -85.27119,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830894",
    "sequence": "2026-11-36734",
    "type": "EMS CALL",
@@ -106,32 +80,6 @@
    "city": "RED BANK",
    "zone": "RED BANK FD 2",
    "priority": "PRI 3",
-   "lat": 35.137582,
-   "lon": -85.27119,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830892",
-   "sequence": "2026-11-36732",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T07:01:51Z",
-   "created": "2026-11-26T06:50:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4914 HUNTER TRL",
-   "cross": "MARLOW DR/PARAGON DR",
-   "city": "RED BANK",
-   "zone": "MEDIC 04 RB C",
-   "priority": "PRI 2",
    "lat": 35.137582,
    "lon": -85.27119,
    "units": 1,
@@ -191,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9830883",
-   "sequence": "2026-11-36728",
-   "type": "Missing Juv Not 21",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:55:07Z",
-   "created": "2026-11-26T06:41:43Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6535 COOLEY RD",
-   "cross": "POSSUM TRAIL RD/SWALLOWTAIL WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 1",
-   "lat": 35.246035,
-   "lon": -85.05126,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830879",
    "sequence": "2026-11-36723",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T07:02:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T07:07:55Z",
    "created": "2026-11-26T06:41:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9830878",
-   "sequence": "2026-11-36721",
-   "type": "Carbon Monoxide Alarm",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:45:37Z",
-   "created": "2026-11-26T06:37:57Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7249 E BRAINERD RD",
-   "cross": "PANORAMA DR/KENMOOR DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.017138,
-   "lon": -85.165708,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830875",
    "sequence": "2026-11-36718",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:51:14Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T07:10:14Z",
    "created": "2026-11-26T06:37:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -446,32 +342,6 @@
    "priority": "PRI 2",
    "lat": 35.05067,
    "lon": -85.226004,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830828",
-   "sequence": "2026-11-36687",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T05:40:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18420 INTERSTATE 24 EB",
-   "cross": "EXIT 184 OFF RAMP EB/EXIT 184 ON RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.007507,
-   "lon": -85.234558,
    "units": 1,
    "stacked": false,
    "notable": false
