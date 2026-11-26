@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T13:50:38+00:00",
+ "updated": "2026-11-26T13:55:38+00:00",
  "counts": {
   "year": 374361,
   "upstream_day": 224,
-  "day": 310,
+  "day": 314,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9831261",
+   "sequence": "2026-11-36976",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:54:44Z",
+   "created": "2026-11-26T13:53:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3404 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.081426,
+   "lon": -85.263454,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831259",
+   "sequence": "2026-11-36975",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:51:52Z",
+   "created": "2026-11-26T13:51:52Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 2",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831258",
+   "sequence": "2026-11-36974",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:51:52Z",
+   "created": "2026-11-26T13:51:52Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831257",
+   "sequence": "2026-11-36973",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:50:57Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831252",
    "sequence": "2026-11-36971",
@@ -38,8 +142,8 @@
    "id": "9831251",
    "sequence": "2026-11-36972",
    "type": "AFA Commercial",
-   "status": "Queued",
-   "status_at": "2026-11-26T13:50:05Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:55:09Z",
    "created": "2026-11-26T13:49:18Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -65,7 +169,7 @@
    "sequence": "2026-11-36969",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T13:52:32Z",
    "created": "2026-11-26T13:45:58Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9831249",
    "sequence": "2026-11-36968",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:54:41Z",
    "created": "2026-11-26T13:45:18Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -221,7 +325,7 @@
    "sequence": "2026-11-36963",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T13:52:26Z",
    "created": "2026-11-26T13:33:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -290,58 +394,6 @@
    "priority": "PRI 4",
    "lat": 35.070617,
    "lon": -85.246306,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831230",
-   "sequence": "2026-11-36953",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T13:28:57Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.060281,
-   "lon": -85.070921,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831228",
-   "sequence": "2026-11-36950",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T13:28:59Z",
-   "created": "2026-11-26T13:24:13Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.988094,
-   "lon": -85.205343,
    "units": 1,
    "stacked": false,
    "notable": false
