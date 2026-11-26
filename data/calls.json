@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-26T11:15:42+00:00",
+ "updated": "2026-11-26T11:20:37+00:00",
  "counts": {
-  "year": 374285,
-  "upstream_day": 148,
-  "day": 208,
+  "year": 374290,
+  "upstream_day": 153,
+  "day": 209,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
   {
+   "id": "9831090",
+   "sequence": "2026-11-36871",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-26T11:17:05Z",
+   "created": "2026-11-26T11:16:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2333 MCCALLIE AVE",
+   "cross": "S LYERLY ST/S WATKINS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.034727,
+   "lon": -85.26761,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831089",
    "sequence": "2026-11-36869",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:12:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T11:12:50Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9831085",
    "sequence": "2026-11-36865",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:18:17Z",
    "created": "2026-11-26T11:07:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9831084",
    "sequence": "2026-11-36868",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:17:39Z",
    "created": "2026-11-26T11:07:39Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9831079",
    "sequence": "2026-11-36863",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:00:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T11:00:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -267,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831049",
-   "sequence": "2026-11-36843",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T10:49:48Z",
-   "created": "2026-11-26T10:09:58Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1109 MOSS DR",
-   "cross": "MOSS ST/HOYT ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.042483,
-   "lon": -85.243678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831040",
