@@ -1,64 +1,90 @@
 {
- "updated": "2026-11-26T22:50:37+00:00",
+ "updated": "2026-11-26T22:55:40+00:00",
  "counts": {
   "year": 374709,
   "upstream_day": 572,
-  "day": 789,
+  "day": 795,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 36,
  "incidents": [
   {
-   "id": "9831943",
-   "sequence": "2026-11-37451",
-   "type": "EMS CALL",
+   "id": "9831956",
+   "sequence": "2026-11-37457",
+   "type": "MVC Injuries",
    "status": "Queued",
-   "status_at": "2026-11-26T22:48:02Z",
-   "created": "2026-11-26T22:48:02Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "status_at": "2026-11-26T22:55:23Z",
+   "created": "2026-11-26T22:55:03Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "Chattanooga PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
-   "address": "4620 RICKY DR",
-   "cross": "MIKE EDD LN/No Cross Street",
+   "address": "17100 - 17368 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
+   "zone": "A13 A",
    "priority": "PRI 1",
-   "lat": 35.03802,
-   "lon": -85.21509,
+   "lat": 35.00761,
+   "lon": -85.39395,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831955",
+   "sequence": "2026-11-37455",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:53:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17101 - 17369 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 1",
+   "lat": 35.009128,
+   "lon": -85.392022,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9831941",
-   "sequence": "2026-11-37449",
-   "type": "MVC Injuries",
+   "id": "9831949",
+   "sequence": "2026-11-37454",
+   "type": "MVC Unknown Injuries",
    "status": "Queued",
-   "status_at": "2026-11-26T22:47:55Z",
-   "created": "2026-11-26T22:47:55Z",
-   "jurisdiction": "Hamilton Co EMS",
+   "status_at": "2026-11-26T22:52:52Z",
+   "created": "2026-11-26T22:52:38Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co EMS"
+    "Chattanooga PD"
    ],
-   "agency_type": "EMS",
+   "agency_type": "Law",
    "agency_types": [
-    "EMS"
+    "Law"
    ],
    "address": "18421 - 18459 INTERSTATE 24 WB",
    "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
    "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
+   "zone": "C4",
    "priority": "PRI 1",
-   "lat": 35.00573,
-   "lon": -85.22898,
+   "lat": 35.005396,
+   "lon": -85.228203,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9831939",
@@ -142,8 +168,8 @@
    "id": "9831932",
    "sequence": "2026-11-37444",
    "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:53:59Z",
    "created": "2026-11-26T22:46:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9831930",
    "sequence": "2026-11-37436",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:53:00Z",
    "created": "2026-11-26T22:46:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -272,8 +298,8 @@
    "id": "9831923",
    "sequence": "2026-11-37447",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:47:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:46:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -439,13 +465,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1755 GUNBARREL RD",
-   "cross": "ZIEGLER RD/CRANE RD",
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
    "city": "CHATTANOOGA",
-   "zone": "C8",
+   "zone": "A8",
    "priority": "PRI 1",
-   "lat": 35.022566,
-   "lon": -85.160474,
+   "lat": 35.048719,
+   "lon": -85.290431,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -506,8 +532,8 @@
    "id": "9831911",
    "sequence": "2026-11-37427",
    "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:53:02Z",
    "created": "2026-11-26T22:36:41Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -836,6 +862,32 @@
    "priority": "PRI 1",
    "lat": 35.046076,
    "lon": -85.155522,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831801",
+   "sequence": "2026-11-37341",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:51:24Z",
+   "created": "2026-11-26T20:58:58Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1071 WYNNWOOD RD",
+   "cross": "ARDIAN TRL/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.003644,
+   "lon": -85.26586,
    "units": 1,
    "stacked": false,
    "notable": false
