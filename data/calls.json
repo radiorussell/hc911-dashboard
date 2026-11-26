@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T17:20:39+00:00",
+ "updated": "2026-11-26T17:25:36+00:00",
  "counts": {
   "year": 374478,
   "upstream_day": 341,
-  "day": 482,
+  "day": 485,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831528",
+   "sequence": "2026-11-37147",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T17:22:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1400 MARKET ST",
+   "cross": "W 14TH ST/STATION ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.037227,
+   "lon": -85.306833,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831525",
    "sequence": "2026-11-37144",
@@ -116,8 +142,8 @@
    "id": "9831519",
    "sequence": "2026-11-37139",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:23:40Z",
    "created": "2026-11-26T17:15:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9831510",
    "sequence": "2026-11-37134",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:21:14Z",
    "created": "2026-11-26T17:11:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +350,8 @@
    "id": "9831494",
    "sequence": "2026-11-37120",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:07:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T17:22:29Z",
    "created": "2026-11-26T17:00:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +402,8 @@
    "id": "9831479",
    "sequence": "2026-11-37110",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:23:19Z",
    "created": "2026-11-26T16:43:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
