@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T16:05:43+00:00",
+ "updated": "2026-11-26T16:10:37+00:00",
  "counts": {
-  "year": 374438,
-  "upstream_day": 301,
-  "day": 415,
+  "year": 374440,
+  "upstream_day": 303,
+  "day": 421,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9831434",
+   "sequence": "2026-11-37083",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:09:51Z",
+   "created": "2026-11-26T16:09:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "935 BRYNWOOD DR",
+   "cross": "BRYNWOOD TER/WATSON RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.120012,
+   "lon": -85.264248,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831431",
+   "sequence": "2026-11-37080",
+   "type": "Residential Fire",
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:10:15Z",
+   "created": "2026-11-26T16:06:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7311 NOAH REID RD",
+   "cross": "FRANCES DR/BRICKHOUSE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 2",
+   "lat": 35.059291,
+   "lon": -85.177372,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831429",
+   "sequence": "2026-11-37079",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:05:46Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7311 NOAH REID RD",
+   "cross": "FRANCES DR/BRICKHOUSE RD",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.059291,
+   "lon": -85.177372,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831427",
    "sequence": "2026-11-37076",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:05:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T16:05:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,58 +165,6 @@
    "notable": false
   },
   {
-   "id": "9831424",
-   "sequence": "2026-11-37074",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T16:00:58Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10405 CARD RD",
-   "cross": "LOVELADY RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.26059,
-   "lon": -85.17124,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831421",
-   "sequence": "2026-11-37072",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:59:17Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4226 CHIESELWOOD LN",
-   "cross": "No Cross Street/DAYFLOWER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 1",
-   "lat": 35.04943,
-   "lon": -85.083266,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831420",
    "sequence": "2026-11-37070",
    "type": "Well Being Check",
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9831414",
-   "sequence": "2026-11-37067",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:53:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5900 BRAINERD RD",
-   "cross": "DEBRA RD/GREENWAY VIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.013262,
-   "lon": -85.21131,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831413",
    "sequence": "2026-11-37066",
    "type": "Animal Call",
@@ -212,58 +212,6 @@
    "priority": "PRI 4",
    "lat": 35.195598,
    "lon": -85.093878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831396",
-   "sequence": "2026-11-37057",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:52:03Z",
-   "created": "2026-11-26T15:37:33Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1540 INTERSTATE 75 SB",
-   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 A",
-   "priority": "PRI 1",
-   "lat": 35.127033,
-   "lon": -85.02985,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831391",
-   "sequence": "2026-11-37056",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:30:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.081783,
-   "lon": -85.26321,
    "units": 1,
    "stacked": false,
    "notable": false
