@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T17:40:37+00:00",
+ "updated": "2026-11-26T17:45:38+00:00",
  "counts": {
   "year": 374494,
   "upstream_day": 357,
   "day": 498,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
    "id": "9831545",
    "sequence": "2026-11-37159",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:37:28Z",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T17:37:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +27,7 @@
    "cross": "CAMDEN OAKS DR/OCOEE ST",
    "city": "CHATTANOOGA",
    "zone": "B2",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.055204,
    "lon": -85.259639,
    "units": 1,
@@ -139,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9831540",
-   "sequence": "2026-11-37154",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:39:19Z",
-   "created": "2026-11-26T17:34:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "265 S HOWELL AVE",
-   "cross": "CONNER ST/MAYFAIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.00785,
-   "lon": -85.2272,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831541",
    "sequence": "2026-11-37155",
    "type": "EMS CALL",
@@ -220,8 +194,8 @@
    "id": "9831535",
    "sequence": "2026-11-37149",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:42:18Z",
    "created": "2026-11-26T17:29:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +454,8 @@
    "id": "9831502",
    "sequence": "2026-11-37126",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T17:34:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T17:43:41Z",
    "created": "2026-11-26T17:04:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +480,8 @@
    "id": "9831494",
    "sequence": "2026-11-37120",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T17:22:29Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T17:41:37Z",
    "created": "2026-11-26T17:00:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -576,32 +550,6 @@
    "priority": "PRI 3",
    "lat": 35.076197,
    "lon": -85.321476,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831436",
-   "sequence": "2026-11-37085",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T17:15:00Z",
-   "created": "2026-11-26T16:13:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "11057 MATTHEW RD",
-   "cross": "ROSE RD/OLD DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.279828,
-   "lon": -85.167978,
    "units": 1,
    "stacked": false,
    "notable": false
