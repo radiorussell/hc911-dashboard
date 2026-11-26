@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-26T12:30:37+00:00",
+ "updated": "2026-11-26T12:35:36+00:00",
  "counts": {
   "year": 374319,
   "upstream_day": 182,
-  "day": 253,
+  "day": 250,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
-  {
-   "id": "9831170",
-   "sequence": "2026-11-36915",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T12:29:20Z",
-   "created": "2026-11-26T12:29:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1409 MARKET ST",
-   "cross": "W 14TH ST/CHOO CHOO AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.038054,
-   "lon": -85.307793,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9831164",
    "sequence": "2026-11-36912",
@@ -64,8 +38,8 @@
    "id": "9831162",
    "sequence": "2026-11-36911",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:31:32Z",
    "created": "2026-11-26T12:24:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831112",
-   "sequence": "2026-11-36883",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:46:58Z",
-   "created": "2026-11-26T11:37:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18140 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.014952,
-   "lon": -85.274964,
    "units": 1,
    "stacked": false,
    "notable": false
