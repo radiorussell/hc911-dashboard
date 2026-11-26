@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-26T06:35:37+00:00",
+ "updated": "2026-11-26T06:40:37+00:00",
  "counts": {
-  "year": 374170,
-  "upstream_day": 33,
-  "day": 53,
+  "year": 374174,
+  "upstream_day": 37,
+  "day": 59,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9830878",
+   "sequence": "2026-11-36721",
+   "type": "Carbon Monoxide Alarm",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:37:57Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7249 E BRAINERD RD",
+   "cross": "PANORAMA DR/KENMOOR DR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.017138,
+   "lon": -85.165708,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830876",
+   "sequence": "2026-11-36719",
+   "type": "Backup EMS Unit",
+   "status": "Queued",
+   "status_at": "2026-11-26T06:37:34Z",
+   "created": "2026-11-26T06:37:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2012 GARFIELD ST",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 2",
+   "lat": 35.040636,
+   "lon": -85.2693,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830877",
+   "sequence": "2026-11-36720",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:37:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2012 GARFIELD ST",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 1",
+   "lat": 35.040636,
+   "lon": -85.2693,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830875",
+   "sequence": "2026-11-36718",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:37:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2012 GARFIELD ST",
+   "cross": "ROANOKE AVE/N WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.040636,
+   "lon": -85.2693,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830874",
+   "sequence": "2026-11-36717",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:36:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1212 E 34TH ST",
+   "cross": "BRANNON AVE/JEROME AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 2",
+   "lat": 35.004685,
+   "lon": -85.297377,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830873",
    "sequence": "2026-11-36715",
    "type": "AFA Apartment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:37:41Z",
    "created": "2026-11-26T06:32:46Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -342,32 +472,6 @@
    "priority": "PRI 2",
    "lat": 35.006021,
    "lon": -85.188491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830804",
-   "sequence": "2026-11-36671",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T05:59:11Z",
-   "created": "2026-11-26T05:25:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6653 PALMS CT",
-   "cross": "GREENWAY DR/N CONCORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.022094,
-   "lon": -85.173628,
    "units": 1,
    "stacked": false,
    "notable": false
