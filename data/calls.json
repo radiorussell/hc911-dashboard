@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T03:35:42+00:00",
+ "updated": "2026-11-26T03:40:37+00:00",
  "counts": {
-  "year": 374100,
+  "year": 374106,
   "upstream_day": 0,
   "day": 1431,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 15,
  "incidents": [
   {
    "id": "9830726",
@@ -38,8 +38,8 @@
    "id": "9830715",
    "sequence": "2026-11-36614",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T03:36:20Z",
    "created": "2026-11-26T03:22:49Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -139,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9830710",
-   "sequence": "2026-11-36609",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:26:53Z",
-   "created": "2026-11-26T03:19:58Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2115 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.034834,
-   "lon": -85.153526,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830708",
    "sequence": "2026-11-36608",
    "type": "EMS CALL",
@@ -217,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9830702",
-   "sequence": "2026-11-36604",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:23:14Z",
-   "created": "2026-11-26T03:15:18Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1306 HIGHLAND RD",
-   "cross": "No Cross Street/WATSON RD",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 2",
-   "lat": 35.11955,
-   "lon": -85.265708,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830701",
    "sequence": "2026-11-36600",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T03:36:19Z",
    "created": "2026-11-26T03:14:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 35.060567,
    "lon": -85.135205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830644",
-   "sequence": "2026-11-36572",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T02:38:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2811 FAXON ST",
-   "cross": "E 28TH ST/BROWN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 4",
-   "lat": 35.012967,
-   "lon": -85.289827,
    "units": 1,
    "stacked": false,
    "notable": false
