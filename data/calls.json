@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T23:45:37+00:00",
+ "updated": "2026-11-26T23:50:37+00:00",
  "counts": {
-  "year": 374767,
-  "upstream_day": 630,
-  "day": 842,
+  "year": 374773,
+  "upstream_day": 636,
+  "day": 845,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9832023",
+   "sequence": "2026-11-37507",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:46:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6931 RIVER RUN DR",
+   "cross": "MUIRFIELD LN/RAINBOW SPRINGS DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.138733,
+   "lon": -85.159003,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832024",
+   "sequence": "2026-11-37505",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:46:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "340 WATER ST",
+   "cross": "CHANDLER PL/CHANDLER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.007779,
+   "lon": -85.314873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832022",
    "sequence": "2026-11-37504",
@@ -38,8 +90,8 @@
    "id": "9832021",
    "sequence": "2026-11-37503",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:41:51Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:48:12Z",
    "created": "2026-11-26T23:41:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -158,32 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "A12",
    "priority": "PRI 3",
-   "lat": 34.99587,
-   "lon": -85.318148,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831997",
-   "sequence": "2026-11-37487",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:34:12Z",
-   "created": "2026-11-26T23:25:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "208 HAWKINS OAK LN",
-   "cross": "CENTRAL AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 1",
    "lat": 34.99587,
    "lon": -85.318148,
    "units": 1,
@@ -375,9 +401,9 @@
   {
    "id": "9831973",
    "sequence": "2026-11-37471",
-   "type": "Harrassing Threats",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:31:58Z",
+   "type": "Miscellaneous Complaint",
+   "status": "Stacked",
+   "status_at": "2026-11-26T23:15:23Z",
    "created": "2026-11-26T23:14:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -391,11 +417,11 @@
    "cross": "SPRUCE ST/S HOLTZCLAW AVE",
    "city": "CHATTANOOGA",
    "zone": "B5",
-   "priority": "PRI 3",
+   "priority": "PRI 4",
    "lat": 35.038276,
    "lon": -85.284422,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -688,8 +714,8 @@
    "id": "9831907",
    "sequence": "2026-11-37422",
    "type": "Burglary",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-26T22:33:44Z",
    "created": "2026-11-26T22:33:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -707,7 +733,7 @@
    "lat": 35.033474,
    "lon": -85.243255,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
