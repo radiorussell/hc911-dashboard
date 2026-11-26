@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-26T15:25:37+00:00",
+ "updated": "2026-11-26T15:30:37+00:00",
  "counts": {
-  "year": 374417,
-  "upstream_day": 280,
-  "day": 391,
+  "year": 374420,
+  "upstream_day": 283,
+  "day": 390,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 30,
  "incidents": [
-  {
-   "id": "9831388",
-   "sequence": "2026-11-37053",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:23:32Z",
-   "created": "2026-11-26T15:23:32Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9408 APISON PIKE",
-   "cross": "SWINYAR DR/OOLTEWAH RINGGOLD RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.059359,
-   "lon": -85.068795,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
   {
    "id": "9831387",
    "sequence": "2026-11-37051",
@@ -89,7 +63,7 @@
   {
    "id": "9831385",
    "sequence": "2026-11-37048",
-   "type": "EMS CALL",
+   "type": "Backup EMS Unit",
    "status": "Queued",
    "status_at": "2026-11-26T15:23:04Z",
    "created": "2026-11-26T15:23:04Z",
@@ -105,7 +79,7 @@
    "cross": "BALDWIN ST/PEEPLES ST",
    "city": "CHATTANOOGA",
    "zone": "A9",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.040477,
    "lon": -85.299892,
    "units": 1,
@@ -220,8 +194,8 @@
    "id": "9831377",
    "sequence": "2026-11-37045",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:21:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:19:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -267,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831371",
-   "sequence": "2026-11-37042",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:21:22Z",
-   "created": "2026-11-26T15:11:29Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7507 PINEWOOD DR",
-   "cross": "WILL KELLEY RD/BUTLERS GREEN CIR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 3",
-   "lat": 35.045701,
-   "lon": -85.136671,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831367",
@@ -465,13 +413,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4001 ROSSVILLE BLVD",
-   "cross": "E 40TH ST/E 41ST ST",
+   "address": "1328 E 42ND ST",
+   "cross": "DIVINE AVE/CALHOUN AVE",
    "city": "CHATTANOOGA",
    "zone": "B9",
    "priority": "PRI 1",
-   "lat": 34.997326,
-   "lon": -85.291694,
+   "lat": 34.993317,
+   "lon": -85.29736,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,58 +446,6 @@
    "priority": "PRI 1",
    "lat": 34.997326,
    "lon": -85.291694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831354",
-   "sequence": "2026-11-37026",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:12:26Z",
-   "created": "2026-11-26T14:59:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4001 ROSSVILLE BLVD",
-   "cross": "E 40TH ST/E 41ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 34.997326,
-   "lon": -85.291694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831352",
-   "sequence": "2026-11-37024",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-26T14:57:10Z",
-   "created": "2026-11-26T14:57:10Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5243 LITTLE DEBBIE PKWY",
-   "cross": "INTEGRA HILLS LN/JAC CATE RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.068653,
-   "lon": -85.072751,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -633,12 +529,12 @@
    "notable": false
   },
   {
-   "id": "9831312",
-   "sequence": "2026-11-37003",
-   "type": "MVC Injuries",
+   "id": "9831298",
+   "sequence": "2026-11-37001",
+   "type": "Well Being Check",
    "status": "On Scene",
-   "status_at": "2026-11-26T14:44:55Z",
-   "created": "2026-11-26T14:36:51Z",
+   "status_at": "2026-11-26T14:40:32Z",
+   "created": "2026-11-26T14:21:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -647,16 +543,16 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2 - 8 EXIT 185B OFF RAMP EB",
-   "cross": "EXIT 185A OFF RAMP EB/EXIT 1B ON RAMP NB",
+   "address": "2120 OLD RINGGOLD RD",
+   "cross": "RIDGEWOOD DR/S CREST RD",
    "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.00561,
-   "lon": -85.20788,
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.013575,
+   "lon": -85.268978,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9831284",
