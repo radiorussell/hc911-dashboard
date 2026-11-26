@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T16:45:36+00:00",
+ "updated": "2026-11-26T16:50:38+00:00",
  "counts": {
-  "year": 374461,
-  "upstream_day": 324,
-  "day": 449,
+  "year": 374464,
+  "upstream_day": 327,
+  "day": 452,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9831482",
-   "sequence": "2026-11-37111",
-   "type": "CON Transport",
+   "id": "9831485",
+   "sequence": "2026-11-37114",
+   "type": "MVC Unknown Injuries",
    "status": "Queued",
-   "status_at": "2026-11-26T16:44:40Z",
-   "created": "2026-11-26T16:44:16Z",
+   "status_at": "2026-11-26T16:49:18Z",
+   "created": "2026-11-26T16:48:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
+   "address": "1 - 9 EXIT SIGNAL MOUNTAIN RD OFF RAMP NB",
+   "cross": "HIGHWAY 27 NB/SIGNAL MOUNTAIN RD",
+   "city": "RED BANK",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.08108,
+   "lon": -85.32231,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831486",
+   "sequence": "2026-11-37113",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:48:34Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5921 PINEHURST AVE",
+   "cross": "No Cross Street/WATTS AVE",
    "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.034727,
-   "lon": -85.26761,
+   "zone": "1303",
+   "priority": "PRI 1",
+   "lat": 35.029451,
+   "lon": -85.200457,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9831479",
    "sequence": "2026-11-37110",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:44:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T16:43:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -49,39 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
-   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
-   "city": "RED BANK",
+   "address": "330 HIGHWAY 27 NB",
+   "cross": "EXIT DAYTON BLVD OFF RAMP NB/EXIT SIGNAL MOUNTAIN RD OFF RAMP NB",
+   "city": "CHATTANOOGA",
    "zone": "A5",
    "priority": "PRI 3",
-   "lat": 35.075483,
-   "lon": -85.321463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831478",
-   "sequence": "2026-11-37108",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T16:42:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4028 DORRIS ST",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.002972,
-   "lon": -85.310099,
+   "lat": 35.076197,
+   "lon": -85.321476,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +90,8 @@
    "id": "9831476",
    "sequence": "2026-11-37107",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:41:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T16:41:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9831448",
-   "sequence": "2026-11-37094",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:18:31Z",
-   "created": "2026-11-26T16:18:31Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5901 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.08874,
-   "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831443",
    "sequence": "2026-11-37095",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:46:19Z",
    "created": "2026-11-26T16:17:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -347,32 +321,6 @@
    "notable": false
   },
   {
-   "id": "9831413",
-   "sequence": "2026-11-37066",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:52:04Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIDDEN BRANCHES RD / MORNING GLORY DR",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 4",
-   "lat": 35.195598,
-   "lon": -85.093878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831384",
    "sequence": "2026-11-37046",
    "type": "Theft From a Vehicle",
@@ -446,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.253532,
    "lon": -85.113146,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831357",
-   "sequence": "2026-11-37029",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T16:22:44Z",
-   "created": "2026-11-26T15:01:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6618 WHITE SANDS LN",
-   "cross": "ROCK BLUFF RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.156244,
-   "lon": -85.173476,
    "units": 1,
    "stacked": false,
    "notable": false
