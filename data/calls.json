@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-26T13:20:37+00:00",
+ "updated": "2026-11-26T13:25:38+00:00",
  "counts": {
   "year": 374342,
   "upstream_day": 205,
-  "day": 280,
+  "day": 288,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9831227",
+   "sequence": "2026-11-36949",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:24:13Z",
+   "created": "2026-11-26T13:24:13Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 1",
+   "lat": 34.988094,
+   "lon": -85.205343,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831228",
+   "sequence": "2026-11-36950",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:24:13Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.988094,
+   "lon": -85.205343,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831223",
+   "sequence": "2026-11-36947",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:23:40Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "533 OSAGE DR",
+   "cross": "SODDY VIEW LN/UNION FORK RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.294485,
+   "lon": -85.144698,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831222",
+   "sequence": "2026-11-36948",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:23:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.988094,
+   "lon": -85.205343,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831219",
+   "sequence": "2026-11-36946",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:22:38Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "531 OSAGE DR",
+   "cross": "SODDY VIEW LN/UNION FORK RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.294591,
+   "lon": -85.145062,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831216",
+   "sequence": "2026-11-36945",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-26T13:25:24Z",
+   "created": "2026-11-26T13:21:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2107 STUART ST",
+   "cross": "CURTIS ST/DODSON AVE",
+   "city": "CHATTANOOGA",
+   "zone": "404",
+   "priority": "PRI 1",
+   "lat": 35.072407,
+   "lon": -85.251008,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831213",
    "sequence": "2026-11-36942",
