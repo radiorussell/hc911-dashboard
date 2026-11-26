@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T04:40:37+00:00",
+ "updated": "2026-11-26T04:45:37+00:00",
  "counts": {
   "year": 374128,
   "upstream_day": 0,
-  "day": 1459,
+  "day": 1468,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9830787",
+   "sequence": "2026-11-36656",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:45:20Z",
+   "created": "2026-11-26T04:44:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5151 - 5299 HIGHWAY 153",
+   "cross": "HAMILL RD/NORTHGATE MALL DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.126886,
+   "lon": -85.242102,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830775",
    "sequence": "2026-11-36647",
@@ -113,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9830766",
-   "sequence": "2026-11-36639",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T04:17:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 BROAD ST",
-   "cross": "W AQUARIUM WAY/W 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.055843,
-   "lon": -85.311021,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830759",
    "sequence": "2026-11-36638",
    "type": "Civil Matter",
@@ -238,58 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.062467,
    "lon": -85.317552,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830699",
-   "sequence": "2026-11-36602",
-   "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T03:14:54Z",
-   "created": "2026-11-26T03:12:40Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6014 RINGGOLD RD",
-   "cross": "SPRING CREEK RD/TRUMAN AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.989669,
-   "lon": -85.214988,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830665",
-   "sequence": "2026-11-36587",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T02:54:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7641 LEE HWY",
-   "cross": "HAMILTON PARK DR/YERBEY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.060567,
-   "lon": -85.135205,
    "units": 1,
    "stacked": false,
    "notable": false
