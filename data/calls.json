@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-26T06:40:37+00:00",
+ "updated": "2026-11-26T06:45:42+00:00",
  "counts": {
   "year": 374174,
   "upstream_day": 37,
-  "day": 59,
+  "day": 67,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9830888",
+   "sequence": "2026-11-36729",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-26T06:44:40Z",
+   "created": "2026-11-26T06:44:40Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5910 RINGGOLD RD",
+   "cross": "SUNNYFIELD LN/PRATER RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.989736,
+   "lon": -85.216639,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830882",
+   "sequence": "2026-11-36726",
+   "type": "Shots Fired",
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:43:57Z",
+   "created": "2026-11-26T06:41:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1904 TINSLEY PL",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 1",
+   "lat": 35.022477,
+   "lon": -85.28474,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830885",
+   "sequence": "2026-11-36724",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T06:41:53Z",
+   "created": "2026-11-26T06:41:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "928 MARKET ST",
+   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.045384,
+   "lon": -85.308894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830886",
+   "sequence": "2026-11-36725",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:41:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "928 MARKET ST",
+   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 2",
+   "lat": 35.045384,
+   "lon": -85.308894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830883",
+   "sequence": "2026-11-36728",
+   "type": "Missing Juv Not 21",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:41:43Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6535 COOLEY RD",
+   "cross": "POSSUM TRAIL RD/SWALLOWTAIL WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 1",
+   "lat": 35.246035,
+   "lon": -85.05126,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830880",
+   "sequence": "2026-11-36727",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:41:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "201 RIVERFRONT PKWY",
+   "cross": "POWER ALY/MOLLY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.05525,
+   "lon": -85.317024,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830879",
+   "sequence": "2026-11-36723",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:41:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "928 MARKET ST",
+   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.045384,
+   "lon": -85.308894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830878",
    "sequence": "2026-11-36721",
    "type": "Carbon Monoxide Alarm",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:45:37Z",
    "created": "2026-11-26T06:37:57Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -117,7 +299,7 @@
    "sequence": "2026-11-36717",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T06:44:23Z",
    "created": "2026-11-26T06:36:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.004685,
    "lon": -85.297377,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830873",
-   "sequence": "2026-11-36715",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:37:41Z",
-   "created": "2026-11-26T06:32:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1201 BOYNTON DR",
-   "cross": "GATEWAY AVE/GROVE ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 1",
-   "lat": 35.045229,
-   "lon": -85.32022,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -293,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830859",
-   "sequence": "2026-11-36703",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-26T06:25:36Z",
-   "created": "2026-11-26T06:13:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "725 FULTON ST",
-   "cross": "RIVERFRONT PKWY/CANAL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.050491,
-   "lon": -85.321436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830848",
