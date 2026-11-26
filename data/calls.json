@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-26T11:40:37+00:00",
+ "updated": "2026-11-26T11:45:36+00:00",
  "counts": {
   "year": 374299,
   "upstream_day": 162,
-  "day": 222,
+  "day": 225,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9831117",
+   "sequence": "2026-11-36887",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T11:41:23Z",
+   "created": "2026-11-26T11:40:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17981 - 18009 INTERSTATE 24 EB",
+   "cross": "EXIT 180A OFF RAMP EB/EXIT 180B OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 1",
+   "lat": 35.023557,
+   "lon": -85.299614,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831116",
    "sequence": "2026-11-36884",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:40:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T11:39:04Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "BROW LAKE RD / MONTLAKE RD",
+   "address": "MONTLAKE RD / TERRACE FALLS DR",
    "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 8",
    "priority": "PRI 2",
-   "lat": 35.238664,
-   "lon": -85.227343,
+   "lat": 35.237029,
+   "lon": -85.221354,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +64,8 @@
    "id": "9831112",
    "sequence": "2026-11-36883",
    "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:37:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T11:37:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9831103",
    "sequence": "2026-11-36880",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:41:49Z",
    "created": "2026-11-26T11:34:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9831102",
    "sequence": "2026-11-36879",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:42:37Z",
    "created": "2026-11-26T11:29:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "18400 INTERSTATE 24 EB",
-   "cross": "EXIT 184 OFF RAMP EB/EXIT 184 ON RAMP EB",
+   "address": "18340 INTERSTATE 24 EB",
+   "cross": "EXIT 183 OFF RAMP EB/EXIT 184 OFF RAMP EB",
    "city": "CHATTANOOGA",
    "zone": "C2",
    "priority": "PRI 1",
-   "lat": 35.008654,
-   "lon": -85.237704,
+   "lat": 35.012217,
+   "lon": -85.247342,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +220,8 @@
    "id": "9831079",
    "sequence": "2026-11-36863",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-26T11:00:59Z",
    "created": "2026-11-26T11:00:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -213,7 +239,7 @@
    "lat": 35.065571,
    "lon": -85.247142,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
