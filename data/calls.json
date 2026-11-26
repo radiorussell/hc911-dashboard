@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T21:40:39+00:00",
+ "updated": "2026-11-26T21:45:37+00:00",
  "counts": {
   "year": 374672,
   "upstream_day": 535,
   "day": 726,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9831862",
@@ -64,8 +64,8 @@
    "id": "9831859",
    "sequence": "2026-11-37386",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T21:40:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T21:39:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9831852",
    "sequence": "2026-11-37384",
    "type": "Assault Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:42:42Z",
    "created": "2026-11-26T21:33:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.1473,
    "lon": -85.245512,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831854",
-   "sequence": "2026-11-37383",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:35:13Z",
-   "created": "2026-11-26T21:33:16Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7137 SIMS RD",
-   "cross": "VOL WALK TRL/SIMS HARRIS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.213994,
-   "lon": -85.051325,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -189,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831846",
-   "sequence": "2026-11-37378",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:35:30Z",
-   "created": "2026-11-26T21:31:00Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT SEQUOYAH RD ON RAMP NB",
-   "cross": "SEQUOYAH RD/HIGHWAY 27 NB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 2",
-   "lat": 35.247295,
-   "lon": -85.17827,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831841",
@@ -290,58 +238,6 @@
    "priority": "PRI 1",
    "lat": 34.987277,
    "lon": -85.272019,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831832",
-   "sequence": "2026-11-37365",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:35:23Z",
-   "created": "2026-11-26T21:17:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "20 BELVOIR AVE",
-   "cross": "BRAINERD RD/SUNBEAM AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.017809,
-   "lon": -85.23965,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831829",
-   "sequence": "2026-11-37360",
-   "type": "Open Door or Window",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:21:35Z",
-   "created": "2026-11-26T21:12:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7505 LEE HWY",
-   "cross": "TYNER RD/SILVERDALE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.057593,
-   "lon": -85.140143,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -524,58 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.119806,
    "lon": -85.24658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831772",
-   "sequence": "2026-11-37319",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T20:44:48Z",
-   "created": "2026-11-26T20:32:05Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5321 HUNTER RD",
-   "cross": "WINDHAVEN RD/HUNTER WOODS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.087684,
-   "lon": -85.079628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831767",
-   "sequence": "2026-11-37316",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T21:19:40Z",
-   "created": "2026-11-26T20:28:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4510 PONTIAC DR",
-   "cross": "LEE ST/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988371,
-   "lon": -85.241484,
    "units": 1,
    "stacked": false,
    "notable": false
