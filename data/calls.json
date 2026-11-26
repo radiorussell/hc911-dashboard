@@ -1,45 +1,149 @@
 {
- "updated": "2026-11-26T01:00:37+00:00",
+ "updated": "2026-11-26T01:05:36+00:00",
  "counts": {
   "year": 373998,
   "upstream_day": 0,
-  "day": 1283,
+  "day": 1289,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
   {
-   "id": "9830495",
-   "sequence": "2026-11-36471",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T00:56:56Z",
-   "jurisdiction": "Hamilton Co SO",
+   "id": "9830502",
+   "sequence": "2026-11-36477",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:05:30Z",
+   "created": "2026-11-26T01:05:30Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.11172,
+   "lon": -85.269873,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830501",
+   "sequence": "2026-11-36476",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:05:30Z",
+   "created": "2026-11-26T01:05:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.11172,
+   "lon": -85.269873,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830500",
+   "sequence": "2026-11-36475",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:05:30Z",
+   "created": "2026-11-26T01:04:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1139 COFFELT RD",
-   "cross": "No Cross Street/MOSES RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.11172,
+   "lon": -85.269873,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830498",
+   "sequence": "2026-11-36474",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:02:21Z",
+   "created": "2026-11-26T01:01:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2000 - 2064 HAMILL RD",
+   "cross": "HIGHWAY 153/OLD GODSEY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
    "priority": "PRI 4",
-   "lat": 35.186831,
-   "lon": -85.226451,
+   "lat": 35.123095,
+   "lon": -85.239295,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
+   "id": "9830497",
+   "sequence": "2026-11-36473",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:01:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "313 STRINGER ST",
+   "cross": "W MANNING ST/CHILHOWIE ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.066698,
+   "lon": -85.315541,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9830490",
    "sequence": "2026-11-36470",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:01:13Z",
    "created": "2026-11-26T00:54:33Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -139,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9830458",
-   "sequence": "2026-11-36448",
-   "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:26:27Z",
-   "created": "2026-11-26T00:25:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6121 LEE HWY",
-   "cross": "VAN NESS RD/VANCE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.029911,
-   "lon": -85.187659,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830441",
    "sequence": "2026-11-36435",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-26T00:48:46Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T01:00:44Z",
    "created": "2026-11-26T00:20:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,32 +295,6 @@
    "notable": true
   },
   {
-   "id": "9830433",
-   "sequence": "2026-11-36431",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:18:04Z",
-   "created": "2026-11-26T00:12:02Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15200 DAYTON PIKE",
-   "cross": "DETOUR RD/DAUGHERTY FERRY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.386981,
-   "lon": -85.107986,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830430",
    "sequence": "2026-11-36430",
    "type": "Miscellaneous Complaint",
@@ -272,8 +324,8 @@
    "id": "9830420",
    "sequence": "2026-11-36423",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T00:46:43Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T01:01:26Z",
    "created": "2026-11-26T00:04:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9830375",
-   "sequence": "2026-11-36396",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-25T23:43:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7951 E BRAINERD RD",
-   "cross": "MACKEY AVE/STANLEY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.005776,
-   "lon": -85.152789,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830352",
    "sequence": "2026-11-36376",
    "type": "Civil Matter",
@@ -480,7 +506,7 @@
    "id": "9830116",
    "sequence": "2026-11-36210",
    "type": "MVC Injuries",
-   "status": "Enroute",
+   "status": "Queued",
    "status_at": "2026-11-25T21:33:23Z",
    "created": "2026-11-25T21:33:23Z",
    "jurisdiction": "Hamilton Co SO",
