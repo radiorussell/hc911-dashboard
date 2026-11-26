@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T07:45:37+00:00",
+ "updated": "2026-11-26T07:50:38+00:00",
  "counts": {
-  "year": 374204,
-  "upstream_day": 67,
+  "year": 374217,
+  "upstream_day": 80,
   "day": 110,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9830946",
    "sequence": "2026-11-36772",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T07:49:15Z",
    "created": "2026-11-26T07:39:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -33,32 +33,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830944",
-   "sequence": "2026-11-36770",
-   "type": "Intoxicated Person",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T07:37:16Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6650 RINGGOLD RD",
-   "cross": "I-75 NB @ EXIT 1A RAMP/CAMP JORDAN PKWY",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 2",
-   "lat": 34.989351,
-   "lon": -85.200738,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830943",
@@ -246,8 +220,8 @@
    "id": "9830928",
    "sequence": "2026-11-36761",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T07:50:21Z",
    "created": "2026-11-26T07:32:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -313,32 +287,6 @@
    "cross": "SHALLOWFORD RD/LEE PKWY W",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.047054,
-   "lon": -85.163023,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830922",
-   "sequence": "2026-11-36757",
-   "type": "Assault EMS Needed",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:28:52Z",
-   "created": "2026-11-26T07:28:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "110 JORDAN DR",
-   "cross": "SHALLOWFORD RD/LEE PKWY W",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
    "priority": "PRI 1",
    "lat": 35.047054,
    "lon": -85.163023,
@@ -425,58 +373,6 @@
    "notable": false
   },
   {
-   "id": "9830907",
-   "sequence": "2026-11-36747",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:13:43Z",
-   "created": "2026-11-26T07:13:43Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5588 LITTLE DEBBIE PKWY",
-   "cross": "JAC CATE RD/OLD LEE HWY",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 4 CO C",
-   "priority": "PRI 1",
-   "lat": 35.08082,
-   "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830879",
-   "sequence": "2026-11-36723",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T07:07:55Z",
-   "created": "2026-11-26T06:41:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "928 MARKET ST",
-   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.045384,
-   "lon": -85.308894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830863",
    "sequence": "2026-11-36707",
    "type": "Domestic Disorder",
@@ -550,32 +446,6 @@
    "priority": "PRI 2",
    "lat": 35.006021,
    "lon": -85.188491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830572",
-   "sequence": "2026-11-36530",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:07:57Z",
-   "created": "2026-11-26T02:03:16Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6700 RINGGOLD RD",
-   "cross": "CAMP JORDAN PKWY/FRAWLEY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 1",
-   "lat": 34.988742,
-   "lon": -85.200133,
    "units": 1,
    "stacked": false,
    "notable": false
