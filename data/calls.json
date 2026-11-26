@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T06:55:36+00:00",
+ "updated": "2026-11-26T07:00:38+00:00",
  "counts": {
-  "year": 374180,
-  "upstream_day": 43,
+  "year": null,
+  "upstream_day": null,
   "day": 75,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 23,
  "incidents": [
   {
    "id": "9830897",
    "sequence": "2026-11-36737",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T06:55:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T06:54:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +30,6 @@
    "priority": "PRI 3",
    "lat": 35.077309,
    "lon": -85.308821,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830893",
-   "sequence": "2026-11-36733",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T06:50:28Z",
-   "created": "2026-11-26T06:50:28Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4914 HUNTER TRL",
-   "cross": "MARLOW DR/PARAGON DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.137582,
-   "lon": -85.27119,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -79,6 +53,32 @@
    "cross": "MARLOW DR/PARAGON DR",
    "city": "RED BANK",
    "zone": "RED BANK FD 2",
+   "priority": "PRI 3",
+   "lat": 35.137582,
+   "lon": -85.27119,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830893",
+   "sequence": "2026-11-36733",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T06:50:28Z",
+   "created": "2026-11-26T06:50:28Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4914 HUNTER TRL",
+   "cross": "MARLOW DR/PARAGON DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
    "priority": "PRI 3",
    "lat": 35.137582,
    "lon": -85.27119,
@@ -113,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9830888",
-   "sequence": "2026-11-36729",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T06:44:40Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5910 RINGGOLD RD",
-   "cross": "SUNNYFIELD LN/PRATER RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 4",
-   "lat": 34.989736,
-   "lon": -85.216639,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830882",
    "sequence": "2026-11-36726",
    "type": "Shots Fired",
@@ -153,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1904 TINSLEY PL",
-   "cross": "E 19TH ST/E 21ST ST",
+   "address": "1751 - 1799 E 19TH ST",
+   "cross": "TINSLEY PL/S HAWTHORNE ST",
    "city": "CHATTANOOGA",
    "zone": "B6A",
    "priority": "PRI 1",
-   "lat": 35.022477,
-   "lon": -85.28474,
+   "lat": 35.022773,
+   "lon": -85.284478,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -168,8 +142,8 @@
    "id": "9830885",
    "sequence": "2026-11-36724",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:55:50Z",
    "created": "2026-11-26T06:41:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -295,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9830877",
-   "sequence": "2026-11-36720",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:45:48Z",
-   "created": "2026-11-26T06:37:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2012 GARFIELD ST",
-   "cross": "ROANOKE AVE/N WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 1",
-   "lat": 35.040636,
-   "lon": -85.2693,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830875",
    "sequence": "2026-11-36718",
    "type": "EMS CALL",
@@ -368,32 +316,6 @@
    "priority": "PRI 2",
    "lat": 35.004685,
    "lon": -85.297377,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830869",
-   "sequence": "2026-11-36712",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:27:52Z",
-   "created": "2026-11-26T06:23:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6601 RIGGINS DR",
-   "cross": "MAE DELL RD/SPENCER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.04665,
-   "lon": -85.1731,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -501,32 +423,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830845",
-   "sequence": "2026-11-36694",
-   "type": "Wires Down",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:01:16Z",
-   "created": "2026-11-26T05:56:52Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "302 DETOUR RD",
-   "cross": "DAYTON PIKE/OLD FORD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 2",
-   "lat": 35.387163,
-   "lon": -85.115056,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830844",
