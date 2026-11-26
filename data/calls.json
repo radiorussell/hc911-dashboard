@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T16:00:37+00:00",
+ "updated": "2026-11-26T16:05:43+00:00",
  "counts": {
   "year": 374438,
   "upstream_day": 301,
-  "day": 410,
+  "day": 415,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9831427",
+   "sequence": "2026-11-37076",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:05:04Z",
+   "created": "2026-11-26T16:05:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831428",
+   "sequence": "2026-11-37077",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:05:04Z",
+   "created": "2026-11-26T16:05:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "502 A",
+   "priority": "PRI 1",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831426",
+   "sequence": "2026-11-37075",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:04:57Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1924 RANDOLPH ST",
+   "cross": "E 19TH ST/E 21ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.017084,
+   "lon": -85.273331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831424",
+   "sequence": "2026-11-37074",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:00:58Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10405 CARD RD",
+   "cross": "LOVELADY RD/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.26059,
+   "lon": -85.17124,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831421",
    "sequence": "2026-11-37072",
@@ -38,8 +142,8 @@
    "id": "9831420",
    "sequence": "2026-11-37070",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:59:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:58:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831399",
-   "sequence": "2026-11-37060",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:56:03Z",
-   "created": "2026-11-26T15:41:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1722 S SEMINOLE DR",
-   "cross": "CHEROKEE AVE/CLAYTON AVE EXT",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.989113,
-   "lon": -85.27354,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831396",
    "sequence": "2026-11-37057",
    "type": "MVC Unknown Injuries",
@@ -194,8 +272,8 @@
    "id": "9831383",
    "sequence": "2026-11-37050",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T15:50:53Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T16:02:08Z",
    "created": "2026-11-26T15:23:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9831384",
    "sequence": "2026-11-37046",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:22:52Z",
+   "status": "Enroute",
+   "status_at": "2026-11-26T16:02:59Z",
    "created": "2026-11-26T15:22:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -347,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9831342",
-   "sequence": "2026-11-37021",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T15:34:51Z",
-   "created": "2026-11-26T14:51:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6538 JOYFUL DR",
-   "cross": "No Cross Street/DARLINGTON WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 12 CH A",
-   "priority": "PRI 1",
-   "lat": 35.165455,
-   "lon": -85.197952,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831323",
    "sequence": "2026-11-37009",
    "type": "MVC Injuries",
@@ -428,8 +480,8 @@
    "id": "9831282",
    "sequence": "2026-11-36987",
    "type": "Theft From a Vehicle",
-   "status": "On Scene",
-   "status_at": "2026-11-26T14:23:19Z",
+   "status": "Stacked",
+   "status_at": "2026-11-26T14:09:21Z",
    "created": "2026-11-26T14:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -447,7 +499,7 @@
    "lat": 35.054752,
    "lon": -85.152087,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
