@@ -1,45 +1,45 @@
 {
- "updated": "2026-11-26T12:00:38+00:00",
+ "updated": "2026-11-26T12:05:38+00:00",
  "counts": {
   "year": 374305,
   "upstream_day": 168,
-  "day": 230,
+  "day": 235,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
   {
-   "id": "9831127",
-   "sequence": "2026-11-36892",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:48:51Z",
-   "created": "2026-11-26T11:48:51Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9831139",
+   "sequence": "2026-11-36897",
+   "type": "Fire Special Assign",
+   "status": "Enroute",
+   "status_at": "2026-11-26T12:02:55Z",
+   "created": "2026-11-26T12:01:51Z",
+   "jurisdiction": "Dallas Bay VFD",
    "agencies": [
-    "Chattanooga FD"
+    "Dallas Bay VFD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
+   "address": "7872 CAUSEWAY RD",
+   "cross": "GOLD POINT CIR N/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.183048,
+   "lon": -85.141981,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9831122",
    "sequence": "2026-11-36890",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:01:18Z",
    "created": "2026-11-26T11:47:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
