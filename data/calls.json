@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T11:10:38+00:00",
+ "updated": "2026-11-26T11:15:42+00:00",
  "counts": {
   "year": 374285,
   "upstream_day": 148,
-  "day": 206,
+  "day": 208,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9831089",
+   "sequence": "2026-11-36869",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-26T11:12:50Z",
+   "created": "2026-11-26T11:12:50Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "411 BROUGHTON ST",
+   "cross": "NAVAJO DR/FRAWLEY ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 2",
+   "lat": 35.016831,
+   "lon": -85.252259,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831088",
+   "sequence": "2026-11-36870",
+   "type": "Disorder",
+   "status": "On Scene",
+   "status_at": "2026-11-26T11:15:41Z",
+   "created": "2026-11-26T11:12:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2528 BROAD ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.02783,
+   "lon": -85.315794,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831086",
    "sequence": "2026-11-36866",
