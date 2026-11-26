@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T16:20:38+00:00",
+ "updated": "2026-11-26T16:25:37+00:00",
  "counts": {
   "year": 374447,
   "upstream_day": 310,
-  "day": 434,
+  "day": 436,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9831449",
-   "sequence": "2026-11-37096",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:20:19Z",
-   "created": "2026-11-26T16:20:12Z",
+   "id": "9831451",
+   "sequence": "2026-11-37098",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:21:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "935 BRYNWOOD DR",
-   "cross": "BRYNWOOD TER/WATSON RD",
+   "address": "2501 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
+   "zone": "A10",
    "priority": "PRI 3",
-   "lat": 35.120012,
-   "lon": -85.264248,
+   "lat": 35.026506,
+   "lon": -85.311687,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +90,8 @@
    "id": "9831443",
    "sequence": "2026-11-37095",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:18:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T16:17:34Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.08874,
    "lon": -85.065878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831441",
-   "sequence": "2026-11-37090",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T16:15:20Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3801 OWEDA TER",
-   "cross": "W LEAWOOD AVE/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 1",
-   "lat": 35.11869,
-   "lon": -85.295184,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +220,8 @@
    "id": "9831435",
    "sequence": "2026-11-37084",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:11:37Z",
+   "status": "Enroute",
+   "status_at": "2026-11-26T16:16:49Z",
    "created": "2026-11-26T16:11:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -273,7 +247,7 @@
    "sequence": "2026-11-37083",
    "type": "Unknown 911",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T16:21:57Z",
    "created": "2026-11-26T16:09:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -295,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9831428",
-   "sequence": "2026-11-37077",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:05:04Z",
-   "created": "2026-11-26T16:05:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "502 A",
-   "priority": "PRI 1",
-   "lat": 35.017084,
-   "lon": -85.273331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831426",
    "sequence": "2026-11-37075",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:14:07Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T16:23:31Z",
    "created": "2026-11-26T16:04:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +428,8 @@
    "id": "9831362",
    "sequence": "2026-11-37034",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T15:52:51Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T16:22:09Z",
    "created": "2026-11-26T15:04:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +454,8 @@
    "id": "9831357",
    "sequence": "2026-11-37029",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T15:52:13Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T16:22:44Z",
    "created": "2026-11-26T15:01:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
