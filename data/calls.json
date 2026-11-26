@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T12:40:37+00:00",
+ "updated": "2026-11-26T12:45:38+00:00",
  "counts": {
   "year": 374324,
   "upstream_day": 187,
-  "day": 256,
+  "day": 258,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9831180",
+   "sequence": "2026-11-36920",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:43:41Z",
+   "created": "2026-11-26T12:43:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.048719,
+   "lon": -85.290431,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831174",
    "sequence": "2026-11-36918",
@@ -163,58 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831122",
-   "sequence": "2026-11-36890",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T12:19:03Z",
-   "created": "2026-11-26T11:47:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831103",
-   "sequence": "2026-11-36880",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:41:49Z",
-   "created": "2026-11-26T11:34:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2289 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.040129,
-   "lon": -85.150941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831102",
