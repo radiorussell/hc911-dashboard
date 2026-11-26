@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T15:30:37+00:00",
+ "updated": "2026-11-26T15:35:37+00:00",
  "counts": {
   "year": 374420,
   "upstream_day": 283,
-  "day": 390,
+  "day": 394,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9831391",
+   "sequence": "2026-11-37056",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-26T15:34:00Z",
+   "created": "2026-11-26T15:30:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3410 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.081783,
+   "lon": -85.26321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831387",
    "sequence": "2026-11-37051",
@@ -64,8 +90,8 @@
    "id": "9831385",
    "sequence": "2026-11-37048",
    "type": "Backup EMS Unit",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:23:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:23:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9831380",
    "sequence": "2026-11-37047",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:32:53Z",
    "created": "2026-11-26T15:22:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9831377",
    "sequence": "2026-11-37045",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:30:41Z",
    "created": "2026-11-26T15:19:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9831361",
-   "sequence": "2026-11-37032",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:22:43Z",
-   "created": "2026-11-26T15:03:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "601 JUSTICE WAY",
-   "cross": "STANDIFER GAP RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.050831,
-   "lon": -85.133053,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831359",
    "sequence": "2026-11-37031",
    "type": "EMS CALL",
@@ -425,37 +425,11 @@
    "notable": false
   },
   {
-   "id": "9831356",
-   "sequence": "2026-11-37028",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:05:09Z",
-   "created": "2026-11-26T15:01:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4001 ROSSVILLE BLVD",
-   "cross": "E 40TH ST/E 41ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "903",
-   "priority": "PRI 1",
-   "lat": 34.997326,
-   "lon": -85.291694,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831342",
    "sequence": "2026-11-37021",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T15:21:37Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T15:34:51Z",
    "created": "2026-11-26T14:51:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +454,8 @@
    "id": "9831323",
    "sequence": "2026-11-37009",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-26T15:25:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T15:35:29Z",
    "created": "2026-11-26T14:39:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
