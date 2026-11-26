@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T18:05:36+00:00",
+ "updated": "2026-11-26T18:10:38+00:00",
  "counts": {
-  "year": 374504,
-  "upstream_day": 367,
-  "day": 509,
+  "year": 374507,
+  "upstream_day": 370,
+  "day": 512,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9831564",
+   "sequence": "2026-11-37174",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:09:43Z",
+   "created": "2026-11-26T18:09:23Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3117 DAYTON BLVD",
+   "cross": "LANCASTER AVE/W NEWBERRY ST",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 3",
+   "lat": 35.105913,
+   "lon": -85.298216,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831562",
+   "sequence": "2026-11-37173",
+   "type": "Alarm Distress",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:09:02Z",
+   "created": "2026-11-26T18:08:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7814 HOLIDAY HILLS CIR",
+   "cross": "NAUTICAL WAY/HOLIDAY HILLS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.078273,
+   "lon": -85.169067,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831557",
    "sequence": "2026-11-37171",
@@ -87,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9831552",
-   "sequence": "2026-11-37168",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:58:33Z",
-   "created": "2026-11-26T17:57:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "500 HIGHWAY 153 NB",
-   "cross": "EXIT HIGHWAY 58 ON RAMP NB/EXIT AMNICOLA HWY OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.08616,
-   "lon": -85.211607,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831550",
    "sequence": "2026-11-37164",
    "type": "EMS CALL",
@@ -168,8 +194,8 @@
    "id": "9831544",
    "sequence": "2026-11-37158",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:49:37Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:06:55Z",
    "created": "2026-11-26T17:36:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -243,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9831537",
-   "sequence": "2026-11-37150",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:29:54Z",
-   "created": "2026-11-26T17:29:54Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "17180 INTERSTATE 24 EB",
-   "cross": "No Cross Street/I-24 EB @ EXIT 174 RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "304 B",
-   "priority": "PRI 2",
-   "lat": 34.9933,
-   "lon": -85.399306,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831535",
    "sequence": "2026-11-37149",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:42:18Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:07:39Z",
    "created": "2026-11-26T17:29:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +324,8 @@
    "id": "9831524",
    "sequence": "2026-11-37143",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T17:59:51Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T18:07:12Z",
    "created": "2026-11-26T17:17:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +350,8 @@
    "id": "9831519",
    "sequence": "2026-11-37139",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T17:57:30Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T18:08:50Z",
    "created": "2026-11-26T17:15:10Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,58 +394,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831504",
-   "sequence": "2026-11-37128",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:13:56Z",
-   "created": "2026-11-26T17:05:35Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831502",
-   "sequence": "2026-11-37126",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T17:43:41Z",
-   "created": "2026-11-26T17:04:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
    "units": 1,
    "stacked": false,
    "notable": false
