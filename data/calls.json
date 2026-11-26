@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-26T02:10:37+00:00",
+ "updated": "2026-11-26T02:15:39+00:00",
  "counts": {
   "year": 374040,
   "upstream_day": 0,
-  "day": 1349,
+  "day": 1355,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9830578",
-   "sequence": "2026-11-36537",
-   "type": "Unknown 911",
+   "id": "9830594",
+   "sequence": "2026-11-36543",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-26T02:05:41Z",
-   "created": "2026-11-26T02:05:38Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-26T02:13:04Z",
+   "created": "2026-11-26T02:13:04Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "825 FOREST HIGHLAND DR",
-   "cross": "OAK RIDGE DR/ASHLAND TER",
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.118899,
-   "lon": -85.267898,
+   "zone": "503",
+   "priority": "PRI 2",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830585",
+   "sequence": "2026-11-36542",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T02:11:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.001554,
    "lon": -85.290974,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830566",
-   "sequence": "2026-11-36526",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:58:00Z",
-   "created": "2026-11-26T01:58:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "547 GADD RD",
-   "cross": "HAVEN CIR/DELASHMITT RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.1421,
-   "lon": -85.261866,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.020239,
    "lon": -85.275756,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830549",
-   "sequence": "2026-11-36511",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T01:49:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5220 HICKORY WOODS LN",
-   "cross": "AUSTIN RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.139918,
-   "lon": -85.238442,
    "units": 1,
    "stacked": false,
    "notable": false
