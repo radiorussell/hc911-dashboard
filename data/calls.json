@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T14:55:37+00:00",
+ "updated": "2026-11-26T15:00:38+00:00",
  "counts": {
-  "year": 374393,
-  "upstream_day": 256,
-  "day": 360,
+  "year": 374400,
+  "upstream_day": 263,
+  "day": 362,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9831352",
+   "sequence": "2026-11-37024",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-26T14:57:10Z",
+   "created": "2026-11-26T14:57:10Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5243 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.068653,
+   "lon": -85.072751,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831345",
    "sequence": "2026-11-37022",
@@ -49,13 +75,13 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "6537 JOYFUL DR",
+   "address": "6538 JOYFUL DR",
    "cross": "No Cross Street/DARLINGTON WAY",
    "city": "CHATTANOOGA",
    "zone": "MEDIC 12 CH A",
    "priority": "PRI 1",
-   "lat": 35.165603,
-   "lon": -85.197454,
+   "lat": 35.165455,
+   "lon": -85.197952,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.038535,
    "lon": -85.265009,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831318",
-   "sequence": "2026-11-37016",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:41:32Z",
-   "created": "2026-11-26T14:39:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2515 CANNON AVE",
-   "cross": "TAFT AVE/COMMERCE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.021396,
-   "lon": -85.300419,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -475,32 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831139",
-   "sequence": "2026-11-36897",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-26T12:02:55Z",
-   "created": "2026-11-26T12:01:51Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7872 CAUSEWAY RD",
-   "cross": "GOLD POINT CIR N/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.183048,
-   "lon": -85.141981,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830410",
