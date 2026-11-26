@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T19:00:38+00:00",
+ "updated": "2026-11-26T19:05:36+00:00",
  "counts": {
   "year": 374540,
   "upstream_day": 403,
   "day": 551,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9831628",
@@ -87,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9831616",
-   "sequence": "2026-11-37207",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:49:16Z",
-   "created": "2026-11-26T18:49:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 3",
-   "lat": 35.047825,
-   "lon": -85.320645,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831615",
    "sequence": "2026-11-37206",
    "type": "EMS CALL",
@@ -132,6 +106,32 @@
    "city": "CHATTANOOGA",
    "zone": "MEDIC 09 + 13 CH",
    "priority": "PRI 2",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831616",
+   "sequence": "2026-11-37207",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:49:16Z",
+   "created": "2026-11-26T18:49:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 3",
    "lat": 35.047825,
    "lon": -85.320645,
    "units": 1,
@@ -189,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831602",
-   "sequence": "2026-11-37199",
-   "type": "Civil Matter",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:56:30Z",
-   "created": "2026-11-26T18:36:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2230 POLYMER DR",
-   "cross": "W POLYMER DR/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 4",
-   "lat": 35.053323,
-   "lon": -85.192758,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831596",
@@ -373,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9831588",
-   "sequence": "2026-11-37186",
-   "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T18:49:26Z",
-   "created": "2026-11-26T18:25:08Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8912 LEE HWY",
-   "cross": "HUNTER RD/I-75 SB @ LEE HWY - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.087013,
-   "lon": -85.071373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831571",
    "sequence": "2026-11-37179",
    "type": "EMS CALL",
@@ -451,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9831534",
-   "sequence": "2026-11-37151",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:39:52Z",
-   "created": "2026-11-26T17:28:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7345 LEE HWY",
-   "cross": "COURAGE WAY/SILVERDALE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.054656,
-   "lon": -85.146128,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831479",
    "sequence": "2026-11-37110",
    "type": "MVC No Injuries",
@@ -498,84 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.076197,
    "lon": -85.321476,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831384",
-   "sequence": "2026-11-37046",
-   "type": "Theft From a Vehicle",
-   "status": "Stacked",
-   "status_at": "2026-11-26T15:22:52Z",
-   "created": "2026-11-26T15:22:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7108 DALEFIELD LN",
-   "cross": "EDGEFIELD DR/EDGEFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.054857,
-   "lon": -85.152487,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831282",
-   "sequence": "2026-11-36987",
-   "type": "Theft From a Vehicle",
-   "status": "Stacked",
-   "status_at": "2026-11-26T14:09:21Z",
-   "created": "2026-11-26T14:08:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7112 DALEFIELD LN",
-   "cross": "EDGEFIELD DR/EDGEFIELD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.054752,
-   "lon": -85.152087,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831267",
-   "sequence": "2026-11-36979",
-   "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:31:40Z",
-   "created": "2026-11-26T13:59:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.052181,
-   "lon": -85.151941,
    "units": 1,
    "stacked": false,
    "notable": false
