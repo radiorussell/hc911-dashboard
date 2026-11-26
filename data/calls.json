@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-26T08:25:41+00:00",
+ "updated": "2026-11-26T08:30:42+00:00",
  "counts": {
-  "year": 374225,
-  "upstream_day": 88,
-  "day": 130,
+  "year": 374229,
+  "upstream_day": 92,
+  "day": 135,
   "day_basis": "midnight"
  },
  "raw_rows": 22,
  "incidents": [
   {
+   "id": "9830982",
+   "sequence": "2026-11-36797",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:30:25Z",
+   "created": "2026-11-26T08:29:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1445 FAGAN ST",
+   "cross": "E 14TH ST/E MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.031931,
+   "lon": -85.294296,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830976",
    "sequence": "2026-11-36792",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:30:11Z",
    "created": "2026-11-26T08:20:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9830975",
    "sequence": "2026-11-36791",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:30:28Z",
    "created": "2026-11-26T08:20:19Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9830972",
    "sequence": "2026-11-36790",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:29:31Z",
    "created": "2026-11-26T08:18:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -111,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830970",
-   "sequence": "2026-11-36788",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T08:13:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17560 INTERSTATE 24 WB",
-   "cross": "EXIT 175 OFF RAMP WB/EXIT INTERSTATE 24 W OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.02937,
-   "lon": -85.355495,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830969",
