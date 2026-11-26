@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-26T01:50:42+00:00",
+ "updated": "2026-11-26T01:55:39+00:00",
  "counts": {
   "year": 374026,
   "upstream_day": 0,
-  "day": 1321,
+  "day": 1334,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9830561",
+   "sequence": "2026-11-36522",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:55:10Z",
+   "created": "2026-11-26T01:55:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6153 CLAUDE RAMSEY PKWY",
+   "cross": "OLD HICKORY VALLEY RD/HIGHWAY 58",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.082719,
+   "lon": -85.160344,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830556",
+   "sequence": "2026-11-36518",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:52:28Z",
+   "created": "2026-11-26T01:51:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6150 SHALLOWFORD RD",
+   "cross": "OLAN MILLS DR/NOAH REID RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.051788,
+   "lon": -85.180731,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830557",
+   "sequence": "2026-11-36517",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:51:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1805 S LYERLY ST",
+   "cross": "E 18TH ST/E 19TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.020239,
+   "lon": -85.275756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830554",
+   "sequence": "2026-11-36514",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:51:18Z",
+   "created": "2026-11-26T01:51:18Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14106 MOUNT TABOR RD",
+   "cross": "SPRADLING RD/SMITH JONES LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 1",
+   "lat": 35.335137,
+   "lon": -85.079227,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830552",
+   "sequence": "2026-11-36516",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:50:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "310 GLENWOOD DR",
+   "cross": "E 5TH ST/E 4TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.035637,
+   "lon": -85.261348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830549",
+   "sequence": "2026-11-36511",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:49:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5220 HICKORY WOODS LN",
+   "cross": "AUSTIN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.139918,
+   "lon": -85.238442,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830546",
    "sequence": "2026-11-36509",
@@ -64,8 +220,8 @@
    "id": "9830541",
    "sequence": "2026-11-36507",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:54:05Z",
    "created": "2026-11-26T01:44:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -89,7 +245,7 @@
   {
    "id": "9830534",
    "sequence": "2026-11-36506",
-   "type": "Disorder",
+   "type": "Noise Complaint",
    "status": "Enroute",
    "status_at": "2026-11-26T01:46:42Z",
    "created": "2026-11-26T01:36:09Z",
