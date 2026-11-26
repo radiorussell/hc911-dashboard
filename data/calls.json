@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T16:40:39+00:00",
+ "updated": "2026-11-26T16:45:36+00:00",
  "counts": {
   "year": 374461,
   "upstream_day": 324,
-  "day": 436,
+  "day": 449,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831482",
+   "sequence": "2026-11-37111",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:44:40Z",
+   "created": "2026-11-26T16:44:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2333 MCCALLIE AVE",
+   "cross": "S LYERLY ST/S WATKINS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.034727,
+   "lon": -85.26761,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831479",
+   "sequence": "2026-11-37110",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:44:06Z",
+   "created": "2026-11-26T16:43:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
+   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
+   "city": "RED BANK",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.075483,
+   "lon": -85.321463,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831478",
+   "sequence": "2026-11-37108",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:42:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4028 DORRIS ST",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.002972,
+   "lon": -85.310099,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831476",
+   "sequence": "2026-11-37107",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:41:54Z",
+   "created": "2026-11-26T16:41:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1625 DODSON AVE",
+   "cross": "CAMDEN ST/CAMDEN OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.054808,
+   "lon": -85.259863,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831451",
    "sequence": "2026-11-37098",
