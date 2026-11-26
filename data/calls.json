@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T21:50:37+00:00",
+ "updated": "2026-11-26T21:55:37+00:00",
  "counts": {
   "year": 374678,
   "upstream_day": 541,
-  "day": 731,
+  "day": 733,
   "day_basis": "midnight"
  },
  "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9831869",
+   "sequence": "2026-11-37395",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:54:15Z",
+   "created": "2026-11-26T21:53:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3937 JASMINE ST",
+   "cross": "CAMELLIA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.060466,
+   "lon": -85.212257,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831868",
+   "sequence": "2026-11-37394",
+   "type": "Backup Fire Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T21:51:31Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "604 BACON TRL",
+   "cross": "NORTHVIEW AVE/WILEY AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 2",
+   "lat": 35.010344,
+   "lon": -85.245453,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831866",
    "sequence": "2026-11-37393",
@@ -38,8 +90,8 @@
    "id": "9831865",
    "sequence": "2026-11-37391",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:53:10Z",
    "created": "2026-11-26T21:46:00Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -295,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9831820",
-   "sequence": "2026-11-37355",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:15:19Z",
-   "created": "2026-11-26T21:08:14Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6617 RINGGOLD RD",
-   "cross": "SLATER RD/EXIT 1 ON RAMP SB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 1",
-   "lat": 34.989803,
-   "lon": -85.204985,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831817",
    "sequence": "2026-11-37349",
    "type": "EMS CALL",
@@ -422,32 +448,6 @@
    "lon": -85.111912,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831752",
-   "sequence": "2026-11-37302",
-   "type": "EMS CALL",
-   "status": "Stacked",
-   "status_at": "2026-11-26T20:19:11Z",
-   "created": "2026-11-26T20:19:07Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4510 PONTIAC DR",
-   "cross": "LEE ST/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.988371,
-   "lon": -85.241484,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
