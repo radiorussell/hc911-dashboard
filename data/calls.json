@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T20:10:38+00:00",
+ "updated": "2026-11-26T20:15:37+00:00",
  "counts": {
   "year": 374602,
   "upstream_day": 465,
-  "day": 631,
+  "day": 635,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9831749",
+   "sequence": "2026-11-37297",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T20:14:10Z",
+   "created": "2026-11-26T20:13:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3819 BRAINERD RD",
+   "cross": "ORIOLE DR/TALLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.022363,
+   "lon": -85.241807,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831747",
+   "sequence": "2026-11-37296",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T20:12:49Z",
+   "created": "2026-11-26T20:12:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "400 INTERSTATE 75 NB",
+   "cross": "EXIT 4 OFF RAMP NB/EXIT 4A OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.024529,
+   "lon": -85.174126,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831744",
+   "sequence": "2026-11-37295",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T20:10:51Z",
+   "created": "2026-11-26T20:10:51Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9000 - 9032 LEE HWY",
+   "cross": "EXIT 11 OFF RAMP NB/ARTESIAN CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.085625,
+   "lon": -85.066534,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831741",
    "sequence": "2026-11-37292",
@@ -38,8 +116,8 @@
    "id": "9831742",
    "sequence": "2026-11-37293",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T20:10:05Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:13:14Z",
    "created": "2026-11-26T20:10:05Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831723",
-   "sequence": "2026-11-37281",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:55:37Z",
-   "created": "2026-11-26T19:55:37Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIGHWAY 58 / DRAGONFLY TRL",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 2",
-   "lat": 35.202023,
-   "lon": -85.040842,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831722",
    "sequence": "2026-11-37280",
    "type": "Theft From a Vehicle",
@@ -194,8 +246,8 @@
    "id": "9831721",
    "sequence": "2026-11-37279",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:11:45Z",
    "created": "2026-11-26T19:55:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9831713",
    "sequence": "2026-11-37274",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T20:14:03Z",
    "created": "2026-11-26T19:52:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +394,6 @@
    "priority": "PRI 4",
    "lat": 35.046975,
    "lon": -85.162895,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831705",
-   "sequence": "2026-11-37266",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:52:40Z",
-   "created": "2026-11-26T19:49:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "E 37TH ST / 6TH AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 1",
-   "lat": 34.999922,
-   "lon": -85.286526,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -501,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831676",
-   "sequence": "2026-11-37249",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:30:23Z",
-   "created": "2026-11-26T19:30:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2441 LEANN CIR",
-   "cross": "SUMTER AVE/SUMTER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.056795,
-   "lon": -85.227561,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831675",
@@ -706,6 +706,32 @@
    "priority": "PRI 4",
    "lat": 35.081783,
    "lon": -85.26321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831147",
+   "sequence": "2026-11-36899",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-26T20:11:26Z",
+   "created": "2026-11-26T12:09:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3906 JUNIPER ST",
+   "cross": "No Cross Street/CAMELLIA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.061184,
+   "lon": -85.212844,
    "units": 1,
    "stacked": false,
    "notable": false
