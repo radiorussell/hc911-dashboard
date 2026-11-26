@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T01:30:41+00:00",
+ "updated": "2026-11-26T01:35:36+00:00",
  "counts": {
   "year": 374012,
   "upstream_day": 0,
-  "day": 1307,
+  "day": 1313,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
   {
+   "id": "9830529",
+   "sequence": "2026-11-36500",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:32:59Z",
+   "created": "2026-11-26T01:32:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830530",
+   "sequence": "2026-11-36501",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:32:59Z",
+   "created": "2026-11-26T01:32:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830523",
+   "sequence": "2026-11-36499",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-26T01:33:17Z",
+   "created": "2026-11-26T01:31:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830520",
    "sequence": "2026-11-36495",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:28:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T01:28:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,58 +217,6 @@
    "notable": false
   },
   {
-   "id": "9830502",
-   "sequence": "2026-11-36477",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:09:36Z",
-   "created": "2026-11-26T01:05:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 1",
-   "lat": 35.11172,
-   "lon": -85.269873,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830501",
-   "sequence": "2026-11-36476",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:16:17Z",
-   "created": "2026-11-26T01:05:30Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.11172,
-   "lon": -85.269873,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830500",
    "sequence": "2026-11-36475",
    "type": "MVC Injuries",
@@ -293,32 +319,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830420",
-   "sequence": "2026-11-36423",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T01:01:26Z",
-   "created": "2026-11-26T00:04:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6705 BALLARD DR",
-   "cross": "BALLARD PL/VADEN VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.041281,
-   "lon": -85.171521,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830410",
