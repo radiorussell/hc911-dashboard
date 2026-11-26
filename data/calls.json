@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T08:40:39+00:00",
+ "updated": "2026-11-26T08:45:38+00:00",
  "counts": {
   "year": 374234,
   "upstream_day": 97,
   "day": 138,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 15,
  "incidents": [
   {
    "id": "9830986",
    "sequence": "2026-11-36800",
    "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:41:57Z",
    "created": "2026-11-26T08:36:05Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9830985",
    "sequence": "2026-11-36799",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:43:52Z",
    "created": "2026-11-26T08:34:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +56,6 @@
    "priority": "PRI 2",
    "lat": 35.009083,
    "lon": -85.217982,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830982",
-   "sequence": "2026-11-36797",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-26T08:36:44Z",
-   "created": "2026-11-26T08:29:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1445 FAGAN ST",
-   "cross": "E 14TH ST/E MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.031931,
-   "lon": -85.294296,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -137,58 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830969",
-   "sequence": "2026-11-36787",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T08:11:11Z",
-   "created": "2026-11-26T08:11:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "959 GATEWAY AVE",
-   "cross": "W MARTIN LUTHER KING BLVD/BOYNTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 2",
-   "lat": 35.04656,
-   "lon": -85.319527,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830968",
-   "sequence": "2026-11-36786",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T08:11:11Z",
-   "created": "2026-11-26T08:11:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "959 GATEWAY AVE",
-   "cross": "W MARTIN LUTHER KING BLVD/BOYNTON DR",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.04656,
-   "lon": -85.319527,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830967",
