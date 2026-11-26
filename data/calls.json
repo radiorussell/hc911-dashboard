@@ -1,35 +1,165 @@
 {
- "updated": "2026-11-26T16:15:38+00:00",
+ "updated": "2026-11-26T16:20:38+00:00",
  "counts": {
-  "year": 374440,
-  "upstream_day": 303,
-  "day": 426,
+  "year": 374447,
+  "upstream_day": 310,
+  "day": 434,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 28,
  "incidents": [
   {
-   "id": "9831437",
-   "sequence": "2026-11-37088",
-   "type": "MVC No Injuries",
+   "id": "9831449",
+   "sequence": "2026-11-37096",
+   "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-26T16:14:14Z",
-   "created": "2026-11-26T16:13:42Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "status_at": "2026-11-26T16:20:19Z",
+   "created": "2026-11-26T16:20:12Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "ROBERTS MILL RD / DAYTON PIKE",
+   "address": "935 BRYNWOOD DR",
+   "cross": "BRYNWOOD TER/WATSON RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.120012,
+   "lon": -85.264248,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831447",
+   "sequence": "2026-11-37093",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:18:31Z",
+   "created": "2026-11-26T16:18:31Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831448",
+   "sequence": "2026-11-37094",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:18:31Z",
+   "created": "2026-11-26T16:18:31Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831443",
+   "sequence": "2026-11-37095",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:18:44Z",
+   "created": "2026-11-26T16:17:34Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "CORRAL RD / GRAY FRYAR RD",
    "cross": "",
    "city": "HAMILTON COUNTY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.195145,
-   "lon": -85.244176,
+   "zone": "WEST 2 A",
+   "priority": "PRI 2",
+   "lat": 35.199614,
+   "lon": -85.333211,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831442",
+   "sequence": "2026-11-37092",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:17:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5901 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.08874,
+   "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831441",
+   "sequence": "2026-11-37090",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:15:20Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3801 OWEDA TER",
+   "cross": "W LEAWOOD AVE/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 1",
+   "lat": 35.11869,
+   "lon": -85.295184,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,84 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.120012,
    "lon": -85.264248,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831431",
-   "sequence": "2026-11-37080",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:10:15Z",
-   "created": "2026-11-26T16:06:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7311 NOAH REID RD",
-   "cross": "FRANCES DR/BRICKHOUSE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 2",
-   "lat": 35.059291,
-   "lon": -85.177372,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831429",
-   "sequence": "2026-11-37079",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:11:13Z",
-   "created": "2026-11-26T16:05:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7311 NOAH REID RD",
-   "cross": "FRANCES DR/BRICKHOUSE RD",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
-   "lat": 35.059291,
-   "lon": -85.177372,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831427",
-   "sequence": "2026-11-37076",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-26T16:13:40Z",
-   "created": "2026-11-26T16:05:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.017084,
-   "lon": -85.273331,
    "units": 1,
    "stacked": false,
    "notable": false
