@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T12:05:38+00:00",
+ "updated": "2026-11-26T12:10:38+00:00",
  "counts": {
-  "year": 374305,
-  "upstream_day": 168,
-  "day": 235,
+  "year": 374309,
+  "upstream_day": 172,
+  "day": 237,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9831147",
+   "sequence": "2026-11-36899",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:10:20Z",
+   "created": "2026-11-26T12:09:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3906 JUNIPER ST",
+   "cross": "No Cross Street/CAMELLIA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.061184,
+   "lon": -85.212844,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831139",
    "sequence": "2026-11-36897",
@@ -186,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.187064,
    "lon": -85.254906,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831085",
-   "sequence": "2026-11-36865",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T11:46:39Z",
-   "created": "2026-11-26T11:07:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7324 SHALLOWFORD RD",
-   "cross": "LIFESTYLE WAY/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.039739,
-   "lon": -85.151941,
    "units": 1,
    "stacked": false,
    "notable": false
