@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T03:40:37+00:00",
+ "updated": "2026-11-26T03:45:38+00:00",
  "counts": {
   "year": 374106,
   "upstream_day": 0,
-  "day": 1431,
+  "day": 1432,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9830733",
+   "sequence": "2026-11-36620",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T03:45:34Z",
+   "created": "2026-11-26T03:44:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2900 - 2998 ROSSVILLE BLVD",
+   "cross": "E 29TH ST/E 30TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 2",
+   "lat": 35.01114,
+   "lon": -85.29405,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830726",
    "sequence": "2026-11-36619",
@@ -33,32 +59,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830715",
-   "sequence": "2026-11-36614",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:36:20Z",
-   "created": "2026-11-26T03:22:49Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1603 FERNWOOD CIR",
-   "cross": "COBBLER CT/ROYAL DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.00986,
-   "lon": -85.143147,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830712",
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9830708",
-   "sequence": "2026-11-36608",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T03:17:51Z",
-   "created": "2026-11-26T03:17:51Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5207 WOODLAND VIEW CIR",
-   "cross": "JEFFERY LN/ANGELA DR",
-   "city": "CHATTANOOGA",
-   "zone": "903",
-   "priority": "PRI 1",
-   "lat": 34.989242,
-   "lon": -85.304798,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830706",
    "sequence": "2026-11-36606",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:29:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T03:41:14Z",
    "created": "2026-11-26T03:17:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
