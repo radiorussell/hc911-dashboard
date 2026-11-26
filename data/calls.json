@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T12:25:37+00:00",
+ "updated": "2026-11-26T12:30:37+00:00",
  "counts": {
-  "year": 374310,
-  "upstream_day": 173,
-  "day": 250,
+  "year": 374319,
+  "upstream_day": 182,
+  "day": 253,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831170",
+   "sequence": "2026-11-36915",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:29:20Z",
+   "created": "2026-11-26T12:29:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1409 MARKET ST",
+   "cross": "W 14TH ST/CHOO CHOO AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.038054,
+   "lon": -85.307793,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831164",
    "sequence": "2026-11-36912",
@@ -38,8 +64,8 @@
    "id": "9831162",
    "sequence": "2026-11-36911",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T12:25:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T12:24:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,32 +82,6 @@
    "priority": "PRI 1",
    "lat": 35.040477,
    "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831161",
-   "sequence": "2026-11-36909",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": "2026-11-26T12:25:26Z",
-   "created": "2026-11-26T12:23:40Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "12805 OOLTEWAH GEORGETOWN RD",
-   "cross": "MEADOWVIEW RD/HIGHWAY 60",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 4",
-   "priority": "PRI 1",
-   "lat": 35.286803,
-   "lon": -84.952184,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -137,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831149",
-   "sequence": "2026-11-36901",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T12:20:41Z",
-   "created": "2026-11-26T12:11:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1956 SAPPHIRE PL",
-   "cross": "CITRINE  WAY/GEMSTONE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.017914,
-   "lon": -85.12752,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831147",
@@ -342,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.187064,
    "lon": -85.254906,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831077",
-   "sequence": "2026-11-36861",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T10:42:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5730 LEE HWY",
-   "cross": "BRAINERD RD/AIKEN RD",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.019169,
-   "lon": -85.202312,
    "units": 1,
    "stacked": false,
    "notable": false
