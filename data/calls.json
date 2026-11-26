@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T09:05:36+00:00",
+ "updated": "2026-11-26T09:10:37+00:00",
  "counts": {
-  "year": 374238,
-  "upstream_day": 101,
-  "day": 147,
+  "year": 374244,
+  "upstream_day": 107,
+  "day": 153,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9831007",
+   "sequence": "2026-11-36815",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T09:10:04Z",
+   "created": "2026-11-26T09:09:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3710 SUMTER AVE",
+   "cross": "LEANN CIR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.05787,
+   "lon": -85.22724,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831003",
+   "sequence": "2026-11-36814",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T09:05:45Z",
+   "created": "2026-11-26T09:05:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1514 S WILLOW ST",
+   "cross": "E MAIN ST/E 16TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.024126,
+   "lon": -85.277426,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830996",
    "sequence": "2026-11-36809",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T08:54:52Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T09:08:19Z",
    "created": "2026-11-26T08:54:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,6 +160,32 @@
    "priority": "PRI 1",
    "lat": 35.08874,
    "lon": -85.065878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830990",
+   "sequence": "2026-11-36803",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:45:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "110 JORDAN DR",
+   "cross": "SHALLOWFORD RD/LEE PKWY W",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.046981,
+   "lon": -85.1629,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -217,63 +295,11 @@
    "notable": false
   },
   {
-   "id": "9830928",
-   "sequence": "2026-11-36761",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T08:37:12Z",
-   "created": "2026-11-26T07:32:44Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1733 RAY JO CIR",
-   "cross": "SPRING VIEW LN/MORRIS HILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.010216,
-   "lon": -85.127065,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830919",
-   "sequence": "2026-11-36754",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-26T07:27:52Z",
-   "created": "2026-11-26T07:26:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18240 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.021138,
-   "lon": -85.261172,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830914",
    "sequence": "2026-11-36750",
    "type": "Harassment",
-   "status": "Stacked",
-   "status_at": "2026-11-26T07:23:37Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T09:09:00Z",
    "created": "2026-11-26T07:23:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -291,7 +317,7 @@
    "lat": 35.01861,
    "lon": -85.282744,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
