@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T23:40:38+00:00",
+ "updated": "2026-11-26T23:45:37+00:00",
  "counts": {
   "year": 374767,
   "upstream_day": 630,
-  "day": 834,
+  "day": 842,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9832022",
+   "sequence": "2026-11-37504",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:43:02Z",
+   "created": "2026-11-26T23:42:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18130 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832021",
+   "sequence": "2026-11-37503",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:41:51Z",
+   "created": "2026-11-26T23:41:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 14TH ST / FAGAN ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.032098,
+   "lon": -85.294,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832004",
    "sequence": "2026-11-37496",
@@ -38,8 +90,8 @@
    "id": "9832007",
    "sequence": "2026-11-37495",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:41:55Z",
    "created": "2026-11-26T23:27:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +246,8 @@
    "id": "9831993",
    "sequence": "2026-11-37483",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:44:35Z",
    "created": "2026-11-26T23:23:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9831983",
-   "sequence": "2026-11-37477",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:24:46Z",
-   "created": "2026-11-26T23:18:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2000 E 23RD ST",
-   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.01856,
-   "lon": -85.28253,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831973",
    "sequence": "2026-11-37471",
    "type": "Harrassing Threats",
@@ -394,58 +420,6 @@
    "priority": "PRI 4",
    "lat": 35.034644,
    "lon": -85.243491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831976",
-   "sequence": "2026-11-37468",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:13:43Z",
-   "created": "2026-11-26T23:13:43Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14517 OLD DAYTON PIKE",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.369183,
-   "lon": -85.11725,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831977",
-   "sequence": "2026-11-37469",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:39:35Z",
-   "created": "2026-11-26T23:13:43Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "14517 OLD DAYTON PIKE",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 2",
-   "lat": 35.369183,
-   "lon": -85.11725,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +584,8 @@
    "id": "9831925",
    "sequence": "2026-11-37435",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:18:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T23:41:48Z",
    "created": "2026-11-26T22:46:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -636,8 +610,8 @@
    "id": "9831919",
    "sequence": "2026-11-37433",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:13:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T23:40:41Z",
    "created": "2026-11-26T22:41:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -714,8 +688,8 @@
    "id": "9831907",
    "sequence": "2026-11-37422",
    "type": "Burglary",
-   "status": "Stacked",
-   "status_at": "2026-11-26T22:33:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:33:18Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -733,15 +707,15 @@
    "lat": 35.033474,
    "lon": -85.243255,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
    "id": "9831901",
    "sequence": "2026-11-37419",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:14:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T23:41:34Z",
    "created": "2026-11-26T22:30:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -758,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 35.062053,
    "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831900",
-   "sequence": "2026-11-37418",
-   "type": "Abandoned Auto",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:46:18Z",
-   "created": "2026-11-26T22:30:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3030 LIGHTFOOT MILL RD",
-   "cross": "NEW JERSEY AVE/NEW YORK AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 4",
-   "lat": 35.066817,
-   "lon": -85.235722,
    "units": 1,
    "stacked": false,
    "notable": false
