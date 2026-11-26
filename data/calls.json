@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T08:00:40+00:00",
+ "updated": "2026-11-26T08:05:36+00:00",
  "counts": {
   "year": 374221,
   "upstream_day": 84,
-  "day": 110,
+  "day": 120,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
   {
-   "id": "9830946",
-   "sequence": "2026-11-36772",
+   "id": "9830964",
+   "sequence": "2026-11-36782",
    "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-26T07:49:15Z",
-   "created": "2026-11-26T07:39:08Z",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:05:36Z",
+   "created": "2026-11-26T08:05:02Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,24 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2922 DONNA LN",
-   "cross": "CLEARVIEW AVE/BUENA VISTA DR",
+   "address": "715 CHEVIOT DR",
+   "cross": "MIDLAND PIKE/PHOENIX AVE",
    "city": "CHATTANOOGA",
    "zone": "C2",
    "priority": "PRI 1",
-   "lat": 35.03107,
-   "lon": -85.25499,
+   "lat": 35.032168,
+   "lon": -85.235836,
    "units": 1,
    "stacked": false,
    "notable": true
   },
   {
-   "id": "9830943",
-   "sequence": "2026-11-36769",
-   "type": "Spill",
+   "id": "9830963",
+   "sequence": "2026-11-36781",
+   "type": "Domestic Disorder",
    "status": "Queued",
-   "status_at": "2026-11-26T07:36:49Z",
-   "created": "2026-11-26T07:36:49Z",
+   "status_at": "2026-11-26T08:04:59Z",
+   "created": "2026-11-26T08:04:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "18150 - 18249 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "address": "567 KESTREL LN",
+   "cross": "DRY BRANCH CT/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "B6A",
+   "zone": "A13 A",
    "priority": "PRI 2",
-   "lat": 35.014556,
-   "lon": -85.272971,
+   "lat": 35.009556,
+   "lon": -85.402655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830962",
+   "sequence": "2026-11-36780",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:03:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9117 BERKSHIRE CIR",
+   "cross": "FULLER RD/CANTERBURY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 34.999128,
+   "lon": -85.119127,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -316,32 +342,6 @@
    "priority": "PRI 4",
    "lat": 35.01861,
    "lon": -85.282744,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830906",
-   "sequence": "2026-11-36746",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T07:38:45Z",
-   "created": "2026-11-26T07:13:43Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.060281,
-   "lon": -85.070921,
    "units": 1,
    "stacked": false,
    "notable": false
