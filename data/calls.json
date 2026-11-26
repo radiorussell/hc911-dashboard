@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T03:25:40+00:00",
+ "updated": "2026-11-26T03:30:44+00:00",
  "counts": {
-  "year": 374090,
+  "year": 374100,
   "upstream_day": 0,
   "day": 1428,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9830721",
    "sequence": "2026-11-36616",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-26T03:25:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T03:25:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9830709",
-   "sequence": "2026-11-36610",
-   "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T03:21:03Z",
-   "created": "2026-11-26T03:20:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 HIGHWAY 27 NB",
-   "cross": "EXIT W M L KING BLVD OFF RAMP NB/EXIT W M L KING BLVD E ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.04477,
-   "lon": -85.313971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830710",
    "sequence": "2026-11-36609",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T03:26:53Z",
    "created": "2026-11-26T03:19:58Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -217,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9830707",
-   "sequence": "2026-11-36607",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T03:17:51Z",
-   "created": "2026-11-26T03:17:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5207 WOODLAND VIEW CIR",
-   "cross": "JEFFERY LN/ANGELA DR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.989242,
-   "lon": -85.304798,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830706",
    "sequence": "2026-11-36606",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T03:29:57Z",
    "created": "2026-11-26T03:17:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -267,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830705",
-   "sequence": "2026-11-36605",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:23:59Z",
-   "created": "2026-11-26T03:16:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1306 HIGHLAND RD",
-   "cross": "No Cross Street/WATSON RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.11955,
-   "lon": -85.265708,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830702",
@@ -319,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830703",
-   "sequence": "2026-11-36603",
-   "type": "Intoxicated Person",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:22:36Z",
-   "created": "2026-11-26T03:14:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7326 MCCUTCHEON RD",
-   "cross": "ELAM LN/SUMMERTOWN CT",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.043791,
-   "lon": -85.149742,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830701",
@@ -399,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9830679",
-   "sequence": "2026-11-36592",
-   "type": "Narcotics Violation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T03:00:10Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8876 OLD LEE HWY",
-   "cross": "OOLTEWAH CEMETERY RD/LITTLE DEBBIE PKWY",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.084253,
-   "lon": -85.068987,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830673",
    "sequence": "2026-11-36589",
    "type": "Disorder",
@@ -454,8 +324,8 @@
    "id": "9830665",
    "sequence": "2026-11-36587",
    "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-26T02:55:06Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T02:54:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,34 +343,8 @@
    "lat": 35.060567,
    "lon": -85.135205,
    "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9830663",
-   "sequence": "2026-11-36584",
-   "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-26T02:57:07Z",
-   "created": "2026-11-26T02:50:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3707 6TH AVE",
-   "cross": "E 37TH ST/E 39TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 2",
-   "lat": 34.999471,
-   "lon": -85.287013,
-   "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9830644",
