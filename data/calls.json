@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-26T23:10:38+00:00",
+ "updated": "2026-11-26T23:15:37+00:00",
  "counts": {
   "year": 374738,
   "upstream_day": 601,
-  "day": 802,
+  "day": 809,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9831973",
+   "sequence": "2026-11-37471",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:15:23Z",
+   "created": "2026-11-26T23:14:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1202 DUNCAN AVE",
+   "cross": "SPRUCE ST/S HOLTZCLAW AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.038276,
+   "lon": -85.284422,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831978",
+   "sequence": "2026-11-37470",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:14:52Z",
+   "created": "2026-11-26T23:14:17Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "301 - 399 WINDMERE DR",
+   "cross": "LYNNCREST DR/TUNNEL BLVD",
+   "city": "RIDGESIDE",
+   "zone": "ERPD WEST-R",
+   "priority": "PRI 4",
+   "lat": 35.034644,
+   "lon": -85.243491,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831976",
+   "sequence": "2026-11-37468",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:13:43Z",
+   "created": "2026-11-26T23:13:43Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14517 OLD DAYTON PIKE",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.369183,
+   "lon": -85.11725,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831977",
+   "sequence": "2026-11-37469",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:13:43Z",
+   "created": "2026-11-26T23:13:43Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "14517 OLD DAYTON PIKE",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.369183,
+   "lon": -85.11725,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831970",
+   "sequence": "2026-11-37467",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:13:08Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "14517 OLD DAYTON PIKE",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.369183,
+   "lon": -85.11725,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831969",
    "sequence": "2026-11-37464",
@@ -87,58 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831960",
-   "sequence": "2026-11-37459",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:00:02Z",
-   "created": "2026-11-26T22:55:40Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "17100 - 17368 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "304 B",
-   "priority": "PRI 1",
-   "lat": 35.00761,
-   "lon": -85.39395,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831959",
-   "sequence": "2026-11-37458",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T22:55:40Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "17100 - 17368 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.00761,
-   "lon": -85.39395,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831958",
    "sequence": "2026-11-37460",
    "type": "MVC No Injuries",
@@ -191,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9831949",
-   "sequence": "2026-11-37454",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:52:52Z",
-   "created": "2026-11-26T22:52:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18421 - 18459 INTERSTATE 24 WB",
-   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.005396,
-   "lon": -85.228203,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831939",
    "sequence": "2026-11-37445",
    "type": "Pedestrian Struck",
@@ -241,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831938",
-   "sequence": "2026-11-37448",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:47:55Z",
-   "created": "2026-11-26T22:47:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18421 - 18459 INTERSTATE 24 WB",
-   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.00573,
-   "lon": -85.22898,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831932",
@@ -347,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9831931",
-   "sequence": "2026-11-37437",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:46:45Z",
-   "created": "2026-11-26T22:46:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4620 RICKY DR",
-   "cross": "MIKE EDD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.037958,
-   "lon": -85.215133,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831925",
    "sequence": "2026-11-37435",
    "type": "EMS CALL",
@@ -399,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9831922",
-   "sequence": "2026-11-37434",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:41:55Z",
-   "created": "2026-11-26T22:41:55Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 4 HC F",
-   "priority": "PRI 2",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831919",
    "sequence": "2026-11-37433",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:56:02Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T23:13:48Z",
    "created": "2026-11-26T22:41:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -506,8 +480,8 @@
    "id": "9831915",
    "sequence": "2026-11-37429",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:03:41Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T23:10:44Z",
    "created": "2026-11-26T22:38:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -529,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9831910",
-   "sequence": "2026-11-37425",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:41:47Z",
-   "created": "2026-11-26T22:34:08Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9306 OOLTEWAH GEORGETOWN RD",
-   "cross": "WATER TOWER RD/ELBERMAET LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
-   "lat": 35.185651,
-   "lon": -85.021929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831909",
-   "sequence": "2026-11-37424",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:34:07Z",
-   "created": "2026-11-26T22:34:07Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9306 OOLTEWAH GEORGETOWN RD",
-   "cross": "WATER TOWER RD/ELBERMAET LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.185651,
-   "lon": -85.021929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831908",
    "sequence": "2026-11-37423",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:47:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T23:10:55Z",
    "created": "2026-11-26T22:33:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -659,37 +581,11 @@
    "notable": false
   },
   {
-   "id": "9831904",
-   "sequence": "2026-11-37421",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:31:11Z",
-   "created": "2026-11-26T22:31:11Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 2",
-   "lat": 35.062053,
-   "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831901",
    "sequence": "2026-11-37419",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:40:15Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T23:14:00Z",
    "created": "2026-11-26T22:30:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -789,32 +685,6 @@
    "notable": true
   },
   {
-   "id": "9831852",
-   "sequence": "2026-11-37384",
-   "type": "Assault Delayed",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:42:42Z",
-   "created": "2026-11-26T21:33:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5404 THORNHILL LN",
-   "cross": "No Cross Street/TOWNE HILLS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.1473,
-   "lon": -85.245512,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831812",
    "sequence": "2026-11-37346",
    "type": "EMS CALL",
@@ -844,8 +714,8 @@
    "id": "9831801",
    "sequence": "2026-11-37341",
    "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:14:18Z",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:51:24Z",
    "created": "2026-11-26T20:58:58Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
