@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T08:15:38+00:00",
+ "updated": "2026-11-26T08:20:36+00:00",
  "counts": {
-  "year": 374221,
-  "upstream_day": 84,
-  "day": 126,
+  "year": 374225,
+  "upstream_day": 88,
+  "day": 130,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9830976",
+   "sequence": "2026-11-36792",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:20:19Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "17960 INTERSTATE 24 WB",
+   "cross": "EXIT 178 OFF RAMP WB/EXIT 180B ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "205",
+   "priority": "PRI 1",
+   "lat": 35.025366,
+   "lon": -85.302148,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830975",
+   "sequence": "2026-11-36791",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:20:19Z",
+   "created": "2026-11-26T08:20:19Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "17960 INTERSTATE 24 WB",
+   "cross": "EXIT 178 OFF RAMP WB/EXIT 180B ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.025366,
+   "lon": -85.302148,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830971",
+   "sequence": "2026-11-36789",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:19:23Z",
+   "created": "2026-11-26T08:18:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "941 - 1129 INTERSTATE 75 NB",
+   "cross": "EXIT 9 W ON RAMP NB/EXIT 11 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.082528,
+   "lon": -85.078909,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830972",
+   "sequence": "2026-11-36790",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:20:19Z",
+   "created": "2026-11-26T08:18:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17960 INTERSTATE 24 WB",
+   "cross": "EXIT 178 OFF RAMP WB/EXIT 180B ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.025366,
+   "lon": -85.302148,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9830970",
    "sequence": "2026-11-36788",
@@ -90,8 +194,8 @@
    "id": "9830967",
    "sequence": "2026-11-36785",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:20:25Z",
    "created": "2026-11-26T08:10:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9830963",
    "sequence": "2026-11-36781",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T08:18:24Z",
    "created": "2026-11-26T08:04:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -269,58 +373,6 @@
    "notable": false
   },
   {
-   "id": "9830931",
-   "sequence": "2026-11-36762",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:33:24Z",
-   "created": "2026-11-26T07:33:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1733 RAY JO CIR",
-   "cross": "SPRING VIEW LN/MORRIS HILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.010216,
-   "lon": -85.127065,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830932",
-   "sequence": "2026-11-36763",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:33:24Z",
-   "created": "2026-11-26T07:33:24Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1733 RAY JO CIR",
-   "cross": "SPRING VIEW LN/MORRIS HILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.010216,
-   "lon": -85.127065,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830928",
    "sequence": "2026-11-36761",
    "type": "EMS CALL",
@@ -373,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9830921",
-   "sequence": "2026-11-36756",
-   "type": "Assault EMS Needed",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T07:53:37Z",
-   "created": "2026-11-26T07:28:52Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "110 JORDAN DR",
-   "cross": "SHALLOWFORD RD/LEE PKWY W",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.047054,
-   "lon": -85.163023,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830919",
    "sequence": "2026-11-36754",
    "type": "MVC No Injuries",
@@ -413,13 +439,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "18200 INTERSTATE 24 WB",
+   "address": "18240 INTERSTATE 24 WB",
    "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
    "city": "CHATTANOOGA",
    "zone": "B6A",
    "priority": "PRI 3",
-   "lat": 35.019333,
-   "lon": -85.267296,
+   "lat": 35.021138,
+   "lon": -85.261172,
    "units": 1,
    "stacked": false,
    "notable": false
