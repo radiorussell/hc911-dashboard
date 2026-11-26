@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-26T16:10:37+00:00",
+ "updated": "2026-11-26T16:15:38+00:00",
  "counts": {
   "year": 374440,
   "upstream_day": 303,
-  "day": 421,
+  "day": 426,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831437",
+   "sequence": "2026-11-37088",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:14:14Z",
+   "created": "2026-11-26T16:13:42Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ROBERTS MILL RD / DAYTON PIKE",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.195145,
+   "lon": -85.244176,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831438",
+   "sequence": "2026-11-37086",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:13:40Z",
+   "created": "2026-11-26T16:13:40Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11057 MATTHEW RD",
+   "cross": "ROSE RD/OLD DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.279828,
+   "lon": -85.167978,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831439",
+   "sequence": "2026-11-37087",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:13:40Z",
+   "created": "2026-11-26T16:13:40Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "11057 MATTHEW RD",
+   "cross": "ROSE RD/OLD DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.279828,
+   "lon": -85.167978,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831436",
+   "sequence": "2026-11-37085",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T16:13:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "11057 MATTHEW RD",
+   "cross": "ROSE RD/OLD DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.279828,
+   "lon": -85.167978,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831435",
+   "sequence": "2026-11-37084",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T16:11:37Z",
+   "created": "2026-11-26T16:11:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 - 9 EXIT 4 OFF RAMP NB",
+   "cross": "INTERSTATE 75 NB/EXIT 4 OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.021474,
+   "lon": -85.175789,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831434",
    "sequence": "2026-11-37083",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:09:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T16:09:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +194,8 @@
    "id": "9831429",
    "sequence": "2026-11-37079",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:11:13Z",
    "created": "2026-11-26T16:05:46Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -91,7 +221,7 @@
    "sequence": "2026-11-37076",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T16:13:40Z",
    "created": "2026-11-26T16:05:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +272,8 @@
    "id": "9831426",
    "sequence": "2026-11-37075",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:14:07Z",
    "created": "2026-11-26T16:04:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -371,32 +501,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831323",
-   "sequence": "2026-11-37009",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T15:35:29Z",
-   "created": "2026-11-26T14:39:13Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2 - 8 EXIT 185B OFF RAMP EB",
-   "cross": "EXIT 185A OFF RAMP EB/EXIT 1B ON RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.00561,
-   "lon": -85.20788,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831284",
