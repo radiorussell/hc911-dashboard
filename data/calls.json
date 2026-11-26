@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T01:35:36+00:00",
+ "updated": "2026-11-26T01:40:37+00:00",
  "counts": {
-  "year": 374012,
+  "year": 374016,
   "upstream_day": 0,
-  "day": 1313,
+  "day": 1318,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9830534",
+   "sequence": "2026-11-36506",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:36:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "646 W 13TH STREET CT",
+   "cross": "POPLAR ST/CYPRESS STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.042121,
+   "lon": -85.317436,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830529",
    "sequence": "2026-11-36500",
@@ -87,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9830520",
-   "sequence": "2026-11-36495",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T01:28:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2220 HAMILTON PLACE BLVD",
-   "cross": "BAMS DR/PINE GROVE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.03851,
-   "lon": -85.15428,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830515",
    "sequence": "2026-11-36490",
    "type": "Disorder",
@@ -142,8 +142,8 @@
    "id": "9830513",
    "sequence": "2026-11-36489",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:19:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T01:17:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -290,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.116566,
    "lon": -85.270991,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830435",
-   "sequence": "2026-11-36434",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:24:53Z",
-   "created": "2026-11-26T00:20:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "800 ASHLAND TER",
-   "cross": "HIGHLAND TERRACE DR/CHUMLEY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.116065,
-   "lon": -85.273588,
    "units": 1,
    "stacked": false,
    "notable": true
