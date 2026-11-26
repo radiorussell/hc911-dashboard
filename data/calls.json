@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T04:25:37+00:00",
+ "updated": "2026-11-26T04:30:38+00:00",
  "counts": {
-  "year": 374114,
+  "year": 374121,
   "upstream_day": 0,
-  "day": 1457,
+  "day": 1459,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9830775",
+   "sequence": "2026-11-36647",
+   "type": "AFA Apartment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:25:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "216 W 8TH ST",
+   "cross": "CHESTNUT ST/PINE ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.04678,
+   "lon": -85.312441,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830771",
    "sequence": "2026-11-36642",
@@ -38,8 +64,8 @@
    "id": "9830770",
    "sequence": "2026-11-36645",
    "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T04:27:18Z",
    "created": "2026-11-26T04:19:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9830762",
-   "sequence": "2026-11-36644",
-   "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-26T04:20:38Z",
-   "created": "2026-11-26T04:17:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2431 WILLIAMS ST",
-   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.02834,
-   "lon": -85.314378,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830759",
    "sequence": "2026-11-36638",
-   "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-26T04:11:16Z",
+   "type": "Civil Matter",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T04:10:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
