@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T07:20:37+00:00",
+ "updated": "2026-11-26T07:25:36+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 85,
+  "day": 90,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9830917",
+   "sequence": "2026-11-36752",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:25:06Z",
+   "created": "2026-11-26T07:25:06Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1061 - 1237 HIGHWAY 27 SB",
+   "cross": "EXIT MOUNTAIN CREEK RD OFF RAMP SB/EXIT DAYTON PIKE ON RAMP SB",
+   "city": "HAMILTON COUNTY",
+   "zone": "2204 A",
+   "priority": "PRI 1",
+   "lat": 35.171764,
+   "lon": -85.279201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830915",
+   "sequence": "2026-11-36751",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:25:06Z",
+   "created": "2026-11-26T07:24:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1061 - 1237 HIGHWAY 27 SB",
+   "cross": "EXIT MOUNTAIN CREEK RD OFF RAMP SB/EXIT DAYTON PIKE ON RAMP SB",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.171764,
+   "lon": -85.279201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830914",
+   "sequence": "2026-11-36750",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:23:37Z",
+   "created": "2026-11-26T07:23:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2000 E 23RD ST",
+   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.01861,
+   "lon": -85.282744,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830906",
    "sequence": "2026-11-36746",
@@ -56,58 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.08082,
    "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830882",
-   "sequence": "2026-11-36726",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:43:57Z",
-   "created": "2026-11-26T06:41:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1751 - 1799 E 19TH ST",
-   "cross": "TINSLEY PL/S HAWTHORNE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.022773,
-   "lon": -85.284478,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830885",
-   "sequence": "2026-11-36724",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-26T06:55:50Z",
-   "created": "2026-11-26T06:41:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "928 MARKET ST",
-   "cross": "E MARTIN LUTHER KING BLVD/W 10TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 2",
-   "lat": 35.045384,
-   "lon": -85.308894,
    "units": 1,
    "stacked": false,
    "notable": false
