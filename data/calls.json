@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T00:35:42+00:00",
+ "updated": "2026-11-26T00:40:44+00:00",
  "counts": {
-  "year": 373972,
+  "year": 373984,
   "upstream_day": 0,
   "day": 1268,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 32,
  "incidents": [
   {
    "id": "9830472",
    "sequence": "2026-11-36456",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:34:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T00:33:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9830471",
    "sequence": "2026-11-36454",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:33:17Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:39:37Z",
    "created": "2026-11-26T00:33:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -217,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9830455",
-   "sequence": "2026-11-36445",
-   "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T00:24:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "102 SEQUOIA DR",
-   "cross": "KENWOOD AVE/OLD MISSION RD",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 2",
-   "lat": 35.017251,
-   "lon": -85.232506,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830453",
    "sequence": "2026-11-36444",
    "type": "Residential Fire",
@@ -361,13 +335,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "ASHLAND TER / CHUMLEY LN",
-   "cross": "",
+   "address": "800 ASHLAND TER",
+   "cross": "HIGHLAND TERRACE DR/CHUMLEY LN",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
    "priority": "PRI 1",
-   "lat": 35.116566,
-   "lon": -85.270991,
+   "lat": 35.116065,
+   "lon": -85.273588,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -387,13 +361,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "103 DAUGHERTY FERRY RD",
-   "cross": "DAYTON PIKE/FOAMFLOWER LN",
+   "address": "15200 DAYTON PIKE",
+   "cross": "DETOUR RD/DAUGHERTY FERRY RD",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 7",
    "priority": "PRI 3",
-   "lat": 35.387674,
-   "lon": -85.107532,
+   "lat": 35.386981,
+   "lon": -85.107986,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -503,37 +477,11 @@
    "notable": false
   },
   {
-   "id": "9830415",
-   "sequence": "2026-11-36420",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:00:33Z",
-   "created": "2026-11-26T00:00:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 2",
-   "lat": 35.036982,
-   "lon": -85.136652,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830411",
    "sequence": "2026-11-36416",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T00:22:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T00:37:43Z",
    "created": "2026-11-25T23:59:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -836,32 +784,6 @@
    "priority": "PRI 4",
    "lat": 35.051313,
    "lon": -85.147882,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830237",
-   "sequence": "2026-11-36304",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T00:06:22Z",
-   "created": "2026-11-25T22:26:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "14500 BACK VALLEY RD",
-   "cross": "FULLER LN/REAVLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.371216,
-   "lon": -85.122488,
    "units": 1,
    "stacked": false,
    "notable": false
