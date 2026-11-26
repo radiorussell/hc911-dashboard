@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-26T22:25:41+00:00",
+ "updated": "2026-11-26T22:30:42+00:00",
  "counts": {
-  "year": 374690,
-  "upstream_day": 553,
-  "day": 748,
+  "year": 374693,
+  "upstream_day": 556,
+  "day": 754,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9831897",
+   "sequence": "2026-11-37416",
+   "type": "Abandoned Auto",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:29:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "LOWER MILL RD / OLD LOWER MILL RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.164476,
+   "lon": -85.232949,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831888",
    "sequence": "2026-11-37410",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:28:06Z",
    "created": "2026-11-26T22:20:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9831869",
-   "sequence": "2026-11-37395",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T21:53:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3937 JASMINE ST",
-   "cross": "CAMELLIA DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 4",
-   "lat": 35.060466,
-   "lon": -85.212257,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831859",
    "sequence": "2026-11-37386",
    "type": "EMS CALL",
@@ -215,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831841",
-   "sequence": "2026-11-37372",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-26T21:47:01Z",
-   "created": "2026-11-26T21:25:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3400 BIRCHWOOD DR",
-   "cross": "VINEWOOD DR/E CREST DR",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.074148,
-   "lon": -85.238098,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831812",
