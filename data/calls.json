@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T08:50:37+00:00",
+ "updated": "2026-11-26T08:55:37+00:00",
  "counts": {
   "year": 374238,
   "upstream_day": 101,
-  "day": 144,
+  "day": 147,
   "day_basis": "midnight"
  },
  "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9830996",
+   "sequence": "2026-11-36809",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T08:54:52Z",
+   "created": "2026-11-26T08:54:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18130 - 18149 INTERSTATE 24 WB",
+   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.015673,
+   "lon": -85.277391,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830992",
    "sequence": "2026-11-36805",
@@ -134,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.009083,
    "lon": -85.217982,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9830971",
-   "sequence": "2026-11-36789",
-   "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-26T08:19:23Z",
-   "created": "2026-11-26T08:18:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18240 INTERSTATE 24 EB",
-   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.020996,
-   "lon": -85.261193,
    "units": 1,
    "stacked": true,
    "notable": false
