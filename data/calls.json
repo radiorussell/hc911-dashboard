@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-26T07:25:36+00:00",
+ "updated": "2026-11-26T07:30:37+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 90,
+  "year": 374201,
+  "upstream_day": 64,
+  "day": 97,
   "day_basis": "midnight"
  },
  "raw_rows": 16,
  "incidents": [
   {
-   "id": "9830917",
-   "sequence": "2026-11-36752",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:25:06Z",
-   "created": "2026-11-26T07:25:06Z",
-   "jurisdiction": "Chattanooga FD",
+   "id": "9830924",
+   "sequence": "2026-11-36759",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:29:20Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Chattanooga FD"
+    "Chattanooga PD"
    ],
-   "agency_type": "Fire",
+   "agency_type": "Law",
    "agency_types": [
-    "Fire"
+    "Law"
    ],
-   "address": "1061 - 1237 HIGHWAY 27 SB",
-   "cross": "EXIT MOUNTAIN CREEK RD OFF RAMP SB/EXIT DAYTON PIKE ON RAMP SB",
-   "city": "HAMILTON COUNTY",
-   "zone": "2204 A",
-   "priority": "PRI 1",
-   "lat": 35.171764,
-   "lon": -85.279201,
+   "address": "2400 WESTSIDE DR",
+   "cross": "15TH AVE/ELDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.012388,
+   "lon": -85.272317,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9830915",
-   "sequence": "2026-11-36751",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:25:06Z",
-   "created": "2026-11-26T07:24:04Z",
+   "id": "9830921",
+   "sequence": "2026-11-36756",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:28:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
     "Hamilton Co EMS"
@@ -49,13 +49,65 @@
    "agency_types": [
     "EMS"
    ],
-   "address": "1061 - 1237 HIGHWAY 27 SB",
-   "cross": "EXIT MOUNTAIN CREEK RD OFF RAMP SB/EXIT DAYTON PIKE ON RAMP SB",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 04 CH A",
+   "address": "110 JORDAN DR",
+   "cross": "SHALLOWFORD RD/LEE PKWY W",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 35.171764,
-   "lon": -85.279201,
+   "lat": 35.047054,
+   "lon": -85.163023,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830922",
+   "sequence": "2026-11-36757",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:28:52Z",
+   "created": "2026-11-26T07:28:52Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "110 JORDAN DR",
+   "cross": "SHALLOWFORD RD/LEE PKWY W",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 1",
+   "lat": 35.047054,
+   "lon": -85.163023,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830919",
+   "sequence": "2026-11-36754",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-26T07:27:52Z",
+   "created": "2026-11-26T07:26:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18200 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.019333,
+   "lon": -85.267296,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -160,58 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.045384,
    "lon": -85.308894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830875",
-   "sequence": "2026-11-36718",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T07:12:33Z",
-   "created": "2026-11-26T06:37:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2012 GARFIELD ST",
-   "cross": "ROANOKE AVE/N WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.040636,
-   "lon": -85.2693,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830874",
-   "sequence": "2026-11-36717",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-26T06:44:23Z",
-   "created": "2026-11-26T06:36:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1212 E 34TH ST",
-   "cross": "BRANNON AVE/JEROME AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 2",
-   "lat": 35.004685,
-   "lon": -85.297377,
    "units": 1,
    "stacked": false,
    "notable": false
