@@ -1,13 +1,221 @@
 {
- "updated": "2026-11-26T22:30:42+00:00",
+ "updated": "2026-11-26T22:35:36+00:00",
  "counts": {
   "year": 374693,
   "upstream_day": 556,
-  "day": 754,
+  "day": 763,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9831910",
+   "sequence": "2026-11-37425",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:34:08Z",
+   "created": "2026-11-26T22:34:08Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9306 OOLTEWAH GEORGETOWN RD",
+   "cross": "WATER TOWER RD/ELBERMAET LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 2",
+   "lat": 35.185651,
+   "lon": -85.021929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831909",
+   "sequence": "2026-11-37424",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:34:07Z",
+   "created": "2026-11-26T22:34:07Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9306 OOLTEWAH GEORGETOWN RD",
+   "cross": "WATER TOWER RD/ELBERMAET LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.185651,
+   "lon": -85.021929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831908",
+   "sequence": "2026-11-37423",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:33:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9306 OOLTEWAH GEORGETOWN RD",
+   "cross": "WATER TOWER RD/ELBERMAET LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.185651,
+   "lon": -85.021929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831907",
+   "sequence": "2026-11-37422",
+   "type": "Burglary",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:33:44Z",
+   "created": "2026-11-26T22:33:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "404 TUNNEL BLVD",
+   "cross": "RIDGESIDE RD/WINDMERE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.033474,
+   "lon": -85.243255,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831903",
+   "sequence": "2026-11-37420",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:31:11Z",
+   "created": "2026-11-26T22:31:11Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831904",
+   "sequence": "2026-11-37421",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:31:11Z",
+   "created": "2026-11-26T22:31:11Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 2",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831901",
+   "sequence": "2026-11-37419",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:30:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9210 APISON PIKE",
+   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.062053,
+   "lon": -85.073704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831900",
+   "sequence": "2026-11-37418",
+   "type": "Abandoned Auto",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:30:34Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3030 LIGHTFOOT MILL RD",
+   "cross": "NEW JERSEY AVE/NEW YORK AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 4",
+   "lat": 35.066817,
+   "lon": -85.235722,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831897",
    "sequence": "2026-11-37416",
@@ -82,32 +290,6 @@
    "priority": "PRI 2",
    "lat": 35.043922,
    "lon": -85.309345,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831879",
-   "sequence": "2026-11-37402",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:13:59Z",
-   "created": "2026-11-26T22:07:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11000 - 11098 HIGHWAY 58",
-   "cross": "THOMAS LN/GAMBLE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.25246,
-   "lon": -85.001088,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -191,32 +373,6 @@
    "notable": true
   },
   {
-   "id": "9831847",
-   "sequence": "2026-11-37379",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:38:48Z",
-   "created": "2026-11-26T21:31:11Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7137 SIMS RD",
-   "cross": "VOL WALK TRL/SIMS HARRIS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 1",
-   "lat": 35.213994,
-   "lon": -85.051325,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831812",
    "sequence": "2026-11-37346",
    "type": "EMS CALL",
@@ -238,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.046076,
    "lon": -85.155522,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831801",
-   "sequence": "2026-11-37341",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:14:18Z",
-   "created": "2026-11-26T20:58:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1071 WYNNWOOD RD",
-   "cross": "ARDIAN TRL/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.003644,
-   "lon": -85.26586,
    "units": 1,
    "stacked": false,
    "notable": false
