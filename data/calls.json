@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T15:10:38+00:00",
+ "updated": "2026-11-26T15:15:38+00:00",
  "counts": {
   "year": 374403,
   "upstream_day": 266,
-  "day": 378,
+  "day": 382,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9831374",
+   "sequence": "2026-11-37044",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T15:14:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6220 SHALLOWFORD RD",
+   "cross": "STANDIFER GAP RD/TETON TRL",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.052097,
+   "lon": -85.179702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831371",
+   "sequence": "2026-11-37042",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T15:11:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7507 PINEWOOD DR",
+   "cross": "WILL KELLEY RD/BUTLERS GREEN CIR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 3",
+   "lat": 35.045701,
+   "lon": -85.136671,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831369",
    "sequence": "2026-11-37040",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:09:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:09:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9831367",
    "sequence": "2026-11-37036",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:14:54Z",
    "created": "2026-11-26T15:04:45Z",
    "jurisdiction": "Sequoyah VFD",
    "agencies": [
@@ -61,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9831363",
-   "sequence": "2026-11-37037",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:05:29Z",
-   "created": "2026-11-26T15:04:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "314 CARRIAGE PARC DR",
-   "cross": "GUNBARREL RD/JOINER RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.011519,
-   "lon": -85.164305,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831360",
    "sequence": "2026-11-37039",
    "type": "Harrassing Threats",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:05:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:04:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9831361",
    "sequence": "2026-11-37032",
    "type": "Assault PD Only",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:03:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T15:03:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9831359",
    "sequence": "2026-11-37031",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:12:34Z",
    "created": "2026-11-26T15:02:33Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -272,8 +298,8 @@
    "id": "9831354",
    "sequence": "2026-11-37026",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:12:26Z",
    "created": "2026-11-26T14:59:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
