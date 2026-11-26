@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T17:45:38+00:00",
+ "updated": "2026-11-26T17:50:43+00:00",
  "counts": {
-  "year": 374494,
-  "upstream_day": 357,
+  "year": 374504,
+  "upstream_day": 367,
   "day": 498,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 24,
  "incidents": [
   {
    "id": "9831545",
    "sequence": "2026-11-37159",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:46:32Z",
    "created": "2026-11-26T17:37:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9831544",
    "sequence": "2026-11-37158",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:49:37Z",
    "created": "2026-11-26T17:36:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9831541",
    "sequence": "2026-11-37155",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T17:46:00Z",
    "created": "2026-11-26T17:34:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9831520",
-   "sequence": "2026-11-37140",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:15:36Z",
-   "created": "2026-11-26T17:15:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4535 JOACK LN",
-   "cross": "No Cross Street/VANESSA DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.133993,
-   "lon": -85.258213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831521",
    "sequence": "2026-11-37141",
    "type": "EMS CALL",
@@ -394,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831505",
-   "sequence": "2026-11-37129",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-26T17:14:29Z",
-   "created": "2026-11-26T17:06:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4041 HIXSON PIKE",
-   "cross": "FAIRFAX DR/AZALEAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.114538,
-   "lon": -85.258028,
    "units": 1,
    "stacked": false,
    "notable": false
