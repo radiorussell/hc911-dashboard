@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:30:39+00:00",
+ "updated": "2026-11-26T14:35:39+00:00",
  "counts": {
   "year": 374381,
   "upstream_day": 244,
@@ -9,37 +9,11 @@
  "raw_rows": 14,
  "incidents": [
   {
-   "id": "9831302",
-   "sequence": "2026-11-36999",
-   "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:27:42Z",
-   "created": "2026-11-26T14:27:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.052323,
-   "lon": -85.150974,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831298",
    "sequence": "2026-11-37001",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:27:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T14:21:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,6 +113,32 @@
    "notable": false
   },
   {
+   "id": "9831267",
+   "sequence": "2026-11-36979",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:31:40Z",
+   "created": "2026-11-26T13:59:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052181,
+   "lon": -85.151941,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831261",
    "sequence": "2026-11-36976",
    "type": "Police Assist Citizen",
@@ -153,13 +153,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2285 WILCOX BLVD",
-   "cross": "BRADT ST/DODSON AVE",
+   "address": "1101 ARLINGTON AVE",
+   "cross": "WINDSOR ST/WILSON ST",
    "city": "CHATTANOOGA",
-   "zone": "B2",
+   "zone": "B3",
    "priority": "PRI 3",
-   "lat": 35.053257,
-   "lon": -85.260916,
+   "lat": 35.047187,
+   "lon": -85.26126,
    "units": 1,
    "stacked": false,
    "notable": false
