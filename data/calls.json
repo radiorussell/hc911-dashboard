@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T14:10:42+00:00",
+ "updated": "2026-11-26T14:15:38+00:00",
  "counts": {
   "year": 374372,
   "upstream_day": 235,
-  "day": 325,
+  "day": 328,
   "day_basis": "midnight"
  },
  "raw_rows": 19,
  "incidents": [
   {
+   "id": "9831288",
+   "sequence": "2026-11-36990",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T14:12:01Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2306 BARBARA LN",
+   "cross": "GENEVA 2 TRL/GENEVA TRL",
+   "city": "LAKESITE",
+   "zone": "WEST 5 LAKESITE",
+   "priority": "PRI 4",
+   "lat": 35.212151,
+   "lon": -85.128616,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831284",
+   "sequence": "2026-11-36988",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:11:28Z",
+   "created": "2026-11-26T14:10:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052181,
+   "lon": -85.151941,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831283",
    "sequence": "2026-11-36986",
    "type": "Open Door or Window",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T14:14:55Z",
    "created": "2026-11-26T14:08:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9831282",
    "sequence": "2026-11-36987",
    "type": "Theft From a Vehicle",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:09:21Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T14:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -65,7 +117,7 @@
    "sequence": "2026-11-36985",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T14:12:59Z",
    "created": "2026-11-26T14:06:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9831245",
-   "sequence": "2026-11-36966",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": "2026-11-26T13:41:34Z",
-   "created": "2026-11-26T13:39:18Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9408 APISON PIKE",
-   "cross": "SWINYAR DR/OOLTEWAH RINGGOLD RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.059359,
-   "lon": -85.068795,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831244",
    "sequence": "2026-11-36965",
    "type": "AFA Commercial",
@@ -371,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831223",
-   "sequence": "2026-11-36947",
-   "type": "Brush Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T13:37:49Z",
-   "created": "2026-11-26T13:23:40Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "533 OSAGE DR",
-   "cross": "SODDY VIEW LN/UNION FORK RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.294485,
-   "lon": -85.144698,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831204",
