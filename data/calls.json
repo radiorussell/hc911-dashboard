@@ -1,61 +1,35 @@
 {
- "updated": "2026-11-26T12:55:38+00:00",
+ "updated": "2026-11-26T13:00:37+00:00",
  "counts": {
-  "year": 374325,
-  "upstream_day": 188,
-  "day": 267,
+  "year": 374330,
+  "upstream_day": 193,
+  "day": 270,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9831195",
-   "sequence": "2026-11-36929",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T12:52:38Z",
-   "created": "2026-11-26T12:52:25Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9831199",
+   "sequence": "2026-11-36932",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T12:55:47Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "18030 - 18039 INTERSTATE 24 EB",
-   "cross": "EXIT 180B S ON RAMP EB/EXIT 180B N ON RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
+   "address": "6716 LEVI RD",
+   "cross": "FORTUNATE WAY/RAY LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
    "priority": "PRI 3",
-   "lat": 35.018467,
-   "lon": -85.29317,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831194",
-   "sequence": "2026-11-36927",
-   "type": "Interpreter Call",
-   "status": "Queued",
-   "status_at": "2026-11-26T12:52:10Z",
-   "created": "2026-11-26T12:51:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18030 INTERSTATE 24 WB",
-   "cross": "EXIT 180B ON RAMP WB/EXIT 180A OFF RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 0",
-   "lat": 35.018727,
-   "lon": -85.294017,
+   "lat": 35.190549,
+   "lon": -85.262471,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +38,8 @@
    "id": "9831192",
    "sequence": "2026-11-36928",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:58:30Z",
    "created": "2026-11-26T12:51:35Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -89,7 +63,7 @@
   {
    "id": "9831191",
    "sequence": "2026-11-36926",
-   "type": "MVC Unknown Injuries",
+   "type": "Auto Broken Down Road",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-26T12:50:43Z",
@@ -105,7 +79,7 @@
    "cross": "EXIT 180B S ON RAMP EB/EXIT 180B N ON RAMP EB",
    "city": "CHATTANOOGA",
    "zone": "B7A",
-   "priority": "PRI 1",
+   "priority": "PRI 2",
    "lat": 35.018467,
    "lon": -85.29317,
    "units": 1,
@@ -142,8 +116,8 @@
    "id": "9831181",
    "sequence": "2026-11-36921",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:57:29Z",
    "created": "2026-11-26T12:45:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -267,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831102",
-   "sequence": "2026-11-36879",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:42:37Z",
-   "created": "2026-11-26T11:29:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18340 INTERSTATE 24 EB",
-   "cross": "EXIT 183 OFF RAMP EB/EXIT 184 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 1",
-   "lat": 35.012217,
-   "lon": -85.247342,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831069",
