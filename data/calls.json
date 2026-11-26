@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T09:40:38+00:00",
+ "updated": "2026-11-26T09:45:37+00:00",
  "counts": {
   "year": 374255,
   "upstream_day": 118,
-  "day": 161,
+  "day": 167,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9831036",
+   "sequence": "2026-11-36829",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T09:41:01Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "UNIVERSITY DR / CAMP RD",
+   "cross": "",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE SOUTH",
+   "priority": "PRI 2",
+   "lat": 35.025561,
+   "lon": -85.06053,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831014",
    "sequence": "2026-11-36823",
@@ -38,8 +64,8 @@
    "id": "9831013",
    "sequence": "2026-11-36820",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T09:27:48Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T09:44:33Z",
    "created": "2026-11-26T09:13:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9831011",
    "sequence": "2026-11-36821",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T09:30:57Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T09:39:16Z",
    "created": "2026-11-26T09:12:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
