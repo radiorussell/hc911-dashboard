@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T21:00:37+00:00",
+ "updated": "2026-11-26T21:05:42+00:00",
  "counts": {
   "year": 374639,
   "upstream_day": 502,
-  "day": 679,
+  "day": 685,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9831812",
+   "sequence": "2026-11-37346",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T21:05:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2361 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 1",
+   "lat": 35.046076,
+   "lon": -85.155522,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831813",
+   "sequence": "2026-11-37347",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:05:05Z",
+   "created": "2026-11-26T21:05:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2361 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 1",
+   "lat": 35.046076,
+   "lon": -85.155522,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831811",
+   "sequence": "2026-11-37345",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T21:04:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2361 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.046076,
+   "lon": -85.155522,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831808",
+   "sequence": "2026-11-37344",
+   "type": "Intoxicated Person",
+   "status": "Queued",
+   "status_at": "2026-11-26T21:04:10Z",
+   "created": "2026-11-26T21:03:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "107 W MARTIN LUTHER KING BLVD",
+   "cross": "BROAD ST/CHESTNUT ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 2",
+   "lat": 35.045972,
+   "lon": -85.311054,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831801",
    "sequence": "2026-11-37341",
@@ -38,8 +142,8 @@
    "id": "9831799",
    "sequence": "2026-11-37338",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:04:18Z",
    "created": "2026-11-26T20:55:59Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -82,32 +186,6 @@
    "priority": "PRI 2",
    "lat": 35.163347,
    "lon": -85.326875,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831792",
-   "sequence": "2026-11-37335",
-   "type": "Narcotics Violation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T20:51:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "900 MOUNTAIN CREEK RD",
-   "cross": "RUSSELL AVE/GLENDALE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.102678,
-   "lon": -85.325203,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -605,32 +683,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831648",
-   "sequence": "2026-11-37226",
-   "type": "Civil Matter",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:53:12Z",
-   "created": "2026-11-26T19:17:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.081783,
-   "lon": -85.26321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831147",
