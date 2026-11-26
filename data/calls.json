@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T16:55:39+00:00",
+ "updated": "2026-11-26T17:00:38+00:00",
  "counts": {
-  "year": 374464,
-  "upstream_day": 327,
-  "day": 455,
+  "year": 374468,
+  "upstream_day": 331,
+  "day": 459,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9831491",
-   "sequence": "2026-11-37117",
-   "type": "AFA Commercial",
+   "id": "9831498",
+   "sequence": "2026-11-37121",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-26T16:55:10Z",
-   "created": "2026-11-26T16:55:10Z",
+   "status_at": "2026-11-26T17:00:36Z",
+   "created": "2026-11-26T17:00:36Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "5921 PINEHURST AVE",
-   "cross": "No Cross Street/WATTS AVE",
+   "address": "6732 WILLOW TRACE DR",
+   "cross": "No Cross Street/WILLOW BROOK DR",
    "city": "CHATTANOOGA",
-   "zone": "1303",
+   "zone": "801 A",
+   "priority": "PRI 2",
+   "lat": 35.049554,
+   "lon": -85.166155,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831494",
+   "sequence": "2026-11-37120",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:00:36Z",
+   "created": "2026-11-26T17:00:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6732 WILLOW TRACE DR",
+   "cross": "No Cross Street/WILLOW BROOK DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 35.029451,
-   "lon": -85.200457,
+   "lat": 35.049554,
+   "lon": -85.166155,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -56,32 +82,6 @@
    "priority": "PRI 2",
    "lat": 35.206076,
    "lon": -85.068629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831486",
-   "sequence": "2026-11-37113",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-26T16:54:40Z",
-   "created": "2026-11-26T16:48:34Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5921 PINEHURST AVE",
-   "cross": "No Cross Street/WATTS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 1",
-   "lat": 35.029451,
-   "lon": -85.200457,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9831476",
    "sequence": "2026-11-37107",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:58:39Z",
    "created": "2026-11-26T16:41:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -191,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9831439",
-   "sequence": "2026-11-37087",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T16:13:40Z",
-   "created": "2026-11-26T16:13:40Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "11057 MATTHEW RD",
-   "cross": "ROSE RD/OLD DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 2",
-   "lat": 35.279828,
-   "lon": -85.167978,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831436",
    "sequence": "2026-11-37085",
    "type": "EMS CALL",
@@ -243,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831426",
-   "sequence": "2026-11-37075",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T16:29:32Z",
-   "created": "2026-11-26T16:04:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1924 RANDOLPH ST",
-   "cross": "E 19TH ST/E 21ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.017084,
-   "lon": -85.273331,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831384",
    "sequence": "2026-11-37046",
    "type": "Theft From a Vehicle",
@@ -290,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.054857,
    "lon": -85.152487,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831362",
-   "sequence": "2026-11-37034",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T16:22:09Z",
-   "created": "2026-11-26T15:04:01Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10910 HIGH RIVER DR",
-   "cross": "RIVER WATCH DR/AUTUMN RIVER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.253532,
-   "lon": -85.113146,
    "units": 1,
    "stacked": false,
    "notable": false
