@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T05:55:37+00:00",
+ "updated": "2026-11-26T06:00:39+00:00",
  "counts": {
-  "year": 374154,
-  "upstream_day": 17,
-  "day": 27,
+  "year": 374157,
+  "upstream_day": 20,
+  "day": 35,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9830848",
+   "sequence": "2026-11-36697",
+   "type": "Assault Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-26T05:59:27Z",
+   "created": "2026-11-26T05:58:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4716 TARPON TRL",
+   "cross": "LAKE HAVEN DR/SABLE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.090326,
+   "lon": -85.196711,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830845",
+   "sequence": "2026-11-36694",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T05:56:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "302 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 2",
+   "lat": 35.387163,
+   "lon": -85.115056,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830844",
+   "sequence": "2026-11-36693",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T05:56:14Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "302 DETOUR RD",
+   "cross": "DAYTON PIKE/OLD FORD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 2",
+   "lat": 35.387163,
+   "lon": -85.115056,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830831",
    "sequence": "2026-11-36689",
@@ -61,84 +139,6 @@
    "notable": false
   },
   {
-   "id": "9830824",
-   "sequence": "2026-11-36685",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T05:36:04Z",
-   "created": "2026-11-26T05:36:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5211 WOODLAND VIEW CIR",
-   "cross": "ANGELA DR/EDINGBURG DR",
-   "city": "CHATTANOOGA",
-   "zone": "903",
-   "priority": "PRI 1",
-   "lat": 34.989358,
-   "lon": -85.304458,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830823",
-   "sequence": "2026-11-36684",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-26T05:46:31Z",
-   "created": "2026-11-26T05:36:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5211 WOODLAND VIEW CIR",
-   "cross": "ANGELA DR/EDINGBURG DR",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 2",
-   "lat": 34.989358,
-   "lon": -85.304458,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830820",
-   "sequence": "2026-11-36683",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T05:48:26Z",
-   "created": "2026-11-26T05:35:43Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5211 WOODLAND VIEW CIR",
-   "cross": "ANGELA DR/EDINGBURG DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 34.9894,
-   "lon": -85.30448,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830817",
    "sequence": "2026-11-36679",
    "type": "Backup Other Agency",
@@ -168,8 +168,8 @@
    "id": "9830804",
    "sequence": "2026-11-36671",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T05:50:21Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T05:59:11Z",
    "created": "2026-11-26T05:25:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
