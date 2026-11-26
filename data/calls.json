@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T21:55:37+00:00",
+ "updated": "2026-11-26T22:00:37+00:00",
  "counts": {
-  "year": 374678,
-  "upstream_day": 541,
+  "year": 374682,
+  "upstream_day": 545,
   "day": 733,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 17,
  "incidents": [
   {
    "id": "9831869",
    "sequence": "2026-11-37395",
    "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-26T21:54:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T21:53:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9831868",
    "sequence": "2026-11-37394",
    "type": "Backup Fire Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-26T21:51:31Z",
    "created": "2026-11-26T21:51:31Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9831866",
    "sequence": "2026-11-37393",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:56:26Z",
    "created": "2026-11-26T21:48:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -85,32 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831865",
-   "sequence": "2026-11-37391",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:53:10Z",
-   "created": "2026-11-26T21:46:00Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "604 BACON TRL",
-   "cross": "NORTHVIEW AVE/WILEY AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.010344,
-   "lon": -85.245453,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831862",
@@ -168,8 +142,8 @@
    "id": "9831859",
    "sequence": "2026-11-37386",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T21:57:42Z",
    "created": "2026-11-26T21:39:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +168,8 @@
    "id": "9831850",
    "sequence": "2026-11-37385",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-26T21:34:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T21:34:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -420,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.003644,
    "lon": -85.26586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831781",
-   "sequence": "2026-11-37326",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T21:38:45Z",
-   "created": "2026-11-26T20:42:45Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "513 GRAND MOUNTAIN DR",
-   "cross": "No Cross Street/WIND SWEPT DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.017546,
-   "lon": -85.111912,
    "units": 1,
    "stacked": false,
    "notable": false
