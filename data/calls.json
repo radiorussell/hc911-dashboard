@@ -1,19 +1,253 @@
 {
- "updated": "2026-11-26T19:25:36+00:00",
+ "updated": "2026-11-26T19:30:41+00:00",
  "counts": {
-  "year": 374549,
-  "upstream_day": 412,
-  "day": 577,
+  "year": 374557,
+  "upstream_day": 420,
+  "day": 588,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9831676",
+   "sequence": "2026-11-37249",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:30:23Z",
+   "created": "2026-11-26T19:30:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2441 LEANN CIR",
+   "cross": "SUMTER AVE/SUMTER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.056795,
+   "lon": -85.227561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831677",
+   "sequence": "2026-11-37250",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:30:23Z",
+   "created": "2026-11-26T19:30:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2441 LEANN CIR",
+   "cross": "SUMTER AVE/SUMTER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1503",
+   "priority": "PRI 2",
+   "lat": 35.056795,
+   "lon": -85.227561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831675",
+   "sequence": "2026-11-37248",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:30:23Z",
+   "created": "2026-11-26T19:29:50Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2441 LEANN CIR",
+   "cross": "SUMTER AVE/SUMTER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.056795,
+   "lon": -85.227561,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831670",
+   "sequence": "2026-11-37243",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:27:24Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1113 LOWER MILL RD",
+   "cross": "OLD LOWER MILL RD/OLDE MILL LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "1102",
+   "priority": "PRI 1",
+   "lat": 35.164549,
+   "lon": -85.232082,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831669",
+   "sequence": "2026-11-37242",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:27:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1113 LOWER MILL RD",
+   "cross": "OLD LOWER MILL RD/OLDE MILL LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.164549,
+   "lon": -85.232082,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831667",
+   "sequence": "2026-11-37244",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:27:33Z",
+   "created": "2026-11-26T19:27:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7301 E BRAINERD RD",
+   "cross": "KENMOOR DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.016381,
+   "lon": -85.164707,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831668",
+   "sequence": "2026-11-37245",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:26:55Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3628 FOUNTAIN AVE",
+   "cross": "S GERMANTOWN RD/MCHANN DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.005567,
+   "lon": -85.252339,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831666",
+   "sequence": "2026-11-37241",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:26:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1113 LOWER MILL RD",
+   "cross": "OLD LOWER MILL RD/OLDE MILL LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "A1",
+   "priority": "PRI 1",
+   "lat": 35.164549,
+   "lon": -85.232082,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831665",
+   "sequence": "2026-11-37240",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:25:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BELLVIEW AVE / PARKSIDE LN",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 1",
+   "lat": 35.08136,
+   "lon": -85.197675,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831662",
    "sequence": "2026-11-37239",
    "type": "Not Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:24:53Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:28:24Z",
    "created": "2026-11-26T19:24:47Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -139,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9831658",
-   "sequence": "2026-11-37232",
-   "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T19:20:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7731 COLEMERE DR",
-   "cross": "WIMBERLY DR/JOCELYN DR",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 1",
-   "lat": 35.07878,
-   "lon": -85.176795,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831655",
    "sequence": "2026-11-37230",
    "type": "MVC Injuries",
@@ -194,8 +402,8 @@
    "id": "9831654",
    "sequence": "2026-11-37229",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T19:27:40Z",
    "created": "2026-11-26T19:20:34Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -267,58 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831638",
-   "sequence": "2026-11-37219",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T19:19:34Z",
-   "created": "2026-11-26T19:09:12Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6530 OLD DAYTON PIKE",
-   "cross": "PITTS RD/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 1",
-   "lat": 35.187423,
-   "lon": -85.250929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831637",
-   "sequence": "2026-11-37218",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T19:09:11Z",
-   "created": "2026-11-26T19:09:11Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6530 OLD DAYTON PIKE",
-   "cross": "PITTS RD/DAYTON PIKE",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 3",
-   "lat": 35.187423,
-   "lon": -85.250929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831636",
@@ -399,58 +555,6 @@
    "notable": false
   },
   {
-   "id": "9831610",
-   "sequence": "2026-11-37203",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:45:13Z",
-   "created": "2026-11-26T18:42:07Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1905 ELMAR DR",
-   "cross": "No Cross Street/BACON LN",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.031367,
-   "lon": -85.169641,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831594",
-   "sequence": "2026-11-37192",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-26T18:56:47Z",
-   "created": "2026-11-26T18:27:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2104 BACHMAN ST",
-   "cross": "CURTIS ST/BROWNS ALY",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 4",
-   "lat": 35.069813,
-   "lon": -85.252514,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831585",
    "sequence": "2026-11-37193",
    "type": "City Shop",
@@ -498,32 +602,6 @@
    "priority": "PRI 4",
    "lat": 35.005801,
    "lon": -85.223461,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831565",
-   "sequence": "2026-11-37175",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T18:48:38Z",
-   "created": "2026-11-26T18:10:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1815 BAY HILL DR",
-   "cross": "CAMP COLUMBUS RD/SEQUOYAH TER",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 1",
-   "lat": 35.199563,
-   "lon": -85.156344,
    "units": 1,
    "stacked": false,
    "notable": false
