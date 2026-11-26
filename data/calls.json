@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T13:55:38+00:00",
+ "updated": "2026-11-26T14:00:37+00:00",
  "counts": {
-  "year": 374361,
-  "upstream_day": 224,
-  "day": 314,
+  "year": 374365,
+  "upstream_day": 228,
+  "day": 317,
   "day_basis": "midnight"
  },
  "raw_rows": 22,
  "incidents": [
   {
+   "id": "9831267",
+   "sequence": "2026-11-36979",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:59:23Z",
+   "created": "2026-11-26T13:59:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052181,
+   "lon": -85.151941,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831263",
+   "sequence": "2026-11-36978",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T13:56:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 E 11TH ST",
+   "cross": "GEORGIA AVE/COLUMBIA ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.043943,
+   "lon": -85.308952,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9831261",
    "sequence": "2026-11-36976",
    "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-26T13:54:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T13:53:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "2285 WILCOX BLVD",
+   "cross": "BRADT ST/DODSON AVE",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "B2",
    "priority": "PRI 3",
-   "lat": 35.081426,
-   "lon": -85.263454,
+   "lat": 35.053257,
+   "lon": -85.260916,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.055393,
    "lon": -85.073061,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831252",
-   "sequence": "2026-11-36971",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T13:49:50Z",
-   "created": "2026-11-26T13:49:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1101 ARLINGTON AVE",
-   "cross": "WINDSOR ST/WILSON ST",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.04763,
-   "lon": -85.2614,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -423,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831222",
-   "sequence": "2026-11-36948",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T13:37:10Z",
-   "created": "2026-11-26T13:23:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988094,
-   "lon": -85.205343,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831212",
