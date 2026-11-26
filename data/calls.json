@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T14:20:36+00:00",
+ "updated": "2026-11-26T14:25:36+00:00",
  "counts": {
   "year": 374377,
   "upstream_day": 240,
-  "day": 328,
+  "day": 333,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831296",
+   "sequence": "2026-11-36995",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:20:54Z",
+   "created": "2026-11-26T14:20:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3550 CUMMINGS HWY",
+   "cross": "HEMLOCK CIR/STARVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.015591,
+   "lon": -85.376588,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831288",
    "sequence": "2026-11-36990",
@@ -90,8 +116,8 @@
    "id": "9831282",
    "sequence": "2026-11-36987",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:23:19Z",
    "created": "2026-11-26T14:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
