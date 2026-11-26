@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T02:15:39+00:00",
+ "updated": "2026-11-26T02:20:39+00:00",
  "counts": {
-  "year": 374040,
+  "year": 374049,
   "upstream_day": 0,
-  "day": 1355,
+  "day": 1360,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9830605",
+   "sequence": "2026-11-36548",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T02:18:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MORRIS HILL RD / MORIN RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.005962,
+   "lon": -85.129981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830594",
    "sequence": "2026-11-36543",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9830573",
-   "sequence": "2026-11-36531",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T02:03:45Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3117 DAYTON BLVD",
-   "cross": "LANCASTER AVE/W NEWBERRY ST",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 2",
-   "lat": 35.105913,
-   "lon": -85.298216,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830572",
    "sequence": "2026-11-36530",
    "type": "Disorder Weapon Involve",
@@ -127,7 +127,7 @@
    "agency_types": [
     "Law"
    ],
-   "address": "CLIO AVE / E 37TH ST",
+   "address": "2ND AVE / E 37TH ST",
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "B9",
@@ -191,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9830556",
-   "sequence": "2026-11-36518",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:09:18Z",
-   "created": "2026-11-26T01:51:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6150 SHALLOWFORD RD",
-   "cross": "OLAN MILLS DR/NOAH REID RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.051788,
-   "lon": -85.180731,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830557",
    "sequence": "2026-11-36517",
    "type": "Harassment",
@@ -243,6 +217,32 @@
    "notable": false
   },
   {
+   "id": "9830549",
+   "sequence": "2026-11-36511",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:19:44Z",
+   "created": "2026-11-26T01:49:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5220 HICKORY WOODS LN",
+   "cross": "AUSTIN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.139918,
+   "lon": -85.238442,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830529",
    "sequence": "2026-11-36500",
    "type": "EMS CALL",
@@ -262,32 +262,6 @@
    "city": "CHATTANOOGA",
    "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.002071,
-   "lon": -85.155804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830530",
-   "sequence": "2026-11-36501",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:32:59Z",
-   "created": "2026-11-26T01:32:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "999 CHARLOTTE AVE",
-   "cross": "DAVIDSON RD/DUDLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
    "lat": 35.002071,
    "lon": -85.155804,
    "units": 1,
