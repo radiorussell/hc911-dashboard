@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-26T07:35:37+00:00",
+ "updated": "2026-11-26T07:40:36+00:00",
  "counts": {
-  "year": 374201,
-  "upstream_day": 64,
-  "day": 103,
+  "year": 374204,
+  "upstream_day": 67,
+  "day": 110,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9830946",
+   "sequence": "2026-11-36772",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:39:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2922 DONNA LN",
+   "cross": "CLEARVIEW AVE/BUENA VISTA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.03107,
+   "lon": -85.25499,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830944",
+   "sequence": "2026-11-36770",
+   "type": "Intoxicated Person",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:37:16Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6650 RINGGOLD RD",
+   "cross": "I-75 NB @ EXIT 1A RAMP/CAMP JORDAN PKWY",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 2",
+   "lat": 34.989351,
+   "lon": -85.200738,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830943",
+   "sequence": "2026-11-36769",
+   "type": "Spill",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:36:49Z",
+   "created": "2026-11-26T07:36:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18150 - 18249 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.014556,
+   "lon": -85.272971,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830942",
+   "sequence": "2026-11-36768",
+   "type": "Spill",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:36:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "18150 - 18249 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "505",
+   "priority": "PRI 2",
+   "lat": 35.014556,
+   "lon": -85.272971,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830941",
+   "sequence": "2026-11-36767",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T07:36:35Z",
+   "created": "2026-11-26T07:36:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1020 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 2",
+   "lat": 35.108153,
+   "lon": -85.317953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830936",
+   "sequence": "2026-11-36766",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T07:35:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1020 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.108153,
+   "lon": -85.317953,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830930",
    "sequence": "2026-11-36765",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:34:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T07:33:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9830929",
-   "sequence": "2026-11-36764",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T07:33:56Z",
-   "created": "2026-11-26T07:33:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18150 - 18249 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 1",
-   "lat": 35.014556,
-   "lon": -85.272971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830928",
    "sequence": "2026-11-36761",
    "type": "EMS CALL",
@@ -134,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.010216,
    "lon": -85.127065,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830925",
-   "sequence": "2026-11-36760",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T07:31:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18240 INTERSTATE 24 EB",
-   "cross": "EXIT 181A OFF RAMP EB/EXIT 183 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.020996,
-   "lon": -85.261193,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +298,8 @@
    "id": "9830921",
    "sequence": "2026-11-36756",
    "type": "Assault EMS Needed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T07:40:31Z",
    "created": "2026-11-26T07:28:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +402,8 @@
    "id": "9830906",
    "sequence": "2026-11-36746",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T07:38:45Z",
    "created": "2026-11-26T07:13:43Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9830861",
-   "sequence": "2026-11-36705",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T07:02:57Z",
-   "created": "2026-11-26T06:16:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3100 RINGGOLD RD",
-   "cross": "WESTSIDE DR/S SEMINOLE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.009454,
-   "lon": -85.27164,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9830848",
    "sequence": "2026-11-36697",
    "type": "Assault Delayed",
@@ -449,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830831",
-   "sequence": "2026-11-36689",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T05:52:04Z",
-   "created": "2026-11-26T05:43:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3805 MARK TWAIN CIR",
-   "cross": "DOGWOOD DR/RAE TRL",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 2",
-   "lat": 35.05067,
-   "lon": -85.226004,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830817",
