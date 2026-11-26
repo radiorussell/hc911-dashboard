@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T14:05:38+00:00",
+ "updated": "2026-11-26T14:10:42+00:00",
  "counts": {
-  "year": 374365,
-  "upstream_day": 228,
-  "day": 319,
+  "year": 374372,
+  "upstream_day": 235,
+  "day": 325,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
   {
-   "id": "9831271",
-   "sequence": "2026-11-36981",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T14:03:40Z",
-   "created": "2026-11-26T14:02:46Z",
+   "id": "9831283",
+   "sequence": "2026-11-36986",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T14:08:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,24 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "6411 LEE HWY",
-   "cross": "CUSTOMER DELIGHT DR/DUPRE RD",
+   "address": "809 BURNSIDE PL",
+   "cross": "No Cross Street/MYRTLE ST",
    "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.034348,
-   "lon": -85.180609,
+   "zone": "A10",
+   "priority": "PRI 1",
+   "lat": 35.028857,
+   "lon": -85.299577,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9831267",
-   "sequence": "2026-11-36979",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T13:59:23Z",
+   "id": "9831282",
+   "sequence": "2026-11-36987",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-26T14:09:21Z",
+   "created": "2026-11-26T14:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7255 LEE HWY",
-   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "address": "7112 DALEFIELD LN",
+   "cross": "EDGEFIELD DR/EDGEFIELD DR",
    "city": "CHATTANOOGA",
    "zone": "C9",
    "priority": "PRI 4",
-   "lat": 35.052181,
-   "lon": -85.151941,
+   "lat": 35.054752,
+   "lon": -85.152087,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831279",
+   "sequence": "2026-11-36985",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T14:06:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3504 OAK RIDGE DR",
+   "cross": "ASHLAND TER/OAK TREE DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.117666,
+   "lon": -85.268445,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -113,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9831258",
-   "sequence": "2026-11-36974",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T13:51:52Z",
-   "created": "2026-11-26T13:51:52Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4586 FORSYTHIA WAY",
-   "cross": "ILENE CT/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.055393,
-   "lon": -85.073061,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831259",
    "sequence": "2026-11-36975",
    "type": "EMS CALL",
@@ -158,6 +158,32 @@
    "city": "COLLEGEDALE",
    "zone": "TRI-COMM FD 1-4 CO B",
    "priority": "PRI 2",
+   "lat": 35.055393,
+   "lon": -85.073061,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831258",
+   "sequence": "2026-11-36974",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T13:51:52Z",
+   "created": "2026-11-26T13:51:52Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4586 FORSYTHIA WAY",
+   "cross": "ILENE CT/SWINYAR DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
    "lat": 35.055393,
    "lon": -85.073061,
    "units": 1,
@@ -321,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9831236",
-   "sequence": "2026-11-36960",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T13:47:51Z",
-   "created": "2026-11-26T13:32:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6214 BONNY OAKS DR",
-   "cross": "CECELIA DR/LAGUANA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.073593,
-   "lon": -85.178101,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831232",
    "sequence": "2026-11-36956",
    "type": "Abandoned Auto",
@@ -397,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831212",
-   "sequence": "2026-11-36941",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T13:47:01Z",
-   "created": "2026-11-26T13:12:32Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.992245,
-   "lon": -85.235222,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831204",
