@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T23:05:43+00:00",
+ "updated": "2026-11-26T23:10:38+00:00",
  "counts": {
-  "year": 374731,
-  "upstream_day": 594,
-  "day": 800,
+  "year": 374738,
+  "upstream_day": 601,
+  "day": 802,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9831969",
+   "sequence": "2026-11-37464",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:09:26Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7901 HAMPTON COVE DR",
+   "cross": "CHINKAPIN CT/SNOW HILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.148631,
+   "lon": -85.068817,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831962",
    "sequence": "2026-11-37462",
@@ -142,8 +168,8 @@
    "id": "9831955",
    "sequence": "2026-11-37455",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:10:17Z",
    "created": "2026-11-26T22:53:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9831939",
    "sequence": "2026-11-37445",
    "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:01:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T23:10:28Z",
    "created": "2026-11-26T22:47:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9831930",
-   "sequence": "2026-11-37436",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:53:00Z",
-   "created": "2026-11-26T22:46:45Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4620 RICKY DR",
-   "cross": "MIKE EDD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 2",
-   "lat": 35.037958,
-   "lon": -85.215133,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831931",
    "sequence": "2026-11-37437",
    "type": "EMS CALL",
@@ -368,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.037958,
    "lon": -85.215133,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831923",
-   "sequence": "2026-11-37447",
-   "type": "Auto Broken Down Road",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:05:12Z",
-   "created": "2026-11-26T22:46:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "622 - 998 BOY SCOUT RD",
-   "cross": "ECHO GLEN DR/SANDSWITCH RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.180619,
-   "lon": -85.239462,
    "units": 1,
    "stacked": false,
    "notable": false
