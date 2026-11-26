@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-26T15:05:38+00:00",
+ "updated": "2026-11-26T15:10:38+00:00",
  "counts": {
-  "year": 374400,
-  "upstream_day": 263,
-  "day": 377,
+  "year": 374403,
+  "upstream_day": 266,
+  "day": 378,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9831366",
-   "sequence": "2026-11-37035",
-   "type": "EMS CALL",
+   "id": "9831369",
+   "sequence": "2026-11-37040",
+   "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-26T15:04:45Z",
-   "created": "2026-11-26T15:04:45Z",
-   "jurisdiction": "Hamilton Co SO",
+   "status_at": "2026-11-26T15:09:53Z",
+   "created": "2026-11-26T15:09:43Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "10910 HIGH RIVER DR",
-   "cross": "RIVER WATCH DR/AUTUMN RIVER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
+   "address": "5425 HIGHWAY 153",
+   "cross": "HWY 153 SB @ HIXSON PK SB - OFF RAMP/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
    "priority": "PRI 3",
-   "lat": 35.253532,
-   "lon": -85.113146,
+   "lat": 35.138164,
+   "lon": -85.24936,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -75,13 +75,13 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "714 CARRIAGE PARC DR",
+   "address": "314 CARRIAGE PARC DR",
    "cross": "GUNBARREL RD/JOINER RD",
    "city": "CHATTANOOGA",
    "zone": "2101",
    "priority": "PRI 1",
-   "lat": 35.011242,
-   "lon": -85.163879,
+   "lat": 35.011519,
+   "lon": -85.164305,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -163,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831358",
-   "sequence": "2026-11-37030",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:02:33Z",
-   "created": "2026-11-26T15:02:33Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6618 WHITE SANDS LN",
-   "cross": "ROCK BLUFF RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.156244,
-   "lon": -85.173476,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831359",
@@ -376,8 +350,8 @@
    "id": "9831342",
    "sequence": "2026-11-37021",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:07:23Z",
    "created": "2026-11-26T14:51:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,58 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.165455,
    "lon": -85.197952,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831339",
-   "sequence": "2026-11-37019",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T14:54:17Z",
-   "created": "2026-11-26T14:45:44Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "12607 CIVIC CLUB DR",
-   "cross": "LEE PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 2",
-   "lat": 35.312903,
-   "lon": -85.130658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831328",
-   "sequence": "2026-11-37015",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-26T14:39:54Z",
-   "created": "2026-11-26T14:39:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DERBY ST / E 3RD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.038535,
-   "lon": -85.265009,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -527,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831298",
-   "sequence": "2026-11-37001",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T14:40:32Z",
-   "created": "2026-11-26T14:21:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1832 OLD RINGGOLD RD",
-   "cross": "ELDER ST/RIDGEWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.015261,
-   "lon": -85.268443,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831284",
@@ -656,32 +552,6 @@
    "lon": -85.26126,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831257",
-   "sequence": "2026-11-36973",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T14:38:42Z",
-   "created": "2026-11-26T13:50:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4586 FORSYTHIA WAY",
-   "cross": "ILENE CT/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.055393,
-   "lon": -85.073061,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
