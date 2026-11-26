@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T17:30:38+00:00",
+ "updated": "2026-11-26T17:35:38+00:00",
  "counts": {
   "year": 374489,
   "upstream_day": 352,
-  "day": 489,
+  "day": 495,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9831542",
+   "sequence": "2026-11-37156",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:34:53Z",
+   "created": "2026-11-26T17:34:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2618 FOREST RD",
+   "cross": "PINE ST/FOREST ACRES LN",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.090627,
+   "lon": -85.231484,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831543",
+   "sequence": "2026-11-37157",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:34:53Z",
+   "created": "2026-11-26T17:34:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2618 FOREST RD",
+   "cross": "PINE ST/FOREST ACRES LN",
+   "city": "CHATTANOOGA",
+   "zone": "603 B",
+   "priority": "PRI 2",
+   "lat": 35.090627,
+   "lon": -85.231484,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831540",
+   "sequence": "2026-11-37154",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:34:17Z",
+   "created": "2026-11-26T17:34:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "265 S HOWELL AVE",
+   "cross": "CONNER ST/MAYFAIR AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.00785,
+   "lon": -85.2272,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831541",
+   "sequence": "2026-11-37155",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T17:34:53Z",
+   "created": "2026-11-26T17:34:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2618 FOREST RD",
+   "cross": "PINE ST/FOREST ACRES LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.090627,
+   "lon": -85.231484,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831537",
    "sequence": "2026-11-37150",
@@ -64,8 +168,8 @@
    "id": "9831534",
    "sequence": "2026-11-37151",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:30:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T17:28:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -91,7 +195,7 @@
    "sequence": "2026-11-37147",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T17:30:57Z",
    "created": "2026-11-26T17:22:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -376,8 +480,8 @@
    "id": "9831502",
    "sequence": "2026-11-37126",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T17:20:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T17:34:54Z",
    "created": "2026-11-26T17:04:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831498",
-   "sequence": "2026-11-37121",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:00:36Z",
-   "created": "2026-11-26T17:00:36Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6732 WILLOW TRACE DR",
-   "cross": "No Cross Street/WILLOW BROOK DR",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 2",
-   "lat": 35.049554,
-   "lon": -85.166155,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -558,8 +636,8 @@
    "id": "9831384",
    "sequence": "2026-11-37046",
    "type": "Theft From a Vehicle",
-   "status": "Enroute",
-   "status_at": "2026-11-26T16:02:59Z",
+   "status": "Stacked",
+   "status_at": "2026-11-26T15:22:52Z",
    "created": "2026-11-26T15:22:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -577,33 +655,7 @@
    "lat": 35.054857,
    "lon": -85.152487,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831355",
-   "sequence": "2026-11-37027",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:05:17Z",
-   "created": "2026-11-26T15:01:00Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1328 E 42ND ST",
-   "cross": "DIVINE AVE/CALHOUN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 1",
-   "lat": 34.993317,
-   "lon": -85.29736,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -662,8 +714,8 @@
    "id": "9831261",
    "sequence": "2026-11-36976",
    "type": "Police Assist Citizen",
-   "status": "Stacked",
-   "status_at": "2026-11-26T13:54:44Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:48:33Z",
    "created": "2026-11-26T13:53:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -681,7 +733,7 @@
    "lat": 35.047187,
    "lon": -85.26126,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
