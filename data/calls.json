@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T10:35:38+00:00",
+ "updated": "2026-11-26T10:40:38+00:00",
  "counts": {
-  "year": 374272,
-  "upstream_day": 135,
-  "day": 194,
+  "year": 374281,
+  "upstream_day": 144,
+  "day": 198,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9831072",
+   "sequence": "2026-11-36859",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T10:36:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2308 WHEELER AVE",
+   "cross": "CRUTCHFIELD ST/LATTA ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.063707,
+   "lon": -85.250959,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831073",
+   "sequence": "2026-11-36860",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T10:36:25Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2308 WHEELER AVE",
+   "cross": "CRUTCHFIELD ST/LATTA ST",
+   "city": "CHATTANOOGA",
+   "zone": "406",
+   "priority": "PRI 1",
+   "lat": 35.063707,
+   "lon": -85.250959,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831069",
+   "sequence": "2026-11-36858",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T10:36:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2308 WHEELER AVE",
+   "cross": "CRUTCHFIELD ST/LATTA ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 1",
+   "lat": 35.063707,
+   "lon": -85.250959,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831065",
    "sequence": "2026-11-36855",
@@ -38,8 +116,8 @@
    "id": "9831066",
    "sequence": "2026-11-36856",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:36:45Z",
    "created": "2026-11-26T10:25:07Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -87,37 +165,11 @@
    "notable": true
   },
   {
-   "id": "9831061",
-   "sequence": "2026-11-36850",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T10:22:48Z",
-   "created": "2026-11-26T10:22:48Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1512 S HOLTZCLAW AVE",
-   "cross": "E MAIN ST/E 17TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "504",
-   "priority": "PRI 2",
-   "lat": 35.02808,
-   "lon": -85.288364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831058",
    "sequence": "2026-11-36849",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:30:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T10:36:13Z",
    "created": "2026-11-26T10:22:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.02808,
    "lon": -85.288364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831052",
-   "sequence": "2026-11-36844",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T10:11:52Z",
-   "created": "2026-11-26T10:11:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1109 MOSS DR",
-   "cross": "MOSS ST/HOYT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1501",
-   "priority": "PRI 2",
-   "lat": 35.042483,
-   "lon": -85.243678,
    "units": 1,
    "stacked": false,
    "notable": false
