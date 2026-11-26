@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T01:10:37+00:00",
+ "updated": "2026-11-26T01:15:37+00:00",
  "counts": {
   "year": 374001,
   "upstream_day": 0,
-  "day": 1295,
+  "day": 1297,
   "day_basis": "midnight"
  },
  "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9830510",
+   "sequence": "2026-11-36485",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:13:02Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 1",
+   "lat": 35.08082,
+   "lon": -85.06329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830509",
+   "sequence": "2026-11-36484",
+   "type": "Shoplifter",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:12:24Z",
+   "created": "2026-11-26T01:11:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 4",
+   "lat": 35.094368,
+   "lon": -85.331318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830508",
    "sequence": "2026-11-36483",
@@ -39,7 +91,7 @@
    "sequence": "2026-11-36478",
    "type": "Shots Fired",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T01:10:56Z",
    "created": "2026-11-26T01:06:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,58 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.065878,
    "lon": -85.24112,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830504",
-   "sequence": "2026-11-36479",
-   "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:06:54Z",
-   "created": "2026-11-26T01:06:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3800 - 3869 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.109973,
-   "lon": -85.270976,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830502",
-   "sequence": "2026-11-36477",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:09:36Z",
-   "created": "2026-11-26T01:05:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "1602 A",
-   "priority": "PRI 1",
-   "lat": 35.11172,
-   "lon": -85.269873,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -139,11 +139,37 @@
    "notable": true
   },
   {
+   "id": "9830502",
+   "sequence": "2026-11-36477",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:09:36Z",
+   "created": "2026-11-26T01:05:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "1602 A",
+   "priority": "PRI 1",
+   "lat": 35.11172,
+   "lon": -85.269873,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9830500",
    "sequence": "2026-11-36475",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:10:50Z",
    "created": "2026-11-26T01:04:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -189,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830479",
-   "sequence": "2026-11-36461",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:47:47Z",
-   "created": "2026-11-26T00:43:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3729 TENNESSEE AVE",
-   "cross": "W 37TH ST/W 38TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 2",
-   "lat": 35.011929,
-   "lon": -85.326952,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830465",
@@ -480,8 +480,8 @@
    "id": "9830352",
    "sequence": "2026-11-36376",
    "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-25T23:26:30Z",
    "created": "2026-11-25T23:25:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -499,7 +499,7 @@
    "lat": 35.081783,
    "lon": -85.26321,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
