@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T09:25:39+00:00",
+ "updated": "2026-11-26T09:30:37+00:00",
  "counts": {
-  "year": 374246,
-  "upstream_day": 109,
-  "day": 161,
+  "year": 374254,
+  "upstream_day": 117,
+  "day": 165,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831030",
+   "sequence": "2026-11-36827",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": "2026-11-26T09:28:35Z",
+   "created": "2026-11-26T09:28:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5741 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.153952,
+   "lon": -85.249494,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831014",
    "sequence": "2026-11-36823",
@@ -64,8 +90,8 @@
    "id": "9831013",
    "sequence": "2026-11-36820",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T09:27:48Z",
    "created": "2026-11-26T09:13:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 2",
    "lat": 35.009083,
    "lon": -85.217982,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830990",
-   "sequence": "2026-11-36803",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T08:45:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "110 JORDAN DR",
-   "cross": "SHALLOWFORD RD/LEE PKWY W",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.046981,
-   "lon": -85.1629,
    "units": 1,
    "stacked": false,
    "notable": false
