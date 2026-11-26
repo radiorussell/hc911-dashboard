@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-26T09:20:37+00:00",
+ "updated": "2026-11-26T09:25:39+00:00",
  "counts": {
   "year": 374246,
   "upstream_day": 109,
-  "day": 162,
+  "day": 161,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 15,
  "incidents": [
-  {
-   "id": "9831016",
-   "sequence": "2026-11-36824",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-26T09:15:22Z",
-   "created": "2026-11-26T09:15:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1009 AULT DR",
-   "cross": "No Cross Street/BROWNWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.042055,
-   "lon": -85.250889,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9831014",
    "sequence": "2026-11-36823",
@@ -116,8 +90,8 @@
    "id": "9831011",
    "sequence": "2026-11-36821",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T09:23:29Z",
    "created": "2026-11-26T09:12:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -231,13 +205,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "N TERRACE / S SWEETBRIAR AVE",
-   "cross": "",
+   "address": "5515 WOODLAWN DR",
+   "cross": "SPRING CREEK RD/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "C2",
+   "zone": "C3 A",
    "priority": "PRI 2",
-   "lat": 35.009155,
-   "lon": -85.237709,
+   "lat": 35.009083,
+   "lon": -85.217982,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -316,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.108153,
    "lon": -85.317953,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830914",
-   "sequence": "2026-11-36750",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-26T09:09:00Z",
-   "created": "2026-11-26T07:23:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2000 E 23RD ST",
-   "cross": "S ORCHARD KNOB AVE/S WILLOW ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.01861,
-   "lon": -85.282744,
    "units": 1,
    "stacked": false,
    "notable": false
