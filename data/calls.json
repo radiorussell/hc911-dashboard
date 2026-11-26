@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-26T23:25:37+00:00",
+ "updated": "2026-11-26T23:30:37+00:00",
  "counts": {
-  "year": 374740,
-  "upstream_day": 603,
-  "day": 825,
+  "year": 374749,
+  "upstream_day": 612,
+  "day": 834,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 44,
  "incidents": [
+  {
+   "id": "9832004",
+   "sequence": "2026-11-37496",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:28:53Z",
+   "created": "2026-11-26T23:28:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3010 ORTON ST",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 4",
+   "lat": 35.073339,
+   "lon": -85.251902,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832007",
+   "sequence": "2026-11-37495",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:27:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1300 RESERVE WAY",
+   "cross": "No Cross Street/MEADOW STREAM LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 2",
+   "lat": 35.007204,
+   "lon": -85.160059,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832005",
+   "sequence": "2026-11-37492",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:27:37Z",
+   "created": "2026-11-26T23:27:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.0338,
+   "lon": -85.1596,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832006",
+   "sequence": "2026-11-37493",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:27:37Z",
+   "created": "2026-11-26T23:27:37Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.0338,
+   "lon": -85.1596,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832002",
+   "sequence": "2026-11-37491",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:26:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.0338,
+   "lon": -85.1596,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832001",
+   "sequence": "2026-11-37490",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:26:36Z",
+   "created": "2026-11-26T23:26:36Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8249 STANDIFER GAP RD",
+   "cross": "CLIPPER DR/BANKS RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 1",
+   "lat": 35.03636,
+   "lon": -85.107885,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831996",
    "sequence": "2026-11-37486",
@@ -38,8 +194,8 @@
    "id": "9831997",
    "sequence": "2026-11-37487",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:25:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T23:25:02Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -56,6 +212,32 @@
    "priority": "PRI 1",
    "lat": 34.99587,
    "lon": -85.318148,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831995",
+   "sequence": "2026-11-37488",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T23:25:41Z",
+   "created": "2026-11-26T23:24:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "APISON PIKE / OLD LEE HWY",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.069716,
+   "lon": -85.100607,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +272,8 @@
    "id": "9831990",
    "sequence": "2026-11-37485",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:25:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T23:24:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +324,8 @@
    "id": "9831992",
    "sequence": "2026-11-37482",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:28:47Z",
    "created": "2026-11-26T23:23:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -324,8 +506,8 @@
    "id": "9831973",
    "sequence": "2026-11-37471",
    "type": "Harrassing Threats",
-   "status": "Stacked",
-   "status_at": "2026-11-26T23:15:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T23:14:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -343,7 +525,7 @@
    "lat": 35.038276,
    "lon": -85.284422,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -446,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.369183,
    "lon": -85.11725,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831969",
-   "sequence": "2026-11-37464",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:18:47Z",
-   "created": "2026-11-26T23:09:26Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7901 HAMPTON COVE DR",
-   "cross": "CHINKAPIN CT/SNOW HILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.148631,
-   "lon": -85.068817,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -583,7 +739,7 @@
   {
    "id": "9831939",
    "sequence": "2026-11-37445",
-   "type": "Pedestrian Struck",
+   "type": "MVC Injuries",
    "status": "At Hospital",
    "status_at": "2026-11-26T23:17:46Z",
    "created": "2026-11-26T22:47:33Z",
@@ -604,12 +760,12 @@
    "lon": -85.234957,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9831932",
    "sequence": "2026-11-37444",
-   "type": "Pedestrian Struck",
+   "type": "MVC Injuries",
    "status": "On Scene",
    "status_at": "2026-11-26T22:53:59Z",
    "created": "2026-11-26T22:46:57Z",
@@ -630,7 +786,7 @@
    "lon": -85.234957,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9831925",
