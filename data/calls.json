@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T03:00:44+00:00",
+ "updated": "2026-11-26T03:05:38+00:00",
  "counts": {
   "year": 374080,
   "upstream_day": 0,
   "day": 1404,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9830679",
@@ -87,32 +87,6 @@
    "notable": true
   },
   {
-   "id": "9830670",
-   "sequence": "2026-11-36588",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:55:29Z",
-   "created": "2026-11-26T02:54:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3802 DODDS AVE",
-   "cross": "E 38TH ST/E 39TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 4",
-   "lat": 34.99785,
-   "lon": -85.282656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830665",
    "sequence": "2026-11-36587",
    "type": "Property",
@@ -167,7 +141,7 @@
   {
    "id": "9830663",
    "sequence": "2026-11-36584",
-   "type": "Residential Fire",
+   "type": "Backup Fire Unit",
    "status": "Enroute",
    "status_at": "2026-11-26T02:57:07Z",
    "created": "2026-11-26T02:50:12Z",
@@ -184,32 +158,6 @@
    "city": "CHATTANOOGA",
    "zone": "B9",
    "priority": "PRI 2",
-   "lat": 34.999471,
-   "lon": -85.287013,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830653",
-   "sequence": "2026-11-36579",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:55:47Z",
-   "created": "2026-11-26T02:45:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3707 6TH AVE",
-   "cross": "E 37TH ST/E 39TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "902",
-   "priority": "PRI 1",
    "lat": 34.999471,
    "lon": -85.287013,
    "units": 1,
