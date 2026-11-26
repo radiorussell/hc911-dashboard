@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T11:00:37+00:00",
+ "updated": "2026-11-26T11:05:38+00:00",
  "counts": {
   "year": 374285,
   "upstream_day": 148,
-  "day": 199,
+  "day": 201,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9831079",
+   "sequence": "2026-11-36863",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-26T11:00:59Z",
+   "created": "2026-11-26T11:00:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2609 HENDERSON ST",
+   "cross": "AWTRY ST/WETMORE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 4",
+   "lat": 35.065571,
+   "lon": -85.247142,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831077",
    "sequence": "2026-11-36861",
@@ -38,8 +64,8 @@
    "id": "9831072",
    "sequence": "2026-11-36859",
    "type": "Shooting/Person Shot",
-   "status": "Transporting",
-   "status_at": "2026-11-26T10:56:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T11:02:53Z",
    "created": "2026-11-26T10:36:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.023914,
    "lon": -85.179352,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831062",
-   "sequence": "2026-11-36852",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:28:59Z",
-   "created": "2026-11-26T10:23:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1439 HICKORY VALLEY RD",
-   "cross": "NAKWISA DR/SANATAN LN",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 1",
-   "lat": 35.022871,
-   "lon": -85.17923,
    "units": 1,
    "stacked": false,
    "notable": true
