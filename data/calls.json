@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T16:25:37+00:00",
+ "updated": "2026-11-26T16:30:42+00:00",
  "counts": {
-  "year": 374447,
-  "upstream_day": 310,
+  "year": 374455,
+  "upstream_day": 318,
   "day": 436,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
   {
    "id": "9831451",
@@ -116,8 +116,8 @@
    "id": "9831442",
    "sequence": "2026-11-37092",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:29:48Z",
    "created": "2026-11-26T16:17:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -217,63 +217,11 @@
    "notable": false
   },
   {
-   "id": "9831435",
-   "sequence": "2026-11-37084",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-26T16:16:49Z",
-   "created": "2026-11-26T16:11:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT 4 OFF RAMP NB",
-   "cross": "INTERSTATE 75 NB/EXIT 4 OFF RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.021474,
-   "lon": -85.175789,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831434",
-   "sequence": "2026-11-37083",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": "2026-11-26T16:21:57Z",
-   "created": "2026-11-26T16:09:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "935 BRYNWOOD DR",
-   "cross": "BRYNWOOD TER/WATSON RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.120012,
-   "lon": -85.264248,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831426",
    "sequence": "2026-11-37075",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T16:23:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T16:29:32Z",
    "created": "2026-11-26T16:04:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +246,8 @@
    "id": "9831420",
    "sequence": "2026-11-37070",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T16:28:06Z",
    "created": "2026-11-26T15:58:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -342,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.195598,
    "lon": -85.093878,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831383",
-   "sequence": "2026-11-37050",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T16:02:08Z",
-   "created": "2026-11-26T15:23:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.047818,
-   "lon": -85.32064,
    "units": 1,
    "stacked": false,
    "notable": false
