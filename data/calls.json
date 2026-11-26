@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T10:25:39+00:00",
+ "updated": "2026-11-26T10:30:38+00:00",
  "counts": {
-  "year": 374266,
-  "upstream_day": 129,
-  "day": 193,
+  "year": 374272,
+  "upstream_day": 135,
+  "day": 194,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9831065",
@@ -35,11 +35,37 @@
    "notable": true
   },
   {
+   "id": "9831066",
+   "sequence": "2026-11-36856",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T10:25:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2647 CHURCHILL DOWNS CIR",
+   "cross": "DERBY DOWNS DR/DERBY DOWNS DR",
+   "city": "CHATTANOOGA",
+   "zone": "801 A",
+   "priority": "PRI 3",
+   "lat": 35.057376,
+   "lon": -85.16159,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9831062",
    "sequence": "2026-11-36852",
    "type": "Shots Fired",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:28:59Z",
    "created": "2026-11-26T10:23:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9831063",
    "sequence": "2026-11-36851",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:28:46Z",
    "created": "2026-11-26T10:23:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9831055",
    "sequence": "2026-11-36847",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:29:16Z",
    "created": "2026-11-26T10:18:06Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -394,58 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.153825,
    "lon": -85.180267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831038",
-   "sequence": "2026-11-36835",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:05:04Z",
-   "created": "2026-11-26T09:46:47Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5208 HIGHWAY 153",
-   "cross": "HAMILL RD/NORTHGATE MALL DR",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.124128,
-   "lon": -85.239266,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831014",
-   "sequence": "2026-11-36823",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-26T09:33:39Z",
-   "created": "2026-11-26T09:13:38Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2200 HIGHWAY 27 SB",
-   "cross": "EXIT TSATI TER OFF RAMP SB/EXIT HIGHWAY 27 OFF RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.292045,
-   "lon": -85.15167,
    "units": 1,
    "stacked": false,
    "notable": false
