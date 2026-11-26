@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-26T11:25:38+00:00",
+ "updated": "2026-11-26T11:30:42+00:00",
  "counts": {
-  "year": 374290,
-  "upstream_day": 153,
-  "day": 208,
+  "year": 374294,
+  "upstream_day": 157,
+  "day": 217,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 11,
  "incidents": [
   {
-   "id": "9831089",
-   "sequence": "2026-11-36869",
-   "type": "Backup Fire Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:24:30Z",
-   "created": "2026-11-26T11:12:50Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "408 BROUGHTON ST",
-   "cross": "NAVAJO DR/FRAWLEY ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 2",
-   "lat": 35.01674,
-   "lon": -85.251771,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831088",
-   "sequence": "2026-11-36870",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:15:41Z",
-   "created": "2026-11-26T11:12:21Z",
+   "id": "9831102",
+   "sequence": "2026-11-36879",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T11:29:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +23,65 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2528 BROAD ST",
-   "cross": "W 25TH ST/W 26TH ST",
+   "address": "18400 INTERSTATE 24 EB",
+   "cross": "EXIT 184 OFF RAMP EB/EXIT 184 ON RAMP EB",
    "city": "CHATTANOOGA",
-   "zone": "A10",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.008654,
+   "lon": -85.237704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831101",
+   "sequence": "2026-11-36878",
+   "type": "Harrassing Threats",
+   "status": "Queued",
+   "status_at": "2026-11-26T11:28:20Z",
+   "created": "2026-11-26T11:27:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1254 CYPRESS STREET CT",
+   "cross": "No Cross Street/W 13TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
    "priority": "PRI 3",
-   "lat": 35.02783,
-   "lon": -85.315794,
+   "lat": 35.042698,
+   "lon": -85.317179,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831099",
+   "sequence": "2026-11-36876",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T11:26:49Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "315 PITTS RD",
+   "cross": "OLD DAYTON PIKE/CANYON CRST",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 3",
+   "lat": 35.187064,
+   "lon": -85.254906,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9831087",
-   "sequence": "2026-11-36867",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T11:08:08Z",
-   "created": "2026-11-26T11:08:08Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7324 SHALLOWFORD RD",
-   "cross": "LIFESTYLE WAY/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.039739,
-   "lon": -85.151941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831085",
    "sequence": "2026-11-36865",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:18:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T11:29:38Z",
    "created": "2026-11-26T11:07:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.039739,
    "lon": -85.151941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831084",
-   "sequence": "2026-11-36868",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-26T11:17:39Z",
-   "created": "2026-11-26T11:07:39Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "408 BROUGHTON ST",
-   "cross": "NAVAJO DR/FRAWLEY ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1T",
-   "priority": "PRI 1",
-   "lat": 35.01674,
-   "lon": -85.251771,
    "units": 1,
    "stacked": false,
    "notable": false
