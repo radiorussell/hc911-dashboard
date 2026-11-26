@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T02:05:38+00:00",
+ "updated": "2026-11-26T02:10:37+00:00",
  "counts": {
-  "year": 374030,
+  "year": 374040,
   "upstream_day": 0,
-  "day": 1343,
+  "day": 1349,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9830578",
+   "sequence": "2026-11-36537",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:05:41Z",
+   "created": "2026-11-26T02:05:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "825 FOREST HIGHLAND DR",
+   "cross": "OAK RIDGE DR/ASHLAND TER",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.118899,
+   "lon": -85.267898,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830573",
    "sequence": "2026-11-36531",
@@ -38,8 +64,8 @@
    "id": "9830572",
    "sequence": "2026-11-36530",
    "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:07:57Z",
    "created": "2026-11-26T02:03:16Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -63,7 +89,7 @@
   {
    "id": "9830571",
    "sequence": "2026-11-36529",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-26T02:03:58Z",
    "created": "2026-11-26T02:01:50Z",
@@ -79,7 +105,7 @@
    "cross": "",
    "city": "CHATTANOOGA",
    "zone": "B9",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.001554,
    "lon": -85.290974,
    "units": 1,
@@ -113,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9830565",
-   "sequence": "2026-11-36525",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-26T02:05:11Z",
-   "created": "2026-11-26T01:58:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "547 GADD RD",
-   "cross": "HAVEN CIR/DELASHMITT RD",
-   "city": "CHATTANOOGA",
-   "zone": "2202",
-   "priority": "PRI 2",
-   "lat": 35.1421,
-   "lon": -85.261866,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830563",
    "sequence": "2026-11-36524",
    "type": "Civil Matter",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T02:07:29Z",
    "created": "2026-11-26T01:55:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +194,8 @@
    "id": "9830556",
    "sequence": "2026-11-36518",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:09:18Z",
    "created": "2026-11-26T01:51:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.020239,
    "lon": -85.275756,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830552",
-   "sequence": "2026-11-36516",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:58:01Z",
-   "created": "2026-11-26T01:50:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "310 GLENWOOD DR",
-   "cross": "E 5TH ST/E 4TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.035637,
-   "lon": -85.261348,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -397,32 +371,6 @@
    "units": 1,
    "stacked": true,
    "notable": false
-  },
-  {
-   "id": "9830500",
-   "sequence": "2026-11-36475",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:10:50Z",
-   "created": "2026-11-26T01:04:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.11172,
-   "lon": -85.269873,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830410",
