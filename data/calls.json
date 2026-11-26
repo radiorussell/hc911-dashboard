@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T23:35:36+00:00",
+ "updated": "2026-11-26T23:40:38+00:00",
  "counts": {
-  "year": 374749,
-  "upstream_day": 612,
+  "year": 374767,
+  "upstream_day": 630,
   "day": 834,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 35,
  "incidents": [
   {
    "id": "9832004",
@@ -56,32 +56,6 @@
    "priority": "PRI 2",
    "lat": 35.007204,
    "lon": -85.160059,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832005",
-   "sequence": "2026-11-37492",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:27:37Z",
-   "created": "2026-11-26T23:27:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.0338,
-   "lon": -85.1596,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9831995",
-   "sequence": "2026-11-37488",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:25:41Z",
-   "created": "2026-11-26T23:24:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "APISON PIKE / OLD LEE HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 2",
-   "lat": 35.069716,
-   "lon": -85.100607,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831994",
    "sequence": "2026-11-37484",
    "type": "EMS CALL",
@@ -220,8 +168,8 @@
    "id": "9831990",
    "sequence": "2026-11-37485",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:39:27Z",
    "created": "2026-11-26T23:24:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +298,8 @@
    "id": "9831986",
    "sequence": "2026-11-37478",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:36:34Z",
    "created": "2026-11-26T23:21:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.01856,
    "lon": -85.28253,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831980",
-   "sequence": "2026-11-37475",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T23:17:38Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8305 DAISY DALLAS RD",
-   "cross": "HENSLEY RD/BEAVERS FARM LN",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 4",
-   "lat": 35.201869,
-   "lon": -85.161958,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -506,8 +428,8 @@
    "id": "9831977",
    "sequence": "2026-11-37469",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:39:35Z",
    "created": "2026-11-26T23:13:43Z",
    "jurisdiction": "Sale Creek VFD",
    "agencies": [
@@ -610,8 +532,8 @@
    "id": "9831958",
    "sequence": "2026-11-37460",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:38:25Z",
    "created": "2026-11-26T22:55:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -659,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9831939",
-   "sequence": "2026-11-37445",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:17:46Z",
-   "created": "2026-11-26T22:47:33Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "18420 - 18459 INTERSTATE 24 WB",
-   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.007811,
-   "lon": -85.234957,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9831932",
    "sequence": "2026-11-37444",
    "type": "MVC Injuries",
@@ -699,13 +595,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "18420 - 18459 INTERSTATE 24 WB",
+   "address": "18450 INTERSTATE 24 WB",
    "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
    "city": "CHATTANOOGA",
-   "zone": "C2",
+   "zone": "C4",
    "priority": "PRI 1",
-   "lat": 35.007811,
-   "lon": -85.234957,
+   "lat": 35.005585,
+   "lon": -85.228838,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -787,32 +683,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831915",
-   "sequence": "2026-11-37429",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:10:44Z",
-   "created": "2026-11-26T22:38:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831908",
@@ -969,32 +839,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831812",
-   "sequence": "2026-11-37346",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T21:09:20Z",
-   "created": "2026-11-26T21:05:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2361 SHALLOWFORD VILLAGE DR",
-   "cross": "AMIN DR/MCCUTCHEON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.046076,
-   "lon": -85.155522,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831801",
