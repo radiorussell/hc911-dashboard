@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T22:40:37+00:00",
+ "updated": "2026-11-26T22:45:38+00:00",
  "counts": {
   "year": 374699,
   "upstream_day": 562,
-  "day": 770,
+  "day": 772,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9831922",
+   "sequence": "2026-11-37434",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:41:55Z",
+   "created": "2026-11-26T22:41:55Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 2",
+   "lat": 35.09006,
+   "lon": -85.066629,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831919",
+   "sequence": "2026-11-37433",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:41:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.09006,
+   "lon": -85.066629,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831917",
    "sequence": "2026-11-37430",
@@ -64,8 +116,8 @@
    "id": "9831914",
    "sequence": "2026-11-37432",
    "type": "Missing Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:40:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:39:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9831915",
    "sequence": "2026-11-37429",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:43:27Z",
    "created": "2026-11-26T22:38:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9831910",
    "sequence": "2026-11-37425",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:41:47Z",
    "created": "2026-11-26T22:34:08Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -446,32 +498,6 @@
    "priority": "PRI 2",
    "lat": 35.031249,
    "lon": -85.273325,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831859",
-   "sequence": "2026-11-37386",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T22:22:31Z",
-   "created": "2026-11-26T21:39:49Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6653 PALMS CT",
-   "cross": "GREENWAY DR/N CONCORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.022397,
-   "lon": -85.173573,
    "units": 1,
    "stacked": false,
    "notable": false
