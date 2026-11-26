@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T06:00:39+00:00",
+ "updated": "2026-11-26T06:05:41+00:00",
  "counts": {
   "year": 374157,
   "upstream_day": 20,
-  "day": 35,
+  "day": 38,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9830852",
+   "sequence": "2026-11-36700",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T06:02:51Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1120 KING ST",
+   "cross": "E 11TH ST/MARKET ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.041565,
+   "lon": -85.305786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830848",
    "sequence": "2026-11-36697",
@@ -15,21 +41,21 @@
    "status": "Queued",
    "status_at": "2026-11-26T05:59:27Z",
    "created": "2026-11-26T05:58:26Z",
-   "jurisdiction": "Chattanooga PD",
+   "jurisdiction": "Collegedale PD",
    "agencies": [
-    "Chattanooga PD"
+    "Collegedale PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "4716 TARPON TRL",
-   "cross": "LAKE HAVEN DR/SABLE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
    "priority": "PRI 4",
-   "lat": 35.090326,
-   "lon": -85.196711,
+   "lat": 35.08082,
+   "lon": -85.06329,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -38,8 +64,8 @@
    "id": "9830845",
    "sequence": "2026-11-36694",
    "type": "Wires Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T06:01:16Z",
    "created": "2026-11-26T05:56:52Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
