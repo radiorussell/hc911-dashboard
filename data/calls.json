@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-26T00:40:44+00:00",
+ "updated": "2026-11-26T00:45:36+00:00",
  "counts": {
   "year": 373984,
   "upstream_day": 0,
-  "day": 1268,
+  "day": 1275,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9830481",
+   "sequence": "2026-11-36463",
+   "type": "Brush Fire",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:44:13Z",
+   "created": "2026-11-26T00:44:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW DR",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.127452,
+   "lon": -85.237341,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830479",
+   "sequence": "2026-11-36461",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T00:43:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3729 TENNESSEE AVE",
+   "cross": "W 37TH ST/W 38TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 2",
+   "lat": 35.011929,
+   "lon": -85.326952,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830480",
+   "sequence": "2026-11-36462",
+   "type": "Brush Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T00:43:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW DR",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 2",
+   "lat": 35.127452,
+   "lon": -85.237341,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830476",
+   "sequence": "2026-11-36459",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T00:41:03Z",
+   "created": "2026-11-26T00:40:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17401 - 17499 INTERSTATE 24 EB",
+   "cross": "EXIT 174 ON RAMP EB/EXIT 175 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 1",
+   "lat": 35.025842,
+   "lon": -85.370879,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830472",
    "sequence": "2026-11-36456",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:41:40Z",
    "created": "2026-11-26T00:33:48Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9830469",
    "sequence": "2026-11-36455",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:42:27Z",
    "created": "2026-11-26T00:33:24Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9830465",
    "sequence": "2026-11-36452",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T00:42:48Z",
    "created": "2026-11-26T00:32:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +272,8 @@
    "id": "9830463",
    "sequence": "2026-11-36450",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T00:32:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T00:31:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -295,32 +399,6 @@
    "notable": true
   },
   {
-   "id": "9830437",
-   "sequence": "2026-11-36437",
-   "type": "Open Door or Window",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:27:44Z",
-   "created": "2026-11-26T00:20:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2288 GIBBONS RD",
-   "cross": "PARIS METZ RD/PERSHING RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.022337,
-   "lon": -85.128053,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830435",
    "sequence": "2026-11-36434",
    "type": "MVC Injuries",
@@ -377,7 +455,7 @@
    "sequence": "2026-11-36430",
    "type": "Miscellaneous Complaint",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T00:44:05Z",
    "created": "2026-11-26T00:08:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -558,8 +636,8 @@
    "id": "9830402",
    "sequence": "2026-11-36411",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T00:22:46Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T00:42:23Z",
    "created": "2026-11-25T23:55:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -576,32 +654,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830391",
-   "sequence": "2026-11-36406",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-26T00:33:46Z",
-   "created": "2026-11-25T23:51:13Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8400 HERON CIR",
-   "cross": "GULL LN/HERON DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 4",
-   "lat": 35.162216,
-   "lon": -85.054974,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -680,32 +732,6 @@
    "priority": "PRI 3",
    "lat": 35.049458,
    "lon": -85.18293,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830358",
-   "sequence": "2026-11-36381",
-   "type": "Shoplifter",
-   "status": "On Scene",
-   "status_at": "2026-11-25T23:40:49Z",
-   "created": "2026-11-25T23:31:04Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5588 LITTLE DEBBIE PKWY",
-   "cross": "JAC CATE RD/OLD LEE HWY",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.08082,
-   "lon": -85.06329,
    "units": 1,
    "stacked": false,
    "notable": false
