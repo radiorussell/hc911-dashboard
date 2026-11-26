@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T14:45:37+00:00",
+ "updated": "2026-11-26T14:50:41+00:00",
  "counts": {
-  "year": 374388,
-  "upstream_day": 251,
-  "day": 354,
+  "year": 374393,
+  "upstream_day": 256,
+  "day": 357,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9831339",
+   "sequence": "2026-11-37019",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T14:45:44Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "12607 CIVIC CLUB DR",
+   "cross": "LEE PIKE/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 2",
+   "lat": 35.312903,
+   "lon": -85.130658,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831318",
    "sequence": "2026-11-37016",
@@ -38,8 +64,8 @@
    "id": "9831323",
    "sequence": "2026-11-37009",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:48:48Z",
    "created": "2026-11-26T14:39:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9831296",
    "sequence": "2026-11-36995",
    "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-26T14:20:54Z",
    "created": "2026-11-26T14:20:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -187,7 +213,7 @@
    "lat": 35.015591,
    "lon": -85.376588,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -272,8 +298,8 @@
    "id": "9831261",
    "sequence": "2026-11-36976",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T14:48:33Z",
    "created": "2026-11-26T13:53:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
