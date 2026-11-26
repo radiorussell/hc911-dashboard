@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-26T18:45:37+00:00",
+ "updated": "2026-11-26T18:50:38+00:00",
  "counts": {
-  "year": 374528,
-  "upstream_day": 391,
-  "day": 543,
+  "year": 374535,
+  "upstream_day": 398,
+  "day": 545,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9831616",
+   "sequence": "2026-11-37207",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:49:16Z",
+   "created": "2026-11-26T18:49:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 3",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831615",
+   "sequence": "2026-11-37206",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T18:49:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 2",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831613",
    "sequence": "2026-11-37205",
@@ -113,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9831605",
-   "sequence": "2026-11-37198",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:43:13Z",
-   "created": "2026-11-26T18:37:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3722 JUANDALE TRL",
-   "cross": "DOGWOOD DR/ROLLINGWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 1",
-   "lat": 35.051343,
-   "lon": -85.226927,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831602",
    "sequence": "2026-11-37199",
    "type": "Civil Matter",
@@ -160,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.053323,
    "lon": -85.192758,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831598",
-   "sequence": "2026-11-37196",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T18:34:09Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8447 ALDEE LN",
-   "cross": "PATTENTOWN RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 2",
-   "lat": 35.055291,
-   "lon": -85.098841,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -298,8 +298,8 @@
    "id": "9831592",
    "sequence": "2026-11-37191",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:26:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T18:25:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,63 +321,11 @@
    "notable": false
   },
   {
-   "id": "9831590",
-   "sequence": "2026-11-37187",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:33:27Z",
-   "created": "2026-11-26T18:25:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8912 LEE HWY",
-   "cross": "HUNTER RD/I-75 SB @ LEE HWY - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 1",
-   "lat": 35.087013,
-   "lon": -85.071373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831591",
-   "sequence": "2026-11-37188",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:32:20Z",
-   "created": "2026-11-26T18:25:14Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8912 LEE HWY",
-   "cross": "HUNTER RD/I-75 SB @ LEE HWY - ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "TRI-COMM FD 23-4 CH",
-   "priority": "PRI 1",
-   "lat": 35.087013,
-   "lon": -85.071373,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831588",
    "sequence": "2026-11-37186",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:34:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:49:26Z",
    "created": "2026-11-26T18:25:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -399,37 +347,11 @@
    "notable": false
   },
   {
-   "id": "9831573",
-   "sequence": "2026-11-37180",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:14:04Z",
-   "created": "2026-11-26T18:14:04Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7301 E BRAINERD RD",
-   "cross": "KENMOOR DR/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.016389,
-   "lon": -85.164909,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831571",
    "sequence": "2026-11-37179",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:20:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:46:30Z",
    "created": "2026-11-26T18:13:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +376,8 @@
    "id": "9831565",
    "sequence": "2026-11-37175",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T18:33:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T18:48:38Z",
    "created": "2026-11-26T18:10:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.055204,
    "lon": -85.259639,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831541",
-   "sequence": "2026-11-37155",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T18:14:14Z",
-   "created": "2026-11-26T17:34:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2618 FOREST RD",
-   "cross": "PINE ST/FOREST ACRES LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.090627,
-   "lon": -85.231484,
    "units": 1,
    "stacked": false,
    "notable": false
