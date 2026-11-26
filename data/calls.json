@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T04:15:37+00:00",
+ "updated": "2026-11-26T04:20:37+00:00",
  "counts": {
   "year": 374114,
   "upstream_day": 0,
-  "day": 1450,
+  "day": 1456,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9830771",
+   "sequence": "2026-11-36642",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:19:22Z",
+   "created": "2026-11-26T04:19:22Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4707 ENTERPRISE LN",
+   "cross": "No Cross Street/WINNIESPAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "601 A",
+   "priority": "PRI 2",
+   "lat": 35.085083,
+   "lon": -85.171399,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830767",
+   "sequence": "2026-11-36641",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:18:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4707 ENTERPRISE LN",
+   "cross": "No Cross Street/WINNIESPAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 1",
+   "lat": 35.085083,
+   "lon": -85.171399,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830766",
+   "sequence": "2026-11-36639",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T04:17:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1 BROAD ST",
+   "cross": "W AQUARIUM WAY/W 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 4",
+   "lat": 35.055843,
+   "lon": -85.311021,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830762",
+   "sequence": "2026-11-36644",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:20:38Z",
+   "created": "2026-11-26T04:17:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2431 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.02834,
+   "lon": -85.314378,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830759",
    "sequence": "2026-11-36638",
@@ -82,32 +186,6 @@
    "priority": "PRI 2",
    "lat": 34.996967,
    "lon": -85.186899,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830734",
-   "sequence": "2026-11-36621",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:53:57Z",
-   "created": "2026-11-26T03:46:32Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "202 DOLORES DR",
-   "cross": "CLARA DR/HEADLYN DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 2",
-   "lat": 35.181259,
-   "lon": -85.174913,
    "units": 1,
    "stacked": false,
    "notable": false
