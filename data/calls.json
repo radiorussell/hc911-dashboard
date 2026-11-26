@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T04:50:39+00:00",
+ "updated": "2026-11-26T04:55:37+00:00",
  "counts": {
   "year": 374131,
   "upstream_day": 0,
-  "day": 1469,
+  "day": 1472,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
   {
-   "id": "9830788",
-   "sequence": "2026-11-36657",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T04:49:36Z",
-   "created": "2026-11-26T04:49:28Z",
+   "id": "9830791",
+   "sequence": "2026-11-36660",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": "2026-11-26T04:53:10Z",
+   "created": "2026-11-26T04:53:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2300 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
+   "address": "437 MARKET ST",
+   "cross": "W 4TH ST/W 5TH ST",
    "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 1",
-   "lat": 35.049675,
-   "lon": -85.260734,
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.051106,
+   "lon": -85.310095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830790",
+   "sequence": "2026-11-36659",
+   "type": "Theft From a Vehicle",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:52:44Z",
+   "created": "2026-11-26T04:52:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3710 MODERN INDUSTRIES PKWY",
+   "cross": "No Cross Street/BIRMINGHAM HWY",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.015493,
+   "lon": -85.385015,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -37,7 +63,7 @@
   {
    "id": "9830787",
    "sequence": "2026-11-36656",
-   "type": "MVC Unknown Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-26T04:49:39Z",
    "created": "2026-11-26T04:44:49Z",
@@ -53,35 +79,9 @@
    "cross": "HAMILL RD/NORTHGATE MALL DR",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.126886,
    "lon": -85.242102,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830775",
-   "sequence": "2026-11-36647",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-26T04:31:15Z",
-   "created": "2026-11-26T04:25:32Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "216 W 8TH ST",
-   "cross": "CHESTNUT ST/PINE ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.04678,
-   "lon": -85.312441,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9830770",
    "sequence": "2026-11-36645",
    "type": "Miscellaneous Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-26T04:27:18Z",
+   "status": "Queued",
+   "status_at": "2026-11-26T04:21:33Z",
    "created": "2026-11-26T04:19:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.085083,
    "lon": -85.171399,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830759",
-   "sequence": "2026-11-36638",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T04:10:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2285 WILCOX BLVD",
-   "cross": "BRADT ST/DODSON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 4",
-   "lat": 35.053263,
-   "lon": -85.260921,
    "units": 1,
    "stacked": false,
    "notable": false
