@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T01:05:36+00:00",
+ "updated": "2026-11-26T01:10:37+00:00",
  "counts": {
-  "year": 373998,
+  "year": 374001,
   "upstream_day": 0,
-  "day": 1289,
+  "day": 1295,
   "day_basis": "midnight"
  },
  "raw_rows": 21,
  "incidents": [
   {
+   "id": "9830508",
+   "sequence": "2026-11-36483",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:08:46Z",
+   "created": "2026-11-26T01:07:43Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1291 NEYLAND CIR",
+   "cross": "S DENT RD/OMAHA CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 2",
+   "lat": 35.178327,
+   "lon": -85.211067,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830503",
+   "sequence": "2026-11-36478",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T01:06:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2811 LIGHTFOOT MILL RD",
+   "cross": "CAMPBELL ST/N CREST RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 1",
+   "lat": 35.065878,
+   "lon": -85.24112,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9830504",
+   "sequence": "2026-11-36479",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-26T01:06:54Z",
+   "created": "2026-11-26T01:06:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3800 - 3869 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.109973,
+   "lon": -85.270976,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830502",
    "sequence": "2026-11-36477",
    "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:05:30Z",
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:09:36Z",
    "created": "2026-11-26T01:05:30Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9830501",
    "sequence": "2026-11-36476",
    "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:05:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T01:05:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9830500",
    "sequence": "2026-11-36475",
    "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:05:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T01:04:51Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,37 +165,11 @@
    "notable": true
   },
   {
-   "id": "9830498",
-   "sequence": "2026-11-36474",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-26T01:02:21Z",
-   "created": "2026-11-26T01:01:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2000 - 2064 HAMILL RD",
-   "cross": "HIGHWAY 153/OLD GODSEY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 4",
-   "lat": 35.123095,
-   "lon": -85.239295,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830497",
    "sequence": "2026-11-36473",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:07:53Z",
    "created": "2026-11-26T01:01:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -137,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830490",
-   "sequence": "2026-11-36470",
-   "type": "Unknown Trouble",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:01:13Z",
-   "created": "2026-11-26T00:54:33Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5001 - 5115 OOLTEWAH RINGGOLD RD",
-   "cross": "APISON PIKE/DAVID SMITH LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 1",
-   "lat": 35.061676,
-   "lon": -85.066468,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9830479",
@@ -246,8 +272,8 @@
    "id": "9830441",
    "sequence": "2026-11-36435",
    "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T01:00:44Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T01:06:26Z",
    "created": "2026-11-26T00:20:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +480,8 @@
    "id": "9830352",
    "sequence": "2026-11-36376",
    "type": "Civil Matter",
-   "status": "Stacked",
-   "status_at": "2026-11-25T23:26:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-25T23:25:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -473,7 +499,7 @@
    "lat": 35.081783,
    "lon": -85.26321,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -501,32 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830116",
-   "sequence": "2026-11-36210",
-   "type": "MVC Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-25T21:33:23Z",
-   "created": "2026-11-25T21:33:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "CHURCH ST / MAIN ST",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 E",
-   "priority": "PRI 1",
-   "lat": 35.072881,
-   "lon": -85.06291,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9829648",
