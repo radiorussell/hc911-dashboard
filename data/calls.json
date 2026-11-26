@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T10:30:38+00:00",
+ "updated": "2026-11-26T10:35:38+00:00",
  "counts": {
   "year": 374272,
   "upstream_day": 135,
   "day": 194,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 15,
  "incidents": [
   {
    "id": "9831065",
@@ -87,32 +87,6 @@
    "notable": true
   },
   {
-   "id": "9831063",
-   "sequence": "2026-11-36851",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:28:46Z",
-   "created": "2026-11-26T10:23:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1512 S HOLTZCLAW AVE",
-   "cross": "E MAIN ST/E 17TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.02808,
-   "lon": -85.288364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831061",
    "sequence": "2026-11-36850",
    "type": "EMS CALL",
@@ -142,8 +116,8 @@
    "id": "9831058",
    "sequence": "2026-11-36849",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T10:30:57Z",
    "created": "2026-11-26T10:22:13Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -163,32 +137,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9831055",
-   "sequence": "2026-11-36847",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:29:16Z",
-   "created": "2026-11-26T10:18:06Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2426 CONE FLOWER TRL",
-   "cross": "No Cross Street/MIN TOM DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 3",
-   "lat": 35.042025,
-   "lon": -85.139621,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9831052",
@@ -212,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.042483,
    "lon": -85.243678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831045",
-   "sequence": "2026-11-36845",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T10:10:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1900 CHAMBERLAIN AVE",
-   "cross": "S ORCHARD KNOB AVE/S BEECH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 4",
-   "lat": 35.033842,
-   "lon": -85.275595,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -298,8 +220,8 @@
    "id": "9831049",
    "sequence": "2026-11-36843",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:23:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T10:35:05Z",
    "created": "2026-11-26T10:09:58Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -366,32 +288,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "WEST 4",
    "priority": "PRI 3",
-   "lat": 35.153825,
-   "lon": -85.180267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831042",
-   "sequence": "2026-11-36834",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T10:19:40Z",
-   "created": "2026-11-26T09:49:06Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1900 HIDDEN HARBOR RD",
-   "cross": "LAKE MEADOWS DR/HARBOR MASTER DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
    "lat": 35.153825,
    "lon": -85.180267,
    "units": 1,
