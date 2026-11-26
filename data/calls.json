@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-26T02:25:37+00:00",
+ "updated": "2026-11-26T02:30:38+00:00",
  "counts": {
-  "year": 374049,
+  "year": 374056,
   "upstream_day": 0,
-  "day": 1362,
+  "day": 1369,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9830631",
+   "sequence": "2026-11-36557",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-26T02:30:27Z",
+   "created": "2026-11-26T02:30:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4613 LAKE HAVEN DR",
+   "cross": "TARPON TRL/JOSH LN",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.091281,
+   "lon": -85.19819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830628",
+   "sequence": "2026-11-36556",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T02:27:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TALLEY RD / ROGERS RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.027308,
+   "lon": -85.234768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830627",
+   "sequence": "2026-11-36555",
+   "type": "MVC Unknown Injuries",
+   "status": "Stacked",
+   "status_at": "2026-11-26T02:27:21Z",
+   "created": "2026-11-26T02:27:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4100 - 4107 ROGERS RD",
+   "cross": "TALLEY RD/VAUGHN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.027308,
+   "lon": -85.234768,
+   "units": 1,
+   "stacked": true,
+   "notable": false
+  },
   {
    "id": "9830604",
    "sequence": "2026-11-36550",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T02:21:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T02:19:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3550 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
+   "address": "501 SIGNAL MOUNTAIN RD",
+   "cross": "RAIDER LN/MUNDY ST",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
+   "zone": "A5",
    "priority": "PRI 3",
-   "lat": 35.015591,
-   "lon": -85.376588,
+   "lat": 35.094368,
+   "lon": -85.331318,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -39,7 +117,7 @@
    "sequence": "2026-11-36548",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T02:26:42Z",
    "created": "2026-11-26T02:18:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9830585",
    "sequence": "2026-11-36542",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T02:25:40Z",
    "created": "2026-11-26T02:11:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.001554,
    "lon": -85.290974,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830563",
-   "sequence": "2026-11-36524",
-   "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": "2026-11-26T02:07:29Z",
-   "created": "2026-11-26T01:55:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4643 JERSEY PIKE",
-   "cross": "PECKINPAUGH DR/TRICIA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.084359,
-   "lon": -85.184746,
    "units": 1,
    "stacked": false,
    "notable": false
