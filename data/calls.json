@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T18:15:37+00:00",
+ "updated": "2026-11-26T18:20:37+00:00",
  "counts": {
-  "year": 374507,
-  "upstream_day": 370,
-  "day": 518,
+  "year": 374510,
+  "upstream_day": 373,
+  "day": 519,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9831577",
+   "sequence": "2026-11-37181",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-26T18:18:22Z",
+   "created": "2026-11-26T18:17:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "425 W 38TH ST",
+   "cross": "CHANDLER AVE/OHLS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 4",
+   "lat": 35.007498,
+   "lon": -85.31545,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831573",
    "sequence": "2026-11-37180",
@@ -90,8 +116,8 @@
    "id": "9831568",
    "sequence": "2026-11-37177",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T18:16:58Z",
    "created": "2026-11-26T18:12:24Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9831567",
    "sequence": "2026-11-37176",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T18:18:15Z",
    "created": "2026-11-26T18:11:27Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -142,8 +168,8 @@
    "id": "9831565",
    "sequence": "2026-11-37175",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T18:18:45Z",
    "created": "2026-11-26T18:10:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,58 +217,6 @@
    "notable": false
   },
   {
-   "id": "9831557",
-   "sequence": "2026-11-37171",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:00:55Z",
-   "created": "2026-11-26T18:00:55Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4025 DAY LILY TRL",
-   "cross": "No Cross Street/TIGER LILY TRL",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 3",
-   "lat": 35.12902,
-   "lon": -85.306858,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831556",
-   "sequence": "2026-11-37170",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:12:57Z",
-   "created": "2026-11-26T18:00:22Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4025 DAY LILY TRL",
-   "cross": "No Cross Street/TIGER LILY TRL",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 2",
-   "lat": 35.12902,
-   "lon": -85.306858,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831555",
    "sequence": "2026-11-37169",
    "type": "MVC No Injuries",
@@ -269,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9831550",
-   "sequence": "2026-11-37164",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T17:51:18Z",
-   "created": "2026-11-26T17:51:18Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7723 TIPPI LN",
-   "cross": "SNOW HILL RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
-   "lat": 35.140205,
-   "lon": -85.069154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831549",
    "sequence": "2026-11-37163",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:00:33Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T18:18:25Z",
    "created": "2026-11-26T17:50:17Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
