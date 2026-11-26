@@ -1,17 +1,69 @@
 {
- "updated": "2026-11-26T12:10:38+00:00",
+ "updated": "2026-11-26T12:15:36+00:00",
  "counts": {
   "year": 374309,
   "upstream_day": 172,
-  "day": 237,
+  "day": 242,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9831153",
+   "sequence": "2026-11-36904",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:15:28Z",
+   "created": "2026-11-26T12:15:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3404 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.08143,
+   "lon": -85.26367,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831149",
+   "sequence": "2026-11-36901",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T12:11:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1956 SAPPHIRE PL",
+   "cross": "CITRINE  WAY/GEMSTONE CIR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.017914,
+   "lon": -85.12752,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9831147",
    "sequence": "2026-11-36899",
-   "type": "Supplemental Reports",
+   "type": "Harassment",
    "status": "Queued",
    "status_at": "2026-11-26T12:10:20Z",
    "created": "2026-11-26T12:09:16Z",
