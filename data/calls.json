@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T15:50:38+00:00",
+ "updated": "2026-11-26T15:55:37+00:00",
  "counts": {
   "year": 374433,
   "upstream_day": 296,
-  "day": 402,
+  "day": 405,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9831414",
+   "sequence": "2026-11-37067",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-26T15:54:06Z",
+   "created": "2026-11-26T15:53:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5900 BRAINERD RD",
+   "cross": "DEBRA RD/GREENWAY VIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.013262,
+   "lon": -85.21131,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831413",
+   "sequence": "2026-11-37066",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-26T15:52:17Z",
+   "created": "2026-11-26T15:52:04Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIDDEN BRANCHES RD / MORNING GLORY DR",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 4",
+   "lat": 35.195598,
+   "lon": -85.093878,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831408",
    "sequence": "2026-11-37064",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:51:04Z",
    "created": "2026-11-26T15:46:53Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -27,32 +79,6 @@
    "cross": "LITTLE DEBBIE PKWY/LODGE LN",
    "city": "COLLEGEDALE",
    "zone": "TRI-COMM FD 4 CO C",
-   "priority": "PRI 1",
-   "lat": 35.078994,
-   "lon": -85.067892,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831407",
-   "sequence": "2026-11-37063",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:46:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9061 JAC CATE RD",
-   "cross": "LITTLE DEBBIE PKWY/LODGE LN",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
    "priority": "PRI 1",
    "lat": 35.078994,
    "lon": -85.067892,
@@ -116,8 +142,8 @@
    "id": "9831396",
    "sequence": "2026-11-37057",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T15:52:03Z",
    "created": "2026-11-26T15:37:33Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -165,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9831387",
-   "sequence": "2026-11-37051",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T15:23:31Z",
-   "created": "2026-11-26T15:23:31Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 2",
-   "lat": 35.047818,
-   "lon": -85.32064,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831383",
    "sequence": "2026-11-37050",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:37:14Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T15:50:53Z",
    "created": "2026-11-26T15:23:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -269,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9831360",
-   "sequence": "2026-11-37039",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T15:04:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "909 SIGNAL MOUNTAIN RD",
-   "cross": "RUSSELL AVE/SUCK CREEK RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.10117,
-   "lon": -85.331093,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831362",
    "sequence": "2026-11-37034",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:21:10Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T15:52:51Z",
    "created": "2026-11-26T15:04:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -324,8 +298,8 @@
    "id": "9831357",
    "sequence": "2026-11-37029",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T15:19:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T15:52:13Z",
    "created": "2026-11-26T15:01:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
