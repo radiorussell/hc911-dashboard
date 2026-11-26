@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-26T12:20:37+00:00",
+ "updated": "2026-11-26T12:25:37+00:00",
  "counts": {
   "year": 374310,
   "upstream_day": 173,
-  "day": 245,
+  "day": 250,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9831157",
-   "sequence": "2026-11-36907",
-   "type": "Unknown 911",
+   "id": "9831164",
+   "sequence": "2026-11-36912",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-26T12:20:20Z",
-   "created": "2026-11-26T12:20:10Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-26T12:25:17Z",
+   "created": "2026-11-26T12:25:17Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "400 CHESTNUT ST",
-   "cross": "W 4TH ST/W 5TH ST",
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
    "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.051813,
-   "lon": -85.311457,
+   "zone": "203",
+   "priority": "PRI 2",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831162",
+   "sequence": "2026-11-36911",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T12:25:17Z",
+   "created": "2026-11-26T12:24:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "727 E 11TH ST",
+   "cross": "BALDWIN ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.040477,
+   "lon": -85.299892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831161",
+   "sequence": "2026-11-36909",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": "2026-11-26T12:25:26Z",
+   "created": "2026-11-26T12:23:40Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "12805 OOLTEWAH GEORGETOWN RD",
+   "cross": "MEADOWVIEW RD/HIGHWAY 60",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 4",
+   "priority": "PRI 1",
+   "lat": 35.286803,
+   "lon": -84.952184,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +116,8 @@
    "id": "9831155",
    "sequence": "2026-11-36905",
    "type": "Wires Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:24:41Z",
    "created": "2026-11-26T12:16:04Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9831149",
    "sequence": "2026-11-36901",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T12:20:41Z",
    "created": "2026-11-26T12:11:53Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -264,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.012217,
    "lon": -85.247342,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831101",
-   "sequence": "2026-11-36878",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-26T11:33:52Z",
-   "created": "2026-11-26T11:27:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1254 CYPRESS STREET CT",
-   "cross": "No Cross Street/W 13TH STREET CT",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.042698,
-   "lon": -85.317179,
    "units": 1,
    "stacked": false,
    "notable": false
