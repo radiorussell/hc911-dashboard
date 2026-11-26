@@ -1,13 +1,325 @@
 {
- "updated": "2026-11-26T22:45:38+00:00",
+ "updated": "2026-11-26T22:50:37+00:00",
  "counts": {
-  "year": 374699,
-  "upstream_day": 562,
-  "day": 772,
+  "year": 374709,
+  "upstream_day": 572,
+  "day": 789,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9831943",
+   "sequence": "2026-11-37451",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:48:02Z",
+   "created": "2026-11-26T22:48:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.03802,
+   "lon": -85.21509,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831941",
+   "sequence": "2026-11-37449",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:47:55Z",
+   "created": "2026-11-26T22:47:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "18421 - 18459 INTERSTATE 24 WB",
+   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.00573,
+   "lon": -85.22898,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831939",
+   "sequence": "2026-11-37445",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:47:33Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "18420 - 18459 INTERSTATE 24 WB",
+   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.007811,
+   "lon": -85.234957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831940",
+   "sequence": "2026-11-37446",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:47:33Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "18420 - 18459 INTERSTATE 24 WB",
+   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "1306 D",
+   "priority": "PRI 1",
+   "lat": 35.007811,
+   "lon": -85.234957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831938",
+   "sequence": "2026-11-37448",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:47:55Z",
+   "created": "2026-11-26T22:47:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18421 - 18459 INTERSTATE 24 WB",
+   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 1",
+   "lat": 35.00573,
+   "lon": -85.22898,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831932",
+   "sequence": "2026-11-37444",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:46:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18420 - 18459 INTERSTATE 24 WB",
+   "cross": "EXIT 184 ON RAMP WB/EXIT 184 RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 1",
+   "lat": 35.007811,
+   "lon": -85.234957,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831934",
+   "sequence": "2026-11-37439",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:46:56Z",
+   "created": "2026-11-26T22:46:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.037958,
+   "lon": -85.215133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831928",
+   "sequence": "2026-11-37443",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:47:18Z",
+   "created": "2026-11-26T22:46:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.037958,
+   "lon": -85.215133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831930",
+   "sequence": "2026-11-37436",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:46:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1506",
+   "priority": "PRI 2",
+   "lat": 35.037958,
+   "lon": -85.215133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831931",
+   "sequence": "2026-11-37437",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:46:45Z",
+   "created": "2026-11-26T22:46:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.037958,
+   "lon": -85.215133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831923",
+   "sequence": "2026-11-37447",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:47:34Z",
+   "created": "2026-11-26T22:46:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "622 - 998 BOY SCOUT RD",
+   "cross": "ECHO GLEN DR/SANDSWITCH RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.180619,
+   "lon": -85.239462,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831925",
+   "sequence": "2026-11-37435",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:46:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4620 RICKY DR",
+   "cross": "MIKE EDD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.037958,
+   "lon": -85.215133,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831922",
    "sequence": "2026-11-37434",
@@ -116,8 +428,8 @@
    "id": "9831914",
    "sequence": "2026-11-37432",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-26T22:40:31Z",
    "created": "2026-11-26T22:39:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +584,8 @@
    "id": "9831908",
    "sequence": "2026-11-37423",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:47:57Z",
    "created": "2026-11-26T22:33:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,7 +610,7 @@
    "id": "9831907",
    "sequence": "2026-11-37422",
    "type": "Burglary",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-26T22:33:44Z",
    "created": "2026-11-26T22:33:18Z",
    "jurisdiction": "Chattanooga PD",
@@ -317,7 +629,7 @@
    "lat": 35.033474,
    "lon": -85.243255,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -402,8 +714,8 @@
    "id": "9831900",
    "sequence": "2026-11-37418",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:46:18Z",
    "created": "2026-11-26T22:30:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -475,32 +787,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831878",
-   "sequence": "2026-11-37401",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:11:36Z",
-   "created": "2026-11-26T22:07:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2106 UNION AVE",
-   "cross": "S WILLOW ST/S KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 2",
-   "lat": 35.031249,
-   "lon": -85.273325,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831852",
