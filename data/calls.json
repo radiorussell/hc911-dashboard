@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-26T19:05:36+00:00",
+ "updated": "2026-11-26T19:10:36+00:00",
  "counts": {
-  "year": 374540,
-  "upstream_day": 403,
-  "day": 551,
+  "year": 374547,
+  "upstream_day": 410,
+  "day": 557,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9831638",
+   "sequence": "2026-11-37219",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:09:12Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831637",
+   "sequence": "2026-11-37218",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T19:09:11Z",
+   "created": "2026-11-26T19:09:11Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831636",
+   "sequence": "2026-11-37217",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:08:38Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 04 SD D",
+   "priority": "PRI 1",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831635",
+   "sequence": "2026-11-37216",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T19:08:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7730 ASPEN LODGE WAY",
+   "cross": "TIMBER LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 1",
+   "lat": 35.007488,
+   "lon": -85.158162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831628",
    "sequence": "2026-11-37213",
@@ -87,58 +191,6 @@
    "notable": false
   },
   {
-   "id": "9831615",
-   "sequence": "2026-11-37206",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T18:56:29Z",
-   "created": "2026-11-26T18:49:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 2",
-   "lat": 35.047825,
-   "lon": -85.320645,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831616",
-   "sequence": "2026-11-37207",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:49:16Z",
-   "created": "2026-11-26T18:49:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "951 BOYNTON DR",
-   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "101 A",
-   "priority": "PRI 3",
-   "lat": 35.047825,
-   "lon": -85.320645,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831613",
    "sequence": "2026-11-37205",
    "type": "Theft",
@@ -189,58 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831596",
-   "sequence": "2026-11-37195",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T18:51:45Z",
-   "created": "2026-11-26T18:33:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8447 ALDEE LN",
-   "cross": "PATTENTOWN RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.055291,
-   "lon": -85.098841,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831597",
-   "sequence": "2026-11-37194",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-26T18:33:38Z",
-   "created": "2026-11-26T18:33:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIGHWAY 153 / GRUBB RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.158155,
-   "lon": -85.248503,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831595",
