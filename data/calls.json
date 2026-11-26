@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-26T10:10:37+00:00",
+ "updated": "2026-11-26T10:15:37+00:00",
  "counts": {
   "year": 374265,
   "upstream_day": 128,
-  "day": 180,
+  "day": 182,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9831052",
+   "sequence": "2026-11-36844",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-26T10:11:52Z",
+   "created": "2026-11-26T10:11:52Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1109 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "1501",
+   "priority": "PRI 2",
+   "lat": 35.042483,
+   "lon": -85.243678,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9831050",
    "sequence": "2026-11-36841",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T10:10:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T10:10:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,6 +82,32 @@
    "priority": "PRI 3",
    "lat": 35.129676,
    "lon": -85.234866,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831049",
+   "sequence": "2026-11-36843",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T10:09:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1109 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.042483,
+   "lon": -85.243678,
    "units": 1,
    "stacked": false,
    "notable": false
