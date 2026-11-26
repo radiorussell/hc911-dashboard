@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T23:50:37+00:00",
+ "updated": "2026-11-26T23:54:43+00:00",
  "counts": {
   "year": 374773,
   "upstream_day": 636,
   "day": 845,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 31,
  "incidents": [
   {
    "id": "9832023",
@@ -38,8 +38,8 @@
    "id": "9832024",
    "sequence": "2026-11-37505",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:53:43Z",
    "created": "2026-11-26T23:46:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +56,6 @@
    "priority": "PRI 3",
    "lat": 35.007779,
    "lon": -85.314873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832022",
-   "sequence": "2026-11-37504",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:43:02Z",
-   "created": "2026-11-26T23:42:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18130 INTERSTATE 24 WB",
-   "cross": "EXIT 181 OFF RAMP WB/EXIT 181A ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.015673,
-   "lon": -85.277391,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.03636,
    "lon": -85.107885,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831996",
-   "sequence": "2026-11-37486",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-26T23:25:02Z",
-   "created": "2026-11-26T23:25:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "208 HAWKINS OAK LN",
-   "cross": "CENTRAL AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.99587,
-   "lon": -85.318148,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -503,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9831961",
-   "sequence": "2026-11-37461",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:16:10Z",
-   "created": "2026-11-26T22:56:46Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3984 JESSIE TRL",
-   "cross": "BILL REED RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.048339,
-   "lon": -85.08686,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831958",
    "sequence": "2026-11-37460",
    "type": "MVC No Injuries",
@@ -688,8 +610,8 @@
    "id": "9831908",
    "sequence": "2026-11-37423",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:10:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T23:50:52Z",
    "created": "2026-11-26T22:33:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
