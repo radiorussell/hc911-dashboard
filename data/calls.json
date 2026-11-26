@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-26T08:35:37+00:00",
+ "updated": "2026-11-26T08:40:39+00:00",
  "counts": {
-  "year": 374229,
-  "upstream_day": 92,
-  "day": 135,
+  "year": 374234,
+  "upstream_day": 97,
+  "day": 138,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
   {
+   "id": "9830986",
+   "sequence": "2026-11-36800",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:36:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9584 PRISCILLA DR",
+   "cross": "ELIZABETH CREST RD/MELWOOD LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 1",
+   "lat": 34.994608,
+   "lon": -85.107416,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830985",
+   "sequence": "2026-11-36799",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T08:34:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5515 WOODLAWN DR",
+   "cross": "SPRING CREEK RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 2",
+   "lat": 35.009083,
+   "lon": -85.217982,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9830982",
    "sequence": "2026-11-36797",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-26T08:30:25Z",
+   "status": "Enroute",
+   "status_at": "2026-11-26T08:36:44Z",
    "created": "2026-11-26T08:29:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,7 +90,7 @@
    "id": "9830971",
    "sequence": "2026-11-36789",
    "type": "MVC No Injuries",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-26T08:19:23Z",
    "created": "2026-11-26T08:18:40Z",
    "jurisdiction": "Chattanooga PD",
@@ -57,7 +109,7 @@
    "lat": 35.020996,
    "lon": -85.261193,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -142,8 +194,8 @@
    "id": "9830967",
    "sequence": "2026-11-36785",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T08:20:25Z",
+   "status": "Transporting",
+   "status_at": "2026-11-26T08:36:23Z",
    "created": "2026-11-26T08:10:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -163,32 +215,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830964",
-   "sequence": "2026-11-36782",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-26T08:11:50Z",
-   "created": "2026-11-26T08:05:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "715 CHEVIOT DR",
-   "cross": "MIDLAND PIKE/PHOENIX AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 1",
-   "lat": 35.032168,
-   "lon": -85.235836,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830963",
@@ -272,8 +298,8 @@
    "id": "9830928",
    "sequence": "2026-11-36761",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T08:15:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-26T08:37:12Z",
    "created": "2026-11-26T07:32:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -371,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9830848",
-   "sequence": "2026-11-36697",
-   "type": "Assault Delayed",
-   "status": "Enroute",
-   "status_at": "2026-11-26T06:34:27Z",
-   "created": "2026-11-26T05:58:26Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5588 LITTLE DEBBIE PKWY",
-   "cross": "JAC CATE RD/OLD LEE HWY",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.08082,
-   "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9830817",
