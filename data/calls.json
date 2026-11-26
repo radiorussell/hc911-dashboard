@@ -1,20 +1,124 @@
 {
- "updated": "2026-11-26T22:55:40+00:00",
+ "updated": "2026-11-26T23:00:38+00:00",
  "counts": {
-  "year": 374709,
-  "upstream_day": 572,
-  "day": 795,
+  "year": 374731,
+  "upstream_day": 594,
+  "day": 800,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 39,
  "incidents": [
   {
-   "id": "9831956",
-   "sequence": "2026-11-37457",
-   "type": "MVC Injuries",
+   "id": "9831962",
+   "sequence": "2026-11-37462",
+   "type": "MVC No Injuries",
    "status": "Queued",
-   "status_at": "2026-11-26T22:55:23Z",
-   "created": "2026-11-26T22:55:03Z",
+   "status_at": "2026-11-26T22:59:37Z",
+   "created": "2026-11-26T22:58:24Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2955 LEGGETT RD",
+   "cross": "BECK RD/CLIFTON BEND RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.432482,
+   "lon": -85.159928,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831961",
+   "sequence": "2026-11-37461",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:58:49Z",
+   "created": "2026-11-26T22:56:46Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3984 JESSIE TRL",
+   "cross": "BILL REED RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.048339,
+   "lon": -85.08686,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831960",
+   "sequence": "2026-11-37459",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-26T23:00:02Z",
+   "created": "2026-11-26T22:55:40Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "17100 - 17368 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "304 B",
+   "priority": "PRI 1",
+   "lat": 35.00761,
+   "lon": -85.39395,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831959",
+   "sequence": "2026-11-37458",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T22:55:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "17100 - 17368 INTERSTATE 24 EB",
+   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.00761,
+   "lon": -85.39395,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9831958",
+   "sequence": "2026-11-37460",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T22:56:07Z",
+   "created": "2026-11-26T22:55:38Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,16 +127,16 @@
    "agency_types": [
     "Law"
    ],
-   "address": "17100 - 17368 INTERSTATE 24 EB",
-   "cross": "EXIT 169 ON RAMP EB/EXIT 174 OFF RAMP EB",
+   "address": "LEE HWY / CHICKAMAUGA RD",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 1",
-   "lat": 35.00761,
-   "lon": -85.39395,
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.022055,
+   "lon": -85.19891,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9831955",
@@ -116,8 +220,8 @@
    "id": "9831940",
    "sequence": "2026-11-37446",
    "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:56:50Z",
    "created": "2026-11-26T22:47:33Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -324,8 +428,8 @@
    "id": "9831925",
    "sequence": "2026-11-37435",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:56:04Z",
    "created": "2026-11-26T22:46:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +480,8 @@
    "id": "9831919",
    "sequence": "2026-11-37433",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-26T22:56:02Z",
    "created": "2026-11-26T22:41:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -454,8 +558,8 @@
    "id": "9831914",
    "sequence": "2026-11-37432",
    "type": "Missing Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:40:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T22:39:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -524,32 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.03625,
    "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831911",
-   "sequence": "2026-11-37427",
-   "type": "Animal Call",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:53:02Z",
-   "created": "2026-11-26T22:36:41Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1901 - 2059 HIGHWAY 27 SB",
-   "cross": "EXIT SEQUOYAH RD OFF RAMP SB/EXIT TSATI TER ON RAMP SB",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.260282,
-   "lon": -85.168429,
    "units": 1,
    "stacked": false,
    "notable": false
