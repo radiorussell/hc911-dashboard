@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-26T01:45:39+00:00",
+ "updated": "2026-11-26T01:50:42+00:00",
  "counts": {
-  "year": 374016,
+  "year": 374026,
   "upstream_day": 0,
-  "day": 1320,
+  "day": 1321,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9830546",
+   "sequence": "2026-11-36509",
+   "type": "AFA Apartment",
+   "status": "On Scene",
+   "status_at": "2026-11-26T01:50:40Z",
+   "created": "2026-11-26T01:46:21Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2501 MARKET ST",
+   "cross": "W 25TH ST/W 26TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 B",
+   "priority": "PRI 1",
+   "lat": 35.026506,
+   "lon": -85.311687,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830542",
    "sequence": "2026-11-36508",
@@ -65,7 +91,7 @@
    "sequence": "2026-11-36506",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-26T01:46:42Z",
    "created": "2026-11-26T01:36:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -217,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9830509",
-   "sequence": "2026-11-36484",
-   "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": "2026-11-26T01:27:08Z",
-   "created": "2026-11-26T01:11:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 SIGNAL MOUNTAIN RD",
-   "cross": "RAIDER LN/MUNDY ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 4",
-   "lat": 35.094368,
-   "lon": -85.331318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9830500",
    "sequence": "2026-11-36475",
    "type": "MVC Injuries",
@@ -264,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.11172,
    "lon": -85.269873,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9830497",
-   "sequence": "2026-11-36473",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-26T01:07:53Z",
-   "created": "2026-11-26T01:01:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "313 STRINGER ST",
-   "cross": "W MANNING ST/CHILHOWIE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.066698,
-   "lon": -85.315541,
    "units": 1,
    "stacked": false,
    "notable": true
