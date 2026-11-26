@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-26T03:10:36+00:00",
+ "updated": "2026-11-26T03:15:37+00:00",
  "counts": {
   "year": 374087,
   "upstream_day": 0,
-  "day": 1404,
+  "day": 1414,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9830701",
+   "sequence": "2026-11-36600",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T03:14:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "201 - 249 HIGHWAY 27 NB",
+   "cross": "EXIT MANUFACTURERS RD OFF RAMP NB/EXIT MANUFACTURERS RD ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.062467,
+   "lon": -85.317552,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830699",
+   "sequence": "2026-11-36602",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-26T03:14:54Z",
+   "created": "2026-11-26T03:12:40Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6014 RINGGOLD RD",
+   "cross": "SPRING CREEK RD/TRUMAN AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.989669,
+   "lon": -85.214988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9830698",
+   "sequence": "2026-11-36598",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T03:11:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1225 COWART ST",
+   "cross": "MARKET ST/W 13TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.040354,
+   "lon": -85.308797,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9830679",
    "sequence": "2026-11-36592",
@@ -82,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.060567,
    "lon": -85.135205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9830667",
-   "sequence": "2026-11-36585",
-   "type": "Elevator Emergency",
-   "status": "On Scene",
-   "status_at": "2026-11-26T03:07:20Z",
-   "created": "2026-11-26T02:52:28Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 3",
-   "lat": 35.048361,
-   "lon": -85.290587,
    "units": 1,
    "stacked": false,
    "notable": false
