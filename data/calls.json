@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T15:39:14+00:00",
+ "updated": "2026-11-27T15:40:38+00:00",
  "counts": {
   "year": 375149,
   "upstream_day": 209,
   "day": 314,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 25,
  "incidents": [
   {
    "id": "9832736",
@@ -64,8 +64,8 @@
    "id": "9832735",
    "sequence": "2026-11-38027",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:39:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:38:22Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -143,7 +143,7 @@
    "sequence": "2026-11-38023",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T15:39:31Z",
    "created": "2026-11-27T15:36:16Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9832726",
    "sequence": "2026-11-38019",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:40:17Z",
    "created": "2026-11-27T15:34:49Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -186,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.138392,
    "lon": -85.276986,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832724",
-   "sequence": "2026-11-38018",
-   "type": "Private Property Tow",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:33:03Z",
-   "created": "2026-11-27T15:33:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3913 WEBB RD",
-   "cross": "HAL DR/OAKWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 0",
-   "lat": 35.087628,
-   "lon": -85.191858,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +584,8 @@
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T15:22:45Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T15:39:26Z",
    "created": "2026-11-27T14:40:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
