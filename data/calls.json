@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T11:45:41+00:00",
+ "updated": "2026-11-27T11:50:36+00:00",
  "counts": {
-  "year": 375046,
-  "upstream_day": 106,
-  "day": 152,
+  "year": 375049,
+  "upstream_day": 109,
+  "day": 153,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832497",
+   "sequence": "2026-11-37868",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T11:48:55Z",
+   "created": "2026-11-27T11:48:48Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "16200 MAY RD",
+   "cross": "POOLE RD/DAUGHERTY FERRY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.390961,
+   "lon": -85.053097,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832496",
    "sequence": "2026-11-37867",
@@ -90,8 +116,8 @@
    "id": "9832491",
    "sequence": "2026-11-37864",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T11:50:01Z",
    "created": "2026-11-27T11:35:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,58 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.036989,
    "lon": -85.136656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832468",
-   "sequence": "2026-11-37849",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:11:23Z",
-   "created": "2026-11-27T11:11:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4114 14TH AVE",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 3",
-   "lat": 34.993157,
-   "lon": -85.281301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832469",
-   "sequence": "2026-11-37850",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T11:18:00Z",
-   "created": "2026-11-27T11:11:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4114 14TH AVE",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "901",
-   "priority": "PRI 3",
-   "lat": 34.993157,
-   "lon": -85.281301,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.046061,
    "lon": -85.167018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832387",
-   "sequence": "2026-11-37788",
-   "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": "2026-11-27T08:34:55Z",
-   "created": "2026-11-27T08:23:16Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9068 POLAN LN",
-   "cross": "YOGI LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 1",
-   "lat": 35.215832,
-   "lon": -85.157717,
    "units": 1,
    "stacked": false,
    "notable": false
