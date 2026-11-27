@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T02:15:36+00:00",
+ "updated": "2026-11-27T02:20:37+00:00",
  "counts": {
-  "year": 374865,
+  "year": 374875,
   "upstream_day": 0,
-  "day": 958,
+  "day": 963,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9832176",
+   "sequence": "2026-11-37624",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T02:17:12Z",
+   "created": "2026-11-27T02:17:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1512 S HOLTZCLAW AVE",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "504",
+   "priority": "PRI 2",
+   "lat": 35.02808,
+   "lon": -85.288364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832175",
+   "sequence": "2026-11-37623",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:16:52Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1512 S HOLTZCLAW AVE",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.02808,
+   "lon": -85.288364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832174",
+   "sequence": "2026-11-37625",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:16:04Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "911 MASTERSON AVE",
+   "cross": "LONDON AVE/DALLAS LAKE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.211784,
+   "lon": -85.168141,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832168",
    "sequence": "2026-11-37620",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:16:37Z",
    "created": "2026-11-27T02:05:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -33,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832165",
-   "sequence": "2026-11-37617",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:06:18Z",
-   "created": "2026-11-27T02:04:07Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "121 HARRISON LN",
-   "cross": "DAYTON PIKE/RECO DR",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.237133,
-   "lon": -85.198302,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832161",
@@ -90,8 +142,8 @@
    "id": "9832160",
    "sequence": "2026-11-37612",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:18:51Z",
    "created": "2026-11-27T02:02:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -184,32 +236,6 @@
    "city": "SIGNAL MOUNTAIN",
    "zone": "SIGNAL MOUNTAIN 1",
    "priority": "PRI 3",
-   "lat": 35.123898,
-   "lon": -85.364769,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832154",
-   "sequence": "2026-11-37606",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:05:35Z",
-   "created": "2026-11-27T01:56:42Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "437 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
    "lat": 35.123898,
    "lon": -85.364769,
    "units": 1,
@@ -420,58 +446,6 @@
    "priority": "PRI 3",
    "lat": 35.044177,
    "lon": -85.158575,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832100",
-   "sequence": "2026-11-37565",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T01:57:16Z",
-   "created": "2026-11-27T01:13:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8019 HAMILTON MILL DR",
-   "cross": "JENKINS RD/HAMILTON BROW PATH",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.026137,
-   "lon": -85.131256,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832092",
-   "sequence": "2026-11-37558",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T01:55:21Z",
-   "created": "2026-11-27T01:07:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "611 SUN VALLEY RD",
-   "cross": "RIVER GORGE DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.00534,
-   "lon": -85.398189,
    "units": 1,
    "stacked": false,
    "notable": false
