@@ -1,17 +1,69 @@
 {
- "updated": "2026-11-27T15:20:40+00:00",
+ "updated": "2026-11-27T15:25:37+00:00",
  "counts": {
   "year": 375137,
   "upstream_day": 197,
-  "day": 294,
+  "day": 297,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
   {
+   "id": "9832715",
+   "sequence": "2026-11-38012",
+   "type": "Interpreter Call",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:23:04Z",
+   "created": "2026-11-27T15:22:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "921 E 3RD ST",
+   "cross": "PALMETTO ST/HAMPTON ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 0",
+   "lat": 35.048843,
+   "lon": -85.292581,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832714",
+   "sequence": "2026-11-38011",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:21:06Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1503 CARAMEL CIR",
+   "cross": "HALE RD/HALE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.196726,
+   "lon": -85.175814,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9832706",
    "sequence": "2026-11-38009",
-   "type": "Police Assist Citizen",
+   "type": "Miscellaneous Complaint",
    "status": "Queued",
    "status_at": "2026-11-27T15:19:37Z",
    "created": "2026-11-27T15:18:31Z",
@@ -27,7 +79,7 @@
    "cross": "BILL JONES RD/E BRAINERD RD",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 3 B",
-   "priority": "PRI 3",
+   "priority": "PRI 4",
    "lat": 35.022302,
    "lon": -85.024623,
    "units": 1,
@@ -82,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.02497,
    "lon": -85.094696,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832696",
-   "sequence": "2026-11-38005",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:12:32Z",
-   "created": "2026-11-27T15:09:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7710 LEE HWY",
-   "cross": "BONNY OAKS DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.061233,
-   "lon": -85.131847,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -347,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9832659",
-   "sequence": "2026-11-37978",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:41:49Z",
-   "created": "2026-11-27T14:41:49Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9305 WYNDOVER DR",
-   "cross": "SOMERSET DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 2",
-   "lat": 35.033626,
-   "lon": -85.094433,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T14:58:42Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T15:22:45Z",
    "created": "2026-11-27T14:40:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +428,8 @@
    "id": "9832632",
    "sequence": "2026-11-37963",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:23:56Z",
    "created": "2026-11-27T14:29:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
