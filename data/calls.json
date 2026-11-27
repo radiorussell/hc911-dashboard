@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T16:50:38+00:00",
+ "updated": "2026-11-27T16:55:38+00:00",
  "counts": {
   "year": 375231,
   "upstream_day": 291,
   "day": 414,
   "day_basis": "midnight"
  },
- "raw_rows": 42,
+ "raw_rows": 37,
  "incidents": [
   {
    "id": "9832869",
@@ -65,7 +65,7 @@
    "sequence": "2026-11-38123",
    "type": "Burglary",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T16:52:44Z",
    "created": "2026-11-27T16:44:36Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9832847",
    "sequence": "2026-11-38116",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:40:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:38:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -314,32 +314,6 @@
    "city": "CHATTANOOGA",
    "zone": "503",
    "priority": "PRI 1",
-   "lat": 35.032507,
-   "lon": -85.260351,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832845",
-   "sequence": "2026-11-38113",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:37:56Z",
-   "created": "2026-11-27T16:37:56Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2624 GLENWOOD PKWY",
-   "cross": "VINE ST/ROWDEN ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
    "lat": 35.032507,
    "lon": -85.260351,
    "units": 1,
@@ -394,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.00457,
    "lon": -85.227469,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832837",
-   "sequence": "2026-11-38110",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T16:35:54Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.009134,
-   "lon": -85.265454,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +480,8 @@
    "id": "9832833",
    "sequence": "2026-11-38106",
    "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:51:25Z",
    "created": "2026-11-27T16:32:56Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -550,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.069266,
    "lon": -85.064542,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832822",
-   "sequence": "2026-11-38097",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:28:31Z",
-   "created": "2026-11-27T16:28:31Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3916 VOLUNTEER DR",
-   "cross": "No Cross Street/INDUSTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "608",
-   "priority": "PRI 3",
-   "lat": 35.071785,
-   "lon": -85.198842,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -633,32 +555,6 @@
    "notable": false
   },
   {
-   "id": "9832816",
-   "sequence": "2026-11-38091",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:46:12Z",
-   "created": "2026-11-27T16:23:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "706 SPEARS AVE",
-   "cross": "CHAMBLISS ST/PEAK ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 2",
-   "lat": 35.07063,
-   "lon": -85.309719,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832815",
    "sequence": "2026-11-38090",
    "type": "Deceptive Practice",
@@ -680,32 +576,6 @@
    "priority": "PRI 4",
    "lat": 34.987475,
    "lon": -85.289464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832812",
-   "sequence": "2026-11-38087",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:44:50Z",
-   "created": "2026-11-27T16:17:39Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.996637,
-   "lon": -85.242414,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -766,8 +636,8 @@
    "id": "9832802",
    "sequence": "2026-11-38080",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:13:43Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:12:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
