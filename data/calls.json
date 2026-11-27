@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T21:55:38+00:00",
+ "updated": "2026-11-27T22:00:36+00:00",
  "counts": {
-  "year": 375467,
-  "upstream_day": 527,
-  "day": 727,
+  "year": 375471,
+  "upstream_day": 531,
+  "day": 731,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9833316",
+   "sequence": "2026-11-38445",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:00:11Z",
+   "created": "2026-11-27T22:00:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7118 LISA GAYE LN",
+   "cross": "INDEPENDENCE LN/BUNKER HILL DR",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.019263,
+   "lon": -85.16861,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833318",
+   "sequence": "2026-11-38446",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:00:27Z",
+   "created": "2026-11-27T21:59:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 - 2128 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.035531,
+   "lon": -85.16191,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833317",
+   "sequence": "2026-11-38444",
+   "type": "Kidnapping",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:59:51Z",
+   "created": "2026-11-27T21:58:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "711 MUNRO RD",
+   "cross": "CUSCOWILLA TRL/EMORY DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.111446,
+   "lon": -85.276439,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833312",
    "sequence": "2026-11-38441",
@@ -217,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9833284",
-   "sequence": "2026-11-38415",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T21:30:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9894 BETTIS ESTATES LN",
-   "cross": "IGOU FERRY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 4",
-   "lat": 35.210939,
-   "lon": -85.063482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833273",
    "sequence": "2026-11-38406",
    "type": "EMS CALL",
@@ -269,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9833267",
-   "sequence": "2026-11-38398",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:18:52Z",
-   "created": "2026-11-27T21:18:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1005 MOUNTAIN CREEK RD",
-   "cross": "W RD/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "1701 A",
-   "priority": "PRI 2",
-   "lat": 35.110028,
-   "lon": -85.326104,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833266",
    "sequence": "2026-11-38397",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:27:58Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T21:57:56Z",
    "created": "2026-11-27T21:18:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
