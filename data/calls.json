@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T17:00:41+00:00",
+ "updated": "2026-11-27T17:05:38+00:00",
  "counts": {
   "year": 375241,
   "upstream_day": 301,
-  "day": 414,
+  "day": 422,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9832884",
+   "sequence": "2026-11-38137",
+   "type": "Shots Fired",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:04:10Z",
+   "created": "2026-11-27T17:03:57Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7400 - 7499 COUNTRY HILL LN",
+   "cross": "RUNYAN HILLS LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 1",
+   "lat": 35.220539,
+   "lon": -85.036578,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832883",
+   "sequence": "2026-11-38136",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:01:32Z",
+   "created": "2026-11-27T17:01:32Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "205 EVENINGSIDE DR",
+   "cross": "DAYTON PIKE/No Cross Street",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 0",
+   "lat": 35.224391,
+   "lon": -85.211975,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832869",
    "sequence": "2026-11-38129",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:01:44Z",
    "created": "2026-11-27T16:48:31Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -82,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 35.182942,
    "lon": -85.22949,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832857",
-   "sequence": "2026-11-38122",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:50:17Z",
-   "created": "2026-11-27T16:43:36Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "503 S PALISADES DR",
-   "cross": "ACACIA PL/ALDER PL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.112138,
-   "lon": -85.343981,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +272,8 @@
    "id": "9832843",
    "sequence": "2026-11-38112",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:48:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T17:05:14Z",
    "created": "2026-11-27T16:37:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +324,8 @@
    "id": "9832836",
    "sequence": "2026-11-38107",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:49:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T17:05:23Z",
    "created": "2026-11-27T16:35:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,58 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.144723,
    "lon": -85.190678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832829",
-   "sequence": "2026-11-38105",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T16:35:13Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2525 DE SALES AVE",
-   "cross": "PARKWOOD AVE/KILMER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.041707,
-   "lon": -85.260666,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832833",
-   "sequence": "2026-11-38106",
-   "type": "Auto Improperly Parked",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:51:25Z",
-   "created": "2026-11-27T16:32:56Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9436 TITUS LN",
-   "cross": "No Cross Street/OOLTEWAH RINGGOLD RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.069266,
-   "lon": -85.064542,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -451,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9832809",
-   "sequence": "2026-11-38084",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:15:16Z",
-   "created": "2026-11-27T16:15:16Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5407 DUPONT ST",
-   "cross": "FELTON ST/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 2",
-   "lat": 34.990612,
-   "lon": -85.235035,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832806",
    "sequence": "2026-11-38083",
    "type": "EMS CALL",
@@ -555,37 +503,11 @@
    "notable": false
   },
   {
-   "id": "9832786",
-   "sequence": "2026-11-38065",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:49:16Z",
-   "created": "2026-11-27T16:04:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3401 CAMPBELL ST",
-   "cross": "GROVE ST/BIRCHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.073779,
-   "lon": -85.239362,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832766",
    "sequence": "2026-11-38054",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:02:26Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T17:01:08Z",
    "created": "2026-11-27T15:54:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.07063,
    "lon": -85.309719,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832759",
-   "sequence": "2026-11-38049",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:29:16Z",
-   "created": "2026-11-27T15:52:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2700 PARKWOOD AVE",
-   "cross": "DE SALES AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.039157,
-   "lon": -85.257754,
    "units": 1,
    "stacked": false,
    "notable": false
