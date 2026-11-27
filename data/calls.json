@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T08:15:38+00:00",
+ "updated": "2026-11-27T08:20:43+00:00",
  "counts": {
-  "year": 374990,
-  "upstream_day": 50,
-  "day": 69,
+  "year": 374991,
+  "upstream_day": 51,
+  "day": 70,
   "day_basis": "midnight"
  },
  "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9832384",
+   "sequence": "2026-11-37785",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-27T08:16:27Z",
+   "created": "2026-11-27T08:16:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2333 MCCALLIE AVE",
+   "cross": "S LYERLY ST/S WATKINS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.034727,
+   "lon": -85.26761,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832380",
    "sequence": "2026-11-37783",
@@ -186,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.186203,
    "lon": -85.248702,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832359",
-   "sequence": "2026-11-37767",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T07:52:17Z",
-   "created": "2026-11-27T07:17:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2289 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.040129,
-   "lon": -85.150941,
    "units": 1,
    "stacked": false,
    "notable": false
