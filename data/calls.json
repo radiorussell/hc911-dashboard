@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T08:00:38+00:00",
+ "updated": "2026-11-27T08:05:40+00:00",
  "counts": {
   "year": 374987,
   "upstream_day": 47,
   "day": 64,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 7,
  "incidents": [
   {
    "id": "9832375",
@@ -90,8 +90,8 @@
    "id": "9832372",
    "sequence": "2026-11-37776",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:03:44Z",
    "created": "2026-11-27T07:52:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9832370",
    "sequence": "2026-11-37774",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:03:45Z",
    "created": "2026-11-27T07:46:42Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.040129,
    "lon": -85.150941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832343",
-   "sequence": "2026-11-37755",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-27T06:49:57Z",
-   "created": "2026-11-27T06:47:44Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "320 N HOLTZCLAW AVE",
-   "cross": "E 5TH ST/E 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 2",
-   "lat": 35.042948,
-   "lon": -85.280015,
    "units": 1,
    "stacked": false,
    "notable": false
