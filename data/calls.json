@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T05:00:40+00:00",
+ "updated": "2026-11-27T05:05:37+00:00",
  "counts": {
   "year": 374937,
   "upstream_day": 0,
   "day": 0,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9832295",
    "sequence": "2026-11-37715",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-27T04:58:09Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T05:04:01Z",
    "created": "2026-11-27T04:58:09Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -61,63 +61,11 @@
    "notable": false
   },
   {
-   "id": "9832282",
-   "sequence": "2026-11-37704",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T04:38:23Z",
-   "created": "2026-11-27T04:38:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5953 BRAINERD RD",
-   "cross": "GREENWAY VIEW DR/JUBILEE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.016816,
-   "lon": -85.20786,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832283",
-   "sequence": "2026-11-37705",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:46:56Z",
-   "created": "2026-11-27T04:38:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5953 BRAINERD RD",
-   "cross": "GREENWAY VIEW DR/JUBILEE DR",
-   "city": "CHATTANOOGA",
-   "zone": "1303",
-   "priority": "PRI 3",
-   "lat": 35.016816,
-   "lon": -85.20786,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832281",
    "sequence": "2026-11-37703",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:49:37Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T05:01:04Z",
    "created": "2026-11-27T04:38:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
