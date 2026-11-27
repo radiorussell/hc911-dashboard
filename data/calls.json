@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T23:10:38+00:00",
+ "updated": "2026-11-27T23:15:42+00:00",
  "counts": {
   "year": 375546,
   "upstream_day": 606,
-  "day": 829,
+  "day": 839,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833455",
+   "sequence": "2026-11-38554",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:15:42Z",
+   "created": "2026-11-27T23:14:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "17122 MCKINNEY LN",
+   "cross": "BLACK OAK RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 3",
+   "lat": 35.43072,
+   "lon": -85.06208,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833453",
+   "sequence": "2026-11-38551",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:11:44Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.08082,
+   "lon": -85.06329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833448",
+   "sequence": "2026-11-38546",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:10:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5870 HIGHWAY 153",
+   "cross": "WANDERLUST WAY/LITTLEBURY WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.162753,
+   "lon": -85.247524,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833442",
    "sequence": "2026-11-38544",
@@ -38,8 +116,8 @@
    "id": "9833439",
    "sequence": "2026-11-38542",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:12:57Z",
    "created": "2026-11-27T23:07:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9833440",
    "sequence": "2026-11-38543",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:14:59Z",
    "created": "2026-11-27T23:07:27Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -89,7 +167,7 @@
   {
    "id": "9833438",
    "sequence": "2026-11-38541",
-   "type": "EMS CALL",
+   "type": "Pedestrian Struck",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-27T23:07:18Z",
@@ -116,8 +194,8 @@
    "id": "9833437",
    "sequence": "2026-11-38540",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:15:18Z",
    "created": "2026-11-27T23:06:39Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -163,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833427",
-   "sequence": "2026-11-38533",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:02:37Z",
-   "created": "2026-11-27T22:58:31Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1314 WHEELER AVE",
-   "cross": "WILSON ST/BALTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "407",
-   "priority": "PRI 1",
-   "lat": 35.050627,
-   "lon": -85.258008,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833426",
