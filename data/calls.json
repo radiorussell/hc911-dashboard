@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-27T12:20:42+00:00",
+ "updated": "2026-11-27T12:25:37+00:00",
  "counts": {
   "year": 375052,
   "upstream_day": 112,
-  "day": 162,
+  "day": 166,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9832512",
    "sequence": "2026-11-37876",
-   "type": "Pedestrian Struck",
+   "type": "MVC Injuries",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-27T12:18:04Z",
@@ -32,14 +32,14 @@
    "lon": -85.153146,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9832513",
    "sequence": "2026-11-37877",
-   "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-27T12:24:22Z",
    "created": "2026-11-27T12:18:04Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -58,30 +58,30 @@
    "lon": -85.153146,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
-   "id": "9832511",
-   "sequence": "2026-11-37875",
-   "type": "Pedestrian Struck",
+   "id": "9832510",
+   "sequence": "2026-11-37881",
+   "type": "Check For A Hazard",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-27T12:17:36Z",
-   "jurisdiction": "Chattanooga PD",
+   "created": "2026-11-27T12:16:52Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2020 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.030081,
-   "lon": -85.153146,
+   "address": "711 STATE LINE RD",
+   "cross": "GREENS LAKE RD/DUGAN ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 2",
+   "lat": 34.985167,
+   "lon": -85.252914,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -89,9 +89,9 @@
   {
    "id": "9832509",
    "sequence": "2026-11-37872",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-27T12:23:26Z",
    "created": "2026-11-27T12:11:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -105,37 +105,11 @@
    "cross": "GOODWIN RD/LANDRESS DR",
    "city": "CHATTANOOGA",
    "zone": "C7",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 35.032497,
    "lon": -85.154282,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832508",
-   "sequence": "2026-11-37873",
-   "type": "Assault PD Only",
-   "status": "Stacked",
-   "status_at": "2026-11-27T12:13:35Z",
-   "created": "2026-11-27T12:11:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2000 - 2122 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.03248,
-   "lon": -85.1542,
-   "units": 1,
-   "stacked": true,
    "notable": true
   },
   {
@@ -168,8 +142,8 @@
    "id": "9832491",
    "sequence": "2026-11-37864",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T12:16:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T12:23:33Z",
    "created": "2026-11-27T11:35:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
