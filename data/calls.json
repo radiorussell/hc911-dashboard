@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-27T22:05:38+00:00",
+ "updated": "2026-11-27T22:10:36+00:00",
  "counts": {
-  "year": 375471,
-  "upstream_day": 531,
-  "day": 735,
+  "year": 375477,
+  "upstream_day": 537,
+  "day": 744,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9833335",
+   "sequence": "2026-11-38459",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:10:09Z",
+   "created": "2026-11-27T22:09:54Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "621 MEMORIAL DR",
+   "cross": "JAMES AVE/ALTAMONT RD",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 1",
+   "lat": 35.090497,
+   "lon": -85.297218,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833332",
+   "sequence": "2026-11-38457",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:08:24Z",
+   "created": "2026-11-27T22:08:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7605 HAMILTON PARK DR",
+   "cross": "WALKER RD/YERBEY DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.056486,
+   "lon": -85.137243,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833328",
+   "sequence": "2026-11-38454",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:06:59Z",
+   "created": "2026-11-27T22:06:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7683 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.038784,
+   "lon": -85.13925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833329",
+   "sequence": "2026-11-38455",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:06:59Z",
+   "created": "2026-11-27T22:06:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7683 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.038784,
+   "lon": -85.13925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833327",
+   "sequence": "2026-11-38453",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:06:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7683 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.038784,
+   "lon": -85.13925,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833321",
    "sequence": "2026-11-38450",
@@ -38,8 +168,8 @@
    "id": "9833319",
    "sequence": "2026-11-38449",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:06:47Z",
    "created": "2026-11-27T22:00:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9833312",
-   "sequence": "2026-11-38441",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:53:05Z",
-   "created": "2026-11-27T21:53:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2636 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.057245,
-   "lon": -85.132162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833313",
    "sequence": "2026-11-38442",
    "type": "EMS CALL",
@@ -210,6 +314,32 @@
    "city": "CHATTANOOGA",
    "zone": "701 B",
    "priority": "PRI 1",
+   "lat": 35.057245,
+   "lon": -85.132162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833312",
+   "sequence": "2026-11-38441",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:53:05Z",
+   "created": "2026-11-27T21:53:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2636 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
    "lat": 35.057245,
    "lon": -85.132162,
    "units": 1,
@@ -246,8 +376,8 @@
    "id": "9833308",
    "sequence": "2026-11-38440",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:06:10Z",
    "created": "2026-11-27T21:52:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -267,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833306",
-   "sequence": "2026-11-38437",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:01:46Z",
-   "created": "2026-11-27T21:50:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "500 KILMER ST",
-   "cross": "SHADY LN/PARKWOOD AVE",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 3",
-   "lat": 35.038647,
-   "lon": -85.261976,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833302",
@@ -402,8 +506,8 @@
    "id": "9833262",
    "sequence": "2026-11-38394",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T21:54:01Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T22:07:52Z",
    "created": "2026-11-27T21:17:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.082654,
    "lon": -85.233813,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833218",
-   "sequence": "2026-11-38360",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T21:42:55Z",
-   "created": "2026-11-27T20:45:38Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5483 LITTLE DEBBIE PKWY",
-   "cross": "INTEGRA HILLS LN/JAC CATE RD",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.08074,
-   "lon": -85.070095,
    "units": 1,
    "stacked": false,
    "notable": false
