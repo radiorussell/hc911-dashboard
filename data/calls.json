@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T05:10:37+00:00",
+ "updated": "2026-11-27T05:15:37+00:00",
  "counts": {
   "year": 374940,
   "upstream_day": 0,
   "day": 6,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9832301",
    "sequence": "2026-11-37721",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T05:10:38Z",
    "created": "2026-11-27T05:07:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +56,6 @@
    "priority": "PRI 3",
    "lat": 35.042212,
    "lon": -85.278127,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832295",
-   "sequence": "2026-11-37715",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-27T05:04:01Z",
-   "created": "2026-11-27T04:58:09Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "922 BELVOIR HILLS CIR",
-   "cross": "INDIAN TRL/DELLWAY CIR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.001636,
-   "lon": -85.250389,
    "units": 1,
    "stacked": false,
    "notable": false
