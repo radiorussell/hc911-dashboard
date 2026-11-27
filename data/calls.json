@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T14:20:43+00:00",
+ "updated": "2026-11-27T14:25:37+00:00",
  "counts": {
   "year": 375100,
   "upstream_day": 160,
   "day": 243,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9832624",
    "sequence": "2026-11-37957",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:18:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T14:18:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -61,32 +61,6 @@
    "notable": false
   },
   {
-   "id": "9832622",
-   "sequence": "2026-11-37956",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:16:12Z",
-   "created": "2026-11-27T14:16:04Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832621",
    "sequence": "2026-11-37955",
    "type": "Disorder",
@@ -117,7 +91,7 @@
    "sequence": "2026-11-37952",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T14:25:18Z",
    "created": "2026-11-27T14:09:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +142,8 @@
    "id": "9832593",
    "sequence": "2026-11-37933",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T14:07:44Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T14:22:39Z",
    "created": "2026-11-27T13:50:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
