@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T00:40:38+00:00",
+ "updated": "2026-11-27T00:45:36+00:00",
  "counts": {
   "year": 374807,
   "upstream_day": 0,
-  "day": 880,
+  "day": 883,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9832069",
+   "sequence": "2026-11-37545",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-27T00:44:26Z",
+   "created": "2026-11-27T00:43:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2288 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.037485,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832068",
+   "sequence": "2026-11-37544",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T00:43:22Z",
+   "created": "2026-11-27T00:42:18Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "WILCOX BLVD / GREENWOOD RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.04796,
+   "lon": -85.243049,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832067",
+   "sequence": "2026-11-37543",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T00:41:37Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3214 JOSELIN LN",
+   "cross": "TIKTIN DR/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.105552,
+   "lon": -85.292115,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832066",
    "sequence": "2026-11-37542",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:40:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T00:39:44Z",
    "jurisdiction": "Mowbray VFD",
    "agencies": [
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9832057",
-   "sequence": "2026-11-37534",
-   "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:21:59Z",
-   "created": "2026-11-27T00:21:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2915 YERBEY DR",
-   "cross": "LEE HWY/HAMILTON PARK DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.058944,
-   "lon": -85.133722,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832053",
    "sequence": "2026-11-37528",
    "type": "EMS CALL",
@@ -246,8 +298,8 @@
    "id": "9832050",
    "sequence": "2026-11-37533",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:42:08Z",
    "created": "2026-11-27T00:19:55Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9832031",
    "sequence": "2026-11-37514",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T00:29:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T00:44:15Z",
    "created": "2026-11-26T23:59:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.253566,
    "lon": -85.113685,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832002",
-   "sequence": "2026-11-37491",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:23:56Z",
-   "created": "2026-11-26T23:26:58Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.0338,
-   "lon": -85.1596,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -480,7 +506,7 @@
    "id": "9831932",
    "sequence": "2026-11-37444",
    "type": "Pedestrian Struck",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-26T22:47:33Z",
    "created": "2026-11-26T22:46:57Z",
    "jurisdiction": "Chattanooga PD",
@@ -499,7 +525,7 @@
    "lat": 35.005585,
    "lon": -85.228838,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
