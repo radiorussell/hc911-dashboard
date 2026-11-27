@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T03:05:36+00:00",
+ "updated": "2026-11-27T03:10:38+00:00",
  "counts": {
-  "year": 374891,
+  "year": 374894,
   "upstream_day": 0,
-  "day": 983,
+  "day": 985,
   "day_basis": "midnight"
  },
  "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9832204",
+   "sequence": "2026-11-37647",
+   "type": "Harrassing Threats",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:04:45Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7624 OOLTEWAH GEORGETOWN RD",
+   "cross": "PROVIDENCE RD/FRONT GATE CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.135166,
+   "lon": -85.04274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832201",
    "sequence": "2026-11-37645",
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9832174",
-   "sequence": "2026-11-37625",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:34:51Z",
-   "created": "2026-11-27T02:16:04Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "911 MASTERSON AVE",
-   "cross": "LONDON AVE/DALLAS LAKE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.211784,
-   "lon": -85.168141,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832158",
    "sequence": "2026-11-37610",
    "type": "Civil Matter",
@@ -116,8 +116,8 @@
    "id": "9832132",
    "sequence": "2026-11-37594",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T02:44:47Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T03:09:54Z",
    "created": "2026-11-27T01:36:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
