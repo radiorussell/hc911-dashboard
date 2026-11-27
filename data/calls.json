@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T09:55:40+00:00",
+ "updated": "2026-11-27T10:00:41+00:00",
  "counts": {
-  "year": 375014,
-  "upstream_day": 74,
-  "day": 100,
+  "year": 375015,
+  "upstream_day": 75,
+  "day": 102,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9832431",
+   "sequence": "2026-11-37817",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T09:59:06Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6823 MANASSAS GAP LN",
+   "cross": "JACKSON MILL DR/DOVE FIELD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 3",
+   "lat": 35.1723,
+   "lon": -85.18494,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832421",
    "sequence": "2026-11-37815",
@@ -61,6 +87,32 @@
    "notable": false
   },
   {
+   "id": "9832409",
+   "sequence": "2026-11-37808",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-27T09:58:30Z",
+   "created": "2026-11-27T09:24:30Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "112 ARROW DR",
+   "cross": "PALISADES DR/DAWN ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.116174,
+   "lon": -85.34127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832408",
    "sequence": "2026-11-37807",
    "type": "EMS CALL",
@@ -84,32 +136,6 @@
    "lon": -85.34127,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832401",
-   "sequence": "2026-11-37802",
-   "type": "Auto Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-27T09:09:07Z",
-   "created": "2026-11-27T09:08:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7118 LISA GAYE LN",
-   "cross": "INDEPENDENCE LN/BUNKER HILL DR",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.01919,
-   "lon": -85.16861,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
