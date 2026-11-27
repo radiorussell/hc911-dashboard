@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T06:35:37+00:00",
+ "updated": "2026-11-27T06:40:37+00:00",
  "counts": {
-  "year": 374964,
-  "upstream_day": 24,
-  "day": 36,
+  "year": 374966,
+  "upstream_day": 26,
+  "day": 39,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9832342",
+   "sequence": "2026-11-37754",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-27T06:38:05Z",
+   "created": "2026-11-27T06:38:05Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "HIGHWAY 60 / HIGHWAY 58",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 4",
+   "lat": 35.301199,
+   "lon": -84.959151,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832340",
+   "sequence": "2026-11-37753",
+   "type": "Burglary",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T06:34:37Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3406 DODSON AVE",
+   "cross": "ALLIN ST/SIMS ST",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.076762,
+   "lon": -85.247346,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832339",
    "sequence": "2026-11-37751",
    "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T06:40:17Z",
    "created": "2026-11-27T06:34:12Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
