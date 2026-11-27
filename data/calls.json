@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T21:35:37+00:00",
+ "updated": "2026-11-27T21:40:37+00:00",
  "counts": {
-  "year": 375444,
-  "upstream_day": 504,
-  "day": 706,
+  "year": 375455,
+  "upstream_day": 515,
+  "day": 709,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9833292",
+   "sequence": "2026-11-38424",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:36:52Z",
+   "created": "2026-11-27T21:36:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "COMMONS BLVD / GUNBARREL RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.036953,
+   "lon": -85.151819,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833291",
+   "sequence": "2026-11-38422",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T21:36:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TENNESSEE AVE / W 40TH ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.008033,
+   "lon": -85.327267,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833289",
    "sequence": "2026-11-38420",
@@ -90,8 +142,8 @@
    "id": "9833286",
    "sequence": "2026-11-38418",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:32:50Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T21:32:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -321,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9833264",
-   "sequence": "2026-11-38395",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:28:04Z",
-   "created": "2026-11-27T21:17:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2620 BOYCE ST",
-   "cross": "MEADOW LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 2",
-   "lat": 35.082654,
-   "lon": -85.233813,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833262",
    "sequence": "2026-11-38394",
    "type": "EMS CALL",
@@ -498,32 +524,6 @@
    "priority": "PRI 3",
    "lat": 34.999488,
    "lon": -85.107489,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833111",
-   "sequence": "2026-11-38295",
-   "type": "Deceptive Practice",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:52:30Z",
-   "created": "2026-11-27T19:36:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "812 BELLE VISTA AVE",
-   "cross": "DAVIS AVE/LARKIN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.031559,
-   "lon": -85.232784,
    "units": 1,
    "stacked": false,
    "notable": false
