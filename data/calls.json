@@ -1,19 +1,227 @@
 {
- "updated": "2026-11-27T22:20:38+00:00",
+ "updated": "2026-11-27T22:25:38+00:00",
  "counts": {
   "year": 375489,
   "upstream_day": 549,
-  "day": 768,
+  "day": 781,
   "day_basis": "midnight"
  },
- "raw_rows": 40,
+ "raw_rows": 43,
  "incidents": [
+  {
+   "id": "9833385",
+   "sequence": "2026-11-38496",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:24:50Z",
+   "created": "2026-11-27T22:24:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.030686,
+   "lon": -85.151276,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833380",
+   "sequence": "2026-11-38494",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:23:42Z",
+   "created": "2026-11-27T22:23:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833381",
+   "sequence": "2026-11-38495",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:23:42Z",
+   "created": "2026-11-27T22:23:42Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833378",
+   "sequence": "2026-11-38493",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:23:03Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833377",
+   "sequence": "2026-11-38492",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:23:03Z",
+   "created": "2026-11-27T22:22:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1816 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.024501,
+   "lon": -85.155628,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833375",
+   "sequence": "2026-11-38491",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:22:23Z",
+   "created": "2026-11-27T22:21:46Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "100 - 399 VALLEY VIEW AVE",
+   "cross": "DAYTON BLVD/FORSYTHE ST",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.126826,
+   "lon": -85.28458,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833371",
+   "sequence": "2026-11-38489",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:22:00Z",
+   "created": "2026-11-27T22:21:15Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6012 RINGGOLD RD",
+   "cross": "SPRING CREEK RD/TRUMAN AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.989714,
+   "lon": -85.215184,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833370",
+   "sequence": "2026-11-38487",
+   "type": "Disorder Weapon Involve",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:21:23Z",
+   "created": "2026-11-27T22:21:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5250 BRAINERD RD",
+   "cross": "TACOA AVE/MCBRIEN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.010545,
+   "lon": -85.223171,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833366",
    "sequence": "2026-11-38482",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:20:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:20:25Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -90,8 +298,8 @@
    "id": "9833364",
    "sequence": "2026-11-38481",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:20:25Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:20:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,84 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.029911,
    "lon": -85.187659,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833359",
-   "sequence": "2026-11-38477",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:18:38Z",
-   "created": "2026-11-27T22:18:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "W 21ST ST / BROAD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 2",
-   "lat": 35.032588,
-   "lon": -85.314009,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833356",
-   "sequence": "2026-11-38473",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T22:17:21Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "10402 HUNTER TRACE DR",
-   "cross": "WILD TURKEY LN/FALLEN LEAF DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.222576,
-   "lon": -85.109944,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833355",
-   "sequence": "2026-11-38472",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T22:17:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "10402 HUNTER TRACE DR",
-   "cross": "WILD TURKEY LN/FALLEN LEAF DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 2",
-   "lat": 35.222576,
-   "lon": -85.109944,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -324,8 +454,8 @@
    "id": "9833344",
    "sequence": "2026-11-38465",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:25:01Z",
    "created": "2026-11-27T22:13:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +480,8 @@
    "id": "9833345",
    "sequence": "2026-11-38466",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:22:24Z",
    "created": "2026-11-27T22:13:34Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -376,8 +506,8 @@
    "id": "9833342",
    "sequence": "2026-11-38464",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:22:07Z",
    "created": "2026-11-27T22:13:30Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -428,8 +558,8 @@
    "id": "9833340",
    "sequence": "2026-11-38462",
    "type": "Apartment Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:23:00Z",
    "created": "2026-11-27T22:12:21Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -449,32 +579,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833334",
-   "sequence": "2026-11-38460",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-27T22:15:27Z",
-   "created": "2026-11-27T22:10:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "516 DERBY ST",
-   "cross": "SHADY LN/DE SALES AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 1",
-   "lat": 35.039693,
-   "lon": -85.263291,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833335",
@@ -628,32 +732,6 @@
    "priority": "PRI 3",
    "lat": 35.008871,
    "lon": -85.266988,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833319",
-   "sequence": "2026-11-38449",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:06:47Z",
-   "created": "2026-11-27T22:00:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "725 FULTON ST",
-   "cross": "RIVERFRONT PKWY/CANAL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 2",
-   "lat": 35.050967,
-   "lon": -85.321991,
    "units": 1,
    "stacked": false,
    "notable": false
