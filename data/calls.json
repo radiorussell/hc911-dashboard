@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-27T15:00:39+00:00",
+ "updated": "2026-11-27T15:05:38+00:00",
  "counts": {
   "year": 375122,
   "upstream_day": 182,
-  "day": 281,
+  "day": 286,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9832690",
+   "sequence": "2026-11-38001",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:04:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BONNY OAKS DR / PRESERVATION DR",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 4",
+   "lat": 35.07389,
+   "lon": -85.182772,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832688",
+   "sequence": "2026-11-37999",
+   "type": "ROAD CLOSURE",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:01:45Z",
+   "created": "2026-11-27T15:01:45Z",
+   "jurisdiction": "HC911",
+   "agencies": [
+    "HC911"
+   ],
+   "agency_type": "HC911",
+   "agency_types": [
+    "HC911"
+   ],
+   "address": "E 10TH ST / UNIVERSITY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "HC911",
+   "priority": "",
+   "lat": 35.042153,
+   "lon": -85.30214,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832687",
+   "sequence": "2026-11-37998",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:00:42Z",
+   "created": "2026-11-27T15:00:42Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5449 WATKINS ST",
+   "cross": "No Cross Street/JETRAIL DR",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.07152,
+   "lon": -85.065094,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832686",
+   "sequence": "2026-11-37997",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:00:41Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5449 WATKINS ST",
+   "cross": "No Cross Street/JETRAIL DR",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-4 CO B",
+   "priority": "PRI 3",
+   "lat": 35.07152,
+   "lon": -85.065094,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832684",
    "sequence": "2026-11-37995",
@@ -30,84 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.042153,
    "lon": -85.30214,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832685",
-   "sequence": "2026-11-37996",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:00:17Z",
-   "created": "2026-11-27T15:00:17Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "E 10TH ST / UNIVERSITY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 3",
-   "lat": 35.042153,
-   "lon": -85.30214,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832683",
-   "sequence": "2026-11-37994",
-   "type": "Street Status",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:00:17Z",
-   "created": "2026-11-27T15:00:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 10TH ST / UNIVERSITY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 0",
-   "lat": 35.042153,
-   "lon": -85.30214,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832681",
-   "sequence": "2026-11-37993",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:59:58Z",
-   "created": "2026-11-27T14:59:13Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "DALLAS HOLLOW RD / W RIDGE TRAIL RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 4",
-   "lat": 35.218918,
-   "lon": -85.154944,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +194,8 @@
    "id": "9832667",
    "sequence": "2026-11-37984",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:00:59Z",
    "created": "2026-11-27T14:49:18Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -215,32 +241,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832662",
-   "sequence": "2026-11-37981",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T14:47:06Z",
-   "created": "2026-11-27T14:44:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
-   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.075483,
-   "lon": -85.321463,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832661",
@@ -472,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.997036,
    "lon": -85.329815,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832567",
-   "sequence": "2026-11-37912",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T14:16:24Z",
-   "created": "2026-11-27T13:25:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "649 MORRISON SPRINGS RD",
-   "cross": "BLUE WATER CIR/PRICELESS VW",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.125529,
-   "lon": -85.304385,
    "units": 1,
    "stacked": false,
    "notable": false
