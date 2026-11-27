@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-27T00:30:37+00:00",
+ "updated": "2026-11-27T00:35:38+00:00",
  "counts": {
   "year": 374796,
   "upstream_day": 0,
-  "day": 877,
+  "day": 879,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9832061",
-   "sequence": "2026-11-37538",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:27:23Z",
-   "created": "2026-11-27T00:27:23Z",
+   "id": "9832064",
+   "sequence": "2026-11-37541",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T00:33:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
+   "address": "ELY RD / HIXSON PIKE",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "C9",
+   "zone": "A3 A",
    "priority": "PRI 3",
-   "lat": 35.036989,
-   "lon": -85.136656,
+   "lat": 35.122957,
+   "lon": -85.248231,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -61,11 +61,37 @@
    "notable": false
   },
   {
+   "id": "9832061",
+   "sequence": "2026-11-37538",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T00:27:23Z",
+   "created": "2026-11-27T00:27:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.036989,
+   "lon": -85.136656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832060",
    "sequence": "2026-11-37537",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:34:13Z",
    "created": "2026-11-27T00:26:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -101,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "5998 - 6000 SHALLOWFORD RD",
-   "cross": "EXIT SHALLOWFORD RD ON RAMP NB/CHAPMAN RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
+   "address": "@MAPCO",
+   "cross": "",
+   "city": "",
+   "zone": "",
    "priority": "PRI 3",
-   "lat": 35.054113,
-   "lon": -85.189719,
+   "lat": 0,
+   "lon": 0,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9832030",
-   "sequence": "2026-11-37512",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T23:58:22Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "GREENWOOD RD / SNOW HILL RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 2",
-   "lat": 35.166875,
-   "lon": -85.057854,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832028",
    "sequence": "2026-11-37511",
    "type": "MVC No Injuries",
@@ -368,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.03636,
    "lon": -85.107885,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831989",
-   "sequence": "2026-11-37480",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T00:02:19Z",
-   "created": "2026-11-26T23:23:18Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "411 S LYERLY ST",
-   "cross": "DUNCAN AVE/CHAMBERLAIN AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.032246,
-   "lon": -85.269841,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -529,58 +503,6 @@
    "notable": false
   },
   {
-   "id": "9831914",
-   "sequence": "2026-11-37432",
-   "type": "Missing Endangered",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:02:42Z",
-   "created": "2026-11-26T22:39:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 1",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9831908",
-   "sequence": "2026-11-37423",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:50:52Z",
-   "created": "2026-11-26T22:33:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9306 OOLTEWAH GEORGETOWN RD",
-   "cross": "WATER TOWER RD/ELBERMAET LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.185651,
-   "lon": -85.021929,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831907",
    "sequence": "2026-11-37422",
    "type": "Burglary",
@@ -607,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9831897",
-   "sequence": "2026-11-37416",
-   "type": "Abandoned Auto",
-   "status": "On Scene",
-   "status_at": "2026-11-26T22:39:42Z",
-   "created": "2026-11-26T22:29:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "LOWER MILL RD / OLD LOWER MILL RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.164476,
-   "lon": -85.232949,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831801",
    "sequence": "2026-11-37341",
    "type": "Well Being Check",
@@ -654,32 +550,6 @@
    "priority": "PRI 3",
    "lat": 35.003644,
    "lon": -85.26586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831086",
-   "sequence": "2026-11-36866",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:26:04Z",
-   "created": "2026-11-26T11:08:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7324 SHALLOWFORD RD",
-   "cross": "LIFESTYLE WAY/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.039739,
-   "lon": -85.151941,
    "units": 1,
    "stacked": false,
    "notable": false
