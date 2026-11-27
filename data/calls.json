@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T12:15:38+00:00",
+ "updated": "2026-11-27T12:20:42+00:00",
  "counts": {
   "year": 375052,
   "upstream_day": 112,
-  "day": 159,
+  "day": 162,
   "day_basis": "midnight"
  },
  "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832512",
+   "sequence": "2026-11-37876",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:18:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832513",
+   "sequence": "2026-11-37877",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:18:04Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832511",
+   "sequence": "2026-11-37875",
+   "type": "Pedestrian Struck",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:17:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 1",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832509",
    "sequence": "2026-11-37872",
@@ -23,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2020 GUNBARREL RD",
+   "address": "2000 - 2122 GUNBARREL RD",
    "cross": "GOODWIN RD/LANDRESS DR",
    "city": "CHATTANOOGA",
    "zone": "C7",
    "priority": "PRI 3",
-   "lat": 35.030081,
-   "lon": -85.153146,
+   "lat": 35.032497,
+   "lon": -85.154282,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +116,8 @@
    "id": "9832508",
    "sequence": "2026-11-37873",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T12:13:35Z",
    "created": "2026-11-27T12:11:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,15 +135,15 @@
    "lat": 35.03248,
    "lon": -85.1542,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
   },
   {
    "id": "9832507",
    "sequence": "2026-11-37874",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-27T12:14:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T12:09:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9832494",
-   "sequence": "2026-11-37866",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:36:03Z",
-   "created": "2026-11-27T11:36:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 2",
-   "lat": 35.036989,
-   "lon": -85.136656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832493",
-   "sequence": "2026-11-37865",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:36:02Z",
-   "created": "2026-11-27T11:36:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.036989,
-   "lon": -85.136656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832491",
    "sequence": "2026-11-37864",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T11:50:01Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T12:16:07Z",
    "created": "2026-11-27T11:35:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.041707,
    "lon": -85.260666,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832459",
-   "sequence": "2026-11-37841",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T11:53:55Z",
-   "created": "2026-11-27T11:05:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8934 BEL AIR RD",
-   "cross": "ALLEN CRAIG TRL/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.005574,
-   "lon": -85.118142,
    "units": 1,
    "stacked": false,
    "notable": false
