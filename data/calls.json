@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-27T08:35:38+00:00",
+ "updated": "2026-11-27T08:40:39+00:00",
  "counts": {
-  "year": 374995,
-  "upstream_day": 55,
-  "day": 76,
+  "year": 375000,
+  "upstream_day": 60,
+  "day": 80,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832393",
+   "sequence": "2026-11-37794",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:37:40Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2431 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "201 B",
+   "priority": "PRI 2",
+   "lat": 35.02834,
+   "lon": -85.314378,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832394",
+   "sequence": "2026-11-37795",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:37:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2431 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 2",
+   "lat": 35.02834,
+   "lon": -85.314378,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832392",
+   "sequence": "2026-11-37793",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:37:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2431 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.02834,
+   "lon": -85.314378,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832391",
+   "sequence": "2026-11-37792",
+   "type": "Missing Endangered",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:35:22Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7821 SLATERMILL DR",
+   "cross": "STILLWATER CIR/STILLWATER CIR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 B",
+   "priority": "PRI 1",
+   "lat": 35.076153,
+   "lon": -85.089359,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832390",
    "sequence": "2026-11-37791",
@@ -30,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.071874,
    "lon": -85.249803,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832388",
-   "sequence": "2026-11-37789",
-   "type": "Animal Call",
-   "status": "On Scene",
-   "status_at": "2026-11-27T08:30:35Z",
-   "created": "2026-11-27T08:24:13Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3506 CLAREMONT AVE",
-   "cross": "BEECHWOOD LN/CLAREMONT CT",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.009013,
-   "lon": -85.259379,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.048719,
    "lon": -85.290431,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832374",
-   "sequence": "2026-11-37778",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T07:53:20Z",
-   "created": "2026-11-27T07:53:20Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6737 ARDIS LN",
-   "cross": "No Cross Street/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "2203",
-   "priority": "PRI 2",
-   "lat": 35.186203,
-   "lon": -85.248702,
    "units": 1,
    "stacked": false,
    "notable": false
