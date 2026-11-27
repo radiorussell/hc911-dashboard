@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T14:45:41+00:00",
+ "updated": "2026-11-27T14:50:39+00:00",
  "counts": {
-  "year": 375109,
-  "upstream_day": 169,
-  "day": 266,
+  "year": 375118,
+  "upstream_day": 178,
+  "day": 269,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9832667",
+   "sequence": "2026-11-37984",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:49:18Z",
+   "created": "2026-11-27T14:49:18Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1000 BASS PRO DR",
+   "cross": "No Cross Street/CAMP JORDAN PKWY",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 4",
+   "lat": 34.992826,
+   "lon": -85.202645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832664",
+   "sequence": "2026-11-37982",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T14:47:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OLD DALLAS RD / CRESTWOOD DR",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.082476,
+   "lon": -85.296673,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832662",
    "sequence": "2026-11-37981",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T14:47:06Z",
    "created": "2026-11-27T14:44:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9832661",
    "sequence": "2026-11-37980",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:43:06Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T14:50:28Z",
    "created": "2026-11-27T14:43:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,32 +139,6 @@
    "notable": false
   },
   {
-   "id": "9832652",
-   "sequence": "2026-11-37976",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T14:40:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "18000 INTERSTATE 24 EB",
-   "cross": "EXIT 180A OFF RAMP EB/EXIT 180B OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.021619,
-   "lon": -85.297721,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
@@ -137,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832647",
-   "sequence": "2026-11-37971",
-   "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T14:37:21Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
-   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
-   "city": "RED BANK",
-   "zone": "1704",
-   "priority": "PRI 1",
-   "lat": 35.075483,
-   "lon": -85.321463,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832640",
@@ -217,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9832623",
-   "sequence": "2026-11-37958",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:37:17Z",
-   "created": "2026-11-27T14:16:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 MOCCASIN BEND RD",
-   "cross": "No Cross Street/HAMM RD",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.025713,
-   "lon": -85.335435,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832617",
    "sequence": "2026-11-37950",
    "type": "Theft",
@@ -272,8 +246,8 @@
    "id": "9832593",
    "sequence": "2026-11-37933",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T14:22:39Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T14:50:27Z",
    "created": "2026-11-27T13:50:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
