@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T09:20:37+00:00",
+ "updated": "2026-11-27T09:25:37+00:00",
  "counts": {
   "year": 375006,
   "upstream_day": 66,
-  "day": 90,
+  "day": 94,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9832409",
+   "sequence": "2026-11-37808",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T09:24:30Z",
+   "created": "2026-11-27T09:24:30Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "112 ARROW DR",
+   "cross": "PALISADES DR/DAWN ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.116174,
+   "lon": -85.34127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832410",
+   "sequence": "2026-11-37809",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T09:24:30Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "112 ARROW DR",
+   "cross": "PALISADES DR/DAWN ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 2",
+   "lat": 35.116174,
+   "lon": -85.34127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832408",
+   "sequence": "2026-11-37807",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T09:23:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "112 ARROW DR",
+   "cross": "PALISADES DR/DAWN ST",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.116174,
+   "lon": -85.34127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832406",
    "sequence": "2026-11-37805",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T09:23:31Z",
    "created": "2026-11-27T09:11:54Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -38,8 +116,8 @@
    "id": "9832401",
    "sequence": "2026-11-37802",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T09:09:07Z",
    "created": "2026-11-27T09:08:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,7 +135,7 @@
    "lat": 35.01919,
    "lon": -85.16861,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
