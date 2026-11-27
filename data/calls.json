@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T15:55:37+00:00",
+ "updated": "2026-11-27T16:00:42+00:00",
  "counts": {
-  "year": 375159,
-  "upstream_day": 219,
-  "day": 340,
+  "year": 375171,
+  "upstream_day": 231,
+  "day": 346,
   "day_basis": "midnight"
  },
- "raw_rows": 34,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9832777",
+   "sequence": "2026-11-38060",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:00:07Z",
+   "created": "2026-11-27T16:00:07Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5224 SILVER LN",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 3",
+   "lat": 35.046014,
+   "lon": -85.02364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832778",
+   "sequence": "2026-11-38061",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:00:07Z",
+   "created": "2026-11-27T16:00:07Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5224 SILVER LN",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-3 CO A",
+   "priority": "PRI 3",
+   "lat": 35.046014,
+   "lon": -85.02364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832775",
+   "sequence": "2026-11-38059",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:00:07Z",
+   "created": "2026-11-27T15:59:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5224 SILVER LN",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.046014,
+   "lon": -85.02364,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832771",
    "sequence": "2026-11-38055",
@@ -90,8 +168,8 @@
    "id": "9832766",
    "sequence": "2026-11-38054",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:55:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:54:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,8 +194,8 @@
    "id": "9832765",
    "sequence": "2026-11-38051",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:54:53Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:54:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +376,8 @@
    "id": "9832751",
    "sequence": "2026-11-38042",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:59:39Z",
    "created": "2026-11-27T15:48:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +428,8 @@
    "id": "9832748",
    "sequence": "2026-11-38039",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:55:40Z",
    "created": "2026-11-27T15:47:42Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -376,8 +454,8 @@
    "id": "9832746",
    "sequence": "2026-11-38037",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:55:55Z",
    "created": "2026-11-27T15:47:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -555,32 +633,6 @@
    "notable": false
   },
   {
-   "id": "9832731",
-   "sequence": "2026-11-38024",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:36:52Z",
-   "created": "2026-11-27T15:36:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.050662,
-   "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832730",
    "sequence": "2026-11-38023",
    "type": "Disorder",
@@ -607,89 +659,11 @@
    "notable": false
   },
   {
-   "id": "9832726",
-   "sequence": "2026-11-38019",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:40:17Z",
-   "created": "2026-11-27T15:34:49Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4821 APPIAN WAY",
-   "cross": "APPIAN CIR/ALPINE DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 4",
-   "lat": 35.138392,
-   "lon": -85.276986,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832719",
-   "sequence": "2026-11-38016",
-   "type": "Aggressive Animal",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T15:28:19Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6379 STONEY RIVER DR",
-   "cross": "SILK RD/BIRCHWOOD PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 2",
-   "lat": 35.228859,
-   "lon": -85.066827,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832718",
-   "sequence": "2026-11-38014",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:26:10Z",
-   "created": "2026-11-27T15:26:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1 E 11TH ST",
-   "cross": "GEORGIA AVE/COLUMBIA ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 2",
-   "lat": 35.044042,
-   "lon": -85.308682,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832716",
    "sequence": "2026-11-38013",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:32:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T15:56:02Z",
    "created": "2026-11-27T15:25:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -815,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9832664",
-   "sequence": "2026-11-37982",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-27T15:07:50Z",
-   "created": "2026-11-27T14:47:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "OLD DALLAS RD / CRESTWOOD DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.082476,
-   "lon": -85.296673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
@@ -862,6 +810,32 @@
    "priority": "PRI 1",
    "lat": 35.033626,
    "lon": -85.094433,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832612",
+   "sequence": "2026-11-37952",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:00:03Z",
+   "created": "2026-11-27T14:09:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 BIRMINGHAM HWY",
+   "cross": "BUSINESS PARK DR/MCGILL CEMETERY RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 34.994402,
+   "lon": -85.393367,
    "units": 1,
    "stacked": false,
    "notable": false
