@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T19:50:37+00:00",
+ "updated": "2026-11-27T19:55:39+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 590,
+  "day": 596,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833149",
+   "sequence": "2026-11-38311",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:55:20Z",
+   "created": "2026-11-27T19:54:40Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3766 LACY LEAF LN",
+   "cross": "CYPRESS CV/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.009083,
+   "lon": -85.059217,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833125",
    "sequence": "2026-11-38305",
@@ -90,7 +116,7 @@
    "id": "9833116",
    "sequence": "2026-11-38299",
    "type": "Harassment",
-   "status": "Stacked",
+   "status": "Queued",
    "status_at": "2026-11-27T19:39:36Z",
    "created": "2026-11-27T19:38:53Z",
    "jurisdiction": "Chattanooga PD",
@@ -109,7 +135,7 @@
    "lat": 35.032285,
    "lon": -85.316226,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -142,8 +168,8 @@
    "id": "9833111",
    "sequence": "2026-11-38295",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T19:52:30Z",
    "created": "2026-11-27T19:36:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.031559,
    "lon": -85.232784,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833105",
-   "sequence": "2026-11-38290",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:40:09Z",
-   "created": "2026-11-27T19:31:21Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4718 STUNNER LN",
-   "cross": "No Cross Street/STRONG AVE",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.131698,
-   "lon": -85.268679,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9833060",
-   "sequence": "2026-11-38258",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:13:51Z",
-   "created": "2026-11-27T19:01:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5873 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 1",
-   "lat": 35.111332,
-   "lon": -85.213756,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833058",
    "sequence": "2026-11-38257",
    "type": "EMS CALL",
@@ -506,8 +480,8 @@
    "id": "9833026",
    "sequence": "2026-11-38235",
    "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:49:29Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T18:45:55Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -524,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.23117,
    "lon": -85.131182,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833015",
-   "sequence": "2026-11-38229",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:53:23Z",
-   "created": "2026-11-27T18:41:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5900 HUNTER RD",
-   "cross": "CROOKED CREEK DR/RUBIN TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.121887,
-   "lon": -85.088088,
    "units": 1,
    "stacked": false,
    "notable": false
