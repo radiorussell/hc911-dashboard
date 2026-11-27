@@ -1,13 +1,273 @@
 {
- "updated": "2026-11-27T18:55:39+00:00",
+ "updated": "2026-11-27T19:00:37+00:00",
  "counts": {
-  "year": 375311,
-  "upstream_day": 371,
-  "day": 526,
+  "year": 375320,
+  "upstream_day": 380,
+  "day": 540,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 41,
  "incidents": [
+  {
+   "id": "9833056",
+   "sequence": "2026-11-38255",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:00:28Z",
+   "created": "2026-11-27T18:59:45Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4686 ARDMORE DR",
+   "cross": "OLD LEE HWY/OLD LEE HWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.067982,
+   "lon": -85.108124,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833054",
+   "sequence": "2026-11-38253",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:58:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2289 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 1",
+   "lat": 35.040129,
+   "lon": -85.150941,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833052",
+   "sequence": "2026-11-38250",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:57:46Z",
+   "created": "2026-11-27T18:57:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2296 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 1",
+   "lat": 35.039818,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833053",
+   "sequence": "2026-11-38251",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": "2026-11-27T18:58:29Z",
+   "created": "2026-11-27T18:57:46Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2296 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.039818,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833051",
+   "sequence": "2026-11-38248",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:57:42Z",
+   "created": "2026-11-27T18:57:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7504 OLD LEE HWY",
+   "cross": "EXIT 7B ON RAMP NB/STONEHENGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 0",
+   "lat": 35.062227,
+   "lon": -85.125807,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833049",
+   "sequence": "2026-11-38246",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:57:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2805 E 37TH ST",
+   "cross": "DODDS AVE/12TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 1",
+   "lat": 34.999075,
+   "lon": -85.282068,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833050",
+   "sequence": "2026-11-38247",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:57:27Z",
+   "created": "2026-11-27T18:57:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2805 E 37TH ST",
+   "cross": "DODDS AVE/12TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "901",
+   "priority": "PRI 2",
+   "lat": 34.999075,
+   "lon": -85.282068,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833046",
+   "sequence": "2026-11-38244",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:56:55Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6416 HOLIDAY DR",
+   "cross": "FLOYD DR/BLANTON DR",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 3",
+   "lat": 34.991282,
+   "lon": -85.212887,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833042",
+   "sequence": "2026-11-38245",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:56:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2805 E 37TH ST",
+   "cross": "DODDS AVE/12TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.999075,
+   "lon": -85.282068,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833043",
+   "sequence": "2026-11-38249",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:56:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2296 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.039818,
+   "lon": -85.149705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833036",
    "sequence": "2026-11-38239",
@@ -165,58 +425,6 @@
    "notable": false
   },
   {
-   "id": "9833021",
-   "sequence": "2026-11-38228",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:41:49Z",
-   "created": "2026-11-27T18:41:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2277 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.039243,
-   "lon": -85.151301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833020",
-   "sequence": "2026-11-38227",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:46:55Z",
-   "created": "2026-11-27T18:41:49Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2277 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.039243,
-   "lon": -85.151301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833015",
    "sequence": "2026-11-38229",
    "type": "MVC No Injuries",
@@ -231,13 +439,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "5987 HUNTER RD",
-   "cross": "LEBRON STERCHI DR/BENWOOD DR",
+   "address": "5900 HUNTER RD",
+   "cross": "CROOKED CREEK DR/RUBIN TRL",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 8 A",
    "priority": "PRI 3",
-   "lat": 35.121005,
-   "lon": -85.094524,
+   "lat": 35.121887,
+   "lon": -85.088088,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -273,7 +481,7 @@
    "sequence": "2026-11-38225",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T18:58:14Z",
    "created": "2026-11-27T18:41:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -451,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9832999",
-   "sequence": "2026-11-38208",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:29:24Z",
-   "created": "2026-11-27T18:29:24Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "562 MELWOOD LN",
-   "cross": "MIKEMON DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3 HC",
-   "priority": "PRI 2",
-   "lat": 34.992883,
-   "lon": -85.107183,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832995",
    "sequence": "2026-11-38206",
    "type": "EMS CALL",
@@ -529,32 +711,6 @@
    "notable": false
   },
   {
-   "id": "9832994",
-   "sequence": "2026-11-38205",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T18:28:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8147 FOSTER RD",
-   "cross": "JAMES AVE/LINDSAY AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 34.998704,
-   "lon": -85.149811,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832992",
    "sequence": "2026-11-38204",
    "type": "Unknown 911",
@@ -584,8 +740,8 @@
    "id": "9832986",
    "sequence": "2026-11-38198",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T18:43:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T18:56:13Z",
    "created": "2026-11-27T18:21:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -607,37 +763,11 @@
    "notable": false
   },
   {
-   "id": "9832983",
-   "sequence": "2026-11-38195",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:21:33Z",
-   "created": "2026-11-27T18:18:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1700 - 1799 MCCALLIE AVE",
-   "cross": "N HICKORY ST/S HAWTHORNE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 1",
-   "lat": 35.03693,
-   "lon": -85.277468,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9832980",
    "sequence": "2026-11-38192",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T18:47:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:00:13Z",
    "created": "2026-11-27T18:17:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -789,32 +919,6 @@
    "notable": false
   },
   {
-   "id": "9832925",
-   "sequence": "2026-11-38160",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-27T17:42:23Z",
-   "created": "2026-11-27T17:38:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2105 APPLING ST",
-   "cross": "CURTIS ST/BROWNS ALY",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.067918,
-   "lon": -85.253681,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832919",
    "sequence": "2026-11-38157",
    "type": "EMS CALL",
@@ -844,8 +948,8 @@
    "id": "9832815",
    "sequence": "2026-11-38090",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T16:22:54Z",
    "created": "2026-11-27T16:22:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -863,7 +967,7 @@
    "lat": 34.987475,
    "lon": -85.289464,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
