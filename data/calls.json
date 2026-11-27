@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T19:45:37+00:00",
+ "updated": "2026-11-27T19:50:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
   "day": 590,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 28,
  "incidents": [
   {
    "id": "9833125",
    "sequence": "2026-11-38305",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T19:49:51Z",
    "created": "2026-11-27T19:43:31Z",
    "jurisdiction": "Lookout Mountain FD",
    "agencies": [
@@ -75,13 +75,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "4025 OAKWOOD DR",
+   "cross": "WEBB RD/HIGHWAY 58",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "C5",
    "priority": "PRI 3",
-   "lat": 35.081426,
-   "lon": -85.263454,
+   "lat": 35.090943,
+   "lon": -85.189848,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,58 +165,6 @@
    "notable": false
   },
   {
-   "id": "9833112",
-   "sequence": "2026-11-38293",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:38:42Z",
-   "created": "2026-11-27T19:36:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4905 HIGHWAY 58",
-   "cross": "GOLD WING WAY/JERSEY PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.094636,
-   "lon": -85.184576,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833109",
-   "sequence": "2026-11-38292",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:33:27Z",
-   "created": "2026-11-27T19:33:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "INTERSTATE 24 WB / EXIT 180A OFF RAMP WB",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 2",
-   "lat": 35.018745,
-   "lon": -85.28877,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833105",
    "sequence": "2026-11-38290",
    "type": "Well Being Check",
@@ -269,37 +217,11 @@
    "notable": true
   },
   {
-   "id": "9833101",
-   "sequence": "2026-11-38287",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:29:40Z",
-   "created": "2026-11-27T19:29:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7031 GLOVER RD",
-   "cross": "SHOALS LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 4",
-   "lat": 35.139072,
-   "lon": -85.147078,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833095",
    "sequence": "2026-11-38282",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:36:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T19:46:48Z",
    "created": "2026-11-27T19:23:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -581,6 +503,32 @@
    "notable": false
   },
   {
+   "id": "9833026",
+   "sequence": "2026-11-38235",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:49:29Z",
+   "created": "2026-11-27T18:45:55Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10210 HAMBY RD",
+   "cross": "SEQUOYAH ACCESS RD/HARRIS FARM LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 4",
+   "lat": 35.23117,
+   "lon": -85.131182,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833015",
    "sequence": "2026-11-38229",
    "type": "MVC No Injuries",
@@ -602,58 +550,6 @@
    "priority": "PRI 3",
    "lat": 35.121887,
    "lon": -85.088088,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833017",
-   "sequence": "2026-11-38226",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:20:05Z",
-   "created": "2026-11-27T18:41:20Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2277 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.039243,
-   "lon": -85.151301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832996",
-   "sequence": "2026-11-38210",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T18:29:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7925 HAMILTON MILL DR",
-   "cross": "JENKINS RD/HAMILTON BROW PATH",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.028466,
-   "lon": -85.133896,
    "units": 1,
    "stacked": false,
    "notable": false
