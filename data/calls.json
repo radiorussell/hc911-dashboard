@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-27T14:15:38+00:00",
+ "updated": "2026-11-27T14:20:43+00:00",
  "counts": {
-  "year": 375093,
-  "upstream_day": 153,
-  "day": 237,
+  "year": 375100,
+  "upstream_day": 160,
+  "day": 243,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832624",
+   "sequence": "2026-11-37957",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:18:31Z",
+   "created": "2026-11-27T14:18:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8902 BAY VIEW DR",
+   "cross": "CHESAPEAKE DR/WOOTEN RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 3",
+   "lat": 35.112664,
+   "lon": -85.160359,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832623",
+   "sequence": "2026-11-37958",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:18:54Z",
+   "created": "2026-11-27T14:16:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "100 MOCCASIN BEND RD",
+   "cross": "No Cross Street/HAMM RD",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.025713,
+   "lon": -85.335435,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832622",
+   "sequence": "2026-11-37956",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:16:12Z",
+   "created": "2026-11-27T14:16:04Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832621",
+   "sequence": "2026-11-37955",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T14:15:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1951 GUNBARREL RD",
+   "cross": "JARNIGAN RD/GOODWIN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.029988,
+   "lon": -85.156076,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832612",
    "sequence": "2026-11-37952",
@@ -30,32 +134,6 @@
    "priority": "PRI 4",
    "lat": 34.994402,
    "lon": -85.393367,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832617",
-   "sequence": "2026-11-37950",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T14:08:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 W 21ST ST",
-   "cross": "EXIT 179 S OFF RAMP WB/EXIT 178 N ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.031276,
-   "lon": -85.311528,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9832573",
-   "sequence": "2026-11-37916",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:27:35Z",
-   "created": "2026-11-27T13:27:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4625 ST ELMO AVE",
-   "cross": "W 46TH ST/W 47TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.997036,
-   "lon": -85.329815,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832572",
    "sequence": "2026-11-37915",
    "type": "EMS CALL",
@@ -194,8 +246,8 @@
    "id": "9832567",
    "sequence": "2026-11-37912",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T13:58:28Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T14:16:24Z",
    "created": "2026-11-27T13:25:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
