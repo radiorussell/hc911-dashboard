@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T13:50:37+00:00",
+ "updated": "2026-11-27T13:55:37+00:00",
  "counts": {
   "year": 375081,
   "upstream_day": 141,
-  "day": 216,
+  "day": 220,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9832597",
+   "sequence": "2026-11-37934",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:50:45Z",
+   "created": "2026-11-27T13:50:45Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6123 SHADYWAY LN",
+   "cross": "RIVER GLADE DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 1",
+   "priority": "PRI 2",
+   "lat": 35.129743,
+   "lon": -85.159,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832594",
+   "sequence": "2026-11-37935",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:50:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "301 N HOLTZCLAW AVE",
+   "cross": "E 5TH ST/E 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.042643,
+   "lon": -85.282087,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832595",
    "sequence": "2026-11-37931",
@@ -35,11 +87,37 @@
    "notable": false
   },
   {
+   "id": "9832593",
+   "sequence": "2026-11-37933",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:50:09Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6123 SHADYWAY LN",
+   "cross": "RIVER GLADE DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 03 HC B",
+   "priority": "PRI 1",
+   "lat": 35.129743,
+   "lon": -85.159,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832591",
    "sequence": "2026-11-37930",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:50:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T13:49:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9832589",
    "sequence": "2026-11-37928",
    "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:46:46Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T13:46:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -189,32 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832568",
-   "sequence": "2026-11-37918",
-   "type": "Assault EMS Needed",
-   "status": "On Scene",
-   "status_at": "2026-11-27T13:49:39Z",
-   "created": "2026-11-27T13:26:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4118 FAGAN ST",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 1",
-   "lat": 35.001273,
-   "lon": -85.309776,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832570",
