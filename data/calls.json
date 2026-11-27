@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-27T16:40:37+00:00",
+ "updated": "2026-11-27T16:45:38+00:00",
  "counts": {
   "year": 375215,
   "upstream_day": 275,
-  "day": 402,
+  "day": 409,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 45,
  "incidents": [
+  {
+   "id": "9832860",
+   "sequence": "2026-11-38124",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:45:24Z",
+   "created": "2026-11-27T16:44:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5300 - 5327 HIGHWAY 153",
+   "cross": "NORTHGATE MALL DR/EXIT HIGHWAY 153 S ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.127339,
+   "lon": -85.242188,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832858",
+   "sequence": "2026-11-38123",
+   "type": "Burglary",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T16:44:36Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7201 MOSES RD",
+   "cross": "HILLCREST RD/FRIENDSHIP LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 4",
+   "lat": 35.182942,
+   "lon": -85.22949,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832856",
+   "sequence": "2026-11-38121",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T16:43:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 2",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832857",
+   "sequence": "2026-11-38122",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T16:43:36Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 2",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832853",
+   "sequence": "2026-11-38120",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:43:36Z",
+   "created": "2026-11-27T16:42:43Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832850",
+   "sequence": "2026-11-38119",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:41:48Z",
+   "created": "2026-11-27T16:41:48Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5707 ALABAMA AVE",
+   "cross": "W 57TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 2",
+   "lat": 34.985086,
+   "lon": -85.334005,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832849",
+   "sequence": "2026-11-38118",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T16:41:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5707 ALABAMA AVE",
+   "cross": "W 57TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 34.985086,
+   "lon": -85.334005,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832835",
    "sequence": "2026-11-38117",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:40:14Z",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:40:03Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -27,7 +209,7 @@
    "cross": "LOWELL ST/SIMS DR",
    "city": "RED BANK",
    "zone": "RED BANK 2",
-   "priority": "PRI 4",
+   "priority": "PRI 2",
    "lat": 35.10139,
    "lon": -85.30808,
    "units": 1,
@@ -220,8 +402,8 @@
    "id": "9832839",
    "sequence": "2026-11-38109",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:45:25Z",
    "created": "2026-11-27T16:35:54Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -532,8 +714,8 @@
    "id": "9832812",
    "sequence": "2026-11-38087",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:44:50Z",
    "created": "2026-11-27T16:17:39Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -628,32 +810,6 @@
    "priority": "PRI 1",
    "lat": 34.990612,
    "lon": -85.235035,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832803",
-   "sequence": "2026-11-38078",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-27T16:12:48Z",
-   "created": "2026-11-27T16:12:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.034528,
-   "lon": -85.158706,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -836,58 +992,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832746",
-   "sequence": "2026-11-38037",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:19:33Z",
-   "created": "2026-11-27T15:47:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3812 LERCH ST",
-   "cross": "HILL TOP DR/BELVOIR AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.015299,
-   "lon": -85.244892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832743",
-   "sequence": "2026-11-38032",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:16:18Z",
-   "created": "2026-11-27T15:45:38Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3320 RINGGOLD RD",
-   "cross": "WYNNWOOD RD/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 35.007647,
-   "lon": -85.263704,
    "units": 1,
    "stacked": false,
    "notable": false
