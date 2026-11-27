@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T15:05:38+00:00",
+ "updated": "2026-11-27T15:10:36+00:00",
  "counts": {
-  "year": 375122,
-  "upstream_day": 182,
-  "day": 286,
+  "year": 375128,
+  "upstream_day": 188,
+  "day": 289,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9832695",
+   "sequence": "2026-11-38004",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:09:05Z",
+   "created": "2026-11-27T15:08:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.034528,
+   "lon": -85.158706,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832693",
+   "sequence": "2026-11-38002",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:07:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "739 ASHLAND TER",
+   "cross": "SANDERS DR/CLAUDE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.116512,
+   "lon": -85.274717,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832691",
+   "sequence": "2026-11-38003",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:07:40Z",
+   "created": "2026-11-27T15:06:40Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5057 JUNO LN",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.06496,
+   "lon": -85.077226,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832690",
    "sequence": "2026-11-38001",
@@ -143,7 +221,7 @@
    "sequence": "2026-11-37991",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T15:06:04Z",
    "created": "2026-11-27T14:55:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9832673",
    "sequence": "2026-11-37988",
    "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:10:31Z",
    "created": "2026-11-27T14:52:03Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -221,7 +299,7 @@
    "sequence": "2026-11-37982",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T15:07:50Z",
    "created": "2026-11-27T14:47:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -446,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.148695,
    "lon": -85.270549,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832572",
-   "sequence": "2026-11-37915",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T14:30:01Z",
-   "created": "2026-11-27T13:27:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4625 ST ELMO AVE",
-   "cross": "W 46TH ST/W 47TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.997036,
-   "lon": -85.329815,
    "units": 1,
    "stacked": false,
    "notable": false
