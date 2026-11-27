@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T00:55:37+00:00",
+ "updated": "2026-11-27T01:00:38+00:00",
  "counts": {
-  "year": 374808,
+  "year": 374812,
   "upstream_day": 0,
   "day": 890,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 19,
  "incidents": [
   {
    "id": "9832083",
@@ -38,8 +38,8 @@
    "id": "9832081",
    "sequence": "2026-11-37551",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:57:57Z",
    "created": "2026-11-27T00:50:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -87,58 +87,6 @@
    "notable": false
   },
   {
-   "id": "9832067",
-   "sequence": "2026-11-37543",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:54:26Z",
-   "created": "2026-11-27T00:41:37Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3214 JOSELIN LN",
-   "cross": "TIKTIN DR/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.105552,
-   "lon": -85.292115,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832061",
-   "sequence": "2026-11-37538",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:27:23Z",
-   "created": "2026-11-27T00:27:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.036989,
-   "lon": -85.136656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832062",
    "sequence": "2026-11-37539",
    "type": "EMS CALL",
@@ -168,8 +116,8 @@
    "id": "9832060",
    "sequence": "2026-11-37537",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:34:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T00:55:54Z",
    "created": "2026-11-27T00:26:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +246,8 @@
    "id": "9832043",
    "sequence": "2026-11-37520",
    "type": "MVC No Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-27T00:12:36Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:57:46Z",
    "created": "2026-11-27T00:12:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -317,7 +265,7 @@
    "lat": 35.068392,
    "lon": -85.167091,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
