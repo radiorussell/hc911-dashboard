@@ -1,61 +1,113 @@
 {
- "updated": "2026-11-27T11:35:38+00:00",
+ "updated": "2026-11-27T11:40:37+00:00",
  "counts": {
-  "year": 375044,
-  "upstream_day": 104,
-  "day": 138,
+  "year": 375046,
+  "upstream_day": 106,
+  "day": 152,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
   {
-   "id": "9832473",
-   "sequence": "2026-11-37852",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-27T11:33:20Z",
-   "created": "2026-11-27T11:16:38Z",
-   "jurisdiction": "East Ridge PD",
+   "id": "9832496",
+   "sequence": "2026-11-37867",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-27T11:40:20Z",
+   "created": "2026-11-27T11:40:17Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "3704 WHITEHEAD AVE",
-   "cross": "No Cross Street/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 2",
-   "lat": 34.99702,
-   "lon": -85.260601,
+   "address": "743 W MAIN STREET CT",
+   "cross": "W MAIN ST/W MAIN ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 1",
+   "lat": 35.040686,
+   "lon": -85.317394,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9832474",
-   "sequence": "2026-11-37853",
+   "id": "9832494",
+   "sequence": "2026-11-37866",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T11:34:30Z",
-   "created": "2026-11-27T11:16:38Z",
-   "jurisdiction": "East Ridge FD",
+   "status": "Queued",
+   "status_at": "2026-11-27T11:36:03Z",
+   "created": "2026-11-27T11:36:03Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "East Ridge FD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "3704 WHITEHEAD AVE",
-   "cross": "No Cross Street/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.036989,
+   "lon": -85.136656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832493",
+   "sequence": "2026-11-37865",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T11:36:02Z",
+   "created": "2026-11-27T11:36:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
    "priority": "PRI 3",
-   "lat": 34.99702,
-   "lon": -85.260601,
+   "lat": 35.036989,
+   "lon": -85.136656,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832491",
+   "sequence": "2026-11-37864",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:35:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7719 SHALLOWFORD RD",
+   "cross": "BASKETTE WAY/PETERSON DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.036989,
+   "lon": -85.136656,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.040793,
    "lon": -85.301205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832435",
-   "sequence": "2026-11-37821",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T11:08:24Z",
-   "created": "2026-11-27T10:16:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "30 TUNNEL BLVD",
-   "cross": "BRAINERD RD/MONTVIEW DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 2",
-   "lat": 35.026486,
-   "lon": -85.247623,
    "units": 1,
    "stacked": false,
    "notable": false
