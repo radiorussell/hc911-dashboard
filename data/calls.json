@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T14:55:38+00:00",
+ "updated": "2026-11-27T15:00:39+00:00",
  "counts": {
-  "year": 375118,
-  "upstream_day": 178,
-  "day": 276,
+  "year": 375122,
+  "upstream_day": 182,
+  "day": 281,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 20,
  "incidents": [
+  {
+   "id": "9832684",
+   "sequence": "2026-11-37995",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:00:17Z",
+   "created": "2026-11-27T15:00:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "E 10TH ST / UNIVERSITY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "203",
+   "priority": "PRI 3",
+   "lat": 35.042153,
+   "lon": -85.30214,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832685",
+   "sequence": "2026-11-37996",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:00:17Z",
+   "created": "2026-11-27T15:00:17Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "E 10TH ST / UNIVERSITY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 3",
+   "lat": 35.042153,
+   "lon": -85.30214,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832683",
+   "sequence": "2026-11-37994",
+   "type": "Street Status",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:00:17Z",
+   "created": "2026-11-27T15:00:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 10TH ST / UNIVERSITY ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 0",
+   "lat": 35.042153,
+   "lon": -85.30214,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832681",
+   "sequence": "2026-11-37993",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:59:58Z",
+   "created": "2026-11-27T14:59:13Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DALLAS HOLLOW RD / W RIDGE TRAIL RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 4",
+   "lat": 35.218918,
+   "lon": -85.154944,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832678",
    "sequence": "2026-11-37991",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:55:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T14:55:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9832673",
    "sequence": "2026-11-37988",
    "type": "Backup Other Agency",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:52:21Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T14:52:03Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -56,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.19898,
    "lon": -85.132131,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832669",
-   "sequence": "2026-11-37987",
-   "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:51:52Z",
-   "created": "2026-11-27T14:51:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "790 - 799 OLD DALLAS RD",
-   "cross": "OXFORD RD/E DALLAS RD",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.082211,
-   "lon": -85.297008,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +298,8 @@
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T14:58:42Z",
    "created": "2026-11-27T14:40:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
