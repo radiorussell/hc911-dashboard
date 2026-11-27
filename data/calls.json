@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-27T20:00:40+00:00",
+ "updated": "2026-11-27T20:10:38+00:00",
  "counts": {
-  "year": 375376,
-  "upstream_day": 436,
-  "day": 603,
+  "year": 375382,
+  "upstream_day": 442,
+  "day": 615,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
   {
-   "id": "9833160",
-   "sequence": "2026-11-38318",
-   "type": "Carbon Monoxide Alarm",
+   "id": "9833177",
+   "sequence": "2026-11-38330",
+   "type": "Check For A Hazard",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-27T19:58:35Z",
+   "created": "2026-11-27T20:08:48Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1710 HIGHWAY 27 SB",
+   "cross": "EXIT HARRISON LN ON RAMP SB/EXIT HARRISON LN OFF RAMP SB",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 2",
+   "lat": 35.234636,
+   "lon": -85.19655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833178",
+   "sequence": "2026-11-38329",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:07:49Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,24 +49,24 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "713 MOUNTAIN CREEK RD",
-   "cross": "SIGNAL MOUNTAIN RD/CROSS ST",
+   "address": "1914 ROSSVILLE AVE",
+   "cross": "ADAMS ST/JEFFERSON ST",
    "city": "CHATTANOOGA",
-   "zone": "1701 A",
+   "zone": "201 A",
    "priority": "PRI 1",
-   "lat": 35.099895,
-   "lon": -85.327938,
+   "lat": 35.030305,
+   "lon": -85.302326,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9833158",
-   "sequence": "2026-11-38315",
-   "type": "Unknown 911",
+   "id": "9833171",
+   "sequence": "2026-11-38324",
+   "type": "Auto Theft",
    "status": "Queued",
-   "status_at": "2026-11-27T19:58:15Z",
-   "created": "2026-11-27T19:58:11Z",
+   "status_at": "2026-11-27T20:04:57Z",
+   "created": "2026-11-27T20:04:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +75,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2124 MERLIN DR",
-   "cross": "PETERSON DR/TRISTRAM RD",
+   "address": "400 WORKMAN RD",
+   "cross": "FAGAN ST/WILSON RD",
    "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.02992,
-   "lon": -85.139201,
+   "zone": "A12",
+   "priority": "PRI 4",
+   "lat": 34.996444,
+   "lon": -85.309655,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833168",
+   "sequence": "2026-11-38321",
+   "type": "Carbon Monoxide Alarm",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:02:37Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1705 BUTTONWOOD LOOP",
+   "cross": "E BRAINERD RD/E BRAINERD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5-3-CATOOSA B",
+   "priority": "PRI 1",
+   "lat": 34.998425,
+   "lon": -85.098658,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +168,8 @@
    "id": "9833149",
    "sequence": "2026-11-38311",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:09:46Z",
    "created": "2026-11-27T19:54:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -298,8 +350,8 @@
    "id": "9833095",
    "sequence": "2026-11-38282",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T19:46:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T20:06:46Z",
    "created": "2026-11-27T19:23:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -477,32 +529,6 @@
    "notable": false
   },
   {
-   "id": "9833033",
-   "sequence": "2026-11-38241",
-   "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T18:48:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5300 - 5319 HUNTER RD",
-   "cross": "OOLTEWAH HARRISON RD/WINDHAVEN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.08641,
-   "lon": -85.079299,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833034",
    "sequence": "2026-11-38238",
    "type": "Harassment",
@@ -555,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9832970",
-   "sequence": "2026-11-38189",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:10:03Z",
-   "created": "2026-11-27T18:13:43Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8015 HALE RD",
-   "cross": "CRABTREE RD/KOWLOON TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 12 HC C",
-   "priority": "PRI 2",
-   "lat": 35.193515,
-   "lon": -85.174993,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832957",
    "sequence": "2026-11-38178",
    "type": "Domestic Disorder",
@@ -604,32 +604,6 @@
    "lon": -85.297898,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832815",
-   "sequence": "2026-11-38090",
-   "type": "Deceptive Practice",
-   "status": "Stacked",
-   "status_at": "2026-11-27T16:22:54Z",
-   "created": "2026-11-27T16:22:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1700 E 48TH ST",
-   "cross": "COVINGTON ST/ENGLISH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 4",
-   "lat": 34.987475,
-   "lon": -85.289464,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
