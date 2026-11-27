@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T08:45:36+00:00",
+ "updated": "2026-11-27T08:50:38+00:00",
  "counts": {
-  "year": 375000,
-  "upstream_day": 60,
-  "day": 83,
+  "year": 375004,
+  "upstream_day": 64,
+  "day": 84,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9832398",
+   "sequence": "2026-11-37799",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T08:50:15Z",
+   "created": "2026-11-27T08:50:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1301 - 1399 E 23RD ST",
+   "cross": "S HOLTZCLAW AVE/S GREENWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.02223,
+   "lon": -85.29137,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832397",
    "sequence": "2026-11-37798",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:48:49Z",
    "created": "2026-11-27T08:42:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9832392",
    "sequence": "2026-11-37793",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:48:48Z",
    "created": "2026-11-27T08:37:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
