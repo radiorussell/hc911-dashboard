@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-27T01:05:38+00:00",
+ "updated": "2026-11-27T01:10:36+00:00",
  "counts": {
-  "year": 374812,
+  "year": 374817,
   "upstream_day": 0,
-  "day": 895,
+  "day": 901,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9832097",
+   "sequence": "2026-11-37563",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:10:28Z",
+   "created": "2026-11-27T01:10:28Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9117 HUNTERS BEND CIR",
+   "cross": "No Cross Street/OOLTEWAH RINGGOLD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 3",
+   "lat": 35.019675,
+   "lon": -85.090234,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832096",
+   "sequence": "2026-11-37562",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:10:28Z",
+   "created": "2026-11-27T01:10:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9117 HUNTERS BEND CIR",
+   "cross": "No Cross Street/OOLTEWAH RINGGOLD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 2",
+   "lat": 35.019675,
+   "lon": -85.090234,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832093",
+   "sequence": "2026-11-37559",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:08:23Z",
+   "created": "2026-11-27T01:08:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "611 SUN VALLEY RD",
+   "cross": "RIVER GORGE DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.00534,
+   "lon": -85.398189,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832094",
+   "sequence": "2026-11-37560",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:08:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "611 SUN VALLEY RD",
+   "cross": "RIVER GORGE DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "302",
+   "priority": "PRI 1",
+   "lat": 35.00534,
+   "lon": -85.398189,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832092",
+   "sequence": "2026-11-37558",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:07:48Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "611 SUN VALLEY RD",
+   "cross": "RIVER GORGE DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.00534,
+   "lon": -85.398189,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832088",
    "sequence": "2026-11-37556",
@@ -134,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.04796,
    "lon": -85.243049,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832062",
-   "sequence": "2026-11-37539",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:27:23Z",
-   "created": "2026-11-27T00:27:23Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7719 SHALLOWFORD RD",
-   "cross": "BASKETTE WAY/PETERSON DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 1",
-   "lat": 35.036989,
-   "lon": -85.136656,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +454,8 @@
    "id": "9831978",
    "sequence": "2026-11-37470",
    "type": "Auto Improperly Parked",
-   "status": "Stacked",
-   "status_at": "2026-11-26T23:14:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T23:14:17Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -369,7 +473,7 @@
    "lat": 35.034644,
    "lon": -85.243491,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
