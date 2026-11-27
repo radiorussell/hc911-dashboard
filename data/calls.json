@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T21:20:38+00:00",
+ "updated": "2026-11-27T21:25:40+00:00",
  "counts": {
   "year": 375437,
   "upstream_day": 497,
-  "day": 683,
+  "day": 688,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9833270",
+   "sequence": "2026-11-38403",
+   "type": "Auto Broken Down Road",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:24:27Z",
+   "created": "2026-11-27T21:20:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4401 - 4499 HIXSON PIKE",
+   "cross": "EXIT HIXSON PIKE ON RAMP SB/HAMILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 2",
+   "lat": 35.117975,
+   "lon": -85.249979,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833267",
    "sequence": "2026-11-38398",
@@ -139,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9833258",
-   "sequence": "2026-11-38390",
-   "type": "Narcotics Violation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T21:13:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3408 S ORCHARD KNOB AVE",
-   "cross": "E 34TH ST/CLIO AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.005547,
-   "lon": -85.290967,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833250",
    "sequence": "2026-11-38384",
    "type": "Property",
@@ -194,8 +194,8 @@
    "id": "9833249",
    "sequence": "2026-11-38383",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:22:38Z",
    "created": "2026-11-27T21:06:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.094368,
    "lon": -85.331318,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833233",
-   "sequence": "2026-11-38372",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-27T21:10:50Z",
-   "created": "2026-11-27T20:55:56Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8417 SPRINGFIELD RD",
-   "cross": "HOUSLEY RD/LAYNE RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 4",
-   "lat": 35.219382,
-   "lon": -85.227701,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -264,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.08074,
    "lon": -85.070095,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833217",
-   "sequence": "2026-11-38359",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:44:46Z",
-   "created": "2026-11-27T20:44:46Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6921 ECHO GLEN DR",
-   "cross": "JULIANA LN/BOY SCOUT RD",
-   "city": "CHATTANOOGA",
-   "zone": "2202",
-   "priority": "PRI 1",
-   "lat": 35.181447,
-   "lon": -85.245319,
    "units": 1,
    "stacked": false,
    "notable": false
