@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-27T05:15:37+00:00",
+ "updated": "2026-11-27T05:20:38+00:00",
  "counts": {
-  "year": 374940,
-  "upstream_day": 0,
+  "year": 374944,
+  "upstream_day": 4,
   "day": 6,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 6,
  "incidents": [
   {
    "id": "9832301",
    "sequence": "2026-11-37721",
-   "type": "Unknown Trouble",
+   "type": "Disorder",
    "status": "On Scene",
    "status_at": "2026-11-27T05:10:38Z",
    "created": "2026-11-27T05:07:42Z",
@@ -27,61 +27,9 @@
    "cross": "E 5TH ST/E 3RD ST",
    "city": "CHATTANOOGA",
    "zone": "B4",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.042348,
    "lon": -85.278859,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832299",
-   "sequence": "2026-11-37719",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T05:06:31Z",
-   "created": "2026-11-27T05:06:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "320 N HIGHLAND PARK AVE",
-   "cross": "E 5TH ST/E 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.042212,
-   "lon": -85.278127,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832284",
-   "sequence": "2026-11-37706",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:45:46Z",
-   "created": "2026-11-27T04:38:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7201 - 7299 DISCOVERY DR",
-   "cross": "VOLKSWAGEN DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.07006,
-   "lon": -85.14304,
    "units": 1,
    "stacked": false,
    "notable": false
