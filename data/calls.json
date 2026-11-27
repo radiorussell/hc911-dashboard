@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T22:40:38+00:00",
+ "updated": "2026-11-27T22:45:38+00:00",
  "counts": {
   "year": 375521,
   "upstream_day": 581,
-  "day": 799,
+  "day": 803,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9833411",
+   "sequence": "2026-11-38518",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:44:15Z",
+   "created": "2026-11-27T22:43:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1003 NEST TRL",
+   "cross": "No Cross Street/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.111125,
+   "lon": -85.267845,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833409",
+   "sequence": "2026-11-38516",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:41:40Z",
+   "created": "2026-11-27T22:40:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3334 GUNDY LN",
+   "cross": "No Cross Street/O GRADY DR",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.052659,
+   "lon": -85.353669,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833405",
    "sequence": "2026-11-38514",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:37:02Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:36:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -61,32 +113,6 @@
    "notable": true
   },
   {
-   "id": "9833402",
-   "sequence": "2026-11-38511",
-   "type": "Apartment Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:39:55Z",
-   "created": "2026-11-27T22:34:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1521 HICKORY VALLEY RD",
-   "cross": "NAKWISA DR/HICKORY TRACE CIR",
-   "city": "CHATTANOOGA",
-   "zone": "802 C",
-   "priority": "PRI 1",
-   "lat": 35.024883,
-   "lon": -85.178406,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833400",
    "sequence": "2026-11-38509",
    "type": "Well Being Check",
@@ -116,8 +142,8 @@
    "id": "9833399",
    "sequence": "2026-11-38508",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:41:12Z",
    "created": "2026-11-27T22:32:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9833391",
    "sequence": "2026-11-38501",
    "type": "Disorder Weapon Involve",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:27:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:26:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.010725,
    "lon": -85.219474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833386",
-   "sequence": "2026-11-38497",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:36:27Z",
-   "created": "2026-11-27T22:25:45Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5501 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.010327,
-   "lon": -85.220476,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833375",
-   "sequence": "2026-11-38491",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T22:21:46Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 - 399 VALLEY VIEW AVE",
-   "cross": "DAYTON BLVD/FORSYTHE ST",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.126826,
-   "lon": -85.28458,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -581,32 +555,6 @@
    "notable": false
   },
   {
-   "id": "9833345",
-   "sequence": "2026-11-38466",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:22:24Z",
-   "created": "2026-11-27T22:13:34Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "GRASSHOPPER RD / DOLLY POND RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 3",
-   "priority": "PRI 1",
-   "lat": 35.292017,
-   "lon": -85.000033,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833344",
    "sequence": "2026-11-38465",
    "type": "MVC Injuries",
@@ -647,8 +595,8 @@
    "agency_types": [
     "Law"
    ],
-   "address": "GRASSHOPPER RD / DOLLY POND RD",
-   "cross": "",
+   "address": "7000 GRASSHOPPER RD",
+   "cross": "DOLLY POND RD/LEOLLA LN",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 7",
    "priority": "PRI 1",
@@ -657,32 +605,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833329",
-   "sequence": "2026-11-38455",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:06:59Z",
-   "created": "2026-11-27T22:06:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7683 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "802 B",
-   "priority": "PRI 2",
-   "lat": 35.038784,
-   "lon": -85.13925,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833327",
@@ -763,32 +685,6 @@
    "notable": false
   },
   {
-   "id": "9833313",
-   "sequence": "2026-11-38442",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:53:05Z",
-   "created": "2026-11-27T21:53:05Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2636 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 1",
-   "lat": 35.057245,
-   "lon": -85.132162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833302",
    "sequence": "2026-11-38435",
    "type": "Theft",
@@ -810,58 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.034528,
    "lon": -85.158706,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833266",
-   "sequence": "2026-11-38397",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T22:17:37Z",
-   "created": "2026-11-27T21:18:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1005 MOUNTAIN CREEK RD",
-   "cross": "W RD/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.110028,
-   "lon": -85.326104,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833262",
-   "sequence": "2026-11-38394",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T22:07:52Z",
-   "created": "2026-11-27T21:17:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2620 BOYCE ST",
-   "cross": "MEADOW LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.082654,
-   "lon": -85.233813,
    "units": 1,
    "stacked": false,
    "notable": false
