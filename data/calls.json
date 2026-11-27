@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T17:55:37+00:00",
+ "updated": "2026-11-27T18:00:44+00:00",
  "counts": {
-  "year": 375260,
-  "upstream_day": 320,
-  "day": 455,
+  "year": 375265,
+  "upstream_day": 325,
+  "day": 460,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9832952",
+   "sequence": "2026-11-38175",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:57:10Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9427 MOUNTAIN SHADOWS DR",
+   "cross": "ROYAL MOUNTAIN DR/SHADOW PKWY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.01316,
+   "lon": -85.101967,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832951",
+   "sequence": "2026-11-38174",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:57:56Z",
+   "created": "2026-11-27T17:56:00Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6860 LEE HWY",
+   "cross": "HICKORY VALLEY RD/CONNER LN",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 1",
+   "lat": 35.041274,
+   "lon": -85.167206,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832945",
    "sequence": "2026-11-38170",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:57:00Z",
    "created": "2026-11-27T17:52:12Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +116,8 @@
    "id": "9832933",
    "sequence": "2026-11-38166",
    "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:46:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T17:46:34Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -108,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.033372,
    "lon": -85.159309,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832927",
-   "sequence": "2026-11-38165",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T17:40:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6241 PERIMETER DR",
-   "cross": "LEE HWY/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 2",
-   "lat": 35.029578,
-   "lon": -85.181639,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,58 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.056528,
    "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832909",
-   "sequence": "2026-11-38152",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:43:18Z",
-   "created": "2026-11-27T17:27:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4620 HIGHWAY 58",
-   "cross": "BRIARWOOD DR/HAL DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.085565,
-   "lon": -85.192103,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832903",
-   "sequence": "2026-11-38148",
-   "type": "Aggressive Animal",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:50:25Z",
-   "created": "2026-11-27T17:22:50Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4424 PAULA LN",
-   "cross": "CRESTVIEW DR/ELY RD",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 2",
-   "lat": 35.123502,
-   "lon": -85.277041,
    "units": 1,
    "stacked": false,
    "notable": false
