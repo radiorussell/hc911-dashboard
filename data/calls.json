@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T15:10:36+00:00",
+ "updated": "2026-11-27T15:15:37+00:00",
  "counts": {
   "year": 375128,
   "upstream_day": 188,
-  "day": 289,
+  "day": 290,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9832696",
+   "sequence": "2026-11-38005",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:12:32Z",
+   "created": "2026-11-27T15:09:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.061233,
+   "lon": -85.131847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832695",
    "sequence": "2026-11-38004",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:09:05Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:08:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9832691",
    "sequence": "2026-11-38003",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:07:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:06:40Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -165,32 +191,6 @@
    "notable": true
   },
   {
-   "id": "9832686",
-   "sequence": "2026-11-37997",
-   "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T15:00:41Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5449 WATKINS ST",
-   "cross": "No Cross Street/JETRAIL DR",
-   "city": "COLLEGEDALE",
-   "zone": "TRI-COMM FD 1-4 CO B",
-   "priority": "PRI 3",
-   "lat": 35.07152,
-   "lon": -85.065094,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9832684",
    "sequence": "2026-11-37995",
    "type": "Street Status",
@@ -264,32 +264,6 @@
    "priority": "PRI 2",
    "lat": 35.19898,
    "lon": -85.132131,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832667",
-   "sequence": "2026-11-37984",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:00:59Z",
-   "created": "2026-11-27T14:49:18Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1000 BASS PRO DR",
-   "cross": "No Cross Street/CAMP JORDAN PKWY",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 4",
-   "lat": 34.992826,
-   "lon": -85.202645,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -472,58 +446,6 @@
    "priority": "PRI 4",
    "lat": 35.031276,
    "lon": -85.311528,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832593",
-   "sequence": "2026-11-37933",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T14:50:27Z",
-   "created": "2026-11-27T13:50:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6123 SHADYWAY LN",
-   "cross": "RIVER GLADE DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 03 HC B",
-   "priority": "PRI 1",
-   "lat": 35.129743,
-   "lon": -85.159,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832591",
-   "sequence": "2026-11-37930",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T14:37:31Z",
-   "created": "2026-11-27T13:49:51Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "200 ALLEN RD",
-   "cross": "JACKSON ST/KIMBRO ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.148695,
-   "lon": -85.270549,
    "units": 1,
    "stacked": false,
    "notable": false
