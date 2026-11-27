@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-27T20:50:39+00:00",
+ "updated": "2026-11-27T20:55:41+00:00",
  "counts": {
   "year": 375414,
   "upstream_day": 474,
-  "day": 652,
+  "day": 651,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
-  {
-   "id": "9833225",
-   "sequence": "2026-11-38367",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:50:27Z",
-   "created": "2026-11-27T20:50:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1280 DUANE RD",
-   "cross": "AVON PL/HIXSON PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 4",
-   "lat": 35.076536,
-   "lon": -85.28932,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9833224",
    "sequence": "2026-11-38366",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:49:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:49:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -65,7 +39,7 @@
    "sequence": "2026-11-38363",
    "type": "Auto Broken Down Road",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T20:52:08Z",
    "created": "2026-11-27T20:46:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +194,8 @@
    "id": "9833215",
    "sequence": "2026-11-38357",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:52:11Z",
    "created": "2026-11-27T20:43:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +220,8 @@
    "id": "9833213",
    "sequence": "2026-11-38355",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:43:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:43:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.136011,
    "lon": -85.24637,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833200",
-   "sequence": "2026-11-38348",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T20:31:31Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1618 GLOWMONT DR",
-   "cross": "ST JAMES AVE/STATE LINE RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.986599,
-   "lon": -85.218271,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -316,6 +264,32 @@
    "priority": "PRI 3",
    "lat": 35.152975,
    "lon": -85.24562,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833189",
+   "sequence": "2026-11-38344",
+   "type": "Missing Endangered",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:27:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "975 E 3RD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 1",
+   "lat": 35.048719,
+   "lon": -85.290431,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -477,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9833113",
-   "sequence": "2026-11-38297",
-   "type": "Civil Matter",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:39:52Z",
-   "created": "2026-11-27T19:37:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4526 HIXSON PIKE",
-   "cross": "HAMILL RD/BAGWELL AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.1212,
-   "lon": -85.248346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833111",
    "sequence": "2026-11-38295",
    "type": "Deceptive Practice",
@@ -628,32 +576,6 @@
    "priority": "PRI 3",
    "lat": 35.042153,
    "lon": -85.30214,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832507",
-   "sequence": "2026-11-37874",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": "2026-11-27T18:29:50Z",
-   "created": "2026-11-27T12:09:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2914 HAYWOOD AVE",
-   "cross": "ALEXANDER DR/OZARK CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.09888,
-   "lon": -85.286696,
    "units": 1,
    "stacked": false,
    "notable": false
