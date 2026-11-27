@@ -1,13 +1,247 @@
 {
- "updated": "2026-11-27T15:50:37+00:00",
+ "updated": "2026-11-27T15:55:37+00:00",
  "counts": {
   "year": 375159,
   "upstream_day": 219,
-  "day": 329,
+  "day": 340,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 34,
  "incidents": [
+  {
+   "id": "9832771",
+   "sequence": "2026-11-38055",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:55:19Z",
+   "created": "2026-11-27T15:55:19Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "706 SPEARS AVE",
+   "cross": "CHAMBLISS ST/PEAK ST",
+   "city": "CHATTANOOGA",
+   "zone": "1202 A",
+   "priority": "PRI 2",
+   "lat": 35.07063,
+   "lon": -85.309719,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832768",
+   "sequence": "2026-11-38053",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:54:53Z",
+   "created": "2026-11-27T15:54:53Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3309 RONDABOO DR",
+   "cross": "BROWNS FERRY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "301",
+   "priority": "PRI 1",
+   "lat": 35.042495,
+   "lon": -85.35786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832767",
+   "sequence": "2026-11-38052",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:54:53Z",
+   "created": "2026-11-27T15:54:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3309 RONDABOO DR",
+   "cross": "BROWNS FERRY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.042495,
+   "lon": -85.35786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832766",
+   "sequence": "2026-11-38054",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:55:19Z",
+   "created": "2026-11-27T15:54:39Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "706 SPEARS AVE",
+   "cross": "CHAMBLISS ST/PEAK ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.07063,
+   "lon": -85.309719,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832765",
+   "sequence": "2026-11-38051",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:54:53Z",
+   "created": "2026-11-27T15:54:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3309 RONDABOO DR",
+   "cross": "BROWNS FERRY RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.042495,
+   "lon": -85.35786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832763",
+   "sequence": "2026-11-38050",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:52:59Z",
+   "created": "2026-11-27T15:52:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 2",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832759",
+   "sequence": "2026-11-38049",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:52:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2700 PARKWOOD AVE",
+   "cross": "DE SALES AVE/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.039157,
+   "lon": -85.257754,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832758",
+   "sequence": "2026-11-38047",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:51:05Z",
+   "created": "2026-11-27T15:51:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "921 E 3RD ST",
+   "cross": "PALMETTO ST/HAMPTON ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.048843,
+   "lon": -85.292581,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832757",
+   "sequence": "2026-11-38046",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:51:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "921 E 3RD ST",
+   "cross": "PALMETTO ST/HAMPTON ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.048843,
+   "lon": -85.292581,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832755",
    "sequence": "2026-11-38044",
@@ -27,7 +261,7 @@
    "cross": "STANDIFER GAP RD/TYNER RD",
    "city": "CHATTANOOGA",
    "zone": "C9",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.056528,
    "lon": -85.13274,
    "units": 1,
@@ -298,8 +532,8 @@
    "id": "9832735",
    "sequence": "2026-11-38027",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:51:00Z",
    "created": "2026-11-27T15:38:22Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +714,8 @@
    "id": "9832715",
    "sequence": "2026-11-38012",
    "type": "Interpreter Call",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:50:53Z",
    "created": "2026-11-27T15:22:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -498,32 +732,6 @@
    "priority": "PRI 0",
    "lat": 35.048843,
    "lon": -85.292581,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832705",
-   "sequence": "2026-11-38008",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:26:22Z",
-   "created": "2026-11-27T15:17:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "704 DODSON AVE",
-   "cross": "RAMSEY ST/CITICO AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.042723,
-   "lon": -85.264768,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -633,32 +841,6 @@
    "notable": false
   },
   {
-   "id": "9832661",
-   "sequence": "2026-11-37980",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-27T14:50:28Z",
-   "created": "2026-11-27T14:43:06Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1375 BROAD ST",
-   "cross": "W 13TH ST/W MAIN ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.039418,
-   "lon": -85.311018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832654",
    "sequence": "2026-11-37977",
    "type": "EMS CALL",
@@ -680,32 +862,6 @@
    "priority": "PRI 1",
    "lat": 35.033626,
    "lon": -85.094433,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832632",
-   "sequence": "2026-11-37963",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:23:56Z",
-   "created": "2026-11-27T14:29:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7325 HUNTLEY LN",
-   "cross": "No Cross Street/GUNBARREL RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.009046,
-   "lon": -85.167676,
    "units": 1,
    "stacked": false,
    "notable": false
