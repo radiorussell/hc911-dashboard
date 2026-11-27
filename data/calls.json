@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T00:10:37+00:00",
+ "updated": "2026-11-27T00:15:36+00:00",
  "counts": {
   "year": 374782,
   "upstream_day": 0,
-  "day": 853,
+  "day": 860,
   "day_basis": "midnight"
  },
  "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9832045",
+   "sequence": "2026-11-37522",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T00:15:16Z",
+   "created": "2026-11-27T00:14:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2412 MCCALLIE AVE",
+   "cross": "DERBY ST/MCCALLIE AVE @ DODDS WB ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.032526,
+   "lon": -85.26639,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832043",
+   "sequence": "2026-11-37520",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T00:12:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7600 BORISS DR",
+   "cross": "BISHOP DR/N BISHOP DR",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.068392,
+   "lon": -85.167091,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832034",
    "sequence": "2026-11-37515",
@@ -113,53 +165,27 @@
    "notable": false
   },
   {
-   "id": "9832024",
-   "sequence": "2026-11-37505",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:53:43Z",
-   "created": "2026-11-26T23:46:06Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9832002",
+   "sequence": "2026-11-37491",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-26T23:26:58Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "340 WATER ST",
-   "cross": "CHANDLER PL/CHANDLER AVE",
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
    "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.007779,
-   "lon": -85.314873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832021",
-   "sequence": "2026-11-37503",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:48:12Z",
-   "created": "2026-11-26T23:41:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 14TH ST / FAGAN ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.032098,
-   "lon": -85.294,
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.0338,
+   "lon": -85.1596,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,32 +399,6 @@
    "notable": true
   },
   {
-   "id": "9831919",
-   "sequence": "2026-11-37433",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:40:41Z",
-   "created": "2026-11-26T22:41:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831914",
    "sequence": "2026-11-37432",
    "type": "Missing Endangered",
@@ -477,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9831901",
-   "sequence": "2026-11-37419",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:41:34Z",
-   "created": "2026-11-26T22:30:40Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9210 APISON PIKE",
-   "cross": "LITTLE DEBBIE PKWY/SWINYAR DR",
-   "city": "COLLEGEDALE",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.062053,
-   "lon": -85.073704,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831897",
    "sequence": "2026-11-37416",
    "type": "Abandoned Auto",
@@ -550,6 +524,32 @@
    "priority": "PRI 3",
    "lat": 35.003644,
    "lon": -85.26586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9831086",
+   "sequence": "2026-11-36866",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T00:13:47Z",
+   "created": "2026-11-26T11:08:08Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7324 SHALLOWFORD RD",
+   "cross": "LIFESTYLE WAY/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.039739,
+   "lon": -85.151941,
    "units": 1,
    "stacked": false,
    "notable": false
