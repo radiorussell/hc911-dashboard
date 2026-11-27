@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T03:55:37+00:00",
+ "updated": "2026-11-27T04:00:38+00:00",
  "counts": {
-  "year": 374915,
+  "year": 374919,
   "upstream_day": 0,
-  "day": 1023,
+  "day": 1026,
   "day_basis": "midnight"
  },
  "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9832264",
+   "sequence": "2026-11-37687",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:00:46Z",
+   "created": "2026-11-27T04:00:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "305 FRAZIER AVE",
+   "cross": "DELMONT ST/TREMONT ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.062383,
+   "lon": -85.305591,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832263",
+   "sequence": "2026-11-37688",
+   "type": "Civil Matter",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:00:58Z",
+   "created": "2026-11-27T04:00:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4824 PAWNEE TRL",
+   "cross": "WOODVALE AVE/N MOORE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.02575,
+   "lon": -85.223124,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832256",
    "sequence": "2026-11-37685",
@@ -165,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9832233",
-   "sequence": "2026-11-37669",
-   "type": "Odor Investigate",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:43:23Z",
-   "created": "2026-11-27T03:28:18Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "903 HUNTINGTON CIR",
-   "cross": "GANN RD/HUNTINGTON FOREST DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.187254,
-   "lon": -85.200217,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832231",
    "sequence": "2026-11-37670",
    "type": "EMS CALL",
@@ -220,8 +246,8 @@
    "id": "9832226",
    "sequence": "2026-11-37664",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:35:13Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T03:57:53Z",
    "created": "2026-11-27T03:24:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.051395,
    "lon": -85.232091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832217",
-   "sequence": "2026-11-37673",
-   "type": "Abandoned Auto",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:28:48Z",
-   "created": "2026-11-27T03:19:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3927 WEBB RD",
-   "cross": "HAL DR/OAKWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.089365,
-   "lon": -85.191853,
    "units": 1,
    "stacked": false,
    "notable": false
