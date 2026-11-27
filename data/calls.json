@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T11:25:38+00:00",
+ "updated": "2026-11-27T11:30:37+00:00",
  "counts": {
-  "year": 375037,
-  "upstream_day": 97,
+  "year": 375044,
+  "upstream_day": 104,
   "day": 138,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9832473",
    "sequence": "2026-11-37852",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:16:38Z",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T11:16:38Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -27,7 +27,7 @@
    "cross": "No Cross Street/BALES AVE",
    "city": "EAST RIDGE",
    "zone": "ERPD WEST",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 34.99702,
    "lon": -85.260601,
    "units": 1,
@@ -38,8 +38,8 @@
    "id": "9832474",
    "sequence": "2026-11-37853",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:16:38Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T11:16:38Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -238,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.040793,
    "lon": -85.301205,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832443",
-   "sequence": "2026-11-37829",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T11:06:53Z",
-   "created": "2026-11-27T10:43:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1200 INTERSTATE 75 SB",
-   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.089885,
-   "lon": -85.061004,
    "units": 1,
    "stacked": false,
    "notable": false
