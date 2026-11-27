@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T03:10:38+00:00",
+ "updated": "2026-11-27T03:15:38+00:00",
  "counts": {
   "year": 374894,
   "upstream_day": 0,
-  "day": 985,
+  "day": 989,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9832208",
+   "sequence": "2026-11-37651",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:14:26Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "147 ROLLING RIDGE DR",
+   "cross": "CAWOOD LN/ROLLING RIDGE CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 1",
+   "lat": 35.006123,
+   "lon": -85.112247,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832206",
+   "sequence": "2026-11-37650",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:14:00Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7835 CEDAR HILL LN",
+   "cross": "No Cross Street/RAMSEY RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 3",
+   "lat": 35.167024,
+   "lon": -85.104987,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832204",
    "sequence": "2026-11-37647",
@@ -38,8 +90,8 @@
    "id": "9832201",
    "sequence": "2026-11-37645",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:14:21Z",
    "created": "2026-11-27T02:56:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
