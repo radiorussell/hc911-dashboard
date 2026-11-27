@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-27T02:25:39+00:00",
+ "updated": "2026-11-27T02:30:36+00:00",
  "counts": {
-  "year": 374875,
+  "year": 374878,
   "upstream_day": 0,
-  "day": 965,
+  "day": 964,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 18,
  "incidents": [
-  {
-   "id": "9832178",
-   "sequence": "2026-11-37627",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T02:23:43Z",
-   "created": "2026-11-27T02:23:13Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6928 DUNKER CHURCH CT",
-   "cross": "JACKSON MILL DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.171361,
-   "lon": -85.184346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9832177",
    "sequence": "2026-11-37626",
@@ -90,8 +64,8 @@
    "id": "9832175",
    "sequence": "2026-11-37623",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:22:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T02:30:17Z",
    "created": "2026-11-27T02:16:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,58 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.211784,
    "lon": -85.168141,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832168",
-   "sequence": "2026-11-37620",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:16:37Z",
-   "created": "2026-11-27T02:05:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "164 N HICKORY ST",
-   "cross": "OAK ST/VINE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.038413,
-   "lon": -85.276442,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832161",
-   "sequence": "2026-11-37613",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:06:21Z",
-   "created": "2026-11-27T02:02:32Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7015 SHALLOWFORD RD",
-   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.044177,
-   "lon": -85.158575,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9832153",
-   "sequence": "2026-11-37605",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:56:42Z",
-   "created": "2026-11-27T01:56:42Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "437 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 3",
-   "lat": 35.123898,
-   "lon": -85.364769,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832146",
    "sequence": "2026-11-37604",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:24:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T02:28:16Z",
    "created": "2026-11-27T01:56:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +290,6 @@
    "priority": "PRI 1",
    "lat": 35.420484,
    "lon": -85.060677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832124",
-   "sequence": "2026-11-37585",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T02:05:05Z",
-   "created": "2026-11-27T01:29:29Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "519 LATIMORE ST",
-   "cross": "No Cross Street/FISHER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.038362,
-   "lon": -85.256177,
    "units": 1,
    "stacked": false,
    "notable": false
