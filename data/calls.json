@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T08:25:37+00:00",
+ "updated": "2026-11-27T08:30:39+00:00",
  "counts": {
-  "year": 374991,
-  "upstream_day": 51,
-  "day": 74,
+  "year": 374995,
+  "upstream_day": 55,
+  "day": 76,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9832390",
+   "sequence": "2026-11-37791",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:27:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2207 STUART ST",
+   "cross": "DODSON AVE/TAYLOR ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 3",
+   "lat": 35.071874,
+   "lon": -85.249803,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832388",
    "sequence": "2026-11-37789",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-27T08:24:13Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:30:35Z",
    "created": "2026-11-27T08:24:13Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9832379",
    "sequence": "2026-11-37782",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:27:20Z",
    "created": "2026-11-27T08:11:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -165,32 +191,6 @@
    "notable": false
   },
   {
-   "id": "9832373",
-   "sequence": "2026-11-37777",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T07:53:20Z",
-   "created": "2026-11-27T07:53:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6737 ARDIS LN",
-   "cross": "No Cross Street/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.186203,
-   "lon": -85.248702,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832374",
    "sequence": "2026-11-37778",
    "type": "EMS CALL",
@@ -210,32 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "2203",
    "priority": "PRI 2",
-   "lat": 35.186203,
-   "lon": -85.248702,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832372",
-   "sequence": "2026-11-37776",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T08:03:44Z",
-   "created": "2026-11-27T07:52:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6737 ARDIS LN",
-   "cross": "No Cross Street/HIGHWAY 153",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
    "lat": 35.186203,
    "lon": -85.248702,
    "units": 1,
