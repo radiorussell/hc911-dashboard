@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-27T00:15:36+00:00",
+ "updated": "2026-11-27T00:20:37+00:00",
  "counts": {
-  "year": 374782,
+  "year": 374787,
   "upstream_day": 0,
-  "day": 860,
+  "day": 863,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
   {
-   "id": "9832045",
-   "sequence": "2026-11-37522",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:15:16Z",
-   "created": "2026-11-27T00:14:20Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9832044",
+   "sequence": "2026-11-37525",
+   "type": "Civil Matter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T00:15:10Z",
+   "jurisdiction": "Soddy Daisy PD",
    "agencies": [
-    "Chattanooga PD"
+    "Soddy Daisy PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2412 MCCALLIE AVE",
-   "cross": "DERBY ST/MCCALLIE AVE @ DODDS WB ON RAMP",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.032526,
-   "lon": -85.26639,
+   "address": "11647 HOLLY CIR",
+   "cross": "HIXSON PIKE/HIXSON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 4",
+   "lat": 35.286159,
+   "lon": -85.14496,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +38,8 @@
    "id": "9832043",
    "sequence": "2026-11-37520",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T00:12:36Z",
    "created": "2026-11-27T00:12:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,7 +57,7 @@
    "lat": 35.068392,
    "lon": -85.167091,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -90,8 +90,8 @@
    "id": "9832031",
    "sequence": "2026-11-37514",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:16:25Z",
    "created": "2026-11-26T23:59:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +246,8 @@
    "id": "9831986",
    "sequence": "2026-11-37478",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:58:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T00:18:53Z",
    "created": "2026-11-26T23:21:33Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9831978",
    "sequence": "2026-11-37470",
    "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-26T23:14:52Z",
    "created": "2026-11-26T23:14:17Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -291,7 +291,7 @@
    "lat": 35.034644,
    "lon": -85.243491,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -316,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.369183,
    "lon": -85.11725,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831962",
-   "sequence": "2026-11-37462",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:31:07Z",
-   "created": "2026-11-26T22:58:24Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2955 LEGGETT RD",
-   "cross": "BECK RD/CLIFTON BEND RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.432482,
-   "lon": -85.159928,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +506,8 @@
    "id": "9831086",
    "sequence": "2026-11-36866",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:13:47Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-26T11:08:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
