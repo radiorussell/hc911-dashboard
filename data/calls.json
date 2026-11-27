@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T22:00:36+00:00",
+ "updated": "2026-11-27T22:05:38+00:00",
  "counts": {
   "year": 375471,
   "upstream_day": 531,
-  "day": 731,
+  "day": 735,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9833321",
+   "sequence": "2026-11-38450",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:01:13Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3101 - 3199 RINGGOLD RD",
+   "cross": "WESTSIDE DR/S SEMINOLE DR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.008871,
+   "lon": -85.266988,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833319",
+   "sequence": "2026-11-38449",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:00:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "725 FULTON ST",
+   "cross": "RIVERFRONT PKWY/CANAL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 2",
+   "lat": 35.050967,
+   "lon": -85.321991,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833320",
+   "sequence": "2026-11-38447",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:00:23Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6751 CROOKED COVE WAY",
+   "cross": "CROOKED CREEK DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.118269,
+   "lon": -85.088059,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833316",
    "sequence": "2026-11-38445",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:00:11Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:00:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -49,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2100 - 2128 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "address": "2022 - 2098 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A OFF RAMP NB/EXIT 4A ON RAMP SB",
    "city": "CHATTANOOGA",
    "zone": "C7",
    "priority": "PRI 4",
-   "lat": 35.035531,
-   "lon": -85.16191,
+   "lat": 35.03461,
+   "lon": -85.162489,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +142,8 @@
    "id": "9833317",
    "sequence": "2026-11-38444",
    "type": "Kidnapping",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:59:51Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T21:58:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -142,8 +220,8 @@
    "id": "9833310",
    "sequence": "2026-11-38439",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:02:03Z",
    "created": "2026-11-27T21:52:36Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9833306",
    "sequence": "2026-11-38437",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:01:46Z",
    "created": "2026-11-27T21:50:59Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -264,32 +342,6 @@
    "priority": "PRI 3",
    "lat": 35.008033,
    "lon": -85.327267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833286",
-   "sequence": "2026-11-38418",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:41:26Z",
-   "created": "2026-11-27T21:32:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1420 CARTER ST",
-   "cross": "W 14TH ST/REGGIE WHITE BLVD",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.039273,
-   "lon": -85.314753,
    "units": 1,
    "stacked": false,
    "notable": false
