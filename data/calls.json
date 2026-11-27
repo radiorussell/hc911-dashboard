@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T13:35:37+00:00",
+ "updated": "2026-11-27T13:40:37+00:00",
  "counts": {
-  "year": 375069,
-  "upstream_day": 129,
-  "day": 206,
+  "year": 375077,
+  "upstream_day": 137,
+  "day": 210,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9832585",
+   "sequence": "2026-11-37925",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:39:11Z",
+   "created": "2026-11-27T13:36:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "30 - 38 EXIT 178 OFF RAMP WB",
+   "cross": "EXIT 178 N ON RAMP WB/HIGHWAY 27 NB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.03331,
+   "lon": -85.31798,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832576",
    "sequence": "2026-11-37921",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T13:38:38Z",
    "created": "2026-11-27T13:29:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9832572",
    "sequence": "2026-11-37915",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T13:39:21Z",
    "created": "2026-11-27T13:27:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +220,8 @@
    "id": "9832567",
    "sequence": "2026-11-37912",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T13:37:17Z",
    "created": "2026-11-27T13:25:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.125529,
    "lon": -85.304385,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832565",
-   "sequence": "2026-11-37910",
-   "type": "MVC No Response",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:22:35Z",
-   "created": "2026-11-27T13:22:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIXSON PIKE / DORCHESTER RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 0",
-   "lat": 35.069177,
-   "lon": -85.289326,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.041707,
    "lon": -85.260666,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832433",
-   "sequence": "2026-11-37819",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T10:13:01Z",
-   "created": "2026-11-27T10:10:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2245 HICKORY VALLEY RD",
-   "cross": "EXECUTIVE OAK LN/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 1",
-   "lat": 35.046061,
-   "lon": -85.167018,
    "units": 1,
    "stacked": false,
    "notable": false
