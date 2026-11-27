@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T13:00:37+00:00",
+ "updated": "2026-11-27T13:05:37+00:00",
  "counts": {
   "year": 375064,
   "upstream_day": 124,
   "day": 182,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 6,
  "incidents": [
   {
    "id": "9832539",
    "sequence": "2026-11-37897",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T13:04:13Z",
    "created": "2026-11-27T12:51:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,58 +30,6 @@
    "priority": "PRI 4",
    "lat": 35.023303,
    "lon": -85.245707,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832533",
-   "sequence": "2026-11-37892",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T12:59:48Z",
-   "created": "2026-11-27T12:45:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1755 GUNBARREL RD",
-   "cross": "ZIEGLER RD/CRANE RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.022566,
-   "lon": -85.160474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832532",
-   "sequence": "2026-11-37891",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": "2026-11-27T12:54:08Z",
-   "created": "2026-11-27T12:43:42Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "GRASSHOPPER RD / HIGHWAY 58",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 4",
-   "lat": 35.270764,
-   "lon": -84.985346,
    "units": 1,
    "stacked": false,
    "notable": false
