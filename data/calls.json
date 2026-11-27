@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T10:15:41+00:00",
+ "updated": "2026-11-27T10:20:42+00:00",
  "counts": {
-  "year": 375017,
-  "upstream_day": 77,
-  "day": 105,
+  "year": 375019,
+  "upstream_day": 79,
+  "day": 108,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9832437",
+   "sequence": "2026-11-37822",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T10:16:42Z",
+   "created": "2026-11-27T10:16:42Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "30 TUNNEL BLVD",
+   "cross": "BRAINERD RD/MONTVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "1508",
+   "priority": "PRI 3",
+   "lat": 35.026486,
+   "lon": -85.247623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832435",
+   "sequence": "2026-11-37821",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T10:16:06Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "30 TUNNEL BLVD",
+   "cross": "BRAINERD RD/MONTVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 2",
+   "lat": 35.026486,
+   "lon": -85.247623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832436",
+   "sequence": "2026-11-37823",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T10:16:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8500 HIGHWAY 58",
+   "cross": "SHIRLEY POND RD/EMANON RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 4",
+   "priority": "PRI 3",
+   "lat": 35.164423,
+   "lon": -85.083469,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832433",
    "sequence": "2026-11-37819",
@@ -35,63 +113,11 @@
    "notable": false
   },
   {
-   "id": "9832434",
-   "sequence": "2026-11-37820",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T10:13:46Z",
-   "created": "2026-11-27T10:10:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2245 HICKORY VALLEY RD",
-   "cross": "EXECUTIVE OAK LN/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "801 A",
-   "priority": "PRI 1",
-   "lat": 35.046061,
-   "lon": -85.167018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832432",
-   "sequence": "2026-11-37818",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T10:09:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2245 HICKORY VALLEY RD",
-   "cross": "EXECUTIVE OAK LN/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.046061,
-   "lon": -85.167018,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832431",
    "sequence": "2026-11-37817",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T10:20:16Z",
    "created": "2026-11-27T09:59:06Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
