@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-27T21:50:38+00:00",
+ "updated": "2026-11-27T21:55:38+00:00",
  "counts": {
   "year": 375467,
   "upstream_day": 527,
-  "day": 720,
+  "day": 727,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9833312",
+   "sequence": "2026-11-38441",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:53:05Z",
+   "created": "2026-11-27T21:53:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2636 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.057245,
+   "lon": -85.132162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833313",
+   "sequence": "2026-11-38442",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:53:05Z",
+   "created": "2026-11-27T21:53:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2636 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "701 B",
+   "priority": "PRI 1",
+   "lat": 35.057245,
+   "lon": -85.132162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833310",
+   "sequence": "2026-11-38439",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T21:52:36Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5319 RINGGOLD RD",
+   "cross": "REBECCA DR/KARWILL LN",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.995268,
+   "lon": -85.233525,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833308",
+   "sequence": "2026-11-38440",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T21:52:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2636 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.057245,
+   "lon": -85.132162,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833306",
+   "sequence": "2026-11-38437",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T21:50:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "500 KILMER ST",
+   "cross": "SHADY LN/PARKWOOD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 3",
+   "lat": 35.038647,
+   "lon": -85.261976,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9833302",
    "sequence": "2026-11-38435",
@@ -56,58 +186,6 @@
    "priority": "PRI 3",
    "lat": 35.008033,
    "lon": -85.327267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833290",
-   "sequence": "2026-11-38421",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:35:12Z",
-   "created": "2026-11-27T21:35:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4310 KEMP DR",
-   "cross": "TALLEY RD/HARGRAVES AVE",
-   "city": "CHATTANOOGA",
-   "zone": "1301 A",
-   "priority": "PRI 1",
-   "lat": 35.027803,
-   "lon": -85.232954,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833288",
-   "sequence": "2026-11-38419",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:41:00Z",
-   "created": "2026-11-27T21:34:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4310 KEMP DR",
-   "cross": "TALLEY RD/HARGRAVES AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.027803,
-   "lon": -85.232954,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +246,8 @@
    "id": "9833273",
    "sequence": "2026-11-38406",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:34:38Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T21:53:57Z",
    "created": "2026-11-27T21:25:50Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 34.992171,
    "lon": -85.32747,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833270",
-   "sequence": "2026-11-38403",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T21:20:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4401 - 4499 HIXSON PIKE",
-   "cross": "EXIT HIXSON PIKE ON RAMP SB/HAMILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 2",
-   "lat": 35.117975,
-   "lon": -85.249979,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +324,8 @@
    "id": "9833262",
    "sequence": "2026-11-38394",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:28:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T21:54:01Z",
    "created": "2026-11-27T21:17:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,32 +368,6 @@
    "priority": "PRI 1",
    "lat": 35.08074,
    "lon": -85.070095,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833215",
-   "sequence": "2026-11-38357",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T21:33:01Z",
-   "created": "2026-11-27T20:43:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6921 ECHO GLEN DR",
-   "cross": "JULIANA LN/BOY SCOUT RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.181447,
-   "lon": -85.245319,
    "units": 1,
    "stacked": false,
    "notable": false
