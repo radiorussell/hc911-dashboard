@@ -1,20 +1,98 @@
 {
- "updated": "2026-11-27T01:55:38+00:00",
+ "updated": "2026-11-27T02:00:36+00:00",
  "counts": {
-  "year": 374855,
+  "year": 374856,
   "upstream_day": 0,
-  "day": 939,
+  "day": 944,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9832145",
-   "sequence": "2026-11-37601",
+   "id": "9832153",
+   "sequence": "2026-11-37605",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:56:42Z",
+   "created": "2026-11-27T01:56:42Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "437 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
+   "priority": "PRI 3",
+   "lat": 35.123898,
+   "lon": -85.364769,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832154",
+   "sequence": "2026-11-37606",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:56:42Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "437 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 2",
+   "lat": 35.123898,
+   "lon": -85.364769,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832146",
+   "sequence": "2026-11-37604",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:56:15Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "437 ALEXIAN WAY",
+   "cross": "OHIO AVE/SIGNAL POINT RD",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.123898,
+   "lon": -85.364769,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832147",
+   "sequence": "2026-11-37603",
    "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-27T01:54:48Z",
-   "created": "2026-11-27T01:54:37Z",
+   "status_at": "2026-11-27T01:56:13Z",
+   "created": "2026-11-27T01:56:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2810 DODSON AVE",
-   "cross": "BACHMAN ST/CUSHMAN ST",
+   "address": "7710 E BRAINERD RD",
+   "cross": "RESERVE WAY/JENKINS RD",
    "city": "CHATTANOOGA",
-   "zone": "B2",
+   "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.070283,
-   "lon": -85.25091,
+   "lat": 35.00771,
+   "lon": -85.15735,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +142,8 @@
    "id": "9832141",
    "sequence": "2026-11-37598",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:44:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T01:44:49Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9832124",
    "sequence": "2026-11-37585",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T01:42:34Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T01:56:23Z",
    "created": "2026-11-27T01:29:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +324,8 @@
    "id": "9832118",
    "sequence": "2026-11-37580",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T01:36:42Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T01:58:01Z",
    "created": "2026-11-27T01:25:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9832114",
    "sequence": "2026-11-37576",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T01:42:19Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T01:56:37Z",
    "created": "2026-11-27T01:22:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9832102",
-   "sequence": "2026-11-37568",
-   "type": "Auto Broken Down Road",
-   "status": "On Scene",
-   "status_at": "2026-11-27T01:29:55Z",
-   "created": "2026-11-27T01:14:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "811 BARTON AVE",
-   "cross": "RUSSELL ST/DUGDALE ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 2",
-   "lat": 35.066683,
-   "lon": -85.290829,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832100",
    "sequence": "2026-11-37565",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T01:43:02Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T01:57:16Z",
    "created": "2026-11-27T01:13:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9832092",
    "sequence": "2026-11-37558",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T01:34:00Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T01:55:21Z",
    "created": "2026-11-27T01:07:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -402,8 +454,8 @@
    "id": "9832087",
    "sequence": "2026-11-37555",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T01:33:27Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T01:59:10Z",
    "created": "2026-11-27T01:00:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
