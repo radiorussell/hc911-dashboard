@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T12:50:37+00:00",
+ "updated": "2026-11-27T12:55:37+00:00",
  "counts": {
   "year": 375060,
   "upstream_day": 120,
-  "day": 176,
+  "day": 182,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9832539",
+   "sequence": "2026-11-37897",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:51:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3604 BRAINERD RD",
+   "cross": "S GERMANTOWN RD/ORIOLE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.023303,
+   "lon": -85.245707,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832532",
    "sequence": "2026-11-37891",
    "type": "Animal Call",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T12:54:08Z",
    "created": "2026-11-27T12:43:42Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9832510",
    "sequence": "2026-11-37881",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T12:51:00Z",
    "created": "2026-11-27T12:16:52Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
