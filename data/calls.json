@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T21:45:40+00:00",
+ "updated": "2026-11-27T21:50:38+00:00",
  "counts": {
-  "year": 375455,
-  "upstream_day": 515,
-  "day": 707,
+  "year": 375467,
+  "upstream_day": 527,
+  "day": 720,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9833302",
+   "sequence": "2026-11-38435",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-27T21:49:34Z",
+   "created": "2026-11-27T21:48:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.034528,
+   "lon": -85.158706,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833291",
    "sequence": "2026-11-38422",
@@ -134,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.210939,
    "lon": -85.063482,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833281",
-   "sequence": "2026-11-38412",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:42:01Z",
-   "created": "2026-11-27T21:29:21Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8425 SHADOWOOD DR",
-   "cross": "SHADOW LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 3",
-   "lat": 35.203301,
-   "lon": -85.188614,
    "units": 1,
    "stacked": false,
    "notable": false
