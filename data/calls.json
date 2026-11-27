@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T23:00:40+00:00",
+ "updated": "2026-11-27T23:05:36+00:00",
  "counts": {
   "year": 375539,
   "upstream_day": 599,
   "day": 819,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 24,
  "incidents": [
   {
    "id": "9833428",
    "sequence": "2026-11-38534",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:59:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:59:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9833427",
    "sequence": "2026-11-38533",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:02:37Z",
    "created": "2026-11-27T22:58:31Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -87,37 +87,11 @@
    "notable": true
   },
   {
-   "id": "9833425",
-   "sequence": "2026-11-38531",
-   "type": "NCIC Entry",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:57:16Z",
-   "created": "2026-11-27T22:56:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 0",
-   "lat": 35.081783,
-   "lon": -85.26321,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833423",
    "sequence": "2026-11-38530",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:03:19Z",
    "created": "2026-11-27T22:56:01Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -212,32 +186,6 @@
    "priority": "PRI 2",
    "lat": 35.198103,
    "lon": -85.011444,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833414",
-   "sequence": "2026-11-38520",
-   "type": "Auto Broken Down Road",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:52:33Z",
-   "created": "2026-11-27T22:46:48Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MACK SMITH RD / RINGGOLD RD",
-   "cross": "",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 2",
-   "lat": 34.989464,
-   "lon": -85.209283,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -342,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.105365,
    "lon": -85.359658,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833399",
-   "sequence": "2026-11-38508",
-   "type": "Check For A Hazard",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:41:12Z",
-   "created": "2026-11-27T22:32:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "W 3RD ST / MARKET ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 2",
-   "lat": 35.053506,
-   "lon": -85.309663,
    "units": 1,
    "stacked": false,
    "notable": false
