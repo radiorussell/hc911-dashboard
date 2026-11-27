@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T17:10:38+00:00",
+ "updated": "2026-11-27T17:15:40+00:00",
  "counts": {
   "year": 375242,
   "upstream_day": 302,
-  "day": 424,
+  "day": 425,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9832893",
+   "sequence": "2026-11-38140",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:13:19Z",
+   "created": "2026-11-27T17:13:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6148 LEE HWY",
+   "cross": "VAN NESS RD/VANCE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 4",
+   "lat": 35.027238,
+   "lon": -85.188437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832889",
    "sequence": "2026-11-38139",
@@ -30,32 +56,6 @@
    "priority": "PRI 4",
    "lat": 35.027055,
    "lon": -85.156695,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832884",
-   "sequence": "2026-11-38137",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T17:03:57Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7400 - 7499 COUNTRY HILL LN",
-   "cross": "RUNYAN HILLS LN/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.220539,
-   "lon": -85.036578,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9832851",
    "sequence": "2026-11-38125",
    "type": "Supplemental Reports",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:45:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:43:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,37 +139,11 @@
    "notable": false
   },
   {
-   "id": "9832850",
-   "sequence": "2026-11-38119",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:41:48Z",
-   "created": "2026-11-27T16:41:48Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5707 ALABAMA AVE",
-   "cross": "W 57TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 2",
-   "lat": 34.985086,
-   "lon": -85.334005,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832849",
    "sequence": "2026-11-38118",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:59:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T17:12:49Z",
    "created": "2026-11-27T16:41:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +402,8 @@
    "id": "9832766",
    "sequence": "2026-11-38054",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T17:01:08Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T17:11:25Z",
    "created": "2026-11-27T15:54:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
