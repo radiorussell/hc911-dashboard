@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T03:35:35+00:00",
+ "updated": "2026-11-27T03:40:37+00:00",
  "counts": {
-  "year": 374900,
+  "year": 374908,
   "upstream_day": 0,
-  "day": 1011,
+  "day": 1016,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9832241",
+   "sequence": "2026-11-37677",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:38:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3823 LIGHTFOOT MILL RD",
+   "cross": "DEERFOOT DR/BYRD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 1",
+   "lat": 35.070673,
+   "lon": -85.208046,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832242",
+   "sequence": "2026-11-37678",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:38:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3823 LIGHTFOOT MILL RD",
+   "cross": "DEERFOOT DR/BYRD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "605",
+   "priority": "PRI 1",
+   "lat": 35.070673,
+   "lon": -85.208046,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832239",
+   "sequence": "2026-11-37676",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:37:25Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3823 LIGHTFOOT MILL RD",
+   "cross": "DEERFOOT DR/BYRD AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.070673,
+   "lon": -85.208046,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832234",
    "sequence": "2026-11-37671",
@@ -87,37 +165,11 @@
    "notable": false
   },
   {
-   "id": "9832232",
-   "sequence": "2026-11-37667",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:35:31Z",
-   "created": "2026-11-27T03:28:08Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5310 CLEMONS RD",
-   "cross": "MCBRIEN RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 34.992245,
-   "lon": -85.235222,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9832231",
    "sequence": "2026-11-37670",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:37:22Z",
    "created": "2026-11-27T03:27:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -158,32 +210,6 @@
    "city": "CHATTANOOGA",
    "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.025666,
-   "lon": -85.165201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832228",
-   "sequence": "2026-11-37666",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:32:13Z",
-   "created": "2026-11-27T03:25:07Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1722 SKYLINE DR",
-   "cross": "ESTRELLITA CIR/PALERMO DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
    "lat": 35.025666,
    "lon": -85.165201,
    "units": 1,
@@ -272,8 +298,8 @@
    "id": "9832222",
    "sequence": "2026-11-37659",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:36:00Z",
    "created": "2026-11-27T03:24:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -345,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832158",
-   "sequence": "2026-11-37610",
-   "type": "Civil Matter",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:09:16Z",
-   "created": "2026-11-27T02:00:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5722 CARMACK RD",
-   "cross": "GARRETT DR/NORTHWOODS DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 4",
-   "lat": 35.152116,
-   "lon": -85.251023,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832132",
