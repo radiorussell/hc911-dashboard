@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T03:30:36+00:00",
+ "updated": "2026-11-27T03:35:35+00:00",
  "counts": {
   "year": 374900,
   "upstream_day": 0,
   "day": 1011,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9832234",
@@ -90,8 +90,8 @@
    "id": "9832232",
    "sequence": "2026-11-37667",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:35:31Z",
    "created": "2026-11-27T03:28:08Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -111,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832230",
-   "sequence": "2026-11-37668",
-   "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T03:27:48Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "903 HUNTINGTON CIR",
-   "cross": "GANN RD/HUNTINGTON FOREST DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.187254,
-   "lon": -85.200217,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832231",
@@ -194,8 +168,8 @@
    "id": "9832228",
    "sequence": "2026-11-37666",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:32:13Z",
    "created": "2026-11-27T03:25:07Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -220,8 +194,8 @@
    "id": "9832226",
    "sequence": "2026-11-37664",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:35:13Z",
    "created": "2026-11-27T03:24:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +246,8 @@
    "id": "9832224",
    "sequence": "2026-11-37660",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:32:28Z",
    "created": "2026-11-27T03:24:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -371,58 +345,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832206",
-   "sequence": "2026-11-37650",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:25:20Z",
-   "created": "2026-11-27T03:14:00Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7835 CEDAR HILL LN",
-   "cross": "No Cross Street/RAMSEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 3",
-   "lat": 35.167024,
-   "lon": -85.104987,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9832201",
-   "sequence": "2026-11-37645",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:14:21Z",
-   "created": "2026-11-27T02:56:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "735 E 10TH ST",
-   "cross": "PEEPLES ST/WALL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 3",
-   "lat": 35.041022,
-   "lon": -85.297957,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832158",
