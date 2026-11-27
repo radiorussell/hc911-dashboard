@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T19:55:39+00:00",
+ "updated": "2026-11-27T20:00:40+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
-  "day": 596,
+  "year": 375376,
+  "upstream_day": 436,
+  "day": 603,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9833160",
+   "sequence": "2026-11-38318",
+   "type": "Carbon Monoxide Alarm",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:58:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "713 MOUNTAIN CREEK RD",
+   "cross": "SIGNAL MOUNTAIN RD/CROSS ST",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 1",
+   "lat": 35.099895,
+   "lon": -85.327938,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833158",
+   "sequence": "2026-11-38315",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:58:15Z",
+   "created": "2026-11-27T19:58:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2124 MERLIN DR",
+   "cross": "PETERSON DR/TRISTRAM RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.02992,
+   "lon": -85.139201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833156",
+   "sequence": "2026-11-38316",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:58:17Z",
+   "created": "2026-11-27T19:58:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2515 CANNON AVE",
+   "cross": "TAFT AVE/COMMERCE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.021396,
+   "lon": -85.300419,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833154",
+   "sequence": "2026-11-38313",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-27T19:57:16Z",
+   "created": "2026-11-27T19:57:16Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BANK ST / ASHLAND TER",
+   "cross": "",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.120515,
+   "lon": -85.285571,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833149",
    "sequence": "2026-11-38311",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:55:20Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T19:54:40Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -59,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833127",
-   "sequence": "2026-11-38304",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T19:42:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2101 E 3RD ST",
-   "cross": "N WILLOW ST/N KELLEY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.039964,
-   "lon": -85.268586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833115",
@@ -290,32 +368,6 @@
    "priority": "PRI 4",
    "lat": 35.141323,
    "lon": -85.241758,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833074",
-   "sequence": "2026-11-38267",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:07:30Z",
-   "created": "2026-11-27T19:07:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "520 NORTHGATE MALL DR",
-   "cross": "MEADOW DR/TRINITY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 4",
-   "lat": 35.12815,
-   "lon": -85.242114,
    "units": 1,
    "stacked": false,
    "notable": false
