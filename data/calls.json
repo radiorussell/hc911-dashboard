@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-27T22:55:36+00:00",
+ "updated": "2026-11-27T23:00:40+00:00",
  "counts": {
-  "year": 375532,
-  "upstream_day": 592,
-  "day": 813,
+  "year": 375539,
+  "upstream_day": 599,
+  "day": 819,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9833428",
+   "sequence": "2026-11-38534",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:59:54Z",
+   "created": "2026-11-27T22:59:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4643 JERSEY PIKE",
+   "cross": "PECKINPAUGH DR/TRICIA DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.084359,
+   "lon": -85.184746,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833427",
+   "sequence": "2026-11-38533",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:58:31Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1314 WHEELER AVE",
+   "cross": "WILSON ST/BALTO ST",
+   "city": "CHATTANOOGA",
+   "zone": "407",
+   "priority": "PRI 1",
+   "lat": 35.050627,
+   "lon": -85.258008,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833426",
+   "sequence": "2026-11-38532",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:58:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1314 WHEELER AVE",
+   "cross": "WILSON ST/BALTO ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.050627,
+   "lon": -85.258008,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833425",
+   "sequence": "2026-11-38531",
+   "type": "NCIC Entry",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:57:16Z",
+   "created": "2026-11-27T22:56:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3410 AMNICOLA HWY",
+   "cross": "RIVERPORT RD/JUDD RD",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 0",
+   "lat": 35.081783,
+   "lon": -85.26321,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833423",
+   "sequence": "2026-11-38530",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:56:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1773 HOLLY OAK LN",
+   "cross": "No Cross Street/ROSEBROOK DR",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 35.022058,
+   "lon": -85.151012,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833424",
+   "sequence": "2026-11-38529",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": "2026-11-27T22:55:53Z",
+   "created": "2026-11-27T22:55:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1314 WHEELER AVE",
+   "cross": "WILSON ST/BALTO ST",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 1",
+   "lat": 35.050627,
+   "lon": -85.258008,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9833422",
    "sequence": "2026-11-38528",
@@ -33,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833419",
-   "sequence": "2026-11-38524",
-   "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:50:45Z",
-   "created": "2026-11-27T22:50:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5800 - 5854 HIGHWAY 153",
-   "cross": "GRUBB RD/WANDERLUST WAY",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.160272,
-   "lon": -85.248346,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833415",
@@ -139,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9833412",
-   "sequence": "2026-11-38519",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-27T22:49:06Z",
-   "created": "2026-11-27T22:45:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2312 WILSON ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
-   "lat": 35.050077,
-   "lon": -85.259843,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833409",
    "sequence": "2026-11-38516",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:41:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:40:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -219,7 +323,7 @@
   {
    "id": "9833400",
    "sequence": "2026-11-38509",
-   "type": "Well Being Check",
+   "type": "Disorder",
    "status": "On Scene",
    "status_at": "2026-11-27T22:34:47Z",
    "created": "2026-11-27T22:32:53Z",
@@ -264,32 +368,6 @@
    "priority": "PRI 2",
    "lat": 35.053506,
    "lon": -85.309663,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833396",
-   "sequence": "2026-11-38505",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:28:53Z",
-   "created": "2026-11-27T22:28:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5615 CHERRY ST",
-   "cross": "STATE ST/OCOEE ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 D",
-   "priority": "PRI 3",
-   "lat": 35.072794,
-   "lon": -85.057783,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +454,8 @@
    "id": "9833361",
    "sequence": "2026-11-38479",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:58:16Z",
    "created": "2026-11-27T22:19:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -498,32 +576,6 @@
    "priority": "PRI 1",
    "lat": 35.038784,
    "lon": -85.13925,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833318",
-   "sequence": "2026-11-38446",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-27T22:34:45Z",
-   "created": "2026-11-27T21:59:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2022 - 2098 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A OFF RAMP NB/EXIT 4A ON RAMP SB",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.03461,
-   "lon": -85.162489,
    "units": 1,
    "stacked": false,
    "notable": false
