@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T14:00:40+00:00",
+ "updated": "2026-11-27T14:05:38+00:00",
  "counts": {
   "year": 375085,
   "upstream_day": 145,
-  "day": 219,
+  "day": 228,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832608",
+   "sequence": "2026-11-37943",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:04:57Z",
+   "created": "2026-11-27T14:04:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4604 VIRGINIA AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.998048,
+   "lon": -85.328408,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832597",
    "sequence": "2026-11-37934",
@@ -90,8 +116,8 @@
    "id": "9832591",
    "sequence": "2026-11-37930",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T14:04:04Z",
    "created": "2026-11-27T13:49:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
