@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T17:45:36+00:00",
+ "updated": "2026-11-27T17:50:44+00:00",
  "counts": {
-  "year": 375254,
-  "upstream_day": 314,
-  "day": 449,
+  "year": 375260,
+  "upstream_day": 320,
+  "day": 454,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9832941",
+   "sequence": "2026-11-38169",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:50:20Z",
+   "created": "2026-11-27T17:50:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OCHS HWY / OCHS HWY EXT",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 2",
+   "lat": 34.98619,
+   "lon": -85.343963,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832940",
+   "sequence": "2026-11-38168",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:49:25Z",
+   "created": "2026-11-27T17:49:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4303 BONNY OAKS DR",
+   "cross": "HIGHWAY 58/BENTON DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.081275,
+   "lon": -85.208105,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832933",
+   "sequence": "2026-11-38166",
+   "type": "MVC Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:46:57Z",
+   "created": "2026-11-27T17:46:34Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MORRISON SPRINGS RD / EXIT MORRISON SPRINGS RD ON RAMP SB",
+   "cross": "",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.122547,
+   "lon": -85.297572,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832929",
    "sequence": "2026-11-38164",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:44:10Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T17:42:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -35,38 +113,12 @@
    "notable": false
   },
   {
-   "id": "9832928",
-   "sequence": "2026-11-38161",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:41:31Z",
-   "created": "2026-11-27T17:41:26Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5706 CRESTVIEW DR",
-   "cross": "RANDALL ST/ETHYEYLIN LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.153597,
-   "lon": -85.261313,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832926",
-   "sequence": "2026-11-38162",
-   "type": "Miscellaneous Complaint",
+   "id": "9832927",
+   "sequence": "2026-11-38165",
+   "type": "Backup Other Agency",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-27T17:40:01Z",
+   "created": "2026-11-27T17:40:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -75,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2180 GUNBARREL RD",
-   "cross": "LANDRESS DR/COMMONS BLVD",
+   "address": "6241 PERIMETER DR",
+   "cross": "LEE HWY/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.034718,
-   "lon": -85.149653,
+   "zone": "C4",
+   "priority": "PRI 2",
+   "lat": 35.029578,
+   "lon": -85.181639,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9832908",
-   "sequence": "2026-11-38150",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-27T17:36:18Z",
-   "created": "2026-11-27T17:26:20Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "13802 EICKHOFF LN",
-   "cross": "PARTRIDGE LN/FINEOUT DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 4",
-   "lat": 35.325939,
-   "lon": -85.088191,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832903",
    "sequence": "2026-11-38148",
    "type": "Aggressive Animal",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:50:25Z",
    "created": "2026-11-27T17:22:50Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -283,13 +309,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4413 PAULA LN",
+   "address": "4424 PAULA LN",
    "cross": "CRESTVIEW DR/ELY RD",
    "city": "RED BANK",
    "zone": "RED BANK 1",
    "priority": "PRI 2",
-   "lat": 35.123778,
-   "lon": -85.27782,
+   "lat": 35.123502,
+   "lon": -85.277041,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -335,13 +361,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4041 HIXSON PIKE",
-   "cross": "FAIRFAX DR/AZALEAN DR",
+   "address": "4300 N ACCESS RD",
+   "cross": "MEMPHIS DR/EXIT N ACCESS RD W ON RAMP SB",
    "city": "CHATTANOOGA",
    "zone": "A3 A",
    "priority": "PRI 3",
-   "lat": 35.114538,
-   "lon": -85.258028,
+   "lat": 35.11285,
+   "lon": -85.253446,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +376,8 @@
    "id": "9832889",
    "sequence": "2026-11-38139",
    "type": "Deceptive Practice",
-   "status": "Stacked",
-   "status_at": "2026-11-27T17:08:57Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T17:08:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -369,7 +395,7 @@
    "lat": 35.027055,
    "lon": -85.156695,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -394,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.127339,
    "lon": -85.242188,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832858",
-   "sequence": "2026-11-38123",
-   "type": "Burglary",
-   "status": "Enroute",
-   "status_at": "2026-11-27T16:52:44Z",
-   "created": "2026-11-27T16:44:36Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7201 MOSES RD",
-   "cross": "HILLCREST RD/FRIENDSHIP LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 4",
-   "lat": 35.182942,
-   "lon": -85.22949,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -472,58 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.985086,
    "lon": -85.334005,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832847",
-   "sequence": "2026-11-38116",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T16:38:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "HIXSON PIKE / ELY RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.122957,
-   "lon": -85.248231,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832843",
-   "sequence": "2026-11-38112",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T17:08:41Z",
-   "created": "2026-11-27T16:37:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2624 GLENWOOD PKWY",
-   "cross": "VINE ST/ROWDEN ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.032507,
-   "lon": -85.260351,
    "units": 1,
    "stacked": false,
    "notable": false
