@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T18:00:44+00:00",
+ "updated": "2026-11-27T18:05:37+00:00",
  "counts": {
   "year": 375265,
   "upstream_day": 325,
-  "day": 460,
+  "day": 462,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9832956",
+   "sequence": "2026-11-38177",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:02:25Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "OAK ST / PEARL ST",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 D",
+   "priority": "PRI 1",
+   "lat": 35.069974,
+   "lon": -85.062823,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832952",
    "sequence": "2026-11-38175",
@@ -35,63 +61,11 @@
    "notable": false
   },
   {
-   "id": "9832951",
-   "sequence": "2026-11-38174",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:57:56Z",
-   "created": "2026-11-27T17:56:00Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6860 LEE HWY",
-   "cross": "HICKORY VALLEY RD/CONNER LN",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.041274,
-   "lon": -85.167206,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832945",
-   "sequence": "2026-11-38170",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:57:00Z",
-   "created": "2026-11-27T17:52:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2211 OVERNITE DR",
-   "cross": "SHALLOWFORD RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 1",
-   "lat": 35.040841,
-   "lon": -85.159192,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832941",
    "sequence": "2026-11-38169",
    "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:02:22Z",
    "created": "2026-11-27T17:50:03Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +90,8 @@
    "id": "9832933",
    "sequence": "2026-11-38166",
    "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:02:12Z",
    "created": "2026-11-27T17:46:34Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -142,8 +116,8 @@
    "id": "9832929",
    "sequence": "2026-11-38164",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:01:26Z",
    "created": "2026-11-27T17:42:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -324,8 +298,8 @@
    "id": "9832889",
    "sequence": "2026-11-38139",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T17:08:57Z",
    "created": "2026-11-27T17:08:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -343,7 +317,7 @@
    "lat": 35.027055,
    "lon": -85.156695,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -425,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9832836",
-   "sequence": "2026-11-38107",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T17:32:20Z",
-   "created": "2026-11-27T16:35:27Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6740 BIG RIDGE RD",
-   "cross": "MOSS LAKE DR/RIDGE LAKE RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.144723,
-   "lon": -85.190678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832815",
    "sequence": "2026-11-38090",
    "type": "Deceptive Practice",
@@ -498,32 +446,6 @@
    "priority": "PRI 4",
    "lat": 35.040162,
    "lon": -85.295928,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832766",
-   "sequence": "2026-11-38054",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T17:11:25Z",
-   "created": "2026-11-27T15:54:39Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "706 SPEARS AVE",
-   "cross": "CHAMBLISS ST/PEAK ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.07063,
-   "lon": -85.309719,
    "units": 1,
    "stacked": false,
    "notable": false
