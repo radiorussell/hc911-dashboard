@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-27T18:15:37+00:00",
+ "updated": "2026-11-27T18:20:37+00:00",
  "counts": {
-  "year": 375270,
-  "upstream_day": 330,
-  "day": 475,
+  "year": 375272,
+  "upstream_day": 332,
+  "day": 482,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 31,
  "incidents": [
+  {
+   "id": "9832984",
+   "sequence": "2026-11-38197",
+   "type": "MVC Unknown Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:20:02Z",
+   "created": "2026-11-27T18:19:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "35°02'11.06\"N / 085°16'33.80\"W",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.036406,
+   "lon": -85.276054,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832983",
+   "sequence": "2026-11-38195",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:18:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1700 - 1799 MCCALLIE AVE",
+   "cross": "N HICKORY ST/S HAWTHORNE ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 1",
+   "lat": 35.03693,
+   "lon": -85.277468,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832981",
+   "sequence": "2026-11-38193",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:18:05Z",
+   "created": "2026-11-27T18:18:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832982",
+   "sequence": "2026-11-38194",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:18:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 1",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832980",
+   "sequence": "2026-11-38192",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:17:56Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "951 BOYNTON DR",
+   "cross": "W MARTIN LUTHER KING BLVD/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.047825,
+   "lon": -85.320645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832975",
    "sequence": "2026-11-38190",
@@ -64,8 +194,8 @@
    "id": "9832974",
    "sequence": "2026-11-38188",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:14:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T18:14:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -327,19 +457,21 @@
    "status": "Queued",
    "status_at": "2026-11-27T18:13:39Z",
    "created": "2026-11-27T18:02:13Z",
-   "jurisdiction": "",
-   "agencies": [],
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "27 / Intersate 24",
+   "address": "HIGHWAY 27 SB / EXIT W M L KING BLVD E ON RAMP SB",
    "cross": "",
-   "city": "",
-   "zone": "",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
    "priority": "PRI 4",
-   "lat": 0,
-   "lon": 0,
+   "lat": 35.043145,
+   "lon": -85.314386,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -366,32 +498,6 @@
    "priority": "PRI 4",
    "lat": 35.01316,
    "lon": -85.101967,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832933",
-   "sequence": "2026-11-38166",
-   "type": "MVC Delayed",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:02:12Z",
-   "created": "2026-11-27T17:46:34Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MORRISON SPRINGS RD / EXIT MORRISON SPRINGS RD ON RAMP SB",
-   "cross": "",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 4",
-   "lat": 35.122547,
-   "lon": -85.297572,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -449,37 +555,11 @@
    "notable": false
   },
   {
-   "id": "9832921",
-   "sequence": "2026-11-38158",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:36:40Z",
-   "created": "2026-11-27T17:36:40Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4429 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "603 A",
-   "priority": "PRI 2",
-   "lat": 35.085128,
-   "lon": -85.200324,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832919",
    "sequence": "2026-11-38157",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:54:16Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T18:17:38Z",
    "created": "2026-11-27T17:35:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -605,32 +685,6 @@
    "notable": false
   },
   {
-   "id": "9832851",
-   "sequence": "2026-11-38125",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T16:43:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3222 ABERDEEN ROW",
-   "cross": "No Cross Street/BEXLEY SQ",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 4",
-   "lat": 35.018131,
-   "lon": -85.319015,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832815",
    "sequence": "2026-11-38090",
    "type": "Deceptive Practice",
@@ -652,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 34.987475,
    "lon": -85.289464,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832802",
-   "sequence": "2026-11-38080",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T16:12:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "807 E 10TH ST",
-   "cross": "MAGNOLIA ST/LOS GATOES LN",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.040162,
-   "lon": -85.295928,
    "units": 1,
    "stacked": false,
    "notable": false
