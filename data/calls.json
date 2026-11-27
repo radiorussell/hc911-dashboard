@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-27T05:40:41+00:00",
+ "updated": "2026-11-27T05:45:37+00:00",
  "counts": {
   "year": 374947,
   "upstream_day": 7,
-  "day": 15,
+  "day": 24,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9832319",
+   "sequence": "2026-11-37738",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:44:20Z",
+   "created": "2026-11-27T05:44:20Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1313 ADONNA LN",
+   "cross": "GIBSON ST/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.992276,
+   "lon": -85.219043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832320",
+   "sequence": "2026-11-37739",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:44:20Z",
+   "created": "2026-11-27T05:44:20Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1313 ADONNA LN",
+   "cross": "GIBSON ST/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.992276,
+   "lon": -85.219043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832318",
+   "sequence": "2026-11-37736",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:44:07Z",
+   "created": "2026-11-27T05:44:07Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6801 RINGGOLD RD",
+   "cross": "FRAWLEY RD/S SANCTUARY RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.988701,
+   "lon": -85.18971,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832317",
+   "sequence": "2026-11-37735",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:44:07Z",
+   "created": "2026-11-27T05:44:07Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6801 RINGGOLD RD",
+   "cross": "FRAWLEY RD/S SANCTUARY RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.988701,
+   "lon": -85.18971,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832316",
+   "sequence": "2026-11-37737",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:43:32Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1313 ADONNA LN",
+   "cross": "GIBSON ST/OAKDALE AVE",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.992276,
+   "lon": -85.219043,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832315",
+   "sequence": "2026-11-37734",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:43:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6801 RINGGOLD RD",
+   "cross": "FRAWLEY RD/S SANCTUARY RD",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.988701,
+   "lon": -85.18971,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832310",
    "sequence": "2026-11-37730",
