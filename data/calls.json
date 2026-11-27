@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T07:45:43+00:00",
+ "updated": "2026-11-27T07:50:37+00:00",
  "counts": {
   "year": 374984,
   "upstream_day": 44,
-  "day": 52,
+  "day": 59,
   "day_basis": "midnight"
  },
- "raw_rows": 4,
+ "raw_rows": 5,
  "incidents": [
+  {
+   "id": "9832370",
+   "sequence": "2026-11-37774",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T07:46:42Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8885 SEDMAN RD",
+   "cross": "DAISY DALLAS RD/CAROL JEAN TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.212174,
+   "lon": -85.173258,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832359",
    "sequence": "2026-11-37767",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T07:29:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T07:46:43Z",
    "created": "2026-11-27T07:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
