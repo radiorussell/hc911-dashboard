@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T08:40:39+00:00",
+ "updated": "2026-11-27T08:45:36+00:00",
  "counts": {
   "year": 375000,
   "upstream_day": 60,
-  "day": 80,
+  "day": 83,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9832397",
+   "sequence": "2026-11-37798",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:42:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "ELY RD / HIXSON PIKE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 2",
+   "lat": 35.122957,
+   "lon": -85.248231,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832396",
+   "sequence": "2026-11-37797",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:39:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4800 PAWNEE TRL",
+   "cross": "WOODVALE AVE/N MOORE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.026109,
+   "lon": -85.223446,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832393",
    "sequence": "2026-11-37794",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:44:50Z",
    "created": "2026-11-27T08:37:40Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9832394",
    "sequence": "2026-11-37795",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:41:45Z",
    "created": "2026-11-27T08:37:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9832391",
    "sequence": "2026-11-37792",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:41:55Z",
    "created": "2026-11-27T08:35:22Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -116,8 +168,8 @@
    "id": "9832390",
    "sequence": "2026-11-37791",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T08:40:55Z",
    "created": "2026-11-27T08:27:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -141,7 +193,7 @@
   {
    "id": "9832387",
    "sequence": "2026-11-37788",
-   "type": "Domestic Disorder",
+   "type": "Disorder Weapon Involve",
    "status": "Enroute",
    "status_at": "2026-11-27T08:34:55Z",
    "created": "2026-11-27T08:23:16Z",
@@ -157,7 +209,7 @@
    "cross": "YOGI LN/No Cross Street",
    "city": "HAMILTON COUNTY",
    "zone": "WEST 4",
-   "priority": "PRI 2",
+   "priority": "PRI 1",
    "lat": 35.215832,
    "lon": -85.157717,
    "units": 1,
