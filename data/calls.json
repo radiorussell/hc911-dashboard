@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T23:45:36+00:00",
+ "updated": "2026-11-27T23:50:38+00:00",
  "counts": {
-  "year": 375570,
-  "upstream_day": 630,
-  "day": 864,
+  "year": 375575,
+  "upstream_day": 635,
+  "day": 865,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 22,
  "incidents": [
   {
    "id": "9833494",
@@ -35,12 +35,12 @@
    "notable": false
   },
   {
-   "id": "9833491",
-   "sequence": "2026-11-38577",
-   "type": "CON Transport",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:42:05Z",
-   "created": "2026-11-27T23:41:43Z",
+   "id": "9833493",
+   "sequence": "2026-11-38580",
+   "type": "Backup Police",
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:49:18Z",
+   "created": "2026-11-27T23:44:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "910 BLACKFORD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
+   "address": "FAGAN ST / E 42ND ST",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 3",
-   "lat": 35.049518,
-   "lon": -85.289863,
+   "zone": "A12",
+   "priority": "PRI 2",
+   "lat": 35.001251,
+   "lon": -85.310025,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,7 +64,7 @@
    "id": "9833486",
    "sequence": "2026-11-38575",
    "type": "Domestic Disorder",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-27T23:38:52Z",
    "created": "2026-11-27T23:38:05Z",
    "jurisdiction": "Chattanooga PD",
@@ -83,7 +83,7 @@
    "lat": 35.042054,
    "lon": -85.245671,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -142,8 +142,8 @@
    "id": "9833473",
    "sequence": "2026-11-38569",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:29:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T23:29:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -191,63 +191,11 @@
    "notable": false
   },
   {
-   "id": "9833461",
-   "sequence": "2026-11-38559",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:37:26Z",
-   "created": "2026-11-27T23:18:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3401 CAMPBELL ST",
-   "cross": "GROVE ST/BIRCHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 4",
-   "lat": 35.073029,
-   "lon": -85.241019,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833458",
-   "sequence": "2026-11-38556",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:16:50Z",
-   "created": "2026-11-27T23:16:50Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7840 MAGNOLIA LAKE DR",
-   "cross": "AVIARA DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.022573,
-   "lon": -85.142396,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833456",
    "sequence": "2026-11-38555",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T23:44:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T23:50:15Z",
    "created": "2026-11-27T23:16:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +220,8 @@
    "id": "9833455",
    "sequence": "2026-11-38554",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:47:41Z",
    "created": "2026-11-27T23:14:52Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -375,7 +323,7 @@
   {
    "id": "9833439",
    "sequence": "2026-11-38542",
-   "type": "EMS CALL",
+   "type": "Pedestrian Struck",
    "status": "On Scene",
    "status_at": "2026-11-27T23:12:57Z",
    "created": "2026-11-27T23:07:27Z",
@@ -428,8 +376,8 @@
    "id": "9833437",
    "sequence": "2026-11-38540",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:44:24Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:15:18Z",
    "created": "2026-11-27T23:06:39Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -449,58 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833426",
-   "sequence": "2026-11-38532",
-   "type": "MVC Injuries",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T23:22:03Z",
-   "created": "2026-11-27T22:58:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1314 WHEELER AVE",
-   "cross": "WILSON ST/BALTO ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.050627,
-   "lon": -85.258008,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9833422",
-   "sequence": "2026-11-38528",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:45:18Z",
-   "created": "2026-11-27T22:53:47Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6370 FRANKFURT RD",
-   "cross": "MERCEDES LN/OLD BUG LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 1",
-   "lat": 35.128198,
-   "lon": -85.106409,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833413",
@@ -524,58 +420,6 @@
    "priority": "PRI 1",
    "lat": 35.198103,
    "lon": -85.011444,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833393",
-   "sequence": "2026-11-38504",
-   "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T22:54:50Z",
-   "created": "2026-11-27T22:27:36Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5615 CHERRY ST",
-   "cross": "STATE ST/OCOEE ST",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 CO B",
-   "priority": "PRI 1",
-   "lat": 35.072794,
-   "lon": -85.057783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833364",
-   "sequence": "2026-11-38481",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T23:16:16Z",
-   "created": "2026-11-27T22:20:02Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9715 PEARSON RD",
-   "cross": "LAKESIDE RD/BLUE SPRINGS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.218895,
-   "lon": -85.073035,
    "units": 1,
    "stacked": false,
    "notable": false
