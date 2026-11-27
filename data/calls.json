@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T02:35:36+00:00",
+ "updated": "2026-11-27T02:40:42+00:00",
  "counts": {
-  "year": 374878,
+  "year": 374880,
   "upstream_day": 0,
   "day": 971,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 17,
  "incidents": [
   {
    "id": "9832183",
@@ -38,8 +38,8 @@
    "id": "9832184",
    "sequence": "2026-11-37633",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T02:31:47Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T02:31:47Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9832182",
    "sequence": "2026-11-37631",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:39:09Z",
    "created": "2026-11-27T02:30:30Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -87,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9832177",
-   "sequence": "2026-11-37626",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T02:20:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "436 WATER ST",
-   "cross": "CHANDLER AVE/OHLS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A11",
-   "priority": "PRI 3",
-   "lat": 35.007973,
-   "lon": -85.315456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832175",
    "sequence": "2026-11-37623",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T02:30:17Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T02:36:41Z",
    "created": "2026-11-27T02:16:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.105552,
    "lon": -85.292115,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9831978",
-   "sequence": "2026-11-37470",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T23:14:17Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "301 - 399 WINDMERE DR",
-   "cross": "LYNNCREST DR/TUNNEL BLVD",
-   "city": "RIDGESIDE",
-   "zone": "ERPD WEST-R",
-   "priority": "PRI 4",
-   "lat": 35.034644,
-   "lon": -85.243491,
    "units": 1,
    "stacked": false,
    "notable": false
