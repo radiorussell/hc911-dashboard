@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T09:10:41+00:00",
+ "updated": "2026-11-27T09:15:38+00:00",
  "counts": {
   "year": 375006,
   "upstream_day": 66,
-  "day": 87,
+  "day": 90,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 6,
  "incidents": [
+  {
+   "id": "9832406",
+   "sequence": "2026-11-37805",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T09:11:54Z",
+   "jurisdiction": "Red Bank FD",
+   "agencies": [
+    "Red Bank FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "220 CULVER ST",
+   "cross": "INHERITANCE CIR/EASTON AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK FD 1",
+   "priority": "PRI 3",
+   "lat": 35.098798,
+   "lon": -85.296903,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832401",
    "sequence": "2026-11-37802",
@@ -38,8 +64,8 @@
    "id": "9832392",
    "sequence": "2026-11-37793",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T09:01:10Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T09:10:43Z",
    "created": "2026-11-27T08:37:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
