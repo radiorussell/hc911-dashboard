@@ -1,13 +1,273 @@
 {
- "updated": "2026-11-27T13:25:36+00:00",
+ "updated": "2026-11-27T13:30:37+00:00",
  "counts": {
-  "year": 375068,
-  "upstream_day": 128,
-  "day": 195,
+  "year": 375069,
+  "upstream_day": 129,
+  "day": 206,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9832576",
+   "sequence": "2026-11-37921",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:29:51Z",
+   "created": "2026-11-27T13:29:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1214 THOMAS LN",
+   "cross": "NORTHERN HILLS RD/SCHOOL DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.144672,
+   "lon": -85.245066,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832577",
+   "sequence": "2026-11-37919",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:28:13Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4118 FAGAN ST",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.001273,
+   "lon": -85.309776,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832578",
+   "sequence": "2026-11-37920",
+   "type": "Assault EMS Needed",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:28:13Z",
+   "created": "2026-11-27T13:28:13Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4118 FAGAN ST",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "1401",
+   "priority": "PRI 1",
+   "lat": 35.001273,
+   "lon": -85.309776,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832573",
+   "sequence": "2026-11-37916",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:27:35Z",
+   "created": "2026-11-27T13:27:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4625 ST ELMO AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.997036,
+   "lon": -85.329815,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832574",
+   "sequence": "2026-11-37917",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:27:35Z",
+   "created": "2026-11-27T13:27:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4625 ST ELMO AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 2",
+   "lat": 34.997036,
+   "lon": -85.329815,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832572",
+   "sequence": "2026-11-37915",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:27:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4625 ST ELMO AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 34.997036,
+   "lon": -85.329815,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832568",
+   "sequence": "2026-11-37918",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:26:09Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4118 FAGAN ST",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 1",
+   "lat": 35.001273,
+   "lon": -85.309776,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832570",
+   "sequence": "2026-11-37913",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:25:59Z",
+   "created": "2026-11-27T13:25:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "649 MORRISON SPRINGS RD",
+   "cross": "BLUE WATER CIR/PRICELESS VW",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.125529,
+   "lon": -85.304385,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832571",
+   "sequence": "2026-11-37914",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T13:25:59Z",
+   "created": "2026-11-27T13:25:59Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "649 MORRISON SPRINGS RD",
+   "cross": "BLUE WATER CIR/PRICELESS VW",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 3",
+   "lat": 35.125529,
+   "lon": -85.304385,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832567",
+   "sequence": "2026-11-37912",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T13:25:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "649 MORRISON SPRINGS RD",
+   "cross": "BLUE WATER CIR/PRICELESS VW",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.125529,
+   "lon": -85.304385,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832565",
    "sequence": "2026-11-37910",
@@ -56,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.065147,
    "lon": -85.31075,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832539",
-   "sequence": "2026-11-37897",
-   "type": "Deceptive Practice",
-   "status": "On Scene",
-   "status_at": "2026-11-27T13:04:13Z",
-   "created": "2026-11-27T12:51:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3604 BRAINERD RD",
-   "cross": "S GERMANTOWN RD/ORIOLE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.023303,
-   "lon": -85.245707,
    "units": 1,
    "stacked": false,
    "notable": false
