@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T19:15:36+00:00",
+ "updated": "2026-11-27T19:20:37+00:00",
  "counts": {
-  "year": 375334,
-  "upstream_day": 394,
-  "day": 559,
+  "year": 375348,
+  "upstream_day": 408,
+  "day": 560,
   "day_basis": "midnight"
  },
- "raw_rows": 44,
+ "raw_rows": 40,
  "incidents": [
+  {
+   "id": "9833084",
+   "sequence": "2026-11-38275",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:17:22Z",
+   "created": "2026-11-27T19:17:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5308 AUSTIN RD",
+   "cross": "HELENA DR/GADD RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.141323,
+   "lon": -85.241758,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833083",
    "sequence": "2026-11-38272",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:14:58Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T19:19:43Z",
    "created": "2026-11-27T19:14:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -59,32 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833078",
-   "sequence": "2026-11-38273",
-   "type": "Police Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:15:07Z",
-   "created": "2026-11-27T19:13:31Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2515 CANNON AVE",
-   "cross": "TAFT AVE/COMMERCE ST",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 3",
-   "lat": 35.021396,
-   "lon": -85.300419,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833077",
@@ -351,7 +351,7 @@
    "sequence": "2026-11-38255",
    "type": "Noise Complaint",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T19:20:10Z",
    "created": "2026-11-27T18:59:45Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -368,32 +368,6 @@
    "priority": "PRI 3",
    "lat": 35.067982,
    "lon": -85.108124,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833054",
-   "sequence": "2026-11-38253",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:04:05Z",
-   "created": "2026-11-27T18:58:25Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2289 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.040129,
-   "lon": -85.150941,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -451,27 +425,27 @@
    "notable": false
   },
   {
-   "id": "9833049",
-   "sequence": "2026-11-38246",
+   "id": "9833043",
+   "sequence": "2026-11-38249",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:01:26Z",
-   "created": "2026-11-27T18:57:27Z",
-   "jurisdiction": "Chattanooga PD",
+   "status": "Transporting",
+   "status_at": "2026-11-27T19:18:31Z",
+   "created": "2026-11-27T18:56:47Z",
+   "jurisdiction": "Hamilton Co EMS",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co EMS"
    ],
-   "agency_type": "Law",
+   "agency_type": "EMS",
    "agency_types": [
-    "Law"
+    "EMS"
    ],
-   "address": "2805 E 37TH ST",
-   "cross": "DODDS AVE/12TH AVE",
+   "address": "2296 GUNBARREL RD",
+   "cross": "COMMONS BLVD/SHALLOWFORD RD",
    "city": "CHATTANOOGA",
-   "zone": "B8",
+   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 34.999075,
-   "lon": -85.282068,
+   "lat": 35.039818,
+   "lon": -85.149705,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 34.999075,
    "lon": -85.282068,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833043",
-   "sequence": "2026-11-38249",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:06:12Z",
-   "created": "2026-11-27T18:56:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2296 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.039818,
-   "lon": -85.149705,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -662,8 +610,8 @@
    "id": "9833017",
    "sequence": "2026-11-38226",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T19:02:37Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:20:05Z",
    "created": "2026-11-27T18:41:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -706,32 +654,6 @@
    "priority": "PRI 3",
    "lat": 35.031369,
    "lon": -85.315968,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833008",
-   "sequence": "2026-11-38219",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T18:37:16Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "196 MKADDESH WAY",
-   "cross": "ROPHE DR/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.258956,
-   "lon": -85.181698,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -792,8 +714,8 @@
    "id": "9832995",
    "sequence": "2026-11-38206",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T19:03:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:16:41Z",
    "created": "2026-11-27T18:28:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -810,32 +732,6 @@
    "priority": "PRI 1",
    "lat": 34.992883,
    "lon": -85.107183,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832993",
-   "sequence": "2026-11-38209",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:53:58Z",
-   "created": "2026-11-27T18:28:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7011 SHALLOWFORD RD",
-   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.044183,
-   "lon": -85.159401,
    "units": 1,
    "stacked": false,
    "notable": false
