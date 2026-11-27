@@ -1,20 +1,98 @@
 {
- "updated": "2026-11-27T22:25:38+00:00",
+ "updated": "2026-11-27T22:30:36+00:00",
  "counts": {
-  "year": 375489,
-  "upstream_day": 549,
-  "day": 781,
+  "year": 375503,
+  "upstream_day": 563,
+  "day": 791,
   "day_basis": "midnight"
  },
- "raw_rows": 43,
+ "raw_rows": 40,
  "incidents": [
   {
-   "id": "9833385",
-   "sequence": "2026-11-38496",
-   "type": "Unknown 911",
+   "id": "9833397",
+   "sequence": "2026-11-38506",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-27T22:24:50Z",
-   "created": "2026-11-27T22:24:47Z",
+   "status_at": "2026-11-27T22:28:53Z",
+   "created": "2026-11-27T22:28:53Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5615 CHERRY ST",
+   "cross": "STATE ST/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC I",
+   "priority": "PRI 2",
+   "lat": 35.072794,
+   "lon": -85.057783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833396",
+   "sequence": "2026-11-38505",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:28:53Z",
+   "created": "2026-11-27T22:28:53Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5615 CHERRY ST",
+   "cross": "STATE ST/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 D",
+   "priority": "PRI 3",
+   "lat": 35.072794,
+   "lon": -85.057783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833393",
+   "sequence": "2026-11-38504",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:27:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5615 CHERRY ST",
+   "cross": "STATE ST/OCOEE ST",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.072794,
+   "lon": -85.057783,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833390",
+   "sequence": "2026-11-38502",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:27:06Z",
+   "created": "2026-11-27T22:26:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +101,91 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2020 GUNBARREL RD",
-   "cross": "GOODWIN RD/LANDRESS DR",
+   "address": "413 SPRING ST",
+   "cross": "HARPER ST/DAVENPORT ST",
    "city": "CHATTANOOGA",
-   "zone": "C7",
+   "zone": "A4 A",
    "priority": "PRI 3",
-   "lat": 35.030686,
-   "lon": -85.151276,
+   "lat": 35.067898,
+   "lon": -85.314482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833391",
+   "sequence": "2026-11-38501",
+   "type": "Disorder Weapon Involve",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:27:03Z",
+   "created": "2026-11-27T22:26:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5505 BRAINERD RD",
+   "cross": "SPRING CREEK RD/EASTGATE LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 1",
+   "lat": 35.010725,
+   "lon": -85.219474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833386",
+   "sequence": "2026-11-38497",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:25:45Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5501 BRAINERD RD",
+   "cross": "SPRING CREEK RD/EASTGATE LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.010327,
+   "lon": -85.220476,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833387",
+   "sequence": "2026-11-38498",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:25:45Z",
+   "created": "2026-11-27T22:25:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5501 BRAINERD RD",
+   "cross": "SPRING CREEK RD/EASTGATE LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "1302 A",
+   "priority": "PRI 1",
+   "lat": 35.010327,
+   "lon": -85.220476,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -113,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9833377",
-   "sequence": "2026-11-38492",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:23:03Z",
-   "created": "2026-11-27T22:22:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1816 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.024501,
-   "lon": -85.155628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833375",
    "sequence": "2026-11-38491",
    "type": "Unknown 911",
@@ -168,8 +298,8 @@
    "id": "9833371",
    "sequence": "2026-11-38489",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:22:00Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:21:15Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -191,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9833370",
-   "sequence": "2026-11-38487",
-   "type": "Disorder Weapon Involve",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:21:23Z",
-   "created": "2026-11-27T22:21:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5250 BRAINERD RD",
-   "cross": "TACOA AVE/MCBRIEN RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.010545,
-   "lon": -85.223171,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833366",
    "sequence": "2026-11-38482",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:28:48Z",
    "created": "2026-11-27T22:20:25Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -272,8 +376,8 @@
    "id": "9833365",
    "sequence": "2026-11-38480",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:20:20Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T22:27:48Z",
    "created": "2026-11-27T22:20:13Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -376,8 +480,8 @@
    "id": "9833350",
    "sequence": "2026-11-38470",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:16:49Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:27:58Z",
    "created": "2026-11-27T22:16:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -425,30 +529,30 @@
    "notable": false
   },
   {
-   "id": "9833348",
-   "sequence": "2026-11-38468",
-   "type": "MVC Unknown Injuries",
-   "status": "Stacked",
-   "status_at": "2026-11-27T22:15:21Z",
-   "created": "2026-11-27T22:14:46Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9833345",
+   "sequence": "2026-11-38466",
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:22:24Z",
+   "created": "2026-11-27T22:13:34Z",
+   "jurisdiction": "Highway 58 VFD",
    "agencies": [
-    "Chattanooga PD"
+    "Highway 58 VFD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
+   "address": "GRASSHOPPER RD / DOLLY POND RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 3",
    "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
+   "lat": 35.292017,
+   "lon": -85.000033,
    "units": 1,
-   "stacked": true,
-   "notable": false
+   "stacked": false,
+   "notable": true
   },
   {
    "id": "9833344",
@@ -469,32 +573,6 @@
    "cross": "",
    "city": "HAMILTON COUNTY",
    "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.292017,
-   "lon": -85.000033,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9833345",
-   "sequence": "2026-11-38466",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:22:24Z",
-   "created": "2026-11-27T22:13:34Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "GRASSHOPPER RD / DOLLY POND RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 3",
    "priority": "PRI 1",
    "lat": 35.292017,
    "lon": -85.000033,
@@ -529,58 +607,6 @@
    "notable": true
   },
   {
-   "id": "9833341",
-   "sequence": "2026-11-38463",
-   "type": "Apartment Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:17:18Z",
-   "created": "2026-11-27T22:13:08Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1023 HOLLAND JOHNSON RD",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 1",
-   "lat": 35.214884,
-   "lon": -85.226072,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9833340",
-   "sequence": "2026-11-38462",
-   "type": "Apartment Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:23:00Z",
-   "created": "2026-11-27T22:12:21Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1023 HOLLAND JOHNSON RD",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 3",
-   "priority": "PRI 1",
-   "lat": 35.214884,
-   "lon": -85.226072,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833335",
    "sequence": "2026-11-38459",
    "type": "Unknown Trouble",
@@ -602,58 +628,6 @@
    "priority": "PRI 1",
    "lat": 35.090497,
    "lon": -85.297218,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833332",
-   "sequence": "2026-11-38457",
-   "type": "Miscellaneous Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:14:55Z",
-   "created": "2026-11-27T22:08:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7605 HAMILTON PARK DR",
-   "cross": "WALKER RD/YERBEY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.056486,
-   "lon": -85.137243,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833328",
-   "sequence": "2026-11-38454",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:06:59Z",
-   "created": "2026-11-27T22:06:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7683 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.038784,
-   "lon": -85.13925,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -706,32 +680,6 @@
    "priority": "PRI 1",
    "lat": 35.038784,
    "lon": -85.13925,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833321",
-   "sequence": "2026-11-38450",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:11:43Z",
-   "created": "2026-11-27T22:01:13Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3101 - 3199 RINGGOLD RD",
-   "cross": "WESTSIDE DR/S SEMINOLE DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.008871,
-   "lon": -85.266988,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -995,32 +943,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833189",
-   "sequence": "2026-11-38344",
-   "type": "Missing Endangered",
-   "status": "Stacked",
-   "status_at": "2026-11-27T20:28:53Z",
-   "created": "2026-11-27T20:27:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "975 E 3RD ST",
-   "cross": "HAMPTON ST/WIEHL ST",
-   "city": "CHATTANOOGA",
-   "zone": "A8",
-   "priority": "PRI 1",
-   "lat": 35.048719,
-   "lon": -85.290431,
-   "units": 1,
-   "stacked": true,
-   "notable": true
   },
   {
    "id": "9833103",
