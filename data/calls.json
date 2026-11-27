@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T17:05:38+00:00",
+ "updated": "2026-11-27T17:10:38+00:00",
  "counts": {
-  "year": 375241,
-  "upstream_day": 301,
-  "day": 422,
+  "year": 375242,
+  "upstream_day": 302,
+  "day": 424,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9832889",
+   "sequence": "2026-11-38139",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:08:57Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1900 GUNBARREL RD",
+   "cross": "IGOU GAP RD/JARNIGAN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.027055,
+   "lon": -85.156695,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832884",
    "sequence": "2026-11-38137",
-   "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:04:10Z",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T17:03:57Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -27,61 +53,9 @@
    "cross": "RUNYAN HILLS LN/No Cross Street",
    "city": "HAMILTON COUNTY",
    "zone": "EAST 6",
-   "priority": "PRI 1",
+   "priority": "PRI 3",
    "lat": 35.220539,
    "lon": -85.036578,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9832883",
-   "sequence": "2026-11-38136",
-   "type": "Private Property Tow",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:01:32Z",
-   "created": "2026-11-27T17:01:32Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "205 EVENINGSIDE DR",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 13",
-   "priority": "PRI 0",
-   "lat": 35.224391,
-   "lon": -85.211975,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832869",
-   "sequence": "2026-11-38129",
-   "type": "AFA Residential",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:01:44Z",
-   "created": "2026-11-27T16:48:31Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8523 MORIN RD",
-   "cross": "GEM PL/MORRIS HILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.006763,
-   "lon": -85.130795,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +217,11 @@
    "notable": false
   },
   {
-   "id": "9832846",
-   "sequence": "2026-11-38114",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:37:56Z",
-   "created": "2026-11-27T16:37:56Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2624 GLENWOOD PKWY",
-   "cross": "VINE ST/ROWDEN ST",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 1",
-   "lat": 35.032507,
-   "lon": -85.260351,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832843",
    "sequence": "2026-11-38112",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T17:05:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T17:08:41Z",
    "created": "2026-11-27T16:37:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.032507,
    "lon": -85.260351,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832838",
-   "sequence": "2026-11-38108",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:35:54Z",
-   "created": "2026-11-27T16:35:54Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6740 BIG RIDGE RD",
-   "cross": "MOSS LAKE DR/RIDGE LAKE RD",
-   "city": "CHATTANOOGA",
-   "zone": "A2",
-   "priority": "PRI 3",
-   "lat": 35.144723,
-   "lon": -85.190678,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +298,8 @@
    "id": "9832820",
    "sequence": "2026-11-38094",
    "type": "Narcotics Violation",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:26:32Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:26:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -529,32 +451,6 @@
    "notable": false
   },
   {
-   "id": "9832751",
-   "sequence": "2026-11-38042",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:45:49Z",
-   "created": "2026-11-27T15:48:41Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.056528,
-   "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832735",
    "sequence": "2026-11-38027",
    "type": "EMS CALL",
@@ -576,32 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.0901,
    "lon": -85.06649,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832693",
-   "sequence": "2026-11-38002",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": "2026-11-27T15:28:30Z",
-   "created": "2026-11-27T15:07:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "739 ASHLAND TER",
-   "cross": "SANDERS DR/CLAUDE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.116512,
-   "lon": -85.274717,
    "units": 1,
    "stacked": false,
    "notable": false
