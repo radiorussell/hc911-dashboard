@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T22:35:38+00:00",
+ "updated": "2026-11-27T22:40:38+00:00",
  "counts": {
-  "year": 375503,
-  "upstream_day": 563,
-  "day": 797,
+  "year": 375521,
+  "upstream_day": 581,
+  "day": 799,
   "day_basis": "midnight"
  },
- "raw_rows": 40,
+ "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9833405",
+   "sequence": "2026-11-38514",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:37:02Z",
+   "created": "2026-11-27T22:36:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5864 HIGHWAY 153",
+   "cross": "WANDERLUST WAY/LITTLEBURY WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.162179,
+   "lon": -85.247585,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833403",
    "sequence": "2026-11-38512",
    "type": "Apartment Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:40:22Z",
    "created": "2026-11-27T22:34:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9833402",
    "sequence": "2026-11-38511",
    "type": "Apartment Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:39:55Z",
    "created": "2026-11-27T22:34:33Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -67,21 +93,21 @@
    "status": "On Scene",
    "status_at": "2026-11-27T22:34:47Z",
    "created": "2026-11-27T22:32:53Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "1901 - 2709 SUCK CREEK RD",
+   "address": "1701 SUCK CREEK RD",
    "cross": "SIGNAL MOUNTAIN RD/SUCK CREEK LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 1 B",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
    "priority": "PRI 3",
-   "lat": 35.110156,
-   "lon": -85.36493,
+   "lat": 35.105365,
+   "lon": -85.359658,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +116,8 @@
    "id": "9833399",
    "sequence": "2026-11-38508",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:32:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:32:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9833397",
    "sequence": "2026-11-38506",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:40:19Z",
    "created": "2026-11-27T22:28:53Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -168,8 +194,8 @@
    "id": "9833393",
    "sequence": "2026-11-38504",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:39:49Z",
    "created": "2026-11-27T22:27:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9833386",
    "sequence": "2026-11-38497",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:36:27Z",
    "created": "2026-11-27T22:25:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +376,8 @@
    "id": "9833375",
    "sequence": "2026-11-38491",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:22:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:21:46Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -376,8 +402,8 @@
    "id": "9833371",
    "sequence": "2026-11-38489",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:36:23Z",
    "created": "2026-11-27T22:21:15Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -480,8 +506,8 @@
    "id": "9833364",
    "sequence": "2026-11-38481",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:37:59Z",
    "created": "2026-11-27T22:20:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -524,32 +550,6 @@
    "priority": "PRI 3",
    "lat": 35.029911,
    "lon": -85.187659,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833353",
-   "sequence": "2026-11-38475",
-   "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:18:16Z",
-   "created": "2026-11-27T22:16:59Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7026 GRASSHOPPER RD",
-   "cross": "DOLLY POND RD/LEOLLA LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 3",
-   "lat": 35.290082,
-   "lon": -84.996984,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -688,8 +688,8 @@
    "id": "9833327",
    "sequence": "2026-11-38453",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:18:37Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T22:38:15Z",
    "created": "2026-11-27T22:06:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -706,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.038784,
    "lon": -85.13925,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833320",
-   "sequence": "2026-11-38447",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:14:42Z",
-   "created": "2026-11-27T22:00:23Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6751 CROOKED COVE WAY",
-   "cross": "CROOKED CREEK DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.118269,
-   "lon": -85.088059,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -815,32 +789,6 @@
    "notable": false
   },
   {
-   "id": "9833308",
-   "sequence": "2026-11-38440",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:06:10Z",
-   "created": "2026-11-27T21:52:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2636 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.057245,
-   "lon": -85.132162,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833302",
    "sequence": "2026-11-38435",
    "type": "Theft",
@@ -862,32 +810,6 @@
    "priority": "PRI 4",
    "lat": 35.034528,
    "lon": -85.158706,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833273",
-   "sequence": "2026-11-38406",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T22:11:59Z",
-   "created": "2026-11-27T21:25:50Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5101 LYNNWOOD AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.992171,
-   "lon": -85.32747,
    "units": 1,
    "stacked": false,
    "notable": false
