@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T05:35:37+00:00",
+ "updated": "2026-11-27T05:40:41+00:00",
  "counts": {
-  "year": 374946,
-  "upstream_day": 6,
-  "day": 12,
+  "year": 374947,
+  "upstream_day": 7,
+  "day": 15,
   "day_basis": "midnight"
  },
- "raw_rows": 4,
+ "raw_rows": 6,
  "incidents": [
+  {
+   "id": "9832310",
+   "sequence": "2026-11-37730",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:39:14Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7710 ASPEN LODGE WAY",
+   "cross": "TIMBER LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.008869,
+   "lon": -85.158086,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832309",
+   "sequence": "2026-11-37729",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:38:41Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7710 ASPEN LODGE WAY",
+   "cross": "TIMBER LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.008869,
+   "lon": -85.158086,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832307",
    "sequence": "2026-11-37727",
