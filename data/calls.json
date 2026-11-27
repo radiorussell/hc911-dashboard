@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T03:40:37+00:00",
+ "updated": "2026-11-27T03:45:37+00:00",
  "counts": {
   "year": 374908,
   "upstream_day": 0,
   "day": 1016,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 14,
  "incidents": [
   {
    "id": "9832241",
    "sequence": "2026-11-37677",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:42:52Z",
    "created": "2026-11-27T03:38:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9832242",
    "sequence": "2026-11-37678",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:42:33Z",
    "created": "2026-11-27T03:38:29Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -87,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9832234",
-   "sequence": "2026-11-37671",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:28:20Z",
-   "created": "2026-11-27T03:28:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1148 MOUNTAIN CREEK RD",
-   "cross": "WELLSTONE DR/SOUTHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.115468,
-   "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832235",
    "sequence": "2026-11-37672",
    "type": "EMS CALL",
@@ -142,8 +116,8 @@
    "id": "9832233",
    "sequence": "2026-11-37669",
    "type": "Odor Investigate",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:43:23Z",
    "created": "2026-11-27T03:28:18Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -191,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9832227",
-   "sequence": "2026-11-37665",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:25:07Z",
-   "created": "2026-11-27T03:25:07Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1722 SKYLINE DR",
-   "cross": "ESTRELLITA CIR/PALERMO DR",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.025666,
-   "lon": -85.165201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832226",
    "sequence": "2026-11-37664",
    "type": "EMS CALL",
@@ -238,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.025666,
    "lon": -85.165201,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832225",
-   "sequence": "2026-11-37661",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:26:42Z",
-   "created": "2026-11-27T03:24:16Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "204 TUPELO CT",
-   "cross": "COTTONWOOD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "1506",
-   "priority": "PRI 1",
-   "lat": 35.051395,
-   "lon": -85.232091,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -371,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832132",
-   "sequence": "2026-11-37594",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T03:09:54Z",
-   "created": "2026-11-27T01:36:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "16520 ANDY THOMAS RD",
-   "cross": "TURNER RD/BLACK OAK RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.420484,
-   "lon": -85.060677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832107",
