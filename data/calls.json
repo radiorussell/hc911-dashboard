@@ -1,61 +1,139 @@
 {
- "updated": "2026-11-27T20:40:36+00:00",
+ "updated": "2026-11-27T20:45:37+00:00",
  "counts": {
   "year": 375406,
   "upstream_day": 466,
-  "day": 638,
+  "day": 644,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9833209",
-   "sequence": "2026-11-38353",
-   "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": "2026-11-27T20:39:40Z",
-   "created": "2026-11-27T20:39:40Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "id": "9833216",
+   "sequence": "2026-11-38358",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:44:46Z",
+   "created": "2026-11-27T20:44:46Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "300 SEQUOYAH RD",
-   "cross": "VINE ST/MILLER RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 4",
-   "lat": 35.246382,
-   "lon": -85.178096,
+   "address": "6921 ECHO GLEN DR",
+   "cross": "JULIANA LN/BOY SCOUT RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.181447,
+   "lon": -85.245319,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9833205",
-   "sequence": "2026-11-38352",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T20:34:52Z",
-   "jurisdiction": "Highway 58 VFD",
+   "id": "9833217",
+   "sequence": "2026-11-38359",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:44:46Z",
+   "created": "2026-11-27T20:44:46Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Highway 58 VFD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "7406 CLAUDES CREEK DR",
-   "cross": "INSPIRATION DR/RAMBLING ROSE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
+   "address": "6921 ECHO GLEN DR",
+   "cross": "JULIANA LN/BOY SCOUT RD",
+   "city": "CHATTANOOGA",
+   "zone": "2202",
    "priority": "PRI 1",
-   "lat": 35.136659,
-   "lon": -85.064383,
+   "lat": 35.181447,
+   "lon": -85.245319,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833215",
+   "sequence": "2026-11-38357",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:43:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6921 ECHO GLEN DR",
+   "cross": "JULIANA LN/BOY SCOUT RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.181447,
+   "lon": -85.245319,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833214",
+   "sequence": "2026-11-38356",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:43:46Z",
+   "created": "2026-11-27T20:43:37Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7639 MIDDLE VALLEY RD",
+   "cross": "JED LN/THRASHER PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.188898,
+   "lon": -85.190209,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833213",
+   "sequence": "2026-11-38355",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:43:32Z",
+   "created": "2026-11-27T20:43:17Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5390 HIGHWAY 153",
+   "cross": "EXIT HIXSON PIKE S OFF RAMP SB/NORTHPOINT BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.136011,
+   "lon": -85.24637,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +194,8 @@
    "id": "9833191",
    "sequence": "2026-11-38342",
    "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-27T20:27:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:27:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -135,7 +213,7 @@
    "lat": 35.088948,
    "lon": -85.185073,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -160,58 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.121107,
    "lon": -85.231701,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833184",
-   "sequence": "2026-11-38335",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T20:17:53Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "16020 PROVIDENCE RD",
-   "cross": "DAUGHERTY FERRY RD/CALM WATER TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.403646,
-   "lon": -85.06467,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833183",
-   "sequence": "2026-11-38336",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T20:17:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3644 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.017982,
-   "lon": -85.378693,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -325,7 +351,7 @@
    "sequence": "2026-11-38299",
    "type": "Harassment",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T20:43:52Z",
    "created": "2026-11-27T19:38:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
