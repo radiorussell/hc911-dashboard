@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T07:50:37+00:00",
+ "updated": "2026-11-27T07:55:38+00:00",
  "counts": {
   "year": 374984,
   "upstream_day": 44,
-  "day": 59,
+  "day": 63,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9832373",
+   "sequence": "2026-11-37777",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T07:53:20Z",
+   "created": "2026-11-27T07:53:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6737 ARDIS LN",
+   "cross": "No Cross Street/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.186203,
+   "lon": -85.248702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832374",
+   "sequence": "2026-11-37778",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T07:53:20Z",
+   "created": "2026-11-27T07:53:20Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6737 ARDIS LN",
+   "cross": "No Cross Street/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "2203",
+   "priority": "PRI 2",
+   "lat": 35.186203,
+   "lon": -85.248702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832372",
+   "sequence": "2026-11-37776",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T07:52:55Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6737 ARDIS LN",
+   "cross": "No Cross Street/HIGHWAY 153",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.186203,
+   "lon": -85.248702,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832370",
    "sequence": "2026-11-37774",
@@ -38,8 +116,8 @@
    "id": "9832359",
    "sequence": "2026-11-37767",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T07:46:43Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T07:52:17Z",
    "created": "2026-11-27T07:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.040129,
    "lon": -85.150941,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832358",
-   "sequence": "2026-11-37766",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T07:10:28Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1106 FIELDSTONE DR",
-   "cross": "FAIRINGTON CIR/FAIRINGTON CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.176813,
-   "lon": -85.221087,
    "units": 1,
    "stacked": false,
    "notable": false
