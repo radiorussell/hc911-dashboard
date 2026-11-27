@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T14:50:39+00:00",
+ "updated": "2026-11-27T14:55:38+00:00",
  "counts": {
   "year": 375118,
   "upstream_day": 178,
-  "day": 269,
+  "day": 276,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9832678",
+   "sequence": "2026-11-37991",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:55:34Z",
+   "created": "2026-11-27T14:55:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1218 POPLAR ST",
+   "cross": "W 13TH STREET CT/MAPLE STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.041638,
+   "lon": -85.316152,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832673",
+   "sequence": "2026-11-37988",
+   "type": "Backup Other Agency",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:52:21Z",
+   "created": "2026-11-27T14:52:03Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2393 GLENGERRIE DR",
+   "cross": "OLD HIXSON PIKE/WOOD LN",
+   "city": "LAKESITE",
+   "zone": "WEST 5 LAKESITE",
+   "priority": "PRI 2",
+   "lat": 35.19898,
+   "lon": -85.132131,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832669",
+   "sequence": "2026-11-37987",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:51:52Z",
+   "created": "2026-11-27T14:51:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "790 - 799 OLD DALLAS RD",
+   "cross": "OXFORD RD/E DALLAS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.082211,
+   "lon": -85.297008,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832667",
    "sequence": "2026-11-37984",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:49:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T14:49:18Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
