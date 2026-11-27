@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-27T01:20:37+00:00",
+ "updated": "2026-11-27T01:25:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 911,
+  "day": 917,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9832117",
+   "sequence": "2026-11-37579",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:24:44Z",
+   "created": "2026-11-27T01:24:24Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1005 MOUNTAIN CREEK RD",
+   "cross": "W RD/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.110028,
+   "lon": -85.326104,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832115",
+   "sequence": "2026-11-37577",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:23:03Z",
+   "created": "2026-11-27T01:23:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1410 GROVE ST",
+   "cross": "RIVERFRONT PKWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.041446,
+   "lon": -85.319354,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832116",
+   "sequence": "2026-11-37578",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:23:03Z",
+   "created": "2026-11-27T01:23:03Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1410 GROVE ST",
+   "cross": "RIVERFRONT PKWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "101 A",
+   "priority": "PRI 1",
+   "lat": 35.041446,
+   "lon": -85.319354,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832114",
+   "sequence": "2026-11-37576",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:22:24Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1410 GROVE ST",
+   "cross": "RIVERFRONT PKWY/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.041446,
+   "lon": -85.319354,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832109",
    "sequence": "2026-11-37573",
@@ -23,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "102 SIGNAL MOUNTAIN RD",
-   "cross": "DAYTON BLVD/LULLWATER RD",
+   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
+   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
    "city": "RED BANK",
    "zone": "RED BANK 2",
    "priority": "PRI 3",
-   "lat": 35.083649,
-   "lon": -85.318282,
+   "lat": 35.07834,
+   "lon": -85.320434,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -56,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.044177,
    "lon": -85.158575,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832106",
-   "sequence": "2026-11-37571",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:17:20Z",
-   "created": "2026-11-27T01:16:34Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1560 FIRELIGHT WAY",
-   "cross": "GLIMMER  LN/MANGATA WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 4",
-   "lat": 35.010125,
-   "lon": -85.097892,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +246,8 @@
    "id": "9832104",
    "sequence": "2026-11-37567",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:22:52Z",
    "created": "2026-11-27T01:14:29Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9832100",
    "sequence": "2026-11-37565",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:24:50Z",
    "created": "2026-11-27T01:13:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9832097",
    "sequence": "2026-11-37563",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:22:24Z",
    "created": "2026-11-27T01:10:28Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -324,8 +402,8 @@
    "id": "9832092",
    "sequence": "2026-11-37558",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:20:48Z",
    "created": "2026-11-27T01:07:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -552,32 +630,6 @@
    "lon": -85.228838,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831801",
-   "sequence": "2026-11-37341",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-26T22:51:24Z",
-   "created": "2026-11-26T20:58:58Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1071 WYNNWOOD RD",
-   "cross": "ARDIAN TRL/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.003644,
-   "lon": -85.26586,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
