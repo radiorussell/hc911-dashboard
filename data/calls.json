@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T15:15:37+00:00",
+ "updated": "2026-11-27T15:20:40+00:00",
  "counts": {
-  "year": 375128,
-  "upstream_day": 188,
-  "day": 290,
+  "year": 375137,
+  "upstream_day": 197,
+  "day": 294,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9832706",
+   "sequence": "2026-11-38009",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:19:37Z",
+   "created": "2026-11-27T15:18:31Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11304 1ST ST",
+   "cross": "BILL JONES RD/E BRAINERD RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.022302,
+   "lon": -85.024623,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832705",
+   "sequence": "2026-11-38008",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:17:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "704 DODSON AVE",
+   "cross": "RAMSEY ST/CITICO AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.042723,
+   "lon": -85.264768,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832699",
+   "sequence": "2026-11-38006",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:14:28Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2314 QUAIL NEST CIR",
+   "cross": "DOVE LN/GROUSE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 4",
+   "lat": 35.02497,
+   "lon": -85.094696,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832696",
    "sequence": "2026-11-38005",
@@ -38,8 +116,8 @@
    "id": "9832695",
    "sequence": "2026-11-38004",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:19:32Z",
    "created": "2026-11-27T15:08:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +243,6 @@
    "notable": true
   },
   {
-   "id": "9832687",
-   "sequence": "2026-11-37998",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:00:42Z",
-   "created": "2026-11-27T15:00:42Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5449 WATKINS ST",
-   "cross": "No Cross Street/JETRAIL DR",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.07152,
-   "lon": -85.065094,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9832684",
    "sequence": "2026-11-37995",
    "type": "Street Status",
@@ -238,32 +290,6 @@
    "priority": "PRI 3",
    "lat": 35.041638,
    "lon": -85.316152,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832673",
-   "sequence": "2026-11-37988",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:10:31Z",
-   "created": "2026-11-27T14:52:03Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2393 GLENGERRIE DR",
-   "cross": "OLD HIXSON PIKE/WOOD LN",
-   "city": "LAKESITE",
-   "zone": "WEST 5 LAKESITE",
-   "priority": "PRI 2",
-   "lat": 35.19898,
-   "lon": -85.132131,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -420,32 +446,6 @@
    "priority": "PRI 4",
    "lat": 35.009046,
    "lon": -85.167676,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832617",
-   "sequence": "2026-11-37950",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-27T14:41:37Z",
-   "created": "2026-11-27T14:08:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "100 W 21ST ST",
-   "cross": "EXIT 179 S OFF RAMP WB/EXIT 178 N ON RAMP WB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.031276,
-   "lon": -85.311528,
    "units": 1,
    "stacked": false,
    "notable": false
