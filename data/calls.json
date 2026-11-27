@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T20:55:41+00:00",
+ "updated": "2026-11-27T21:00:39+00:00",
  "counts": {
-  "year": 375414,
-  "upstream_day": 474,
-  "day": 651,
+  "year": 375425,
+  "upstream_day": 485,
+  "day": 657,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9833233",
+   "sequence": "2026-11-38372",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:55:56Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8417 SPRINGFIELD RD",
+   "cross": "HOUSLEY RD/LAYNE RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 4",
+   "lat": 35.219382,
+   "lon": -85.227701,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833224",
    "sequence": "2026-11-38366",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:58:57Z",
    "created": "2026-11-27T20:49:00Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -61,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9833220",
-   "sequence": "2026-11-38361",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:46:20Z",
-   "created": "2026-11-27T20:46:20Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5483 LITTLE DEBBIE PKWY",
-   "cross": "INTEGRA HILLS LN/JAC CATE RD",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.08074,
-   "lon": -85.070095,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833221",
    "sequence": "2026-11-38362",
    "type": "EMS CALL",
@@ -113,11 +113,37 @@
    "notable": false
   },
   {
+   "id": "9833220",
+   "sequence": "2026-11-38361",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:46:20Z",
+   "created": "2026-11-27T20:46:20Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833218",
    "sequence": "2026-11-38360",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:57:18Z",
    "created": "2026-11-27T20:45:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +246,8 @@
    "id": "9833213",
    "sequence": "2026-11-38355",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:56:03Z",
    "created": "2026-11-27T20:43:17Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -241,32 +267,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833198",
-   "sequence": "2026-11-38346",
-   "type": "Assault PD Only",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:40:16Z",
-   "created": "2026-11-27T20:30:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5764 HIGHWAY 153",
-   "cross": "CARMACK RD/GWYN RD",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.152975,
-   "lon": -85.24562,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833189",
@@ -293,32 +293,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833191",
-   "sequence": "2026-11-38342",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:47:44Z",
-   "created": "2026-11-27T20:27:24Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4417 OAKWOOD DR",
-   "cross": "TRICIA DR/JERSEY PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.088948,
-   "lon": -85.185073,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833190",
@@ -420,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.090943,
    "lon": -85.189848,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833116",
-   "sequence": "2026-11-38299",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-27T20:43:52Z",
-   "created": "2026-11-27T19:38:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2120 CHESTNUT ST",
-   "cross": "W 21ST ST/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 4",
-   "lat": 35.032285,
-   "lon": -85.316226,
    "units": 1,
    "stacked": false,
    "notable": false
