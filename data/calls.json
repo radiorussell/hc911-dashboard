@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-27T23:05:36+00:00",
+ "updated": "2026-11-27T23:10:38+00:00",
  "counts": {
-  "year": 375539,
-  "upstream_day": 599,
-  "day": 819,
+  "year": 375546,
+  "upstream_day": 606,
+  "day": 829,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9833442",
+   "sequence": "2026-11-38544",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:08:04Z",
+   "created": "2026-11-27T23:08:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1607 BAILEY AVE",
+   "cross": "S HOLLY ST/S HICKORY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.034948,
+   "lon": -85.279477,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833439",
+   "sequence": "2026-11-38542",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:07:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1157 HOOKER RD",
+   "cross": "WOODLAND VIEW CIR/E 49TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 1",
+   "lat": 34.98796,
+   "lon": -85.297766,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833440",
+   "sequence": "2026-11-38543",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:07:27Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1157 HOOKER RD",
+   "cross": "WOODLAND VIEW CIR/E 49TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "903",
+   "priority": "PRI 1",
+   "lat": 34.98796,
+   "lon": -85.297766,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833438",
+   "sequence": "2026-11-38541",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:07:18Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1157 HOOKER RD",
+   "cross": "WOODLAND VIEW CIR/E 49TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.98796,
+   "lon": -85.297766,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833437",
+   "sequence": "2026-11-38540",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:06:39Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2 - 8 EXIT 1B ON RAMP NB",
+   "cross": "RINGGOLD RD/EXIT 2 OFF RAMP NB",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.9903,
+   "lon": -85.20289,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833428",
    "sequence": "2026-11-38534",
@@ -64,8 +194,8 @@
    "id": "9833426",
    "sequence": "2026-11-38532",
    "type": "MVC Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:08:37Z",
    "created": "2026-11-27T22:58:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.050627,
    "lon": -85.258008,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9833423",
-   "sequence": "2026-11-38530",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:03:19Z",
-   "created": "2026-11-27T22:56:01Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1773 HOLLY OAK LN",
-   "cross": "No Cross Street/ROSEBROOK DR",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 3",
-   "lat": 35.022058,
-   "lon": -85.151012,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -238,32 +342,6 @@
    "priority": "PRI 4",
    "lat": 35.052659,
    "lon": -85.353669,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833405",
-   "sequence": "2026-11-38514",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:46:51Z",
-   "created": "2026-11-27T22:36:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5864 HIGHWAY 153",
-   "cross": "WANDERLUST WAY/LITTLEBURY WAY",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.162179,
-   "lon": -85.247585,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9833344",
-   "sequence": "2026-11-38465",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:25:01Z",
-   "created": "2026-11-27T22:13:34Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "GRASSHOPPER RD / DOLLY POND RD",
-   "cross": "",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.292017,
-   "lon": -85.000033,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833342",
    "sequence": "2026-11-38464",
    "type": "MVC Injuries",
@@ -475,58 +527,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833327",
-   "sequence": "2026-11-38453",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T22:46:08Z",
-   "created": "2026-11-27T22:06:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7683 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.038784,
-   "lon": -85.13925,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833317",
-   "sequence": "2026-11-38444",
-   "type": "Kidnapping",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:15:36Z",
-   "created": "2026-11-27T21:58:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "711 MUNRO RD",
-   "cross": "CUSCOWILLA TRL/EMORY DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.111446,
-   "lon": -85.276439,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833103",
