@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T13:55:37+00:00",
+ "updated": "2026-11-27T14:00:40+00:00",
  "counts": {
-  "year": 375081,
-  "upstream_day": 141,
-  "day": 220,
+  "year": 375085,
+  "upstream_day": 145,
+  "day": 219,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9832597",
@@ -30,32 +30,6 @@
    "priority": "PRI 2",
    "lat": 35.129743,
    "lon": -85.159,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832594",
-   "sequence": "2026-11-37935",
-   "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T13:50:32Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "301 N HOLTZCLAW AVE",
-   "cross": "E 5TH ST/E 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "501",
-   "priority": "PRI 1",
-   "lat": 35.042643,
-   "lon": -85.282087,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +116,8 @@
    "id": "9832589",
    "sequence": "2026-11-37928",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T13:58:13Z",
    "created": "2026-11-27T13:46:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -160,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.03327,
    "lon": -85.31804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832587",
-   "sequence": "2026-11-37926",
-   "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T13:40:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2813 TERRY CT",
-   "cross": "No Cross Street/MONTEREY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 4",
-   "lat": 35.05437,
-   "lon": -85.24465,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,63 +217,11 @@
    "notable": false
   },
   {
-   "id": "9832570",
-   "sequence": "2026-11-37913",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:25:59Z",
-   "created": "2026-11-27T13:25:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "649 MORRISON SPRINGS RD",
-   "cross": "BLUE WATER CIR/PRICELESS VW",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.125529,
-   "lon": -85.304385,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832571",
-   "sequence": "2026-11-37914",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:25:59Z",
-   "created": "2026-11-27T13:25:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "649 MORRISON SPRINGS RD",
-   "cross": "BLUE WATER CIR/PRICELESS VW",
-   "city": "CHATTANOOGA",
-   "zone": "1702",
-   "priority": "PRI 3",
-   "lat": 35.125529,
-   "lon": -85.304385,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832567",
    "sequence": "2026-11-37912",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T13:37:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T13:58:28Z",
    "created": "2026-11-27T13:25:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
