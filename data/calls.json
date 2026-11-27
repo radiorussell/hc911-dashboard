@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-27T03:20:42+00:00",
+ "updated": "2026-11-27T03:25:38+00:00",
  "counts": {
   "year": 374895,
   "upstream_day": 0,
-  "day": 996,
+  "day": 1004,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 17,
  "incidents": [
   {
-   "id": "9832220",
-   "sequence": "2026-11-37658",
-   "type": "AFA Residential",
+   "id": "9832227",
+   "sequence": "2026-11-37665",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-27T03:20:14Z",
-   "created": "2026-11-27T03:20:14Z",
+   "status_at": "2026-11-27T03:25:07Z",
+   "created": "2026-11-27T03:25:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1722 SKYLINE DR",
+   "cross": "ESTRELLITA CIR/PALERMO DR",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.025666,
+   "lon": -85.165201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832228",
+   "sequence": "2026-11-37666",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:25:07Z",
+   "created": "2026-11-27T03:25:07Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,13 +49,143 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "513 E 52ND ST",
-   "cross": "FAGAN ST/TANNER AVE",
+   "address": "1722 SKYLINE DR",
+   "cross": "ESTRELLITA CIR/PALERMO DR",
    "city": "CHATTANOOGA",
-   "zone": "1401",
+   "zone": "2101",
    "priority": "PRI 1",
-   "lat": 34.990287,
-   "lon": -85.313645,
+   "lat": 35.025666,
+   "lon": -85.165201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832226",
+   "sequence": "2026-11-37664",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:25:07Z",
+   "created": "2026-11-27T03:24:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1722 SKYLINE DR",
+   "cross": "ESTRELLITA CIR/PALERMO DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.025666,
+   "lon": -85.165201,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832225",
+   "sequence": "2026-11-37661",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:24:16Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "204 TUPELO CT",
+   "cross": "COTTONWOOD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "1506",
+   "priority": "PRI 1",
+   "lat": 35.051395,
+   "lon": -85.232091,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832224",
+   "sequence": "2026-11-37660",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:24:15Z",
+   "created": "2026-11-27T03:24:15Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "204 TUPELO CT",
+   "cross": "COTTONWOOD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 1",
+   "lat": 35.051395,
+   "lon": -85.232091,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832222",
+   "sequence": "2026-11-37659",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:24:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "204 TUPELO CT",
+   "cross": "COTTONWOOD LN/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.051395,
+   "lon": -85.232091,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832221",
+   "sequence": "2026-11-37662",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:24:45Z",
+   "created": "2026-11-27T03:23:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "BARTON AVE / FRAZIER AT BARTON AVE WB ON RAMP",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.062092,
+   "lon": -85.300086,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +194,8 @@
    "id": "9832211",
    "sequence": "2026-11-37654",
    "type": "Assault Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:18:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T03:17:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +220,8 @@
    "id": "9832210",
    "sequence": "2026-11-37655",
    "type": "Smoke Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:25:25Z",
    "created": "2026-11-27T03:16:11Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +246,8 @@
    "id": "9832206",
    "sequence": "2026-11-37650",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:25:20Z",
    "created": "2026-11-27T03:14:00Z",
    "jurisdiction": "Highway 58 VFD",
    "agencies": [
@@ -160,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.041022,
    "lon": -85.297957,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832196",
-   "sequence": "2026-11-37643",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T02:50:11Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4322 WELLESLEY DR",
-   "cross": "SALISBURY LN/CHAUCER TER",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 3",
-   "lat": 35.05124,
-   "lon": -85.0769,
    "units": 1,
    "stacked": false,
    "notable": false
