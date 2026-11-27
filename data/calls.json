@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T23:40:37+00:00",
+ "updated": "2026-11-27T23:43:31+00:00",
  "counts": {
   "year": 375570,
   "upstream_day": 630,
-  "day": 860,
+  "day": 862,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9833491",
+   "sequence": "2026-11-38577",
+   "type": "CON Transport",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:42:05Z",
+   "created": "2026-11-27T23:41:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "910 BLACKFORD ST",
+   "cross": "HAMPTON ST/WIEHL ST",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.049518,
+   "lon": -85.289863,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833486",
    "sequence": "2026-11-38575",
@@ -56,32 +82,6 @@
    "priority": "PRI 2",
    "lat": 35.062227,
    "lon": -85.125807,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833482",
-   "sequence": "2026-11-38572",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:35:46Z",
-   "created": "2026-11-27T23:35:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "37 AGNES AVE",
-   "cross": "No Cross Street/PARKWAY DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.048156,
-   "lon": -85.234939,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +142,8 @@
    "id": "9833465",
    "sequence": "2026-11-38562",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:43:10Z",
    "created": "2026-11-27T23:25:10Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -160,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.277831,
    "lon": -84.988848,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833464",
-   "sequence": "2026-11-38561",
-   "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:28:52Z",
-   "created": "2026-11-27T23:23:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2 - 8 EXIT 5 ON RAMP SB",
-   "cross": "EXIT 5 OFF RAMP SB/INTERSTATE 75 SB",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.04179,
-   "lon": -85.157543,
    "units": 1,
    "stacked": false,
    "notable": false
