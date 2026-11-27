@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T17:30:38+00:00",
+ "updated": "2026-11-27T17:35:37+00:00",
  "counts": {
   "year": 375248,
   "upstream_day": 308,
-  "day": 437,
+  "day": 441,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9832916",
+   "sequence": "2026-11-38156",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:33:26Z",
+   "created": "2026-11-27T17:33:26Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "701 B",
+   "priority": "PRI 2",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832913",
+   "sequence": "2026-11-38155",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:32:29Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2626 WALKER RD",
+   "cross": "STANDIFER GAP RD/TYNER RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.056528,
+   "lon": -85.13274,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832909",
    "sequence": "2026-11-38152",
@@ -61,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9832907",
-   "sequence": "2026-11-38149",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-27T17:29:07Z",
-   "created": "2026-11-27T17:26:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "1302 A",
-   "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832903",
    "sequence": "2026-11-38148",
    "type": "Aggressive Animal",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:24:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T17:22:50Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -117,7 +143,7 @@
    "sequence": "2026-11-38145",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T17:33:53Z",
    "created": "2026-11-27T17:21:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -143,7 +169,7 @@
    "sequence": "2026-11-38151",
    "type": "MVC No Injuries",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T17:33:08Z",
    "created": "2026-11-27T17:21:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +324,8 @@
    "id": "9832849",
    "sequence": "2026-11-38118",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T17:12:49Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T17:35:06Z",
    "created": "2026-11-27T16:41:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +402,8 @@
    "id": "9832836",
    "sequence": "2026-11-38107",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T17:05:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T17:32:20Z",
    "created": "2026-11-27T16:35:27Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
