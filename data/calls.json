@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T16:20:37+00:00",
+ "updated": "2026-11-27T16:25:43+00:00",
  "counts": {
   "year": 375194,
   "upstream_day": 254,
-  "day": 373,
+  "day": 377,
   "day_basis": "midnight"
  },
- "raw_rows": 37,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9832817",
+   "sequence": "2026-11-38092",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:24:24Z",
+   "created": "2026-11-27T16:24:24Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "482 MCBRIEN RD",
+   "cross": "S TERRACE/ANDERSON AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 0",
+   "lat": 35.003896,
+   "lon": -85.228204,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832816",
+   "sequence": "2026-11-38091",
+   "type": "Backup EMS Unit",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:23:44Z",
+   "created": "2026-11-27T16:23:44Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "706 SPEARS AVE",
+   "cross": "CHAMBLISS ST/PEAK ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 2",
+   "lat": 35.07063,
+   "lon": -85.309719,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832815",
+   "sequence": "2026-11-38090",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:22:54Z",
+   "created": "2026-11-27T16:22:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1700 E 48TH ST",
+   "cross": "COVINGTON ST/ENGLISH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 4",
+   "lat": 34.987475,
+   "lon": -85.289464,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832814",
    "sequence": "2026-11-38088",
    "type": "Backup EMS Unit",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:18:40Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T16:25:05Z",
    "created": "2026-11-27T16:18:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.032725,
    "lon": -85.163681,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832807",
-   "sequence": "2026-11-38082",
-   "type": "MVC Delayed",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:15:12Z",
-   "created": "2026-11-27T16:14:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4509 ROSSVILLE BLVD",
-   "cross": "E 45TH ST/E 46TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 4",
-   "lat": 34.990843,
-   "lon": -85.290449,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +298,8 @@
    "id": "9832796",
    "sequence": "2026-11-38073",
    "type": "Shoplifter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:23:13Z",
    "created": "2026-11-27T16:10:39Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -272,8 +324,8 @@
    "id": "9832797",
    "sequence": "2026-11-38076",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:23:43Z",
    "created": "2026-11-27T16:10:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +402,8 @@
    "id": "9832786",
    "sequence": "2026-11-38065",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:23:18Z",
    "created": "2026-11-27T16:04:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9832771",
    "sequence": "2026-11-38055",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T16:21:26Z",
    "created": "2026-11-27T15:55:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -394,32 +446,6 @@
    "priority": "PRI 2",
    "lat": 35.07063,
    "lon": -85.309719,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832768",
-   "sequence": "2026-11-38053",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:54:53Z",
-   "created": "2026-11-27T15:54:53Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3309 RONDABOO DR",
-   "cross": "BROWNS FERRY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "301",
-   "priority": "PRI 1",
-   "lat": 35.042495,
-   "lon": -85.35786,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -477,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9832765",
-   "sequence": "2026-11-38051",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:04:50Z",
-   "created": "2026-11-27T15:54:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3309 RONDABOO DR",
-   "cross": "BROWNS FERRY RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 35.042495,
-   "lon": -85.35786,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832763",
-   "sequence": "2026-11-38050",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:52:59Z",
-   "created": "2026-11-27T15:52:59Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2700 PARKWOOD AVE",
-   "cross": "DE SALES AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 2",
-   "lat": 35.039157,
-   "lon": -85.257754,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832759",
    "sequence": "2026-11-38049",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:05:42Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T16:24:21Z",
    "created": "2026-11-27T15:52:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -581,37 +555,11 @@
    "notable": false
   },
   {
-   "id": "9832753",
-   "sequence": "2026-11-38043",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:49:33Z",
-   "created": "2026-11-27T15:49:33Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 2",
-   "lat": 35.056528,
-   "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832751",
    "sequence": "2026-11-38042",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:59:39Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T16:21:37Z",
    "created": "2026-11-27T15:48:41Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
