@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T08:10:40+00:00",
+ "updated": "2026-11-27T08:15:38+00:00",
  "counts": {
   "year": 374990,
   "upstream_day": 50,
-  "day": 64,
+  "day": 69,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9832380",
+   "sequence": "2026-11-37783",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T08:12:26Z",
+   "created": "2026-11-27T08:12:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.129504,
+   "lon": -85.234989,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832381",
+   "sequence": "2026-11-37784",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T08:12:26Z",
+   "created": "2026-11-27T08:12:26Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 2",
+   "lat": 35.129504,
+   "lon": -85.234989,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832379",
+   "sequence": "2026-11-37782",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:11:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2760 NORTHPOINT BLVD",
+   "cross": "EXECUTIVE DR/ELEVATED VW",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.129504,
+   "lon": -85.234989,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832375",
    "sequence": "2026-11-37779",
