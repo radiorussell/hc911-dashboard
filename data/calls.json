@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T01:15:36+00:00",
+ "updated": "2026-11-27T01:20:37+00:00",
  "counts": {
-  "year": 374817,
-  "upstream_day": 0,
-  "day": 906,
+  "year": null,
+  "upstream_day": null,
+  "day": 911,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9832109",
+   "sequence": "2026-11-37573",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:18:41Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "102 SIGNAL MOUNTAIN RD",
+   "cross": "DAYTON BLVD/LULLWATER RD",
+   "city": "RED BANK",
+   "zone": "RED BANK 2",
+   "priority": "PRI 3",
+   "lat": 35.083649,
+   "lon": -85.318282,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832107",
+   "sequence": "2026-11-37570",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:16:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7015 SHALLOWFORD RD",
+   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.044177,
+   "lon": -85.158575,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832106",
+   "sequence": "2026-11-37571",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-27T01:17:20Z",
+   "created": "2026-11-27T01:16:34Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1560 FIRELIGHT WAY",
+   "cross": "GLIMMER  LN/MANGATA WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 4",
+   "lat": 35.010125,
+   "lon": -85.097892,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832105",
+   "sequence": "2026-11-37569",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T01:16:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6500 - 6531 SANDSWITCH RD",
+   "cross": "LOWER MILL RD/OLD LOWER MILL RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.162894,
+   "lon": -85.238229,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832102",
    "sequence": "2026-11-37568",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:15:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T01:14:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "708 BARTON AVE",
-   "cross": "MISSISSIPPI AVE/RUSSELL ST",
+   "address": "811 BARTON AVE",
+   "cross": "RUSSELL ST/DUGDALE ST",
    "city": "CHATTANOOGA",
    "zone": "A4 A",
    "priority": "PRI 2",
-   "lat": 35.065754,
-   "lon": -85.29215,
+   "lat": 35.066683,
+   "lon": -85.290829,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +142,8 @@
    "id": "9832103",
    "sequence": "2026-11-37566",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:20:36Z",
    "created": "2026-11-27T01:14:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +220,8 @@
    "id": "9832097",
    "sequence": "2026-11-37563",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:10:28Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T01:10:28Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -194,8 +298,8 @@
    "id": "9832094",
    "sequence": "2026-11-37560",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:17:47Z",
    "created": "2026-11-27T01:08:23Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -298,8 +402,8 @@
    "id": "9832087",
    "sequence": "2026-11-37555",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T01:15:50Z",
    "created": "2026-11-27T01:00:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.117451,
    "lon": -85.052713,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832068",
-   "sequence": "2026-11-37544",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T00:42:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "WILCOX BLVD / GREENWOOD RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.04796,
-   "lon": -85.243049,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +503,6 @@
    "notable": false
   },
   {
-   "id": "9832043",
-   "sequence": "2026-11-37520",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:57:46Z",
-   "created": "2026-11-27T00:12:14Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7600 BORISS DR",
-   "cross": "BISHOP DR/N BISHOP DR",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 3",
-   "lat": 35.068392,
-   "lon": -85.167091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9831978",
    "sequence": "2026-11-37470",
    "type": "Auto Improperly Parked",
@@ -500,32 +552,6 @@
    "lon": -85.228838,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9831907",
-   "sequence": "2026-11-37422",
-   "type": "Burglary",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-26T22:33:18Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "404 TUNNEL BLVD",
-   "cross": "RIDGESIDE RD/WINDMERE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 4",
-   "lat": 35.033474,
-   "lon": -85.243255,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
