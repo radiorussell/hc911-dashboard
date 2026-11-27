@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T04:35:36+00:00",
+ "updated": "2026-11-27T04:40:36+00:00",
  "counts": {
-  "year": 374926,
+  "year": 374931,
   "upstream_day": 0,
-  "day": 1038,
+  "day": 1044,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9832284",
+   "sequence": "2026-11-37706",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T04:38:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7201 - 7299 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.07006,
+   "lon": -85.14304,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832282",
+   "sequence": "2026-11-37704",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:38:23Z",
+   "created": "2026-11-27T04:38:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5953 BRAINERD RD",
+   "cross": "GREENWAY VIEW DR/JUBILEE DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.016816,
+   "lon": -85.20786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832283",
+   "sequence": "2026-11-37705",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T04:38:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5953 BRAINERD RD",
+   "cross": "GREENWAY VIEW DR/JUBILEE DR",
+   "city": "CHATTANOOGA",
+   "zone": "1303",
+   "priority": "PRI 3",
+   "lat": 35.016816,
+   "lon": -85.20786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832281",
+   "sequence": "2026-11-37703",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T04:38:02Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5953 BRAINERD RD",
+   "cross": "GREENWAY VIEW DR/JUBILEE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.016816,
+   "lon": -85.20786,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832277",
    "sequence": "2026-11-37700",
    "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-27T04:27:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T04:27:52Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -35,89 +139,11 @@
    "notable": false
   },
   {
-   "id": "9832257",
-   "sequence": "2026-11-37699",
-   "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T04:27:14Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7351 - 7415 FERRELL FARMS DR",
-   "cross": "HAZEL OAK  DR/HIGHWAY 58",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
-   "lat": 35.199771,
-   "lon": -85.043525,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832267",
-   "sequence": "2026-11-37691",
-   "type": "Backup Other Agency",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:10:04Z",
-   "created": "2026-11-27T04:02:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "E 28TH ST / 5TH AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 2",
-   "lat": 35.011021,
-   "lon": -85.282301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832253",
-   "sequence": "2026-11-37684",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T04:16:29Z",
-   "created": "2026-11-27T03:53:48Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "305 FRAZIER AVE",
-   "cross": "DELMONT ST/TREMONT ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.062383,
-   "lon": -85.305591,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832239",
    "sequence": "2026-11-37676",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T04:20:48Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T04:36:23Z",
    "created": "2026-11-27T03:37:25Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
