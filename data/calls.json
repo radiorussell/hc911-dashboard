@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T07:25:36+00:00",
+ "updated": "2026-11-27T07:30:40+00:00",
  "counts": {
-  "year": 374975,
-  "upstream_day": 35,
-  "day": 53,
+  "year": 374982,
+  "upstream_day": 42,
+  "day": 56,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9832364",
+   "sequence": "2026-11-37771",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-27T07:29:27Z",
+   "created": "2026-11-27T07:29:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1230 POPLAR ST",
+   "cross": "MAPLE STREET CT/W 14TH STREET CT",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 0",
+   "lat": 35.04099,
+   "lon": -85.316557,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832360",
    "sequence": "2026-11-37768",
@@ -38,8 +64,8 @@
    "id": "9832359",
    "sequence": "2026-11-37767",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T07:29:17Z",
    "created": "2026-11-27T07:17:39Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -212,32 +238,6 @@
    "priority": "PRI 4",
    "lat": 35.301199,
    "lon": -84.959151,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832224",
-   "sequence": "2026-11-37660",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:32:28Z",
-   "created": "2026-11-27T03:24:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "204 TUPELO CT",
-   "cross": "COTTONWOOD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 1",
-   "lat": 35.051395,
-   "lon": -85.232091,
    "units": 1,
    "stacked": false,
    "notable": false
