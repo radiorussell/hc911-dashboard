@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T00:00:38+00:00",
+ "updated": "2026-11-27T00:05:42+00:00",
  "counts": {
   "year": 374779,
   "upstream_day": 642,
   "day": 853,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
   {
    "id": "9832034",
    "sequence": "2026-11-37515",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T00:00:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T00:00:07Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +116,8 @@
    "id": "9832023",
    "sequence": "2026-11-37507",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:01:33Z",
    "created": "2026-11-26T23:46:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -272,8 +272,8 @@
    "id": "9831989",
    "sequence": "2026-11-37480",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-26T23:59:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T00:02:19Z",
    "created": "2026-11-26T23:23:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +350,8 @@
    "id": "9831970",
    "sequence": "2026-11-37467",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-26T23:23:02Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T00:04:37Z",
    "created": "2026-11-26T23:13:08Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -449,32 +449,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9831925",
-   "sequence": "2026-11-37435",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-26T23:41:48Z",
-   "created": "2026-11-26T22:46:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4620 RICKY DR",
-   "cross": "MIKE EDD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.037958,
-   "lon": -85.215133,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9831919",
