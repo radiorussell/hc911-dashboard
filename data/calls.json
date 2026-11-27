@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T02:20:37+00:00",
+ "updated": "2026-11-27T02:25:39+00:00",
  "counts": {
   "year": 374875,
   "upstream_day": 0,
-  "day": 963,
+  "day": 965,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9832178",
+   "sequence": "2026-11-37627",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T02:23:43Z",
+   "created": "2026-11-27T02:23:13Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6928 DUNKER CHURCH CT",
+   "cross": "JACKSON MILL DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 3",
+   "lat": 35.171361,
+   "lon": -85.184346,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832177",
+   "sequence": "2026-11-37626",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:20:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "436 WATER ST",
+   "cross": "CHANDLER AVE/OHLS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.007973,
+   "lon": -85.315456,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832176",
    "sequence": "2026-11-37624",
@@ -38,8 +90,8 @@
    "id": "9832175",
    "sequence": "2026-11-37623",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:22:00Z",
    "created": "2026-11-27T02:16:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +298,8 @@
    "id": "9832146",
    "sequence": "2026-11-37604",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:24:06Z",
    "created": "2026-11-27T01:56:15Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -345,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832122",
-   "sequence": "2026-11-37588",
-   "type": "Missing Endangered",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:31:19Z",
-   "created": "2026-11-27T01:30:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5883 VERDANT WAY",
-   "cross": "WANDERLUST WAY/RIDGEWATER WAY",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.161221,
-   "lon": -85.249676,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832124",
