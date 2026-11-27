@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T14:05:38+00:00",
+ "updated": "2026-11-27T14:10:37+00:00",
  "counts": {
-  "year": 375085,
-  "upstream_day": 145,
-  "day": 228,
+  "year": 375093,
+  "upstream_day": 153,
+  "day": 237,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9832612",
+   "sequence": "2026-11-37952",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:09:38Z",
+   "created": "2026-11-27T14:09:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 BIRMINGHAM HWY",
+   "cross": "BUSINESS PARK DR/MCGILL CEMETERY RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 34.994402,
+   "lon": -85.393367,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832617",
+   "sequence": "2026-11-37950",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T14:08:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "100 W 21ST ST",
+   "cross": "EXIT 179 S OFF RAMP WB/EXIT 178 N ON RAMP WB",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 4",
+   "lat": 35.031276,
+   "lon": -85.311528,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832613",
+   "sequence": "2026-11-37946",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T14:07:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4604 VIRGINIA AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 34.998048,
+   "lon": -85.328408,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832614",
+   "sequence": "2026-11-37947",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T14:07:54Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4604 VIRGINIA AVE",
+   "cross": "W 46TH ST/W 47TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "1402",
+   "priority": "PRI 1",
+   "lat": 34.998048,
+   "lon": -85.328408,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832608",
    "sequence": "2026-11-37943",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-27T14:04:57Z",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T14:04:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +131,7 @@
    "cross": "W 46TH ST/W 47TH ST",
    "city": "CHATTANOOGA",
    "zone": "A12",
-   "priority": "PRI 3",
+   "priority": "PRI 1",
    "lat": 34.998048,
    "lon": -85.328408,
    "units": 1,
@@ -90,8 +194,8 @@
    "id": "9832593",
    "sequence": "2026-11-37933",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T14:07:44Z",
    "created": "2026-11-27T13:50:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -139,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9832589",
-   "sequence": "2026-11-37928",
-   "type": "MVC Unknown Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T13:58:13Z",
-   "created": "2026-11-27T13:46:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "31 - 39 EXIT 178 OFF RAMP WB",
-   "cross": "EXIT 178 N ON RAMP WB/HIGHWAY 27 NB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.03327,
-   "lon": -85.31804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832573",
    "sequence": "2026-11-37916",
    "type": "EMS CALL",
@@ -184,32 +262,6 @@
    "city": "CHATTANOOGA",
    "zone": "A12",
    "priority": "PRI 3",
-   "lat": 34.997036,
-   "lon": -85.329815,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832574",
-   "sequence": "2026-11-37917",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T13:49:49Z",
-   "created": "2026-11-27T13:27:35Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4625 ST ELMO AVE",
-   "cross": "W 46TH ST/W 47TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 2",
    "lat": 34.997036,
    "lon": -85.329815,
    "units": 1,
