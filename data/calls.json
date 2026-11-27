@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T04:00:38+00:00",
+ "updated": "2026-11-27T04:05:38+00:00",
  "counts": {
-  "year": 374919,
-  "upstream_day": 0,
-  "day": 1026,
+  "year": null,
+  "upstream_day": null,
+  "day": 1029,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9832267",
+   "sequence": "2026-11-37691",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T04:02:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "E 28TH ST / 5TH AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 2",
+   "lat": 35.011021,
+   "lon": -85.282301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832264",
    "sequence": "2026-11-37687",
@@ -38,8 +64,8 @@
    "id": "9832263",
    "sequence": "2026-11-37688",
    "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-27T04:00:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T04:00:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9832253",
    "sequence": "2026-11-37684",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T04:04:21Z",
    "created": "2026-11-27T03:53:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -137,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832241",
-   "sequence": "2026-11-37677",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:42:52Z",
-   "created": "2026-11-27T03:38:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3823 LIGHTFOOT MILL RD",
-   "cross": "DEERFOOT DR/BYRD AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 1",
-   "lat": 35.070673,
-   "lon": -85.208046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832242",
@@ -246,8 +246,8 @@
    "id": "9832226",
    "sequence": "2026-11-37664",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T03:57:53Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T04:02:43Z",
    "created": "2026-11-27T03:24:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -287,32 +287,6 @@
    "cross": "COTTONWOOD LN/No Cross Street",
    "city": "CHATTANOOGA",
    "zone": "C1",
-   "priority": "PRI 1",
-   "lat": 35.051395,
-   "lon": -85.232091,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832222",
-   "sequence": "2026-11-37659",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:36:00Z",
-   "created": "2026-11-27T03:24:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "204 TUPELO CT",
-   "cross": "COTTONWOOD LN/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
    "priority": "PRI 1",
    "lat": 35.051395,
    "lon": -85.232091,
