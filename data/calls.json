@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-27T05:30:37+00:00",
+ "updated": "2026-11-27T05:35:37+00:00",
  "counts": {
   "year": 374946,
   "upstream_day": 6,
-  "day": 6,
+  "day": 12,
   "day_basis": "midnight"
  },
  "raw_rows": 4,
  "incidents": [
   {
-   "id": "9832301",
-   "sequence": "2026-11-37721",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T05:10:38Z",
-   "created": "2026-11-27T05:07:42Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9832307",
+   "sequence": "2026-11-37727",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:32:27Z",
+   "created": "2026-11-27T05:32:27Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "319 N HIGHLAND PARK AVE",
-   "cross": "E 5TH ST/E 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
+   "address": "10127 ROLLING WIND DR",
+   "cross": "WINDTOP LN/BREEZE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 5 D",
    "priority": "PRI 3",
-   "lat": 35.042348,
-   "lon": -85.278859,
+   "lat": 35.2234,
+   "lon": -85.11952,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832306",
+   "sequence": "2026-11-37726",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:31:36Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "10127 ROLLING WIND DR",
+   "cross": "WINDTOP LN/BREEZE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 2",
+   "lat": 35.2234,
+   "lon": -85.11952,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -85,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9829648",
-   "sequence": "2026-11-35902",
-   "type": "ROAD CLOSURE",
-   "status": "Queued",
-   "status_at": "2026-11-25T17:57:14Z",
-   "created": "2026-11-25T17:57:14Z",
-   "jurisdiction": "HC911",
-   "agencies": [
-    "HC911"
-   ],
-   "agency_type": "HC911",
-   "agency_types": [
-    "HC911"
-   ],
-   "address": "GLASS ST / CAMPBELL ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "HC911",
-   "priority": "",
-   "lat": 35.06723,
-   "lon": -85.243302,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   }
  ]
 }
