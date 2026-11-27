@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T23:25:36+00:00",
+ "updated": "2026-11-27T23:30:36+00:00",
  "counts": {
-  "year": 375557,
-  "upstream_day": 617,
-  "day": 847,
+  "year": 375563,
+  "upstream_day": 623,
+  "day": 854,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9833473",
+   "sequence": "2026-11-38569",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:29:48Z",
+   "created": "2026-11-27T23:29:14Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6226 GAMBLE RD",
+   "cross": "PRISM TRL/OLA WAY",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 4",
+   "lat": 35.269396,
+   "lon": -85.04911,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833465",
    "sequence": "2026-11-38562",
@@ -39,23 +65,23 @@
    "sequence": "2026-11-38561",
    "type": "Auto Broken Down",
    "status": "Queued",
-   "status_at": "2026-11-27T23:24:06Z",
+   "status_at": "2026-11-27T23:28:52Z",
    "created": "2026-11-27T23:23:22Z",
-   "jurisdiction": "East Ridge PD",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "East Ridge PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "18250 - 18288 INTERSTATE 24 WB",
-   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
+   "address": "2 - 8 EXIT 5 ON RAMP SB",
+   "cross": "EXIT 5 OFF RAMP SB/INTERSTATE 75 SB",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
    "priority": "PRI 4",
-   "lat": 35.020065,
-   "lon": -85.259318,
+   "lat": 35.04179,
+   "lon": -85.157543,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,37 +113,11 @@
    "notable": true
   },
   {
-   "id": "9833462",
-   "sequence": "2026-11-38558",
-   "type": "Alarm Holdup",
-   "status": "Enroute",
-   "status_at": "2026-11-27T23:23:59Z",
-   "created": "2026-11-27T23:18:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7400 E BRAINERD RD",
-   "cross": "GUNBARREL RD/JOINER RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 1",
-   "lat": 35.014767,
-   "lon": -85.163566,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833461",
    "sequence": "2026-11-38559",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:19:48Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T23:18:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9833456",
    "sequence": "2026-11-38555",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:26:03Z",
    "created": "2026-11-27T23:16:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +220,8 @@
    "id": "9833448",
    "sequence": "2026-11-38546",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:25:39Z",
    "created": "2026-11-27T23:10:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -350,8 +350,8 @@
    "id": "9833438",
    "sequence": "2026-11-38541",
    "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:15:51Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T23:27:50Z",
    "created": "2026-11-27T23:07:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.198103,
    "lon": -85.011444,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833409",
-   "sequence": "2026-11-38516",
-   "type": "Miscellaneous Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:18:47Z",
-   "created": "2026-11-27T22:40:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3334 GUNDY LN",
-   "cross": "No Cross Street/O GRADY DR",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.052659,
-   "lon": -85.353669,
    "units": 1,
    "stacked": false,
    "notable": false
