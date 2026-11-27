@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-27T20:45:37+00:00",
+ "updated": "2026-11-27T20:50:39+00:00",
  "counts": {
-  "year": 375406,
-  "upstream_day": 466,
-  "day": 644,
+  "year": 375414,
+  "upstream_day": 474,
+  "day": 652,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833225",
+   "sequence": "2026-11-38367",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:50:27Z",
+   "created": "2026-11-27T20:50:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1280 DUANE RD",
+   "cross": "AVON PL/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 4",
+   "lat": 35.076536,
+   "lon": -85.28932,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833224",
+   "sequence": "2026-11-38366",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:49:09Z",
+   "created": "2026-11-27T20:49:00Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "410 N ST MARKS AVE",
+   "cross": "GOLFVIEW DR/GREENVIEW DR",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 3",
+   "lat": 35.020475,
+   "lon": -85.221491,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833219",
+   "sequence": "2026-11-38363",
+   "type": "Auto Broken Down Road",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:46:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "MCCALLIE AVE / EXIT BAILEY AVE  RAMP",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 2",
+   "lat": 35.031776,
+   "lon": -85.264903,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833220",
+   "sequence": "2026-11-38361",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:46:20Z",
+   "created": "2026-11-27T20:46:20Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 3",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833221",
+   "sequence": "2026-11-38362",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:46:20Z",
+   "created": "2026-11-27T20:46:20Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 4 CO C",
+   "priority": "PRI 1",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833218",
+   "sequence": "2026-11-38360",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T20:45:38Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5483 LITTLE DEBBIE PKWY",
+   "cross": "INTEGRA HILLS LN/JAC CATE RD",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.08074,
+   "lon": -85.070095,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833216",
    "sequence": "2026-11-38358",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:44:46Z",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:44:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -27,7 +183,7 @@
    "cross": "JULIANA LN/BOY SCOUT RD",
    "city": "CHATTANOOGA",
    "zone": "A1",
-   "priority": "PRI 3",
+   "priority": "PRI 2",
    "lat": 35.181447,
    "lon": -85.245319,
    "units": 1,
@@ -82,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.181447,
    "lon": -85.245319,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833214",
-   "sequence": "2026-11-38356",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:43:46Z",
-   "created": "2026-11-27T20:43:37Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7639 MIDDLE VALLEY RD",
-   "cross": "JED LN/THRASHER PIKE",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 B",
-   "priority": "PRI 3",
-   "lat": 35.188898,
-   "lon": -85.190209,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +324,8 @@
    "id": "9833191",
    "sequence": "2026-11-38342",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:47:44Z",
    "created": "2026-11-27T20:27:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +350,8 @@
    "id": "9833190",
    "sequence": "2026-11-38340",
    "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:45:49Z",
    "created": "2026-11-27T20:25:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 34.99885,
    "lon": -85.105698,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833171",
-   "sequence": "2026-11-38324",
-   "type": "Auto Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:36:50Z",
-   "created": "2026-11-27T20:04:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "400 WORKMAN RD",
-   "cross": "FAGAN ST/WILSON RD",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 4",
-   "lat": 34.996444,
-   "lon": -85.309655,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -475,32 +579,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832957",
-   "sequence": "2026-11-38178",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T18:32:41Z",
-   "created": "2026-11-27T18:06:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "551 READS LAKE RD",
-   "cross": "AIMEE LN/MOUNTAIN VIEW AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 2",
-   "lat": 35.129383,
-   "lon": -85.297898,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832688",
