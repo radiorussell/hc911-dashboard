@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T17:40:36+00:00",
+ "updated": "2026-11-27T17:45:36+00:00",
  "counts": {
   "year": 375254,
   "upstream_day": 314,
-  "day": 445,
+  "day": 449,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9832929",
+   "sequence": "2026-11-38164",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:44:10Z",
+   "created": "2026-11-27T17:42:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2100 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.033372,
+   "lon": -85.159309,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832928",
+   "sequence": "2026-11-38161",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T17:41:31Z",
+   "created": "2026-11-27T17:41:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5706 CRESTVIEW DR",
+   "cross": "RANDALL ST/ETHYEYLIN LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.153597,
+   "lon": -85.261313,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832926",
+   "sequence": "2026-11-38162",
+   "type": "Miscellaneous Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:40:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2180 GUNBARREL RD",
+   "cross": "LANDRESS DR/COMMONS BLVD",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.034718,
+   "lon": -85.149653,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832925",
    "sequence": "2026-11-38160",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:39:18Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T17:42:23Z",
    "created": "2026-11-27T17:38:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.067918,
    "lon": -85.253681,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832920",
-   "sequence": "2026-11-38159",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T17:37:55Z",
-   "created": "2026-11-27T17:37:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7421 BONNY OAKS DR",
-   "cross": "COUNTRY LN/LEE HWY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.061472,
-   "lon": -85.134791,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +194,8 @@
    "id": "9832913",
    "sequence": "2026-11-38155",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:41:16Z",
    "created": "2026-11-27T17:32:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9832909",
    "sequence": "2026-11-38152",
    "type": "Disorder Weapon Involve",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:43:18Z",
    "created": "2026-11-27T17:27:23Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -498,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.144723,
    "lon": -85.190678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832820",
-   "sequence": "2026-11-38094",
-   "type": "Narcotics Violation",
-   "status": "Enroute",
-   "status_at": "2026-11-27T17:23:39Z",
-   "created": "2026-11-27T16:26:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1421 CLOVERDALE CIR",
-   "cross": "CLEARPOINT DR/CLOVERDALE DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.130506,
-   "lon": -85.246769,
    "units": 1,
    "stacked": false,
    "notable": false
