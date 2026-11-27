@@ -1,17 +1,95 @@
 {
- "updated": "2026-11-27T17:25:37+00:00",
+ "updated": "2026-11-27T17:30:38+00:00",
  "counts": {
-  "year": 375245,
-  "upstream_day": 305,
-  "day": 433,
+  "year": 375248,
+  "upstream_day": 308,
+  "day": 437,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9832909",
+   "sequence": "2026-11-38152",
+   "type": "Disorder Weapon Involve",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:27:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "N HICKORY VALLEY RD / HIGHWAY 58",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 1",
+   "lat": 35.10441,
+   "lon": -85.160979,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832908",
+   "sequence": "2026-11-38150",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:26:20Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "13802 EICKHOFF LN",
+   "cross": "PARTRIDGE LN/FINEOUT DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 6",
+   "priority": "PRI 4",
+   "lat": 35.325939,
+   "lon": -85.088191,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832907",
+   "sequence": "2026-11-38149",
+   "type": "AFA Commercial",
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:29:07Z",
+   "created": "2026-11-27T17:26:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5505 BRAINERD RD",
+   "cross": "SPRING CREEK RD/EASTGATE LOOP",
+   "city": "CHATTANOOGA",
+   "zone": "1302 A",
+   "priority": "PRI 1",
+   "lat": 35.010725,
+   "lon": -85.219474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832903",
    "sequence": "2026-11-38148",
-   "type": "Animal Call",
+   "type": "Aggressive Animal",
    "status": "Queued",
    "status_at": "2026-11-27T17:24:08Z",
    "created": "2026-11-27T17:22:50Z",
@@ -27,7 +105,7 @@
    "cross": "CRESTVIEW DR/ELY RD",
    "city": "RED BANK",
    "zone": "RED BANK 1",
-   "priority": "PRI 4",
+   "priority": "PRI 2",
    "lat": 35.123778,
    "lon": -85.27782,
    "units": 1,
@@ -61,11 +139,37 @@
    "notable": false
   },
   {
+   "id": "9832900",
+   "sequence": "2026-11-38151",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:21:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4041 HIXSON PIKE",
+   "cross": "FAIRFAX DR/AZALEAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.114538,
+   "lon": -85.258028,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832893",
    "sequence": "2026-11-38140",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T17:29:53Z",
    "created": "2026-11-27T17:13:19Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +194,8 @@
    "id": "9832889",
    "sequence": "2026-11-38139",
    "type": "Deceptive Practice",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T17:08:57Z",
    "created": "2026-11-27T17:08:57Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -109,7 +213,7 @@
    "lat": 35.027055,
    "lon": -85.156695,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -295,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9832821",
-   "sequence": "2026-11-38096",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:59:23Z",
-   "created": "2026-11-27T16:28:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3916 VOLUNTEER DR",
-   "cross": "No Cross Street/INDUSTRY DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.071785,
-   "lon": -85.198842,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832820",
    "sequence": "2026-11-38094",
    "type": "Narcotics Violation",
@@ -446,32 +524,6 @@
    "priority": "PRI 1",
    "lat": 35.07063,
    "lon": -85.309719,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832735",
-   "sequence": "2026-11-38027",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T16:25:53Z",
-   "created": "2026-11-27T15:38:22Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.0901,
-   "lon": -85.06649,
    "units": 1,
    "stacked": false,
    "notable": false
