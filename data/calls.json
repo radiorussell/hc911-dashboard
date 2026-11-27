@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T23:20:41+00:00",
+ "updated": "2026-11-27T23:25:36+00:00",
  "counts": {
   "year": 375557,
   "upstream_day": 617,
-  "day": 844,
+  "day": 847,
   "day_basis": "midnight"
  },
  "raw_rows": 30,
  "incidents": [
   {
+   "id": "9833465",
+   "sequence": "2026-11-38562",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:25:10Z",
+   "created": "2026-11-27T23:25:10Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11911 MADDOX DR",
+   "cross": "LEGENDARY RUN/GRASSHOPPER RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 4",
+   "lat": 35.277831,
+   "lon": -84.988848,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833464",
+   "sequence": "2026-11-38561",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:24:06Z",
+   "created": "2026-11-27T23:23:22Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "18250 - 18288 INTERSTATE 24 WB",
+   "cross": "EXIT 181A ON RAMP WB/EXIT 183 ON RAMP WB",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 35.020065,
+   "lon": -85.259318,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833463",
+   "sequence": "2026-11-38560",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:22:41Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "808 KAY CIR",
+   "cross": "OAK DR/GRAYSVILLE RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 3",
+   "lat": 34.991608,
+   "lon": -85.149568,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
    "id": "9833462",
    "sequence": "2026-11-38558",
    "type": "Alarm Holdup",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T23:23:59Z",
    "created": "2026-11-27T23:18:53Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -139,32 +217,6 @@
    "notable": false
   },
   {
-   "id": "9833453",
-   "sequence": "2026-11-38551",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T23:11:44Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5588 LITTLE DEBBIE PKWY",
-   "cross": "JAC CATE RD/OLD LEE HWY",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.08082,
-   "lon": -85.06329,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833448",
    "sequence": "2026-11-38546",
    "type": "Police Assist Citizen",
@@ -186,6 +238,32 @@
    "priority": "PRI 3",
    "lat": 35.162753,
    "lon": -85.247524,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833443",
+   "sequence": "2026-11-38545",
+   "type": "Shoplifter",
+   "status": "Enroute",
+   "status_at": "2026-11-27T23:08:21Z",
+   "created": "2026-11-27T23:08:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "490 GREENWAY VIEW DR",
+   "cross": "SKURLOCK RD/CORNELISON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.008709,
+   "lon": -85.205213,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -295,63 +373,11 @@
    "notable": false
   },
   {
-   "id": "9833437",
-   "sequence": "2026-11-38540",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:15:18Z",
-   "created": "2026-11-27T23:06:39Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2 - 8 EXIT 1B ON RAMP NB",
-   "cross": "RINGGOLD RD/EXIT 2 OFF RAMP NB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.9903,
-   "lon": -85.20289,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833428",
-   "sequence": "2026-11-38534",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T22:59:41Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4643 JERSEY PIKE",
-   "cross": "PECKINPAUGH DR/TRICIA DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 4",
-   "lat": 35.084359,
-   "lon": -85.184746,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833426",
    "sequence": "2026-11-38532",
    "type": "MVC Injuries",
-   "status": "Transporting",
-   "status_at": "2026-11-27T23:16:40Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T23:22:03Z",
    "created": "2026-11-27T22:58:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -498,32 +524,6 @@
    "priority": "PRI 4",
    "lat": 35.052659,
    "lon": -85.353669,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833400",
-   "sequence": "2026-11-38509",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:34:47Z",
-   "created": "2026-11-27T22:32:53Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1701 SUCK CREEK RD",
-   "cross": "SIGNAL MOUNTAIN RD/SUCK CREEK LN",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 3",
-   "lat": 35.105365,
-   "lon": -85.359658,
    "units": 1,
    "stacked": false,
    "notable": false
