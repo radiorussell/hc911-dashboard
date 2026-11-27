@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-27T04:45:37+00:00",
+ "updated": "2026-11-27T04:50:38+00:00",
  "counts": {
-  "year": 374931,
+  "year": 374932,
   "upstream_day": 0,
-  "day": 1044,
+  "day": 1049,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832289",
+   "sequence": "2026-11-37711",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:49:24Z",
+   "created": "2026-11-27T04:49:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "200 - 399 FRIAR RD",
+   "cross": "CHICKAMAUGA RD/CENTRAL DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.020141,
+   "lon": -85.199732,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832284",
    "sequence": "2026-11-37706",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T04:45:46Z",
    "created": "2026-11-27T04:38:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9832283",
    "sequence": "2026-11-37705",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T04:46:56Z",
    "created": "2026-11-27T04:38:23Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9832281",
    "sequence": "2026-11-37703",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T04:49:37Z",
    "created": "2026-11-27T04:38:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
