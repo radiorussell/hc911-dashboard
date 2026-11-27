@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-27T15:30:45+00:00",
+ "updated": "2026-11-27T15:35:37+00:00",
  "counts": {
   "year": 375141,
   "upstream_day": 201,
-  "day": 301,
+  "day": 304,
   "day_basis": "midnight"
  },
  "raw_rows": 21,
  "incidents": [
   {
+   "id": "9832726",
+   "sequence": "2026-11-38019",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:34:49Z",
+   "created": "2026-11-27T15:34:49Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4821 APPIAN WAY",
+   "cross": "APPIAN CIR/ALPINE DR",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.138392,
+   "lon": -85.276986,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832724",
+   "sequence": "2026-11-38018",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:33:03Z",
+   "created": "2026-11-27T15:33:03Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3913 WEBB RD",
+   "cross": "HAL DR/OAKWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 0",
+   "lat": 35.087628,
+   "lon": -85.191858,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832719",
    "sequence": "2026-11-38016",
    "type": "Aggressive Animal",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:29:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:28:19Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -38,8 +90,8 @@
    "id": "9832717",
    "sequence": "2026-11-38015",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:27:07Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T15:32:18Z",
    "created": "2026-11-27T15:26:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9832716",
    "sequence": "2026-11-38013",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:32:50Z",
    "created": "2026-11-27T15:25:21Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -137,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832714",
-   "sequence": "2026-11-38011",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:30:34Z",
-   "created": "2026-11-27T15:21:06Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1503 CARAMEL CIR",
-   "cross": "HALE RD/HALE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.196726,
-   "lon": -85.175814,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832705",
@@ -290,32 +316,6 @@
    "priority": "PRI 4",
    "lat": 35.06496,
    "lon": -85.077226,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832690",
-   "sequence": "2026-11-38001",
-   "type": "Auto Broken Down",
-   "status": "On Scene",
-   "status_at": "2026-11-27T15:30:23Z",
-   "created": "2026-11-27T15:04:28Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "BONNY OAKS DR / PRESERVATION DR",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C6",
-   "priority": "PRI 4",
-   "lat": 35.07389,
-   "lon": -85.182772,
    "units": 1,
    "stacked": false,
    "notable": false
