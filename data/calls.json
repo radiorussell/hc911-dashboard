@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-27T19:30:38+00:00",
+ "updated": "2026-11-27T19:35:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 572,
+  "day": 577,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9833109",
+   "sequence": "2026-11-38292",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:33:27Z",
+   "created": "2026-11-27T19:33:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "INTERSTATE 24 WB / EXIT 180A OFF RAMP WB",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 2",
+   "lat": 35.018745,
+   "lon": -85.28877,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833105",
+   "sequence": "2026-11-38290",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:31:21Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4718 STUNNER LN",
+   "cross": "No Cross Street/STRONG AVE",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.131698,
+   "lon": -85.268679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833103",
+   "sequence": "2026-11-38288",
+   "type": "Fire Special Assign",
+   "status": "Enroute",
+   "status_at": "2026-11-27T19:31:14Z",
+   "created": "2026-11-27T19:30:35Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "15 TREMONT ST",
+   "cross": "No Cross Street/RIVER ST",
+   "city": "CHATTANOOGA",
+   "zone": "1203 B",
+   "priority": "PRI 3",
+   "lat": 35.060312,
+   "lon": -85.306444,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9833101",
    "sequence": "2026-11-38287",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:29:40Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T19:29:40Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9833081",
-   "sequence": "2026-11-38274",
-   "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:15:09Z",
-   "created": "2026-11-27T19:14:12Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "915 S SEMINOLE DR",
-   "cross": "DUNLAP AVE/OLD RINGGOLD RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.009127,
-   "lon": -85.265449,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833074",
    "sequence": "2026-11-38267",
    "type": "Auto Broken Down",
@@ -272,8 +324,8 @@
    "id": "9833067",
    "sequence": "2026-11-38262",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T19:29:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:35:12Z",
    "created": "2026-11-27T19:05:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -347,58 +399,6 @@
    "notable": false
   },
   {
-   "id": "9833056",
-   "sequence": "2026-11-38255",
-   "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": "2026-11-27T19:20:10Z",
-   "created": "2026-11-27T18:59:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4686 ARDMORE DR",
-   "cross": "OLD LEE HWY/OLD LEE HWY",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
-   "lat": 35.067982,
-   "lon": -85.108124,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833051",
-   "sequence": "2026-11-38248",
-   "type": "Repossessed Auto",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:57:42Z",
-   "created": "2026-11-27T18:57:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7504 OLD LEE HWY",
-   "cross": "EXIT 7B ON RAMP NB/STONEHENGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 0",
-   "lat": 35.062227,
-   "lon": -85.125807,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833043",
    "sequence": "2026-11-38249",
    "type": "EMS CALL",
@@ -454,8 +454,8 @@
    "id": "9833034",
    "sequence": "2026-11-38238",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:49:23Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T18:48:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -550,32 +550,6 @@
    "priority": "PRI 4",
    "lat": 35.028466,
    "lon": -85.133896,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832995",
-   "sequence": "2026-11-38206",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:16:41Z",
-   "created": "2026-11-27T18:28:54Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "562 MELWOOD LN",
-   "cross": "MIKEMON DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 07 HC B",
-   "priority": "PRI 1",
-   "lat": 34.992883,
-   "lon": -85.107183,
    "units": 1,
    "stacked": false,
    "notable": false
