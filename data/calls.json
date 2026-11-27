@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T22:50:37+00:00",
+ "updated": "2026-11-27T22:55:36+00:00",
  "counts": {
   "year": 375532,
   "upstream_day": 592,
-  "day": 807,
+  "day": 813,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9833422",
+   "sequence": "2026-11-38528",
+   "type": "Shots Fired",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T22:53:47Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6370 FRANKFURT RD",
+   "cross": "MERCEDES LN/OLD BUG LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 1",
+   "lat": 35.128198,
+   "lon": -85.106409,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833419",
+   "sequence": "2026-11-38524",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:50:45Z",
+   "created": "2026-11-27T22:50:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5800 - 5854 HIGHWAY 153",
+   "cross": "GRUBB RD/WANDERLUST WAY",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.160272,
+   "lon": -85.248346,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833415",
    "sequence": "2026-11-38522",
@@ -38,8 +90,8 @@
    "id": "9833414",
    "sequence": "2026-11-38520",
    "type": "Auto Broken Down Road",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:46:58Z",
+   "status": "On Scene",
+   "status_at": "2026-11-27T22:52:33Z",
    "created": "2026-11-27T22:46:48Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -108,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.050077,
    "lon": -85.259843,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833411",
-   "sequence": "2026-11-38518",
-   "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:44:15Z",
-   "created": "2026-11-27T22:43:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1003 NEST TRL",
-   "cross": "No Cross Street/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.111125,
-   "lon": -85.267845,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -272,8 +298,8 @@
    "id": "9833393",
    "sequence": "2026-11-38504",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:39:49Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T22:54:50Z",
    "created": "2026-11-27T22:27:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -290,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.072794,
    "lon": -85.057783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833391",
-   "sequence": "2026-11-38501",
-   "type": "Disorder Weapon Involve",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:45:45Z",
-   "created": "2026-11-27T22:26:20Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -347,63 +347,11 @@
    "notable": false
   },
   {
-   "id": "9833366",
-   "sequence": "2026-11-38482",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:28:48Z",
-   "created": "2026-11-27T22:20:25Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9715 PEARSON RD",
-   "cross": "LAKESIDE RD/BLUE SPRINGS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 2",
-   "lat": 35.218895,
-   "lon": -85.073035,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833367",
-   "sequence": "2026-11-38483",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:20:25Z",
-   "created": "2026-11-27T22:20:25Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9715 PEARSON RD",
-   "cross": "LAKESIDE RD/BLUE SPRINGS RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.218895,
-   "lon": -85.073035,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833364",
    "sequence": "2026-11-38481",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:37:59Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T22:50:49Z",
    "created": "2026-11-27T22:20:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -428,8 +376,8 @@
    "id": "9833361",
    "sequence": "2026-11-38479",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T22:20:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T22:19:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -602,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.111446,
    "lon": -85.276439,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833302",
-   "sequence": "2026-11-38435",
-   "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:49:34Z",
-   "created": "2026-11-27T21:48:57Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 4",
-   "lat": 35.034528,
-   "lon": -85.158706,
    "units": 1,
    "stacked": false,
    "notable": false
