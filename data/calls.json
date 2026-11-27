@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T06:05:38+00:00",
+ "updated": "2026-11-27T06:10:38+00:00",
  "counts": {
-  "year": 374958,
-  "upstream_day": 18,
+  "year": 374959,
+  "upstream_day": 19,
   "day": 27,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9832324",
    "sequence": "2026-11-37742",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T06:06:12Z",
    "created": "2026-11-27T05:58:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,32 +87,6 @@
    "notable": false
   },
   {
-   "id": "9832317",
-   "sequence": "2026-11-37735",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T05:44:07Z",
-   "created": "2026-11-27T05:44:07Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6801 RINGGOLD RD",
-   "cross": "FRAWLEY RD/S SANCTUARY RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.988701,
-   "lon": -85.18971,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832316",
    "sequence": "2026-11-37737",
    "type": "EMS CALL",
@@ -142,8 +116,8 @@
    "id": "9832315",
    "sequence": "2026-11-37734",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T05:52:04Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T06:09:11Z",
    "created": "2026-11-27T05:43:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
