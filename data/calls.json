@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-27T17:20:38+00:00",
+ "updated": "2026-11-27T17:25:37+00:00",
  "counts": {
   "year": 375245,
   "upstream_day": 305,
-  "day": 429,
+  "day": 433,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 22,
  "incidents": [
   {
-   "id": "9832898",
-   "sequence": "2026-11-38144",
-   "type": "Unknown 911",
+   "id": "9832903",
+   "sequence": "2026-11-38148",
+   "type": "Animal Call",
    "status": "Queued",
-   "status_at": "2026-11-27T17:20:08Z",
-   "created": "2026-11-27T17:19:59Z",
+   "status_at": "2026-11-27T17:24:08Z",
+   "created": "2026-11-27T17:22:50Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4413 PAULA LN",
+   "cross": "CRESTVIEW DR/ELY RD",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 4",
+   "lat": 35.123778,
+   "lon": -85.27782,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832902",
+   "sequence": "2026-11-38145",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T17:21:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "1900 - 1999 E MAIN ST",
-   "cross": "S ORCHARD KNOB AVE/S BEECH ST",
+   "address": "305 BROWNS FERRY RD",
+   "cross": "PATTEN CHAPEL RD/ADKINS RD",
    "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.026073,
-   "lon": -85.280087,
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.029526,
+   "lon": -85.363127,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -299,7 +325,7 @@
    "sequence": "2026-11-38094",
    "type": "Narcotics Violation",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T17:23:39Z",
    "created": "2026-11-27T16:26:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
