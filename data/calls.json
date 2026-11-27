@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T05:05:37+00:00",
+ "updated": "2026-11-27T05:10:37+00:00",
  "counts": {
-  "year": 374937,
+  "year": 374940,
   "upstream_day": 0,
-  "day": 0,
+  "day": 6,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9832301",
+   "sequence": "2026-11-37721",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T05:07:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "319 N HIGHLAND PARK AVE",
+   "cross": "E 5TH ST/E 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 1",
+   "lat": 35.042348,
+   "lon": -85.278859,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832299",
+   "sequence": "2026-11-37719",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T05:06:31Z",
+   "created": "2026-11-27T05:06:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "320 N HIGHLAND PARK AVE",
+   "cross": "E 5TH ST/E 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.042212,
+   "lon": -85.278127,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832295",
    "sequence": "2026-11-37715",
@@ -64,8 +116,8 @@
    "id": "9832281",
    "sequence": "2026-11-37703",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T05:01:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T05:06:11Z",
    "created": "2026-11-27T04:38:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.016816,
    "lon": -85.20786,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832239",
-   "sequence": "2026-11-37676",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T04:36:23Z",
-   "created": "2026-11-27T03:37:25Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "3823 LIGHTFOOT MILL RD",
-   "cross": "DEERFOOT DR/BYRD AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.070673,
-   "lon": -85.208046,
    "units": 1,
    "stacked": false,
    "notable": false
