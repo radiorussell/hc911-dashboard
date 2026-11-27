@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T02:40:42+00:00",
+ "updated": "2026-11-27T02:45:36+00:00",
  "counts": {
   "year": 374880,
   "upstream_day": 0,
-  "day": 971,
+  "day": 977,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9832190",
+   "sequence": "2026-11-37639",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:41:41Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "301 N HIGHLAND PARK AVE",
+   "cross": "E 5TH ST/E 3RD ST",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 3",
+   "lat": 35.041791,
+   "lon": -85.278881,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9832183",
    "sequence": "2026-11-37632",
@@ -28,32 +54,6 @@
    "city": "CHATTANOOGA",
    "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.002071,
-   "lon": -85.155804,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832184",
-   "sequence": "2026-11-37633",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T02:31:47Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "999 CHARLOTTE AVE",
-   "cross": "DAVIDSON RD/DUDLEY RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
    "lat": 35.002071,
    "lon": -85.155804,
    "units": 1,
@@ -139,58 +139,6 @@
    "notable": false
   },
   {
-   "id": "9832160",
-   "sequence": "2026-11-37612",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:18:51Z",
-   "created": "2026-11-27T02:02:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7015 SHALLOWFORD RD",
-   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.044177,
-   "lon": -85.158575,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832159",
-   "sequence": "2026-11-37611",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:07:36Z",
-   "created": "2026-11-27T02:01:25Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "121 HARRISON LN",
-   "cross": "DAYTON PIKE/RECO DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 1",
-   "lat": 35.237133,
-   "lon": -85.198302,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9832158",
    "sequence": "2026-11-37610",
    "type": "Civil Matter",
@@ -243,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9832134",
-   "sequence": "2026-11-37596",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T01:53:18Z",
-   "created": "2026-11-27T01:37:27Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "16520 ANDY THOMAS RD",
-   "cross": "TURNER RD/BLACK OAK RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 1",
-   "lat": 35.420484,
-   "lon": -85.060677,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832132",
    "sequence": "2026-11-37594",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T01:54:30Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T02:44:47Z",
    "created": "2026-11-27T01:36:55Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +264,6 @@
    "priority": "PRI 3",
    "lat": 35.044177,
    "lon": -85.158575,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832067",
-   "sequence": "2026-11-37543",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-27T00:54:26Z",
-   "created": "2026-11-27T00:41:37Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3214 JOSELIN LN",
-   "cross": "TIKTIN DR/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK 1",
-   "priority": "PRI 3",
-   "lat": 35.105552,
-   "lon": -85.292115,
    "units": 1,
    "stacked": false,
    "notable": false
