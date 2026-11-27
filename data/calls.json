@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T04:25:39+00:00",
+ "updated": "2026-11-27T04:30:39+00:00",
  "counts": {
   "year": 374926,
   "upstream_day": 0,
-  "day": 1029,
+  "day": 1038,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9832277",
+   "sequence": "2026-11-37700",
+   "type": "Odor Investigate",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:27:52Z",
+   "created": "2026-11-27T04:27:52Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7300 FERRELL FARMS DR",
+   "cross": "No Cross Street/CATTLE TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 3",
+   "lat": 35.200949,
+   "lon": -85.049761,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832257",
+   "sequence": "2026-11-37699",
+   "type": "Odor Investigation",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:27:52Z",
+   "created": "2026-11-27T04:27:14Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7351 - 7415 FERRELL FARMS DR",
+   "cross": "HAZEL OAK  DR/HIGHWAY 58",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 2",
+   "lat": 35.199771,
+   "lon": -85.043525,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832267",
    "sequence": "2026-11-37691",
@@ -108,58 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.070673,
    "lon": -85.208046,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832231",
-   "sequence": "2026-11-37670",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T04:09:48Z",
-   "created": "2026-11-27T03:27:35Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1148 MOUNTAIN CREEK RD",
-   "cross": "WELLSTONE DR/SOUTHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.115468,
-   "lon": -85.31894,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832226",
-   "sequence": "2026-11-37664",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T04:02:43Z",
-   "created": "2026-11-27T03:24:42Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1722 SKYLINE DR",
-   "cross": "ESTRELLITA CIR/PALERMO DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.025666,
-   "lon": -85.165201,
    "units": 1,
    "stacked": false,
    "notable": false
