@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T16:15:37+00:00",
+ "updated": "2026-11-27T16:20:37+00:00",
  "counts": {
-  "year": 375186,
-  "upstream_day": 246,
-  "day": 369,
+  "year": 375194,
+  "upstream_day": 254,
+  "day": 373,
   "day_basis": "midnight"
  },
  "raw_rows": 37,
  "incidents": [
+  {
+   "id": "9832814",
+   "sequence": "2026-11-38088",
+   "type": "Backup EMS Unit",
+   "status": "Queued",
+   "status_at": "2026-11-27T16:18:40Z",
+   "created": "2026-11-27T16:18:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "270 WATER ST",
+   "cross": "KIRKLAND AVE/HIGHLAND AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 2",
+   "lat": 35.007145,
+   "lon": -85.313323,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832812",
+   "sequence": "2026-11-38087",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T16:17:39Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832809",
    "sequence": "2026-11-38084",
@@ -38,8 +90,8 @@
    "id": "9832808",
    "sequence": "2026-11-38081",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:14:54Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T16:18:03Z",
    "created": "2026-11-27T16:14:54Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -75,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "4509 ROSSVILLE BLVD",
+   "cross": "E 45TH ST/E 46TH ST",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "B9",
    "priority": "PRI 4",
-   "lat": 35.081783,
-   "lon": -85.26321,
+   "lat": 34.990843,
+   "lon": -85.290449,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +142,8 @@
    "id": "9832806",
    "sequence": "2026-11-38083",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T16:15:16Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T16:14:14Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -321,37 +373,11 @@
    "notable": false
   },
   {
-   "id": "9832777",
-   "sequence": "2026-11-38060",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T16:08:06Z",
-   "created": "2026-11-27T16:00:07Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5224 SILVER LN",
-   "cross": "APISON PIKE/No Cross Street",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE EAST",
-   "priority": "PRI 3",
-   "lat": 35.046014,
-   "lon": -85.02364,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832771",
    "sequence": "2026-11-38055",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:55:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:55:19Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -529,32 +555,6 @@
    "notable": false
   },
   {
-   "id": "9832758",
-   "sequence": "2026-11-38047",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:51:05Z",
-   "created": "2026-11-27T15:51:05Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "921 E 3RD ST",
-   "cross": "PALMETTO ST/HAMPTON ST",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.048843,
-   "lon": -85.292581,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832755",
    "sequence": "2026-11-38044",
    "type": "EMS CALL",
@@ -636,8 +636,8 @@
    "id": "9832746",
    "sequence": "2026-11-38037",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T16:12:14Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T16:19:33Z",
    "created": "2026-11-27T15:47:05Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -662,8 +662,8 @@
    "id": "9832743",
    "sequence": "2026-11-38032",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T16:06:22Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T16:16:18Z",
    "created": "2026-11-27T15:45:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
