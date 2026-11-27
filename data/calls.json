@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T20:10:38+00:00",
+ "updated": "2026-11-27T20:15:37+00:00",
  "counts": {
   "year": 375382,
   "upstream_day": 442,
-  "day": 615,
+  "day": 617,
   "day_basis": "midnight"
  },
- "raw_rows": 27,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9833180",
+   "sequence": "2026-11-38332",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:13:39Z",
+   "created": "2026-11-27T20:13:17Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9514 E BRAINERD RD",
+   "cross": "FULLER RD/HIDDEN SPRING TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 34.99885,
+   "lon": -85.105698,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833177",
    "sequence": "2026-11-38330",
@@ -38,8 +64,8 @@
    "id": "9833178",
    "sequence": "2026-11-38329",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:11:55Z",
    "created": "2026-11-27T20:07:49Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -160,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.120515,
    "lon": -85.285571,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833149",
-   "sequence": "2026-11-38311",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:09:46Z",
-   "created": "2026-11-27T19:54:40Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3766 LACY LEAF LN",
-   "cross": "CYPRESS CV/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.009083,
-   "lon": -85.059217,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -402,8 +402,8 @@
    "id": "9833084",
    "sequence": "2026-11-38275",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:17:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T19:17:22Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -472,58 +472,6 @@
    "priority": "PRI 1",
    "lat": 35.043597,
    "lon": -85.278071,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833058",
-   "sequence": "2026-11-38257",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:43:56Z",
-   "created": "2026-11-27T19:01:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5873 LAKE RESORT TER",
-   "cross": "LAKE RESORT DR/LAKESHORE LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 1",
-   "lat": 35.111332,
-   "lon": -85.213756,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833043",
-   "sequence": "2026-11-38249",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:25:40Z",
-   "created": "2026-11-27T18:56:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2296 GUNBARREL RD",
-   "cross": "COMMONS BLVD/SHALLOWFORD RD",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.039818,
-   "lon": -85.149705,
    "units": 1,
    "stacked": false,
    "notable": false
