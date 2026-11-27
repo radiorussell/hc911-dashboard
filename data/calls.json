@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-27T19:05:36+00:00",
+ "updated": "2026-11-27T19:10:36+00:00",
  "counts": {
-  "year": 375320,
-  "upstream_day": 380,
-  "day": 546,
+  "year": 375334,
+  "upstream_day": 394,
+  "day": 555,
   "day_basis": "midnight"
  },
- "raw_rows": 41,
+ "raw_rows": 47,
  "incidents": [
+  {
+   "id": "9833077",
+   "sequence": "2026-11-38270",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:09:24Z",
+   "created": "2026-11-27T19:09:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1180 - 1329 INTERSTATE 75 SB",
+   "cross": "EXIT 11 OFF RAMP SB/INTERSTATE 75 NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.088187,
+   "lon": -85.063608,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833075",
+   "sequence": "2026-11-38269",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:08:18Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "110 ARNOLD DR",
+   "cross": "ARNOLD PL/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.00734,
+   "lon": -85.246751,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833074",
+   "sequence": "2026-11-38267",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:07:30Z",
+   "created": "2026-11-27T19:07:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "520 NORTHGATE MALL DR",
+   "cross": "MEADOW DR/TRINITY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A2",
+   "priority": "PRI 4",
+   "lat": 35.12815,
+   "lon": -85.242114,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833072",
+   "sequence": "2026-11-38268",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:08:08Z",
+   "created": "2026-11-27T19:06:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1100 INTERSTATE 75 SB",
+   "cross": "EXIT 9 OFF RAMP SB/EXIT 11 E ON RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.082948,
+   "lon": -85.078142,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833071",
+   "sequence": "2026-11-38263",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:06:12Z",
+   "created": "2026-11-27T19:06:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1425 E 3RD ST",
+   "cross": "N HOLTZCLAW AVE/N HIGHLAND PARK AVE",
+   "city": "CHATTANOOGA",
+   "zone": "503",
+   "priority": "PRI 2",
+   "lat": 35.043597,
+   "lon": -85.278071,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833069",
+   "sequence": "2026-11-38264",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T19:06:49Z",
+   "created": "2026-11-27T19:06:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "402 W MARTIN LUTHER KING BLVD",
+   "cross": "EXIT W 4TH ST OFF RAMP SB/GATEWAY AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A6",
+   "priority": "PRI 3",
+   "lat": 35.047023,
+   "lon": -85.316758,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833068",
    "sequence": "2026-11-38261",
@@ -30,6 +186,32 @@
    "priority": "PRI 4",
    "lat": 35.027603,
    "lon": -85.268581,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833067",
+   "sequence": "2026-11-38262",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:05:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1425 E 3RD ST",
+   "cross": "N HOLTZCLAW AVE/N HIGHLAND PARK AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.043597,
+   "lon": -85.278071,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +272,8 @@
    "id": "9833060",
    "sequence": "2026-11-38258",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:01:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T19:01:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9833050",
-   "sequence": "2026-11-38247",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:57:27Z",
-   "created": "2026-11-27T18:57:27Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2805 E 37TH ST",
-   "cross": "DODDS AVE/12TH AVE",
-   "city": "CHATTANOOGA",
-   "zone": "901",
-   "priority": "PRI 2",
-   "lat": 34.999075,
-   "lon": -85.282068,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833049",
    "sequence": "2026-11-38246",
    "type": "EMS CALL",
@@ -295,37 +451,37 @@
    "notable": false
   },
   {
-   "id": "9833046",
-   "sequence": "2026-11-38244",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:05:30Z",
-   "created": "2026-11-27T18:56:55Z",
-   "jurisdiction": "East Ridge FD",
+   "id": "9833050",
+   "sequence": "2026-11-38247",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T18:57:27Z",
+   "created": "2026-11-27T18:57:27Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "East Ridge FD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "6416 HOLIDAY DR",
-   "cross": "FLOYD DR/BLANTON DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 3",
-   "lat": 34.991282,
-   "lon": -85.212887,
+   "address": "2805 E 37TH ST",
+   "cross": "DODDS AVE/12TH AVE",
+   "city": "CHATTANOOGA",
+   "zone": "901",
+   "priority": "PRI 2",
+   "lat": 34.999075,
+   "lon": -85.282068,
    "units": 1,
    "stacked": false,
-   "notable": true
+   "notable": false
   },
   {
    "id": "9833042",
    "sequence": "2026-11-38245",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T19:09:04Z",
    "created": "2026-11-27T18:56:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +506,8 @@
    "id": "9833043",
    "sequence": "2026-11-38249",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T19:06:12Z",
    "created": "2026-11-27T18:56:47Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -844,8 +1000,8 @@
    "id": "9832970",
    "sequence": "2026-11-38189",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T18:43:06Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:10:03Z",
    "created": "2026-11-27T18:13:43Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
