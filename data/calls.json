@@ -1,19 +1,175 @@
 {
- "updated": "2026-11-27T15:35:37+00:00",
+ "updated": "2026-11-27T15:39:14+00:00",
  "counts": {
-  "year": 375141,
-  "upstream_day": 201,
-  "day": 304,
+  "year": 375149,
+  "upstream_day": 209,
+  "day": 314,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9832736",
+   "sequence": "2026-11-38028",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:39:04Z",
+   "created": "2026-11-27T15:39:04Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.089963,
+   "lon": -85.066437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832737",
+   "sequence": "2026-11-38029",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:39:04Z",
+   "created": "2026-11-27T15:39:04Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 4 HC F",
+   "priority": "PRI 1",
+   "lat": 35.089963,
+   "lon": -85.066437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832735",
+   "sequence": "2026-11-38027",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:39:04Z",
+   "created": "2026-11-27T15:38:22Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5911 SNOW HILL RD",
+   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.089963,
+   "lon": -85.066437,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832734",
+   "sequence": "2026-11-38026",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": "2026-11-27T15:37:43Z",
+   "created": "2026-11-27T15:37:43Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14711 BIRCHWOOD PIKE",
+   "cross": "SAM SMITH RD/DEFRIESE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 2",
+   "lat": 35.35084,
+   "lon": -84.997002,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832731",
+   "sequence": "2026-11-38024",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:36:52Z",
+   "created": "2026-11-27T15:36:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "950 SISKIN DR",
+   "cross": "E 4TH ST/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A8",
+   "priority": "PRI 3",
+   "lat": 35.050662,
+   "lon": -85.291613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832730",
+   "sequence": "2026-11-38023",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:36:16Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3320 RINGGOLD RD",
+   "cross": "WYNNWOOD RD/OLD RINGGOLD RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.007647,
+   "lon": -85.263704,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832726",
    "sequence": "2026-11-38019",
    "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:34:49Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:34:49Z",
    "jurisdiction": "Red Bank PD",
    "agencies": [
@@ -475,32 +631,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832640",
-   "sequence": "2026-11-37968",
-   "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T14:41:49Z",
-   "created": "2026-11-27T14:35:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1 - 9 EXIT DAYTON BLVD OFF RAMP NB",
-   "cross": "HIGHWAY 27 NB/DAYTON BLVD",
-   "city": "RED BANK",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.075483,
-   "lon": -85.321463,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832632",
