@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-27T12:40:40+00:00",
+ "updated": "2026-11-27T12:45:37+00:00",
  "counts": {
   "year": 375059,
   "upstream_day": 119,
-  "day": 166,
+  "day": 177,
   "day_basis": "midnight"
  },
  "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9832533",
+   "sequence": "2026-11-37892",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T12:45:13Z",
+   "created": "2026-11-27T12:45:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1755 GUNBARREL RD",
+   "cross": "ZIEGLER RD/CRANE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.022566,
+   "lon": -85.160474,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832532",
+   "sequence": "2026-11-37891",
+   "type": "Animal Call",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:43:42Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "GRASSHOPPER RD / HIGHWAY 58",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 4",
+   "lat": 35.270764,
+   "lon": -84.985346,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832510",
    "sequence": "2026-11-37881",
@@ -37,7 +89,7 @@
   {
    "id": "9832509",
    "sequence": "2026-11-37872",
-   "type": "MVC Injuries",
+   "type": "MVC No Injuries",
    "status": "On Scene",
    "status_at": "2026-11-27T12:23:26Z",
    "created": "2026-11-27T12:11:50Z",
@@ -49,39 +101,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2000 - 2122 GUNBARREL RD",
+   "address": "2122 GUNBARREL RD",
    "cross": "GOODWIN RD/LANDRESS DR",
    "city": "CHATTANOOGA",
    "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.032497,
-   "lon": -85.154282,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9832507",
-   "sequence": "2026-11-37874",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T12:09:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2914 HAYWOOD AVE",
-   "cross": "ALEXANDER DR/OZARK CIR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.09888,
-   "lon": -85.286696,
+   "priority": "PRI 3",
+   "lat": 35.03452,
+   "lon": -85.15254,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.036989,
    "lon": -85.136656,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832464",
-   "sequence": "2026-11-37848",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T12:06:58Z",
-   "created": "2026-11-27T11:10:58Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4114 14TH AVE",
-   "cross": "E 41ST ST/E 42ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 34.993157,
-   "lon": -85.281301,
    "units": 1,
    "stacked": false,
    "notable": false
