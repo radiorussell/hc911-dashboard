@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T09:30:37+00:00",
+ "updated": "2026-11-27T09:35:38+00:00",
  "counts": {
   "year": 375008,
   "upstream_day": 68,
   "day": 94,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 8,
  "incidents": [
   {
    "id": "9832409",
@@ -38,8 +38,8 @@
    "id": "9832410",
    "sequence": "2026-11-37809",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T09:33:42Z",
    "created": "2026-11-27T09:24:30Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -64,8 +64,8 @@
    "id": "9832408",
    "sequence": "2026-11-37807",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T09:35:00Z",
    "created": "2026-11-27T09:23:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -136,32 +136,6 @@
    "lon": -85.16861,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9832392",
-   "sequence": "2026-11-37793",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T09:10:43Z",
-   "created": "2026-11-27T08:37:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2431 WILLIAMS ST",
-   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.02834,
-   "lon": -85.314378,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
