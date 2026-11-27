@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T21:00:39+00:00",
+ "updated": "2026-11-27T21:05:38+00:00",
  "counts": {
   "year": 375425,
   "upstream_day": 485,
   "day": 657,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9833233",
@@ -56,32 +56,6 @@
    "priority": "PRI 3",
    "lat": 35.020475,
    "lon": -85.221491,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833219",
-   "sequence": "2026-11-38363",
-   "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": "2026-11-27T20:52:08Z",
-   "created": "2026-11-27T20:46:23Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MCCALLIE AVE / EXIT BAILEY AVE  RAMP",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 2",
-   "lat": 35.031776,
-   "lon": -85.264903,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +142,8 @@
    "id": "9833216",
    "sequence": "2026-11-38358",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:04:29Z",
    "created": "2026-11-27T20:44:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -297,7 +271,7 @@
   {
    "id": "9833190",
    "sequence": "2026-11-38340",
-   "type": "MVC Delayed",
+   "type": "Property",
    "status": "On Scene",
    "status_at": "2026-11-27T20:45:49Z",
    "created": "2026-11-27T20:25:41Z",
