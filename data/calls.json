@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-27T03:15:38+00:00",
+ "updated": "2026-11-27T03:20:42+00:00",
  "counts": {
-  "year": 374894,
+  "year": 374895,
   "upstream_day": 0,
-  "day": 989,
+  "day": 996,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9832208",
-   "sequence": "2026-11-37651",
+   "id": "9832220",
+   "sequence": "2026-11-37658",
    "type": "AFA Residential",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T03:14:26Z",
-   "jurisdiction": "Tri-Community FD",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:20:14Z",
+   "created": "2026-11-27T03:20:14Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Tri-Community FD"
+    "Chattanooga FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "147 ROLLING RIDGE DR",
-   "cross": "CAWOOD LN/ROLLING RIDGE CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
+   "address": "513 E 52ND ST",
+   "cross": "FAGAN ST/TANNER AVE",
+   "city": "CHATTANOOGA",
+   "zone": "1401",
    "priority": "PRI 1",
-   "lat": 35.006123,
-   "lon": -85.112247,
+   "lat": 34.990287,
+   "lon": -85.313645,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832211",
+   "sequence": "2026-11-37654",
+   "type": "Assault Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:18:07Z",
+   "created": "2026-11-27T03:17:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7255 LEE HWY",
+   "cross": "ROBIN DR/STANDIFER GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.052181,
+   "lon": -85.151941,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832210",
+   "sequence": "2026-11-37655",
+   "type": "Smoke Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:16:11Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1117 E 3RD ST",
+   "cross": "CENTRAL AVE/O NEAL ST",
+   "city": "CHATTANOOGA",
+   "zone": "204",
+   "priority": "PRI 1",
+   "lat": 35.046753,
+   "lon": -85.286955,
    "units": 1,
    "stacked": false,
    "notable": false
