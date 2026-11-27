@@ -1,46 +1,20 @@
 {
- "updated": "2026-11-27T14:25:37+00:00",
+ "updated": "2026-11-27T14:30:39+00:00",
  "counts": {
-  "year": 375100,
-  "upstream_day": 160,
-  "day": 243,
+  "year": 375106,
+  "upstream_day": 166,
+  "day": 250,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
   {
-   "id": "9832624",
-   "sequence": "2026-11-37957",
+   "id": "9832633",
+   "sequence": "2026-11-37965",
    "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T14:18:14Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8902 BAY VIEW DR",
-   "cross": "CHESAPEAKE DR/WOOTEN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 5",
-   "priority": "PRI 3",
-   "lat": 35.112664,
-   "lon": -85.160359,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832623",
-   "sequence": "2026-11-37958",
-   "type": "Police Assist Citizen",
    "status": "Queued",
-   "status_at": "2026-11-27T14:18:54Z",
-   "created": "2026-11-27T14:16:50Z",
+   "status_at": "2026-11-27T14:30:21Z",
+   "created": "2026-11-27T14:30:06Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -49,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "100 MOCCASIN BEND RD",
-   "cross": "No Cross Street/HAMM RD",
+   "address": "1951 GUNBARREL RD",
+   "cross": "JARNIGAN RD/GOODWIN RD",
    "city": "CHATTANOOGA",
-   "zone": "A5",
+   "zone": "C7",
    "priority": "PRI 3",
-   "lat": 35.025713,
-   "lon": -85.335435,
+   "lat": 35.029982,
+   "lon": -85.156071,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832632",
+   "sequence": "2026-11-37963",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T14:29:20Z",
+   "created": "2026-11-27T14:29:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7325 HUNTLEY LN",
+   "cross": "No Cross Street/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.009046,
+   "lon": -85.167676,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +64,8 @@
    "id": "9832621",
    "sequence": "2026-11-37955",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T14:29:17Z",
    "created": "2026-11-27T14:15:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -108,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 34.994402,
    "lon": -85.393367,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832597",
-   "sequence": "2026-11-37934",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T13:50:45Z",
-   "created": "2026-11-27T13:50:45Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6123 SHADYWAY LN",
-   "cross": "RIVER GLADE DR/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 1",
-   "priority": "PRI 2",
-   "lat": 35.129743,
-   "lon": -85.159,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -194,8 +168,8 @@
    "id": "9832572",
    "sequence": "2026-11-37915",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T14:14:04Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T14:30:01Z",
    "created": "2026-11-27T13:27:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
