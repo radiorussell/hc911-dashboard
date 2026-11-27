@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-27T09:05:37+00:00",
+ "updated": "2026-11-27T09:10:41+00:00",
  "counts": {
   "year": 375006,
   "upstream_day": 66,
-  "day": 82,
+  "day": 87,
   "day_basis": "midnight"
  },
- "raw_rows": 7,
+ "raw_rows": 5,
  "incidents": [
   {
-   "id": "9832396",
-   "sequence": "2026-11-37797",
-   "type": "Disorder",
+   "id": "9832401",
+   "sequence": "2026-11-37802",
+   "type": "Auto Theft",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-27T08:39:48Z",
+   "created": "2026-11-27T09:08:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4800 PAWNEE TRL",
-   "cross": "WOODVALE AVE/N MOORE RD",
+   "address": "7118 LISA GAYE LN",
+   "cross": "INDEPENDENCE LN/BUNKER HILL DR",
    "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.026109,
-   "lon": -85.223446,
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.01919,
+   "lon": -85.16861,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,32 +87,6 @@
    "notable": true
   },
   {
-   "id": "9832390",
-   "sequence": "2026-11-37791",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-27T08:40:55Z",
-   "created": "2026-11-27T08:27:22Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3006 DODSON AVE",
-   "cross": "STUART ST/WILDER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 3",
-   "lat": 35.072123,
-   "lon": -85.25001,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832387",
    "sequence": "2026-11-37788",
    "type": "Disorder Weapon Involve",
@@ -134,32 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.215832,
    "lon": -85.157717,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832381",
-   "sequence": "2026-11-37784",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T08:12:26Z",
-   "created": "2026-11-27T08:12:26Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2760 NORTHPOINT BLVD",
-   "cross": "EXECUTIVE DR/ELEVATED VW",
-   "city": "CHATTANOOGA",
-   "zone": "1901",
-   "priority": "PRI 2",
-   "lat": 35.129504,
-   "lon": -85.234989,
    "units": 1,
    "stacked": false,
    "notable": false
