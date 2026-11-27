@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-27T21:40:37+00:00",
+ "updated": "2026-11-27T21:45:40+00:00",
  "counts": {
   "year": 375455,
   "upstream_day": 515,
-  "day": 709,
+  "day": 707,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 18,
  "incidents": [
-  {
-   "id": "9833292",
-   "sequence": "2026-11-38424",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:36:52Z",
-   "created": "2026-11-27T21:36:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "COMMONS BLVD / GUNBARREL RD",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.036953,
-   "lon": -85.151819,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9833291",
    "sequence": "2026-11-38422",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:43:50Z",
    "created": "2026-11-27T21:36:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -56,32 +30,6 @@
    "priority": "PRI 3",
    "lat": 35.008033,
    "lon": -85.327267,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833289",
-   "sequence": "2026-11-38420",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T21:35:12Z",
-   "created": "2026-11-27T21:35:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4310 KEMP DR",
-   "cross": "TALLEY RD/HARGRAVES AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C2",
-   "priority": "PRI 3",
-   "lat": 35.027803,
-   "lon": -85.232954,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +64,8 @@
    "id": "9833288",
    "sequence": "2026-11-38419",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:41:00Z",
    "created": "2026-11-27T21:34:26Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -142,8 +90,8 @@
    "id": "9833286",
    "sequence": "2026-11-38418",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:41:26Z",
    "created": "2026-11-27T21:32:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +142,8 @@
    "id": "9833281",
    "sequence": "2026-11-38412",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T21:42:01Z",
    "created": "2026-11-27T21:29:21Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -212,58 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.203301,
    "lon": -85.188614,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833276",
-   "sequence": "2026-11-38407",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:27:59Z",
-   "created": "2026-11-27T21:26:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5101 LYNNWOOD AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 1",
-   "lat": 34.992171,
-   "lon": -85.32747,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833277",
-   "sequence": "2026-11-38408",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:31:12Z",
-   "created": "2026-11-27T21:26:05Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "5101 LYNNWOOD AVE",
-   "cross": "W 51ST ST/W 52ND ST",
-   "city": "CHATTANOOGA",
-   "zone": "1402",
-   "priority": "PRI 1",
-   "lat": 34.992171,
-   "lon": -85.32747,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -298,8 +194,8 @@
    "id": "9833270",
    "sequence": "2026-11-38403",
    "type": "Auto Broken Down Road",
-   "status": "Stacked",
-   "status_at": "2026-11-27T21:24:27Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T21:20:46Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -317,7 +213,7 @@
    "lat": 35.117975,
    "lon": -85.249979,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -399,37 +295,11 @@
    "notable": false
   },
   {
-   "id": "9833250",
-   "sequence": "2026-11-38384",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T21:33:07Z",
-   "created": "2026-11-27T21:06:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7325 EDGEFIELD DR",
-   "cross": "DALEFIELD LN/EDGEFIELD LN",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 4",
-   "lat": 35.056299,
-   "lon": -85.153783,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833218",
    "sequence": "2026-11-38360",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T21:13:35Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T21:42:55Z",
    "created": "2026-11-27T20:45:38Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -501,32 +371,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833180",
-   "sequence": "2026-11-38332",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:27:56Z",
-   "created": "2026-11-27T20:13:17Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9500 E BRAINERD RD",
-   "cross": "FULLER RD/HIDDEN SPRING TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 34.999488,
-   "lon": -85.107489,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833103",
