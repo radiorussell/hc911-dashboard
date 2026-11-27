@@ -1,87 +1,61 @@
 {
- "updated": "2026-11-27T19:40:38+00:00",
+ "updated": "2026-11-27T19:45:37+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 588,
+  "day": 590,
   "day_basis": "midnight"
  },
- "raw_rows": 36,
+ "raw_rows": 32,
  "incidents": [
   {
-   "id": "9833120",
-   "sequence": "2026-11-38303",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:40:12Z",
-   "created": "2026-11-27T19:40:12Z",
-   "jurisdiction": "East Ridge PD",
+   "id": "9833125",
+   "sequence": "2026-11-38305",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:43:31Z",
+   "jurisdiction": "Lookout Mountain FD",
    "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 2",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833119",
-   "sequence": "2026-11-38302",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:40:12Z",
-   "created": "2026-11-27T19:40:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833118",
-   "sequence": "2026-11-38301",
-   "type": "Safe Haven Baby Alarm",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:40:12Z",
-   "created": "2026-11-27T19:40:00Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
+    "Lookout Mountain FD"
    ],
    "agency_type": "Fire",
    "agency_types": [
     "Fire"
    ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
+   "address": "120 N HERMITAGE AVE",
+   "cross": "SCENIC HWY/E SUNSET RD",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
    "priority": "PRI 1",
-   "lat": 34.996637,
-   "lon": -85.242414,
+   "lat": 34.995241,
+   "lon": -85.345847,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833127",
+   "sequence": "2026-11-38304",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T19:42:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2101 E 3RD ST",
+   "cross": "N WILLOW ST/N KELLEY ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.039964,
+   "lon": -85.268586,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,7 +90,7 @@
    "id": "9833116",
    "sequence": "2026-11-38299",
    "type": "Harassment",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-27T19:39:36Z",
    "created": "2026-11-27T19:38:53Z",
    "jurisdiction": "Chattanooga PD",
@@ -135,7 +109,7 @@
    "lat": 35.032285,
    "lon": -85.316226,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -168,8 +142,8 @@
    "id": "9833111",
    "sequence": "2026-11-38295",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-27T19:37:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T19:36:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +290,6 @@
    "priority": "PRI 4",
    "lat": 35.139072,
    "lon": -85.147078,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833097",
-   "sequence": "2026-11-38284",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T19:29:50Z",
-   "created": "2026-11-27T19:23:30Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1000 BASS PRO DR",
-   "cross": "No Cross Street/CAMP JORDAN PKWY",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.992826,
-   "lon": -85.202645,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -532,8 +480,8 @@
    "id": "9833058",
    "sequence": "2026-11-38257",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T19:28:31Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T19:43:56Z",
    "created": "2026-11-27T19:01:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -711,32 +659,6 @@
    "notable": false
   },
   {
-   "id": "9832971",
-   "sequence": "2026-11-38186",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T19:02:01Z",
-   "created": "2026-11-27T18:13:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5604 TENNESSEE AVE",
-   "cross": "W 56TH ST/THOMAS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.986334,
-   "lon": -85.330072,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832970",
    "sequence": "2026-11-38189",
    "type": "EMS CALL",
@@ -758,32 +680,6 @@
    "priority": "PRI 2",
    "lat": 35.193515,
    "lon": -85.174993,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832966",
-   "sequence": "2026-11-38184",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T18:11:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17400 INTERSTATE 24 EB",
-   "cross": "EXIT 174 ON RAMP EB/EXIT 175 OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.02142,
-   "lon": -85.380501,
    "units": 1,
    "stacked": false,
    "notable": false
