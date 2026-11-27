@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T23:15:42+00:00",
+ "updated": "2026-11-27T23:20:41+00:00",
  "counts": {
-  "year": 375546,
-  "upstream_day": 606,
-  "day": 839,
+  "year": 375557,
+  "upstream_day": 617,
+  "day": 844,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 30,
  "incidents": [
+  {
+   "id": "9833462",
+   "sequence": "2026-11-38558",
+   "type": "Alarm Holdup",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:18:53Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7400 E BRAINERD RD",
+   "cross": "GUNBARREL RD/JOINER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 1",
+   "lat": 35.014767,
+   "lon": -85.163566,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833461",
+   "sequence": "2026-11-38559",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:19:48Z",
+   "created": "2026-11-27T23:18:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3401 CAMPBELL ST",
+   "cross": "GROVE ST/BIRCHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 4",
+   "lat": 35.073029,
+   "lon": -85.241019,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833458",
+   "sequence": "2026-11-38556",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T23:16:50Z",
+   "created": "2026-11-27T23:16:50Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7840 MAGNOLIA LAKE DR",
+   "cross": "AVIARA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.022573,
+   "lon": -85.142396,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833456",
+   "sequence": "2026-11-38555",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:16:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7840 MAGNOLIA LAKE DR",
+   "cross": "AVIARA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.022573,
+   "lon": -85.142396,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833455",
    "sequence": "2026-11-38554",
    "type": "MVC No Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:15:42Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T23:14:52Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -168,8 +272,8 @@
    "id": "9833438",
    "sequence": "2026-11-38541",
    "type": "Pedestrian Struck",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:15:51Z",
    "created": "2026-11-27T23:07:18Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +350,8 @@
    "id": "9833426",
    "sequence": "2026-11-38532",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:08:37Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T23:16:40Z",
    "created": "2026-11-27T22:58:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -350,8 +454,8 @@
    "id": "9833413",
    "sequence": "2026-11-38521",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:19:55Z",
    "created": "2026-11-27T22:46:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -376,8 +480,8 @@
    "id": "9833409",
    "sequence": "2026-11-38516",
    "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T23:18:47Z",
    "created": "2026-11-27T22:40:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -480,8 +584,8 @@
    "id": "9833364",
    "sequence": "2026-11-38481",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T22:50:49Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T23:16:16Z",
    "created": "2026-11-27T22:20:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
