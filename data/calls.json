@@ -1,17 +1,43 @@
 {
- "updated": "2026-11-27T04:55:36+00:00",
+ "updated": "2026-11-27T05:00:40+00:00",
  "counts": {
-  "year": 374932,
+  "year": 374937,
   "upstream_day": 0,
-  "day": 1044,
+  "day": 0,
   "day_basis": "midnight"
  },
  "raw_rows": 10,
  "incidents": [
   {
+   "id": "9832295",
+   "sequence": "2026-11-37715",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-27T04:58:09Z",
+   "created": "2026-11-27T04:58:09Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "922 BELVOIR HILLS CIR",
+   "cross": "INDIAN TRL/DELLWAY CIR",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.001636,
+   "lon": -85.250389,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9832284",
    "sequence": "2026-11-37706",
-   "type": "MVC Unknown Injuries",
+   "type": "Property",
    "status": "On Scene",
    "status_at": "2026-11-27T04:45:46Z",
    "created": "2026-11-27T04:38:32Z",
@@ -27,7 +53,7 @@
    "cross": "VOLKSWAGEN DR/No Cross Street",
    "city": "CHATTANOOGA",
    "zone": "C6",
-   "priority": "PRI 1",
+   "priority": "PRI 4",
    "lat": 35.07006,
    "lon": -85.14304,
    "units": 1,
@@ -108,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.016816,
    "lon": -85.20786,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832277",
-   "sequence": "2026-11-37700",
-   "type": "Odor Investigate",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:51:39Z",
-   "created": "2026-11-27T04:27:52Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7300 FERRELL FARMS DR",
-   "cross": "No Cross Street/CATTLE TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 6",
-   "priority": "PRI 3",
-   "lat": 35.200949,
-   "lon": -85.049761,
    "units": 1,
    "stacked": false,
    "notable": false
