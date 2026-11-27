@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-27T11:10:38+00:00",
+ "updated": "2026-11-27T11:15:37+00:00",
  "counts": {
   "year": 375032,
   "upstream_day": 92,
-  "day": 128,
+  "day": 135,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9832468",
+   "sequence": "2026-11-37849",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T11:11:23Z",
+   "created": "2026-11-27T11:11:23Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4114 14TH AVE",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "B9",
+   "priority": "PRI 3",
+   "lat": 34.993157,
+   "lon": -85.281301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832469",
+   "sequence": "2026-11-37850",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:11:23Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4114 14TH AVE",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "901",
+   "priority": "PRI 3",
+   "lat": 34.993157,
+   "lon": -85.281301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832466",
+   "sequence": "2026-11-37846",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:11:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5010 WOODLAND VIEW CIR",
+   "cross": "E 49TH ST/E 51ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 2",
+   "lat": 34.990071,
+   "lon": -85.307473,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832467",
+   "sequence": "2026-11-37847",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:11:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5010 WOODLAND VIEW CIR",
+   "cross": "E 49TH ST/E 51ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "903",
+   "priority": "PRI 2",
+   "lat": 34.990071,
+   "lon": -85.307473,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832464",
+   "sequence": "2026-11-37848",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:10:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4114 14TH AVE",
+   "cross": "E 41ST ST/E 42ND ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.993157,
+   "lon": -85.281301,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832463",
+   "sequence": "2026-11-37845",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T11:10:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5010 WOODLAND VIEW CIR",
+   "cross": "E 49TH ST/E 51ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 34.990071,
+   "lon": -85.307473,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832462",
    "sequence": "2026-11-37843",
@@ -90,8 +246,8 @@
    "id": "9832450",
    "sequence": "2026-11-37835",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T10:57:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T11:11:53Z",
    "created": "2026-11-27T10:50:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
