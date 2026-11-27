@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T04:05:38+00:00",
+ "updated": "2026-11-27T04:15:37+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
+  "year": 374921,
+  "upstream_day": 0,
   "day": 1029,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9832267",
    "sequence": "2026-11-37691",
    "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T04:10:04Z",
    "created": "2026-11-27T04:02:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +30,6 @@
    "priority": "PRI 2",
    "lat": 35.011021,
    "lon": -85.282301,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832264",
-   "sequence": "2026-11-37687",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T04:00:46Z",
-   "created": "2026-11-27T04:00:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "305 FRAZIER AVE",
-   "cross": "DELMONT ST/TREMONT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.062383,
-   "lon": -85.305591,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,37 +61,11 @@
    "notable": false
   },
   {
-   "id": "9832256",
-   "sequence": "2026-11-37685",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:54:41Z",
-   "created": "2026-11-27T03:54:41Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "305 FRAZIER AVE",
-   "cross": "DELMONT ST/TREMONT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 2",
-   "lat": 35.062383,
-   "lon": -85.305591,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832253",
    "sequence": "2026-11-37684",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-27T04:04:21Z",
+   "status": "Transporting",
+   "status_at": "2026-11-27T04:08:19Z",
    "created": "2026-11-27T03:53:48Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -220,8 +168,8 @@
    "id": "9832231",
    "sequence": "2026-11-37670",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T03:52:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T04:09:48Z",
    "created": "2026-11-27T03:27:35Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
