@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-27T08:20:43+00:00",
+ "updated": "2026-11-27T08:25:37+00:00",
  "counts": {
   "year": 374991,
   "upstream_day": 51,
-  "day": 70,
+  "day": 74,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 10,
  "incidents": [
   {
-   "id": "9832384",
-   "sequence": "2026-11-37785",
-   "type": "CON Transport",
+   "id": "9832388",
+   "sequence": "2026-11-37789",
+   "type": "Animal Call",
    "status": "Queued",
-   "status_at": "2026-11-27T08:16:27Z",
-   "created": "2026-11-27T08:16:08Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-27T08:24:13Z",
+   "created": "2026-11-27T08:24:13Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2333 MCCALLIE AVE",
-   "cross": "S LYERLY ST/S WATKINS ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.034727,
-   "lon": -85.26761,
+   "address": "3506 CLAREMONT AVE",
+   "cross": "BEECHWOOD LN/CLAREMONT CT",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 35.009013,
+   "lon": -85.259379,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832387",
+   "sequence": "2026-11-37788",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T08:23:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "9068 POLAN LN",
+   "cross": "YOGI LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 4",
+   "priority": "PRI 2",
+   "lat": 35.215832,
+   "lon": -85.157717,
    "units": 1,
    "stacked": false,
    "notable": false
