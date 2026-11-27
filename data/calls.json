@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T11:55:41+00:00",
+ "updated": "2026-11-27T12:00:39+00:00",
  "counts": {
-  "year": 375049,
-  "upstream_day": 109,
+  "year": 375050,
+  "upstream_day": 110,
   "day": 153,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
   {
    "id": "9832497",
    "sequence": "2026-11-37868",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T11:48:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T11:48:48Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -212,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.005574,
    "lon": -85.118142,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832450",
-   "sequence": "2026-11-37835",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T11:21:33Z",
-   "created": "2026-11-27T10:50:04Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1100 BALDWIN ST",
-   "cross": "E 11TH ST/E 12TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.040793,
-   "lon": -85.301205,
    "units": 1,
    "stacked": false,
    "notable": false
