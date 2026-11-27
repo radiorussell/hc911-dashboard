@@ -1,13 +1,195 @@
 {
- "updated": "2026-11-27T02:00:36+00:00",
+ "updated": "2026-11-27T02:05:37+00:00",
  "counts": {
   "year": 374856,
   "upstream_day": 0,
-  "day": 944,
+  "day": 956,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9832163",
+   "sequence": "2026-11-37615",
+   "type": "MVC Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T02:04:07Z",
+   "created": "2026-11-27T02:04:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "121 HARRISON LN",
+   "cross": "DAYTON PIKE/RECO DR",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.237133,
+   "lon": -85.198302,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832166",
+   "sequence": "2026-11-37618",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:04:07Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "121 HARRISON LN",
+   "cross": "DAYTON PIKE/RECO DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.237133,
+   "lon": -85.198302,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832165",
+   "sequence": "2026-11-37617",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:04:07Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "121 HARRISON LN",
+   "cross": "DAYTON PIKE/RECO DR",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.237133,
+   "lon": -85.198302,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832161",
+   "sequence": "2026-11-37613",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:02:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7015 SHALLOWFORD RD",
+   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 A",
+   "priority": "PRI 1",
+   "lat": 35.044177,
+   "lon": -85.158575,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832160",
+   "sequence": "2026-11-37612",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:02:31Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7015 SHALLOWFORD RD",
+   "cross": "CENTER ST/SHALLOWFORD VILLAGE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.044177,
+   "lon": -85.158575,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832159",
+   "sequence": "2026-11-37611",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:01:25Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "121 HARRISON LN",
+   "cross": "DAYTON PIKE/RECO DR",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 1",
+   "lat": 35.237133,
+   "lon": -85.198302,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832158",
+   "sequence": "2026-11-37610",
+   "type": "Civil Matter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:00:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5722 CARMACK RD",
+   "cross": "GARRETT DR/NORTHWOODS DR",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 4",
+   "lat": 35.152116,
+   "lon": -85.251023,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832153",
    "sequence": "2026-11-37605",
@@ -38,8 +220,8 @@
    "id": "9832154",
    "sequence": "2026-11-37606",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:05:35Z",
    "created": "2026-11-27T01:56:42Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -87,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9832147",
-   "sequence": "2026-11-37603",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:56:13Z",
-   "created": "2026-11-27T01:56:03Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7710 E BRAINERD RD",
-   "cross": "RESERVE WAY/JENKINS RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.00771,
-   "lon": -85.15735,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832144",
    "sequence": "2026-11-37600",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:03:40Z",
    "created": "2026-11-27T01:49:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9832127",
-   "sequence": "2026-11-37587",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T01:30:52Z",
-   "created": "2026-11-27T01:30:52Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "519 LATIMORE ST",
-   "cross": "No Cross Street/FISHER AVE",
-   "city": "CHATTANOOGA",
-   "zone": "503",
-   "priority": "PRI 1",
-   "lat": 35.038362,
-   "lon": -85.256177,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832122",
    "sequence": "2026-11-37588",
    "type": "Missing Endangered",
@@ -298,8 +428,8 @@
    "id": "9832124",
    "sequence": "2026-11-37585",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-27T01:56:23Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-27T02:05:05Z",
    "created": "2026-11-27T01:29:29Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -472,6 +602,32 @@
    "priority": "PRI 1",
    "lat": 35.268614,
    "lon": -85.132362,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832067",
+   "sequence": "2026-11-37543",
+   "type": "Well Being Check",
+   "status": "On Scene",
+   "status_at": "2026-11-27T00:54:26Z",
+   "created": "2026-11-27T00:41:37Z",
+   "jurisdiction": "Red Bank PD",
+   "agencies": [
+    "Red Bank PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3214 JOSELIN LN",
+   "cross": "TIKTIN DR/No Cross Street",
+   "city": "RED BANK",
+   "zone": "RED BANK 1",
+   "priority": "PRI 3",
+   "lat": 35.105552,
+   "lon": -85.292115,
    "units": 1,
    "stacked": false,
    "notable": false
