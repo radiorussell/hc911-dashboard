@@ -1,35 +1,113 @@
 {
- "updated": "2026-11-27T18:20:37+00:00",
+ "updated": "2026-11-27T18:25:37+00:00",
  "counts": {
   "year": 375272,
   "upstream_day": 332,
-  "day": 482,
+  "day": 487,
   "day_basis": "midnight"
  },
- "raw_rows": 31,
+ "raw_rows": 34,
  "incidents": [
   {
-   "id": "9832984",
-   "sequence": "2026-11-38197",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-27T18:20:02Z",
-   "created": "2026-11-27T18:19:35Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9832990",
+   "sequence": "2026-11-38202",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:22:47Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "35°02'11.06\"N / 085°16'33.80\"W",
-   "cross": "",
+   "address": "1700 - 1799 MCCALLIE AVE",
+   "cross": "N HICKORY ST/S HAWTHORNE ST",
    "city": "CHATTANOOGA",
-   "zone": "B5",
+   "zone": "501",
    "priority": "PRI 1",
-   "lat": 35.036406,
-   "lon": -85.276054,
+   "lat": 35.03693,
+   "lon": -85.277468,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832989",
+   "sequence": "2026-11-38201",
+   "type": "MVC Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:22:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1700 - 1799 MCCALLIE AVE",
+   "cross": "N HICKORY ST/S HAWTHORNE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.03693,
+   "lon": -85.277468,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832988",
+   "sequence": "2026-11-38199",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:21:40Z",
+   "jurisdiction": "Sale Creek VFD",
+   "agencies": [
+    "Sale Creek VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "12642 EMERALD CREEK CIR",
+   "cross": "LEE PIKE/LEE PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "SALE CREEK FD",
+   "priority": "PRI 1",
+   "lat": 35.311983,
+   "lon": -85.112166,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832986",
+   "sequence": "2026-11-38198",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T18:21:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "12642 EMERALD CREEK CIR",
+   "cross": "LEE PIKE/LEE PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 02 HC A",
+   "priority": "PRI 1",
+   "lat": 35.311983,
+   "lon": -85.112166,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -37,9 +115,9 @@
   {
    "id": "9832983",
    "sequence": "2026-11-38195",
-   "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "type": "MVC Injuries",
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:21:33Z",
    "created": "2026-11-27T18:18:33Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -58,7 +136,7 @@
    "lon": -85.277468,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9832981",
@@ -90,8 +168,8 @@
    "id": "9832982",
    "sequence": "2026-11-38194",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:24:41Z",
    "created": "2026-11-27T18:18:05Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -194,8 +272,8 @@
    "id": "9832974",
    "sequence": "2026-11-38188",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:22:01Z",
    "created": "2026-11-27T18:14:15Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9832971",
    "sequence": "2026-11-38186",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T18:24:19Z",
    "created": "2026-11-27T18:13:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
