@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T02:30:36+00:00",
+ "updated": "2026-11-27T02:35:36+00:00",
  "counts": {
   "year": 374878,
   "upstream_day": 0,
-  "day": 964,
+  "day": 971,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9832183",
+   "sequence": "2026-11-37632",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T02:31:47Z",
+   "created": "2026-11-27T02:31:47Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832184",
+   "sequence": "2026-11-37633",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T02:31:47Z",
+   "created": "2026-11-27T02:31:47Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832182",
+   "sequence": "2026-11-37631",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T02:30:30Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "999 CHARLOTTE AVE",
+   "cross": "DAVIDSON RD/DUDLEY RD",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.002071,
+   "lon": -85.155804,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832177",
    "sequence": "2026-11-37626",
@@ -30,32 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.007973,
    "lon": -85.315456,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832176",
-   "sequence": "2026-11-37624",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T02:17:12Z",
-   "created": "2026-11-27T02:17:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1512 S HOLTZCLAW AVE",
-   "cross": "E MAIN ST/E 17TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "504",
-   "priority": "PRI 2",
-   "lat": 35.02808,
-   "lon": -85.288364,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +142,8 @@
    "id": "9832174",
    "sequence": "2026-11-37625",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T02:34:51Z",
    "created": "2026-11-27T02:16:04Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -212,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.123898,
    "lon": -85.364769,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9832144",
-   "sequence": "2026-11-37600",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T02:03:40Z",
-   "created": "2026-11-27T01:49:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "S ACCESS RD / AMNICOLA HWY",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.089081,
-   "lon": -85.219825,
    "units": 1,
    "stacked": false,
    "notable": false
