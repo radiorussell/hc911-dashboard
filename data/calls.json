@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-27T03:25:38+00:00",
+ "updated": "2026-11-27T03:30:36+00:00",
  "counts": {
-  "year": 374895,
+  "year": 374900,
   "upstream_day": 0,
-  "day": 1004,
+  "day": 1011,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9832234",
+   "sequence": "2026-11-37671",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:28:20Z",
+   "created": "2026-11-27T03:28:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1148 MOUNTAIN CREEK RD",
+   "cross": "WELLSTONE DR/SOUTHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.115468,
+   "lon": -85.31894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832235",
+   "sequence": "2026-11-37672",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T03:28:20Z",
+   "created": "2026-11-27T03:28:20Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1148 MOUNTAIN CREEK RD",
+   "cross": "WELLSTONE DR/SOUTHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "1702",
+   "priority": "PRI 2",
+   "lat": 35.115468,
+   "lon": -85.31894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832233",
+   "sequence": "2026-11-37669",
+   "type": "Odor Investigate",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:28:18Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "903 HUNTINGTON CIR",
+   "cross": "GANN RD/HUNTINGTON FOREST DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 B",
+   "priority": "PRI 3",
+   "lat": 35.187254,
+   "lon": -85.200217,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832232",
+   "sequence": "2026-11-37667",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:28:08Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5310 CLEMONS RD",
+   "cross": "MCBRIEN RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 34.992245,
+   "lon": -85.235222,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832230",
+   "sequence": "2026-11-37668",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:27:48Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "903 HUNTINGTON CIR",
+   "cross": "GANN RD/HUNTINGTON FOREST DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.187254,
+   "lon": -85.200217,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832231",
+   "sequence": "2026-11-37670",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T03:27:35Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1148 MOUNTAIN CREEK RD",
+   "cross": "WELLSTONE DR/SOUTHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.115468,
+   "lon": -85.31894,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832227",
    "sequence": "2026-11-37665",
@@ -38,8 +194,8 @@
    "id": "9832228",
    "sequence": "2026-11-37666",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:25:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T03:25:07Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +220,8 @@
    "id": "9832226",
    "sequence": "2026-11-37664",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:25:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T03:24:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +246,8 @@
    "id": "9832225",
    "sequence": "2026-11-37661",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T03:26:42Z",
    "created": "2026-11-27T03:24:16Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +272,8 @@
    "id": "9832224",
    "sequence": "2026-11-37660",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-27T03:24:15Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T03:24:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -165,12 +321,12 @@
    "notable": false
   },
   {
-   "id": "9832221",
-   "sequence": "2026-11-37662",
-   "type": "Well Being Check",
+   "id": "9832217",
+   "sequence": "2026-11-37673",
+   "type": "Abandoned Auto",
    "status": "Queued",
-   "status_at": "2026-11-27T03:24:45Z",
-   "created": "2026-11-27T03:23:22Z",
+   "status_at": "2026-11-27T03:28:48Z",
+   "created": "2026-11-27T03:19:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -179,13 +335,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "BARTON AVE / FRAZIER AT BARTON AVE WB ON RAMP",
-   "cross": "",
+   "address": "3927 WEBB RD",
+   "cross": "HAL DR/OAKWOOD DR",
    "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.062092,
-   "lon": -85.300086,
+   "zone": "C5",
+   "priority": "PRI 4",
+   "lat": 35.089365,
+   "lon": -85.191853,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -217,32 +373,6 @@
    "notable": true
   },
   {
-   "id": "9832210",
-   "sequence": "2026-11-37655",
-   "type": "Smoke Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-27T03:25:25Z",
-   "created": "2026-11-27T03:16:11Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1117 E 3RD ST",
-   "cross": "CENTRAL AVE/O NEAL ST",
-   "city": "CHATTANOOGA",
-   "zone": "204",
-   "priority": "PRI 1",
-   "lat": 35.046753,
-   "lon": -85.286955,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832206",
    "sequence": "2026-11-37650",
    "type": "Fire Assist Citizen",
@@ -267,32 +397,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9832204",
-   "sequence": "2026-11-37647",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-27T03:04:45Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7624 OOLTEWAH GEORGETOWN RD",
-   "cross": "PROVIDENCE RD/FRONT GATE CIR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.135166,
-   "lon": -85.04274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832201",
