@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-27T20:35:35+00:00",
+ "updated": "2026-11-27T20:40:36+00:00",
  "counts": {
-  "year": 375399,
-  "upstream_day": 459,
-  "day": 637,
+  "year": 375406,
+  "upstream_day": 466,
+  "day": 638,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9833209",
+   "sequence": "2026-11-38353",
+   "type": "Auto Broken Down",
+   "status": "Enroute",
+   "status_at": "2026-11-27T20:39:40Z",
+   "created": "2026-11-27T20:39:40Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "300 SEQUOYAH RD",
+   "cross": "VINE ST/MILLER RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 4",
+   "lat": 35.246382,
+   "lon": -85.178096,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833205",
    "sequence": "2026-11-38352",
@@ -38,8 +64,8 @@
    "id": "9833200",
    "sequence": "2026-11-38348",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:32:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:31:31Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9833198",
    "sequence": "2026-11-38346",
    "type": "Assault PD Only",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:40:16Z",
    "created": "2026-11-27T20:30:14Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9833190",
    "sequence": "2026-11-38340",
    "type": "MVC Delayed",
-   "status": "Stacked",
-   "status_at": "2026-11-27T20:25:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T20:25:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.121107,
    "lon": -85.231701,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9833187",
-   "sequence": "2026-11-38339",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:27:56Z",
-   "created": "2026-11-27T20:24:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6448 HIXSON PIKE",
-   "cross": "DESTINY DR/GOLD CREST DR",
-   "city": "CHATTANOOGA",
-   "zone": "1102",
-   "priority": "PRI 1",
-   "lat": 35.157953,
-   "lon": -85.194188,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -246,8 +246,8 @@
    "id": "9833171",
    "sequence": "2026-11-38324",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:36:50Z",
    "created": "2026-11-27T20:04:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -264,32 +264,6 @@
    "priority": "PRI 4",
    "lat": 34.996444,
    "lon": -85.309655,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833168",
-   "sequence": "2026-11-38321",
-   "type": "Carbon Monoxide Alarm",
-   "status": "On Scene",
-   "status_at": "2026-11-27T20:19:07Z",
-   "created": "2026-11-27T20:02:37Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1705 BUTTONWOOD LOOP",
-   "cross": "E BRAINERD RD/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3-CATOOSA B",
-   "priority": "PRI 1",
-   "lat": 34.998425,
-   "lon": -85.098658,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -376,8 +350,8 @@
    "id": "9833113",
    "sequence": "2026-11-38297",
    "type": "Civil Matter",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T20:39:52Z",
    "created": "2026-11-27T19:37:21Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -558,8 +532,8 @@
    "id": "9832507",
    "sequence": "2026-11-37874",
    "type": "Supplemental Reports",
-   "status": "Stacked",
-   "status_at": "2026-11-27T16:15:10Z",
+   "status": "Enroute",
+   "status_at": "2026-11-27T18:29:50Z",
    "created": "2026-11-27T12:09:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -577,7 +551,7 @@
    "lat": 35.09888,
    "lon": -85.286696,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
