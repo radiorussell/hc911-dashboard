@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-27T12:10:38+00:00",
+ "updated": "2026-11-27T12:15:38+00:00",
  "counts": {
   "year": 375052,
   "upstream_day": 112,
-  "day": 151,
+  "day": 159,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9832509",
+   "sequence": "2026-11-37872",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:11:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2020 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.030081,
+   "lon": -85.153146,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832508",
+   "sequence": "2026-11-37873",
+   "type": "Assault PD Only",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T12:11:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2000 - 2122 GUNBARREL RD",
+   "cross": "GOODWIN RD/LANDRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.03248,
+   "lon": -85.1542,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9832507",
+   "sequence": "2026-11-37874",
+   "type": "Supplemental Reports",
+   "status": "Queued",
+   "status_at": "2026-11-27T12:14:24Z",
+   "created": "2026-11-27T12:09:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2914 HAYWOOD AVE",
+   "cross": "ALEXANDER DR/OZARK CIR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.09888,
+   "lon": -85.286696,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832494",
    "sequence": "2026-11-37866",
