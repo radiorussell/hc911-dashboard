@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-27T15:25:37+00:00",
+ "updated": "2026-11-27T15:30:45+00:00",
  "counts": {
-  "year": 375137,
-  "upstream_day": 197,
-  "day": 297,
+  "year": 375141,
+  "upstream_day": 201,
+  "day": 301,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9832719",
+   "sequence": "2026-11-38016",
+   "type": "Aggressive Animal",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:29:54Z",
+   "created": "2026-11-27T15:28:19Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6379 STONEY RIVER DR",
+   "cross": "SILK RD/BIRCHWOOD PIKE",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 6",
+   "priority": "PRI 2",
+   "lat": 35.228859,
+   "lon": -85.066827,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832717",
+   "sequence": "2026-11-38015",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:27:07Z",
+   "created": "2026-11-27T15:26:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "312 BROWNS FERRY RD",
+   "cross": "PATTEN CHAPEL RD/ADKINS RD",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.029618,
+   "lon": -85.361269,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832718",
+   "sequence": "2026-11-38014",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-27T15:26:10Z",
+   "created": "2026-11-27T15:26:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1 E 11TH ST",
+   "cross": "GEORGIA AVE/COLUMBIA ST",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 2",
+   "lat": 35.044042,
+   "lon": -85.308682,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9832716",
+   "sequence": "2026-11-38013",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T15:25:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1 E 11TH ST",
+   "cross": "GEORGIA AVE/COLUMBIA ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.044042,
+   "lon": -85.308682,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9832715",
    "sequence": "2026-11-38012",
    "type": "Interpreter Call",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:23:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T15:22:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9832714",
    "sequence": "2026-11-38011",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:30:34Z",
    "created": "2026-11-27T15:21:06Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -61,37 +165,11 @@
    "notable": true
   },
   {
-   "id": "9832706",
-   "sequence": "2026-11-38009",
-   "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:19:37Z",
-   "created": "2026-11-27T15:18:31Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11304 1ST ST",
-   "cross": "BILL JONES RD/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 B",
-   "priority": "PRI 4",
-   "lat": 35.022302,
-   "lon": -85.024623,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9832705",
    "sequence": "2026-11-38008",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:26:22Z",
    "created": "2026-11-27T15:17:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -169,7 +247,7 @@
    "sequence": "2026-11-38002",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-27T15:28:30Z",
    "created": "2026-11-27T15:07:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +298,8 @@
    "id": "9832690",
    "sequence": "2026-11-38001",
    "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-27T15:30:23Z",
    "created": "2026-11-27T15:04:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
