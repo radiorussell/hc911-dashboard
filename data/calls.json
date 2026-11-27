@@ -1,45 +1,97 @@
 {
- "updated": "2026-11-27T20:30:36+00:00",
+ "updated": "2026-11-27T20:35:35+00:00",
  "counts": {
   "year": 375399,
   "upstream_day": 459,
-  "day": 630,
+  "day": 637,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9833194",
-   "sequence": "2026-11-38345",
-   "type": "Alarm Distress",
+   "id": "9833205",
+   "sequence": "2026-11-38352",
+   "type": "AFA Commercial",
    "status": "Enroute",
    "status_at": null,
-   "created": "2026-11-27T20:29:28Z",
-   "jurisdiction": "Hamilton Co SO",
+   "created": "2026-11-27T20:34:52Z",
+   "jurisdiction": "Highway 58 VFD",
    "agencies": [
-    "Hamilton Co SO"
+    "Highway 58 VFD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "11812 BURCHARD RD",
-   "cross": "No Cross Street/HIGHGATE PT",
+   "address": "7406 CLAUDES CREEK DR",
+   "cross": "INSPIRATION DR/RAMBLING ROSE DR",
    "city": "HAMILTON COUNTY",
-   "zone": "WEST 8",
-   "priority": "PRI 2",
-   "lat": 35.306376,
-   "lon": -85.179468,
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.136659,
+   "lon": -85.064383,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9833191",
-   "sequence": "2026-11-38342",
-   "type": "Theft",
+   "id": "9833200",
+   "sequence": "2026-11-38348",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-27T20:32:17Z",
+   "created": "2026-11-27T20:31:31Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1618 GLOWMONT DR",
+   "cross": "ST JAMES AVE/STATE LINE RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.986599,
+   "lon": -85.218271,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833198",
+   "sequence": "2026-11-38346",
+   "type": "Assault PD Only",
    "status": "Enroute",
    "status_at": null,
+   "created": "2026-11-27T20:30:14Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5764 HIGHWAY 153",
+   "cross": "CARMACK RD/GWYN RD",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.152975,
+   "lon": -85.24562,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833191",
+   "sequence": "2026-11-38342",
+   "type": "Property",
+   "status": "Stacked",
+   "status_at": "2026-11-27T20:27:24Z",
    "created": "2026-11-27T20:27:24Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -57,15 +109,15 @@
    "lat": 35.088948,
    "lon": -85.185073,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9833190",
    "sequence": "2026-11-38340",
    "type": "MVC Delayed",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-27T20:25:41Z",
    "created": "2026-11-27T20:25:41Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -83,33 +135,7 @@
    "lat": 35.121107,
    "lon": -85.231701,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833188",
-   "sequence": "2026-11-38341",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-27T20:25:43Z",
-   "created": "2026-11-27T20:25:38Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5911 SNOW HILL RD",
-   "cross": "MOUNTAIN VIEW RD/MITCHELL MILL RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 3",
-   "lat": 35.09006,
-   "lon": -85.066629,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -449,58 +475,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833069",
-   "sequence": "2026-11-38264",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-27T19:14:55Z",
-   "created": "2026-11-27T19:06:05Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17720 INTERSTATE 24 EB",
-   "cross": "EXIT 175 ON RAMP EB/EXIT 178A OFF RAMP EB",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.019323,
-   "lon": -85.33522,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833034",
-   "sequence": "2026-11-38238",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": "2026-11-27T20:28:32Z",
-   "created": "2026-11-27T18:48:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "727 E 11TH ST",
-   "cross": "BALDWIN ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.040477,
-   "lon": -85.299892,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832957",
