@@ -1,45 +1,19 @@
 {
- "updated": "2026-11-28T02:40:38+00:00",
+ "updated": "2026-11-28T02:45:39+00:00",
  "counts": {
   "year": 375701,
   "upstream_day": 0,
-  "day": 1045,
+  "day": 1044,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 16,
  "incidents": [
-  {
-   "id": "9833721",
-   "sequence": "2026-11-38760",
-   "type": "MVC Unknown Injuries",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:38:30Z",
-   "created": "2026-11-28T02:38:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "TREMONT ST / MISSISSIPPI AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 1",
-   "lat": 35.070735,
-   "lon": -85.295828,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9833720",
    "sequence": "2026-11-38759",
    "type": "Alarm Distress",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T02:44:46Z",
    "created": "2026-11-28T02:37:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -87,32 +61,6 @@
    "notable": true
   },
   {
-   "id": "9833715",
-   "sequence": "2026-11-38756",
-   "type": "Shooting/Person Shot",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T02:34:12Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "W 4TH ST / BROAD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.052288,
-   "lon": -85.310659,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833713",
    "sequence": "2026-11-38754",
    "type": "Shooting/Person Shot",
@@ -142,8 +90,8 @@
    "id": "9833710",
    "sequence": "2026-11-38751",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:42:26Z",
    "created": "2026-11-28T02:31:50Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +168,8 @@
    "id": "9833707",
    "sequence": "2026-11-38753",
    "type": "Auto Theft",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:34:09Z",
+   "status": "Enroute",
+   "status_at": "2026-11-28T02:42:53Z",
    "created": "2026-11-28T02:29:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +186,6 @@
    "priority": "PRI 4",
    "lat": 35.032135,
    "lon": -85.156746,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833706",
-   "sequence": "2026-11-38746",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T02:29:22Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5588 LITTLE DEBBIE PKWY",
-   "cross": "JAC CATE RD/OLD LEE HWY",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 4",
-   "lat": 35.08082,
-   "lon": -85.06329,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +212,6 @@
    "priority": "PRI 1",
    "lat": 35.023049,
    "lon": -85.142679,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833690",
-   "sequence": "2026-11-38735",
-   "type": "Domestic Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:31:09Z",
-   "created": "2026-11-28T02:20:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4905 CENTRAL AVE",
-   "cross": "W 47TH ST/HAWKINS OAK  LN",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 2",
-   "lat": 34.994277,
-   "lon": -85.317044,
    "units": 1,
    "stacked": false,
    "notable": false
