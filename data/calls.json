@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T08:45:38+00:00",
+ "updated": "2026-11-28T08:50:36+00:00",
  "counts": {
-  "year": 375903,
-  "upstream_day": 84,
-  "day": 147,
+  "year": 375911,
+  "upstream_day": 92,
+  "day": 148,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9834080",
+   "sequence": "2026-11-39033",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-28T08:46:38Z",
+   "created": "2026-11-28T08:46:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2119 DELANO DR",
+   "cross": "ELENA DR/QUEENS DR",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 0",
+   "lat": 35.067317,
+   "lon": -85.267169,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834079",
    "sequence": "2026-11-39032",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:44:41Z",
+   "type": "Harassment",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:44:20Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -27,35 +53,9 @@
    "cross": "MCAFEE RD/DAVENPORT RD",
    "city": "SODDY DAISY",
    "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
+   "priority": "PRI 4",
    "lat": 35.275728,
    "lon": -85.172436,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834072",
-   "sequence": "2026-11-39029",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:38:59Z",
-   "created": "2026-11-28T08:37:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10 - 19 EXIT W M L KING BLVD E ON RAMP SB",
-   "cross": "EXIT W 12TH ST ON RAMP SB/HIGHWAY 27 SB",
-   "city": "CHATTANOOGA",
-   "zone": "A6",
-   "priority": "PRI 3",
-   "lat": 35.04545,
-   "lon": -85.315071,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -82,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.021851,
    "lon": -85.194085,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834060",
-   "sequence": "2026-11-39019",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T08:36:17Z",
-   "created": "2026-11-28T08:30:23Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "10750 - 10799 LOOP RD",
-   "cross": "SHERI PLACE LN/WARD RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.26825,
-   "lon": -85.171695,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +116,8 @@
    "id": "9834058",
    "sequence": "2026-11-39017",
    "type": "Shots Fired",
-   "status": "Stacked",
-   "status_at": "2026-11-28T08:29:11Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:28:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -161,7 +135,7 @@
    "lat": 35.072655,
    "lon": -85.24804,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": true
   },
   {
