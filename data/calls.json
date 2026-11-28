@@ -1,18 +1,122 @@
 {
- "updated": "2026-11-28T02:20:43+00:00",
+ "updated": "2026-11-28T02:25:38+00:00",
  "counts": {
   "year": 375684,
   "upstream_day": 0,
-  "day": 1016,
+  "day": 1026,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9833698",
+   "sequence": "2026-11-38741",
+   "type": "Auto Broken Down",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:24:42Z",
+   "created": "2026-11-28T02:24:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3326 JENKINS RD",
+   "cross": "STANDIFER GAP RD/XPRESS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 4",
+   "lat": 35.048162,
+   "lon": -85.128511,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833695",
+   "sequence": "2026-11-38738",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:22:26Z",
+   "created": "2026-11-28T02:22:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1523 JENKINS RD",
+   "cross": "GRAY RD/HITCHCOCK RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 3",
+   "lat": 35.011368,
+   "lon": -85.147036,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833692",
+   "sequence": "2026-11-38734",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:21:14Z",
+   "created": "2026-11-28T02:20:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6274 ARTESIAN CIR",
+   "cross": "WEIR WAY/LEE HWY",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.086903,
+   "lon": -85.063064,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833690",
+   "sequence": "2026-11-38735",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:20:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4905 CENTRAL AVE",
+   "cross": "W 47TH ST/HAWKINS OAK  LN",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 2",
+   "lat": 34.994277,
+   "lon": -85.317044,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833687",
    "sequence": "2026-11-38731",
    "type": "Property",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-28T02:19:12Z",
    "created": "2026-11-28T02:19:12Z",
    "jurisdiction": "Chattanooga PD",
@@ -31,7 +135,7 @@
    "lat": 35.010207,
    "lon": -85.22193,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -90,8 +194,8 @@
    "id": "9833683",
    "sequence": "2026-11-38727",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:18:52Z",
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:24:32Z",
    "created": "2026-11-28T02:18:52Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -241,84 +345,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833656",
-   "sequence": "2026-11-38707",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:18:25Z",
-   "created": "2026-11-28T01:49:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2108 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.037677,
-   "lon": -85.159531,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833653",
-   "sequence": "2026-11-38705",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:47:10Z",
-   "created": "2026-11-28T01:47:10Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "320 WEATHERSBY RD",
-   "cross": "SEQUOYAH RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.238274,
-   "lon": -85.179468,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833654",
-   "sequence": "2026-11-38706",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:47:10Z",
-   "created": "2026-11-28T01:47:10Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "320 WEATHERSBY RD",
-   "cross": "SEQUOYAH RD/No Cross Street",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.238274,
-   "lon": -85.179468,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833652",
