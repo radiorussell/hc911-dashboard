@@ -1,35 +1,61 @@
 {
- "updated": "2026-11-28T09:55:38+00:00",
+ "updated": "2026-11-28T10:00:38+00:00",
  "counts": {
   "year": 375934,
   "upstream_day": 115,
-  "day": 172,
+  "day": 177,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9834110",
-   "sequence": "2026-11-39057",
-   "type": "Noise Complaint",
+   "id": "9834120",
+   "sequence": "2026-11-39062",
+   "type": "Odor Investigate",
    "status": "Queued",
-   "status_at": "2026-11-28T09:36:51Z",
-   "created": "2026-11-28T09:36:08Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-28T09:57:25Z",
+   "created": "2026-11-28T09:57:25Z",
+   "jurisdiction": "Signal Mountain PD",
    "agencies": [
-    "Chattanooga PD"
+    "Signal Mountain PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "510 CENTRAL DR",
-   "cross": "WHIRLAWAY DR/CHARLES DR",
-   "city": "CHATTANOOGA",
-   "zone": "C4",
+   "address": "1116 CROWN POINT RD W",
+   "cross": "HATHAWAY DR/INVERNESS DR",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 1",
    "priority": "PRI 3",
-   "lat": 35.021851,
-   "lon": -85.194085,
+   "lat": 35.141457,
+   "lon": -85.336168,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834119",
+   "sequence": "2026-11-39061",
+   "type": "Odor Investigation",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T09:57:03Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1116 CROWN POINT RD W",
+   "cross": "HATHAWAY DR/INVERNESS DR",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 2",
+   "lat": 35.141457,
+   "lon": -85.336168,
    "units": 1,
    "stacked": false,
    "notable": false
