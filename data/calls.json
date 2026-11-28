@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T11:00:42+00:00",
+ "updated": "2026-11-28T11:05:37+00:00",
  "counts": {
   "year": 375952,
   "upstream_day": 133,
   "day": 206,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9834161",
    "sequence": "2026-11-39091",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-28T10:58:24Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T10:57:01Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -30,32 +30,6 @@
    "priority": "PRI 3",
    "lat": 35.216658,
    "lon": -85.175683,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9834156",
-   "sequence": "2026-11-39087",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T10:53:42Z",
-   "created": "2026-11-28T10:40:48Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8112 ROY LN",
-   "cross": "SNOW HILL RD/PROVIDENCE RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 3",
-   "lat": 35.145062,
-   "lon": -85.061294,
    "units": 1,
    "stacked": false,
    "notable": true
