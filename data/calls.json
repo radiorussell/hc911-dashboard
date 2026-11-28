@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T12:50:38+00:00",
+ "updated": "2026-11-28T12:55:40+00:00",
  "counts": {
   "year": 375981,
   "upstream_day": 162,
-  "day": 255,
+  "day": 258,
   "day_basis": "midnight"
  },
- "raw_rows": 5,
+ "raw_rows": 7,
  "incidents": [
+  {
+   "id": "9834229",
+   "sequence": "2026-11-39142",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T12:52:39Z",
+   "created": "2026-11-28T12:52:39Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834230",
+   "sequence": "2026-11-39143",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T12:52:39Z",
+   "created": "2026-11-28T12:52:39Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834228",
+   "sequence": "2026-11-39141",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T12:51:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7620 SHALLOWFORD RD",
+   "cross": "ASHFORD DR/BASKETTE WAY",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.03625,
+   "lon": -85.140302,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834227",
    "sequence": "2026-11-39140",
@@ -85,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9834050",
-   "sequence": "2026-11-39013",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T08:18:49Z",
-   "created": "2026-11-28T08:16:00Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1103 ASHMORE AVE",
-   "cross": "DAYTON BLVD/COKER CIR",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.076702,
-   "lon": -85.318895,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832688",
