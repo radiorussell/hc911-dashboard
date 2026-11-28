@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-28T15:45:37+00:00",
+ "updated": "2026-11-28T15:50:39+00:00",
  "counts": {
-  "year": 376075,
-  "upstream_day": 256,
-  "day": 386,
+  "year": 376083,
+  "upstream_day": 264,
+  "day": 393,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9834405",
+   "sequence": "2026-11-39278",
+   "type": "Deceptive Practice",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:50:35Z",
+   "created": "2026-11-28T15:50:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7301 E BRAINERD RD",
+   "cross": "KENMOOR DR/GUNBARREL RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.016662,
+   "lon": -85.164436,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834401",
+   "sequence": "2026-11-39277",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:49:56Z",
+   "created": "2026-11-28T15:48:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1243 E 35TH ST",
+   "cross": "BRANNON AVE/JEROME AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B7A",
+   "priority": "PRI 4",
+   "lat": 35.00424,
+   "lon": -85.297386,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834399",
+   "sequence": "2026-11-39275",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:47:26Z",
+   "created": "2026-11-28T15:47:26Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "804 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "401",
+   "priority": "PRI 2",
+   "lat": 35.049199,
+   "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834398",
+   "sequence": "2026-11-39274",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:46:46Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "804 N HOLTZCLAW AVE",
+   "cross": "CITICO AVE/WILSON ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.049199,
+   "lon": -85.275837,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834391",
+   "sequence": "2026-11-39273",
+   "type": "Not Endangered",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:46:17Z",
+   "created": "2026-11-28T15:46:09Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2321 HOLLY ST",
+   "cross": "LAUREL ST/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 2 A",
+   "priority": "PRI 2",
+   "lat": 35.193986,
+   "lon": -85.324837,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834395",
    "sequence": "2026-11-39271",
@@ -38,8 +168,8 @@
    "id": "9834393",
    "sequence": "2026-11-39270",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:45:34Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T15:44:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -157,32 +287,6 @@
    "cross": "KELLYS FERRY RD/CENTERVIEW LN",
    "city": "CHATTANOOGA",
    "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.025804,
-   "lon": -85.37501,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834381",
-   "sequence": "2026-11-39262",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:37:49Z",
-   "created": "2026-11-28T15:33:02Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "110 ISBILL RD",
-   "cross": "KELLYS FERRY RD/CENTERVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "301",
    "priority": "PRI 3",
    "lat": 35.025804,
    "lon": -85.37501,
@@ -325,7 +429,7 @@
    "sequence": "2026-11-39253",
    "type": "Theft From a Vehicle",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T15:46:58Z",
    "created": "2026-11-28T15:25:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -428,8 +532,8 @@
    "id": "9834359",
    "sequence": "2026-11-39243",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T15:39:36Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T15:46:24Z",
    "created": "2026-11-28T15:17:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -480,8 +584,8 @@
    "id": "9834352",
    "sequence": "2026-11-39238",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:24:57Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T15:46:38Z",
    "created": "2026-11-28T15:14:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +636,8 @@
    "id": "9834344",
    "sequence": "2026-11-39231",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T15:37:25Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T15:47:39Z",
    "created": "2026-11-28T15:00:44Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -602,32 +706,6 @@
    "priority": "PRI 4",
    "lat": 35.072182,
    "lon": -85.250377,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834326",
-   "sequence": "2026-11-39219",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T15:18:34Z",
-   "created": "2026-11-28T14:47:55Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "950 SISKIN DR",
-   "cross": "E 4TH ST/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 14 CH",
-   "priority": "PRI 1",
-   "lat": 35.050662,
-   "lon": -85.291613,
    "units": 1,
    "stacked": false,
    "notable": false
