@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-28T07:45:36+00:00",
+ "updated": "2026-11-28T07:50:36+00:00",
  "counts": {
-  "year": 375887,
-  "upstream_day": 68,
-  "day": 109,
+  "year": 375891,
+  "upstream_day": 72,
+  "day": 116,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9834033",
+   "sequence": "2026-11-39001",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T07:47:42Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11112 BLAIR RD",
+   "cross": "BEASON BROOK TRL/WHISPER POND LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 3 B",
+   "priority": "PRI 2",
+   "lat": 35.040368,
+   "lon": -85.011138,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834031",
+   "sequence": "2026-11-39000",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T07:46:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1001 BROAD ST",
+   "cross": "W 10TH ST/W 11TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 3",
+   "lat": 35.04436,
+   "lon": -85.310763,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834026",
    "sequence": "2026-11-38994",
@@ -137,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833710",
-   "sequence": "2026-11-38751",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:42:26Z",
-   "created": "2026-11-28T02:31:50Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "601 - 609 TREMONT ST",
-   "cross": "ORR ST/TREMONT PL",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 3",
-   "lat": 35.067155,
-   "lon": -85.298771,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9832688",
