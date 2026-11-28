@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T10:05:37+00:00",
+ "updated": "2026-11-28T10:10:38+00:00",
  "counts": {
-  "year": 375934,
-  "upstream_day": 115,
+  "year": 375939,
+  "upstream_day": 120,
   "day": 187,
   "day_basis": "midnight"
  },
- "raw_rows": 16,
+ "raw_rows": 14,
  "incidents": [
   {
    "id": "9834132",
@@ -113,37 +113,11 @@
    "notable": false
   },
   {
-   "id": "9834120",
-   "sequence": "2026-11-39062",
-   "type": "Odor Investigate",
-   "status": "Queued",
-   "status_at": "2026-11-28T09:57:25Z",
-   "created": "2026-11-28T09:57:25Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1116 CROWN POINT RD W",
-   "cross": "HATHAWAY DR/INVERNESS DR",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 3",
-   "lat": 35.141457,
-   "lon": -85.336168,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834119",
    "sequence": "2026-11-39061",
    "type": "Odor Investigation",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T10:05:54Z",
    "created": "2026-11-28T09:57:03Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -217,36 +191,10 @@
    "notable": true
   },
   {
-   "id": "9834081",
-   "sequence": "2026-11-39034",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T09:43:29Z",
-   "created": "2026-11-28T08:52:28Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "911 LINDEN HALL RD",
-   "cross": "OAK KNOLL DR/HIXSON PIKE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.102703,
-   "lon": -85.280125,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834058",
    "sequence": "2026-11-39017",
    "type": "Shots Fired",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-28T08:29:11Z",
    "created": "2026-11-28T08:28:58Z",
    "jurisdiction": "Chattanooga PD",
@@ -265,7 +213,7 @@
    "lat": 35.072655,
    "lon": -85.24804,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
   },
   {
