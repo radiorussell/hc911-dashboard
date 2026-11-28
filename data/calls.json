@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-28T08:35:36+00:00",
+ "updated": "2026-11-28T08:40:37+00:00",
  "counts": {
-  "year": 375902,
-  "upstream_day": 83,
-  "day": 139,
+  "year": 375903,
+  "upstream_day": 84,
+  "day": 144,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
   {
-   "id": "9834065",
-   "sequence": "2026-11-39023",
+   "id": "9834074",
+   "sequence": "2026-11-39028",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T08:38:33Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2608 REID DR",
+   "cross": "LYNNETTE CT/KEVIN LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 1",
+   "priority": "PRI 3",
+   "lat": 35.04038,
+   "lon": -85.123115,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834072",
+   "sequence": "2026-11-39029",
    "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-28T08:33:53Z",
-   "created": "2026-11-28T08:33:27Z",
+   "status_at": "2026-11-28T08:38:59Z",
+   "created": "2026-11-28T08:37:09Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "7749 NAUTICAL WAY",
-   "cross": "BASSWOOD DR/HOLIDAY HILLS CIR",
+   "address": "10 - 19 EXIT W M L KING BLVD E ON RAMP SB",
+   "cross": "EXIT W 12TH ST ON RAMP SB/HIGHWAY 27 SB",
    "city": "CHATTANOOGA",
-   "zone": "C5",
+   "zone": "A6",
    "priority": "PRI 3",
-   "lat": 35.080868,
-   "lon": -85.167379,
+   "lat": 35.04545,
+   "lon": -85.315071,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834071",
+   "sequence": "2026-11-39026",
+   "type": "Domestic Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-28T08:37:02Z",
+   "created": "2026-11-28T08:36:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2484 LAURA ST",
+   "cross": "No Cross Street/GLENWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 2",
+   "lat": 35.048759,
+   "lon": -85.257855,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +90,8 @@
    "id": "9834063",
    "sequence": "2026-11-39024",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:34:55Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:33:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +142,8 @@
    "id": "9834060",
    "sequence": "2026-11-39019",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T08:36:17Z",
    "created": "2026-11-28T08:30:23Z",
    "jurisdiction": "Soddy Daisy PD",
    "agencies": [
@@ -117,7 +169,7 @@
    "sequence": "2026-11-39018",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T08:38:23Z",
    "created": "2026-11-28T08:29:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
