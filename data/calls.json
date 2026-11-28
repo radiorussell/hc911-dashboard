@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T09:40:36+00:00",
+ "updated": "2026-11-28T09:45:36+00:00",
  "counts": {
   "year": 375933,
   "upstream_day": 114,
   "day": 172,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9834110",
@@ -38,8 +38,8 @@
    "id": "9834097",
    "sequence": "2026-11-39046",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T09:38:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T09:41:31Z",
    "created": "2026-11-28T09:14:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -56,58 +56,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834096",
-   "sequence": "2026-11-39045",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T09:13:23Z",
-   "created": "2026-11-28T09:13:23Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "227 SCHOOL ST",
-   "cross": "DEPOT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 2",
-   "lat": 35.291494,
-   "lon": -85.159127,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834094",
-   "sequence": "2026-11-39043",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T09:25:05Z",
-   "created": "2026-11-28T09:12:45Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "227 SCHOOL ST",
-   "cross": "DEPOT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 02 SD B",
-   "priority": "PRI 1",
-   "lat": 35.291494,
-   "lon": -85.159127,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +90,8 @@
    "id": "9834081",
    "sequence": "2026-11-39034",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T09:37:42Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T09:43:29Z",
    "created": "2026-11-28T08:52:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
