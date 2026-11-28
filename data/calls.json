@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T00:55:37+00:00",
+ "updated": "2026-11-28T01:00:36+00:00",
  "counts": {
-  "year": 375619,
+  "year": 375630,
   "upstream_day": 0,
   "day": 943,
   "day_basis": "midnight"
  },
- "raw_rows": 38,
+ "raw_rows": 33,
  "incidents": [
   {
    "id": "9833590",
@@ -116,8 +116,8 @@
    "id": "9833586",
    "sequence": "2026-11-38653",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:59:09Z",
    "created": "2026-11-28T00:50:15Z",
    "jurisdiction": "Signal Mountain PD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9833587",
    "sequence": "2026-11-38654",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:58:05Z",
    "created": "2026-11-28T00:50:15Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9833584",
    "sequence": "2026-11-38652",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:00:14Z",
    "created": "2026-11-28T00:49:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +246,8 @@
    "id": "9833579",
    "sequence": "2026-11-38646",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:57:34Z",
    "created": "2026-11-28T00:48:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -264,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.013349,
    "lon": -85.271384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833577",
-   "sequence": "2026-11-38644",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-28T00:48:31Z",
-   "created": "2026-11-28T00:45:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1330 E 3RD ST",
-   "cross": "N HOLTZCLAW AVE/N HIGHLAND PARK AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 3",
-   "lat": 35.043072,
-   "lon": -85.279331,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -321,32 +295,6 @@
    "notable": false
   },
   {
-   "id": "9833575",
-   "sequence": "2026-11-38642",
-   "type": "Private Property Tow",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:44:33Z",
-   "created": "2026-11-28T00:44:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "110 N MARKET ST",
-   "cross": "CHEROKEE BLVD/E KENT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 0",
-   "lat": 35.063253,
-   "lon": -85.3083,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833573",
    "sequence": "2026-11-38643",
    "type": "Animal Call",
@@ -368,32 +316,6 @@
    "priority": "PRI 4",
    "lat": 34.985812,
    "lon": -85.249794,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833571",
-   "sequence": "2026-11-38638",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T00:42:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3825 HIXSON PIKE",
-   "cross": "MAULDETH RD/W FAIRFAX DR",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 4",
-   "lat": 35.1126,
-   "lon": -85.27057,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -607,58 +529,6 @@
    "notable": false
   },
   {
-   "id": "9833539",
-   "sequence": "2026-11-38621",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:25:44Z",
-   "created": "2026-11-28T00:25:44Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "364 NORTHGATE MALL DR",
-   "cross": "EXECUTIVE DR/MEADOW LN",
-   "city": "CHATTANOOGA",
-   "zone": "1901",
-   "priority": "PRI 3",
-   "lat": 35.127445,
-   "lon": -85.237336,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833538",
-   "sequence": "2026-11-38620",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:37:42Z",
-   "created": "2026-11-28T00:25:26Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "364 NORTHGATE MALL DR",
-   "cross": "EXECUTIVE DR/MEADOW LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 04 CH A",
-   "priority": "PRI 2",
-   "lat": 35.127445,
-   "lon": -85.237336,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833534",
    "sequence": "2026-11-38616",
    "type": "EMS CALL",
@@ -766,8 +636,8 @@
    "id": "9833510",
    "sequence": "2026-11-38594",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:59:57Z",
    "created": "2026-11-28T00:04:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
