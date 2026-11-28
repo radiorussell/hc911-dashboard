@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T14:25:37+00:00",
+ "updated": "2026-11-28T14:30:38+00:00",
  "counts": {
-  "year": 376030,
-  "upstream_day": 211,
-  "day": 320,
+  "year": 376032,
+  "upstream_day": 213,
+  "day": 321,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 8,
  "incidents": [
+  {
+   "id": "9834311",
+   "sequence": "2026-11-39206",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T14:29:39Z",
+   "created": "2026-11-28T14:29:10Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "311 CHESTNUT ST",
+   "cross": "W 3RD ST/W 4TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 3",
+   "lat": 35.053189,
+   "lon": -85.312293,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834309",
    "sequence": "2026-11-39204",
    "type": "EMS CALL",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T14:26:07Z",
    "created": "2026-11-28T14:24:08Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9834310",
    "sequence": "2026-11-39205",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T14:29:37Z",
    "created": "2026-11-28T14:24:08Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -87,58 +113,6 @@
    "notable": false
   },
   {
-   "id": "9834304",
-   "sequence": "2026-11-39200",
-   "type": "Supplemental Reports",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T14:20:10Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8737 STREAMSIDE DR",
-   "cross": "TRANQUILITY DR/KAYLA BETH CT",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 8 A",
-   "priority": "PRI 4",
-   "lat": 35.118924,
-   "lon": -85.053741,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834305",
-   "sequence": "2026-11-39199",
-   "type": "Police Assist Citizen",
-   "status": "Stacked",
-   "status_at": "2026-11-28T14:19:58Z",
-   "created": "2026-11-28T14:19:10Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4214 RINGGOLD RD",
-   "cross": "MARLBORO AVE/TOMBRAS AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 3",
-   "lat": 34.996637,
-   "lon": -85.242414,
-   "units": 1,
-   "stacked": true,
-   "notable": false
-  },
-  {
    "id": "9834281",
    "sequence": "2026-11-39187",
    "type": "EMS CALL",
@@ -168,8 +142,8 @@
    "id": "9834274",
    "sequence": "2026-11-39179",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T14:21:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T14:30:24Z",
    "created": "2026-11-28T13:49:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -194,8 +168,8 @@
    "id": "9834252",
    "sequence": "2026-11-39161",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T14:03:55Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T14:26:47Z",
    "created": "2026-11-28T13:30:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +212,6 @@
    "priority": "PRI 3",
    "lat": 35.139184,
    "lon": -85.241889,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834243",
-   "sequence": "2026-11-39155",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:26:10Z",
-   "created": "2026-11-28T13:26:10Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9652 E BRAINERD RD",
-   "cross": "WATERBURY LN/OOLTEWAH RINGGOLD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3-CATOOSA B",
-   "priority": "PRI 2",
-   "lat": 34.999394,
-   "lon": -85.09552,
    "units": 1,
    "stacked": false,
    "notable": false
