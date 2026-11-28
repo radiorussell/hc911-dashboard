@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-28T12:20:36+00:00",
+ "updated": "2026-11-28T12:25:36+00:00",
  "counts": {
   "year": 375969,
   "upstream_day": 150,
-  "day": 239,
+  "day": 241,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 8,
  "incidents": [
   {
-   "id": "9834208",
-   "sequence": "2026-11-39122",
-   "type": "EMS CALL",
+   "id": "9834211",
+   "sequence": "2026-11-39126",
+   "type": "Well Being Check",
    "status": "Queued",
-   "status_at": "2026-11-28T12:18:13Z",
-   "created": "2026-11-28T12:18:13Z",
+   "status_at": "2026-11-28T12:22:09Z",
+   "created": "2026-11-28T12:21:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,24 +23,24 @@
    "agency_types": [
     "Law"
    ],
-   "address": "DODDS AVE / E 34TH ST",
-   "cross": "",
+   "address": "4926 - 4974 HIXSON PIKE",
+   "cross": "EXIT HIGHWAY 153 S ON RAMP SB/EXIT HIXSON PIKE W OFF RAMP NB",
    "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 1",
-   "lat": 35.00232,
-   "lon": -85.28083,
+   "zone": "A2",
+   "priority": "PRI 3",
+   "lat": 35.131177,
+   "lon": -85.24447,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9834209",
-   "sequence": "2026-11-39123",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T12:18:13Z",
+   "id": "9834210",
+   "sequence": "2026-11-39125",
+   "type": "Fire Assist Citizen",
+   "status": "On Scene",
+   "status_at": "2026-11-28T12:24:47Z",
+   "created": "2026-11-28T12:20:58Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -49,68 +49,16 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "DODDS AVE / E 34TH ST",
-   "cross": "",
+   "address": "2008 E 13TH ST",
+   "cross": "S BEECH ST/S WILLOW ST",
    "city": "CHATTANOOGA",
-   "zone": "901",
-   "priority": "PRI 1",
-   "lat": 35.00232,
-   "lon": -85.28083,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834207",
-   "sequence": "2026-11-39124",
-   "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-28T12:18:21Z",
-   "created": "2026-11-28T12:18:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "504",
    "priority": "PRI 3",
-   "lat": 35.081426,
-   "lon": -85.263454,
+   "lat": 35.02678,
+   "lon": -85.277377,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834206",
-   "sequence": "2026-11-39121",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T12:17:57Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "DODDS AVE / E 34TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.00232,
-   "lon": -85.28083,
-   "units": 1,
-   "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9834205",
@@ -139,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9834204",
-   "sequence": "2026-11-39119",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-28T12:17:31Z",
-   "created": "2026-11-28T12:16:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2629 LONG ST",
-   "cross": "W 26TH ST/W 27TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 1",
-   "lat": 35.025481,
-   "lon": -85.314581,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834203",
    "sequence": "2026-11-39118",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T12:21:10Z",
    "created": "2026-11-28T12:10:21Z",
    "jurisdiction": "Red Bank FD",
    "agencies": [
@@ -186,58 +108,6 @@
    "priority": "PRI 3",
    "lat": 35.086156,
    "lon": -85.31773,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9834196",
-   "sequence": "2026-11-39115",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-28T12:06:30Z",
-   "created": "2026-11-28T12:02:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2440 WILLIAMS ST",
-   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.027795,
-   "lon": -85.313613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834058",
-   "sequence": "2026-11-39017",
-   "type": "Shots Fired",
-   "status": "On Scene",
-   "status_at": "2026-11-28T08:58:19Z",
-   "created": "2026-11-28T08:28:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3006 DODSON AVE",
-   "cross": "STUART ST/WILDER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.072123,
-   "lon": -85.25001,
    "units": 1,
    "stacked": false,
    "notable": true
