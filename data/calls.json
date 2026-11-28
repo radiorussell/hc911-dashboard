@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T08:05:39+00:00",
+ "updated": "2026-11-28T08:10:36+00:00",
  "counts": {
-  "year": 375895,
-  "upstream_day": 76,
+  "year": 375896,
+  "upstream_day": 77,
   "day": 122,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 9,
  "incidents": [
   {
    "id": "9834044",
    "sequence": "2026-11-39005",
    "type": "Shots Fired",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T08:05:53Z",
    "created": "2026-11-28T08:02:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9834043",
    "sequence": "2026-11-39007",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:04:08Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:02:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.204274,
    "lon": -85.136197,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834017",
-   "sequence": "2026-11-38985",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T07:52:49Z",
-   "created": "2026-11-28T07:11:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "116 GOTHARD ST",
-   "cross": "DAYTON PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.376658,
-   "lon": -85.110108,
    "units": 1,
    "stacked": false,
    "notable": false
