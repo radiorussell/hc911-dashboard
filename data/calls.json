@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-28T01:30:37+00:00",
+ "updated": "2026-11-28T01:35:36+00:00",
  "counts": {
   "year": 375654,
   "upstream_day": 0,
-  "day": 971,
+  "day": 972,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 23,
  "incidents": [
   {
-   "id": "9833625",
-   "sequence": "2026-11-38686",
-   "type": "Private Property Tow",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:29:52Z",
-   "created": "2026-11-28T01:29:52Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9833627",
+   "sequence": "2026-11-38687",
+   "type": "Backup EMS Unit",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:33:04Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "110 N MARKET ST",
-   "cross": "CHEROKEE BLVD/E KENT ST",
-   "city": "CHATTANOOGA",
-   "zone": "A4 A",
-   "priority": "PRI 0",
-   "lat": 35.063253,
-   "lon": -85.3083,
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 2",
+   "lat": 35.007914,
+   "lon": -85.260716,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +116,8 @@
    "id": "9833617",
    "sequence": "2026-11-38679",
    "type": "Auto Broken Down Road",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:35:11Z",
    "created": "2026-11-28T01:21:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -134,58 +134,6 @@
    "priority": "PRI 2",
    "lat": 35.145066,
    "lon": -85.315038,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833613",
-   "sequence": "2026-11-38675",
-   "type": "Open Door or Window",
-   "status": "Enroute",
-   "status_at": "2026-11-28T01:24:24Z",
-   "created": "2026-11-28T01:16:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2511 RIVERSIDE DR",
-   "cross": "LATTA ST/APPLING ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 1",
-   "lat": 35.070248,
-   "lon": -85.261459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833602",
-   "sequence": "2026-11-38667",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:08:38Z",
-   "created": "2026-11-28T01:08:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3401 CAMPBELL ST",
-   "cross": "GROVE ST/BIRCHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "B1 A",
-   "priority": "PRI 3",
-   "lat": 35.072936,
-   "lon": -85.24227,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -220,8 +168,8 @@
    "id": "9833601",
    "sequence": "2026-11-38666",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T01:18:31Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T01:33:34Z",
    "created": "2026-11-28T01:08:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,37 +243,11 @@
    "notable": false
   },
   {
-   "id": "9833588",
-   "sequence": "2026-11-38655",
-   "type": "Animal Call",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T00:52:59Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "190 RIVERFRONT PKWY",
-   "cross": "POWER ALY/MOLLY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 4",
-   "lat": 35.055459,
-   "lon": -85.314752,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833584",
    "sequence": "2026-11-38652",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T01:00:14Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T01:32:06Z",
    "created": "2026-11-28T00:49:54Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
