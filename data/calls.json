@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-28T07:05:37+00:00",
+ "updated": "2026-11-28T07:10:36+00:00",
  "counts": {
-  "year": 375875,
-  "upstream_day": 56,
-  "day": 90,
+  "year": 375877,
+  "upstream_day": 58,
+  "day": 97,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9834010",
+   "sequence": "2026-11-38982",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-28T07:09:49Z",
+   "created": "2026-11-28T07:09:22Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3613 CHEROKEE AVE",
+   "cross": "MELODY LN/JOHN ROSS RD",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.990343,
+   "lon": -85.268707,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834009",
+   "sequence": "2026-11-38981",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T07:07:19Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8101 HOLLY HILLS LN",
+   "cross": "HOLLY CREST DR/HOLLY CREST DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 3",
+   "lat": 35.03771,
+   "lon": -85.126544,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834003",
    "sequence": "2026-11-38975",
@@ -56,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.029316,
    "lon": -85.277876,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833951",
-   "sequence": "2026-11-38935",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T06:33:02Z",
-   "created": "2026-11-28T05:53:11Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1109 MOSS DR",
-   "cross": "MOSS ST/HOYT ST",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 11 CH",
-   "priority": "PRI 1",
-   "lat": 35.042483,
-   "lon": -85.243678,
    "units": 1,
    "stacked": false,
    "notable": false
