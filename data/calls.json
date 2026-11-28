@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T05:45:38+00:00",
+ "updated": "2026-11-28T05:50:37+00:00",
  "counts": {
-  "year": 375838,
-  "upstream_day": 19,
-  "day": 43,
+  "year": 375843,
+  "upstream_day": 24,
+  "day": 47,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9833947",
+   "sequence": "2026-11-38932",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-28T05:48:18Z",
+   "created": "2026-11-28T05:46:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7700 ASPEN LODGE WAY",
+   "cross": "RESERVE WAY/TIMBER LN",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
+   "priority": "PRI 4",
+   "lat": 35.009147,
+   "lon": -85.15844,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833939",
    "sequence": "2026-11-38928",
@@ -116,8 +142,8 @@
    "id": "9833850",
    "sequence": "2026-11-38857",
    "type": "Missing Endangered",
-   "status": "Enroute",
-   "status_at": "2026-11-28T04:46:20Z",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:17:53Z",
    "created": "2026-11-28T04:16:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -137,32 +163,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9833832",
-   "sequence": "2026-11-38841",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T05:05:05Z",
-   "created": "2026-11-28T04:05:09Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "5402 COUNTRY VILLAGE DR",
-   "cross": "WOODRIDGE LN/ROSETREE DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.084749,
-   "lon": -85.087485,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9833783",
