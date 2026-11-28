@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-28T02:15:37+00:00",
+ "updated": "2026-11-28T02:20:43+00:00",
  "counts": {
-  "year": 375682,
+  "year": 375684,
   "upstream_day": 0,
-  "day": 1010,
+  "day": 1016,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 23,
  "incidents": [
+  {
+   "id": "9833687",
+   "sequence": "2026-11-38731",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:19:12Z",
+   "created": "2026-11-28T02:19:12Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5310 BRAINERD RD",
+   "cross": "MCBRIEN RD/S BROOKS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.010207,
+   "lon": -85.22193,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833685",
+   "sequence": "2026-11-38729",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:19:05Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2108 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.037677,
+   "lon": -85.159531,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833686",
+   "sequence": "2026-11-38730",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:19:05Z",
+   "created": "2026-11-28T02:19:05Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2108 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 1",
+   "lat": 35.037677,
+   "lon": -85.159531,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833683",
+   "sequence": "2026-11-38727",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:18:52Z",
+   "created": "2026-11-28T02:18:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2108 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.037677,
+   "lon": -85.159531,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833675",
    "sequence": "2026-11-38722",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:12:43Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T02:12:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9833673",
    "sequence": "2026-11-38725",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:15:05Z",
+   "status": "Enroute",
+   "status_at": "2026-11-28T02:19:32Z",
    "created": "2026-11-28T02:11:38Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -56,32 +160,6 @@
    "priority": "PRI 2",
    "lat": 35.365894,
    "lon": -85.117715,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833669",
-   "sequence": "2026-11-38718",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:06:06Z",
-   "created": "2026-11-28T01:57:29Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2231 MORRIS HILL RD",
-   "cross": "BRANDERMILL LN/RED TAIL LN",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 1",
-   "lat": 35.02934,
-   "lon": -85.123701,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -165,6 +243,32 @@
    "notable": true
   },
   {
+   "id": "9833656",
+   "sequence": "2026-11-38707",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:18:25Z",
+   "created": "2026-11-28T01:49:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2108 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.037677,
+   "lon": -85.159531,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833653",
    "sequence": "2026-11-38705",
    "type": "EMS CALL",
@@ -220,8 +324,8 @@
    "id": "9833652",
    "sequence": "2026-11-38704",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T01:58:31Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T02:20:26Z",
    "created": "2026-11-28T01:46:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +498,6 @@
    "priority": "PRI 1",
    "lat": 35.112138,
    "lon": -85.343981,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833532",
-   "sequence": "2026-11-38615",
-   "type": "Harrassing Threats",
-   "status": "Enroute",
-   "status_at": "2026-11-28T00:38:01Z",
-   "created": "2026-11-28T00:20:46Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "490 GREENWAY VIEW DR",
-   "cross": "SKURLOCK RD/CORNELISON RD",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.008709,
-   "lon": -85.205213,
    "units": 1,
    "stacked": false,
    "notable": false
