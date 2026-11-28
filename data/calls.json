@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T05:15:37+00:00",
+ "updated": "2026-11-28T05:20:38+00:00",
  "counts": {
-  "year": 375818,
-  "upstream_day": 0,
-  "day": 0,
+  "year": 375820,
+  "upstream_day": 1,
+  "day": 27,
   "day_basis": "midnight"
  },
  "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9833917",
+   "sequence": "2026-11-38912",
+   "type": "Unknown Trouble",
+   "status": "Queued",
+   "status_at": "2026-11-28T05:20:11Z",
+   "created": "2026-11-28T05:19:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "936 MOUNTAIN CREEK RD",
+   "cross": "W RD/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 1",
+   "lat": 35.106037,
+   "lon": -85.323944,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833884",
    "sequence": "2026-11-38883",
@@ -290,32 +316,6 @@
    "priority": "PRI 3",
    "lat": 35.067155,
    "lon": -85.298771,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833675",
-   "sequence": "2026-11-38722",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:32:03Z",
-   "created": "2026-11-28T02:12:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4903 BRAINERD RD",
-   "cross": "CLUB DR/S LOVELL AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.012915,
-   "lon": -85.227459,
    "units": 1,
    "stacked": false,
    "notable": false
