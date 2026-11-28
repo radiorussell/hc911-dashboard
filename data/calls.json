@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T00:00:37+00:00",
+ "updated": "2026-11-28T00:05:38+00:00",
  "counts": {
   "year": 375583,
   "upstream_day": 643,
-  "day": 873,
+  "day": 879,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9833510",
+   "sequence": "2026-11-38594",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:04:31Z",
+   "created": "2026-11-28T00:04:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7710 LEE HWY",
+   "cross": "BONNY OAKS DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.061233,
+   "lon": -85.131847,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833509",
+   "sequence": "2026-11-38592",
+   "type": "Backup Police",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:03:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "660 INTERSTATE 75 NB",
+   "cross": "EXIT 5 ON RAMP NB/EXIT 7 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.0524,
+   "lon": -85.14215,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833508",
+   "sequence": "2026-11-38591",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:03:23Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4811 MADONNA AVE",
+   "cross": "NOTRE DAME AVE/S MOORE RD",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 3",
+   "lat": 35.004134,
+   "lon": -85.233862,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833507",
+   "sequence": "2026-11-38590",
+   "type": "Police Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:03:23Z",
+   "created": "2026-11-28T00:03:20Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2351 SHALLOWFORD VILLAGE DR",
+   "cross": "AMIN DR/MCCUTCHEON RD",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.045674,
+   "lon": -85.155344,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833505",
    "sequence": "2026-11-38588",
@@ -64,8 +168,8 @@
    "id": "9833486",
    "sequence": "2026-11-38575",
    "type": "Domestic Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-27T23:38:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T23:38:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -83,7 +187,7 @@
    "lat": 35.042054,
    "lon": -85.245671,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -142,8 +246,8 @@
    "id": "9833473",
    "sequence": "2026-11-38569",
    "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:05:17Z",
    "created": "2026-11-27T23:29:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -212,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.022573,
    "lon": -85.142396,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833455",
-   "sequence": "2026-11-38554",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:47:41Z",
-   "created": "2026-11-27T23:14:52Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "17122 MCKINNEY LN",
-   "cross": "BLACK OAK RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 3",
-   "lat": 35.43072,
-   "lon": -85.06208,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -347,32 +425,6 @@
    "notable": false
   },
   {
-   "id": "9833437",
-   "sequence": "2026-11-38540",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:15:18Z",
-   "created": "2026-11-27T23:06:39Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2 - 8 EXIT 1B ON RAMP NB",
-   "cross": "RINGGOLD RD/EXIT 2 OFF RAMP NB",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.9903,
-   "lon": -85.20289,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833413",
    "sequence": "2026-11-38521",
    "type": "EMS CALL",
@@ -394,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.198103,
    "lon": -85.011444,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833349",
-   "sequence": "2026-11-38469",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:18:47Z",
-   "created": "2026-11-27T22:15:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5501 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 3",
-   "lat": 35.010327,
-   "lon": -85.220476,
    "units": 1,
    "stacked": false,
    "notable": false
