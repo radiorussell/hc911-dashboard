@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T06:10:37+00:00",
+ "updated": "2026-11-28T06:15:38+00:00",
  "counts": {
   "year": 375850,
   "upstream_day": 31,
   "day": 68,
   "day_basis": "midnight"
  },
- "raw_rows": 19,
+ "raw_rows": 18,
  "incidents": [
   {
    "id": "9833971",
@@ -38,8 +38,8 @@
    "id": "9833972",
    "sequence": "2026-11-38953",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:07:14Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:07:14Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -87,37 +87,11 @@
    "notable": false
   },
   {
-   "id": "9833968",
-   "sequence": "2026-11-38949",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T06:05:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7700 ASPEN LODGE WAY",
-   "cross": "RESERVE WAY/TIMBER LN",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.009147,
-   "lon": -85.15844,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833965",
    "sequence": "2026-11-38946",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T06:12:58Z",
    "created": "2026-11-28T06:01:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
