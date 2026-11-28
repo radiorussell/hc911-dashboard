@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T00:10:38+00:00",
+ "updated": "2026-11-28T00:15:41+00:00",
  "counts": {
   "year": 375587,
   "upstream_day": 0,
-  "day": 885,
+  "day": 892,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9833524",
+   "sequence": "2026-11-38607",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:15:04Z",
+   "created": "2026-11-28T00:14:57Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1313 JOHN ROSS RD",
+   "cross": "COLEMAN CIR/EDWARDS TER",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 34.992584,
+   "lon": -85.261614,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833520",
+   "sequence": "2026-11-38602",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:10:44Z",
+   "created": "2026-11-28T00:10:44Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 3",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833521",
+   "sequence": "2026-11-38603",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:10:44Z",
+   "created": "2026-11-28T00:10:44Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 1",
+   "priority": "PRI 2",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833518",
+   "sequence": "2026-11-38601",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:10:01Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833517",
    "sequence": "2026-11-38600",
@@ -30,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.185758,
    "lon": -85.260121,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833516",
-   "sequence": "2026-11-38598",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:06:30Z",
-   "created": "2026-11-28T00:06:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1160 TOWNE HILLS DR",
-   "cross": "WINDING LN/TOWNE HILLS LN",
-   "city": "CHATTANOOGA",
-   "zone": "1902",
-   "priority": "PRI 2",
-   "lat": 35.148062,
-   "lon": -85.246932,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +168,8 @@
    "id": "9833515",
    "sequence": "2026-11-38597",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Transporting",
+   "status_at": "2026-11-28T00:13:21Z",
    "created": "2026-11-28T00:05:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -116,7 +194,7 @@
    "id": "9833510",
    "sequence": "2026-11-38594",
    "type": "Disorder",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-28T00:04:31Z",
    "created": "2026-11-28T00:04:01Z",
    "jurisdiction": "Chattanooga PD",
@@ -135,7 +213,7 @@
    "lat": 35.061233,
    "lon": -85.131847,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -165,36 +243,10 @@
    "notable": false
   },
   {
-   "id": "9833508",
-   "sequence": "2026-11-38591",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:08:35Z",
-   "created": "2026-11-28T00:03:23Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "4811 MADONNA AVE",
-   "cross": "NOTRE DAME AVE/S MOORE RD",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 1",
-   "priority": "PRI 3",
-   "lat": 35.004134,
-   "lon": -85.233862,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833507",
    "sequence": "2026-11-38590",
    "type": "Disorder",
-   "status": "Queued",
+   "status": "Stacked",
    "status_at": "2026-11-28T00:03:23Z",
    "created": "2026-11-28T00:03:20Z",
    "jurisdiction": "Chattanooga PD",
@@ -213,7 +265,7 @@
    "lat": 35.045674,
    "lon": -85.155344,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
@@ -394,32 +446,6 @@
    "priority": "PRI 4",
    "lat": 35.277831,
    "lon": -84.988848,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833456",
-   "sequence": "2026-11-38555",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-27T23:50:15Z",
-   "created": "2026-11-27T23:16:21Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7840 MAGNOLIA LAKE DR",
-   "cross": "AVIARA DR/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.022573,
-   "lon": -85.142396,
    "units": 1,
    "stacked": false,
    "notable": false
