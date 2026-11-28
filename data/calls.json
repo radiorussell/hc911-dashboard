@@ -1,35 +1,113 @@
 {
- "updated": "2026-11-28T03:25:36+00:00",
+ "updated": "2026-11-28T03:30:38+00:00",
  "counts": {
-  "year": 375733,
+  "year": 375739,
   "upstream_day": 0,
-  "day": 1083,
+  "day": 1090,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 24,
  "incidents": [
   {
-   "id": "9833784",
-   "sequence": "2026-11-38798",
-   "type": "Unknown 911",
+   "id": "9833793",
+   "sequence": "2026-11-38805",
+   "type": "Assault EMS Needed",
    "status": "Queued",
-   "status_at": "2026-11-28T03:25:11Z",
-   "created": "2026-11-28T03:25:06Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-28T03:28:59Z",
+   "created": "2026-11-28T03:28:59Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Chattanooga PD"
+    "Chattanooga FD"
    ],
-   "agency_type": "Law",
+   "agency_type": "Fire",
    "agency_types": [
-    "Law"
+    "Fire"
    ],
-   "address": "5801 TALLADEGA DR",
-   "cross": "BUNCH ST/DIXON ST",
+   "address": "6614 HILLBROOK LN",
+   "cross": "NORTHMONT RD/DALEMONT LN",
    "city": "CHATTANOOGA",
-   "zone": "C4",
-   "priority": "PRI 3",
-   "lat": 35.041468,
-   "lon": -85.193158,
+   "zone": "2202",
+   "priority": "PRI 1",
+   "lat": 35.167087,
+   "lon": -85.235716,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833792",
+   "sequence": "2026-11-38804",
+   "type": "Assault EMS Needed",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:28:58Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6614 HILLBROOK LN",
+   "cross": "NORTHMONT RD/DALEMONT LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.167087,
+   "lon": -85.235716,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833790",
+   "sequence": "2026-11-38802",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T03:27:43Z",
+   "created": "2026-11-28T03:27:43Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "1701 A",
+   "priority": "PRI 1",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833789",
+   "sequence": "2026-11-38801",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:27:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.101687,
+   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -37,7 +115,7 @@
   {
    "id": "9833783",
    "sequence": "2026-11-38794",
-   "type": "Domestic Disorder",
+   "type": "Assault EMS Needed",
    "status": "Enroute",
    "status_at": null,
    "created": "2026-11-28T03:23:38Z",
@@ -53,17 +131,17 @@
    "cross": "NORTHMONT RD/DALEMONT LN",
    "city": "CHATTANOOGA",
    "zone": "A1",
-   "priority": "PRI 2",
+   "priority": "PRI 1",
    "lat": 35.167087,
    "lon": -85.235716,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9833782",
    "sequence": "2026-11-38795",
-   "type": "Unknown 911",
+   "type": "EMS CALL",
    "status": "Queued",
    "status_at": "2026-11-28T03:24:00Z",
    "created": "2026-11-28T03:23:13Z",
@@ -116,8 +194,8 @@
    "id": "9833777",
    "sequence": "2026-11-38791",
    "type": "Residential Fire",
-   "status": "Stacked",
-   "status_at": "2026-11-28T03:17:17Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T03:17:17Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -135,7 +213,7 @@
    "lat": 35.353771,
    "lon": -85.03887,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": true
   },
   {
@@ -194,8 +272,8 @@
    "id": "9833769",
    "sequence": "2026-11-38786",
    "type": "MVC Unknown Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T03:27:09Z",
    "created": "2026-11-28T03:15:16Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -321,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9833714",
-   "sequence": "2026-11-38755",
-   "type": "Shooting/Person Shot",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T02:55:45Z",
-   "created": "2026-11-28T02:34:12Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "W 4TH ST / BROAD ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.052288,
-   "lon": -85.310659,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833713",
    "sequence": "2026-11-38754",
    "type": "Shooting/Person Shot",
@@ -428,8 +480,8 @@
    "id": "9833703",
    "sequence": "2026-11-38747",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T03:00:53Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T03:27:31Z",
    "created": "2026-11-28T02:28:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
