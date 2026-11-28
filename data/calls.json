@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T11:15:36+00:00",
+ "updated": "2026-11-28T11:20:36+00:00",
  "counts": {
-  "year": 375953,
-  "upstream_day": 134,
-  "day": 206,
+  "year": 375958,
+  "upstream_day": 139,
+  "day": 218,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9834179",
+   "sequence": "2026-11-39103",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T11:18:29Z",
+   "created": "2026-11-28T11:18:29Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7429 SHALLOWFORD RD",
+   "cross": "GUNBARREL RD/OGLETREE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "802 B",
+   "priority": "PRI 2",
+   "lat": 35.040038,
+   "lon": -85.147048,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834178",
+   "sequence": "2026-11-39102",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T11:17:47Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7429 SHALLOWFORD RD",
+   "cross": "GUNBARREL RD/OGLETREE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.040038,
+   "lon": -85.147048,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834173",
+   "sequence": "2026-11-39100",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T11:14:35Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3657 RINGGOLD RD",
+   "cross": "S GERMANTOWN RD/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 3",
+   "lat": 35.002176,
+   "lon": -85.257862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834161",
    "sequence": "2026-11-39091",
@@ -35,37 +113,11 @@
    "notable": true
   },
   {
-   "id": "9834149",
-   "sequence": "2026-11-39080",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T10:36:18Z",
-   "created": "2026-11-28T10:36:18Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7351 COURAGE WAY",
-   "cross": "STANDIFER GAP RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "802 A",
-   "priority": "PRI 2",
-   "lat": 35.053763,
-   "lon": -85.143375,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834147",
    "sequence": "2026-11-39079",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T10:55:44Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T11:18:50Z",
    "created": "2026-11-28T10:35:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +134,6 @@
    "priority": "PRI 1",
    "lat": 35.053763,
    "lon": -85.143375,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834131",
-   "sequence": "2026-11-39071",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T10:47:31Z",
-   "created": "2026-11-28T10:04:23Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2814 BENT OAK RD",
-   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 05 HC C",
-   "priority": "PRI 1",
-   "lat": 35.042705,
-   "lon": -85.109705,
    "units": 1,
    "stacked": false,
    "notable": false
