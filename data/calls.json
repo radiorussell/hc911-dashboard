@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T13:56:10+00:00",
+ "updated": "2026-11-28T14:00:36+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 295,
+  "day": 305,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9834285",
+   "sequence": "2026-11-39190",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-28T13:59:36Z",
+   "created": "2026-11-28T13:59:36Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2525 DE SALES AVE",
+   "cross": "PARKWOOD AVE/KILMER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.041701,
+   "lon": -85.260662,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834283",
+   "sequence": "2026-11-39188",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T13:59:10Z",
+   "created": "2026-11-28T13:59:10Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1148 E 23RD ST",
+   "cross": "POLK ST/BURNETTE ST",
+   "city": "CHATTANOOGA",
+   "zone": "202",
+   "priority": "PRI 2",
+   "lat": 35.023295,
+   "lon": -85.295506,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834281",
+   "sequence": "2026-11-39187",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T13:58:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1148 E 23RD ST",
+   "cross": "POLK ST/BURNETTE ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.023295,
+   "lon": -85.295506,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834278",
+   "sequence": "2026-11-39184",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T13:54:55Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5319 RINGGOLD RD",
+   "cross": "REBECCA DR/KARWILL LN",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 34.995078,
+   "lon": -85.233004,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834276",
    "sequence": "2026-11-39180",
@@ -38,8 +142,8 @@
    "id": "9834274",
    "sequence": "2026-11-39179",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T13:59:00Z",
    "created": "2026-11-28T13:49:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -160,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.160322,
    "lon": -85.246026,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834255",
-   "sequence": "2026-11-39163",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:50:36Z",
-   "created": "2026-11-28T13:30:54Z",
-   "jurisdiction": "Sale Creek VFD",
-   "agencies": [
-    "Sale Creek VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1724 RIVERGATE TER",
-   "cross": "BAYFRONT DR/RIVERGATE BAY LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "SALE CREEK FD",
-   "priority": "PRI 2",
-   "lat": 35.283786,
-   "lon": -85.105154,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -316,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.03625,
    "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834226",
-   "sequence": "2026-11-39139",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T13:27:20Z",
-   "created": "2026-11-28T12:49:15Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "160 HAWKINS OAK LN",
-   "cross": "CENTRAL AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 10 CH A",
-   "priority": "PRI 1",
-   "lat": 34.995251,
-   "lon": -85.318651,
    "units": 1,
    "stacked": false,
    "notable": false
