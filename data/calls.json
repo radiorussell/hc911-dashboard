@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T01:35:36+00:00",
+ "updated": "2026-11-28T01:40:37+00:00",
  "counts": {
-  "year": 375654,
+  "year": 375661,
   "upstream_day": 0,
-  "day": 972,
+  "day": 978,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9833632",
+   "sequence": "2026-11-38693",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:39:13Z",
+   "created": "2026-11-28T01:38:23Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3635 RINGGOLD RD",
+   "cross": "S GERMANTOWN RD/BALES AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD WEST",
+   "priority": "PRI 4",
+   "lat": 35.002611,
+   "lon": -85.258856,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833627",
    "sequence": "2026-11-38687",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:37:29Z",
    "created": "2026-11-28T01:33:04Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9833620",
    "sequence": "2026-11-38682",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:38:29Z",
    "created": "2026-11-28T01:25:34Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -139,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9833603",
-   "sequence": "2026-11-38668",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:08:38Z",
-   "created": "2026-11-28T01:08:38Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3401 CAMPBELL ST",
-   "cross": "GROVE ST/BIRCHWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "404",
-   "priority": "PRI 1",
-   "lat": 35.072936,
-   "lon": -85.24227,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833601",
    "sequence": "2026-11-38666",
    "type": "EMS CALL",
@@ -186,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.072936,
    "lon": -85.24227,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833592",
-   "sequence": "2026-11-38660",
-   "type": "Well Being Check",
-   "status": "On Scene",
-   "status_at": "2026-11-28T01:28:02Z",
-   "created": "2026-11-28T00:58:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "604 E 52ND ST",
-   "cross": "TANNER AVE/WILSON RD",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.988967,
-   "lon": -85.311279,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -264,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.112138,
    "lon": -85.343981,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833582",
-   "sequence": "2026-11-38648",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:48:32Z",
-   "created": "2026-11-28T00:48:32Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2467 15TH AVE",
-   "cross": "No Cross Street/WESTSIDE DR",
-   "city": "CHATTANOOGA",
-   "zone": "502 B",
-   "priority": "PRI 1",
-   "lat": 35.013349,
-   "lon": -85.271384,
    "units": 1,
    "stacked": false,
    "notable": false
