@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T14:50:37+00:00",
+ "updated": "2026-11-28T14:55:37+00:00",
  "counts": {
   "year": 376041,
   "upstream_day": 222,
-  "day": 336,
+  "day": 342,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9834338",
+   "sequence": "2026-11-39226",
+   "type": "Property",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:52:42Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3005 DODSON AVE",
+   "cross": "STUART ST/WILDER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 4",
+   "lat": 35.072182,
+   "lon": -85.250377,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834339",
+   "sequence": "2026-11-39224",
+   "type": "Property",
+   "status": "Queued",
+   "status_at": "2026-11-28T14:52:16Z",
+   "created": "2026-11-28T14:52:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "118 EVENINGSIDE DR",
+   "cross": "E MAIN ST/E 17TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 4",
+   "lat": 35.02575,
+   "lon": -85.284129,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834337",
+   "sequence": "2026-11-39227",
+   "type": "Check For A Hazard",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:52:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "DALLAS RD / HAMILTON AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 2",
+   "lat": 35.071868,
+   "lon": -85.30792,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834329",
    "sequence": "2026-11-39220",
@@ -82,58 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.050662,
    "lon": -85.291613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834323",
-   "sequence": "2026-11-39216",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T14:44:21Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "621 E MARTIN LUTHER KING BLVD",
-   "cross": "UNIVERSITY ST/PEEPLES ST",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.043119,
-   "lon": -85.300586,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834315",
-   "sequence": "2026-11-39209",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:44:30Z",
-   "created": "2026-11-28T14:35:14Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8618 IGOU GAP RD",
-   "cross": "SAPPHIRE PL/MORRIS HILL RD",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.015994,
-   "lon": -85.126593,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -243,37 +269,11 @@
    "notable": false
   },
   {
-   "id": "9834310",
-   "sequence": "2026-11-39205",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:29:37Z",
-   "created": "2026-11-28T14:24:08Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1611 MACK SMITH RD",
-   "cross": "BURR ST/BRACK ST",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.986929,
-   "lon": -85.210958,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834307",
    "sequence": "2026-11-39203",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:33:26Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T14:54:15Z",
    "created": "2026-11-28T14:23:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -342,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 34.995835,
    "lon": -85.185897,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834244",
-   "sequence": "2026-11-39157",
-   "type": "Police Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:43:45Z",
-   "created": "2026-11-28T13:26:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1949 NORTHPOINT BLVD",
-   "cross": "HIGHWAY 153/PRESCHOOL LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.139184,
-   "lon": -85.241889,
    "units": 1,
    "stacked": false,
    "notable": false
