@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T09:15:36+00:00",
+ "updated": "2026-11-28T09:20:38+00:00",
  "counts": {
-  "year": 375922,
-  "upstream_day": 103,
-  "day": 163,
+  "year": 375923,
+  "upstream_day": 104,
+  "day": 167,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9834105",
+   "sequence": "2026-11-39052",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T09:19:33Z",
+   "created": "2026-11-28T09:19:33Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1502 MCDONALD RD",
+   "cross": "RINGGOLD RD/GARNER ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 1",
+   "lat": 34.988101,
+   "lon": -85.205348,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834103",
+   "sequence": "2026-11-39050",
+   "type": "Vehicle Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T09:19:25Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 2",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9834102",
+   "sequence": "2026-11-39049",
+   "type": "Vehicle Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T09:19:17Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7200 DISCOVERY DR",
+   "cross": "VOLKSWAGEN DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "701 A",
+   "priority": "PRI 1",
+   "lat": 35.068318,
+   "lon": -85.141215,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834098",
    "sequence": "2026-11-39047",
@@ -38,8 +116,8 @@
    "id": "9834099",
    "sequence": "2026-11-39048",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T09:15:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T09:15:07Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -64,8 +142,8 @@
    "id": "9834097",
    "sequence": "2026-11-39046",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T09:15:07Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T09:14:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -238,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 35.102703,
    "lon": -85.280125,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834057",
-   "sequence": "2026-11-39018",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-28T08:38:23Z",
-   "created": "2026-11-28T08:29:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4908 WOODLAND VIEW CIR",
-   "cross": "E 49TH ST/E 51ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 34.991523,
-   "lon": -85.307309,
    "units": 1,
    "stacked": false,
    "notable": false
