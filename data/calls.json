@@ -1,71 +1,19 @@
 {
- "updated": "2026-11-28T05:00:37+00:00",
+ "updated": "2026-11-28T05:05:38+00:00",
  "counts": {
   "year": 375809,
   "upstream_day": 0,
   "day": 0,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 19,
  "incidents": [
-  {
-   "id": "9833885",
-   "sequence": "2026-11-38884",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T04:44:57Z",
-   "created": "2026-11-28T04:44:57Z",
-   "jurisdiction": "Red Bank PD",
-   "agencies": [
-    "Red Bank PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "201 LANCASTER AVE",
-   "cross": "ELMORE AVE/BERKLEY DR",
-   "city": "RED BANK",
-   "zone": "RED BANK 2",
-   "priority": "PRI 3",
-   "lat": 35.105626,
-   "lon": -85.300093,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833886",
-   "sequence": "2026-11-38885",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T04:44:57Z",
-   "created": "2026-11-28T04:44:57Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "201 LANCASTER AVE",
-   "cross": "ELMORE AVE/BERKLEY DR",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 2",
-   "lat": 35.105626,
-   "lon": -85.300093,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
   {
    "id": "9833884",
    "sequence": "2026-11-38883",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:51:11Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T05:02:25Z",
    "created": "2026-11-28T04:44:31Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +38,8 @@
    "id": "9833879",
    "sequence": "2026-11-38879",
    "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": "2026-11-28T04:52:37Z",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:38:56Z",
    "created": "2026-11-28T04:38:56Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -116,8 +64,8 @@
    "id": "9833876",
    "sequence": "2026-11-38878",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T04:57:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T05:02:09Z",
    "created": "2026-11-28T04:38:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -163,32 +111,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833866",
-   "sequence": "2026-11-38866",
-   "type": "Backup Fire Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:59:01Z",
-   "created": "2026-11-28T04:32:41Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "8657 MOUNTAIN LAUREL TRL",
-   "cross": "BENT HICKORY RD/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 3 A",
-   "priority": "PRI 2",
-   "lat": 35.218324,
-   "lon": -85.249695,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833859",
@@ -283,13 +205,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "9600 LEE HWY",
+   "address": "9419 - 9799 LEE HWY",
    "cross": "CHESTERTON WAY/EDGMON RD",
-   "city": "COLLEGEDALE",
+   "city": "HAMILTON COUNTY",
    "zone": "EAST 3 A",
    "priority": "PRI 3",
-   "lat": 35.07908,
-   "lon": -85.04906,
+   "lat": 35.078681,
+   "lon": -85.048196,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -298,8 +220,8 @@
    "id": "9833832",
    "sequence": "2026-11-38841",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T04:40:09Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T05:05:05Z",
    "created": "2026-11-28T04:05:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -316,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.084749,
    "lon": -85.087485,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833829",
-   "sequence": "2026-11-38839",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:03:55Z",
-   "created": "2026-11-28T04:01:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5505 BRAINERD RD",
-   "cross": "SPRING CREEK RD/EASTGATE LOOP",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 1",
-   "lat": 35.010725,
-   "lon": -85.219474,
    "units": 1,
    "stacked": false,
    "notable": false
