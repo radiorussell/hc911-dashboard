@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T10:55:38+00:00",
+ "updated": "2026-11-28T11:00:42+00:00",
  "counts": {
-  "year": 375950,
-  "upstream_day": 131,
-  "day": 202,
+  "year": 375952,
+  "upstream_day": 133,
+  "day": 206,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 13,
  "incidents": [
+  {
+   "id": "9834161",
+   "sequence": "2026-11-39091",
+   "type": "Fire Assist Citizen",
+   "status": "Queued",
+   "status_at": "2026-11-28T10:58:24Z",
+   "created": "2026-11-28T10:57:01Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8276 CARLITOS LN",
+   "cross": "No Cross Street/BALLEW LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "DALLAS BAY FD 2",
+   "priority": "PRI 3",
+   "lat": 35.216658,
+   "lon": -85.175683,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834156",
    "sequence": "2026-11-39087",
@@ -64,8 +90,8 @@
    "id": "9834147",
    "sequence": "2026-11-39079",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T10:55:44Z",
    "created": "2026-11-28T10:35:56Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
