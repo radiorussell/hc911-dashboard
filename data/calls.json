@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T10:40:38+00:00",
+ "updated": "2026-11-28T10:45:36+00:00",
  "counts": {
   "year": 375946,
   "upstream_day": 127,
-  "day": 195,
+  "day": 202,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9834156",
+   "sequence": "2026-11-39087",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T10:40:48Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8112 ROY LN",
+   "cross": "SNOW HILL RD/PROVIDENCE RD",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 3",
+   "lat": 35.145062,
+   "lon": -85.061294,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834149",
    "sequence": "2026-11-39080",
@@ -293,32 +319,6 @@
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9830410",
-   "sequence": "2026-11-36415",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": "2026-11-25T23:59:43Z",
-   "created": "2026-11-25T23:59:43Z",
-   "jurisdiction": "Collegedale PD",
-   "agencies": [
-    "Collegedale PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4910 SWINYAR DR",
-   "cross": "FOUR CORNERS PL/MESSINGER LN",
-   "city": "COLLEGEDALE",
-   "zone": "COLLEGEDALE WEST",
-   "priority": "PRI 1",
-   "lat": 35.060281,
-   "lon": -85.070921,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   }
  ]
 }
