@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T13:20:37+00:00",
+ "updated": "2026-11-28T13:25:36+00:00",
  "counts": {
   "year": 375990,
   "upstream_day": 171,
   "day": 262,
   "day_basis": "midnight"
  },
- "raw_rows": 6,
+ "raw_rows": 3,
  "incidents": [
   {
    "id": "9834234",
    "sequence": "2026-11-39147",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T13:21:01Z",
    "created": "2026-11-28T13:13:33Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -35,63 +35,11 @@
    "notable": false
   },
   {
-   "id": "9834229",
-   "sequence": "2026-11-39142",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T12:52:39Z",
-   "created": "2026-11-28T12:52:39Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834230",
-   "sequence": "2026-11-39143",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T12:52:39Z",
-   "created": "2026-11-28T12:52:39Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "7620 SHALLOWFORD RD",
-   "cross": "ASHFORD DR/BASKETTE WAY",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 1",
-   "lat": 35.03625,
-   "lon": -85.140302,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834228",
    "sequence": "2026-11-39141",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:01:40Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T13:21:23Z",
    "created": "2026-11-28T12:51:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -137,32 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9832688",
-   "sequence": "2026-11-37999",
-   "type": "ROAD CLOSURE",
-   "status": "Queued",
-   "status_at": "2026-11-27T15:01:45Z",
-   "created": "2026-11-27T15:01:45Z",
-   "jurisdiction": "HC911",
-   "agencies": [
-    "HC911"
-   ],
-   "agency_type": "HC911",
-   "agency_types": [
-    "HC911"
-   ],
-   "address": "E 10TH ST / UNIVERSITY ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "HC911",
-   "priority": "",
-   "lat": 35.042153,
-   "lon": -85.30214,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   }
  ]
 }
