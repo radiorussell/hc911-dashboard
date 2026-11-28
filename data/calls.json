@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-28T08:30:37+00:00",
+ "updated": "2026-11-28T08:35:36+00:00",
  "counts": {
   "year": 375902,
   "upstream_day": 83,
-  "day": 133,
+  "day": 139,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9834065",
+   "sequence": "2026-11-39023",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T08:33:53Z",
+   "created": "2026-11-28T08:33:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7749 NAUTICAL WAY",
+   "cross": "BASSWOOD DR/HOLIDAY HILLS CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.080868,
+   "lon": -85.167379,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834063",
+   "sequence": "2026-11-39024",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T08:34:55Z",
+   "created": "2026-11-28T08:33:04Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "510 CENTRAL DR",
+   "cross": "WHIRLAWAY DR/CHARLES DR",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.021851,
+   "lon": -85.194085,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834061",
+   "sequence": "2026-11-39022",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T08:32:19Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2244 TETON TRL",
+   "cross": "No Cross Street/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.050145,
+   "lon": -85.176002,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834060",
+   "sequence": "2026-11-39019",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T08:30:23Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "10750 - 10799 LOOP RD",
+   "cross": "SHERI PLACE LN/WARD RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.26825,
+   "lon": -85.171695,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834057",
    "sequence": "2026-11-39018",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:29:52Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:29:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -23,13 +127,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "727 E 48TH ST",
-   "cross": "WILSON RD/JEFFERY LN",
+   "address": "4908 WOODLAND VIEW CIR",
+   "cross": "E 49TH ST/E 51ST ST",
    "city": "CHATTANOOGA",
    "zone": "A12",
    "priority": "PRI 3",
-   "lat": 34.992769,
-   "lon": -85.305583,
+   "lat": 34.991523,
+   "lon": -85.307309,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +142,8 @@
    "id": "9834058",
    "sequence": "2026-11-39017",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:29:11Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:28:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +168,8 @@
    "id": "9834056",
    "sequence": "2026-11-39016",
    "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-28T08:28:58Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T08:28:34Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
