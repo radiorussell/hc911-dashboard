@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T01:40:37+00:00",
+ "updated": "2026-11-28T01:45:37+00:00",
  "counts": {
   "year": 375661,
   "upstream_day": 0,
-  "day": 978,
+  "day": 987,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9833648",
+   "sequence": "2026-11-38702",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:45:14Z",
+   "created": "2026-11-28T01:44:46Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.112749,
+   "lon": -85.270177,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833641",
+   "sequence": "2026-11-38695",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:40:53Z",
+   "created": "2026-11-28T01:40:53Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1613 ADAIR AVE",
+   "cross": "MARIETTA ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 3",
+   "lat": 34.98736,
+   "lon": -85.2132,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833642",
+   "sequence": "2026-11-38696",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:40:53Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1613 ADAIR AVE",
+   "cross": "MARIETTA ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 1",
+   "lat": 34.98736,
+   "lon": -85.2132,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833633",
+   "sequence": "2026-11-38694",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:39:21Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1613 ADAIR AVE",
+   "cross": "MARIETTA ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.98736,
+   "lon": -85.2132,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833632",
    "sequence": "2026-11-38693",
@@ -90,8 +194,8 @@
    "id": "9833621",
    "sequence": "2026-11-38684",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:27:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T01:26:31Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -449,32 +553,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833103",
-   "sequence": "2026-11-38288",
-   "type": "Fire Special Assign",
-   "status": "Enroute",
-   "status_at": "2026-11-27T19:31:14Z",
-   "created": "2026-11-27T19:30:35Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "15 TREMONT ST",
-   "cross": "No Cross Street/RIVER ST",
-   "city": "CHATTANOOGA",
-   "zone": "1203 B",
-   "priority": "PRI 3",
-   "lat": 35.060312,
-   "lon": -85.306444,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9832688",
