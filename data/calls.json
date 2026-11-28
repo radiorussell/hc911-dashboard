@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-28T08:50:36+00:00",
+ "updated": "2026-11-28T08:55:43+00:00",
  "counts": {
   "year": 375911,
   "upstream_day": 92,
-  "day": 148,
+  "day": 152,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 14,
  "incidents": [
   {
-   "id": "9834080",
-   "sequence": "2026-11-39033",
-   "type": "Repossessed Auto",
+   "id": "9834085",
+   "sequence": "2026-11-39037",
+   "type": "Unknown 911",
    "status": "Queued",
-   "status_at": "2026-11-28T08:46:38Z",
-   "created": "2026-11-28T08:46:38Z",
+   "status_at": "2026-11-28T08:55:19Z",
+   "created": "2026-11-28T08:53:28Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,39 +23,91 @@
    "agency_types": [
     "Law"
    ],
-   "address": "2119 DELANO DR",
-   "cross": "ELENA DR/QUEENS DR",
+   "address": "510 CENTRAL DR",
+   "cross": "WHIRLAWAY DR/CHARLES DR",
    "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 0",
-   "lat": 35.067317,
-   "lon": -85.267169,
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.021851,
+   "lon": -85.194085,
    "units": 1,
    "stacked": false,
    "notable": false
   },
   {
-   "id": "9834079",
-   "sequence": "2026-11-39032",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T08:44:20Z",
-   "jurisdiction": "Soddy Daisy PD",
+   "id": "9834082",
+   "sequence": "2026-11-39035",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T08:52:54Z",
+   "created": "2026-11-28T08:52:54Z",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Soddy Daisy PD"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "10944 WARD RD",
-   "cross": "MCAFEE RD/DAVENPORT RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 4",
-   "lat": 35.275728,
-   "lon": -85.172436,
+   "address": "911 LINDEN HALL RD",
+   "cross": "OAK KNOLL DR/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.102703,
+   "lon": -85.280125,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834083",
+   "sequence": "2026-11-39036",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T08:52:54Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "911 LINDEN HALL RD",
+   "cross": "OAK KNOLL DR/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "1601",
+   "priority": "PRI 1",
+   "lat": 35.102703,
+   "lon": -85.280125,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834081",
+   "sequence": "2026-11-39034",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T08:52:28Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "911 LINDEN HALL RD",
+   "cross": "OAK KNOLL DR/HIXSON PIKE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.102703,
+   "lon": -85.280125,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +116,8 @@
    "id": "9834063",
    "sequence": "2026-11-39024",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T08:55:24Z",
    "created": "2026-11-28T08:33:04Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
