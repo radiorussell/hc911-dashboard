@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T07:30:36+00:00",
+ "updated": "2026-11-28T07:35:38+00:00",
  "counts": {
   "year": 375886,
   "upstream_day": 67,
   "day": 109,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9834026",
    "sequence": "2026-11-38994",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T07:29:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T07:29:04Z",
    "jurisdiction": "Dallas Bay VFD",
    "agencies": [
@@ -142,8 +142,8 @@
    "id": "9834017",
    "sequence": "2026-11-38985",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T07:23:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T07:35:07Z",
    "created": "2026-11-28T07:11:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -189,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833777",
-   "sequence": "2026-11-38791",
-   "type": "Residential Fire",
-   "status": "On Scene",
-   "status_at": "2026-11-28T03:45:35Z",
-   "created": "2026-11-28T03:17:17Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14104 BLUFF VIEW DR",
-   "cross": "PARKER LOOP RD/SUGAR TREE TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 2",
-   "lat": 35.353771,
-   "lon": -85.03887,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833713",
