@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-28T14:20:38+00:00",
+ "updated": "2026-11-28T14:25:37+00:00",
  "counts": {
   "year": 376030,
   "upstream_day": 211,
-  "day": 314,
+  "day": 320,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9834309",
+   "sequence": "2026-11-39204",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:24:08Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1611 MACK SMITH RD",
+   "cross": "BURR ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "ERPD EAST",
+   "priority": "PRI 1",
+   "lat": 34.986929,
+   "lon": -85.210958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834310",
+   "sequence": "2026-11-39205",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:24:08Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1611 MACK SMITH RD",
+   "cross": "BURR ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.986929,
+   "lon": -85.210958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834307",
+   "sequence": "2026-11-39203",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:23:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1611 MACK SMITH RD",
+   "cross": "BURR ST/BRACK ST",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.986929,
+   "lon": -85.210958,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834304",
+   "sequence": "2026-11-39200",
+   "type": "Supplemental Reports",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:20:10Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8737 STREAMSIDE DR",
+   "cross": "TRANQUILITY DR/KAYLA BETH CT",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 4",
+   "lat": 35.118924,
+   "lon": -85.053741,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834305",
    "sequence": "2026-11-39199",
    "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-28T14:19:58Z",
    "created": "2026-11-28T14:19:10Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -31,67 +135,15 @@
    "lat": 34.996637,
    "lon": -85.242414,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834290",
-   "sequence": "2026-11-39193",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:15:18Z",
-   "created": "2026-11-28T14:04:46Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1109 HARBOR LANDING DR",
-   "cross": "HARBOR POINT DR/CLIFT CAVE DR",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.275016,
-   "lon": -85.134848,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9834289",
-   "sequence": "2026-11-39192",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T14:02:15Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4417 HIGHWAY 58",
-   "cross": "MURRAY HILLS DR/SHELBORNE DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.084699,
-   "lon": -85.202247,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
    "id": "9834281",
    "sequence": "2026-11-39187",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T14:12:33Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T14:20:58Z",
    "created": "2026-11-28T13:58:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -113,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9834278",
-   "sequence": "2026-11-39184",
-   "type": "Property",
-   "status": "Enroute",
-   "status_at": "2026-11-28T14:10:54Z",
-   "created": "2026-11-28T13:54:55Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5319 RINGGOLD RD",
-   "cross": "REBECCA DR/KARWILL LN",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.995078,
-   "lon": -85.233004,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834276",
-   "sequence": "2026-11-39180",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:50:04Z",
-   "created": "2026-11-28T13:50:04Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6946 GLEN ERROL WAY",
-   "cross": "FRAWLEY RD/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 2",
-   "lat": 34.995835,
-   "lon": -85.185897,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834274",
    "sequence": "2026-11-39179",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:59:00Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T14:21:07Z",
    "created": "2026-11-28T13:49:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -262,32 +262,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "TRI-COMM FD 5-3-CATOOSA B",
    "priority": "PRI 2",
-   "lat": 34.999394,
-   "lon": -85.09552,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834241",
-   "sequence": "2026-11-39153",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:39:22Z",
-   "created": "2026-11-28T13:25:46Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9652 E BRAINERD RD",
-   "cross": "WATERBURY LN/OOLTEWAH RINGGOLD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 07 HC B",
-   "priority": "PRI 1",
    "lat": 34.999394,
    "lon": -85.09552,
    "units": 1,
