@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T03:20:37+00:00",
+ "updated": "2026-11-28T03:25:36+00:00",
  "counts": {
   "year": 375733,
   "upstream_day": 0,
-  "day": 1078,
+  "day": 1083,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 22,
  "incidents": [
+  {
+   "id": "9833784",
+   "sequence": "2026-11-38798",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T03:25:11Z",
+   "created": "2026-11-28T03:25:06Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5801 TALLADEGA DR",
+   "cross": "BUNCH ST/DIXON ST",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.041468,
+   "lon": -85.193158,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833783",
+   "sequence": "2026-11-38794",
+   "type": "Domestic Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:23:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6614 HILLBROOK LN",
+   "cross": "NORTHMONT RD/DALEMONT LN",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 2",
+   "lat": 35.167087,
+   "lon": -85.235716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833782",
+   "sequence": "2026-11-38795",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T03:24:00Z",
+   "created": "2026-11-28T03:23:13Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "825 RUNYAN DR",
+   "cross": "MUNDY ST/N RUNYAN DR",
+   "city": "CHATTANOOGA",
+   "zone": "A5",
+   "priority": "PRI 3",
+   "lat": 35.101687,
+   "lon": -85.321286,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833781",
    "sequence": "2026-11-38793",
@@ -38,8 +116,8 @@
    "id": "9833777",
    "sequence": "2026-11-38791",
    "type": "Residential Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Stacked",
+   "status_at": "2026-11-28T03:17:17Z",
    "created": "2026-11-28T03:17:17Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -57,7 +135,7 @@
    "lat": 35.353771,
    "lon": -85.03887,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": true
   },
   {
@@ -186,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.046688,
    "lon": -85.261282,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833747",
-   "sequence": "2026-11-38774",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:54:56Z",
-   "created": "2026-11-28T02:54:56Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 1",
-   "lat": 35.233251,
-   "lon": -85.174425,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -350,8 +402,8 @@
    "id": "9833707",
    "sequence": "2026-11-38753",
    "type": "Auto Theft",
-   "status": "Stacked",
-   "status_at": "2026-11-28T02:34:09Z",
+   "status": "Enroute",
+   "status_at": "2026-11-28T02:42:53Z",
    "created": "2026-11-28T02:29:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -369,7 +421,7 @@
    "lat": 35.032135,
    "lon": -85.156746,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -394,32 +446,6 @@
    "priority": "PRI 1",
    "lat": 35.023049,
    "lon": -85.142679,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833702",
-   "sequence": "2026-11-38743",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:32:44Z",
-   "created": "2026-11-28T02:27:55Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2406 E 5TH ST",
-   "cross": "DERBY ST/KILMER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.03582,
-   "lon": -85.264379,
    "units": 1,
    "stacked": false,
    "notable": false
