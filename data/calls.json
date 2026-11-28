@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T02:30:38+00:00",
+ "updated": "2026-11-28T02:35:37+00:00",
  "counts": {
   "year": 375687,
   "upstream_day": 0,
-  "day": 1034,
+  "day": 1041,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
+  {
+   "id": "9833714",
+   "sequence": "2026-11-38755",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:34:12Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "W 4TH ST / BROAD ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 06 CH A",
+   "priority": "PRI 1",
+   "lat": 35.052288,
+   "lon": -85.310659,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833715",
+   "sequence": "2026-11-38756",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:34:12Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "W 4TH ST / BROAD ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "101 B",
+   "priority": "PRI 1",
+   "lat": 35.052288,
+   "lon": -85.310659,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833713",
+   "sequence": "2026-11-38754",
+   "type": "Shooting/Person Shot",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:33:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "W 4TH ST / BROAD ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A7",
+   "priority": "PRI 1",
+   "lat": 35.052288,
+   "lon": -85.310659,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833710",
+   "sequence": "2026-11-38751",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:32:28Z",
+   "created": "2026-11-28T02:31:50Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "601 - 609 TREMONT ST",
+   "cross": "ORR ST/TREMONT PL",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 3",
+   "lat": 35.067155,
+   "lon": -85.298771,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833708",
    "sequence": "2026-11-38748",
@@ -38,8 +142,8 @@
    "id": "9833709",
    "sequence": "2026-11-38749",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:34:50Z",
    "created": "2026-11-28T02:29:45Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -61,11 +165,37 @@
    "notable": false
   },
   {
+   "id": "9833707",
+   "sequence": "2026-11-38753",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:34:09Z",
+   "created": "2026-11-28T02:29:26Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2102 HAMILTON PLACE BLVD",
+   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 4",
+   "lat": 35.032135,
+   "lon": -85.156746,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833706",
    "sequence": "2026-11-38746",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:29:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T02:29:22Z",
    "jurisdiction": "Collegedale PD",
    "agencies": [
@@ -116,8 +246,8 @@
    "id": "9833698",
    "sequence": "2026-11-38741",
    "type": "Auto Broken Down",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:32:13Z",
    "created": "2026-11-28T02:24:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +324,8 @@
    "id": "9833690",
    "sequence": "2026-11-38735",
    "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:31:09Z",
    "created": "2026-11-28T02:20:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +373,6 @@
    "notable": false
   },
   {
-   "id": "9833685",
-   "sequence": "2026-11-38729",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T02:19:05Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2108 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.037677,
-   "lon": -85.159531,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833686",
    "sequence": "2026-11-38730",
    "type": "EMS CALL",
@@ -295,37 +399,11 @@
    "notable": false
   },
   {
-   "id": "9833683",
-   "sequence": "2026-11-38727",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:24:32Z",
-   "created": "2026-11-28T02:18:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2108 HAMILTON PLACE BLVD",
-   "cross": "EXIT 4A ON RAMP SB/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.037677,
-   "lon": -85.159531,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833675",
    "sequence": "2026-11-38722",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:32:03Z",
    "created": "2026-11-28T02:12:43Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -342,32 +420,6 @@
    "priority": "PRI 4",
    "lat": 35.012915,
    "lon": -85.227459,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833661",
-   "sequence": "2026-11-38711",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:06:08Z",
-   "created": "2026-11-28T01:53:33Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2231 MORRIS HILL RD",
-   "cross": "BRANDERMILL LN/RED TAIL LN",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.02934,
-   "lon": -85.123701,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -425,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9833632",
-   "sequence": "2026-11-38693",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-28T01:53:55Z",
-   "created": "2026-11-28T01:38:23Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3635 RINGGOLD RD",
-   "cross": "S GERMANTOWN RD/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 4",
-   "lat": 35.002611,
-   "lon": -85.258856,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833617",
    "sequence": "2026-11-38679",
    "type": "Auto Broken Down Road",
@@ -472,32 +498,6 @@
    "priority": "PRI 2",
    "lat": 35.145066,
    "lon": -85.315038,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833589",
-   "sequence": "2026-11-38656",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T01:50:14Z",
-   "created": "2026-11-28T00:54:06Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1410 LEE PIKE",
-   "cross": "ARAPAHO DR/LUTHERAN WAY",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 02 HC A",
-   "priority": "PRI 1",
-   "lat": 35.307899,
-   "lon": -85.105099,
    "units": 1,
    "stacked": false,
    "notable": false
