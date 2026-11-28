@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-28T10:20:37+00:00",
+ "updated": "2026-11-28T10:25:38+00:00",
  "counts": {
   "year": 375944,
   "upstream_day": 125,
-  "day": 187,
+  "day": 192,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9834142",
+   "sequence": "2026-11-39077",
+   "type": "Repossessed Auto",
+   "status": "Queued",
+   "status_at": "2026-11-28T10:25:29Z",
+   "created": "2026-11-28T10:25:29Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4808 ARROWHEAD TRL",
+   "cross": "WOODVALE AVE/N MOORE RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 0",
+   "lat": 35.023908,
+   "lon": -85.223512,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834141",
+   "sequence": "2026-11-39076",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T10:24:37Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1810 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.025475,
+   "lon": -85.15756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834132",
    "sequence": "2026-11-39072",
@@ -90,8 +142,8 @@
    "id": "9834124",
    "sequence": "2026-11-39067",
    "type": "Abandoned Auto",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T10:22:28Z",
    "created": "2026-11-28T10:00:50Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9834058",
    "sequence": "2026-11-39017",
    "type": "Shots Fired",
-   "status": "Stacked",
-   "status_at": "2026-11-28T08:29:11Z",
+   "status": "On Scene",
+   "status_at": "2026-11-28T08:58:19Z",
    "created": "2026-11-28T08:28:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -187,7 +239,7 @@
    "lat": 35.072655,
    "lon": -85.24804,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": true
   },
   {
