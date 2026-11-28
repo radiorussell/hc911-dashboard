@@ -1,13 +1,221 @@
 {
- "updated": "2026-11-28T00:45:37+00:00",
+ "updated": "2026-11-28T00:50:38+00:00",
  "counts": {
-  "year": 375610,
+  "year": 375619,
   "upstream_day": 0,
-  "day": 928,
+  "day": 939,
   "day_basis": "midnight"
  },
- "raw_rows": 30,
+ "raw_rows": 36,
  "incidents": [
+  {
+   "id": "9833586",
+   "sequence": "2026-11-38653",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:50:15Z",
+   "created": "2026-11-28T00:50:15Z",
+   "jurisdiction": "Signal Mountain PD",
+   "agencies": [
+    "Signal Mountain PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN 2 A",
+   "priority": "PRI 3",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833587",
+   "sequence": "2026-11-38654",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:50:15Z",
+   "created": "2026-11-28T00:50:15Z",
+   "jurisdiction": "Signal Mountain FD",
+   "agencies": [
+    "Signal Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "SIGNAL MOUNTAIN FD 1",
+   "priority": "PRI 3",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833584",
+   "sequence": "2026-11-38652",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:50:15Z",
+   "created": "2026-11-28T00:49:54Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "503 S PALISADES DR",
+   "cross": "ACACIA PL/ALDER PL",
+   "city": "SIGNAL MOUNTAIN",
+   "zone": "MEDIC 08 SM G",
+   "priority": "PRI 1",
+   "lat": 35.112138,
+   "lon": -85.343981,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833582",
+   "sequence": "2026-11-38648",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:48:32Z",
+   "created": "2026-11-28T00:48:32Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2467 15TH AVE",
+   "cross": "No Cross Street/WESTSIDE DR",
+   "city": "CHATTANOOGA",
+   "zone": "502 B",
+   "priority": "PRI 1",
+   "lat": 35.013349,
+   "lon": -85.271384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833581",
+   "sequence": "2026-11-38647",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:48:32Z",
+   "created": "2026-11-28T00:48:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2467 15TH AVE",
+   "cross": "No Cross Street/WESTSIDE DR",
+   "city": "CHATTANOOGA",
+   "zone": "B6A",
+   "priority": "PRI 3",
+   "lat": 35.013349,
+   "lon": -85.271384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833579",
+   "sequence": "2026-11-38646",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:48:16Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2467 15TH AVE",
+   "cross": "No Cross Street/WESTSIDE DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.013349,
+   "lon": -85.271384,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833577",
+   "sequence": "2026-11-38644",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": "2026-11-28T00:48:31Z",
+   "created": "2026-11-28T00:45:35Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1330 E 3RD ST",
+   "cross": "N HOLTZCLAW AVE/N HIGHLAND PARK AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 3",
+   "lat": 35.043072,
+   "lon": -85.279331,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833576",
+   "sequence": "2026-11-38645",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:45:34Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "11501 - 11599 DAYTON PIKE",
+   "cross": "DURHAM ST/DEPOT ST",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 12",
+   "priority": "PRI 3",
+   "lat": 35.289252,
+   "lon": -85.155231,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833575",
    "sequence": "2026-11-38642",
@@ -64,8 +272,8 @@
    "id": "9833572",
    "sequence": "2026-11-38639",
    "type": "Alarm Distress",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:43:44Z",
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:49:45Z",
    "created": "2026-11-28T00:43:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +298,8 @@
    "id": "9833571",
    "sequence": "2026-11-38638",
    "type": "Auto Improperly Parked",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:42:44Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T00:42:29Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +428,8 @@
    "id": "9833558",
    "sequence": "2026-11-38631",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:37:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T00:37:17Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -269,32 +477,6 @@
    "notable": false
   },
   {
-   "id": "9833549",
-   "sequence": "2026-11-38628",
-   "type": "Unknown 911",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T00:33:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2240 TUNNEL BLVD",
-   "cross": "WILDWOOD ST/GREEN FOREST DR",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.0571,
-   "lon": -85.23109,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833544",
    "sequence": "2026-11-38625",
    "type": "Narcotics Violation",
@@ -324,8 +506,8 @@
    "id": "9833540",
    "sequence": "2026-11-38623",
    "type": "Well Being Check",
-   "status": "Stacked",
-   "status_at": "2026-11-28T00:30:32Z",
+   "status": "Enroute",
+   "status_at": "2026-11-28T00:48:24Z",
    "created": "2026-11-28T00:29:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -343,7 +525,7 @@
    "lat": 35.092544,
    "lon": -85.202762,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
@@ -399,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9833535",
-   "sequence": "2026-11-38617",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:23:37Z",
-   "created": "2026-11-28T00:23:37Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8000 HARRISON BAY RD",
-   "cross": "HIGHWAY 58/LASATA LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.155436,
-   "lon": -85.105733,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833534",
    "sequence": "2026-11-38616",
    "type": "EMS CALL",
@@ -443,6 +599,32 @@
    "cross": "HIGHWAY 58/LASATA LN",
    "city": "HAMILTON COUNTY",
    "zone": "MEDIC 15 HC",
+   "priority": "PRI 1",
+   "lat": 35.155436,
+   "lon": -85.105733,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833535",
+   "sequence": "2026-11-38617",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:23:37Z",
+   "created": "2026-11-28T00:23:37Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "8000 HARRISON BAY RD",
+   "cross": "HIGHWAY 58/LASATA LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 2",
    "priority": "PRI 1",
    "lat": 35.155436,
    "lon": -85.105733,
@@ -654,32 +836,6 @@
    "priority": "PRI 1",
    "lat": 34.98796,
    "lon": -85.297766,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833413",
-   "sequence": "2026-11-38521",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T00:21:12Z",
-   "created": "2026-11-27T22:46:24Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "9708 OOLTEWAH GEORGETOWN RD",
-   "cross": "ELBERMAET LN/TRIPLE J TRL",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 01 HC",
-   "priority": "PRI 1",
-   "lat": 35.198103,
-   "lon": -85.011444,
    "units": 1,
    "stacked": false,
    "notable": false
