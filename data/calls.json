@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T14:40:36+00:00",
+ "updated": "2026-11-28T14:45:36+00:00",
  "counts": {
   "year": 376037,
   "upstream_day": 218,
-  "day": 325,
+  "day": 331,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9834323",
+   "sequence": "2026-11-39216",
+   "type": "Harassment",
+   "status": "Queued",
+   "status_at": "2026-11-28T14:45:10Z",
+   "created": "2026-11-28T14:44:21Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "621 E MARTIN LUTHER KING BLVD",
+   "cross": "UNIVERSITY ST/PEEPLES ST",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 4",
+   "lat": 35.043119,
+   "lon": -85.300586,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834315",
    "sequence": "2026-11-39209",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T14:44:30Z",
    "created": "2026-11-28T14:35:14Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9834313",
    "sequence": "2026-11-39208",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T14:43:46Z",
    "created": "2026-11-28T14:34:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
