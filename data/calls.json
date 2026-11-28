@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-28T15:30:38+00:00",
+ "updated": "2026-11-28T15:35:37+00:00",
  "counts": {
   "year": 376067,
   "upstream_day": 248,
-  "day": 373,
+  "day": 377,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9834380",
+   "sequence": "2026-11-39261",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:33:02Z",
+   "created": "2026-11-28T15:33:02Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "110 ISBILL RD",
+   "cross": "KELLYS FERRY RD/CENTERVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "A13 A",
+   "priority": "PRI 3",
+   "lat": 35.025804,
+   "lon": -85.37501,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834381",
+   "sequence": "2026-11-39262",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:33:02Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "110 ISBILL RD",
+   "cross": "KELLYS FERRY RD/CENTERVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "301",
+   "priority": "PRI 3",
+   "lat": 35.025804,
+   "lon": -85.37501,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834378",
+   "sequence": "2026-11-39260",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:32:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "110 ISBILL RD",
+   "cross": "KELLYS FERRY RD/CENTERVIEW LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 10 CH A",
+   "priority": "PRI 1",
+   "lat": 35.025804,
+   "lon": -85.37501,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834374",
    "sequence": "2026-11-39258",
    "type": "Civil Matter",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:29:21Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T15:28:49Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -87,32 +165,6 @@
    "notable": false
   },
   {
-   "id": "9834370",
-   "sequence": "2026-11-39254",
-   "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:27:22Z",
-   "created": "2026-11-28T15:27:17Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5048 IRVIN RD",
-   "cross": "CHRISTOPHER RD/PINE VIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 3",
-   "lat": 35.092169,
-   "lon": -85.170019,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834371",
    "sequence": "2026-11-39255",
    "type": "EMS CALL",
@@ -168,8 +220,8 @@
    "id": "9834368",
    "sequence": "2026-11-39252",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:35:15Z",
    "created": "2026-11-28T15:22:45Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +272,8 @@
    "id": "9834363",
    "sequence": "2026-11-39249",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:33:18Z",
    "created": "2026-11-28T15:17:49Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +298,8 @@
    "id": "9834362",
    "sequence": "2026-11-39247",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:33:17Z",
    "created": "2026-11-28T15:17:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -376,8 +428,8 @@
    "id": "9834354",
    "sequence": "2026-11-39240",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:34:35Z",
    "created": "2026-11-28T15:15:08Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
