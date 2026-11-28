@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T06:15:38+00:00",
+ "updated": "2026-11-28T06:20:36+00:00",
  "counts": {
-  "year": 375850,
-  "upstream_day": 31,
-  "day": 68,
+  "year": 375859,
+  "upstream_day": 40,
+  "day": 73,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 17,
  "incidents": [
+  {
+   "id": "9833978",
+   "sequence": "2026-11-38958",
+   "type": "Disorder",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:19:18Z",
+   "created": "2026-11-28T06:18:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4518 HIXSON PIKE",
+   "cross": "HAMILL RD/BAGWELL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 3",
+   "lat": 35.120258,
+   "lon": -85.246281,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833971",
    "sequence": "2026-11-38952",
@@ -64,8 +90,8 @@
    "id": "9833969",
    "sequence": "2026-11-38951",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T06:16:06Z",
    "created": "2026-11-28T06:06:45Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.062936,
    "lon": -85.147151,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833954",
-   "sequence": "2026-11-38937",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T05:59:58Z",
-   "created": "2026-11-28T05:53:30Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1109 MOSS DR",
-   "cross": "MOSS ST/HOYT ST",
-   "city": "CHATTANOOGA",
-   "zone": "1501",
-   "priority": "PRI 1",
-   "lat": 35.042483,
-   "lon": -85.243678,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -238,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.013446,
    "lon": -85.107463,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833936",
-   "sequence": "2026-11-38927",
-   "type": "Domestic Disorder",
-   "status": "Enroute",
-   "status_at": "2026-11-28T05:38:29Z",
-   "created": "2026-11-28T05:31:12Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7912 MILLER RD",
-   "cross": "THRASHER PIKE/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 4",
-   "priority": "PRI 2",
-   "lat": 35.192771,
-   "lon": -85.191652,
    "units": 1,
    "stacked": false,
    "notable": false
