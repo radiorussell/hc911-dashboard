@@ -1,39 +1,13 @@
 {
- "updated": "2026-11-28T01:10:36+00:00",
+ "updated": "2026-11-28T01:15:37+00:00",
  "counts": {
   "year": 375642,
   "upstream_day": 0,
-  "day": 954,
+  "day": 953,
   "day_basis": "midnight"
  },
- "raw_rows": 35,
+ "raw_rows": 28,
  "incidents": [
-  {
-   "id": "9833604",
-   "sequence": "2026-11-38669",
-   "type": "Shots Fired",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:08:56Z",
-   "created": "2026-11-28T01:08:48Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "706 ELY RD",
-   "cross": "PAULA LN/BITSY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.122396,
-   "lon": -85.275289,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
   {
    "id": "9833602",
    "sequence": "2026-11-38667",
@@ -108,32 +82,6 @@
    "priority": "PRI 1",
    "lat": 35.072936,
    "lon": -85.24227,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833596",
-   "sequence": "2026-11-38662",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:06:14Z",
-   "created": "2026-11-28T01:05:43Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "TENNESSEE AVE / ST ELMO AVE",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 3",
-   "lat": 35.008945,
-   "lon": -85.328064,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -373,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9833581",
-   "sequence": "2026-11-38647",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:48:32Z",
-   "created": "2026-11-28T00:48:32Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2467 15TH AVE",
-   "cross": "No Cross Street/WESTSIDE DR",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 3",
-   "lat": 35.013349,
-   "lon": -85.271384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833579",
    "sequence": "2026-11-38646",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:57:34Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T01:14:14Z",
    "created": "2026-11-28T00:48:16Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -420,32 +342,6 @@
    "priority": "PRI 1",
    "lat": 35.013349,
    "lon": -85.271384,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833576",
-   "sequence": "2026-11-38645",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:54:23Z",
-   "created": "2026-11-28T00:45:34Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11501 - 11599 DAYTON PIKE",
-   "cross": "DURHAM ST/DEPOT ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.289252,
-   "lon": -85.155231,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -498,58 +394,6 @@
    "priority": "PRI 4",
    "lat": 35.40242,
    "lon": -85.102327,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833553",
-   "sequence": "2026-11-38630",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:54:07Z",
-   "created": "2026-11-28T00:35:09Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2100 HAMILTON PLACE BLVD",
-   "cross": "I-75 SB @ HAMILTON PLACE BLVD - ON RAMP/BAMS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C7",
-   "priority": "PRI 3",
-   "lat": 35.034528,
-   "lon": -85.158706,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833544",
-   "sequence": "2026-11-38625",
-   "type": "Narcotics Violation",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T00:31:58Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3006 4TH AVE",
-   "cross": "E 30TH ST/E 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "B8",
-   "priority": "PRI 3",
-   "lat": 35.00843,
-   "lon": -85.284482,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -760,32 +604,6 @@
    "lon": -85.04911,
    "units": 1,
    "stacked": true,
-   "notable": false
-  },
-  {
-   "id": "9833442",
-   "sequence": "2026-11-38544",
-   "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:08:04Z",
-   "created": "2026-11-27T23:08:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1607 BAILEY AVE",
-   "cross": "S HOLLY ST/S HICKORY ST",
-   "city": "CHATTANOOGA",
-   "zone": "B5",
-   "priority": "PRI 3",
-   "lat": 35.034948,
-   "lon": -85.279477,
-   "units": 1,
-   "stacked": false,
    "notable": false
   },
   {
