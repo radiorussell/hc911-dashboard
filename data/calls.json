@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T15:55:38+00:00",
+ "updated": "2026-11-28T16:00:37+00:00",
  "counts": {
-  "year": 376083,
-  "upstream_day": 264,
-  "day": 396,
+  "year": 376091,
+  "upstream_day": 272,
+  "day": 399,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9834410",
+   "sequence": "2026-11-39284",
+   "type": "Aircraft Crash",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:55:49Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4621 MCDONALD RD",
+   "cross": "BLAIR RD/WITS END LN",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE EAST",
+   "priority": "PRI 1",
+   "lat": 35.046711,
+   "lon": -85.017219,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834409",
+   "sequence": "2026-11-39283",
+   "type": "Aircraft Crash",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:55:49Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "5100 BESS MOORE RD",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "MEDIC 05 CO B",
+   "priority": "PRI 1",
+   "lat": 35.039712,
+   "lon": -85.024161,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834408",
+   "sequence": "2026-11-39282",
+   "type": "Aircraft Crash",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:54:44Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "5100 BESS MOORE RD",
+   "cross": "APISON PIKE/No Cross Street",
+   "city": "COLLEGEDALE",
+   "zone": "TRI-COMM FD 1-3 CO A",
+   "priority": "PRI 1",
+   "lat": 35.039712,
+   "lon": -85.024161,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834406",
    "sequence": "2026-11-39281",
@@ -38,8 +116,8 @@
    "id": "9834405",
    "sequence": "2026-11-39278",
    "type": "Deceptive Practice",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:50:35Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T15:50:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -65,7 +143,7 @@
    "sequence": "2026-11-39279",
    "type": "Deceptive Practice",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T15:57:02Z",
    "created": "2026-11-28T15:48:33Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -82,58 +160,6 @@
    "priority": "PRI 4",
    "lat": 35.397099,
    "lon": -85.106873,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834401",
-   "sequence": "2026-11-39277",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:49:56Z",
-   "created": "2026-11-28T15:48:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1243 E 35TH ST",
-   "cross": "BRANNON AVE/JEROME AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B7A",
-   "priority": "PRI 4",
-   "lat": 35.00424,
-   "lon": -85.297386,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834400",
-   "sequence": "2026-11-39280",
-   "type": "Unknown Trouble",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T15:47:40Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1802 HAMILL RD",
-   "cross": "BAGWELL AVE/STRAWBERRY LN",
-   "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 1",
-   "lat": 35.121132,
-   "lon": -85.243176,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +194,8 @@
    "id": "9834398",
    "sequence": "2026-11-39274",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:51:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T16:00:36Z",
    "created": "2026-11-28T15:46:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -680,32 +706,6 @@
    "priority": "PRI 1",
    "lat": 35.066359,
    "lon": -85.307699,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834338",
-   "sequence": "2026-11-39226",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:59:47Z",
-   "created": "2026-11-28T14:52:42Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3005 DODSON AVE",
-   "cross": "STUART ST/WILDER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B2",
-   "priority": "PRI 4",
-   "lat": 35.072182,
-   "lon": -85.250377,
    "units": 1,
    "stacked": false,
    "notable": false
