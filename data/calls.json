@@ -1,20 +1,72 @@
 {
- "updated": "2026-11-28T13:45:36+00:00",
+ "updated": "2026-11-28T13:50:40+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
-  "day": 287,
+  "day": 295,
   "day_basis": "midnight"
  },
  "raw_rows": 15,
  "incidents": [
   {
-   "id": "9834265",
-   "sequence": "2026-11-39172",
-   "type": "Unknown 911",
+   "id": "9834276",
+   "sequence": "2026-11-39180",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-28T13:44:33Z",
-   "created": "2026-11-28T13:44:22Z",
+   "status_at": "2026-11-28T13:50:04Z",
+   "created": "2026-11-28T13:50:04Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6946 GLEN ERROL WAY",
+   "cross": "FRAWLEY RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 2",
+   "priority": "PRI 2",
+   "lat": 34.995835,
+   "lon": -85.185897,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834274",
+   "sequence": "2026-11-39179",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T13:50:04Z",
+   "created": "2026-11-28T13:49:40Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6946 GLEN ERROL WAY",
+   "cross": "FRAWLEY RD/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 34.995835,
+   "lon": -85.185897,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834272",
+   "sequence": "2026-11-39177",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T13:49:08Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +75,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4611 PLAZA HILLS LN",
-   "cross": "No Cross Street/DELASHMITT RD",
+   "address": "MARKET ST / W 20TH ST",
+   "cross": "",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
+   "zone": "A10",
    "priority": "PRI 3",
-   "lat": 35.127444,
-   "lon": -85.265728,
+   "lat": 35.031474,
+   "lon": -85.308821,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834270",
+   "sequence": "2026-11-39175",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T13:47:18Z",
+   "created": "2026-11-28T13:47:18Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3021 ALTON PARK BLVD",
+   "cross": "SHIPP AVE/W 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "1404",
+   "priority": "PRI 2",
+   "lat": 35.019709,
+   "lon": -85.315427,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -113,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9834254",
-   "sequence": "2026-11-39162",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:30:54Z",
-   "created": "2026-11-28T13:30:54Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1724 RIVERGATE TER",
-   "cross": "BAYFRONT DR/RIVERGATE BAY LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 6",
-   "priority": "PRI 3",
-   "lat": 35.283786,
-   "lon": -85.105154,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834255",
    "sequence": "2026-11-39163",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T13:50:36Z",
    "created": "2026-11-28T13:30:54Z",
    "jurisdiction": "Sale Creek VFD",
    "agencies": [
@@ -168,8 +220,8 @@
    "id": "9834252",
    "sequence": "2026-11-39161",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T13:45:39Z",
    "created": "2026-11-28T13:30:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,32 +243,6 @@
    "notable": false
   },
   {
-   "id": "9834249",
-   "sequence": "2026-11-39160",
-   "type": "Auto Improperly Parked",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T13:29:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2702 E 21ST ST",
-   "cross": "12TH AVE/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "B6A",
-   "priority": "PRI 4",
-   "lat": 35.015889,
-   "lon": -85.271134,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834244",
    "sequence": "2026-11-39157",
    "type": "Police Assist Citizen",
@@ -231,13 +257,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3410 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "1949 NORTHPOINT BLVD",
+   "cross": "HIGHWAY 153/PRESCHOOL LN",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "A1",
    "priority": "PRI 3",
-   "lat": 35.081783,
-   "lon": -85.26321,
+   "lat": 35.139184,
+   "lon": -85.241889,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -290,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 34.999394,
    "lon": -85.09552,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834240",
-   "sequence": "2026-11-39152",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-28T13:38:21Z",
-   "created": "2026-11-28T13:25:04Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1903 BLACKFORD ST",
-   "cross": "N ORCHARD KNOB AVE/ROANOKE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.042574,
-   "lon": -85.270846,
    "units": 1,
    "stacked": false,
    "notable": false
