@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T01:15:37+00:00",
+ "updated": "2026-11-28T01:20:37+00:00",
  "counts": {
-  "year": 375642,
+  "year": 375647,
   "upstream_day": 0,
-  "day": 953,
+  "day": 960,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9833613",
+   "sequence": "2026-11-38675",
+   "type": "Open Door or Window",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:16:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2511 RIVERSIDE DR",
+   "cross": "LATTA ST/APPLING ST",
+   "city": "CHATTANOOGA",
+   "zone": "B2",
+   "priority": "PRI 1",
+   "lat": 35.070248,
+   "lon": -85.261459,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833602",
    "sequence": "2026-11-38667",
@@ -64,8 +90,8 @@
    "id": "9833601",
    "sequence": "2026-11-38666",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:18:31Z",
    "created": "2026-11-28T01:08:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9833592",
    "sequence": "2026-11-38660",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:59:11Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T00:58:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -373,32 +399,6 @@
    "notable": false
   },
   {
-   "id": "9833558",
-   "sequence": "2026-11-38631",
-   "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:52:51Z",
-   "created": "2026-11-28T00:37:17Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "15830 DAYTON PIKE",
-   "cross": "COULTERVILLE RD/CAP ELSEA RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 4",
-   "lat": 35.40242,
-   "lon": -85.102327,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833540",
    "sequence": "2026-11-38623",
    "type": "Well Being Check",
@@ -498,32 +498,6 @@
    "priority": "PRI 3",
    "lat": 35.008709,
    "lon": -85.205213,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833518",
-   "sequence": "2026-11-38601",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T01:00:49Z",
-   "created": "2026-11-28T00:10:01Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "MEDIC 12 SD F",
-   "priority": "PRI 1",
-   "lat": 35.233251,
-   "lon": -85.174425,
    "units": 1,
    "stacked": false,
    "notable": false
