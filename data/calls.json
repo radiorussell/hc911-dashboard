@@ -1,61 +1,35 @@
 {
- "updated": "2026-11-28T05:20:38+00:00",
+ "updated": "2026-11-28T05:25:38+00:00",
  "counts": {
   "year": 375820,
   "upstream_day": 1,
-  "day": 27,
+  "day": 33,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
   {
-   "id": "9833917",
-   "sequence": "2026-11-38912",
-   "type": "Unknown Trouble",
-   "status": "Queued",
-   "status_at": "2026-11-28T05:20:11Z",
-   "created": "2026-11-28T05:19:36Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9833926",
+   "sequence": "2026-11-38918",
+   "type": "Unknown 911",
+   "status": "Enroute",
+   "status_at": "2026-11-28T05:25:15Z",
+   "created": "2026-11-28T05:23:22Z",
+   "jurisdiction": "East Ridge PD",
    "agencies": [
-    "Chattanooga PD"
+    "East Ridge PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "936 MOUNTAIN CREEK RD",
-   "cross": "W RD/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "A5",
-   "priority": "PRI 1",
-   "lat": 35.106037,
-   "lon": -85.323944,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833884",
-   "sequence": "2026-11-38883",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T05:08:02Z",
-   "created": "2026-11-28T04:44:31Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "201 LANCASTER AVE",
-   "cross": "ELMORE AVE/BERKLEY DR",
-   "city": "RED BANK",
-   "zone": "MEDIC 06 RB C",
-   "priority": "PRI 1",
-   "lat": 35.105626,
-   "lon": -85.300093,
+   "address": "4222 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996012,
+   "lon": -85.241573,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -186,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.016821,
    "lon": -85.153728,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833787",
-   "sequence": "2026-11-38799",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": "2026-11-28T03:25:11Z",
-   "created": "2026-11-28T03:25:11Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9400 HIGHWAY 58",
-   "cross": "SIMS RD/FERRELL FARMS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 4",
-   "priority": "PRI 3",
-   "lat": 35.196383,
-   "lon": -85.044674,
    "units": 1,
    "stacked": false,
    "notable": false
