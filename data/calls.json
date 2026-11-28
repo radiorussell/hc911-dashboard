@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T06:50:37+00:00",
+ "updated": "2026-11-28T06:55:37+00:00",
  "counts": {
   "year": 375868,
   "upstream_day": 49,
-  "day": 90,
+  "day": 92,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 14,
  "incidents": [
+  {
+   "id": "9834004",
+   "sequence": "2026-11-38977",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T06:50:41Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834003",
    "sequence": "2026-11-38975",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:50:33Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:48:55Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9833989",
    "sequence": "2026-11-38964",
    "type": "Miscellaneous Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:33:36Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:28:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
