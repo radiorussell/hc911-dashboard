@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T15:05:38+00:00",
+ "updated": "2026-11-28T15:10:37+00:00",
  "counts": {
-  "year": 376045,
-  "upstream_day": 226,
+  "year": 376054,
+  "upstream_day": 235,
   "day": 349,
   "day_basis": "midnight"
  },
- "raw_rows": 17,
+ "raw_rows": 16,
  "incidents": [
   {
    "id": "9834347",
    "sequence": "2026-11-39234",
    "type": "Unknown 911",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:04:19Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T15:04:10Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -113,32 +113,6 @@
    "notable": false
   },
   {
-   "id": "9834343",
-   "sequence": "2026-11-39230",
-   "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:00:52Z",
-   "created": "2026-11-28T14:59:51Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5710 WILDER RD",
-   "cross": "GLENRIDGE LN/CHARWOOD LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.158916,
-   "lon": -85.247382,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834342",
    "sequence": "2026-11-39229",
    "type": "EMS CALL",
@@ -220,8 +194,8 @@
    "id": "9834339",
    "sequence": "2026-11-39224",
    "type": "Property",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:08:04Z",
    "created": "2026-11-28T14:52:16Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
