@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T10:30:36+00:00",
+ "updated": "2026-11-28T10:35:38+00:00",
  "counts": {
   "year": 375945,
   "upstream_day": 126,
   "day": 191,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9834141",
@@ -35,37 +35,11 @@
    "notable": false
   },
   {
-   "id": "9834132",
-   "sequence": "2026-11-39072",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T10:04:24Z",
-   "created": "2026-11-28T10:04:24Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2814 BENT OAK RD",
-   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 1",
-   "lat": 35.042705,
-   "lon": -85.109705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834131",
    "sequence": "2026-11-39071",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T10:20:06Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T10:34:37Z",
    "created": "2026-11-28T10:04:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.122314,
    "lon": -85.109628,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834097",
-   "sequence": "2026-11-39046",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T09:41:31Z",
-   "created": "2026-11-28T09:14:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1502 MCDONALD RD",
-   "cross": "RINGGOLD RD/GARNER ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
-   "priority": "PRI 1",
-   "lat": 34.988101,
-   "lon": -85.205348,
    "units": 1,
    "stacked": false,
    "notable": false
