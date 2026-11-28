@@ -1,35 +1,87 @@
 {
- "updated": "2026-11-28T15:40:37+00:00",
+ "updated": "2026-11-28T15:45:37+00:00",
  "counts": {
   "year": 376075,
   "upstream_day": 256,
-  "day": 380,
+  "day": 386,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9834385",
-   "sequence": "2026-11-39264",
+   "id": "9834395",
+   "sequence": "2026-11-39271",
    "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-28T15:36:49Z",
-   "created": "2026-11-28T15:36:49Z",
-   "jurisdiction": "Signal Mountain PD",
+   "status_at": "2026-11-28T15:45:34Z",
+   "created": "2026-11-28T15:45:34Z",
+   "jurisdiction": "Chattanooga FD",
    "agencies": [
-    "Signal Mountain PD"
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 2",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834393",
+   "sequence": "2026-11-39270",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:45:34Z",
+   "created": "2026-11-28T15:44:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834389",
+   "sequence": "2026-11-39268",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:40:49Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "908 CROWN POINT RD W",
-   "cross": "FERNCLIFF DR/ECHO WAY",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
+   "address": "1600 GUNBARREL RD",
+   "cross": "APPLEGATE LN/ZIEGLER RD",
+   "city": "CHATTANOOGA",
+   "zone": "C8",
    "priority": "PRI 3",
-   "lat": 35.137309,
-   "lon": -85.342148,
+   "lat": 35.01839,
+   "lon": -85.161937,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -38,8 +90,8 @@
    "id": "9834386",
    "sequence": "2026-11-39265",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:45:10Z",
    "created": "2026-11-28T15:36:49Z",
    "jurisdiction": "Signal Mountain FD",
    "agencies": [
@@ -142,8 +194,8 @@
    "id": "9834378",
    "sequence": "2026-11-39260",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:40:51Z",
    "created": "2026-11-28T15:32:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9834368",
-   "sequence": "2026-11-39252",
-   "type": "MVC No Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:35:15Z",
-   "created": "2026-11-28T15:22:45Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "600 INTERSTATE 75 NB",
-   "cross": "EXIT 5 ON RAMP NB/EXIT 7 OFF RAMP NB",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.046787,
-   "lon": -85.150969,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834365",
    "sequence": "2026-11-39250",
    "type": "EMS CALL",
@@ -399,58 +425,6 @@
    "notable": false
   },
   {
-   "id": "9834360",
-   "sequence": "2026-11-39244",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:17:37Z",
-   "created": "2026-11-28T15:17:37Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "200 CHESTNUT ST",
-   "cross": "W AQUARIUM WAY/W 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "A7",
-   "priority": "PRI 3",
-   "lat": 35.054412,
-   "lon": -85.311568,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834361",
-   "sequence": "2026-11-39245",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:17:37Z",
-   "created": "2026-11-28T15:17:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "200 CHESTNUT ST",
-   "cross": "W AQUARIUM WAY/W 3RD ST",
-   "city": "CHATTANOOGA",
-   "zone": "101 B",
-   "priority": "PRI 1",
-   "lat": 35.054412,
-   "lon": -85.311568,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834359",
    "sequence": "2026-11-39243",
    "type": "EMS CALL",
@@ -481,7 +455,7 @@
    "sequence": "2026-11-39242",
    "type": "Well Being Check",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T15:44:57Z",
    "created": "2026-11-28T15:15:36Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -703,32 +677,6 @@
    "cross": "BURR ST/BRACK ST",
    "city": "EAST RIDGE",
    "zone": "ERPD EAST",
-   "priority": "PRI 1",
-   "lat": 34.986929,
-   "lon": -85.210958,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834307",
-   "sequence": "2026-11-39203",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T14:54:15Z",
-   "created": "2026-11-28T14:23:53Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "1611 MACK SMITH RD",
-   "cross": "BURR ST/BRACK ST",
-   "city": "EAST RIDGE",
-   "zone": "MEDIC 16 ER",
    "priority": "PRI 1",
    "lat": 34.986929,
    "lon": -85.210958,
