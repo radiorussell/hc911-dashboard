@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T00:05:38+00:00",
+ "updated": "2026-11-28T00:10:38+00:00",
  "counts": {
-  "year": 375583,
-  "upstream_day": 643,
-  "day": 879,
+  "year": 375587,
+  "upstream_day": 0,
+  "day": 885,
   "day_basis": "midnight"
  },
- "raw_rows": 22,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833517",
+   "sequence": "2026-11-38600",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:09:22Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6245 DRY CANYON LN",
+   "cross": "DEEP CANYON RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 1",
+   "lat": 35.185758,
+   "lon": -85.260121,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833516",
+   "sequence": "2026-11-38598",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:06:30Z",
+   "created": "2026-11-28T00:06:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1160 TOWNE HILLS DR",
+   "cross": "WINDING LN/TOWNE HILLS LN",
+   "city": "CHATTANOOGA",
+   "zone": "1902",
+   "priority": "PRI 2",
+   "lat": 35.148062,
+   "lon": -85.246932,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833514",
+   "sequence": "2026-11-38599",
+   "type": "MVC No Injuries",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:06:39Z",
+   "created": "2026-11-28T00:06:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1301 - 1331 HICKORY VALLEY RD",
+   "cross": "EXIT 3 ON RAMP SB/EXIT 3 OFF RAMP SB",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.017132,
+   "lon": -85.181808,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833515",
+   "sequence": "2026-11-38597",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:05:51Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1160 TOWNE HILLS DR",
+   "cross": "WINDING LN/TOWNE HILLS LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 1",
+   "lat": 35.148062,
+   "lon": -85.246932,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833510",
    "sequence": "2026-11-38594",
@@ -64,8 +168,8 @@
    "id": "9833508",
    "sequence": "2026-11-38591",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:08:35Z",
    "created": "2026-11-28T00:03:23Z",
    "jurisdiction": "East Ridge FD",
    "agencies": [
@@ -89,7 +193,7 @@
   {
    "id": "9833507",
    "sequence": "2026-11-38590",
-   "type": "Police Assist Citizen",
+   "type": "Disorder",
    "status": "Queued",
    "status_at": "2026-11-28T00:03:23Z",
    "created": "2026-11-28T00:03:20Z",
@@ -116,8 +220,8 @@
    "id": "9833505",
    "sequence": "2026-11-38588",
    "type": "Noise Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:10:23Z",
    "created": "2026-11-27T23:56:48Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -142,8 +246,8 @@
    "id": "9833502",
    "sequence": "2026-11-38587",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:08:42Z",
    "created": "2026-11-27T23:55:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -194,8 +298,8 @@
    "id": "9833483",
    "sequence": "2026-11-38573",
    "type": "Domestic Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-27T23:36:03Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-27T23:35:47Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -454,8 +558,8 @@
    "id": "9833342",
    "sequence": "2026-11-38464",
    "type": "MVC Injuries",
-   "status": "On Scene",
-   "status_at": "2026-11-27T22:22:07Z",
+   "status": "Queued",
+   "status_at": "2026-11-27T22:13:34Z",
    "created": "2026-11-27T22:13:30Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
