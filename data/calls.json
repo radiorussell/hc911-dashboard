@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T00:25:37+00:00",
+ "updated": "2026-11-28T00:30:43+00:00",
  "counts": {
-  "year": 375594,
+  "year": 375601,
   "upstream_day": 0,
-  "day": 902,
+  "day": 908,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833540",
+   "sequence": "2026-11-38623",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:30:32Z",
+   "created": "2026-11-28T00:29:59Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4628 MURRAY HILLS DR",
+   "cross": "LAKE VISTA LN/ROSALEE TER",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 3",
+   "lat": 35.092544,
+   "lon": -85.202762,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833539",
+   "sequence": "2026-11-38621",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:25:44Z",
+   "created": "2026-11-28T00:25:44Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "1901",
+   "priority": "PRI 3",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833538",
+   "sequence": "2026-11-38620",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:25:26Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "364 NORTHGATE MALL DR",
+   "cross": "EXECUTIVE DR/MEADOW LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 04 CH A",
+   "priority": "PRI 2",
+   "lat": 35.127445,
+   "lon": -85.237336,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833534",
    "sequence": "2026-11-38616",
@@ -87,63 +165,11 @@
    "notable": false
   },
   {
-   "id": "9833520",
-   "sequence": "2026-11-38602",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:10:44Z",
-   "created": "2026-11-28T00:10:44Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 11",
-   "priority": "PRI 3",
-   "lat": 35.233251,
-   "lon": -85.174425,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833521",
-   "sequence": "2026-11-38603",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:10:44Z",
-   "created": "2026-11-28T00:10:44Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 2",
-   "lat": 35.233251,
-   "lon": -85.174425,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833518",
    "sequence": "2026-11-38601",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:19:32Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T00:28:07Z",
    "created": "2026-11-28T00:10:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -246,8 +272,8 @@
    "id": "9833510",
    "sequence": "2026-11-38594",
    "type": "Disorder",
-   "status": "Stacked",
-   "status_at": "2026-11-28T00:04:31Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T00:04:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -265,7 +291,7 @@
    "lat": 35.061233,
    "lon": -85.131847,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": false
   },
   {
