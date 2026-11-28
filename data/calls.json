@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-28T01:05:37+00:00",
+ "updated": "2026-11-28T01:10:36+00:00",
  "counts": {
-  "year": 375630,
+  "year": 375642,
   "upstream_day": 0,
-  "day": 943,
+  "day": 954,
   "day_basis": "midnight"
  },
- "raw_rows": 29,
+ "raw_rows": 35,
  "incidents": [
+  {
+   "id": "9833604",
+   "sequence": "2026-11-38669",
+   "type": "Shots Fired",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:08:56Z",
+   "created": "2026-11-28T01:08:48Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "706 ELY RD",
+   "cross": "PAULA LN/BITSY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.122396,
+   "lon": -85.275289,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833602",
+   "sequence": "2026-11-38667",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:08:38Z",
+   "created": "2026-11-28T01:08:38Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3401 CAMPBELL ST",
+   "cross": "GROVE ST/BIRCHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "B1 A",
+   "priority": "PRI 3",
+   "lat": 35.072936,
+   "lon": -85.24227,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833603",
+   "sequence": "2026-11-38668",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:08:38Z",
+   "created": "2026-11-28T01:08:38Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "3401 CAMPBELL ST",
+   "cross": "GROVE ST/BIRCHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "404",
+   "priority": "PRI 1",
+   "lat": 35.072936,
+   "lon": -85.24227,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833601",
+   "sequence": "2026-11-38666",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:08:04Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "3401 CAMPBELL ST",
+   "cross": "GROVE ST/BIRCHWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 14 CH",
+   "priority": "PRI 1",
+   "lat": 35.072936,
+   "lon": -85.24227,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833596",
+   "sequence": "2026-11-38662",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:06:14Z",
+   "created": "2026-11-28T01:05:43Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TENNESSEE AVE / ST ELMO AVE",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 35.008945,
+   "lon": -85.328064,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833592",
+   "sequence": "2026-11-38660",
+   "type": "Well Being Check",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:59:11Z",
+   "created": "2026-11-28T00:58:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "604 E 52ND ST",
+   "cross": "TANNER AVE/WILSON RD",
+   "city": "CHATTANOOGA",
+   "zone": "A12",
+   "priority": "PRI 3",
+   "lat": 34.988967,
+   "lon": -85.311279,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833590",
    "sequence": "2026-11-38657",
@@ -90,8 +246,8 @@
    "id": "9833588",
    "sequence": "2026-11-38655",
    "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:53:56Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T00:52:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +454,8 @@
    "id": "9833562",
    "sequence": "2026-11-38634",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T01:01:18Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T01:06:20Z",
    "created": "2026-11-28T00:38:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -425,32 +581,6 @@
    "notable": false
   },
   {
-   "id": "9833534",
-   "sequence": "2026-11-38616",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:42:50Z",
-   "created": "2026-11-28T00:23:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "8000 HARRISON BAY RD",
-   "cross": "HIGHWAY 58/LASATA LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "MEDIC 15 HC",
-   "priority": "PRI 1",
-   "lat": 35.155436,
-   "lon": -85.105733,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833535",
    "sequence": "2026-11-38617",
    "type": "EMS CALL",
@@ -469,6 +599,32 @@
    "cross": "HIGHWAY 58/LASATA LN",
    "city": "HAMILTON COUNTY",
    "zone": "HIGHWAY 58 FD 2",
+   "priority": "PRI 1",
+   "lat": 35.155436,
+   "lon": -85.105733,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833534",
+   "sequence": "2026-11-38616",
+   "type": "EMS CALL",
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:42:50Z",
+   "created": "2026-11-28T00:23:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "8000 HARRISON BAY RD",
+   "cross": "HIGHWAY 58/LASATA LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 15 HC",
    "priority": "PRI 1",
    "lat": 35.155436,
    "lon": -85.105733,
