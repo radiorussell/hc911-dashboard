@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T13:50:40+00:00",
+ "updated": "2026-11-28T13:55:39+00:00",
  "counts": {
   "year": null,
   "upstream_day": null,
   "day": 295,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 14,
  "incidents": [
   {
    "id": "9834276",
@@ -38,8 +38,8 @@
    "id": "9834274",
    "sequence": "2026-11-39179",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:50:04Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T13:49:40Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.031474,
    "lon": -85.308821,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834270",
-   "sequence": "2026-11-39175",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:47:18Z",
-   "created": "2026-11-28T13:47:18Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "3021 ALTON PARK BLVD",
-   "cross": "SHIPP AVE/W 31ST ST",
-   "city": "CHATTANOOGA",
-   "zone": "1404",
-   "priority": "PRI 2",
-   "lat": 35.019709,
-   "lon": -85.315427,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -168,8 +142,8 @@
    "id": "9834262",
    "sequence": "2026-11-39169",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T13:52:47Z",
    "created": "2026-11-28T13:43:20Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
