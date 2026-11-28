@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-28T06:30:37+00:00",
+ "updated": "2026-11-28T06:35:38+00:00",
  "counts": {
   "year": 375861,
   "upstream_day": 42,
-  "day": 73,
+  "day": 79,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 15,
  "incidents": [
   {
-   "id": "9833978",
-   "sequence": "2026-11-38958",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-28T06:26:24Z",
-   "created": "2026-11-28T06:18:05Z",
+   "id": "9833990",
+   "sequence": "2026-11-38963",
+   "type": "Civil Matter",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T06:33:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4518 HIXSON PIKE",
-   "cross": "HAMILL RD/BAGWELL AVE",
+   "address": "804 MCGOWAN AVE",
+   "cross": "WILSONIA AVE/BLANCHARD ST",
    "city": "CHATTANOOGA",
-   "zone": "A3 A",
-   "priority": "PRI 3",
-   "lat": 35.120258,
-   "lon": -85.246281,
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.034234,
+   "lon": -85.23192,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833989",
+   "sequence": "2026-11-38964",
+   "type": "Miscellaneous Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:33:36Z",
+   "created": "2026-11-28T06:28:27Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1903 BENNETT AVE",
+   "cross": "S ORCHARD KNOB AVE/S BEECH ST",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 4",
+   "lat": 35.029316,
+   "lon": -85.277876,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -116,8 +142,8 @@
    "id": "9833951",
    "sequence": "2026-11-38935",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T06:21:12Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T06:33:02Z",
    "created": "2026-11-28T05:53:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
