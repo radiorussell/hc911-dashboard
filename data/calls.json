@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T15:50:39+00:00",
+ "updated": "2026-11-28T15:55:38+00:00",
  "counts": {
   "year": 376083,
   "upstream_day": 264,
-  "day": 393,
+  "day": 396,
   "day_basis": "midnight"
  },
  "raw_rows": 29,
  "incidents": [
+  {
+   "id": "9834406",
+   "sequence": "2026-11-39281",
+   "type": "Auto Theft",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:51:41Z",
+   "created": "2026-11-28T15:51:41Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "SUNBEAM AVE / S MOORE RD",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "C3 A",
+   "priority": "PRI 4",
+   "lat": 35.011763,
+   "lon": -85.228879,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834405",
    "sequence": "2026-11-39278",
@@ -35,6 +61,32 @@
    "notable": false
   },
   {
+   "id": "9834402",
+   "sequence": "2026-11-39279",
+   "type": "Deceptive Practice",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:48:33Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "15621 COULTERVILLE RD",
+   "cross": "DAYTON PIKE/ROCKYSIDE LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 7",
+   "priority": "PRI 4",
+   "lat": 35.397099,
+   "lon": -85.106873,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9834401",
    "sequence": "2026-11-39277",
    "type": "Animal Call",
@@ -56,6 +108,32 @@
    "priority": "PRI 4",
    "lat": 35.00424,
    "lon": -85.297386,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834400",
+   "sequence": "2026-11-39280",
+   "type": "Unknown Trouble",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:47:40Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1802 HAMILL RD",
+   "cross": "BAGWELL AVE/STRAWBERRY LN",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 1",
+   "lat": 35.121132,
+   "lon": -85.243176,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -90,8 +168,8 @@
    "id": "9834398",
    "sequence": "2026-11-39274",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:51:29Z",
    "created": "2026-11-28T15:46:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -119,21 +197,21 @@
    "status": "Queued",
    "status_at": "2026-11-28T15:46:17Z",
    "created": "2026-11-28T15:46:09Z",
-   "jurisdiction": "Hamilton Co SO",
+   "jurisdiction": "Chattanooga PD",
    "agencies": [
-    "Hamilton Co SO"
+    "Chattanooga PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "2321 HOLLY ST",
-   "cross": "LAUREL ST/No Cross Street",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 2 A",
+   "address": "3828 BIRMINGHAM DR",
+   "cross": "ELM ST/BRENDA RD",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
    "priority": "PRI 2",
-   "lat": 35.193986,
-   "lon": -85.324837,
+   "lat": 35.109039,
+   "lon": -85.2561,
    "units": 1,
    "stacked": false,
    "notable": true
@@ -168,8 +246,8 @@
    "id": "9834393",
    "sequence": "2026-11-39270",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:53:51Z",
    "created": "2026-11-28T15:44:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -186,32 +264,6 @@
    "priority": "PRI 1",
    "lat": 35.127445,
    "lon": -85.237336,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834389",
-   "sequence": "2026-11-39268",
-   "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T15:40:49Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1600 GUNBARREL RD",
-   "cross": "APPLEGATE LN/ZIEGLER RD",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.01839,
-   "lon": -85.161937,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -269,37 +321,11 @@
    "notable": false
   },
   {
-   "id": "9834380",
-   "sequence": "2026-11-39261",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:33:02Z",
-   "created": "2026-11-28T15:33:02Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "110 ISBILL RD",
-   "cross": "KELLYS FERRY RD/CENTERVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 3",
-   "lat": 35.025804,
-   "lon": -85.37501,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834378",
    "sequence": "2026-11-39260",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:40:51Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T15:52:41Z",
    "created": "2026-11-28T15:32:51Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -325,7 +351,7 @@
    "sequence": "2026-11-39258",
    "type": "Civil Matter",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T15:51:20Z",
    "created": "2026-11-28T15:28:49Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -446,32 +472,6 @@
    "priority": "PRI 4",
    "lat": 35.024586,
    "lon": -85.248,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834365",
-   "sequence": "2026-11-39250",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:18:39Z",
-   "created": "2026-11-28T15:18:39Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1776 GENERATIONS WAY",
-   "cross": "No Cross Street/E BRAINERD RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5-3-CATOOSA B",
-   "priority": "PRI 2",
-   "lat": 34.997316,
-   "lon": -85.091922,
    "units": 1,
    "stacked": false,
    "notable": false
