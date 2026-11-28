@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T12:25:36+00:00",
+ "updated": "2026-11-28T12:30:38+00:00",
  "counts": {
-  "year": 375969,
-  "upstream_day": 150,
+  "year": 375973,
+  "upstream_day": 154,
   "day": 241,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 7,
  "incidents": [
   {
    "id": "9834211",
    "sequence": "2026-11-39126",
    "type": "Well Being Check",
-   "status": "Queued",
-   "status_at": "2026-11-28T12:22:09Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T12:21:58Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -65,7 +65,7 @@
    "sequence": "2026-11-39120",
    "type": "Domestic Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T12:25:52Z",
    "created": "2026-11-28T12:17:23Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -85,32 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9834203",
-   "sequence": "2026-11-39118",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T12:21:10Z",
-   "created": "2026-11-28T12:10:21Z",
-   "jurisdiction": "Red Bank FD",
-   "agencies": [
-    "Red Bank FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "136 ALDEN AVE",
-   "cross": "DELRAY AVE/No Cross Street",
-   "city": "RED BANK",
-   "zone": "RED BANK FD 1",
-   "priority": "PRI 3",
-   "lat": 35.086156,
-   "lon": -85.31773,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9834056",
