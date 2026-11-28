@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-28T05:50:37+00:00",
+ "updated": "2026-11-28T05:55:40+00:00",
  "counts": {
   "year": 375843,
   "upstream_day": 24,
-  "day": 47,
+  "day": 52,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 15,
  "incidents": [
+  {
+   "id": "9833954",
+   "sequence": "2026-11-38937",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T05:53:30Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1109 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "1501",
+   "priority": "PRI 1",
+   "lat": 35.042483,
+   "lon": -85.243678,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833953",
+   "sequence": "2026-11-38936",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T05:53:30Z",
+   "created": "2026-11-28T05:53:30Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1109 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.042483,
+   "lon": -85.243678,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833951",
+   "sequence": "2026-11-38935",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T05:53:11Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1109 MOSS DR",
+   "cross": "MOSS ST/HOYT ST",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 11 CH",
+   "priority": "PRI 1",
+   "lat": 35.042483,
+   "lon": -85.243678,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833947",
    "sequence": "2026-11-38932",
    "type": "Harassment",
-   "status": "Queued",
-   "status_at": "2026-11-28T05:48:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T05:46:11Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -39,7 +117,7 @@
    "sequence": "2026-11-38928",
    "type": "Police Assist Citizen",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T05:52:01Z",
    "created": "2026-11-28T05:32:37Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
