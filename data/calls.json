@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T01:25:43+00:00",
+ "updated": "2026-11-28T01:30:37+00:00",
  "counts": {
-  "year": 375647,
+  "year": 375654,
   "upstream_day": 0,
-  "day": 964,
+  "day": 971,
   "day_basis": "midnight"
  },
- "raw_rows": 25,
+ "raw_rows": 26,
  "incidents": [
+  {
+   "id": "9833625",
+   "sequence": "2026-11-38686",
+   "type": "Private Property Tow",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:29:52Z",
+   "created": "2026-11-28T01:29:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "110 N MARKET ST",
+   "cross": "CHEROKEE BLVD/E KENT ST",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 0",
+   "lat": 35.063253,
+   "lon": -85.3083,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833623",
+   "sequence": "2026-11-38683",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:26:53Z",
+   "created": "2026-11-28T01:26:53Z",
+   "jurisdiction": "East Ridge FD",
+   "agencies": [
+    "East Ridge FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "EAST RIDGE FD 1",
+   "priority": "PRI 2",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833621",
+   "sequence": "2026-11-38684",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:27:12Z",
+   "created": "2026-11-28T01:26:31Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6145 WEIR WAY",
+   "cross": "LEE HWY/ARTESIAN CIR",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.086707,
+   "lon": -85.063961,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833620",
+   "sequence": "2026-11-38682",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:25:34Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "918 DONALDSON RD",
+   "cross": "BEECHWOOD LN/BLACKHAWK TRL",
+   "city": "EAST RIDGE",
+   "zone": "MEDIC 16 ER",
+   "priority": "PRI 1",
+   "lat": 35.007914,
+   "lon": -85.260716,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833617",
    "sequence": "2026-11-38679",
@@ -142,8 +246,8 @@
    "id": "9833592",
    "sequence": "2026-11-38660",
    "type": "Well Being Check",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:28:02Z",
    "created": "2026-11-28T00:58:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -212,58 +316,6 @@
    "priority": "PRI 4",
    "lat": 35.055459,
    "lon": -85.314752,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833586",
-   "sequence": "2026-11-38653",
-   "type": "Backup EMS Unit",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:59:09Z",
-   "created": "2026-11-28T00:50:15Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "503 S PALISADES DR",
-   "cross": "ACACIA PL/ALDER PL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 2 A",
-   "priority": "PRI 2",
-   "lat": 35.112138,
-   "lon": -85.343981,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833587",
-   "sequence": "2026-11-38654",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:58:05Z",
-   "created": "2026-11-28T00:50:15Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "503 S PALISADES DR",
-   "cross": "ACACIA PL/ALDER PL",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 3",
-   "lat": 35.112138,
-   "lon": -85.343981,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -368,32 +420,6 @@
    "priority": "PRI 3",
    "lat": 35.092544,
    "lon": -85.202762,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833535",
-   "sequence": "2026-11-38617",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:23:37Z",
-   "created": "2026-11-28T00:23:37Z",
-   "jurisdiction": "Highway 58 VFD",
-   "agencies": [
-    "Highway 58 VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8000 HARRISON BAY RD",
-   "cross": "HIGHWAY 58/LASATA LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "HIGHWAY 58 FD 2",
-   "priority": "PRI 1",
-   "lat": 35.155436,
-   "lon": -85.105733,
    "units": 1,
    "stacked": false,
    "notable": false
