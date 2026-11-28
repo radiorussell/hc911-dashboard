@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T01:00:36+00:00",
+ "updated": "2026-11-28T01:05:37+00:00",
  "counts": {
   "year": 375630,
   "upstream_day": 0,
   "day": 943,
   "day_basis": "midnight"
  },
- "raw_rows": 33,
+ "raw_rows": 29,
  "incidents": [
   {
    "id": "9833590",
@@ -64,8 +64,8 @@
    "id": "9833589",
    "sequence": "2026-11-38656",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:05:22Z",
    "created": "2026-11-28T00:54:06Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -295,89 +295,11 @@
    "notable": false
   },
   {
-   "id": "9833573",
-   "sequence": "2026-11-38643",
-   "type": "Animal Call",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:44:50Z",
-   "created": "2026-11-28T00:44:24Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "153 CECIL LN",
-   "cross": "MARGARETA LN/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 34.985812,
-   "lon": -85.249794,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833564",
-   "sequence": "2026-11-38635",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:39:17Z",
-   "created": "2026-11-28T00:39:17Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1018 BLANTON DR",
-   "cross": "MCCALL RD/HOLIDAY DR",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.99418,
-   "lon": -85.21045,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833565",
-   "sequence": "2026-11-38636",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T00:39:17Z",
-   "created": "2026-11-28T00:39:17Z",
-   "jurisdiction": "East Ridge FD",
-   "agencies": [
-    "East Ridge FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1018 BLANTON DR",
-   "cross": "MCCALL RD/HOLIDAY DR",
-   "city": "EAST RIDGE",
-   "zone": "EAST RIDGE FD 2",
-   "priority": "PRI 1",
-   "lat": 34.99418,
-   "lon": -85.21045,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833562",
    "sequence": "2026-11-38634",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:45:19Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T01:01:18Z",
    "created": "2026-11-28T00:38:57Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -394,32 +316,6 @@
    "priority": "PRI 1",
    "lat": 34.99418,
    "lon": -85.21045,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833560",
-   "sequence": "2026-11-38633",
-   "type": "AFA Apartment",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:54:52Z",
-   "created": "2026-11-28T00:38:50Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "705 MANSION CIR",
-   "cross": "N NATCHEZ RD/NOTTING HL",
-   "city": "CHATTANOOGA",
-   "zone": "1201",
-   "priority": "PRI 1",
-   "lat": 35.081338,
-   "lon": -85.298295,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -610,8 +506,8 @@
    "id": "9833518",
    "sequence": "2026-11-38601",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T00:28:07Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T01:00:49Z",
    "created": "2026-11-28T00:10:01Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
