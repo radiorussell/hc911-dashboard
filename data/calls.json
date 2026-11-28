@@ -1,13 +1,117 @@
 {
- "updated": "2026-11-28T10:00:38+00:00",
+ "updated": "2026-11-28T10:05:37+00:00",
  "counts": {
   "year": 375934,
   "upstream_day": 115,
-  "day": 177,
+  "day": 187,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 16,
  "incidents": [
+  {
+   "id": "9834132",
+   "sequence": "2026-11-39072",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T10:04:24Z",
+   "created": "2026-11-28T10:04:24Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2814 BENT OAK RD",
+   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 1",
+   "lat": 35.042705,
+   "lon": -85.109705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834131",
+   "sequence": "2026-11-39071",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T10:04:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2814 BENT OAK RD",
+   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 05 HC C",
+   "priority": "PRI 1",
+   "lat": 35.042705,
+   "lon": -85.109705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834128",
+   "sequence": "2026-11-39070",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T10:03:30Z",
+   "created": "2026-11-28T10:03:26Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2814 BENT OAK RD",
+   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 3",
+   "lat": 35.042705,
+   "lon": -85.109705,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834124",
+   "sequence": "2026-11-39067",
+   "type": "Abandoned Auto",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T10:00:50Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "GARFIELD RD / HUNTER RD",
+   "cross": "",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 4",
+   "lat": 35.121998,
+   "lon": -85.110067,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834120",
    "sequence": "2026-11-39062",
@@ -179,13 +283,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "4905 17TH AVE",
+   "address": "4809 16TH AVE",
    "cross": "GENERAL THOMAS BLVD/E 50TH ST",
    "city": "CHATTANOOGA",
    "zone": "B9",
    "priority": "PRI 1",
-   "lat": 34.986111,
-   "lon": -85.281387,
+   "lat": 34.986654,
+   "lon": -85.282572,
    "units": 1,
    "stacked": false,
    "notable": true
