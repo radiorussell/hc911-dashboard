@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T06:20:36+00:00",
+ "updated": "2026-11-28T06:25:36+00:00",
  "counts": {
   "year": 375859,
   "upstream_day": 40,
-  "day": 73,
+  "day": 75,
   "day_basis": "midnight"
  },
  "raw_rows": 17,
  "incidents": [
   {
+   "id": "9833986",
+   "sequence": "2026-11-38960",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:24:19Z",
+   "created": "2026-11-28T06:24:05Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "436 WATER ST",
+   "cross": "CHANDLER AVE/OHLS AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A11",
+   "priority": "PRI 3",
+   "lat": 35.007973,
+   "lon": -85.315456,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833978",
    "sequence": "2026-11-38958",
    "type": "Disorder",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:19:18Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:18:05Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9833972",
    "sequence": "2026-11-38953",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T06:25:14Z",
    "created": "2026-11-28T06:07:14Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -165,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9833953",
-   "sequence": "2026-11-38936",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T05:53:30Z",
-   "created": "2026-11-28T05:53:30Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1109 MOSS DR",
-   "cross": "MOSS ST/HOYT ST",
-   "city": "CHATTANOOGA",
-   "zone": "C1",
-   "priority": "PRI 3",
-   "lat": 35.042483,
-   "lon": -85.243678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833951",
    "sequence": "2026-11-38935",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T06:05:08Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T06:21:12Z",
    "created": "2026-11-28T05:53:11Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
