@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-28T04:30:36+00:00",
+ "updated": "2026-11-28T04:35:37+00:00",
  "counts": {
   "year": 375784,
   "upstream_day": 0,
-  "day": 1149,
+  "day": 1151,
   "day_basis": "midnight"
  },
- "raw_rows": 28,
+ "raw_rows": 26,
  "incidents": [
   {
-   "id": "9833864",
-   "sequence": "2026-11-38864",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T04:28:28Z",
-   "jurisdiction": "Chattanooga PD",
+   "id": "9833866",
+   "sequence": "2026-11-38866",
+   "type": "Backup Fire Unit",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:32:41Z",
+   "created": "2026-11-28T04:32:41Z",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "8886 - 8998 OLD LEE HWY",
-   "cross": "OOLTEWAH CEMETERY RD/LITTLE DEBBIE PKWY",
-   "city": "COLLEGEDALE",
-   "zone": "C9",
-   "priority": "PRI 3",
-   "lat": 35.084601,
-   "lon": -85.067049,
+   "address": "8657 MOUNTAIN LAUREL TRL",
+   "cross": "BENT HICKORY RD/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "WEST 3 A",
+   "priority": "PRI 2",
+   "lat": 35.218324,
+   "lon": -85.249695,
    "units": 1,
    "stacked": false,
-   "notable": false
+   "notable": true
   },
   {
    "id": "9833859",
@@ -134,32 +134,6 @@
    "priority": "PRI 3",
    "lat": 35.01252,
    "lon": -85.31123,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833839",
-   "sequence": "2026-11-38844",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:27:15Z",
-   "created": "2026-11-28T04:06:42Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "9261 LAWFORD WAY",
-   "cross": "OOLTEWAH GEORGETOWN RD/OOLTEWAH GEORGETOWN RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 3 A",
-   "priority": "PRI 3",
-   "lat": 35.087954,
-   "lon": -85.058754,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -420,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.016821,
    "lon": -85.153728,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833789",
-   "sequence": "2026-11-38801",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T04:14:54Z",
-   "created": "2026-11-28T03:27:42Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "825 RUNYAN DR",
-   "cross": "MUNDY ST/N RUNYAN DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 06 CH A",
-   "priority": "PRI 1",
-   "lat": 35.101687,
-   "lon": -85.321286,
    "units": 1,
    "stacked": false,
    "notable": false
