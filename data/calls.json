@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T04:45:36+00:00",
+ "updated": "2026-11-28T04:50:37+00:00",
  "counts": {
-  "year": 375789,
+  "year": 375800,
   "upstream_day": 0,
   "day": 1170,
   "day_basis": "midnight"
  },
- "raw_rows": 32,
+ "raw_rows": 30,
  "incidents": [
   {
    "id": "9833885",
@@ -142,8 +142,8 @@
    "id": "9833876",
    "sequence": "2026-11-38878",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T04:46:19Z",
    "created": "2026-11-28T04:38:42Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +168,8 @@
    "id": "9833872",
    "sequence": "2026-11-38873",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T04:46:21Z",
    "created": "2026-11-28T04:37:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -220,8 +220,8 @@
    "id": "9833870",
    "sequence": "2026-11-38872",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T04:49:20Z",
    "created": "2026-11-28T04:36:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -299,7 +299,7 @@
    "sequence": "2026-11-38857",
    "type": "Missing Endangered",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T04:46:20Z",
    "created": "2026-11-28T04:16:37Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -379,21 +379,21 @@
    "status": "On Scene",
    "status_at": "2026-11-28T04:44:03Z",
    "created": "2026-11-28T04:06:28Z",
-   "jurisdiction": "Chattanooga PD",
+   "jurisdiction": "Hamilton Co SO",
    "agencies": [
-    "Chattanooga PD"
+    "Hamilton Co SO"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "9321 - 9415 LEE HWY",
-   "cross": "ARBURY WAY/CHESTERTON WAY",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
+   "address": "9600 LEE HWY",
+   "cross": "CHESTERTON WAY/EDGMON RD",
+   "city": "COLLEGEDALE",
+   "zone": "EAST 3 A",
    "priority": "PRI 3",
-   "lat": 35.081588,
-   "lon": -85.055315,
+   "lat": 35.07908,
+   "lon": -85.04906,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -503,63 +503,11 @@
    "notable": false
   },
   {
-   "id": "9833816",
-   "sequence": "2026-11-38827",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T03:56:19Z",
-   "created": "2026-11-28T03:56:19Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1713 HAWK RUN LN",
-   "cross": "BUSH RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 3",
-   "lat": 35.016821,
-   "lon": -85.153728,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833817",
-   "sequence": "2026-11-38828",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T03:56:19Z",
-   "created": "2026-11-28T03:56:19Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1713 HAWK RUN LN",
-   "cross": "BUSH RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "2101",
-   "priority": "PRI 2",
-   "lat": 35.016821,
-   "lon": -85.153728,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833815",
    "sequence": "2026-11-38826",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:09:11Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T04:47:03Z",
    "created": "2026-11-28T03:55:52Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
