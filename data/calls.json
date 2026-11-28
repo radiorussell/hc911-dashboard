@@ -1,13 +1,143 @@
 {
- "updated": "2026-11-28T03:15:36+00:00",
+ "updated": "2026-11-28T03:20:37+00:00",
  "counts": {
-  "year": 375731,
+  "year": 375733,
   "upstream_day": 0,
-  "day": 1063,
+  "day": 1078,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 21,
  "incidents": [
+  {
+   "id": "9833781",
+   "sequence": "2026-11-38793",
+   "type": "EMS Standby With FD",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:19:56Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "4908 SUGAR TREE TRL",
+   "cross": "BLUFF VIEW DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "MEDIC 01 HC",
+   "priority": "PRI 1",
+   "lat": 35.354598,
+   "lon": -85.038838,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833777",
+   "sequence": "2026-11-38791",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:17:17Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "14104 BLUFF VIEW DR",
+   "cross": "PARKER LOOP RD/SUGAR TREE TRL",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 2",
+   "lat": 35.353771,
+   "lon": -85.03887,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833776",
+   "sequence": "2026-11-38789",
+   "type": "Residential Fire",
+   "status": "Queued",
+   "status_at": "2026-11-28T03:17:06Z",
+   "created": "2026-11-28T03:17:06Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4901 SUGAR TREE TRL",
+   "cross": "BLUFF VIEW DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 7",
+   "priority": "PRI 2",
+   "lat": 35.354134,
+   "lon": -85.039,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833774",
+   "sequence": "2026-11-38788",
+   "type": "Residential Fire",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:16:57Z",
+   "jurisdiction": "Highway 58 VFD",
+   "agencies": [
+    "Highway 58 VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "4908 SUGAR TREE TRL",
+   "cross": "BLUFF VIEW DR/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "HIGHWAY 58 FD 3",
+   "priority": "PRI 1",
+   "lat": 35.354598,
+   "lon": -85.038838,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
+  {
+   "id": "9833769",
+   "sequence": "2026-11-38786",
+   "type": "MVC Unknown Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T03:15:16Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "8949 CHAFFIN LN",
+   "cross": "DOGWOOD GARDEN LN/WINTER GARDEN DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 2 A",
+   "priority": "PRI 1",
+   "lat": 35.028237,
+   "lon": -85.093053,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833753",
    "sequence": "2026-11-38778",
@@ -28,32 +158,6 @@
    "city": "CHATTANOOGA",
    "zone": "401",
    "priority": "PRI 1",
-   "lat": 35.046688,
-   "lon": -85.261282,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833752",
-   "sequence": "2026-11-38777",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:56:27Z",
-   "created": "2026-11-28T02:56:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2300 WINDSOR ST",
-   "cross": "DODSON AVE/ARLINGTON AVE",
-   "city": "CHATTANOOGA",
-   "zone": "B3",
-   "priority": "PRI 3",
    "lat": 35.046688,
    "lon": -85.261282,
    "units": 1,
@@ -82,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 35.046688,
    "lon": -85.261282,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833748",
-   "sequence": "2026-11-38775",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:54:57Z",
-   "created": "2026-11-28T02:54:57Z",
-   "jurisdiction": "Soddy Daisy FD",
-   "agencies": [
-    "Soddy Daisy FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "701 SEQUOYAH RD",
-   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY FD 1",
-   "priority": "PRI 1",
-   "lat": 35.233251,
-   "lon": -85.174425,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -142,8 +220,8 @@
    "id": "9833746",
    "sequence": "2026-11-38773",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T03:00:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T03:19:12Z",
    "created": "2026-11-28T02:54:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -168,8 +246,8 @@
    "id": "9833731",
    "sequence": "2026-11-38764",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T03:06:42Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T03:18:13Z",
    "created": "2026-11-28T02:47:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -272,8 +350,8 @@
    "id": "9833707",
    "sequence": "2026-11-38753",
    "type": "Auto Theft",
-   "status": "Enroute",
-   "status_at": "2026-11-28T02:42:53Z",
+   "status": "Stacked",
+   "status_at": "2026-11-28T02:34:09Z",
    "created": "2026-11-28T02:29:26Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -291,7 +369,7 @@
    "lat": 35.032135,
    "lon": -85.156746,
    "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
