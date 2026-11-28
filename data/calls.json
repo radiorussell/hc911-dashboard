@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T14:15:42+00:00",
+ "updated": "2026-11-28T14:20:38+00:00",
  "counts": {
-  "year": 376021,
-  "upstream_day": 202,
-  "day": 308,
+  "year": 376030,
+  "upstream_day": 211,
+  "day": 314,
   "day_basis": "midnight"
  },
  "raw_rows": 11,
  "incidents": [
+  {
+   "id": "9834305",
+   "sequence": "2026-11-39199",
+   "type": "Police Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T14:19:10Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4214 RINGGOLD RD",
+   "cross": "MARLBORO AVE/TOMBRAS AVE",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 3",
+   "lat": 34.996637,
+   "lon": -85.242414,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834290",
    "sequence": "2026-11-39193",
@@ -56,32 +82,6 @@
    "priority": "PRI 2",
    "lat": 35.084699,
    "lon": -85.202247,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834283",
-   "sequence": "2026-11-39188",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:59:10Z",
-   "created": "2026-11-28T13:59:10Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1148 E 23RD ST",
-   "cross": "POLK ST/BURNETTE ST",
-   "city": "CHATTANOOGA",
-   "zone": "202",
-   "priority": "PRI 2",
-   "lat": 35.023295,
-   "lon": -85.295506,
    "units": 1,
    "stacked": false,
    "notable": false
