@@ -1,19 +1,45 @@
 {
- "updated": "2026-11-28T06:45:37+00:00",
+ "updated": "2026-11-28T06:50:37+00:00",
  "counts": {
-  "year": 375865,
-  "upstream_day": 46,
-  "day": 88,
+  "year": 375868,
+  "upstream_day": 49,
+  "day": 90,
   "day_basis": "midnight"
  },
  "raw_rows": 13,
  "incidents": [
   {
+   "id": "9834003",
+   "sequence": "2026-11-38975",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:50:33Z",
+   "created": "2026-11-28T06:48:55Z",
+   "jurisdiction": "East Ridge PD",
+   "agencies": [
+    "East Ridge PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1112 S ST MARKS AVE",
+   "cross": "WEAVER ST/No Cross Street",
+   "city": "EAST RIDGE",
+   "zone": "ERPD CENTRAL",
+   "priority": "PRI 4",
+   "lat": 35.000277,
+   "lon": -85.232862,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9834001",
    "sequence": "2026-11-38973",
    "type": "AFA Commercial",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T06:48:30Z",
    "created": "2026-11-28T06:43:38Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +64,8 @@
    "id": "9833994",
    "sequence": "2026-11-38966",
    "type": "Noise Complaint",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:39:59Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:39:59Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -90,8 +116,8 @@
    "id": "9833989",
    "sequence": "2026-11-38964",
    "type": "Miscellaneous Complaint",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "Queued",
+   "status_at": "2026-11-28T06:33:36Z",
    "created": "2026-11-28T06:28:27Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 35.042483,
    "lon": -85.243678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833939",
-   "sequence": "2026-11-38928",
-   "type": "Police Assist Citizen",
-   "status": "Enroute",
-   "status_at": "2026-11-28T05:52:01Z",
-   "created": "2026-11-28T05:32:37Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "501 CASTLEWOOD TRL",
-   "cross": "SHADOW PKWY/MOUNTAIN SHADOWS DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 1",
-   "priority": "PRI 3",
-   "lat": 35.013446,
-   "lon": -85.107463,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -257,13 +257,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "W 4TH ST / BROAD ST",
-   "cross": "",
+   "address": "401 BROAD ST",
+   "cross": "W 4TH ST/W 5TH ST",
    "city": "CHATTANOOGA",
    "zone": "A7",
    "priority": "PRI 1",
-   "lat": 35.052288,
-   "lon": -85.310659,
+   "lat": 35.0521,
+   "lon": -85.310967,
    "units": 1,
    "stacked": false,
    "notable": true
