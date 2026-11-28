@@ -1,13 +1,169 @@
 {
- "updated": "2026-11-28T01:50:42+00:00",
+ "updated": "2026-11-28T01:55:37+00:00",
  "counts": {
   "year": 375664,
   "upstream_day": 0,
-  "day": 992,
+  "day": 998,
   "day_basis": "midnight"
  },
- "raw_rows": 23,
+ "raw_rows": 28,
  "incidents": [
+  {
+   "id": "9833662",
+   "sequence": "2026-11-38712",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:54:07Z",
+   "created": "2026-11-28T01:54:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2231 MORRIS HILL RD",
+   "cross": "BRANDERMILL LN/RED TAIL LN",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.02934,
+   "lon": -85.123701,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833663",
+   "sequence": "2026-11-38713",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:54:07Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2231 MORRIS HILL RD",
+   "cross": "BRANDERMILL LN/RED TAIL LN",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.02934,
+   "lon": -85.123701,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833661",
+   "sequence": "2026-11-38711",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T01:53:33Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "2231 MORRIS HILL RD",
+   "cross": "BRANDERMILL LN/RED TAIL LN",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.02934,
+   "lon": -85.123701,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833657",
+   "sequence": "2026-11-38710",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:52:07Z",
+   "created": "2026-11-28T01:51:33Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5220 HICKORY WOODS LN",
+   "cross": "AUSTIN RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "A1",
+   "priority": "PRI 3",
+   "lat": 35.139983,
+   "lon": -85.238497,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833660",
+   "sequence": "2026-11-38709",
+   "type": "Auto Improperly Parked",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:51:28Z",
+   "created": "2026-11-28T01:51:28Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3825 HIXSON PIKE",
+   "cross": "MAULDETH RD/W FAIRFAX DR",
+   "city": "CHATTANOOGA",
+   "zone": "A3 A",
+   "priority": "PRI 4",
+   "lat": 35.111727,
+   "lon": -85.269877,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833658",
+   "sequence": "2026-11-38708",
+   "type": "Assault Delayed",
+   "status": "Queued",
+   "status_at": "2026-11-28T01:51:15Z",
+   "created": "2026-11-28T01:50:52Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "55 E MAIN ST",
+   "cross": "MITCHELL AVE/ROSSVILLE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "A9",
+   "priority": "PRI 4",
+   "lat": 35.035851,
+   "lon": -85.30572,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9833656",
    "sequence": "2026-11-38707",
@@ -194,8 +350,8 @@
    "id": "9833632",
    "sequence": "2026-11-38693",
    "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T01:53:55Z",
    "created": "2026-11-28T01:38:23Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -394,32 +550,6 @@
    "priority": "PRI 1",
    "lat": 35.112138,
    "lon": -85.343981,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833579",
-   "sequence": "2026-11-38646",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T01:22:09Z",
-   "created": "2026-11-28T00:48:16Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "2467 15TH AVE",
-   "cross": "No Cross Street/WESTSIDE DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 09 + 13 CH",
-   "priority": "PRI 1",
-   "lat": 35.013349,
-   "lon": -85.271384,
    "units": 1,
    "stacked": false,
    "notable": false
