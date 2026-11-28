@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T10:15:38+00:00",
+ "updated": "2026-11-28T10:20:37+00:00",
  "counts": {
-  "year": 375939,
-  "upstream_day": 120,
+  "year": 375944,
+  "upstream_day": 125,
   "day": 187,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9834132",
@@ -38,8 +38,8 @@
    "id": "9834131",
    "sequence": "2026-11-39071",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T10:20:06Z",
    "created": "2026-11-28T10:04:23Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -108,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.121998,
    "lon": -85.110067,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834119",
-   "sequence": "2026-11-39061",
-   "type": "Odor Investigation",
-   "status": "On Scene",
-   "status_at": "2026-11-28T10:05:54Z",
-   "created": "2026-11-28T09:57:03Z",
-   "jurisdiction": "Signal Mountain FD",
-   "agencies": [
-    "Signal Mountain FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "1116 CROWN POINT RD W",
-   "cross": "HATHAWAY DR/INVERNESS DR",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN FD 1",
-   "priority": "PRI 2",
-   "lat": 35.141457,
-   "lon": -85.336168,
    "units": 1,
    "stacked": false,
    "notable": false
