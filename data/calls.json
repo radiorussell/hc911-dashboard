@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T07:55:42+00:00",
+ "updated": "2026-11-28T08:00:37+00:00",
  "counts": {
-  "year": 375891,
-  "upstream_day": 72,
-  "day": 116,
+  "year": 375895,
+  "upstream_day": 76,
+  "day": 119,
   "day_basis": "midnight"
  },
  "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9834039",
+   "sequence": "2026-11-39004",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T07:57:32Z",
+   "created": "2026-11-28T07:57:22Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2221 TETON TRL",
+   "cross": "No Cross Street/SHALLOWFORD RD",
+   "city": "CHATTANOOGA",
+   "zone": "C6",
+   "priority": "PRI 3",
+   "lat": 35.04966,
+   "lon": -85.176546,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834033",
    "sequence": "2026-11-39001",
@@ -56,32 +82,6 @@
    "priority": "PRI 3",
    "lat": 35.04436,
    "lon": -85.310763,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834026",
-   "sequence": "2026-11-38994",
-   "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T07:44:35Z",
-   "created": "2026-11-28T07:29:04Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "9212 OLD HIXSON PIKE",
-   "cross": "DALLAS PL/CHIMNEY HILLS DR",
-   "city": "LAKESITE",
-   "zone": "DALLAS BAY FD 2 LAKESITE",
-   "priority": "PRI 2",
-   "lat": 35.204274,
-   "lon": -85.136197,
    "units": 1,
    "stacked": false,
    "notable": false
