@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T15:20:37+00:00",
+ "updated": "2026-11-28T15:25:39+00:00",
  "counts": {
   "year": 376058,
   "upstream_day": 239,
-  "day": 365,
+  "day": 368,
   "day_basis": "midnight"
  },
- "raw_rows": 24,
+ "raw_rows": 25,
  "incidents": [
+  {
+   "id": "9834369",
+   "sequence": "2026-11-39253",
+   "type": "Theft",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:25:38Z",
+   "created": "2026-11-28T15:25:11Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3506 BRAINERD RD",
+   "cross": "VISTA DR/S GERMANTOWN RD",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 4",
+   "lat": 35.024586,
+   "lon": -85.248,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834368",
+   "sequence": "2026-11-39252",
+   "type": "MVC No Injuries",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T15:22:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "600 INTERSTATE 75 NB",
+   "cross": "EXIT 5 ON RAMP NB/EXIT 7 OFF RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.046787,
+   "lon": -85.150969,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834367",
+   "sequence": "2026-11-39251",
+   "type": "Check For A Hazard",
+   "status": "Queued",
+   "status_at": "2026-11-28T15:21:13Z",
+   "created": "2026-11-28T15:20:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "700 INTERSTATE 75 NB",
+   "cross": "EXIT 7 OFF RAMP NB/EXIT 7B ON RAMP NB",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 2",
+   "lat": 35.055764,
+   "lon": -85.136524,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834365",
    "sequence": "2026-11-39250",
@@ -142,8 +220,8 @@
    "id": "9834359",
    "sequence": "2026-11-39243",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:25:10Z",
    "created": "2026-11-28T15:17:28Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,32 +269,6 @@
    "notable": false
   },
   {
-   "id": "9834353",
-   "sequence": "2026-11-39239",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T15:15:08Z",
-   "created": "2026-11-28T15:15:08Z",
-   "jurisdiction": "Signal Mountain PD",
-   "agencies": [
-    "Signal Mountain PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "331 ALEXIAN WAY",
-   "cross": "OHIO AVE/SIGNAL POINT RD",
-   "city": "SIGNAL MOUNTAIN",
-   "zone": "SIGNAL MOUNTAIN 1",
-   "priority": "PRI 3",
-   "lat": 35.124586,
-   "lon": -85.36442,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834354",
    "sequence": "2026-11-39240",
    "type": "EMS CALL",
@@ -246,8 +298,8 @@
    "id": "9834352",
    "sequence": "2026-11-39238",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T15:24:57Z",
    "created": "2026-11-28T15:14:04Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -283,42 +335,16 @@
    "agency_types": [
     "Law"
    ],
-   "address": "3404 AMNICOLA HWY",
-   "cross": "RIVERPORT RD/JUDD RD",
+   "address": "3113 E 45TH ST",
+   "cross": "14TH AVE/15TH AVE",
    "city": "CHATTANOOGA",
-   "zone": "B1 A",
+   "zone": "B9",
    "priority": "PRI 1",
-   "lat": 35.081426,
-   "lon": -85.263454,
+   "lat": 34.989013,
+   "lon": -85.283077,
    "units": 1,
    "stacked": false,
    "notable": true
-  },
-  {
-   "id": "9834347",
-   "sequence": "2026-11-39234",
-   "type": "Unknown 911",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:17:52Z",
-   "created": "2026-11-28T15:04:10Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5450 HIGHWAY 153",
-   "cross": "NORTHPOINT BLVD/HELENA DR",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.140347,
-   "lon": -85.246889,
-   "units": 1,
-   "stacked": false,
-   "notable": false
   },
   {
    "id": "9834346",
@@ -402,8 +428,8 @@
    "id": "9834341",
    "sequence": "2026-11-39228",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T15:04:29Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T15:24:30Z",
    "created": "2026-11-28T14:55:03Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -532,8 +558,8 @@
    "id": "9834313",
    "sequence": "2026-11-39208",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T15:03:16Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T15:22:49Z",
    "created": "2026-11-28T14:34:46Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
