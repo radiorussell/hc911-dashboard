@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T09:25:37+00:00",
+ "updated": "2026-11-28T09:30:37+00:00",
  "counts": {
-  "year": 375923,
-  "upstream_day": 104,
-  "day": 167,
+  "year": 375929,
+  "upstream_day": 110,
+  "day": 170,
   "day_basis": "midnight"
  },
  "raw_rows": 18,
  "incidents": [
+  {
+   "id": "9834108",
+   "sequence": "2026-11-39055",
+   "type": "AFA Commercial",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T09:26:44Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1810 GUNBARREL RD",
+   "cross": "CRANE RD/IGOU GAP RD",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 1",
+   "lat": 35.025475,
+   "lon": -85.15756,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834105",
    "sequence": "2026-11-39052",
@@ -38,8 +64,8 @@
    "id": "9834103",
    "sequence": "2026-11-39050",
    "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T09:26:46Z",
    "created": "2026-11-28T09:19:25Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -64,8 +90,8 @@
    "id": "9834102",
    "sequence": "2026-11-39049",
    "type": "Vehicle Fire",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T09:25:55Z",
    "created": "2026-11-28T09:19:17Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -116,8 +142,8 @@
    "id": "9834097",
    "sequence": "2026-11-39046",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T09:26:22Z",
    "created": "2026-11-28T09:14:53Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -134,32 +160,6 @@
    "priority": "PRI 1",
    "lat": 34.988101,
    "lon": -85.205348,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834095",
-   "sequence": "2026-11-39044",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T09:13:23Z",
-   "created": "2026-11-28T09:13:23Z",
-   "jurisdiction": "Soddy Daisy PD",
-   "agencies": [
-    "Soddy Daisy PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "227 SCHOOL ST",
-   "cross": "DEPOT ST/SPRING ST",
-   "city": "SODDY DAISY",
-   "zone": "SODDY DAISY 12",
-   "priority": "PRI 3",
-   "lat": 35.291494,
-   "lon": -85.159127,
    "units": 1,
    "stacked": false,
    "notable": false
