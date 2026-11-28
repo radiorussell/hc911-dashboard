@@ -1,19 +1,97 @@
 {
- "updated": "2026-11-28T06:05:37+00:00",
+ "updated": "2026-11-28T06:10:37+00:00",
  "counts": {
-  "year": 375844,
-  "upstream_day": 25,
-  "day": 64,
+  "year": 375850,
+  "upstream_day": 31,
+  "day": 68,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9833971",
+   "sequence": "2026-11-38952",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:07:14Z",
+   "created": "2026-11-28T06:07:14Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 13",
+   "priority": "PRI 3",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833972",
+   "sequence": "2026-11-38953",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T06:07:14Z",
+   "created": "2026-11-28T06:07:14Z",
+   "jurisdiction": "Soddy Daisy FD",
+   "agencies": [
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 3",
+   "priority": "PRI 1",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833969",
+   "sequence": "2026-11-38951",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T06:06:45Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6530 OLD DAYTON PIKE",
+   "cross": "PITTS RD/DAYTON PIKE",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 04 SD D",
+   "priority": "PRI 1",
+   "lat": 35.187423,
+   "lon": -85.250929,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833968",
    "sequence": "2026-11-38949",
    "type": "Theft",
-   "status": "Queued",
-   "status_at": "2026-11-28T06:05:22Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T06:05:01Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,32 +108,6 @@
    "priority": "PRI 4",
    "lat": 35.009147,
    "lon": -85.15844,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833967",
-   "sequence": "2026-11-38948",
-   "type": "Backup EMS Unit",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T06:04:34Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6219 LAGUANA DR",
-   "cross": "HADLEY DR/BONNY OAKS DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.075398,
-   "lon": -85.178673,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -87,58 +139,6 @@
    "notable": false
   },
   {
-   "id": "9833961",
-   "sequence": "2026-11-38944",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T05:59:37Z",
-   "created": "2026-11-28T05:59:37Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "6219 LAGUANA DR",
-   "cross": "HADLEY DR/BONNY OAKS DR",
-   "city": "CHATTANOOGA",
-   "zone": "601 A",
-   "priority": "PRI 3",
-   "lat": 35.075398,
-   "lon": -85.178673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833960",
-   "sequence": "2026-11-38943",
-   "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T05:59:37Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "6219 LAGUANA DR",
-   "cross": "HADLEY DR/BONNY OAKS DR",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 03 CH A",
-   "priority": "PRI 2",
-   "lat": 35.075398,
-   "lon": -85.178673,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833959",
    "sequence": "2026-11-38942",
    "type": "Noise Complaint",
@@ -160,32 +160,6 @@
    "priority": "PRI 3",
    "lat": 35.062936,
    "lon": -85.147151,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833957",
-   "sequence": "2026-11-38939",
-   "type": "Backup Other Agency",
-   "status": "Enroute",
-   "status_at": "2026-11-28T05:57:16Z",
-   "created": "2026-11-28T05:57:16Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "4600 HIGHWAY 58",
-   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
-   "city": "CHATTANOOGA",
-   "zone": "C5",
-   "priority": "PRI 2",
-   "lat": 35.084826,
-   "lon": -85.193545,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -264,32 +238,6 @@
    "priority": "PRI 1",
    "lat": 35.042483,
    "lon": -85.243678,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833947",
-   "sequence": "2026-11-38932",
-   "type": "Harassment",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T05:46:11Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "7700 ASPEN LODGE WAY",
-   "cross": "RESERVE WAY/TIMBER LN",
-   "city": "CHATTANOOGA",
-   "zone": "C8",
-   "priority": "PRI 4",
-   "lat": 35.009147,
-   "lon": -85.15844,
    "units": 1,
    "stacked": false,
    "notable": false
