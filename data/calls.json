@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T11:25:36+00:00",
+ "updated": "2026-11-28T11:30:36+00:00",
  "counts": {
-  "year": 375958,
-  "upstream_day": 139,
-  "day": 218,
+  "year": 375961,
+  "upstream_day": 142,
+  "day": 219,
   "day_basis": "midnight"
  },
- "raw_rows": 11,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9834180",
+   "sequence": "2026-11-39104",
+   "type": "Well Being Check",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T11:25:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3301 PINEWOOD AVE",
+   "cross": "PINEWOOD TER/DELLWOOD PL",
+   "city": "CHATTANOOGA",
+   "zone": "C2",
+   "priority": "PRI 3",
+   "lat": 35.030627,
+   "lon": -85.252155,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834179",
    "sequence": "2026-11-39103",
@@ -59,58 +85,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9834173",
-   "sequence": "2026-11-39100",
-   "type": "Disorder",
-   "status": "On Scene",
-   "status_at": "2026-11-28T11:22:17Z",
-   "created": "2026-11-28T11:14:35Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3657 RINGGOLD RD",
-   "cross": "S GERMANTOWN RD/BALES AVE",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 35.002176,
-   "lon": -85.257862,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834161",
-   "sequence": "2026-11-39091",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T11:12:41Z",
-   "created": "2026-11-28T10:57:01Z",
-   "jurisdiction": "Dallas Bay VFD",
-   "agencies": [
-    "Dallas Bay VFD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8276 CARLITOS LN",
-   "cross": "No Cross Street/BALLEW LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "DALLAS BAY FD 2",
-   "priority": "PRI 3",
-   "lat": 35.216658,
-   "lon": -85.175683,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9834147",
