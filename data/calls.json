@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-28T10:35:38+00:00",
+ "updated": "2026-11-28T10:40:38+00:00",
  "counts": {
-  "year": 375945,
-  "upstream_day": 126,
-  "day": 191,
+  "year": 375946,
+  "upstream_day": 127,
+  "day": 195,
   "day_basis": "midnight"
  },
  "raw_rows": 12,
  "incidents": [
   {
-   "id": "9834141",
-   "sequence": "2026-11-39076",
-   "type": "AFA Commercial",
-   "status": "On Scene",
-   "status_at": "2026-11-28T10:29:10Z",
-   "created": "2026-11-28T10:24:37Z",
+   "id": "9834149",
+   "sequence": "2026-11-39080",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T10:36:18Z",
+   "created": "2026-11-28T10:36:18Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
     "Chattanooga FD"
@@ -23,13 +23,39 @@
    "agency_types": [
     "Fire"
    ],
-   "address": "1810 GUNBARREL RD",
-   "cross": "CRANE RD/IGOU GAP RD",
+   "address": "7351 COURAGE WAY",
+   "cross": "STANDIFER GAP RD/No Cross Street",
    "city": "CHATTANOOGA",
-   "zone": "2101",
+   "zone": "802 A",
+   "priority": "PRI 2",
+   "lat": 35.053763,
+   "lon": -85.143375,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834147",
+   "sequence": "2026-11-39079",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T10:35:56Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7351 COURAGE WAY",
+   "cross": "STANDIFER GAP RD/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
    "priority": "PRI 1",
-   "lat": 35.025475,
-   "lon": -85.15756,
+   "lat": 35.053763,
+   "lon": -85.143375,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -54,32 +80,6 @@
    "city": "HAMILTON COUNTY",
    "zone": "MEDIC 05 HC C",
    "priority": "PRI 1",
-   "lat": 35.042705,
-   "lon": -85.109705,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834128",
-   "sequence": "2026-11-39070",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T10:03:30Z",
-   "created": "2026-11-28T10:03:26Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2814 BENT OAK RD",
-   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 2 A",
-   "priority": "PRI 3",
    "lat": 35.042705,
    "lon": -85.109705,
    "units": 1,
