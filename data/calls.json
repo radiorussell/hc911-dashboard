@@ -1,19 +1,71 @@
 {
- "updated": "2026-11-28T07:25:38+00:00",
+ "updated": "2026-11-28T07:30:36+00:00",
  "counts": {
-  "year": 375879,
-  "upstream_day": 60,
-  "day": 106,
+  "year": 375886,
+  "upstream_day": 67,
+  "day": 109,
   "day_basis": "midnight"
  },
- "raw_rows": 10,
+ "raw_rows": 12,
  "incidents": [
+  {
+   "id": "9834026",
+   "sequence": "2026-11-38994",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T07:29:04Z",
+   "created": "2026-11-28T07:29:04Z",
+   "jurisdiction": "Dallas Bay VFD",
+   "agencies": [
+    "Dallas Bay VFD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "9212 OLD HIXSON PIKE",
+   "cross": "DALLAS PL/CHIMNEY HILLS DR",
+   "city": "LAKESITE",
+   "zone": "DALLAS BAY FD 2 LAKESITE",
+   "priority": "PRI 2",
+   "lat": 35.204274,
+   "lon": -85.136197,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834025",
+   "sequence": "2026-11-38993",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T07:28:32Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "9212 OLD HIXSON PIKE",
+   "cross": "DALLAS PL/CHIMNEY HILLS DR",
+   "city": "LAKESITE",
+   "zone": "MEDIC 12 LK E",
+   "priority": "PRI 1",
+   "lat": 35.204274,
+   "lon": -85.136197,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834023",
    "sequence": "2026-11-38991",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T07:26:28Z",
    "created": "2026-11-28T07:22:59Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
