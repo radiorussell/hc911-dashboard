@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-28T05:55:40+00:00",
+ "updated": "2026-11-28T06:00:43+00:00",
  "counts": {
-  "year": 375843,
-  "upstream_day": 24,
-  "day": 52,
+  "year": 375844,
+  "upstream_day": 25,
+  "day": 59,
   "day_basis": "midnight"
  },
- "raw_rows": 15,
+ "raw_rows": 19,
  "incidents": [
+  {
+   "id": "9833961",
+   "sequence": "2026-11-38944",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T05:59:37Z",
+   "created": "2026-11-28T05:59:37Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6219 LAGUANA DR",
+   "cross": "HADLEY DR/BONNY OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "601 A",
+   "priority": "PRI 3",
+   "lat": 35.075398,
+   "lon": -85.178673,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833960",
+   "sequence": "2026-11-38943",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T05:59:37Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6219 LAGUANA DR",
+   "cross": "HADLEY DR/BONNY OAKS DR",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 03 CH A",
+   "priority": "PRI 2",
+   "lat": 35.075398,
+   "lon": -85.178673,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833959",
+   "sequence": "2026-11-38942",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T05:58:55Z",
+   "created": "2026-11-28T05:58:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2890 FERNLEAF LN",
+   "cross": "AVONLEA LN/FIRETHORNE LN",
+   "city": "CHATTANOOGA",
+   "zone": "C9",
+   "priority": "PRI 3",
+   "lat": 35.062936,
+   "lon": -85.147151,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833957",
+   "sequence": "2026-11-38939",
+   "type": "Backup Other Agency",
+   "status": "Enroute",
+   "status_at": "2026-11-28T05:57:16Z",
+   "created": "2026-11-28T05:57:16Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "4600 HIGHWAY 58",
+   "cross": "ROCKY RIVER RD/TRAILWOOD DR",
+   "city": "CHATTANOOGA",
+   "zone": "C5",
+   "priority": "PRI 2",
+   "lat": 35.084826,
+   "lon": -85.193545,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833954",
    "sequence": "2026-11-38937",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T05:59:58Z",
    "created": "2026-11-28T05:53:30Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -38,8 +142,8 @@
    "id": "9833953",
    "sequence": "2026-11-38936",
    "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T05:53:30Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T05:53:30Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
