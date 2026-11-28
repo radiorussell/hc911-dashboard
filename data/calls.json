@@ -1,35 +1,113 @@
 {
- "updated": "2026-11-28T02:50:36+00:00",
+ "updated": "2026-11-28T02:55:36+00:00",
  "counts": {
   "year": 375714,
   "upstream_day": 0,
-  "day": 1051,
+  "day": 1060,
   "day_basis": "midnight"
  },
- "raw_rows": 18,
+ "raw_rows": 20,
  "incidents": [
   {
-   "id": "9833736",
-   "sequence": "2026-11-38766",
-   "type": "Private Property Tow",
+   "id": "9833748",
+   "sequence": "2026-11-38775",
+   "type": "EMS CALL",
    "status": "Queued",
-   "status_at": "2026-11-28T02:50:14Z",
-   "created": "2026-11-28T02:50:14Z",
-   "jurisdiction": "Chattanooga PD",
+   "status_at": "2026-11-28T02:54:57Z",
+   "created": "2026-11-28T02:54:57Z",
+   "jurisdiction": "Soddy Daisy FD",
    "agencies": [
-    "Chattanooga PD"
+    "Soddy Daisy FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY FD 1",
+   "priority": "PRI 1",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833747",
+   "sequence": "2026-11-38774",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:54:56Z",
+   "created": "2026-11-28T02:54:56Z",
+   "jurisdiction": "Soddy Daisy PD",
+   "agencies": [
+    "Soddy Daisy PD"
    ],
    "agency_type": "Law",
    "agency_types": [
     "Law"
    ],
-   "address": "7109 TYNER CROSSING DR",
-   "cross": "TYNER RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "C9",
-   "priority": "PRI 0",
-   "lat": 35.062015,
-   "lon": -85.152346,
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "SODDY DAISY 11",
+   "priority": "PRI 1",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833746",
+   "sequence": "2026-11-38773",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:54:23Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "701 SEQUOYAH RD",
+   "cross": "SUNSET VALLEY DR/W RIDGE TRAIL RD",
+   "city": "SODDY DAISY",
+   "zone": "MEDIC 12 SD F",
+   "priority": "PRI 1",
+   "lat": 35.233251,
+   "lon": -85.174425,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833741",
+   "sequence": "2026-11-38770",
+   "type": "Alarm Distress",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:51:46Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6510 WACONDA POINT RD",
+   "cross": "COBBLE LN/No Cross Street",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 5",
+   "priority": "PRI 2",
+   "lat": 35.135461,
+   "lon": -85.132228,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -64,8 +142,8 @@
    "id": "9833731",
    "sequence": "2026-11-38764",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:54:55Z",
    "created": "2026-11-28T02:47:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -90,8 +168,8 @@
    "id": "9833714",
    "sequence": "2026-11-38755",
    "type": "Shooting/Person Shot",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:39:50Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T02:51:21Z",
    "created": "2026-11-28T02:34:12Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -266,32 +344,6 @@
    "lon": -85.142679,
    "units": 1,
    "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833687",
-   "sequence": "2026-11-38731",
-   "type": "Property",
-   "status": "Stacked",
-   "status_at": "2026-11-28T02:19:12Z",
-   "created": "2026-11-28T02:19:12Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5310 BRAINERD RD",
-   "cross": "MCBRIEN RD/S BROOKS AVE",
-   "city": "CHATTANOOGA",
-   "zone": "C3 A",
-   "priority": "PRI 4",
-   "lat": 35.010207,
-   "lon": -85.22193,
-   "units": 1,
-   "stacked": true,
    "notable": false
   },
   {
