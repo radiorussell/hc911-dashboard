@@ -1,20 +1,46 @@
 {
- "updated": "2026-11-27T23:55:36+00:00",
+ "updated": "2026-11-28T00:00:37+00:00",
  "counts": {
-  "year": 375575,
-  "upstream_day": 635,
-  "day": 865,
+  "year": 375583,
+  "upstream_day": 643,
+  "day": 873,
   "day_basis": "midnight"
  },
- "raw_rows": 20,
+ "raw_rows": 21,
  "incidents": [
   {
-   "id": "9833493",
-   "sequence": "2026-11-38580",
-   "type": "Backup Police",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:49:18Z",
-   "created": "2026-11-27T23:44:08Z",
+   "id": "9833505",
+   "sequence": "2026-11-38588",
+   "type": "Noise Complaint",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:56:48Z",
+   "jurisdiction": "Hamilton Co SO",
+   "agencies": [
+    "Hamilton Co SO"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5302 KELLYS PT",
+   "cross": "No Cross Street/FLAGSTONE DR",
+   "city": "HAMILTON COUNTY",
+   "zone": "EAST 8 A",
+   "priority": "PRI 3",
+   "lat": 35.100881,
+   "lon": -85.092619,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833502",
+   "sequence": "2026-11-38587",
+   "type": "Theft",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-27T23:55:35Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
     "Chattanooga PD"
@@ -23,13 +49,13 @@
    "agency_types": [
     "Law"
    ],
-   "address": "FAGAN ST / E 42ND ST",
-   "cross": "",
+   "address": "3550 CUMMINGS HWY",
+   "cross": "HEMLOCK CIR/STARVIEW LN",
    "city": "CHATTANOOGA",
-   "zone": "A12",
-   "priority": "PRI 2",
-   "lat": 35.001251,
-   "lon": -85.310025,
+   "zone": "A13 A",
+   "priority": "PRI 4",
+   "lat": 35.015591,
+   "lon": -85.376588,
    "units": 1,
    "stacked": false,
    "notable": false
