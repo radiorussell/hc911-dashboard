@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T07:15:37+00:00",
+ "updated": "2026-11-28T07:20:37+00:00",
  "counts": {
-  "year": 375877,
-  "upstream_day": 58,
+  "year": 375879,
+  "upstream_day": 60,
   "day": 102,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 12,
  "incidents": [
   {
    "id": "9834018",
@@ -116,8 +116,8 @@
    "id": "9834009",
    "sequence": "2026-11-38981",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T07:16:42Z",
    "created": "2026-11-28T07:07:19Z",
    "jurisdiction": "Tri-Community FD",
    "agencies": [
@@ -189,32 +189,6 @@
    "units": 1,
    "stacked": false,
    "notable": false
-  },
-  {
-   "id": "9833783",
-   "sequence": "2026-11-38794",
-   "type": "Assault EMS Needed",
-   "status": "On Scene",
-   "status_at": "2026-11-28T03:32:13Z",
-   "created": "2026-11-28T03:23:38Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6614 HILLBROOK LN",
-   "cross": "NORTHMONT RD/DALEMONT LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 1",
-   "lat": 35.167087,
-   "lon": -85.235716,
-   "units": 1,
-   "stacked": false,
-   "notable": true
   },
   {
    "id": "9833777",
