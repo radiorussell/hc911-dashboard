@@ -1,13 +1,91 @@
 {
- "updated": "2026-11-28T00:30:43+00:00",
+ "updated": "2026-11-28T00:35:37+00:00",
  "counts": {
   "year": 375601,
   "upstream_day": 0,
-  "day": 908,
+  "day": 913,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 27,
  "incidents": [
+  {
+   "id": "9833549",
+   "sequence": "2026-11-38628",
+   "type": "Unknown 911",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:34:05Z",
+   "created": "2026-11-28T00:33:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2240 TUNNEL BLVD",
+   "cross": "WILDWOOD ST/GREEN FOREST DR",
+   "city": "CHATTANOOGA",
+   "zone": "C1",
+   "priority": "PRI 3",
+   "lat": 35.0571,
+   "lon": -85.23109,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833544",
+   "sequence": "2026-11-38625",
+   "type": "Narcotics Violation",
+   "status": "Queued",
+   "status_at": "2026-11-28T00:31:58Z",
+   "created": "2026-11-28T00:31:58Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "3006 4TH AVE",
+   "cross": "E 30TH ST/E 31ST ST",
+   "city": "CHATTANOOGA",
+   "zone": "B8",
+   "priority": "PRI 3",
+   "lat": 35.00843,
+   "lon": -85.284482,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833543",
+   "sequence": "2026-11-38624",
+   "type": "AFA Residential",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T00:31:44Z",
+   "jurisdiction": "Lookout Mountain FD",
+   "agencies": [
+    "Lookout Mountain FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "111 EAST AND WEST RD",
+   "cross": "FLEETWOOD DR/MITCHELL DR",
+   "city": "LOOKOUT MOUNTAIN",
+   "zone": "LOOKOUT MOUNTAIN FD",
+   "priority": "PRI 1",
+   "lat": 34.990399,
+   "lon": -85.348801,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833540",
    "sequence": "2026-11-38623",
@@ -220,8 +298,8 @@
    "id": "9833514",
    "sequence": "2026-11-38599",
    "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:35:29Z",
    "created": "2026-11-28T00:06:07Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -298,8 +376,8 @@
    "id": "9833507",
    "sequence": "2026-11-38590",
    "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T00:31:19Z",
    "created": "2026-11-28T00:03:20Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -316,32 +394,6 @@
    "priority": "PRI 3",
    "lat": 35.045674,
    "lon": -85.155344,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833502",
-   "sequence": "2026-11-38587",
-   "type": "Theft",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:08:42Z",
-   "created": "2026-11-27T23:55:35Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3550 CUMMINGS HWY",
-   "cross": "HEMLOCK CIR/STARVIEW LN",
-   "city": "CHATTANOOGA",
-   "zone": "A13 A",
-   "priority": "PRI 4",
-   "lat": 35.015591,
-   "lon": -85.376588,
    "units": 1,
    "stacked": false,
    "notable": false
@@ -402,8 +454,8 @@
    "id": "9833473",
    "sequence": "2026-11-38569",
    "type": "Harassment",
-   "status": "On Scene",
-   "status_at": "2026-11-28T00:05:17Z",
+   "status": "Stacked",
+   "status_at": "2026-11-27T23:29:48Z",
    "created": "2026-11-27T23:29:14Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -421,33 +473,7 @@
    "lat": 35.269396,
    "lon": -85.04911,
    "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833465",
-   "sequence": "2026-11-38562",
-   "type": "Property",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:43:10Z",
-   "created": "2026-11-27T23:25:10Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "11911 MADDOX DR",
-   "cross": "LEGENDARY RUN/GRASSHOPPER RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "EAST 7",
-   "priority": "PRI 4",
-   "lat": 35.277831,
-   "lon": -84.988848,
-   "units": 1,
-   "stacked": false,
+   "stacked": true,
    "notable": false
   },
   {
