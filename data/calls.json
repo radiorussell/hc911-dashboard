@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T14:10:41+00:00",
+ "updated": "2026-11-28T14:15:42+00:00",
  "counts": {
   "year": 376021,
   "upstream_day": 202,
   "day": 308,
   "day_basis": "midnight"
  },
- "raw_rows": 13,
+ "raw_rows": 11,
  "incidents": [
   {
    "id": "9834290",
    "sequence": "2026-11-39193",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T14:15:18Z",
    "created": "2026-11-28T14:04:46Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -61,32 +61,6 @@
    "notable": false
   },
   {
-   "id": "9834285",
-   "sequence": "2026-11-39190",
-   "type": "Property",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:59:36Z",
-   "created": "2026-11-28T13:59:36Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "2525 DE SALES AVE",
-   "cross": "PARKWOOD AVE/KILMER ST",
-   "city": "CHATTANOOGA",
-   "zone": "B4",
-   "priority": "PRI 4",
-   "lat": 35.041701,
-   "lon": -85.260662,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9834283",
    "sequence": "2026-11-39188",
    "type": "EMS CALL",
@@ -116,8 +90,8 @@
    "id": "9834281",
    "sequence": "2026-11-39187",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T14:04:55Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T14:12:33Z",
    "created": "2026-11-28T13:58:37Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -143,7 +117,7 @@
    "sequence": "2026-11-39184",
    "type": "Property",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T14:10:54Z",
    "created": "2026-11-28T13:54:55Z",
    "jurisdiction": "East Ridge PD",
    "agencies": [
@@ -212,32 +186,6 @@
    "priority": "PRI 1",
    "lat": 34.995835,
    "lon": -85.185897,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834272",
-   "sequence": "2026-11-39177",
-   "type": "MVC No Injuries",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T13:49:08Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "MARKET ST / W 20TH ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "A10",
-   "priority": "PRI 3",
-   "lat": 35.031474,
-   "lon": -85.308821,
    "units": 1,
    "stacked": false,
    "notable": false
