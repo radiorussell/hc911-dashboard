@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T07:20:37+00:00",
+ "updated": "2026-11-28T07:25:38+00:00",
  "counts": {
   "year": 375879,
   "upstream_day": 60,
-  "day": 102,
+  "day": 106,
   "day_basis": "midnight"
  },
- "raw_rows": 12,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9834023",
+   "sequence": "2026-11-38991",
+   "type": "Fire Assist Citizen",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T07:22:59Z",
+   "jurisdiction": "Tri-Community FD",
+   "agencies": [
+    "Tri-Community FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "2814 BENT OAK RD",
+   "cross": "FALLEN MAPLE DR/HARVEST OAK LN",
+   "city": "HAMILTON COUNTY",
+   "zone": "TRI-COMM FD 5 F",
+   "priority": "PRI 3",
+   "lat": 35.042705,
+   "lon": -85.109705,
+   "units": 1,
+   "stacked": false,
+   "notable": true
+  },
   {
    "id": "9834018",
    "sequence": "2026-11-38986",
@@ -64,8 +90,8 @@
    "id": "9834017",
    "sequence": "2026-11-38985",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T07:23:50Z",
    "created": "2026-11-28T07:11:24Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -82,84 +108,6 @@
    "priority": "PRI 1",
    "lat": 35.376658,
    "lon": -85.110108,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834010",
-   "sequence": "2026-11-38982",
-   "type": "Disorder",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T07:09:22Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "3613 CHEROKEE AVE",
-   "cross": "MELODY LN/JOHN ROSS RD",
-   "city": "EAST RIDGE",
-   "zone": "ERPD WEST",
-   "priority": "PRI 3",
-   "lat": 34.990343,
-   "lon": -85.268707,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834009",
-   "sequence": "2026-11-38981",
-   "type": "Fire Assist Citizen",
-   "status": "On Scene",
-   "status_at": "2026-11-28T07:16:42Z",
-   "created": "2026-11-28T07:07:19Z",
-   "jurisdiction": "Tri-Community FD",
-   "agencies": [
-    "Tri-Community FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "8101 HOLLY HILLS LN",
-   "cross": "HOLLY CREST DR/HOLLY CREST DR",
-   "city": "HAMILTON COUNTY",
-   "zone": "TRI-COMM FD 5 F",
-   "priority": "PRI 3",
-   "lat": 35.03771,
-   "lon": -85.126544,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
-   "id": "9834003",
-   "sequence": "2026-11-38975",
-   "type": "Theft",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T06:48:55Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1112 S ST MARKS AVE",
-   "cross": "WEAVER ST/No Cross Street",
-   "city": "EAST RIDGE",
-   "zone": "ERPD CENTRAL",
-   "priority": "PRI 4",
-   "lat": 35.000277,
-   "lon": -85.232862,
    "units": 1,
    "stacked": false,
    "notable": false
