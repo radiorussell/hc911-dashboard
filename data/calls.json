@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-28T12:00:36+00:00",
+ "updated": "2026-11-28T12:05:36+00:00",
  "counts": {
   "year": 375966,
   "upstream_day": 147,
-  "day": 226,
+  "day": 230,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 9,
  "incidents": [
+  {
+   "id": "9834196",
+   "sequence": "2026-11-39115",
+   "type": "Disorder",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T12:02:32Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2440 WILLIAMS ST",
+   "cross": "I-24 EB @ EXIT 178 WILLIAMS ST RAMP/W 25TH ST",
+   "city": "CHATTANOOGA",
+   "zone": "A10",
+   "priority": "PRI 3",
+   "lat": 35.027795,
+   "lon": -85.313613,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834188",
    "sequence": "2026-11-39111",
@@ -168,8 +194,8 @@
    "id": "9834044",
    "sequence": "2026-11-39005",
    "type": "Shots Fired",
-   "status": "Stacked",
-   "status_at": "2026-11-28T08:03:05Z",
+   "status": "Enroute",
+   "status_at": "2026-11-28T08:05:53Z",
    "created": "2026-11-28T08:02:49Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -187,7 +213,7 @@
    "lat": 35.002468,
    "lon": -85.284118,
    "units": 1,
-   "stacked": true,
+   "stacked": false,
    "notable": true
   },
   {
