@@ -1,19 +1,123 @@
 {
- "updated": "2026-11-28T02:25:38+00:00",
+ "updated": "2026-11-28T02:30:38+00:00",
  "counts": {
-  "year": 375684,
+  "year": 375687,
   "upstream_day": 0,
-  "day": 1026,
+  "day": 1034,
   "day_basis": "midnight"
  },
  "raw_rows": 24,
  "incidents": [
   {
+   "id": "9833708",
+   "sequence": "2026-11-38748",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:29:45Z",
+   "created": "2026-11-28T02:29:45Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "7831 MAGNOLIA LAKE DR",
+   "cross": "AVIARA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "C7",
+   "priority": "PRI 3",
+   "lat": 35.023049,
+   "lon": -85.142679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833709",
+   "sequence": "2026-11-38749",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:29:45Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "7831 MAGNOLIA LAKE DR",
+   "cross": "AVIARA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "2101",
+   "priority": "PRI 2",
+   "lat": 35.023049,
+   "lon": -85.142679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833706",
+   "sequence": "2026-11-38746",
+   "type": "Animal Call",
+   "status": "Queued",
+   "status_at": "2026-11-28T02:29:33Z",
+   "created": "2026-11-28T02:29:22Z",
+   "jurisdiction": "Collegedale PD",
+   "agencies": [
+    "Collegedale PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "5588 LITTLE DEBBIE PKWY",
+   "cross": "JAC CATE RD/OLD LEE HWY",
+   "city": "COLLEGEDALE",
+   "zone": "COLLEGEDALE WEST",
+   "priority": "PRI 4",
+   "lat": 35.08082,
+   "lon": -85.06329,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833703",
+   "sequence": "2026-11-38747",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T02:28:53Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "7831 MAGNOLIA LAKE DR",
+   "cross": "AVIARA DR/No Cross Street",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.023049,
+   "lon": -85.142679,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833698",
    "sequence": "2026-11-38741",
    "type": "Auto Broken Down",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:24:42Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T02:24:42Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -243,32 +347,6 @@
    "notable": false
   },
   {
-   "id": "9833673",
-   "sequence": "2026-11-38725",
-   "type": "Check For A Hazard",
-   "status": "Enroute",
-   "status_at": "2026-11-28T02:19:32Z",
-   "created": "2026-11-28T02:11:38Z",
-   "jurisdiction": "Hamilton Co SO",
-   "agencies": [
-    "Hamilton Co SO"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "14402 DAYTON PIKE",
-   "cross": "SALE CREEK LN/REAVLEY RD",
-   "city": "HAMILTON COUNTY",
-   "zone": "WEST 7",
-   "priority": "PRI 2",
-   "lat": 35.365894,
-   "lon": -85.117715,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833661",
    "sequence": "2026-11-38711",
    "type": "EMS CALL",
@@ -295,58 +373,6 @@
    "notable": false
   },
   {
-   "id": "9833657",
-   "sequence": "2026-11-38710",
-   "type": "Noise Complaint",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:14:42Z",
-   "created": "2026-11-28T01:51:33Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "5220 HICKORY WOODS LN",
-   "cross": "AUSTIN RD/No Cross Street",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.139983,
-   "lon": -85.238497,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833658",
-   "sequence": "2026-11-38708",
-   "type": "Assault Delayed",
-   "status": "Enroute",
-   "status_at": null,
-   "created": "2026-11-28T01:50:52Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "55 E MAIN ST",
-   "cross": "MITCHELL AVE/ROSSVILLE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "A9",
-   "priority": "PRI 4",
-   "lat": 35.035851,
-   "lon": -85.30572,
-   "units": 1,
-   "stacked": false,
-   "notable": true
-  },
-  {
    "id": "9833652",
    "sequence": "2026-11-38704",
    "type": "EMS CALL",
@@ -368,32 +394,6 @@
    "priority": "PRI 1",
    "lat": 35.238274,
    "lon": -85.179468,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833641",
-   "sequence": "2026-11-38695",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T01:40:53Z",
-   "created": "2026-11-28T01:40:53Z",
-   "jurisdiction": "East Ridge PD",
-   "agencies": [
-    "East Ridge PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1613 ADAIR AVE",
-   "cross": "MARIETTA ST/BRACK ST",
-   "city": "EAST RIDGE",
-   "zone": "ERPD EAST",
-   "priority": "PRI 3",
-   "lat": 34.98736,
-   "lon": -85.2132,
    "units": 1,
    "stacked": false,
    "notable": false
