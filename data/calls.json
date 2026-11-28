@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T03:05:36+00:00",
+ "updated": "2026-11-28T03:10:42+00:00",
  "counts": {
-  "year": 375719,
+  "year": 375731,
   "upstream_day": 0,
   "day": 1065,
   "day_basis": "midnight"
  },
- "raw_rows": 21,
+ "raw_rows": 20,
  "incidents": [
   {
    "id": "9833751",
    "sequence": "2026-11-38780",
    "type": "Fire Assist Citizen",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T03:06:27Z",
    "created": "2026-11-28T02:56:31Z",
    "jurisdiction": "Chattanooga FD",
    "agencies": [
@@ -90,8 +90,8 @@
    "id": "9833749",
    "sequence": "2026-11-38776",
    "type": "EMS CALL",
-   "status": "Enroute",
-   "status_at": null,
+   "status": "On Scene",
+   "status_at": "2026-11-28T03:06:22Z",
    "created": "2026-11-28T02:56:02Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -191,37 +191,11 @@
    "notable": false
   },
   {
-   "id": "9833733",
-   "sequence": "2026-11-38765",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T02:48:03Z",
-   "created": "2026-11-28T02:48:03Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "2626 WALKER RD",
-   "cross": "STANDIFER GAP RD/TYNER RD",
-   "city": "CHATTANOOGA",
-   "zone": "701 B",
-   "priority": "PRI 2",
-   "lat": 35.056528,
-   "lon": -85.13274,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
    "id": "9833731",
    "sequence": "2026-11-38764",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T02:54:55Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T03:06:42Z",
    "created": "2026-11-28T02:47:36Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -373,6 +347,32 @@
    "notable": false
   },
   {
+   "id": "9833702",
+   "sequence": "2026-11-38743",
+   "type": "Property",
+   "status": "On Scene",
+   "status_at": "2026-11-28T02:32:44Z",
+   "created": "2026-11-28T02:27:55Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "2406 E 5TH ST",
+   "cross": "DERBY ST/KILMER ST",
+   "city": "CHATTANOOGA",
+   "zone": "B4",
+   "priority": "PRI 4",
+   "lat": 35.03582,
+   "lon": -85.264379,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
    "id": "9833675",
    "sequence": "2026-11-38722",
    "type": "Theft",
@@ -446,32 +446,6 @@
    "priority": "PRI 2",
    "lat": 35.145066,
    "lon": -85.315038,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9833439",
-   "sequence": "2026-11-38542",
-   "type": "Pedestrian Struck",
-   "status": "On Scene",
-   "status_at": "2026-11-27T23:12:57Z",
-   "created": "2026-11-27T23:07:27Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "1157 HOOKER RD",
-   "cross": "WOODLAND VIEW CIR/E 49TH ST",
-   "city": "CHATTANOOGA",
-   "zone": "B9",
-   "priority": "PRI 1",
-   "lat": 34.98796,
-   "lon": -85.297766,
    "units": 1,
    "stacked": false,
    "notable": false
