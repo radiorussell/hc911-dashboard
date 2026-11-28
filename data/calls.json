@@ -1,13 +1,65 @@
 {
- "updated": "2026-11-28T11:45:36+00:00",
+ "updated": "2026-11-28T11:50:37+00:00",
  "counts": {
   "year": 375964,
   "upstream_day": 145,
-  "day": 217,
+  "day": 226,
   "day_basis": "midnight"
  },
- "raw_rows": 8,
+ "raw_rows": 10,
  "incidents": [
+  {
+   "id": "9834188",
+   "sequence": "2026-11-39111",
+   "type": "Wires Down",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T11:47:55Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "TREMONT ST / ORR ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "1202 A",
+   "priority": "PRI 2",
+   "lat": 35.067053,
+   "lon": -85.298813,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9834187",
+   "sequence": "2026-11-39110",
+   "type": "Wires Down",
+   "status": "Queued",
+   "status_at": "2026-11-28T11:47:54Z",
+   "created": "2026-11-28T11:47:54Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "TREMONT ST / ORR ST",
+   "cross": "",
+   "city": "CHATTANOOGA",
+   "zone": "A4 A",
+   "priority": "PRI 2",
+   "lat": 35.067053,
+   "lon": -85.298813,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9834178",
    "sequence": "2026-11-39102",
