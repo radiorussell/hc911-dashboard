@@ -1,19 +1,201 @@
 {
- "updated": "2026-11-28T04:35:37+00:00",
+ "updated": "2026-11-28T04:40:37+00:00",
  "counts": {
-  "year": 375784,
+  "year": 375789,
   "upstream_day": 0,
-  "day": 1151,
+  "day": 1165,
   "day_basis": "midnight"
  },
- "raw_rows": 26,
+ "raw_rows": 33,
  "incidents": [
+  {
+   "id": "9833879",
+   "sequence": "2026-11-38879",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:38:56Z",
+   "created": "2026-11-28T04:38:56Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1000 - 1098 BAILEY AVE",
+   "cross": "E MARTIN LUTHER KING BLVD/NATIONAL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B5",
+   "priority": "PRI 3",
+   "lat": 35.039606,
+   "lon": -85.291618,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833880",
+   "sequence": "2026-11-38880",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:38:56Z",
+   "created": "2026-11-28T04:38:56Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "1000 - 1098 BAILEY AVE",
+   "cross": "E MARTIN LUTHER KING BLVD/NATIONAL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "501",
+   "priority": "PRI 1",
+   "lat": 35.039606,
+   "lon": -85.291618,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833876",
+   "sequence": "2026-11-38878",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T04:38:42Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "1000 - 1098 BAILEY AVE",
+   "cross": "E MARTIN LUTHER KING BLVD/NATIONAL AVE",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 09 + 13 CH",
+   "priority": "PRI 1",
+   "lat": 35.039606,
+   "lon": -85.291618,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833872",
+   "sequence": "2026-11-38873",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T04:37:01Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "6220 LEE HWY",
+   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "C4",
+   "priority": "PRI 3",
+   "lat": 35.030289,
+   "lon": -85.184651,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833873",
+   "sequence": "2026-11-38874",
+   "type": "EMS CALL",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:37:01Z",
+   "created": "2026-11-28T04:37:01Z",
+   "jurisdiction": "Chattanooga FD",
+   "agencies": [
+    "Chattanooga FD"
+   ],
+   "agency_type": "Fire",
+   "agency_types": [
+    "Fire"
+   ],
+   "address": "6220 LEE HWY",
+   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "802 C",
+   "priority": "PRI 1",
+   "lat": 35.030289,
+   "lon": -85.184651,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833870",
+   "sequence": "2026-11-38872",
+   "type": "EMS CALL",
+   "status": "Enroute",
+   "status_at": null,
+   "created": "2026-11-28T04:36:36Z",
+   "jurisdiction": "Hamilton Co EMS",
+   "agencies": [
+    "Hamilton Co EMS"
+   ],
+   "agency_type": "EMS",
+   "agency_types": [
+    "EMS"
+   ],
+   "address": "6220 LEE HWY",
+   "cross": "PERIMETER DR/HWY 153 SB @ LEE HWY - ON RAMP",
+   "city": "CHATTANOOGA",
+   "zone": "MEDIC 07 CH A",
+   "priority": "PRI 1",
+   "lat": 35.030289,
+   "lon": -85.184651,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
+  {
+   "id": "9833869",
+   "sequence": "2026-11-38871",
+   "type": "Noise Complaint",
+   "status": "Queued",
+   "status_at": "2026-11-28T04:36:48Z",
+   "created": "2026-11-28T04:36:07Z",
+   "jurisdiction": "Chattanooga PD",
+   "agencies": [
+    "Chattanooga PD"
+   ],
+   "agency_type": "Law",
+   "agency_types": [
+    "Law"
+   ],
+   "address": "1911 CITICO AVE",
+   "cross": "N ORCHARD KNOB AVE/ROANOKE AVE",
+   "city": "CHATTANOOGA",
+   "zone": "B3",
+   "priority": "PRI 3",
+   "lat": 35.045736,
+   "lon": -85.268524,
+   "units": 1,
+   "stacked": false,
+   "notable": false
+  },
   {
    "id": "9833866",
    "sequence": "2026-11-38866",
    "type": "Backup Fire Unit",
-   "status": "Queued",
-   "status_at": "2026-11-28T04:32:41Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T04:32:41Z",
    "jurisdiction": "Hamilton Co SO",
    "agencies": [
@@ -194,8 +376,8 @@
    "id": "9833832",
    "sequence": "2026-11-38841",
    "type": "EMS CALL",
-   "status": "On Scene",
-   "status_at": "2026-11-28T04:19:17Z",
+   "status": "Transporting",
+   "status_at": "2026-11-28T04:40:09Z",
    "created": "2026-11-28T04:05:09Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
@@ -298,8 +480,8 @@
    "id": "9833820",
    "sequence": "2026-11-38831",
    "type": "EMS CALL",
-   "status": "Transporting",
-   "status_at": "2026-11-28T04:25:54Z",
+   "status": "At Hospital",
+   "status_at": "2026-11-28T04:38:02Z",
    "created": "2026-11-28T03:58:59Z",
    "jurisdiction": "Hamilton Co EMS",
    "agencies": [
