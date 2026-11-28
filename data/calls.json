@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T14:05:36+00:00",
+ "updated": "2026-11-28T14:10:41+00:00",
  "counts": {
-  "year": null,
-  "upstream_day": null,
+  "year": 376021,
+  "upstream_day": 202,
   "day": 308,
   "day_basis": "midnight"
  },
- "raw_rows": 14,
+ "raw_rows": 13,
  "incidents": [
   {
    "id": "9834290",
    "sequence": "2026-11-39193",
    "type": "Fire Assist Citizen",
-   "status": "Queued",
-   "status_at": "2026-11-28T14:05:12Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T14:04:46Z",
    "jurisdiction": "Soddy Daisy FD",
    "agencies": [
@@ -38,8 +38,8 @@
    "id": "9834289",
    "sequence": "2026-11-39192",
    "type": "Check For A Hazard",
-   "status": "Queued",
-   "status_at": "2026-11-28T14:02:54Z",
+   "status": "Enroute",
+   "status_at": null,
    "created": "2026-11-28T14:02:15Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -238,32 +238,6 @@
    "priority": "PRI 3",
    "lat": 35.031474,
    "lon": -85.308821,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834263",
-   "sequence": "2026-11-39170",
-   "type": "EMS CALL",
-   "status": "Queued",
-   "status_at": "2026-11-28T13:44:01Z",
-   "created": "2026-11-28T13:44:01Z",
-   "jurisdiction": "Chattanooga PD",
-   "agencies": [
-    "Chattanooga PD"
-   ],
-   "agency_type": "Law",
-   "agency_types": [
-    "Law"
-   ],
-   "address": "6128 WILDER RD",
-   "cross": "GLENRIDGE LN/CHARWOOD LN",
-   "city": "CHATTANOOGA",
-   "zone": "A1",
-   "priority": "PRI 3",
-   "lat": 35.160322,
-   "lon": -85.246026,
    "units": 1,
    "stacked": false,
    "notable": false
