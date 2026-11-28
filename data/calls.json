@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T12:05:36+00:00",
+ "updated": "2026-11-28T12:10:42+00:00",
  "counts": {
-  "year": 375966,
-  "upstream_day": 147,
+  "year": 375968,
+  "upstream_day": 149,
   "day": 230,
   "day_basis": "midnight"
  },
- "raw_rows": 9,
+ "raw_rows": 7,
  "incidents": [
   {
    "id": "9834196",
    "sequence": "2026-11-39115",
    "type": "Disorder",
    "status": "Enroute",
-   "status_at": null,
+   "status_at": "2026-11-28T12:06:30Z",
    "created": "2026-11-28T12:02:32Z",
    "jurisdiction": "Chattanooga PD",
    "agencies": [
@@ -30,58 +30,6 @@
    "priority": "PRI 3",
    "lat": 35.027795,
    "lon": -85.313613,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834188",
-   "sequence": "2026-11-39111",
-   "type": "Wires Down",
-   "status": "On Scene",
-   "status_at": "2026-11-28T11:56:10Z",
-   "created": "2026-11-28T11:47:55Z",
-   "jurisdiction": "Chattanooga FD",
-   "agencies": [
-    "Chattanooga FD"
-   ],
-   "agency_type": "Fire",
-   "agency_types": [
-    "Fire"
-   ],
-   "address": "TREMONT ST / ORR ST",
-   "cross": "",
-   "city": "CHATTANOOGA",
-   "zone": "1202 A",
-   "priority": "PRI 2",
-   "lat": 35.067053,
-   "lon": -85.298813,
-   "units": 1,
-   "stacked": false,
-   "notable": false
-  },
-  {
-   "id": "9834178",
-   "sequence": "2026-11-39102",
-   "type": "EMS CALL",
-   "status": "At Hospital",
-   "status_at": "2026-11-28T11:41:56Z",
-   "created": "2026-11-28T11:17:47Z",
-   "jurisdiction": "Hamilton Co EMS",
-   "agencies": [
-    "Hamilton Co EMS"
-   ],
-   "agency_type": "EMS",
-   "agency_types": [
-    "EMS"
-   ],
-   "address": "7429 SHALLOWFORD RD",
-   "cross": "GUNBARREL RD/OGLETREE AVE",
-   "city": "CHATTANOOGA",
-   "zone": "MEDIC 07 CH A",
-   "priority": "PRI 1",
-   "lat": 35.040038,
-   "lon": -85.147048,
    "units": 1,
    "stacked": false,
    "notable": false
